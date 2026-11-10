@@ -85,7 +85,8 @@ def generate(system, user):
                 time.sleep(4)
                 return json.loads(out)
             except urllib.error.HTTPError as e:
-                last = f"{model}: HTTP {e.code} {e.read()[:200]!r}"
+                last = f"{model}: HTTP {e.code} {e.read()[:300]!r}"
+                print("  gemini", last, flush=True)
                 if e.code in (429, 500, 503):
                     time.sleep(15 * (attempt + 1))
                     continue
@@ -163,6 +164,8 @@ def write_episode(brand, record):
             if (b.get("scene") or {}).get("type") == "sizes" and record.get("scale"):
                 b["scene"].update(record["scale"], unit="km")
         errs = check(ep, record, desc_fields)
+        if errs:
+            print(f"  check failed ({record['id']}):", "; ".join(errs[:5]), flush=True)
         if not errs:
             ep["description"]["sources"] = record["sources"]
             if record.get("credit"):

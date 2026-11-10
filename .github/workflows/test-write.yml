@@ -1,0 +1,32 @@
+name: Test write
+
+# Run by hand: writes and renders one channel's Shorts for a day without uploading.
+on:
+  workflow_dispatch:
+    inputs:
+      slug: { description: "Channel slug", required: true, default: breach-brief }
+      start: { description: "Day (YYYY-MM-DD)", required: true }
+      days: { description: "How many days", required: false, default: "1" }
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install -q -r requirements.txt
+      - uses: actions/cache@v4
+        with: { path: ~/.cache/kokoro, key: kokoro-v1.0 }
+      - run: bash scripts/setup_models.sh
+      - env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GITHUB_TOKEN: ${{ github.token }}
+        timeout-minutes: 80
+        run: python -m pipeline.week --slug ${{ inputs.slug }} --start ${{ inputs.start }} --days ${{ inputs.days }} --out out
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: { name: test-${{ inputs.slug }}, path: out, retention-days: 2 }

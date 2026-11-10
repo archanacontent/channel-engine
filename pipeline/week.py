@@ -55,6 +55,7 @@ def main():
                 failures.append(f"{d} {slot['slot']}: no new source material")
                 continue
             taken.add(rec["id"])
+            print(f"writing {d} {slot['slot']} {rec['series']} {rec['id']}", flush=True)
             try:
                 ep, err = write_episode(brand, rec)
             except Exception as e:
