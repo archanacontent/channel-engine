@@ -14,7 +14,12 @@ import urllib.error
 import urllib.request
 
 MODELS = os.environ.get("GEMINI_MODELS",
-                        "gemini-3.6-flash,gemini-2.5-flash,gemini-3.5-flash-lite,gemini-2.5-flash-lite").split(",")
+                        "gemini-3.8-flash,gemini-3.7-flash,gemini-3.6-flash,gemini-3.5-flash,"
+                        "gemini-3.5-flash-lite,gemini-3.1-flash-lite,gemini-3.1-flash-lite-preview,"
+                        "gemini-flash-lite-latest").split(",")
+# Free tier limits are per model per day, so a model that reports its daily
+# quota as spent is skipped for the rest of the run.
+SPENT = set()
 API = "https://generativelanguage.googleapis.com/v1beta/models/{m}:generateContent"
 SCENES = {"headline", "stat", "card", "list", "compare", "flow", "image", "sizes", "quote", "cta"}
 
@@ -79,22 +84,34 @@ def _call(model, system, user, key):
 def generate(system, user):
     key = os.environ["GEMINI_API_KEY"]
     last = None
-    for model in MODELS:
-        for attempt in range(4):
+    for model in [m.strip() for m in MODELS if m.strip() not in SPENT]:
+        for attempt in range(3):
             try:
-                out = _call(model.strip(), system, user, key)
-                time.sleep(4)
+                out = _call(model, system, user, key)
+                time.sleep(2)
                 return json.loads(out)
             except urllib.error.HTTPError as e:
-                last = f"{model}: HTTP {e.code} {e.read()[:300]!r}"
-                print("  gemini", last, flush=True)
+                body = e.read().decode("utf-8", "replace")
+                last = f"{model}: HTTP {e.code}"
+                if e.code == 429 and "PerDay" in body:
+                    SPENT.add(model)
+                    print(f"  gemini {model}: daily free quota spent, moving on", flush=True)
+                    break
                 if e.code in (429, 500, 503):
-                    time.sleep(15 * (attempt + 1))
+                    print(f"  gemini {model}: HTTP {e.code}, retrying", flush=True)
+                    time.sleep(12 * (attempt + 1))
                     continue
+                if e.code == 404:
+                    SPENT.add(model)
+                print(f"  gemini {model}: HTTP {e.code} {body[:200]}", flush=True)
                 break
             except (json.JSONDecodeError, KeyError, IndexError) as e:
                 last = f"{model}: bad response {e}"
-                time.sleep(3)
+                time.sleep(2)
+                continue
+            except Exception as e:
+                last = f"{model}: {e!r}"
+                time.sleep(5)
                 continue
     raise RuntimeError(f"Gemini unavailable: {last}")
 
