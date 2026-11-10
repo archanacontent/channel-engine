@@ -1,0 +1,82 @@
+skip: false
+skip_reason: ''
+title: 'What you''re looking at: dark matter map'
+beats:
+- say: This map shows invisible dark matter using nearly 800,000 galaxies.
+  caption: This map shows invisible dark matter using nearly 800,000 galaxies.
+  highlight:
+  - invisible dark matter
+  - 800,000 galaxies
+  scene:
+    type: headline
+    text: Mapping the invisible
+- say: The blue areas represent high density dark matter in the constellation Sextans.
+  caption: The blue areas represent high density dark matter in the constellation Sextans.
+  highlight:
+  - blue areas
+  - high density dark matter
+  scene:
+    type: image
+    credit: NASA/JPL
+- say: Dark matter does not emit or reflect light. Scientists found it by seeing how its gravity curves spacetime.
+  caption: Dark matter does not emit or reflect light. Scientists found it by seeing how its gravity curves spacetime.
+  highlight:
+  - does not emit or reflect light
+  - gravity curves spacetime
+  scene:
+    type: compare
+    left_label: Visible Matter
+    left_text: Emits or reflects light
+    right_label: Dark Matter
+    right_text: Only interacts via gravity
+- say: This Webb map has twice as many galaxies as the 2007 Hubble map.
+  caption: This Webb map has twice as many galaxies as the 2007 Hubble map.
+  highlight:
+  - twice as many galaxies
+  - 2007 Hubble map
+  scene:
+    type: stat
+    value: 2x
+    label: more galaxies than Hubble
+    source: NASA
+- say: By studying these subtle distortions, researchers understand how dark matter influences galaxy evolution.
+  caption: By studying these subtle distortions, researchers understand how dark matter influences galaxy evolution.
+  highlight:
+  - subtle distortions
+  - galaxy evolution
+  scene:
+    type: list
+    title: Why it matters
+    items:
+    - Detects weak lensing
+    - Reveals new clumps
+    - Higher resolution view
+    style: bullet
+- say: Image credit in the description.
+  caption: Image credit in the description.
+  highlight: []
+  scene:
+    type: cta
+    line: Look closer with Space Science.
+    subline: Subscribe for daily space images.
+description:
+  explainer: This image shows a dark matter map overlaid on nearly 800,000 galaxies. Researchers used the James Webb Space Telescope to detect dark matter through its gravitational influence on regular matter.
+  sources:
+  - 'NASA Image and Video Library: https://images.nasa.gov/details/PIA26702'
+  credit: NASA
+seo:
+  seeds:
+  - dark matter map NASA
+  - James Webb Space Telescope dark matter
+  - how is dark matter detected
+  - gravitational lensing explained
+  hashtags:
+  - '#SpaceScience'
+  - '#DarkMatter'
+series: Look Closer
+record_id: nasa:PIA26702
+auto: true
+instagram_hashtags_rotating: []
+media:
+  image: /home/runner/work/channel-engine/channel-engine/out/deep-field/media/2026-11-15-0900.jpg
+  credit: NASA

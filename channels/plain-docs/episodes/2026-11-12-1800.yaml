@@ -1,0 +1,75 @@
+skip: false
+skip_reason: ''
+title: What a changelog must include
+beats:
+- say: Never dump raw git logs into your changelog files.
+  caption: Never dump raw git logs into your changelog files.
+  highlight:
+  - Never dump raw git logs
+  scene:
+    type: headline
+    text: Stop dumping git logs into changelogs
+- say: A changelog documents all notable changes to a project. It should follow Semantic Versioning to maintain structure.
+  caption: A changelog documents all notable changes to a project. It should follow Semantic Versioning to maintain structure.
+  highlight:
+  - notable changes
+  - Semantic Versioning
+  scene:
+    type: card
+    title: Changelog Purpose
+    rows:
+    - - Goal
+      - Document notable changes
+    - - Standard
+      - Semantic Versioning
+- say: Every entry needs specific categories. Use Added for new features, Fixed for bug repairs, Changed for updates, and Removed for deletions.
+  caption: Every entry needs specific categories. Use Added for new features, Fixed for bug repairs, Changed for updates, and Removed for deletions.
+  highlight:
+  - specific categories
+  scene:
+    type: list
+    title: Required Categories
+    items:
+    - Added
+    - Fixed
+    - Changed
+    - Removed
+    style: check
+- say: For example, version 1.1.1 added Arabic, French, and Russian translations. It also fixed missing periods and broken links.
+  caption: For example, version 1.1.1 added Arabic, French, and Russian translations. It also fixed missing periods and broken links.
+  highlight:
+  - version 1.1.1
+  - added Arabic, French, and Russian
+  scene:
+    type: compare
+    left_label: Version 1.1.1 Added
+    left_text: Arabic, French, Russian
+    right_label: Version 1.1.1 Fixed
+    right_text: Missing periods, broken links
+- say: Don't let your friends dump git logs into changelogs.
+  caption: Don't let your friends dump git logs into changelogs.
+  highlight:
+  - Don't let your friends dump git logs
+  scene:
+    type: quote
+    text: Don't let your friends dump git logs into changelogs.
+    highlight:
+    - Don't let your friends dump git logs
+description:
+  what_was_fixed: A changelog documents all notable changes to a project using specific categories like Added or Fixed.
+  rule: Avoid dumping raw git logs into your documentation.
+  sources:
+  - 'Changelog guidance: https://keepachangelog.com/en/1.1.0/'
+seo:
+  seeds:
+  - how to write a changelog
+  - technical writing changelog rules
+  - semantic versioning documentation
+  - keep a changelog guide
+  hashtags:
+  - '#TechnicalWriting'
+  - '#Documentation'
+series: Doc Types
+record_id: doctype:Changelog
+auto: true
+instagram_hashtags_rotating: []

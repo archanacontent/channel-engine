@@ -1,0 +1,87 @@
+skip: false
+skip_reason: ''
+title: 'What you''re looking at: SPHEREx'
+beats:
+- say: S P H E R E x will map the entire sky to reveal the origins of our universe.
+  caption: SPHEREx will map the entire sky to reveal the origins of our universe.
+  highlight:
+  - map the entire sky
+  - origins of our universe
+  scene:
+    type: headline
+    text: Mapping the entire sky
+- say: This observatory operates from low Earth orbit and takes about 6 0 0 exposures each day.
+  caption: This observatory operates from low Earth orbit and takes about 600 exposures each day.
+  highlight:
+  - low Earth orbit
+  - 600 exposures each day
+  scene:
+    type: stat
+    value: '600'
+    label: Exposures per day
+- say: It uses spectroscopy to image every section of the sky 1 0 2 times using different color filters.
+  caption: It uses spectroscopy to image every section of the sky 102 times using different color filters.
+  highlight:
+  - spectroscopy
+  - 102 times
+  scene:
+    type: flow
+    steps:
+    - title: Spectroscopy
+      note: Uses different color filters
+    - title: Mapping
+      note: Images every section 102 times
+- say: The mission produces a map of millions of stars and hundreds of millions of galaxies.
+  caption: The mission produces a map of millions of stars and hundreds of millions of galaxies.
+  highlight:
+  - millions of stars
+  - hundreds of millions of galaxies
+  scene:
+    type: card
+    title: Mission Scale
+    rows:
+    - - Stars
+      - Millions
+    - - Galaxies
+      - Hundreds of millions
+- say: Scientists will study how galaxies formed and the origins of water in planetary systems.
+  caption: Scientists will study how galaxies formed and the origins of water in planetary systems.
+  highlight:
+  - how galaxies formed
+  - origins of water
+  scene:
+    type: list
+    title: Scientific Goals
+    items:
+    - Galaxy formation
+    - Origins of water
+    - The Big Bang
+    style: bullet
+- say: Image credit in the description.
+  caption: Image credit in the description.
+  highlight: []
+  scene:
+    type: cta
+    line: Discover more space science.
+    subline: Subscribe for daily updates.
+description:
+  explainer: SPHEREx is a NASA observatory designed to map the entire sky. It will help scientists study the origins of the universe, galaxy evolution, and the presence of water in our galaxy.
+  sources:
+  - 'NASA Image and Video Library: https://images.nasa.gov/details/PIA26533'
+  credit: NASA
+seo:
+  seeds:
+  - NASA SPHEREx mission
+  - how galaxies form
+  - all sky map telescope
+  - origins of water in space
+  hashtags:
+  - '#SpaceScience'
+  - '#NASA'
+series: Look Closer
+record_id: nasa:PIA26533
+auto: true
+instagram_hashtags_rotating: []
+media:
+  image: /home/runner/work/channel-engine/channel-engine/out/deep-field/media/2026-11-12-0900.jpg
+  credit: NASA

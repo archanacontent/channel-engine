@@ -1,0 +1,74 @@
+skip: false
+skip_reason: ''
+title: Fixing a real README in under a minute
+beats:
+- say: This README uses vague phrasing to explain how to use the data.
+  caption: This README uses vague phrasing to explain how to use the data.
+  highlight:
+  - vague phrasing
+  scene:
+    type: headline
+    text: Vague README prose
+- say: The original text says, Use whichever fits your workflow. This provides no direction for a new user.
+  caption: The original text says, Use whichever fits your workflow. This provides no direction for a new user.
+  highlight:
+  - Use whichever fits your workflow
+  scene:
+    type: compare
+    left_label: Original
+    left_text: Use whichever fits your workflow
+    right_label: Better
+    right_text: Choose based on your update frequency
+- say: The API updates every minute while this repository refreshes every five minutes. Specificity helps users choose the right tool.
+  caption: The API updates every minute while this repository refreshes every five minutes. Specificity helps users choose the right tool.
+  highlight:
+  - API updates every minute
+  - refreshes every five minutes
+  scene:
+    type: card
+    title: Refresh Rates
+    rows:
+    - - API
+      - 1 minute
+    - - Repo
+      - 5 minutes
+- say: Instead of telling them to choose, tell them why the choice matters.
+  caption: Instead of telling them to choose, tell them why the choice matters.
+  highlight:
+  - tell them why
+  scene:
+    type: list
+    title: The Fix
+    items:
+    - Identify the user need
+    - Provide concrete options
+    - Explain the difference
+    style: check
+- say: Write for the user's specific needs.
+  caption: Write for the user's specific needs.
+  highlight:
+  - specific needs
+  scene:
+    type: quote
+    text: Write for the user's specific needs.
+    highlight:
+    - specific needs
+description:
+  what_was_fixed: I replaced a vague instruction about choosing a workflow with specific refresh rate details.
+  rule: Always provide concrete details instead of telling users to choose for themselves.
+  sources:
+  - 'ProxyScrape/free-proxy-list README (MIT): https://github.com/ProxyScrape/free-proxy-list'
+  source_link: https://github.com/ProxyScrape/free-proxy-list
+  license: MIT
+seo:
+  seeds:
+  - technical writing tips
+  - how to write documentation
+  - improving README files
+  hashtags:
+  - '#TechnicalWriting'
+  - '#Documentation'
+series: Rewrite This
+record_id: repo:ProxyScrape/free-proxy-list
+auto: true
+instagram_hashtags_rotating: []

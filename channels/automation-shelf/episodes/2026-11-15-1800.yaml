@@ -1,0 +1,79 @@
+skip: false
+skip_reason: ''
+title: Can you automate marketing channel performance tracking?
+beats:
+- say: Can you automate marketing channel performance tracking? Yes.
+  caption: Can you automate marketing channel performance tracking? Yes.
+  highlight:
+  - automate marketing channel performance tracking
+  scene:
+    type: headline
+    text: Automate channel performance tracking
+- say: This n eight n workflow connects HighLevel, Google Sheets, and Slack.
+  caption: This n8n workflow connects HighLevel, Google Sheets, and Slack.
+  highlight:
+  - n8n workflow
+  - HighLevel, Google Sheets, and Slack
+  scene:
+    type: list
+    title: Required Integrations
+    items:
+    - HighLevel
+    - Google Sheets
+    - Slack
+    style: check
+- say: It pulls all opportunities from HighLevel and filters for closed won deals.
+  caption: It pulls all opportunities from HighLevel and filters for closed won deals.
+  highlight:
+  - filters for closed won deals
+  scene:
+    type: flow
+    steps:
+    - title: Fetch Opportunities
+      note: From HighLevel
+    - title: Filter Deals
+      note: Only Closed Won
+    - title: Calculate Metrics
+      note: Per lead source
+- say: The system logs raw data into Google Sheets and sends a summary report to Slack.
+  caption: The system logs raw data into Google Sheets and sends a summary report to Slack.
+  highlight:
+  - logs raw data
+  - summary report to Slack
+  scene:
+    type: card
+    title: Automated Outputs
+    rows:
+    - - Google Sheets
+      - Log raw data
+    - - Slack
+      - Summary report
+    - - Slack
+      - Lost deal alerts
+- say: Stop wasting hours on manual reporting. Template link in the description.
+  caption: Stop wasting hours on manual reporting. Template link in the description.
+  highlight:
+  - Stop wasting hours
+  - manual reporting
+  scene:
+    type: cta
+    line: Stop manual reporting
+    subline: Template link in the description
+description:
+  task_line: You can automate marketing channel performance tracking using this n8n workflow.
+  tools: HighLevel, Google Sheets, and Slack.
+  sources:
+  - 'n8n template: https://n8n.io/workflows/10149'
+  template_link: https://n8n.io/workflows/10149
+seo:
+  seeds:
+  - marketing channel performance automation
+  - n8n highlevel google sheets slack workflow
+  - automate lead source reporting
+  hashtags:
+  - '#MarketingAutomation'
+  - '#n8n'
+series: Can It Be Automated?
+record_id: n8n:10149
+auto: true
+instagram_hashtags_rotating: []

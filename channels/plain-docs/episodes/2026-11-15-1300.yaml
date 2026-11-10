@@ -1,0 +1,71 @@
+skip: false
+skip_reason: ''
+title: 'Writing rule: Use numbered steps for procedures'
+beats:
+- say: Procedures must be written as numbered steps with clear and concise language.
+  caption: Procedures must be written as numbered steps with clear and concise language.
+  highlight:
+  - numbered steps
+  - clear and concise language
+  scene:
+    type: headline
+    text: Procedures need numbered steps
+- say: Avoid using partial sentences to introduce a list of steps. This creates confusion for the reader.
+  caption: Avoid using partial sentences to introduce a list of steps. This creates confusion for the reader.
+  highlight:
+  - Avoid using partial sentences
+  - creates confusion
+  scene:
+    type: compare
+    left_label: Not recommended
+    left_text: 'To customize the buttons:'
+    right_label: Recommended
+    right_text: 'To customize the buttons, do the following:'
+- say: Google developer documentation recommends using an imperative statement or a full sentence. You can end the introduction with a colon or a period.
+  caption: Google developer documentation recommends using an imperative statement or a full sentence. You can end the introduction with a colon or a period.
+  highlight:
+  - imperative statement
+  - colon or a period
+  scene:
+    type: image
+    credit: Google developer documentation
+- say: If a procedure has only one step, write it as a normal sentence. For example, click Clear logcat to flush the entire log.
+  caption: If a procedure has only one step, write it as a normal sentence. For example, click Clear logcat to flush the entire log.
+  highlight:
+  - one step
+  - normal sentence
+  scene:
+    type: list
+    title: Single-step procedures
+    items:
+    - Use a normal sentence
+    - Or use a bullet
+    style: bullet
+- say: Write procedures as numbered steps focusing on the action to be performed.
+  caption: Write procedures as numbered steps focusing on the action to be performed.
+  highlight:
+  - numbered steps
+  - focusing on the action
+  scene:
+    type: quote
+    text: Procedures should be written as numbered steps with clear and concise language, focusing on the action to be performed.
+    highlight:
+    - numbered steps
+    - focusing on the action
+description:
+  what_was_fixed: This video explains how to properly introduce numbered procedures without using partial sentences.
+  rule: Use numbered steps with clear, concise language that focuses on the action.
+  sources:
+  - 'Google developer documentation: https://developers.google.com/style/procedures'
+seo:
+  seeds:
+  - how to write technical procedures
+  - technical writing style guide
+  - Google developer documentation style
+  hashtags:
+  - '#TechnicalWriting'
+  - '#Documentation'
+series: One Rule
+record_id: style:https://developers.google.com/style/procedures
+auto: true
+instagram_hashtags_rotating: []

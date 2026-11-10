@@ -1,0 +1,79 @@
+skip: false
+skip_reason: ''
+title: 'Free workflow: UGC marketing videos on autopilot'
+beats:
+- say: Turn one product image into multiple influencer style video ads automatically.
+  caption: Turn one product image into multiple influencer style video ads automatically.
+  highlight:
+  - one product image
+  - multiple influencer style video ads
+  scene:
+    type: headline
+    text: One image to multiple video ads
+- say: This n eight n template uses Sora 2 and Gemini to scale video content for e-commerce.
+  caption: This n8n template uses Sora 2 and Gemini to scale video content for e-commerce.
+  highlight:
+  - Sora 2
+  - Gemini
+  - scale video content
+  scene:
+    type: list
+    title: Use cases
+    items:
+    - A/B testing variations
+    - Product demonstrations
+    - Social media content
+    - Scale e-commerce catalogs
+    style: check
+- say: The flow analyzes your image, creates personas, writes scripts, and generates the videos.
+  caption: The flow analyzes your image, creates personas, writes scripts, and generates the videos.
+  highlight:
+  - analyzes your image
+  - writes scripts
+  - generates the videos
+  scene:
+    type: flow
+    steps:
+    - title: Product Analysis
+      note: Uses OpenAI vision
+    - title: Scripting
+      note: Gemini 2.5 Pro
+    - title: Video Production
+      note: Sora 2 API
+    - title: Storage
+      note: Google Drive upload
+- say: Each twelve second video takes about two to three minutes to generate.
+  caption: Each 12 second video takes about 2 to 3 minutes to generate.
+  highlight: []
+  scene:
+    type: stat
+    value: 2-3
+    label: minutes per video
+    source: n8n template
+- say: Stop hiring creators for every single social media post. Template link in the description.
+  caption: Stop hiring creators for every single social media post. Template link in the description.
+  highlight:
+  - Stop hiring creators
+  scene:
+    type: cta
+    line: Automate your video production
+    subline: Template link in the description.
+description:
+  task_line: Generate authentic UGC style marketing videos for eCommerce products using AI.
+  tools: n8n, OpenAI, Sora 2, Gemini 2.5 Pro, Google Drive
+  sources:
+  - 'n8n template: https://n8n.io/workflows/9432'
+  template_link: https://n8n.io/workflows/9432
+seo:
+  seeds:
+  - n8n UGC video automation
+  - Sora 2 marketing workflow
+  - eCommerce video generation AI
+  - automate influencer style videos
+  hashtags:
+  - '#n8n'
+  - '#MarketingAutomation'
+series: Library Pick
+record_id: n8n:9432
+auto: true
+instagram_hashtags_rotating: []

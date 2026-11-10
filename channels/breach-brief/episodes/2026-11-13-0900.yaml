@@ -1,0 +1,84 @@
+skip: false
+skip_reason: ''
+title: 'Exploited now: Barracuda Networks CVE-2026-111560'
+beats:
+- say: Attackers are using an OS command injection flaw in multiple Barracuda Networks products.
+  caption: Attackers are using an OS command injection flaw in multiple Barracuda Networks products.
+  highlight:
+  - OS command injection flaw
+  - Barracuda Networks products
+  scene:
+    type: headline
+    text: Barracuda Networks OS Command Injection
+- say: The flaw, C V E 2 0 2 6 1 1 1 5 6 0, allows an authenticated administrator to execute commands with root privileges via the timezone configuration field.
+  caption: The flaw, CVE-2026-111560, allows an authenticated administrator to execute commands with root privileges via the timezone configuration field.
+  highlight:
+  - execute commands with root privileges
+  - timezone configuration field
+  scene:
+    type: card
+    title: Vulnerability Details
+    rows:
+    - - CVE ID
+      - CVE-2026-111560
+    - - Vendor
+      - Barracuda Networks
+    - - Added to KEV
+      - '2026-11-10'
+    - - Due Date
+      - '2026-11-13'
+- say: Affected devices include the Email Security Gateway, Load Balancer, Application Delivery Controller, and Web Application Firewall.
+  caption: Affected devices include the Email Security Gateway, Load Balancer, Application Delivery Controller, and Web Application Firewall.
+  highlight:
+  - Email Security Gateway
+  - Load Balancer
+  - Web Application Firewall
+  scene:
+    type: list
+    title: Affected Products
+    items:
+    - Email Security Gateway
+    - Load Balancer
+    - ADC
+    - WAF
+    style: bullet
+- say: To protect your environment, apply mitigations following vendor instructions and C I S A guidance immediately.
+  caption: To protect your environment, apply mitigations following vendor instructions and CISA guidance immediately.
+  highlight:
+  - apply mitigations
+  - following vendor instructions
+  scene:
+    type: list
+    title: Required Action
+    items:
+    - Apply vendor mitigations
+    - Follow CISA BOD 26-04
+    - Evaluate internet exposure
+    style: check
+- say: Sources are in the description.
+  caption: Sources are in the description.
+  highlight:
+  - Sources are in the description
+  scene:
+    type: cta
+    line: Stay Protected
+    subline: Sources in description
+description:
+  summary: Barracuda Networks multiple products are being exploited via an OS command injection vulnerability.
+  affected: Affected products include Email Security Gateway, Load Balancer, ADC, Message Archiver, WCC, WAF, and WSG.
+  action: Apply vendor mitigations and follow CISA BOD 26-04 guidance immediately.
+  sources:
+  - 'CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog'
+  - 'NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-111560'
+seo:
+  seeds:
+  - Barracuda Networks CVE-2026-111560
+  - CISA KEV Barracuda
+  - Barracuda OS command injection
+  hashtags:
+  - '#Cybersecurity'
+  - '#BarracudaNetworks'
+series: Exploited Today
+record_id: kev:CVE-2026-111560
+auto: true
+instagram_hashtags_rotating: []

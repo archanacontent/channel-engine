@@ -1,0 +1,83 @@
+skip: false
+skip_reason: ''
+title: 'Scam alert: Veteran grant and investment scams'
+beats:
+- say: Scammers use your military history on social media to steal your identity.
+  caption: Scammers use your military history on social media to steal your identity.
+  highlight:
+  - military history
+  - steal your identity
+  scene:
+    type: headline
+    text: Social Media Scams Targeting Veterans
+- say: They impersonate the V A to offer fake grant programs. These messages direct you to fraudulent websites to collect your Social Security number or V A dot gov login credentials.
+  caption: They impersonate the VA to offer fake grant programs. These messages direct you to fraudulent websites to collect your Social Security number or VA.gov login credentials.
+  highlight:
+  - fake grant programs
+  - VA.gov login credentials
+  scene:
+    type: card
+    title: Scam Tactics
+    rows:
+    - - Impersonation
+      - U. S. Department of Veterans Affairs
+    - - Goal
+      - Social Security number
+    - - Goal
+      - VA.gov credentials
+- say: You might also see ads promising guaranteed ways to beat the stock market. Remember that investments always come with risk.
+  caption: You might also see ads promising guaranteed ways to beat the stock market. Remember that investments always come with risk.
+  highlight:
+  - investments always come with risk
+  scene:
+    type: compare
+    left_label: The Scam
+    left_text: Guaranteed stock market returns
+    right_label: The Reality
+    right_text: All investments carry risk
+- say: Protect yourself with these steps.
+  caption: Protect yourself with these steps.
+  highlight:
+  - Protect yourself
+  scene:
+    type: headline
+    text: How to Stay Safe
+- say: Limit who sees your profile and posts. Verify all benefit offers at V A dot gov. Use the V A Accreditation Search Tool to check representatives.
+  caption: Limit who sees your profile and posts. Verify all benefit offers at VA.gov. Use the VA Accreditation Search Tool to check representatives.
+  highlight:
+  - Limit who sees your profile
+  scene:
+    type: list
+    title: Protection Steps
+    items:
+    - Restrict profile privacy
+    - Verify via VA.gov
+    - Use Accreditation Search Tool
+    style: check
+- say: More in the FTC alert linked in the description.
+  caption: More in the FTC alert linked in the description.
+  highlight:
+  - FTC alert
+  scene:
+    type: cta
+    line: Stay Vigilant
+    subline: Check the link for details
+description:
+  summary: Scammers are using social media profiles to impersonate the VA and promote fake investments.
+  affected: Veterans using platforms like Facebook, Instagram, and TikTok.
+  action: Verify all benefit offers through VA.gov and restrict your social media privacy settings.
+  sources:
+  - 'FTC consumer alert: https://consumer.ftc.gov/consumer-alerts/2026/11/veterans-day-reminder-how-spot-scams-social-media'
+seo:
+  seeds:
+  - veteran social media scams
+  - VA grant scams
+  - how to spot veteran scams
+  - FTC veteran alert
+  hashtags:
+  - '#Veterans'
+  - '#ScamAlert'
+series: Scam Alert
+record_id: ftc:/consumer-alerts/2026/11/veterans-day-reminder-how-spot-scams-social-media
+auto: true
+instagram_hashtags_rotating: []

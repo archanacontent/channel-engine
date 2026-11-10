@@ -1,0 +1,84 @@
+skip: false
+skip_reason: ''
+title: 'Scam alert: Jury duty arrest threats'
+beats:
+- say: Scammers are using fake arrest warrants to steal your money.
+  caption: Scammers are using fake arrest warrants to steal your money.
+  highlight:
+  - fake arrest warrants
+  - steal your money
+  scene:
+    type: headline
+    text: Fake arrest warrants are used to steal money
+- say: You might get an urgent call from someone claiming to be a U. S. Marshal or local police. They claim you missed jury duty and demand payment via cryptocurrency or a payment app.
+  caption: You might get an urgent call from someone claiming to be a U.S. Marshal or local police. They claim you missed jury duty and demand payment via cryptocurrency or a payment app.
+  highlight:
+  - urgent call
+  - missed jury duty
+  - demand payment
+  scene:
+    type: flow
+    steps:
+    - title: The Call
+      note: Caller claims to be law enforcement
+    - title: The Threat
+      note: Claims you missed jury duty
+    - title: The Demand
+      note: Requests payment via app or crypto
+- say: Scammers also send texts or emails with documents that look like official arrest warrants. These are entirely fake.
+  caption: Scammers also send texts or emails with documents that look like official arrest warrants. These are entirely fake.
+  highlight:
+  - texts or emails
+  - official arrest warrants
+  - entirely fake
+  scene:
+    type: card
+    title: New Scam Method
+    rows:
+    - - Medium
+      - Text or email
+    - - Content
+      - Fake arrest warrants
+- say: Watch for these warning signs. Real law enforcement will never text or email an arrest warrant. Courts never demand payment over the phone. No government agency will ask for gift cards or wire transfers.
+  caption: Watch for these warning signs. Real law enforcement will never text or email an arrest warrant. Courts never demand payment over the phone. No government agency will ask for gift cards or wire transfers.
+  highlight:
+  - warning signs
+  - never text or email
+  - never demand payment
+  scene:
+    type: list
+    title: Warning Signs
+    items:
+    - Arrest warrants via text
+    - Phone payment demands
+    - Requests for gift cards
+    - Wire transfer requests
+    style: check
+- say: If you get a call like this, tell the F T C at Report Fraud dot F T C dot gov. More in the FTC alert linked in the description.
+  caption: If you get a call like this, tell the FTC at ReportFraud.ftc.gov. More in the FTC alert linked in the description.
+  highlight:
+  - tell the FTC
+  - ReportFraud.ftc.gov
+  scene:
+    type: cta
+    line: Report the scam
+    subline: ReportFraud.ftc.gov
+description:
+  summary: Scammers are impersonating law enforcement to demand money for missed jury duty.
+  affected: Individuals receiving suspicious calls, texts, or emails.
+  action: Report fraudulent activity to the FTC at ReportFraud.ftc.gov.
+  sources:
+  - 'FTC consumer alert: https://consumer.ftc.gov/consumer-alerts/2026/06/ignore-calls-texts-and-emails-threatening-arrest-you-missing-jury-duty'
+seo:
+  seeds:
+  - jury duty scam
+  - fake arrest warrant text
+  - government impersonation scam
+  - FTC jury duty alert
+  hashtags:
+  - '#ScamAlert'
+  - '#Cybersecurity'
+series: Scam Alert
+record_id: ftc:/consumer-alerts/2026/06/ignore-calls-texts-and-emails-threatening-arrest-you-missing-jury-duty
+auto: true
+instagram_hashtags_rotating: []

@@ -1,0 +1,70 @@
+skip: false
+skip_reason: ''
+title: 'Buyers ask AI: what is ABM'
+beats:
+- say: What is an ABM platform?
+  caption: What is an ABM platform?
+  highlight:
+  - What is an ABM platform?
+  scene:
+    type: headline
+    text: What is an ABM platform?
+- say: Answer engines look for specific definitions to cite in their responses.
+  caption: Answer engines look for specific definitions to cite in their responses.
+  highlight:
+  - specific definitions
+  - cite in their responses
+  scene:
+    type: image
+    credit: AI Search Marketing
+- say: To be the cited source, your page must define the term clearly and list core capabilities immediately.
+  caption: To be the cited source, your page must define the term clearly and list core capabilities immediately.
+  highlight:
+  - define the term clearly
+  - list core capabilities
+  scene:
+    type: flow
+    steps:
+    - title: Clear Definition
+      note: Direct answer to the query
+    - title: Capability List
+      note: Structured features
+- say: Structure your content with a concise definition followed by a list of key functions.
+  caption: Structure your content with a concise definition followed by a list of key functions.
+  highlight:
+  - concise definition
+  - list of key functions
+  scene:
+    type: list
+    title: Ideal Page Structure
+    items:
+    - Direct definition sentence
+    - Core feature breakdown
+    - Use case examples
+    style: bullet
+- say: Find your buyers' questions with Asked, link on our channel page.
+  caption: Find your buyers' questions with Asked, link on our channel page.
+  highlight:
+  - Find your buyers' questions
+  scene:
+    type: cta
+    line: Find your buyers' questions
+    subline: Use Asked, link on our channel page
+description:
+  hook: Learn how to define an ABM platform so AI search engines cite your brand.
+  answer: To get cited, your content must provide a direct definition and structured lists of capabilities.
+  sources:
+  - 'Asked, free AEO and GEO question finder: https://archanacontent.github.io/asked/'
+seo:
+  seeds:
+  - what is an ABM platform
+  - ABM platform definition
+  - answer engine optimization
+  - generative engine optimization
+  hashtags:
+  - '#ABM'
+  - '#AEO'
+series: Buyers Asked
+record_id: asked:ABM platform
+auto: true
+instagram_hashtags_rotating: []

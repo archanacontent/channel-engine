@@ -1,0 +1,75 @@
+skip: false
+skip_reason: ''
+title: 'Appalachian Plateau: what just happened'
+beats:
+- say: Thick fog filled the valleys of the Appalachian Plateau on November 8, 2026.
+  caption: Thick fog filled the valleys of the Appalachian Plateau on November 8, 2026.
+  highlight:
+  - Thick fog filled the valleys
+  scene:
+    type: headline
+    text: Valley fog fills the Appalachian Plateau
+- say: In the morning, low clouds traced branching river valleys in natural color. By the afternoon, the fog burned off to reveal clear skies and autumn landscape.
+  caption: In the morning, low clouds traced branching river valleys in natural color. By the afternoon, the fog burned off to reveal clear skies and autumn landscape.
+  highlight:
+  - low clouds traced branching river valleys
+  - fog burned off
+  scene:
+    type: compare
+    left_label: Morning
+    left_text: Natural color showing white fog in valleys
+    right_label: Afternoon
+    right_text: False color showing clear rivers and lakes
+- say: Cold air is denser than warm air. It flows downslope and pools in valleys where it cools to the dew point.
+  caption: Cold air is denser than warm air. It flows downslope and pools in valleys where it cools to the dew point.
+  highlight:
+  - Cold air is denser
+  - pools in valleys
+  scene:
+    type: flow
+    steps:
+    - title: Cooling
+      note: Ground radiates heat away
+    - title: Condensing
+      note: Air reaches the dew point
+    - title: Pooling
+      note: Dense air flows into valleys
+- say: The MODIS instrument on NASA's Terra satellite captured the morning view. The VIIRS instrument on NOAA dash 2 1 captured the afternoon view.
+  caption: The MODIS instrument on NASA's Terra satellite captured the morning view. The VIIRS instrument on NOAA-21 captured the afternoon view.
+  highlight: []
+  scene:
+    type: card
+    title: Satellite Data
+    rows:
+    - - Morning Instrument
+      - MODIS
+    - - Morning Satellite
+      - Terra
+    - - Afternoon Instrument
+      - VIIRS
+    - - Afternoon Satellite
+      - NOAA-21
+- say: Source in the description.
+  caption: Source in the description.
+  highlight: []
+  scene:
+    type: cta
+    line: Learn more about Earth observations
+    subline: Source in the description.
+description:
+  explainer: Fog filled the valleys of the Appalachian Plateau and Cumberland River on November 8, 2026. This satellite imagery shows how temperature changes create dense valley fog during autumn.
+  sources:
+  - 'NASA: https://science.nasa.gov/earth/earth-observatory/autumn-mornings-bring-valley-fog/'
+seo:
+  seeds:
+  - Appalachian Plateau valley fog
+  - NASA Terra satellite images
+  - how fog forms in valleys
+  - Earth Observatory satellite views
+  hashtags:
+  - '#SpaceScience'
+  - '#EarthObservation'
+series: Mission Log
+record_id: nasanews:https://science.nasa.gov/earth/earth-observatory/autumn-mornings-bring-valley-fog/
+auto: true
+instagram_hashtags_rotating: []

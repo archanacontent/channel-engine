@@ -1,0 +1,74 @@
+skip: false
+skip_reason: ''
+title: 'Exploited now: GPUStack CVE-2026-102895'
+beats:
+- say: Attackers are using an authentication flaw in GPUStack to gain full administrative access.
+  caption: Attackers are using an authentication flaw in GPUStack to gain full administrative access.
+  highlight:
+  - full administrative access
+  scene:
+    type: headline
+    text: Full administrative access via GPUStack
+- say: This vulnerability, C V E 2 0 2 6 1 0 2 8 9 5, allows unauthenticated users to change models, create persistent API keys, and execute code.
+  caption: This vulnerability, CVE-2026-102895, allows unauthenticated users to change models, create persistent API keys, and execute code.
+  highlight:
+  - unauthenticated users
+  - execute code
+  scene:
+    type: card
+    title: Vulnerability Details
+    rows:
+    - - CVE ID
+      - CVE-2026-102895
+    - - Product
+      - GPUStack
+    - - Added
+      - '2026-11-09'
+    - - Due Date
+      - '2026-11-12'
+- say: The flaw exists in versions prior to 2.2.0 and has been observed in the wild.
+  caption: The flaw exists in versions prior to 2.2.0 and has been observed in the wild.
+  highlight:
+  - observed in the wild
+  scene:
+    type: stat
+    value: '9.8'
+    label: CVSS Critical Score
+- say: To protect your environment, update to version 2.2.0 immediately.
+  caption: To protect your environment, update to version 2.2.0 immediately.
+  highlight:
+  - update to version 2.2.0
+  scene:
+    type: list
+    title: Required Action
+    items:
+    - Update to version 2.2.0
+    - Follow vendor mitigations
+    - Evaluate internet exposure
+    style: check
+- say: Sources are in the description.
+  caption: Sources are in the description.
+  highlight: []
+  scene:
+    type: cta
+    line: Stay protected
+    subline: Check the description for sources
+description:
+  summary: Attackers are exploiting an improper authentication vulnerability in GPUStack to gain administrative control.
+  affected: GPUStack versions prior to 2.2.0.
+  action: Update to version 2.2.0 or apply vendor mitigations immediately.
+  sources:
+  - 'CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog'
+  - 'NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-102895'
+seo:
+  seeds:
+  - GPUStack vulnerability CVE-2026-102895
+  - GPUStack authentication bypass
+  - CISA known exploited vulnerabilities GPUStack
+  hashtags:
+  - '#Cybersecurity'
+  - '#GPUStack'
+series: Exploited Today
+record_id: kev:CVE-2026-102895
+auto: true
+instagram_hashtags_rotating: []

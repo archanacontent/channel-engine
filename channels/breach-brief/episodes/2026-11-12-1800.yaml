@@ -1,0 +1,75 @@
+skip: false
+skip_reason: ''
+title: 'Scam alert: charity and sweepstakes impersonation'
+beats:
+- say: Scammers are impersonating reputable charities to trick you into fake sweepstakes.
+  caption: Scammers are impersonating reputable charities to trick you into fake sweepstakes.
+  highlight:
+  - impersonating reputable charities
+  - fake sweepstakes
+  scene:
+    type: headline
+    text: Charity and Sweepstakes Scams
+- say: They may use real charity names or names that sound similar in social media ads or phone calls.
+  caption: They may use real charity names or names that sound similar in social media ads or phone calls.
+  highlight:
+  - real charity names
+  - social media ads
+  scene:
+    type: card
+    title: Impersonation Methods
+    rows:
+    - - Social Media
+      - Fake ads
+    - - Phone
+      - Fake caller ID
+- say: The biggest warning sign is being asked to pay money or provide personal information to claim a prize.
+  caption: The biggest warning sign is being asked to pay money or provide personal information to claim a prize.
+  highlight:
+  - warning sign
+  - pay money
+  scene:
+    type: list
+    title: Red Flags
+    items:
+    - Paying to claim prizes
+    - Sharing Social Security numbers
+    - Buying entry chances
+    style: check
+- say: To protect yourself, research the contest online using terms like complaint or scam, and scroll past paid search ads.
+  caption: To protect yourself, research the contest online using terms like complaint or scam, and scroll past paid search ads.
+  highlight:
+  - research the contest
+  scene:
+    type: flow
+    steps:
+    - title: Search Online
+      note: Use words like scam
+    - title: Avoid Ads
+      note: Scroll past paid results
+- say: Real prizes are free. More in the FTC alert linked in the description.
+  caption: Real prizes are free. More in the FTC alert linked in the description.
+  highlight:
+  - Real prizes are free
+  scene:
+    type: cta
+    line: Real prizes are free
+    subline: More in the FTC alert linked in the description
+description:
+  summary: Scammers are impersonating well known charities and sweepstakes to steal money and personal data.
+  affected: Donors and individuals receiving calls or social media ads about prize winnings.
+  action: Never pay to claim a prize and research organizations before sharing information.
+  sources:
+  - 'FTC consumer alert: https://consumer.ftc.gov/consumer-alerts/2026/10/spot-scammers-impersonating-well-known-charities-and-sweepstakes'
+seo:
+  seeds:
+  - charity sweepstakes scam
+  - fake charity prize
+  - how to spot sweepstakes scams
+  hashtags:
+  - '#ScamAlert'
+  - '#CharityScams'
+series: Scam Alert
+record_id: ftc:/consumer-alerts/2026/10/spot-scammers-impersonating-well-known-charities-and-sweepstakes
+auto: true
+instagram_hashtags_rotating: []

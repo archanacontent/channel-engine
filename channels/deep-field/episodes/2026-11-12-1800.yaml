@@ -1,0 +1,72 @@
+skip: false
+skip_reason: ''
+title: How big is Venus, really?
+beats:
+- say: Venus is nearly three and a half times wider than our Moon.
+  caption: Venus is nearly three and a half times wider than our Moon.
+  highlight:
+  - nearly three and a half times wider
+  scene:
+    type: headline
+    text: Venus vs Moon
+- say: The diameter of Venus measures 1 2 1 0 4 kilometers.
+  caption: The diameter of Venus measures 12,104 kilometers.
+  highlight:
+  - 12,104 kilometers
+  scene:
+    type: stat
+    value: 12,104
+    label: Venus diameter in km
+- say: By comparison, the Moon has a diameter of 3 4 7 5 kilometers.
+  caption: By comparison, the Moon has a diameter of 3,475 kilometers.
+  highlight:
+  - 3,475 kilometers
+  scene:
+    type: image
+    credit: NASA
+- say: Venus sits 1 0 8.2 million kilometers from the Sun.
+  caption: Venus sits 108.2 million kilometers from the Sun.
+  highlight:
+  - 108.2 million kilometers
+  scene:
+    type: card
+    title: Venus Distance
+    rows:
+    - - From Sun
+      - 108.2M km
+- say: The Moon is much closer at 0.3 8 4 million kilometers from the Sun.
+  caption: The Moon is much closer at 0.384 million kilometers from the Sun.
+  highlight:
+  - 0.384 million kilometers
+  scene:
+    type: sizes
+    a_label: Venus
+    a_value: 12104.0
+    b_label: Moon
+    b_value: 3475.0
+    unit: km
+- say: Figures from NASA's Planetary Fact Sheet.
+  caption: Figures from NASA's Planetary Fact Sheet.
+  highlight:
+  - NASA's Planetary Fact Sheet
+  scene:
+    type: cta
+    line: Space Science
+    subline: Figures from NASA's Planetary Fact Sheet
+description:
+  explainer: Venus is 3.48 times larger in diameter than the Moon. This comparison uses data from the NASA Planetary Fact Sheet.
+  sources:
+  - 'NASA Planetary Fact Sheet: https://nssdc.gsfc.nasa.gov/planetary/factsheet/'
+seo:
+  seeds:
+  - size of venus vs moon
+  - venus diameter km
+  - how big is venus
+  - venus distance from sun
+  hashtags:
+  - '#Space'
+  - '#Venus'
+series: Scale It
+record_id: scale:VENUS:MOON
+auto: true
+instagram_hashtags_rotating: []

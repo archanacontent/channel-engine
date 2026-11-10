@@ -1,0 +1,79 @@
+skip: false
+skip_reason: ''
+title: 'Exploited now: Chromium CVE-2026-125350'
+beats:
+- say: Attackers are using a new Google Chromium flaw to execute arbitrary code.
+  caption: Attackers are using a new Google Chromium flaw to execute arbitrary code.
+  highlight:
+  - execute arbitrary code
+  scene:
+    type: headline
+    text: 'Active Exploit: Chromium'
+- say: The use after free vulnerability in the X M L component is documented as C V E 2 0 2 6, 1 2 5 3 5 0.
+  caption: The use after free vulnerability in the XML component is documented as CVE-2026-125350.
+  highlight:
+  - use after free
+  - CVE-2026-125350
+  scene:
+    type: card
+    title: Vulnerability Details
+    rows:
+    - - CVE ID
+      - CVE-2026-125350
+    - - Product
+      - Chromium
+    - - Added
+      - '2026-11-10'
+    - - Due Date
+      - '2026-11-24'
+- say: This flaw affects multiple browsers like Google Chrome, Microsoft Edge, and Opera.
+  caption: This flaw affects multiple browsers like Google Chrome, Microsoft Edge, and Opera.
+  highlight:
+  - Google Chrome
+  - Microsoft Edge
+  - Opera
+  scene:
+    type: stat
+    value: '8.8'
+    label: CVSS Base Score
+    source: NVD
+- say: To protect your systems, apply vendor mitigations immediately and follow C I S A BOD 2 6 dash 0 4 guidance.
+  caption: To protect your systems, apply vendor mitigations immediately and follow CISA BOD 26-04 guidance.
+  highlight:
+  - apply vendor mitigations
+  - follow CISA BOD 26-04
+  scene:
+    type: list
+    title: Required Actions
+    items:
+    - Apply vendor mitigations
+    - Follow BOD 26-04
+    - Evaluate internet exposure
+    style: check
+- say: Sources are in the description.
+  caption: Sources are in the description.
+  highlight:
+  - Sources are in the description
+  scene:
+    type: cta
+    line: Stay Protected
+    subline: Sources are in the description.
+description:
+  summary: Attackers are exploiting a use after free vulnerability in Google Chromium via crafted webpages.
+  affected: The flaw affects Chromium-based browsers including Google Chrome, Microsoft Edge, and Opera.
+  action: Apply vendor mitigations immediately and ensure compliance with CISA BOD 26-04 guidance.
+  sources:
+  - 'CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog'
+  - 'NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-125350'
+seo:
+  seeds:
+  - Chromium CVE-2026-125350 exploit
+  - Google Chrome vulnerability fix
+  - CISA known exploited vulnerabilities
+  hashtags:
+  - '#Cybersecurity'
+  - '#Chromium'
+series: Exploited Today
+record_id: kev:CVE-2026-125350
+auto: true
+instagram_hashtags_rotating: []

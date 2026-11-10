@@ -1,0 +1,67 @@
+skip: false
+skip_reason: ''
+title: Fixing a real README in under a minute
+beats:
+- say: Documentation that lists features without context creates more questions than answers.
+  caption: Documentation that lists features without context creates more questions than answers.
+  highlight:
+  - features without context
+  scene:
+    type: headline
+    text: Documentation creates questions
+- say: Look at this sentence from the Claude Craft R E A D M E.
+  caption: Look at this sentence from the Claude Craft README.
+  highlight:
+  - Claude Craft README
+  scene:
+    type: image
+    credit: TheBeardedBearSAS/claude-craft
+- say: 'The original says: Install standardized rules, agents, and commands for your projects across multiple technology stacks.'
+  caption: 'The original says: Install standardized rules, agents, and commands for your projects across multiple technology stacks.'
+  highlight:
+  - Install standardized rules
+  scene:
+    type: compare
+    left_label: Original
+    left_text: Install standardized rules, agents, and commands for your projects across multiple technology stacks
+    right_label: Rewritten
+    right_text: Install project rules, agents, and commands for any technology stack.
+- say: I removed the word standardized because it is redundant. I also changed across multiple technology stacks to any technology stack to be more direct.
+  caption: I removed the word standardized because it is redundant. I also changed across multiple technology stacks to any technology stack to be more direct.
+  highlight:
+  - be more direct
+  scene:
+    type: list
+    title: The Edits
+    items:
+    - Removed redundant adjectives
+    - Simplified complex phrasing
+    style: check
+- say: Write for the user, not for the feature list.
+  caption: Write for the user, not for the feature list.
+  highlight:
+  - Write for the user
+  scene:
+    type: quote
+    text: Write for the user, not for the feature list.
+    highlight:
+    - Write for the user
+description:
+  what_was_fixed: I simplified a wordy sentence in the Claude Craft README to make the installation value clear.
+  rule: Remove redundant adjectives and simplify complex phrases to improve readability.
+  sources:
+  - 'TheBeardedBearSAS/claude-craft README (MIT): https://github.com/TheBeardedBearSAS/claude-craft'
+  source_link: https://github.com/TheBeardedBearSAS/claude-craft
+  license: MIT
+seo:
+  seeds:
+  - technical writing tips
+  - how to write READMEs
+  - improving documentation
+  hashtags:
+  - '#TechnicalWriting'
+  - '#Documentation'
+series: Rewrite This
+record_id: repo:TheBeardedBearSAS/claude-craft
+auto: true
+instagram_hashtags_rotating: []

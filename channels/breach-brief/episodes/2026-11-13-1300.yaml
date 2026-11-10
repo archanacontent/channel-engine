@@ -1,0 +1,78 @@
+skip: false
+skip_reason: ''
+title: 'Exploited now: Barracuda Email Security Gateway CVE-2026-116606'
+beats:
+- say: Attackers are bypassing authentication on Barracuda Email Security Gateways.
+  caption: Attackers are bypassing authentication on Barracuda Email Security Gateways.
+  highlight:
+  - bypassing authentication
+  - Barracuda Email Security Gateways
+  scene:
+    type: headline
+    text: Authentication Bypass Exploited
+- say: The flaw, C V E 2 0 2 6 1 1 6 6 0 6, lets remote attackers use a configuration import function to modify global settings.
+  caption: The flaw, CVE-2026-116606, lets remote attackers use a configuration import function to modify global settings.
+  highlight:
+  - modify global settings
+  - CVE-2026-116606
+  scene:
+    type: card
+    title: Vulnerability Details
+    rows:
+    - - ID
+      - CVE-2026-116606
+    - - Product
+      - Barracuda ESG
+    - - Added
+      - '2026-11-10'
+    - - Due Date
+      - '2026-11-13'
+- say: This critical vulnerability affects versions earlier than 9.4.0.030.
+  caption: This critical vulnerability affects versions earlier than 9.4.0.030.
+  highlight:
+  - earlier than 9.4.0.030
+  scene:
+    type: stat
+    value: '9.3'
+    label: CVSS Base Score
+    source: NVD
+- say: To protect your system, apply vendor mitigations immediately.
+  caption: To protect your system, apply vendor mitigations immediately.
+  highlight:
+  - apply vendor mitigations
+  scene:
+    type: list
+    title: Required Actions
+    items:
+    - Apply vendor mitigations
+    - Follow CISA BOD 26-04
+    - Evaluate internet exposure
+    - Discontinue if unmitigated
+    style: check
+- say: Sources are in the description.
+  caption: Sources are in the description.
+  highlight: []
+  scene:
+    type: cta
+    line: Stay protected.
+    subline: Sources are in the description.
+description:
+  summary: Attackers are exploiting an authentication bypass in Barracuda Email Security Gateway.
+  affected: Barracuda Email Security Gateway versions earlier than 9.4.0.030.
+  action: Apply vendor mitigations and follow CISA BOD 26-04 guidance.
+  sources:
+  - 'CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog'
+  - 'NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-116606'
+seo:
+  seeds:
+  - Barracuda ESG vulnerability
+  - CVE-2026-116606 exploit
+  - Barracuda authentication bypass
+  - CISA KEV updates
+  hashtags:
+  - '#Cybersecurity'
+  - '#Barracuda'
+series: Exploited Today
+record_id: kev:CVE-2026-116606
+auto: true
+instagram_hashtags_rotating: []

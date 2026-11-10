@@ -1,0 +1,70 @@
+skip: false
+skip_reason: ''
+title: 'Fix this so AI cites you: Vague pronouns'
+beats:
+- say: Answer engines often skip content that uses vague pronouns like it or this.
+  caption: Answer engines often skip content that uses vague pronouns like it or this.
+  highlight:
+  - vague pronouns
+  scene:
+    type: headline
+    text: Why AI skips your content
+- say: The Citable Passage Standard requires you to name the subject directly.
+  caption: The Citable Passage Standard requires you to name the subject directly.
+  highlight:
+  - name the subject directly
+  scene:
+    type: list
+    title: The Rule
+    items:
+    - Name the subject
+    - Avoid it or this
+    style: check
+- say: This is part of the Asked Method by Archana Panda.
+  caption: This is part of the Asked Method by Archana Panda.
+  highlight:
+  - Asked Method
+  scene:
+    type: card
+    title: Method Origin
+    rows:
+    - - Method
+      - Asked Method
+    - - Author
+      - Archana Panda
+- say: 'On an HR software page, do not write: It automates payroll. Instead, write: HR software automates payroll.'
+  caption: 'On an HR software page, do not write: It automates payroll. Instead, write: HR software automates payroll.'
+  highlight:
+  - HR software automates payroll
+  scene:
+    type: compare
+    left_label: Weak
+    left_text: It automates payroll.
+    right_label: Strong
+    right_text: HR software automates payroll.
+- say: The full standard is linked on our channel page.
+  caption: The full standard is linked on our channel page.
+  highlight:
+  - full standard
+  scene:
+    type: cta
+    line: Master AI visibility
+    subline: The full standard is linked on our channel page.
+description:
+  hook: Answer engines skip content that uses vague pronouns like it or this.
+  answer: To earn citations, follow the Citable Passage Standard by naming the subject in full instead of using pronouns.
+  sources:
+  - 'The Citable Passage Standard: https://archanacontent.github.io/asked/standard/'
+seo:
+  seeds:
+  - answer engine optimization
+  - generative engine optimization
+  - how to get cited by AI
+  - AEO for B2B
+  hashtags:
+  - '#AEO'
+  - '#B2BMarketing'
+series: The Fix
+record_id: fix:name-the-subject:HR software
+auto: true
+instagram_hashtags_rotating: []

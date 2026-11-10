@@ -1,0 +1,69 @@
+skip: false
+skip_reason: ''
+title: 'Writing rule: Use descriptive link text'
+beats:
+- say: Every link you add creates a decision for your reader.
+  caption: Every link you add creates a decision for your reader.
+  highlight:
+  - creates a decision
+  scene:
+    type: headline
+    text: Links create cognitive load
+- say: Vague links increase cognitive load and make your content harder to scan. Google developer documentation suggests using short, unique, and descriptive phrases to provide context.
+  caption: Vague links increase cognitive load and make your content harder to scan. Google developer documentation suggests using short, unique, and descriptive phrases to provide context.
+  highlight:
+  - increase cognitive load
+  - descriptive phrases
+  scene:
+    type: image
+    credit: Google developer documentation
+- say: Look at this weak example. Click here. Now look at the better version. Read the API reference guide.
+  caption: Look at this weak example. Click here. Now look at the better version. Read the API reference guide.
+  highlight:
+  - weak example
+  - better version
+  scene:
+    type: compare
+    left_label: Weak
+    left_text: Click here.
+    right_label: Better
+    right_text: Read the API reference guide.
+- say: Descriptive text improves accessibility and scannability. It tells the reader exactly what they will find at the destination before they leave your page.
+  caption: Descriptive text improves accessibility and scannability. It tells the reader exactly what they will find at the destination before they leave your page.
+  highlight:
+  - improves accessibility
+  - scannability
+  scene:
+    type: list
+    title: Benefits of descriptive links
+    items:
+    - Improves accessibility
+    - Better scannability
+    - Provides context
+    style: check
+- say: Use short, unique, descriptive phrases for your link text.
+  caption: Use short, unique, descriptive phrases for your link text.
+  highlight:
+  - short, unique, descriptive phrases
+  scene:
+    type: quote
+    text: Use short, unique, descriptive phrases to provide context for the material that you're linking to.
+    highlight:
+    - short, unique, descriptive phrases
+description:
+  what_was_fixed: Vague link text like 'click here' was replaced with descriptive phrases that provide context.
+  rule: Use descriptive link text to improve accessibility and reduce cognitive load.
+  sources:
+  - 'Google developer documentation: https://developers.google.com/style/link-text'
+seo:
+  seeds:
+  - technical writing tips
+  - how to write documentation
+  - descriptive link text
+  hashtags:
+  - '#TechnicalWriting'
+  - '#Documentation'
+series: One Rule
+record_id: style:https://developers.google.com/style/link-text
+auto: true
+instagram_hashtags_rotating: []

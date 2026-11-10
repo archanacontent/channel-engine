@@ -1,0 +1,71 @@
+skip: false
+skip_reason: ''
+title: 'Writing rule: Use the second person'
+beats:
+- say: Address your reader directly using you or your instead of we or our.
+  caption: Address your reader directly using you or your instead of we or our.
+  highlight:
+  - Address your reader directly
+  - using you or your
+  scene:
+    type: headline
+    text: Address your reader directly
+- say: Vague instructions like "Let us add a description to our table" create distance.
+  caption: Vague instructions like "Let us add a description to our table" create distance.
+  highlight:
+  - Vague instructions
+  - create distance
+  scene:
+    type: compare
+    left_label: Weak
+    left_text: Let us add a description to our table.
+    right_label: Better
+    right_text: Add a description to your table.
+- say: Assume the reader is the person performing the tasks or making decisions.
+  caption: Assume the reader is the person performing the tasks or making decisions.
+  highlight:
+  - Assume the reader
+  scene:
+    type: list
+    title: Identify the reader
+    items:
+    - Developer
+    - System administrator
+    - End user
+    style: bullet
+- say: Google developer documentation recommends using the second person for clarity.
+  caption: Google developer documentation recommends using the second person for clarity.
+  highlight:
+  - Google developer documentation
+  - recommends using the second person
+  scene:
+    type: image
+    credit: Google developer documentation
+- say: Use you or your instead of we, our, or us.
+  caption: Use you or your instead of we, our, or us.
+  highlight:
+  - Use you or your
+  - instead of we, our, or us
+  scene:
+    type: quote
+    text: In your writing, address the reader directly using "you" or "your" instead of "we," "our," or "us" to maintain a conversational tone and clarity.
+    highlight:
+    - address the reader directly
+    - using "you" or "your"
+description:
+  what_was_fixed: This video explains how to use the second person to improve documentation clarity.
+  rule: Address the reader directly with you or your instead of first person pronouns.
+  sources:
+  - 'Google developer documentation: https://developers.google.com/style/person'
+seo:
+  seeds:
+  - technical writing tips
+  - how to write documentation
+  - second person in technical writing
+  hashtags:
+  - '#TechnicalWriting'
+  - '#Documentation'
+series: One Rule
+record_id: style:https://developers.google.com/style/person
+auto: true
+instagram_hashtags_rotating: []

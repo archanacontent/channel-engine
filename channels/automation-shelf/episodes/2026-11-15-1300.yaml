@@ -1,0 +1,86 @@
+skip: false
+skip_reason: ''
+title: 'Free workflow: comedic marketing reels on autopilot'
+beats:
+- say: Generate funny marketing reels and post them to social media on a schedule.
+  caption: Generate funny marketing reels and post them to social media on a schedule.
+  highlight:
+  - funny marketing reels
+  - on a schedule
+  scene:
+    type: headline
+    text: Automated Comedic Marketing Reels
+- say: This n eight n template uses an AI agent to write a video prompt, Sora 2 to create the footage, and Blotato to publish the post.
+  caption: This n8n template uses an AI agent to write a video prompt, Sora2 to create the footage, and Blotato to publish the post.
+  highlight:
+  - AI agent
+  - Sora2
+  - Blotato
+  scene:
+    type: list
+    title: The Pipeline
+    items:
+    - AI video prompt agent
+    - Sora2 video generation
+    - Blotato auto-posting
+    - Automated caption writing
+    style: check
+- say: The workflow includes a schedule trigger, a LangChain agent, and a data table for tracking prompts.
+  caption: The workflow includes a schedule trigger, a LangChain agent, and a data table for tracking prompts.
+  highlight:
+  - schedule trigger
+  - LangChain agent
+  - data table
+  scene:
+    type: flow
+    steps:
+    - title: Schedule Trigger
+      note: Runs at chosen time
+    - title: Video Prompt Agent
+      note: Creates cinematic ideas
+    - title: Sora2 via Wavespeed
+      note: Generates 12 second video
+    - title: Blotato
+      note: Posts to social media
+- say: It suits small businesses, agencies, and social media managers who want hands free content production.
+  caption: It suits small businesses, agencies, and social media managers who want hands-free content production.
+  highlight:
+  - small businesses
+  - agencies
+  - social media managers
+  scene:
+    type: card
+    title: Ideal For
+    rows:
+    - - Small Businesses
+      - 'Yes'
+    - - Agencies
+      - 'Yes'
+    - - Social Media Managers
+      - 'Yes'
+- say: Template link in the description.
+  caption: Template link in the description.
+  highlight:
+  - Template link
+  scene:
+    type: cta
+    line: Get the workflow
+    subline: Template link in the description.
+description:
+  task_line: Automate your short-form video production with this n8n workflow.
+  tools: n8n, Sora2, OpenAI, Blotato
+  sources:
+  - 'n8n template: https://n8n.io/workflows/10786'
+  template_link: https://n8n.io/workflows/10786
+seo:
+  seeds:
+  - automated social media content
+  - n8n AI video workflow
+  - Sora2 marketing automation
+  hashtags:
+  - '#n8n'
+  - '#marketingautomation'
+series: Library Pick
+record_id: n8n:10786
+auto: true
+instagram_hashtags_rotating: []

@@ -1,0 +1,64 @@
+skip: false
+skip_reason: ''
+title: 'Fix this so AI cites you: General claims'
+beats:
+- say: Answer engines prioritize specific details over general claims.
+  caption: Answer engines prioritize specific details over general claims.
+  highlight:
+  - prioritize specific details
+  scene:
+    type: headline
+    text: Prioritize Specific Details
+- say: The Citable Passage Standard from the Asked Method by Archana Panda says to be specific.
+  caption: The Citable Passage Standard from the Asked Method by Archana Panda says to be specific.
+  highlight:
+  - Citable Passage Standard
+  - be specific
+  scene:
+    type: quote
+    text: Be Specific.
+    highlight:
+    - Be Specific
+- say: When writing about expense management software, avoid vague statements.
+  caption: When writing about expense management software, avoid vague statements.
+  highlight:
+  - avoid vague statements
+  scene:
+    type: headline
+    text: Expense Management Software
+- say: Instead of saying our tool saves time, use numbers, dates, named standards and named tools.
+  caption: Instead of saying our tool saves time, use numbers, dates, named standards and named tools.
+  highlight:
+  - use numbers, dates, named standards and named tools
+  scene:
+    type: compare
+    left_label: Weak
+    left_text: Our tool saves time.
+    right_label: Strong
+    right_text: Our tool integrates with SAP for real time audits.
+- say: The full standard is linked on our channel page.
+  caption: The full standard is linked on our channel page.
+  highlight:
+  - full standard
+  scene:
+    type: cta
+    line: Master AI Visibility
+    subline: The full standard is linked on our channel page.
+description:
+  hook: Answer engines ignore general claims in favor of specific data.
+  answer: To earn citations in AI search, use the Citable Passage Standard by replacing vague claims with numbers, dates, named standards, and named tools.
+  sources:
+  - 'The Citable Passage Standard: https://archanacontent.github.io/asked/standard/'
+seo:
+  seeds:
+  - answer engine optimization
+  - generative engine optimization
+  - how to get cited by ChatGPT
+  - B2B AEO strategy
+  hashtags:
+  - '#AEO'
+  - '#B2BMarketing'
+series: The Fix
+record_id: fix:be-specific:expense management software
+auto: true
+instagram_hashtags_rotating: []

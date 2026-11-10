@@ -1,0 +1,71 @@
+skip: false
+skip_reason: ''
+title: 'Saturn Behind the Moon: what just happened'
+beats:
+- say: Saturn recently disappeared from view because the Moon moved in front of it.
+  caption: Saturn recently disappeared from view because the Moon moved in front of it.
+  highlight:
+  - Saturn recently disappeared
+  - Moon moved in front of it
+  scene:
+    type: headline
+    text: Saturn Disappears Behind the Moon
+- say: This event is called an occultation. It was visible in early 2025 across Greenland, central Europe, and northern Africa.
+  caption: This event is called an occultation. It was visible in early 2025 across Greenland, central Europe, and northern Africa.
+  highlight:
+  - called an occultation
+  - visible in early 2025
+  scene:
+    type: list
+    title: Occultation Visibility
+    items:
+    - Greenland
+    - Central Europe
+    - Northern Africa
+    style: bullet
+- say: The bright dot near Saturn is not a moon. It is the star 8 5 A qu a r i i, which is much further away.
+  caption: The bright dot near Saturn is not a moon. It is the star 85 Aquarii, which is much further away.
+  highlight:
+  - not a moon
+  - the star 85 Aquarii
+  scene:
+    type: card
+    title: Image Details
+    rows:
+    - - Bright dot
+      - Star 85 Aquarii
+    - - Location
+      - Sardinia, Italy
+- say: The next time the Moon moves in front of Saturn, the event will be visible from Earth in 2031.
+  caption: The next time the Moon moves in front of Saturn, the event will be visible from Earth in 2031.
+  highlight:
+  - next time
+  scene:
+    type: stat
+    value: '2031'
+    label: Next Saturn Occultation
+- say: Source in the description.
+  caption: Source in the description.
+  highlight:
+  - Source in the description
+  scene:
+    type: cta
+    line: Follow for daily space images
+    subline: Source in the description
+description:
+  explainer: The Moon recently blocked our view of Saturn in an event called an occultation. This phenomenon occurs when the Moon moves directly in front of a planet.
+  sources:
+  - 'NASA: https://science.nasa.gov/image-article/apod-2026-november-10-saturn-behind-the-moon/'
+seo:
+  seeds:
+  - Saturn occultation Moon
+  - Saturn behind the Moon
+  - 85 Aquarii star Saturn
+  - NASA APOD Saturn
+  hashtags:
+  - '#Saturn'
+  - '#Astronomy'
+series: Mission Log
+record_id: nasanews:https://science.nasa.gov/image-article/apod-2026-november-10-saturn-behind-the-moon/
+auto: true
+instagram_hashtags_rotating: []

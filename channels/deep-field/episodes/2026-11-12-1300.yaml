@@ -1,0 +1,78 @@
+skip: false
+skip_reason: ''
+title: 'LISA: what just happened'
+beats:
+- say: Gravitational waves can reveal new worlds orbiting white dwarfs.
+  caption: Gravitational waves can reveal new worlds orbiting white dwarfs.
+  highlight:
+  - reveal new worlds
+  scene:
+    type: headline
+    text: Gravitational waves reveal new worlds
+- say: The L I S A observatory is being developed to detect ripples in space time caused by orbiting masses.
+  caption: The LISA observatory is being developed to detect ripples in space-time caused by orbiting masses.
+  highlight: []
+  scene:
+    type: image
+    credit: NASA Scientific Visualization Studio
+- say: A massive planet can imprint its presence on a gravitational wave signal from a double white dwarf system.
+  caption: A massive planet can imprint its presence on a gravitational wave signal from a double white dwarf system.
+  highlight:
+  - imprint its presence
+  scene:
+    type: flow
+    steps:
+    - title: Binary System
+      note: Two white dwarfs in tight orbits
+    - title: Planet Presence
+      note: Massive planet causes reflex motion
+    - title: Signal Change
+      note: Creates Doppler modulation sidebands
+- say: This method could detect a Jupiter mass planet thousands of light years away.
+  caption: This method could detect a Jupiter mass planet thousands of light years away.
+  highlight:
+  - Jupiter mass planet
+  - thousands of light years away
+  scene:
+    type: stat
+    value: thousands
+    label: light years away
+- say: NASA scientists used these findings to show how the James Webb Space Telescope could confirm these planets.
+  caption: NASA scientists used these findings to show how the James Webb Space Telescope could confirm these planets.
+  highlight:
+  - confirm these planets
+  scene:
+    type: card
+    title: Mission Details
+    rows:
+    - - Partner
+      - NASA
+    - - Lead Agency
+      - ESA
+    - - Target
+      - Exoplanets
+- say: Source in the description.
+  caption: Source in the description.
+  highlight:
+  - Source in the description
+  scene:
+    type: cta
+    line: Discover more
+    subline: Source in the description.
+description:
+  explainer: NASA scientists have shown how the LISA observatory could detect exoplanets through gravitational waves. The mission uses ripples in space-time to find worlds orbiting white dwarf systems.
+  sources:
+  - 'NASA: https://science.nasa.gov/missions/lisa/gravitational-waves-can-reveal-new-worlds/'
+seo:
+  seeds:
+  - LISA mission gravitational waves
+  - detecting exoplanets with LISA
+  - NASA gravitational wave research
+  - white dwarf exoplanets
+  hashtags:
+  - '#SpaceScience'
+  - '#NASA'
+series: Mission Log
+record_id: nasanews:https://science.nasa.gov/missions/lisa/gravitational-waves-can-reveal-new-worlds/
+auto: true
+instagram_hashtags_rotating: []

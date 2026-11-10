@@ -1,0 +1,77 @@
+skip: false
+skip_reason: ''
+title: 'Exploited now: OpenSSH CVE-2026-123158'
+beats:
+- say: Attackers are using a flaw in OpenSSH to bypass authentication on Linux systems.
+  caption: Attackers are using a flaw in OpenSSH to bypass authentication on Linux systems.
+  highlight:
+  - bypass authentication
+  - OpenSSH
+  scene:
+    type: headline
+    text: Authentication Bypass Found
+- say: The vulnerability, C V E 2 0 2 6, 1 2 3 1 5 8, affects OpenSSH before version 1 0 point 6 p 2 when using musl l i b c without P A M.
+  caption: The vulnerability, CVE-2026-123158, affects OpenSSH before 10.6p2 when using musl libc without PAM.
+  highlight:
+  - CVE-2026-123158
+  - musl libc without PAM
+  scene:
+    type: card
+    title: Vulnerability Details
+    rows:
+    - - CVE ID
+      - CVE-2026-123158
+    - - Product
+      - OpenSSH
+    - - Added
+      - '2026-11-09'
+    - - Due Date
+      - '2026-11-12'
+- say: In certain configurations, any password between 2 5 6 and 1 0 2 4 characters succeeds.
+  caption: In certain configurations, any password between 256 and 1024 characters succeeds.
+  highlight: []
+  scene:
+    type: stat
+    value: 256 to 1024
+    label: Character range for bypass
+    source: NVD
+- say: To protect your systems, apply vendor mitigations immediately. If mitigations are unavailable, discontinue use of the product.
+  caption: To protect your systems, apply vendor mitigations immediately. If mitigations are unavailable, discontinue use of the product.
+  highlight:
+  - apply vendor mitigations
+  - discontinue use
+  scene:
+    type: list
+    title: Required Actions
+    items:
+    - Apply vendor mitigations
+    - Follow BOD 26-04
+    - Discontinue if no fix
+    style: check
+- say: Sources are in the description.
+  caption: Sources are in the description.
+  highlight:
+  - Sources are in the description
+  scene:
+    type: cta
+    line: Stay Protected
+    subline: Check the description for sources
+description:
+  summary: OpenSSH contains a vulnerability that allows for authentication bypass on certain Linux systems.
+  affected: OpenSSH versions before 10.6p2 using musl libc without PAM.
+  action: Apply vendor mitigations or discontinue use if mitigations are unavailable.
+  sources:
+  - 'CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog'
+  - 'NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-123158'
+seo:
+  seeds:
+  - OpenSSH authentication bypass
+  - CVE-2026-123158 exploit
+  - OpenSSH musl libc vulnerability
+  hashtags:
+  - '#Cybersecurity'
+  - '#OpenSSH'
+series: Exploited Today
+record_id: kev:CVE-2026-123158
+auto: true
+instagram_hashtags_rotating: []

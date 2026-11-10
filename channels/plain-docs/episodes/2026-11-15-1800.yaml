@@ -1,0 +1,71 @@
+skip: false
+skip_reason: ''
+title: What a reference documentation must include
+beats:
+- say: Reference guides are technical descriptions of the machinery and how to operate it.
+  caption: Reference guides are technical descriptions of the machinery and how to operate it.
+  highlight:
+  - technical descriptions of the machinery
+  scene:
+    type: headline
+    text: Reference documentation describes the machinery
+- say: Users consult this material for truth and certainty. It provides a firm platform to stand on while they work.
+  caption: Users consult this material for truth and certainty. It provides a firm platform to stand on while they work.
+  highlight:
+  - truth and certainty
+  - firm platform
+  scene:
+    type: card
+    title: The Purpose
+    rows:
+    - - Goal
+      - Truth and certainty
+    - - User action
+      - Consult, not read
+- say: To be effective, reference must contain these parts.
+  caption: To be effective, reference must contain these parts.
+  highlight:
+  - must contain
+  scene:
+    type: headline
+    text: 'Effective reference must include:'
+- say: It needs neutral description, standard patterns, and a structure that mirrors the product.
+  caption: It needs neutral description, standard patterns, and a structure that mirrors the product.
+  highlight:
+  - neutral description
+  - standard patterns
+  scene:
+    type: list
+    title: Key Components
+    items:
+    - Neutral description
+    - Standard patterns
+    - Product structure
+    style: check
+- say: The only purpose of a reference guide is to describe, as succinctly as possible, and in an orderly way.
+  caption: The only purpose of a reference guide is to describe, as succinctly as possible, and in an orderly way.
+  highlight:
+  - orderly way
+  scene:
+    type: quote
+    text: The only purpose of a reference guide is to describe, as succinctly as possible, and in an orderly way.
+    highlight:
+    - describe, as succinctly as possible
+    - in an orderly way
+description:
+  what_was_fixed: Reference documentation provides technical descriptions of machinery and how to operate it.
+  rule: Keep descriptions neutral to ensure accuracy and precision.
+  sources:
+  - 'Reference documentation guidance: https://diataxis.fr/reference/'
+seo:
+  seeds:
+  - what is reference documentation
+  - technical writing diataxis
+  - how to write API reference
+  hashtags:
+  - '#TechnicalWriting'
+  - '#Documentation'
+series: Doc Types
+record_id: doctype:Reference documentation
+auto: true
+instagram_hashtags_rotating: []

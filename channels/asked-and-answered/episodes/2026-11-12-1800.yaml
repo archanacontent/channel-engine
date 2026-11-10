@@ -1,0 +1,67 @@
+skip: false
+title: 'AI search in 2026: ChatGPT Ads Replaces Manual Bid Caps'
+beats:
+- say: ChatGPT Ads is replacing manual bid caps with average cost targets.
+  caption: ChatGPT Ads is replacing manual bid caps with average cost targets.
+  scene:
+    type: headline
+    kicker: ChatGPT Ads Update
+    text: Manual Bid Caps Replaced With Average Cost Targets
+  highlight:
+  - manual bid caps
+  - average cost targets
+- say: Search Engine Journal reported that OpenAI updated its help documentation on bidding strategies. Beginning November 9th, new click and conversion campaigns must use Target C P C or Target C P A.
+  caption: Search Engine Journal reported that OpenAI updated its help documentation on bidding strategies. Beginning Nov. 9, new click and conversion campaigns must use Target CPC or Target CPA.
+  scene:
+    type: stat
+    value: Bidding Changes Timeline
+    label: ChatGPT Bidding Rollout
+  highlight:
+  - Search Engine Journal
+  - Target CPC
+  - Target CPA
+- say: These new options set average cost goals rather than strict limits on individual bids. The system can bid above or below your target in individual auctions to maximize results.
+  caption: These new options set average cost goals rather than strict limits on individual bids. The system can bid above or below your target in individual auctions to maximize results.
+  scene:
+    type: compare
+    left_label: Max CPC or Bid
+    left_text: Caps individual bids
+    right_label: Target CPC or CPA
+    right_text: Averages spend across auctions
+  highlight:
+  - average cost goals
+  - strict limits
+- say: Setting a target below recent performance can restrict delivery or cause spend to fall short of your budget. Max Bid and Max C P C expire completely on January 1st, 2027.
+  caption: Setting a target below recent performance can restrict delivery or cause spend to fall short of your budget. Max Bid and Max CPC expire completely on Jan. 1, 2027.
+  scene:
+    type: list
+    title: Bidding Warnings
+    items:
+    - Campaign Delivery Risks
+  highlight:
+  - restrict delivery
+  - Jan. 1, 2027
+- say: Review your campaign targets now to avoid delivery drop-offs. Source in the description.
+  caption: Review your campaign targets now to avoid delivery drop-offs. Source in the description.
+  scene:
+    type: cta
+    line: Prepare Your ChatGPT Ads
+    subline: Source in the description.
+  highlight:
+  - Review your campaign targets
+  - Source in the description
+description:
+  hook: ChatGPT Ads is replacing manual bid caps with average cost targets.
+  answer: Search Engine Journal reports OpenAI updated its bidding rules, introducing Target CPA and Target CPC while removing legacy Max Bid caps by January 1, 2027.
+  sources:
+  - 'ChatGPT Ads Is Replacing Max Bid & Max CPC With Cost Targets via @sejournal, @MattGSouthern: https://www.searchenginejournal.com/chatgpt-ads-is-replacing-max-bid-max-cpc-with-cost-targets/596491/'
+seo:
+  seeds:
+  - chatgpt ads bidding
+  - target cpa chatgpt
+  - target cpc chatgpt ads
+  - 'openai ad campaigns 2026 '
+series: Trend Check
+record_id: news:https://www.searchenginejournal.com/chatgpt-ads-is-replacing-max-bid-max-cpc-with-cost-targets/596491/
+auto: true
+instagram_hashtags_rotating: []

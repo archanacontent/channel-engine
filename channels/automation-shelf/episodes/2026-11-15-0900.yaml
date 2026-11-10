@@ -1,0 +1,82 @@
+skip: false
+skip_reason: ''
+title: 'Stop doing this by hand: importing leads from Google Sheets to Airtable'
+beats:
+- say: Stop manually importing validated leads from Google Sheets to your CRM.
+  caption: Stop manually importing validated leads from Google Sheets to your CRM.
+  highlight:
+  - Stop manually importing
+  - validated leads
+  scene:
+    type: headline
+    text: Stop manual lead imports
+- say: This n eight n workflow reads Google Sheets and manages your Airtable Company table automatically.
+  caption: This n8n workflow reads Google Sheets and manages your Airtable Company table automatically.
+  highlight:
+  - manages your Airtable Company table
+  - automatically
+  scene:
+    type: list
+    title: Core functions
+    items:
+    - Read validated leads
+    - Create new companies
+    - Update existing records
+    - Generate execution reports
+    style: check
+- say: The flow uses a Google Sheets node, an Airtable node, and a Code node.
+  caption: The flow uses a Google Sheets node, an Airtable node, and a Code node.
+  highlight:
+  - Google Sheets node
+  - Airtable node
+  - Code node
+  scene:
+    type: flow
+    steps:
+    - title: Google Sheets
+      note: Select valid emails
+    - title: Airtable
+      note: Check or create records
+    - title: Code
+      note: Process logic
+- say: It even uses an internal n eight n Data Table to build a full execution report.
+  caption: It even uses an internal n8n Data Table to build a full execution report.
+  highlight:
+  - internal n8n Data Table
+  - full execution report
+  scene:
+    type: card
+    title: Execution Report
+    rows:
+    - - Records read
+      - '2392'
+    - - Records created
+      - '2345'
+    - - Records updated
+      - '42'
+- say: The free template is linked in the description.
+  caption: The free template is linked in the description.
+  highlight:
+  - free template
+  scene:
+    type: cta
+    line: Get the template
+    subline: Linked in description
+description:
+  task_line: This workflow automates importing leads from Google Sheets into an Airtable CRM.
+  tools: n8n, Google Sheets, Airtable
+  sources:
+  - 'n8n template: https://n8n.io/workflows/11046'
+  template_link: https://n8n.io/workflows/11046
+seo:
+  seeds:
+  - automate lead import google sheets to airtable
+  - n8n marketing automation templates
+  - crm lead management automation
+  hashtags:
+  - '#MarketingAutomation'
+  - '#n8n'
+series: Stop Doing This
+record_id: n8n:11046
+auto: true
+instagram_hashtags_rotating: []

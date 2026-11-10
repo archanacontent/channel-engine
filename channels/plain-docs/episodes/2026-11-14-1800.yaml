@@ -1,0 +1,72 @@
+skip: false
+skip_reason: ''
+title: What a how-to guide must include
+beats:
+- say: How to guides guide readers through a problem toward a specific result.
+  caption: How-to guides guide readers through a problem toward a specific result.
+  highlight:
+  - through a problem
+  - toward a specific result
+  scene:
+    type: headline
+    text: How-to guides solve problems
+- say: These guides are goal oriented and focus on the work a user needs to complete.
+  caption: These guides are goal-oriented and focus on the work a user needs to complete.
+  highlight:
+  - work a user needs to complete
+  scene:
+    type: card
+    title: Core Purpose
+    rows:
+    - - Focus
+      - Goal-oriented
+    - - Objective
+      - Complete work
+- say: A good guide must include these elements.
+  caption: A good guide must include these elements.
+  highlight:
+  - must include
+  scene:
+    type: headline
+    text: Essential components
+- say: It needs a human project, specific tools, and clear steps to reach a result.
+  caption: It needs a human project, specific tools, and clear steps to reach a result.
+  highlight:
+  - human project
+  - specific tools
+  scene:
+    type: list
+    title: Must-haves
+    items:
+    - Human project
+    - Specific tools
+    - Clear result
+    style: check
+- say: Write from the perspective of the user, not the machinery.
+  caption: Write from the perspective of the user, not the machinery.
+  highlight:
+  - perspective of the user
+  - not the machinery
+  scene:
+    type: quote
+    text: Write from the perspective of the user, not of the machinery.
+    highlight:
+    - perspective of the user
+description:
+  what_was_fixed: How-to guides are designed to help users achieve specific goals rather than just explaining tool functions.
+  rule: Always write from the perspective of the user's needs instead of the machinery's operations.
+  sources:
+  - 'How-to guide guidance: https://diataxis.fr/how-to-guides/'
+seo:
+  seeds:
+  - how to write technical documentation
+  - diataxis how-to guides
+  - technical writing for beginners
+  - user centric documentation
+  hashtags:
+  - '#TechnicalWriting'
+  - '#Documentation'
+series: Doc Types
+record_id: doctype:How-to guide
+auto: true
+instagram_hashtags_rotating: []

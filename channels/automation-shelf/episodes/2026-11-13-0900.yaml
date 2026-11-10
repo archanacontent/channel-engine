@@ -1,0 +1,73 @@
+skip: false
+title: 'Stop doing this by hand: AI product video creation'
+beats:
+- say: You can turn basic text prompts into published product videos without manual work.
+  caption: You can turn basic text prompts into published product videos without manual work.
+  scene:
+    type: headline
+    kicker: Automated Media
+    text: Turn text prompts into published product videos automatically
+  highlight:
+  - published product videos
+  - without manual work
+- say: Creating product visuals usually requires multiple tools, repetitive prompt iteration, and manual publishing to social platforms.
+  caption: Creating product visuals usually requires multiple tools, repetitive prompt iteration, and manual publishing to social platforms.
+  scene:
+    type: compare
+    left_label: Manual Workflow
+    left_text: Multiple tools and manual publishing
+    right_label: n8n Pipeline
+    right_text: Automated creation and social posting
+  highlight:
+  - repetitive prompt iteration
+  - manual publishing
+- say: This n eight n workflow generates product images in NanoBanana Pro, explores variations using contact sheet prompting, and turns them into videos with Veo 3 point 1.
+  caption: This n8n workflow generates product images in NanoBanana Pro, explores variations using contact sheet prompting, and turns them into videos with Veo 3.1.
+  scene:
+    type: flow
+    steps:
+    - title: Image Generation
+      note: NanoBanana Pro
+    - title: Variation Search
+      note: Contact Sheet Prompting
+    - title: Video Creation
+      note: Veo 3.1
+    - title: Social Posting
+      note: Blotato
+  highlight:
+  - n8n workflow
+  - contact sheet prompting
+  - Veo 3.1
+- say: Open AI handles prompt analysis, while Google Drive and H T T P request nodes manage files before Blotato automatically publishes the videos.
+  caption: OpenAI handles prompt analysis, while Google Drive and HTTP request nodes manage files before Blotato automatically publishes the videos.
+  scene:
+    type: stat
+    value: OpenAI, NanoBanana Pro, Veo 3.1, Blotato, Google Drive, n8n HTTP Request Nodes.
+    label: Workflow Stack
+  highlight:
+  - HTTP request nodes
+  - publishes the videos
+- say: The free template is linked in the description.
+  caption: The free template is linked in the description.
+  scene:
+    type: cta
+    line: Automate Product Videos
+    subline: Free n8n template linked below
+  highlight:
+  - linked in the description
+description:
+  task_line: Automate your product image generation and video publishing pipeline using AI.
+  tools: Built with n8n, OpenAI, NanoBanana Pro, Veo 3.1, Google Drive, and Blotato.
+  sources:
+  - 'n8n template: https://n8n.io/workflows/12462'
+  template_link: https://n8n.io/workflows/12462
+seo:
+  seeds:
+  - n8n product video automation
+  - NanoBanana Pro Veo 3.1 n8n
+  - automated video publishing Blotato
+  - n8n AI image to video workflow
+series: Stop Doing This
+record_id: n8n:12462
+auto: true
+instagram_hashtags_rotating: []

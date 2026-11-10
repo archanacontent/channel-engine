@@ -1,0 +1,79 @@
+skip: false
+skip_reason: ''
+title: Can you automate marketing content generation?
+beats:
+- say: Can you automate marketing content generation? Yes.
+  caption: Can you automate marketing content generation? Yes.
+  highlight:
+  - automate marketing content generation
+  scene:
+    type: headline
+    text: Automate Marketing Content Generation
+- say: Stop manually writing every draft. Use an n eight n form to submit a topic and content type.
+  caption: Stop manually writing every draft. Use an n8n form to submit a topic and content type.
+  highlight:
+  - Stop manually writing
+  - n8n form
+  scene:
+    type: list
+    title: Input Requirements
+    items:
+    - Topic
+    - Content Type
+    style: check
+- say: The workflow sends that prompt to Comet A P I to generate three variations in parallel using G P T, Claude, and Gemini.
+  caption: The workflow sends that prompt to CometAPI to generate three variations in parallel using GPT, Claude, and Gemini.
+  highlight:
+  - three variations in parallel
+  - GPT, Claude, and Gemini
+  scene:
+    type: flow
+    steps:
+    - title: n8n Form
+      note: Collect topic
+    - title: CometAPI
+      note: Parallel generation
+    - title: Merge
+      note: Combine outputs
+- say: All three outputs are logged with a timestamp into Google Sheets for easy comparison.
+  caption: All three outputs are logged with a timestamp into Google Sheets for easy comparison.
+  highlight:
+  - logged with a timestamp
+  - Google Sheets
+  scene:
+    type: card
+    title: Sheet Columns
+    rows:
+    - - Timestamp
+      - Auto-generated
+    - - Topic
+      - From form
+    - - Outputs
+      - Three models
+- say: Template link in the description.
+  caption: Template link in the description.
+  highlight:
+  - Template link
+  scene:
+    type: cta
+    line: Get the template
+    subline: Link in description
+description:
+  task_line: You can automate the generation and comparison of marketing content using multiple AI models.
+  tools: n8n, CometAPI, Google Sheets, GPT, Claude, Gemini
+  sources:
+  - 'n8n template: https://n8n.io/workflows/17283'
+  template_link: https://n8n.io/workflows/17283
+seo:
+  seeds:
+  - n8n marketing automation
+  - AI content generation workflow
+  - automate content creation with n8n
+  - CometAPI n8n template
+  hashtags:
+  - '#n8n'
+  - '#MarketingAutomation'
+series: Can It Be Automated?
+record_id: n8n:17283
+auto: true
+instagram_hashtags_rotating: []

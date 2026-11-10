@@ -1,0 +1,78 @@
+skip: false
+skip_reason: ''
+title: 'AI search in 2026: the search comparison gap'
+beats:
+- say: AI assistants reached 76 billion monthly sessions worldwide in September.
+  caption: AI assistants reached 76 billion monthly sessions worldwide in September.
+  highlight:
+  - 76 billion monthly sessions
+  scene:
+    type: stat
+    value: 76 billion
+    label: monthly AI assistant sessions worldwide
+- say: Graphite stopped comparing AI usage to search engines in their November report. They can no longer reliably compare the two.
+  caption: Graphite stopped comparing AI usage to search engines in their November report. They can no longer reliably compare the two.
+  highlight:
+  - stopped comparing AI usage to search engines
+  - no longer reliably compare
+  scene:
+    type: headline
+    text: Why AI and Search comparisons stopped
+- say: The March report likely undercounted Google search use from the Android app. The app accounts for an estimated 11.8 billion monthly sessions in the U. S.
+  caption: The March report likely undercounted Google search use from the Android app. The app accounts for an estimated 11.8 billion monthly sessions in the U.S.
+  highlight:
+  - undercounted Google search use
+  - 11.8 billion monthly sessions
+  scene:
+    type: card
+    title: U.S. Android App Impact
+    rows:
+    - - Monthly sessions
+      - 11.8 billion
+- say: AI referral traffic is growing fast. Worldwide AI referral traffic rose 92 percent year over year as of July.
+  caption: AI referral traffic is growing fast. Worldwide AI referral traffic rose 92% year over year as of July.
+  highlight: []
+  scene:
+    type: compare
+    left_label: Organic Search
+    left_text: 49x volume of AI
+    right_label: Paid Search
+    right_text: 8x volume of AI
+- say: In July, ChatGPT drove 60 percent of AI referral traffic worldwide. Gemini and Claude followed at 14 and 10 percent.
+  caption: In July, ChatGPT drove 60% of AI referral traffic worldwide. Gemini and Claude followed at 14% and 10%.
+  highlight:
+  - Gemini and Claude
+  scene:
+    type: list
+    title: Global AI Referral Share
+    items:
+    - 'ChatGPT: 60%'
+    - 'Gemini: 14%'
+    - 'Claude: 10%'
+    style: bullet
+- say: B2B teams must optimize for these growing referral channels. Source in the description.
+  caption: B2B teams must optimize for these growing referral channels. Source in the description.
+  highlight:
+  - optimize for these growing referral channels
+  scene:
+    type: cta
+    line: Master AI visibility
+    subline: Source in the description
+description:
+  hook: AI assistant usage reached 76 billion monthly sessions in September.
+  answer: A new Graphite report explains why comparing AI usage to search engines is no longer reliable due to Android app data. B2B marketers should focus on the growing AI referral traffic, led by ChatGPT.
+  sources:
+  - 'Why An AI Usage Report Stopped Comparing AI With Search Engines via @sejournal, @MattGSouthern: https://www.searchenginejournal.com/ai-76-billion-monthly-sessions-search-comparison/596389/'
+seo:
+  seeds:
+  - AI search usage report 2026
+  - AI referral traffic growth
+  - AEO vs SEO
+  - ChatGPT referral traffic share
+  hashtags:
+  - '#AISearch'
+  - '#B2BMarketing'
+series: Trend Check
+record_id: news:https://www.searchenginejournal.com/ai-76-billion-monthly-sessions-search-comparison/596389/
+auto: true
+instagram_hashtags_rotating: []

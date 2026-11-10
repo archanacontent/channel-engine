@@ -1,0 +1,82 @@
+skip: false
+skip_reason: ''
+title: Can you automate monthly marketing reports?
+beats:
+- say: Can you automate monthly marketing reports? Yes.
+  caption: Can you automate monthly marketing reports? Yes.
+  highlight:
+  - automate monthly marketing reports
+  scene:
+    type: headline
+    text: Monthly Marketing Reports
+- say: This n eight n workflow pulls data from Google Search Console, Google Analytics 4, and HighLevel.
+  caption: This n8n workflow pulls data from Google Search Console, Google Analytics 4, and HighLevel.
+  highlight:
+  - pulls data from
+  - Google Search Console
+  - Google Analytics 4
+  scene:
+    type: list
+    title: Data Sources
+    items:
+    - Google Search Console
+    - Google Analytics 4
+    - HighLevel
+    style: check
+- say: It aggregates performance totals, sessions, and pipeline values into a single summary.
+  caption: It aggregates performance totals, sessions, and pipeline values into a single summary.
+  highlight:
+  - aggregates performance totals
+  - pipeline values
+  scene:
+    type: card
+    title: Metrics Collected
+    rows:
+    - - Search Console
+      - Performance totals
+    - - GA4
+      - Sessions and events
+    - - HighLevel
+      - Pipeline counts
+- say: Anthropic Claude analyzes the metrics to generate an executive summary, wins, risks, and recommended actions.
+  caption: Anthropic Claude analyzes the metrics to generate an executive summary, wins, risks, and recommended actions.
+  highlight:
+  - executive summary
+  - wins, risks
+  - recommended actions
+  scene:
+    type: flow
+    steps:
+    - title: Data Collection
+      note: Fetch GSC, GA4, and HighLevel
+    - title: AI Analysis
+      note: Claude processes metrics
+    - title: Slack Delivery
+      note: HTML report and summary
+- say: The final HTML report and video script outline are posted to Slack for your review.
+  caption: The final HTML report and video script outline are posted to Slack for your review.
+  highlight:
+  - HTML report
+  - posted to Slack
+  scene:
+    type: cta
+    line: Template link in the description.
+    subline: Automate your reporting today.
+description:
+  task_line: You can automate your monthly marketing reports using this n8n workflow.
+  tools: Google Search Console, Google Analytics 4, HighLevel, Anthropic Claude, and Slack.
+  sources:
+  - 'n8n template: https://n8n.io/workflows/21894'
+  template_link: https://n8n.io/workflows/21894
+seo:
+  seeds:
+  - automate marketing reports n8n
+  - GA4 reporting automation
+  - n8n marketing workflow template
+  hashtags:
+  - '#MarketingAutomation'
+  - '#n8n'
+series: Can It Be Automated?
+record_id: n8n:21894
+auto: true
+instagram_hashtags_rotating: []

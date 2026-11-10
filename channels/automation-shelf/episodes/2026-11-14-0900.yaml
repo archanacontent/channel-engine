@@ -1,0 +1,79 @@
+skip: false
+skip_reason: ''
+title: 'Stop doing this by hand: marketing report pulls'
+beats:
+- say: Stop pulling Google Analytics and Meta Ads data manually every week.
+  caption: Stop pulling Google Analytics and Meta Ads data manually every week.
+  highlight:
+  - Stop pulling Google Analytics
+  - Meta Ads data manually
+  scene:
+    type: headline
+    text: Stop manual marketing reporting
+- say: Comparing this week to the same period last year takes hours.
+  caption: Comparing this week to the same period last year takes hours.
+  highlight:
+  - Comparing this week
+  - same period last year
+  scene:
+    type: compare
+    left_label: Manual
+    left_text: Hours of data export
+    right_label: n8n
+    right_text: Automated weekly summary
+- say: This n eight n workflow retrieves data from Google Analytics, Google Ads, and Meta Ads.
+  caption: This n8n workflow retrieves data from Google Analytics, Google Ads, and Meta Ads.
+  highlight:
+  - retrieves data
+  - Google Analytics, Google Ads, and Meta Ads
+  scene:
+    type: flow
+    steps:
+    - title: scheduleTrigger
+      note: Weekly trigger
+    - title: toolWorkflow
+      note: Data retrieval
+    - title: lmChatOpenAi
+      note: AI analysis
+    - title: executeWorkflowTrigger
+      note: Send report
+- say: AI prepares the data as a table and writes a summary for email or Telegram.
+  caption: AI prepares the data as a table and writes a summary for email or Telegram.
+  highlight:
+  - prepares the data
+  - summary for email or Telegram
+  scene:
+    type: list
+    title: Automated Outputs
+    items:
+    - Tabular data analysis
+    - Email report
+    - Telegram summary
+    style: check
+- say: The free template is linked in the description.
+  caption: The free template is linked in the description.
+  highlight:
+  - free template
+  scene:
+    type: cta
+    line: Get the template
+    subline: Linked in description
+description:
+  task_line: This workflow automates marketing report pulls for Google Analytics, Google Ads, and Meta Ads.
+  tools: n8n, Google Analytics, Google Ads, Meta Ads, OpenAI, Telegram
+  sources:
+  - 'n8n template: https://n8n.io/workflows/2783'
+  template_link: https://n8n.io/workflows/2783
+seo:
+  seeds:
+  - automate marketing reports
+  - n8n marketing automation
+  - Google Analytics automation template
+  - Meta Ads reporting workflow
+  hashtags:
+  - '#MarketingAutomation'
+  - '#n8n'
+series: Stop Doing This
+record_id: n8n:2783
+auto: true
+instagram_hashtags_rotating: []

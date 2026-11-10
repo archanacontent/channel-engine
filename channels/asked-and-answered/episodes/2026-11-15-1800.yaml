@@ -1,0 +1,69 @@
+skip: false
+skip_reason: ''
+title: 'AI search in 2026: the twenty one percent click shift'
+beats:
+- say: Google AI features drove an estimated twenty one percent of one site's clicks.
+  caption: Google AI features drove an estimated 21% of one site's clicks.
+  highlight:
+  - one site's clicks
+  scene:
+    type: headline
+    text: AI features drive 21% of clicks
+- say: SEO consultant Cyrus Shepard conducted an experiment using Zyppy SEO. He opted the site out of Google AI features for twenty eight days.
+  caption: SEO consultant Cyrus Shepard conducted an experiment using Zyppy SEO. He opted the site out of Google AI features for 28 days.
+  highlight:
+  - Cyrus Shepard
+  scene:
+    type: flow
+    steps:
+    - title: Opt out
+      note: Site removed from AI features
+    - title: Monitor
+      note: 28 day observation period
+    - title: Opt in
+      note: AI impressions returned quickly
+- say: AI Overviews and AI Mode accounted for ten percent of total impressions. However, they produced a much higher click through rate than standard results.
+  caption: AI Overviews and AI Mode accounted for 10% of total impressions. However, they produced a much higher click-through rate than standard results.
+  highlight: []
+  scene:
+    type: compare
+    left_label: Standard Search
+    left_text: 0.4% CTR
+    right_label: AI Features
+    right_text: 0.9% CTR
+- say: Shepard noted a halo effect where regular organic results saw higher click through rates when the site appeared in AI sections. This was reported in Search Engine Journal.
+  caption: Shepard noted a halo effect where regular organic results saw higher click through rates when the site appeared in AI sections. This was reported in Search Engine Journal.
+  highlight:
+  - halo effect
+  - Search Engine Journal
+  scene:
+    type: quote
+    text: A halo effect on organic results.
+    highlight:
+    - halo effect
+- say: B2B teams must optimize for AI citations to capture this traffic. Source in the description.
+  caption: B2B teams must optimize for AI citations to capture this traffic. Source in the description.
+  highlight:
+  - optimize for AI citations
+  scene:
+    type: cta
+    line: Capture AI traffic
+    subline: Source in the description
+description:
+  hook: Google AI Overviews and AI Mode can account for over twenty percent of a site's search clicks.
+  answer: A single site experiment by Cyrus Shepard showed that AI features drove an estimated 21 percent of total clicks for Zyppy SEO.
+  sources:
+  - 'Google’s AI Features Sent One Site An Estimated 21% Of Its Clicks via @sejournal, @MattGSouthern: https://www.searchenginejournal.com/googles-ai-features-sent-one-site-an-estimated-21-of-its-clicks/596267/'
+seo:
+  seeds:
+  - Google AI Overviews click through rate
+  - AI search visibility B2B
+  - generative engine optimization clicks
+  - AI search marketing strategy
+  hashtags:
+  - '#AISearch'
+  - '#SEO'
+series: Trend Check
+record_id: news:https://www.searchenginejournal.com/googles-ai-features-sent-one-site-an-estimated-21-of-its-clicks/596267/
+auto: true
+instagram_hashtags_rotating: []

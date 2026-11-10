@@ -1,0 +1,73 @@
+skip: false
+skip_reason: ''
+title: 'Curiosity: what just happened'
+beats:
+- say: Curiosity is pausing its drilling campaign to recharge its power supply.
+  caption: Curiosity is pausing its drilling campaign to recharge its power supply.
+  highlight:
+  - pausing its drilling campaign
+  - recharge its power supply
+  scene:
+    type: headline
+    text: Recharging on Mars
+- say: The rover is currently drilling a target called Nazca. This process requires high energy for sample dropoffs to the S A M and CheMin instruments.
+  caption: The rover is currently drilling a target called Nazca. This process requires high energy for sample dropoffs to the SAM and CheMin instruments.
+  highlight:
+  - drilling a target called Nazca
+  - requires high energy
+  scene:
+    type: card
+    title: Nazca Campaign
+    rows:
+    - - Target
+      - Nazca
+    - - Instruments
+      - SAM and CheMin
+- say: To save energy as the rover ages, engineers are testing parallelism. This means running two activities at once to reduce the time the rover stays awake.
+  caption: To save energy as the rover ages, engineers are testing parallelism. This means running two activities at once to reduce the time the rover stays awake.
+  highlight:
+  - testing parallelism
+  - running two activities at once
+  scene:
+    type: flow
+    steps:
+    - title: Parallelism Test
+      note: Running CheMin data transfer during an orbiter downlink
+- say: One upcoming task is R A G E, which stands for Rotate to Agitate for Granule Expulsion. This shakes the drill to clear remaining samples.
+  caption: One upcoming task is RAGE, which stands for Rotate to Agitate for Granule Expulsion. This shakes the drill to clear remaining samples.
+  highlight:
+  - Rotate to Agitate for Granule Expulsion
+  - shakes the drill
+  scene:
+    type: list
+    title: Next Steps
+    items:
+    - RAGE drill cleanup
+    - Additional SAM dropoffs
+    - Drill hole imaging
+    style: bullet
+- say: Source in the description.
+  caption: Source in the description.
+  highlight:
+  - Source in the description
+  scene:
+    type: cta
+    line: Follow for daily space updates
+    subline: Space Science
+description:
+  explainer: NASA's Curiosity rover is taking recharging sols to prepare for the final stages of its Nazca drilling campaign. This pause allows the rover to regain power for energy intensive tasks like drilling cleanup and sample analysis.
+  sources:
+  - 'NASA: https://science.nasa.gov/blog/curiosity-blog-sols-5056-5062-charging-back-up/'
+seo:
+  seeds:
+  - NASA Curiosity Mars rover
+  - Curiosity Nazca drilling
+  - Mars rover power management
+  - NASA Mars mission updates
+  hashtags:
+  - '#Mars'
+  - '#NASA'
+series: Mission Log
+record_id: nasanews:https://science.nasa.gov/blog/curiosity-blog-sols-5056-5062-charging-back-up/
+auto: true
+instagram_hashtags_rotating: []

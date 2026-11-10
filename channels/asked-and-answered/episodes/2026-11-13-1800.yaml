@@ -1,0 +1,78 @@
+skip: false
+skip_reason: ''
+title: 'AI search in 2026: top of funnel shift'
+beats:
+- say: AI mode queries make Google less money than traditional searches.
+  caption: AI mode queries make Google less money than traditional searches.
+  highlight:
+  - AI mode queries
+  - less money
+  scene:
+    type: stat
+    value: lower revenue
+    label: AI mode vs traditional search
+    source: Alphabet Chief Business Officer
+- say: According to Search Engine Journal, users are asking longer and more detailed questions.
+  caption: According to Search Engine Journal, users are asking longer and more detailed questions.
+  highlight:
+  - longer
+  - more detailed questions
+  scene:
+    type: headline
+    text: Search Engine Journal report
+- say: Shivani Mohan says people are asking net new types of queries they never thought to ask before.
+  caption: Shivani Mohan says people are asking net new types of queries they never thought to ask before.
+  highlight:
+  - net new types of queries
+  scene:
+    type: quote
+    text: People are asking net new types of queries that they would have never thought to ask before.
+    highlight:
+    - net new types of queries
+- say: These queries move users up the funnel toward brainstorming and category research.
+  caption: These queries move users up the funnel toward brainstorming and category research.
+  highlight:
+  - up the funnel
+  - brainstorming
+  scene:
+    type: flow
+    steps:
+    - title: Traditional
+      note: Keyword driven
+    - title: AI Mode
+      note: Top of funnel
+- say: B2B marketers must adapt because most accounts are still judged at the bottom of the funnel.
+  caption: B2B marketers must adapt because most accounts are still judged at the bottom of the funnel.
+  highlight:
+  - judged at the bottom
+  scene:
+    type: compare
+    left_label: Query Type
+    left_text: Top of funnel brainstorming
+    right_label: Account Metric
+    right_text: Bottom of funnel conversion
+- say: Source in the description.
+  caption: Source in the description.
+  highlight: []
+  scene:
+    type: cta
+    line: Prepare for 2027
+    subline: Source in the description
+description:
+  hook: Google's AI mode is driving users higher up the funnel with less revenue per query.
+  answer: Alphabet's chief business officer and Google's VP of Data Science report that users are using AI for detailed, exploratory questions that differ from traditional keyword searches.
+  sources:
+  - 'Paid Search Is Moving Up The Funnel – Google Admits AI Mode Pays Less via @sejournal, @gregjarboe: https://www.searchenginejournal.com/paid-search-is-moving-up-the-funnel-google-admits-ai-mode-pays-less/595875/'
+seo:
+  seeds:
+  - Google AI mode search trends
+  - top of funnel AI queries
+  - generative engine optimization strategy
+  - B2B search marketing 2027
+  hashtags:
+  - '#AISearch'
+  - '#B2BMarketing'
+series: Trend Check
+record_id: news:https://www.searchenginejournal.com/paid-search-is-moving-up-the-funnel-google-admits-ai-mode-pays-less/595875/
+auto: true
+instagram_hashtags_rotating: []

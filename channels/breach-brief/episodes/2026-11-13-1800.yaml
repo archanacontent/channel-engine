@@ -1,0 +1,72 @@
+skip: false
+skip_reason: ''
+title: 'Scam alert: franchise misrepresentation'
+beats:
+- say: Franchisors must provide honest information about costs and potential earnings.
+  caption: Franchisors must provide honest information about costs and potential earnings.
+  highlight:
+  - honest information
+  - potential earnings
+  scene:
+    type: headline
+    text: Franchisors must provide honest information
+- say: The F T C charged Premier Martial Arts for misrepresenting potential earnings. They claimed non martial artists could profitably run franchises working less than fifteen hours a week.
+  caption: The FTC charged Premier Martial Arts for misrepresenting potential earnings. They claimed non-martial artists could profitably run franchises working less than 15 hours a week.
+  highlight:
+  - misrepresenting potential earnings
+  - less than 15 hours
+  scene:
+    type: card
+    title: Premier Martial Arts Case
+    rows:
+    - - Issue
+      - Misrepresented earnings
+    - - Claim
+      - Under 15 hours weekly
+- say: Protect your savings by looking for these warning signs.
+  caption: Protect your savings by looking for these warning signs.
+  highlight:
+  - warning signs
+  scene:
+    type: headline
+    text: Watch for these warning signs
+- say: Check if earnings claims are in Item 19 of the F D D. Ask for written substantiation of all claims. Contact current and former franchisees to verify the facts.
+  caption: Check if earnings claims are in Item 19 of the FDD. Ask for written substantiation of all claims. Contact current and former franchisees to verify the facts.
+  highlight:
+  - Item 19 of the FDD
+  - written substantiation
+  scene:
+    type: list
+    title: Due Diligence
+    items:
+    - Verify Item 19 claims
+    - Request written substantiation
+    - Contact former franchisees
+    style: check
+- say: More in the F T C alert linked in the description.
+  caption: More in the FTC alert linked in the description.
+  highlight:
+  - FTC alert
+  scene:
+    type: cta
+    line: Stay informed
+    subline: More in the FTC alert linked in the description.
+description:
+  summary: This video explains how franchisors can misrepresent earnings and how to protect your investment.
+  affected: Prospective franchise buyers and small business owners.
+  action: Review the Franchise Disclosure Document and verify all claims with former franchisees.
+  sources:
+  - 'FTC consumer alert: https://consumer.ftc.gov/consumer-alerts/2026/10/some-franchising-basics-ftcs-case-against-premier-martial-arts-franchisor'
+seo:
+  seeds:
+  - franchise investment scams
+  - how to read FDD
+  - Premier Martial Arts FTC case
+  - franchise due diligence
+  hashtags:
+  - '#FranchiseScams'
+  - '#SmallBusiness'
+series: Scam Alert
+record_id: ftc:/consumer-alerts/2026/10/some-franchising-basics-ftcs-case-against-premier-martial-arts-franchisor
+auto: true
+instagram_hashtags_rotating: []

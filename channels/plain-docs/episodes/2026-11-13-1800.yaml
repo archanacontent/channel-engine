@@ -1,0 +1,73 @@
+skip: false
+skip_reason: ''
+title: What a tutorial must include
+beats:
+- say: A tutorial is a lesson designed for learning rather than getting a task done.
+  caption: A tutorial is a lesson designed for learning rather than getting a task done.
+  highlight:
+  - lesson designed for learning
+  scene:
+    type: headline
+    text: Tutorials are lessons, not how-to guides
+- say: The student acquires theoretical knowledge, understanding, and familiarity by doing something meaningful.
+  caption: The student acquires theoretical knowledge, understanding, and familiarity by doing something meaningful.
+  highlight:
+  - acquires theoretical knowledge
+  - doing something meaningful
+  scene:
+    type: card
+    title: What students acquire
+    rows:
+    - - Knowledge
+      - Theoretical facts
+    - - Understanding
+      - How things relate
+    - - Familiarity
+      - Tools and workflows
+- say: To be effective, every exercise must meet four specific standards.
+  caption: To be effective, every exercise must meet four specific standards.
+  highlight:
+  - meet four specific standards
+  scene:
+    type: headline
+    text: Four standards for exercises
+- say: Exercises must be meaningful, successful, logical, and usefully complete.
+  caption: Exercises must be meaningful, successful, logical, and usefully complete.
+  highlight:
+  - meaningful
+  - successful
+  - logical
+  scene:
+    type: list
+    title: Exercise requirements
+    items:
+    - Meaningful achievement
+    - Successful completion
+    - Logical paths
+    - Usefully complete
+    style: check
+- say: The teacher holds nearly all the responsibility for the pupil's success.
+  caption: The teacher holds nearly all the responsibility for the pupil's success.
+  highlight: []
+  scene:
+    type: quote
+    text: Nearly all the responsibility falls upon the teacher.
+    highlight:
+    - responsibility falls upon the teacher
+description:
+  what_was_fixed: A tutorial is a learning-oriented lesson meant to build skills through meaningful activity.
+  rule: Ensure the exercise is logical and usefully complete so the student learns the tools and workflows.
+  sources:
+  - 'Tutorial guidance: https://diataxis.fr/tutorials/'
+seo:
+  seeds:
+  - technical writing tutorial vs how-to
+  - diataxis tutorial framework
+  - writing learning oriented documentation
+  hashtags:
+  - '#TechnicalWriting'
+  - '#Documentation'
+series: Doc Types
+record_id: doctype:Tutorial
+auto: true
+instagram_hashtags_rotating: []

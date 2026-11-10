@@ -1,0 +1,74 @@
+skip: false
+skip_reason: ''
+title: How big is the Moon, really?
+beats:
+- say: The Moon is about one third the diameter of Earth.
+  caption: The Moon is about one third the diameter of Earth.
+  highlight:
+  - one third the diameter
+  scene:
+    type: headline
+    text: Moon vs Earth size
+- say: Earth has a diameter of 1 2 7 5 6 kilometers.
+  caption: Earth has a diameter of 12,756 km.
+  highlight:
+  - 12,756 km
+  scene:
+    type: stat
+    value: 12,756
+    label: Earth diameter in km
+- say: The Moon has a diameter of 3 4 7 5 kilometers.
+  caption: The Moon has a diameter of 3,475 km.
+  highlight:
+  - 3,475 km
+  scene:
+    type: stat
+    value: 3,475
+    label: Moon diameter in km
+- say: Earth orbits at 1 4 9.6 million kilometers from the Sun, while the Moon stays just 0.3 8 4 million kilometers away.
+  caption: Earth orbits at 149.6 million km from the Sun, while the Moon stays just 0.384 million km away.
+  highlight:
+  - 149.6 million km
+  - 0.384 million km
+  scene:
+    type: compare
+    left_label: Earth distance to Sun
+    left_text: 149.6 million km
+    right_label: Moon distance to Sun
+    right_text: 0.384 million km
+- say: The ratio between their sizes is 3.6 7.
+  caption: The ratio between their sizes is 3.67.
+  highlight:
+  - '3.67'
+  scene:
+    type: sizes
+    a_label: Earth
+    a_value: 12756.0
+    b_label: Moon
+    b_value: 3475.0
+    unit: km
+- say: Figures from NASA's Planetary Fact Sheet.
+  caption: Figures from NASA's Planetary Fact Sheet.
+  highlight:
+  - NASA's Planetary Fact Sheet
+  scene:
+    type: quote
+    text: Figures from NASA's Planetary Fact Sheet.
+    highlight:
+    - NASA's Planetary Fact Sheet
+description:
+  explainer: The Moon is much smaller than Earth. This video compares their diameters and distances from the Sun.
+  sources:
+  - 'NASA Planetary Fact Sheet: https://nssdc.gsfc.nasa.gov/planetary/factsheet/'
+seo:
+  seeds:
+  - size of the moon vs earth
+  - moon diameter in km
+  - earth moon distance from sun
+  hashtags:
+  - '#Moon'
+  - '#Earth'
+series: Scale It
+record_id: scale:EARTH:MOON
+auto: true
+instagram_hashtags_rotating: []

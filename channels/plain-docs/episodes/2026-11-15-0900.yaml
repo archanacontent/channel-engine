@@ -1,0 +1,69 @@
+skip: false
+skip_reason: ''
+title: Fixing a real README in under a minute
+beats:
+- say: Vague READMEs cause users to doubt your tool.
+  caption: Vague READMEs cause users to doubt your tool.
+  highlight:
+  - Vague READMEs
+  scene:
+    type: headline
+    text: Vague READMEs cause doubt
+- say: Look at this sentence from the Proxy README. This proxy list is collected from the list of proxies available on the Internet.
+  caption: Look at this sentence from the Proxy README. This proxy list is collected from the list of proxies available on the Internet.
+  highlight:
+  - This proxy list is collected
+  scene:
+    type: compare
+    left_label: Original
+    left_text: This proxy list is collected from the list of proxies available on the Internet.
+    right_label: Rewrite
+    right_text: We collect proxies from across the internet.
+- say: The original uses unnecessary words like list of proxies and available on the Internet. We removed the repetition and made the action direct.
+  caption: The original uses unnecessary words like list of proxies and available on the Internet. We removed the repetition and made the action direct.
+  highlight:
+  - removed the repetition
+  - made the action direct
+  scene:
+    type: list
+    title: The Edits
+    items:
+    - Removed redundant words
+    - Used active voice
+    style: check
+- say: Clearer prose builds trust with your users.
+  caption: Clearer prose builds trust with your users.
+  highlight:
+  - Clearer prose builds trust
+  scene:
+    type: cta
+    line: Build trust through clarity.
+    subline: Subscribe for more technical writing tips.
+- say: Write for the reader, not for the word count.
+  caption: Write for the reader, not for the word count.
+  highlight:
+  - Write for the reader
+  scene:
+    type: quote
+    text: Write for the reader, not for the word count.
+    highlight:
+    - Write for the reader
+description:
+  what_was_fixed: I removed redundant phrasing from the Proxy README to make the collection process clear.
+  rule: Eliminate wordy repetition to improve readability.
+  sources:
+  - 'ALIILAPRO/Proxy README (MIT): https://github.com/ALIILAPRO/Proxy'
+  source_link: https://github.com/ALIILAPRO/Proxy
+  license: MIT
+seo:
+  seeds:
+  - how to write technical documentation
+  - README best practices
+  - technical writing for beginners
+  hashtags:
+  - '#TechnicalWriting'
+  - '#DeveloperDocs'
+series: Rewrite This
+record_id: repo:ALIILAPRO/Proxy
+auto: true
+instagram_hashtags_rotating: []

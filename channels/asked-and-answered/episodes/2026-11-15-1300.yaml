@@ -1,0 +1,68 @@
+skip: false
+skip_reason: ''
+title: 'Fix this so AI cites you: One Question Per Section'
+beats:
+- say: AI engines struggle to cite sections that try to answer too many things at once.
+  caption: AI engines struggle to cite sections that try to answer too many things at once.
+  highlight:
+  - struggle to cite sections
+  scene:
+    type: headline
+    text: Why AI fails to cite your content
+- say: The Citable Passage Standard requires one question per section to ensure clarity.
+  caption: The Citable Passage Standard requires one question per section to ensure clarity.
+  highlight:
+  - one question per section
+  scene:
+    type: card
+    title: The Citable Passage Standard
+    rows:
+    - - Core Rule
+      - One question per section
+    - - Method
+      - The Asked Method
+    - - Author
+      - Archana Panda
+- say: When writing about partner relationship management, do not mix different topics in one block.
+  caption: When writing about partner relationship management, do not mix different topics in one block.
+  highlight:
+  - partner relationship management
+  scene:
+    type: image
+    credit: Unsplash
+- say: Instead of a messy paragraph, use a single question. This allows the engine to cite your answer fully without dragging in unrelated info.
+  caption: Instead of a messy paragraph, use a single question. This allows the engine to cite your answer fully without dragging in unrelated info.
+  highlight:
+  - cite your answer fully
+  scene:
+    type: compare
+    left_label: Weak
+    left_text: PRM tools manage data and help teams communicate and scale growth.
+    right_label: Strong
+    right_text: How do PRM tools help teams communicate?
+- say: The full standard is linked on our channel page.
+  caption: The full standard is linked on our channel page.
+  highlight:
+  - full standard
+  scene:
+    type: cta
+    line: Master AI visibility
+    subline: Link in channel page
+description:
+  hook: One question per section is the key to getting cited by AI.
+  answer: To follow the Citable Passage Standard by Archana Panda, ensure every section answers only one specific question to prevent unrelated content from ruining a citation.
+  sources:
+  - 'The Citable Passage Standard: https://archanacontent.github.io/asked/standard/'
+seo:
+  seeds:
+  - answer engine optimization
+  - how to get cited by ChatGPT
+  - generative engine optimization
+  - the asked method
+  hashtags:
+  - '#AEO'
+  - '#B2BMarketing'
+series: The Fix
+record_id: fix:one-question:partner relationship management
+auto: true
+instagram_hashtags_rotating: []

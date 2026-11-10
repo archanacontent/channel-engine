@@ -1,0 +1,79 @@
+skip: false
+skip_reason: ''
+title: 'Writing rule: Use present tense for general behavior'
+beats:
+- say: General product behavior should always be described in the present tense.
+  caption: General product behavior should always be described in the present tense.
+  highlight:
+  - General product behavior
+  - present tense
+  scene:
+    type: headline
+    text: Mastering Tense in Technical Writing
+- say: Vague documentation uses future tense for things that happen immediately.
+  caption: Vague documentation uses future tense for things that happen immediately.
+  highlight:
+  - Vague documentation
+  - future tense
+  scene:
+    type: compare
+    left_label: Weak
+    left_text: The server will send an acknowledgment.
+    right_label: Strong
+    right_text: The server sends an acknowledgment.
+- say: Use the word will only for actions occurring later in a process.
+  caption: Use the word will only for actions occurring later in a process.
+  highlight:
+  - actions occurring later
+  scene:
+    type: list
+    title: When to use 'will'
+    items:
+    - Asynchronous message delivery
+    - Scheduled backup processes
+    style: bullet
+- say: Avoid the hypothetical would when describing how a system handles requests.
+  caption: Avoid the hypothetical would when describing how a system handles requests.
+  highlight:
+  - Avoid the hypothetical would
+  scene:
+    type: compare
+    left_label: Weak
+    left_text: The server would then remove you.
+    right_label: Strong
+    right_text: The server removes you.
+- say: These principles come from Google developer documentation.
+  caption: These principles come from Google developer documentation.
+  highlight:
+  - Google developer documentation
+  scene:
+    type: image
+    credit: Google Developers
+- say: Use present tense for general behavior. Use future tense for delayed actions.
+  caption: Use present tense for general behavior. Use future tense for delayed actions.
+  highlight:
+  - Use present tense
+  - Use future tense
+  scene:
+    type: quote
+    text: Use present tense for statements that describe general behavior.
+    highlight:
+    - present tense
+    - general behavior
+description:
+  what_was_fixed: This video explains how to use the correct tense to describe software behavior.
+  rule: Use present tense for general behavior and future tense only for delayed actions.
+  sources:
+  - 'Google developer documentation: https://developers.google.com/style/tense'
+seo:
+  seeds:
+  - technical writing tense rules
+  - how to write documentation
+  - Google developer style guide
+  hashtags:
+  - '#TechnicalWriting'
+  - '#Documentation'
+series: One Rule
+record_id: style:https://developers.google.com/style/tense
+auto: true
+instagram_hashtags_rotating: []

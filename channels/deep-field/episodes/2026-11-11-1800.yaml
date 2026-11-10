@@ -1,0 +1,71 @@
+skip: false
+skip_reason: ''
+title: How big is Mercury, really?
+beats:
+- say: Mercury is more than twice as wide as Pluto.
+  caption: Mercury is more than twice as wide as Pluto.
+  highlight:
+  - twice as wide
+  scene:
+    type: headline
+    text: Mercury vs Pluto
+- say: Mercury has a diameter of 4 8 7 9 kilometers. Pluto measures 2 3 7 6 kilometers across.
+  caption: Mercury has a diameter of 4879 km. Pluto measures 2376 km across.
+  highlight:
+  - 4879 km
+  - 2376 km
+  scene:
+    type: sizes
+    a_label: Mercury
+    a_value: 4879.0
+    b_label: Pluto
+    b_value: 2376.0
+    unit: km
+- say: While Mercury sits only 57.9 million km from the Sun, Pluto is much further away.
+  caption: While Mercury sits only 57.9 million km from the Sun, Pluto is much further away.
+  highlight:
+  - 57.9 million km
+  scene:
+    type: compare
+    left_label: Mercury Distance
+    left_text: 57.9 million km
+    right_label: Pluto Distance
+    right_text: 5906.4 million km
+- say: Mercury is the inner planet. Pluto is a dwarf planet.
+  caption: Mercury is the inner planet. Pluto is a dwarf planet.
+  highlight:
+  - inner planet
+  - dwarf planet
+  scene:
+    type: list
+    title: Classification
+    items:
+    - 'Mercury: Inner planet'
+    - 'Pluto: Dwarf planet'
+    style: bullet
+- say: Figures from NASA's Planetary Fact Sheet.
+  caption: Figures from NASA's Planetary Fact Sheet.
+  highlight:
+  - NASA's Planetary Fact Sheet
+  scene:
+    type: quote
+    text: Figures from NASA's Planetary Fact Sheet.
+    highlight:
+    - NASA's Planetary Fact Sheet
+description:
+  explainer: Mercury is more than twice the diameter of Pluto. This video compares the sizes and distances of these two worlds.
+  sources:
+  - 'NASA Planetary Fact Sheet: https://nssdc.gsfc.nasa.gov/planetary/factsheet/'
+seo:
+  seeds:
+  - Mercury vs Pluto size comparison
+  - how big is mercury
+  - mercury diameter vs pluto diameter
+  - mercury distance from sun
+  hashtags:
+  - '#Space'
+  - '#Mercury'
+series: Scale It
+record_id: scale:MERCURY:PLUTO
+auto: true
+instagram_hashtags_rotating: []
