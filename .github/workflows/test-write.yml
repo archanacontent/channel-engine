@@ -29,4 +29,7 @@ jobs:
         run: python -m pipeline.week --slug ${{ inputs.slug }} --start ${{ inputs.start }} --days ${{ inputs.days }} --out out
       - uses: actions/upload-artifact@v4
         if: always()
-        with: { name: test-${{ inputs.slug }}, path: out, retention-days: 2 }
+        with:
+          name: test-${{ inputs.slug }}
+          path: out
+          retention-days: 2
