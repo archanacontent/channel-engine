@@ -18,7 +18,7 @@ from zoneinfo import ZoneInfo
 
 import yaml
 
-from pipeline.write import write_episode
+from pipeline.write import QuotaSpent, write_episode
 from sources.fetch import UA, next_record
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -36,6 +36,7 @@ def main():
     ap.add_argument("--start", required=True)
     ap.add_argument("--days", type=int, default=7)
     ap.add_argument("--out", default="out")
+    ap.add_argument("--max", type=int, default=99, help="stop after this many Shorts")
     a = ap.parse_args()
 
     chan = ROOT / "channels" / a.slug
@@ -43,13 +44,18 @@ def main():
     out = Path(a.out) / a.slug
     (out / "media").mkdir(parents=True, exist_ok=True)
     used = load_used()
+    qp = ROOT / "queue" / "current.json"
+    queued = {e["stem"] for e in (json.loads(qp.read_text()) if qp.exists() else []) if e["slug"] == a.slug}
     taken, manifest, failures = set(), [], []
+    spent = False
     start = date.fromisoformat(a.start)
 
     for day in range(a.days):
         d = start + timedelta(days=day)
         for slot in brand["series"]:
             hh, mm = map(int, slot["slot"].split(":"))
+            if f"{d.isoformat()}-{slot['slot'].replace(':', '')}" in queued or len(manifest) >= a.max or spent:
+                continue
             when = datetime(d.year, d.month, d.day, hh, mm, tzinfo=ET)
             t0 = time.time()
             rec = next_record(a.slug, slot["name"], used, taken)
@@ -61,6 +67,10 @@ def main():
             print(f"writing {d} {slot['slot']} {rec['series']} {rec['id']}", flush=True)
             try:
                 ep, err = write_episode(brand, rec)
+            except QuotaSpent as e:
+                failures.append(f"Stopped at {d} {slot['slot']}: {e}. The next run picks up from here.")
+                spent = True
+                continue
             except Exception as e:
                 ep, err = None, str(e)
             if not ep:
@@ -72,6 +82,10 @@ def main():
                 taken.add(rec["id"])
                 try:
                     ep, err = write_episode(brand, rec)
+                except QuotaSpent as e:
+                    failures.append(f"Stopped at {d} {slot['slot']}: {e}. The next run picks up from here.")
+                    spent = True
+                    continue
                 except Exception as e:
                     ep, err = None, str(e)
                 if not ep:

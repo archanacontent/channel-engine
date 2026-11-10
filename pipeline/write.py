@@ -16,7 +16,7 @@ import urllib.request
 
 MODELS = os.environ.get("GEMINI_MODELS",
                         "gemini-3.8-flash,gemini-3.7-flash,gemini-3.6-flash,gemini-3.5-flash,"
-                        "gemini-3.5-flash-lite,gemini-3.1-flash-lite,gemini-3.1-flash-lite-preview,"
+                        "gemma-4-26b-a4b-it,gemini-3.5-flash-lite,gemini-3.1-flash-lite,gemini-3.1-flash-lite-preview,"
                         "gemini-flash-lite-latest").split(",")
 # Free tier limits are per model per day, so a model that reports its daily
 # quota as spent is skipped for the rest of the run.
@@ -127,20 +127,30 @@ NEEDS = {"headline": ["text"], "stat": ["value", "label"], "card": ["title", "ro
          "sizes": ["a_label", "b_label"], "quote": ["text"], "cta": ["line"]}
 
 
+class QuotaSpent(RuntimeError):
+    pass
+
+
 def _call(model, system, user, key, schema=None):
     cfg = {"responseMimeType": "application/json", "temperature": 0.7}
-    if schema:
-        cfg["responseSchema"] = schema
-    body = json.dumps({
-        "systemInstruction": {"parts": [{"text": system}]},
-        "contents": [{"role": "user", "parts": [{"text": user}]}],
-        "generationConfig": cfg,
-    }).encode()
-    req = urllib.request.Request(API.format(m=model), data=body, method="POST",
+    if model.startswith("gemma"):
+        # Gemma takes no system instruction or schema; the rules go in the prompt.
+        payload = {"contents": [{"role": "user", "parts": [{"text": system + "\n\n" + user}]}]}
+    else:
+        if schema:
+            cfg["responseSchema"] = schema
+        payload = {"systemInstruction": {"parts": [{"text": system}]},
+                   "contents": [{"role": "user", "parts": [{"text": user}]}]}
+    payload["generationConfig"] = cfg
+    req = urllib.request.Request(API.format(m=model), data=json.dumps(payload).encode(), method="POST",
                                  headers={"Content-Type": "application/json", "x-goog-api-key": key})
-    with urllib.request.urlopen(req, timeout=120) as r:
+    with urllib.request.urlopen(req, timeout=180) as r:
         data = json.loads(r.read())
-    return data["candidates"][0]["content"]["parts"][0]["text"]
+    parts = [p.get("text", "") for p in data["candidates"][0]["content"]["parts"] if not p.get("thought")]
+    text = parts[-1].strip()
+    if text.startswith("```"):
+        text = re.sub(r"^```(?:json)?|```$", "", text).strip()
+    return text
 
 
 def generate(system, user, schema=None):
@@ -175,6 +185,8 @@ def generate(system, user, schema=None):
                 last = f"{model}: {e!r}"
                 time.sleep(5)
                 continue
+    if all(m.strip() in SPENT for m in MODELS):
+        raise QuotaSpent("every free model has used its daily quota")
     raise RuntimeError(f"Gemini unavailable: {last}")
 
 

@@ -1,15 +1,15 @@
-name: Weekly Shorts
+name: Make Shorts
 
-# Saturday: write and render the coming week (Monday to Sunday), store the videos,
-# upload the first 95 as private and open the review issue. The daily upload job
-# sends the rest. Run it by hand with a start date to fill any other stretch.
+# Every morning, just after the free AI quotas reset, write and render every
+# empty slot in the next 8 days, upload them as private and update the review
+# issue for their week. If the free quota runs out, the next morning continues.
 on:
   schedule:
-    - cron: "0 9 * * 6"
+    - cron: "17 8 * * *"
   workflow_dispatch:
     inputs:
       start:
-        description: "First day to fill (YYYY-MM-DD). Empty = next Monday."
+        description: "First day to fill (YYYY-MM-DD). Empty = tomorrow."
         required: false
       days:
         description: "How many days"
@@ -34,8 +34,8 @@ jobs:
       - id: p
         run: |
           start="${{ github.event.inputs.start }}"
-          if [ -z "$start" ]; then start=$(date -u -d "next monday" +%F); fi
-          days="${{ github.event.inputs.days }}"; [ -z "$days" ] && days=7
+          if [ -z "$start" ]; then start=$(date -u -d tomorrow +%F); fi
+          days="${{ github.event.inputs.days }}"; [ -z "$days" ] && days=8
           echo "start=$start" >> "$GITHUB_OUTPUT"; echo "days=$days" >> "$GITHUB_OUTPUT"
 
   render:
@@ -96,13 +96,13 @@ jobs:
           YT_REFRESH_BREACH_BRIEF: ${{ secrets.YT_REFRESH_BREACH_BRIEF }}
           YT_REFRESH_PLAIN_DOCS: ${{ secrets.YT_REFRESH_PLAIN_DOCS }}
           YT_REFRESH_DEEP_FIELD: ${{ secrets.YT_REFRESH_DEEP_FIELD }}
-        run: python -m pipeline.upload --collect collected --release week-${{ needs.plan.outputs.start }}
+        run: python -m pipeline.upload --collect collected --release shorts-${{ github.run_id }}
       - name: Save queue and scripts
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add queue state channels/*/episodes
-          git diff --cached --quiet || git commit -m "Queue Shorts for week of ${{ needs.plan.outputs.start }}"
+          git diff --cached --quiet || git commit -m "Queue new Shorts"
           git pull --rebase -q && git push
       - name: Report problems
         if: always()

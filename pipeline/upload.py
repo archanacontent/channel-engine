@@ -125,11 +125,17 @@ def review_body(entries, ticked):
     return "\n".join(out)
 
 
+def week_of(e):
+    d = datetime.fromisoformat(e["publish_at"]).date()
+    return (d - timedelta(days=d.weekday())).isoformat()
+
+
 def update_issues(queue):
+    """One review issue per posting week (Monday to Sunday)."""
     sh("gh", "label", "create", "review", "--color", "1D76DB", "--force", check=False)
-    for release in sorted({e["release"] for e in queue}):
-        entries = [e for e in queue if e["release"] == release]
-        title = f"Review: {release.replace('week-', 'week of ')}"
+    for week in sorted({week_of(e) for e in queue}):
+        entries = [e for e in queue if week_of(e) == week]
+        title = f"Review: week of {week}"
         found = json.loads(sh("gh", "issue", "list", "--label", "review", "--state", "open", "--search",
                               f'"{title}" in:title', "--json", "number,title,body").stdout or "[]")
         found = [i for i in found if i["title"] == title]
