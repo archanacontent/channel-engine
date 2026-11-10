@@ -75,8 +75,9 @@ def upload_pending(queue):
     today = datetime.now(PT).date().isoformat()
     done_today = sum(1 for e in queue if (e.get("uploaded_at") or "")[:10] == today)
     budget = CAP - done_today
+    capped = set()  # channels that hit YouTube's own daily upload limit
     for e in sorted(queue, key=lambda x: x["publish_at"]):
-        if e["status"] != "rendered" or budget <= 0:
+        if e["status"] != "rendered" or budget <= 0 or e["slug"] in capped:
             continue
         f = STAGE / asset(e)
         if not f.exists():
@@ -89,8 +90,11 @@ def upload_pending(queue):
             e["video_id"] = upload_private(e["slug"], str(f), e["meta"])
         except Exception as ex:
             print("upload failed", asset(e), ex)
-            if "quota" in str(ex).lower() or "uploadLimitExceeded" in str(ex):
+            if "quota" in str(ex).lower():
                 break
+            if "uploadLimitExceeded" in str(ex) or "exceeded the number of videos" in str(ex):
+                capped.add(e["slug"])
+                print(f"{e['slug']} reached its daily upload limit; the rest go up tomorrow")
             continue
         e["status"] = "uploaded"
         e["uploaded_at"] = datetime.now(PT).isoformat()

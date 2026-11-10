@@ -161,9 +161,13 @@ def generate(system, user, schema=None):
     for model in [m.strip() for m in MODELS if m.strip() not in SPENT]:
         for attempt in range(3):
             try:
-                out = _call(model, system, user, key, schema)
+                out = json.loads(_call(model, system, user, key, schema))
                 time.sleep(2)
-                return json.loads(out)
+                if isinstance(out, list):
+                    out = next((x for x in out if isinstance(x, dict)), {})
+                if not isinstance(out, dict) or not out:
+                    raise KeyError("no JSON object")
+                return out
             except urllib.error.HTTPError as e:
                 body = e.read().decode("utf-8", "replace")
                 last = f"{model}: HTTP {e.code}"
