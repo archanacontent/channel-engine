@@ -38,7 +38,7 @@ class DocsPainter(Painter):
 
         def draw(d, s):
             S = size * s
-            d.rounded_rectangle((0, 0, S - 1, S - 1), radius=int(S * 0.22), fill=paper,
+            if not self.bare: d.rounded_rectangle((0, 0, S - 1, S - 1), radius=int(S * 0.22), fill=paper,
                                 outline=mix(paper, ink, 0.25), width=max(2, int(S * 0.02)))
             f = font(SR, int(S * 0.42), 700)
             tx = (S - f.getlength("PD")) / 2

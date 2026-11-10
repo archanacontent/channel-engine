@@ -1,0 +1,28 @@
+{
+ "2026-11-10-trend-ai-mode-queries": {
+  "bpm": 87,
+  "mode": "mixolydian",
+  "motif": [
+   0,
+   4,
+   2,
+   5,
+   3,
+   2
+  ],
+  "prog": 6,
+  "rhythm": [
+   0,
+   0,
+   1,
+   0,
+   0,
+   1,
+   0,
+   0
+  ],
+  "root": 9,
+  "seed": 50473451855088,
+  "sig": "9-mixolydian-6-87-042532"
+ }
+}

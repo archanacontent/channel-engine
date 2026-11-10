@@ -23,7 +23,7 @@ pip install -r requirements.txt
 python -m render.build channels/breach-brief/episodes/2026-11-10-openssh-cve-2026-123158.yaml --out out
 ```
 
-Add `--stills 3,12.5` to save single frames instead of rendering the whole video.
+Add `--stills 3,12.5` to save single frames instead of rendering the whole video. `python -m render.channel_art` redraws every channel's profile image, banner and watermark into `channels/<slug>/art/`.
 
 ## Brand Files
 
@@ -31,7 +31,7 @@ Add `--stills 3,12.5` to save single frames instead of rendering the whole video
 
 ## Music
 
-Drop Pixabay tracks into `channels/<slug>/music/`, using only tracks without the "Content ID Registered" label. Until a folder has tracks, the renderer uses a bed it synthesises itself, which carries no licence terms.
+`render/music.py` composes an original track for every Short: its own key, mode, chord progression, tempo, groove and melody, in the channel's style. `channels/<slug>/music/used.json` records each track, and a repeat on the same channel is rerolled. Nothing is licensed, so nothing can draw a Content ID claim.
 
 ## Posting And Review
 

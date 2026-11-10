@@ -13,8 +13,8 @@ beats:
   - say: "So write every section to answer one full question in its opening sentence. Name the subject instead of saying it, or this. And make sure the passage still makes sense when it's lifted off the page."
     caption: "So write every section to answer one full question in its opening sentence. Name the subject instead of saying it, or this. And make sure the passage still makes sense when it's lifted off the page."
     highlight: [opening sentence, Name the subject, lifted off the page.]
-  - say: "Want the questions your buyers ask? Try Asked. It's free, and the link is in the description."
-    caption: "Want the questions your buyers ask? Try Asked. It's free, and the link is in the description."
+  - say: "Want the questions your buyers ask? Try Asked. It's free, and the link is on our channel page."
+    caption: "Want the questions your buyers ask? Try Asked. It's free, and the link is on our channel page."
     highlight: [Asked]
 description:
   hook: AI Mode searches now run three times longer than a classic Google search.

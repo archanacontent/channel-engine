@@ -31,7 +31,7 @@ class ShelfPainter(Painter):
 
         def draw(d, s):
             S = size * s
-            d.rounded_rectangle((0, 0, S - 1, S - 1), radius=int(S * 0.22), fill=(17, 24, 39),
+            if not self.bare: d.rounded_rectangle((0, 0, S - 1, S - 1), radius=int(S * 0.22), fill=(17, 24, 39),
                                 outline=mix((17, 24, 39), (255, 255, 255), 0.25), width=max(2, int(S * 0.02)))
             bw, gap, base = S * 0.19, S * 0.06, S * 0.66
             x0 = (S - (3 * bw + 2 * gap)) / 2
@@ -161,7 +161,7 @@ class ShelfPainter(Painter):
         lg = self.logo_big.resize((size, size))
         img.paste(lg, ((W - size) // 2, 560 - size // 2), lg)
         text_c(d, W / 2, 760, "Free template", font(MR, 96, 800), self.p["text"])
-        chips = [("Validated in n8n", 0.6), ("Link in description", 1.2)]
+        chips = [("Validated in n8n", 0.6), ("Link on our channel page", 1.2)]
         cf = font(JB, 36, 600)
         y = 930
         for label, at in chips:

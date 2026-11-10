@@ -15,8 +15,8 @@ beats:
   - say: "Step two. Each new post lands in a Google Sheet as a new row, with the date, title, link, and a short summary."
     caption: "Step two. Each new post lands in a Google Sheet as a new row, with the date, title, link and a short summary."
     highlight: [Google Sheet]
-  - say: "You read one sheet instead of visiting every blog. The template is free, it passed n eight n's workflow validator, and the link is in the description."
-    caption: "You read one sheet instead of visiting every blog. The template is free, it passed n8n's workflow validator, and the link is in the description."
+  - say: "You read one sheet instead of visiting every blog. The template is free, it passed n eight n's workflow validator, and the link is on our channel page."
+    caption: "You read one sheet instead of visiting every blog. The template is free, it passed n8n's workflow validator, and the link is on our channel page."
     highlight: [free]
 description:
   task_line: Log every new post from a competitor's blog to a Google Sheet, automatically.

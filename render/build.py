@@ -121,7 +121,7 @@ def main():
         print("timing", [(round(s, 2), round(bd, 2)) for s, _, bd in timing], "total", round(total, 2))
         return
 
-    bed, bed_name = audio.load_bed(slug, chan_dir / "music", total)
+    bed, bed_name = audio.load_bed(slug, chan_dir / "music", total, stem)
     wav = out / f"{stem}.wav"
     audio.mixdown(voice, bed, brand["music"]["gain_db"], wav)
 

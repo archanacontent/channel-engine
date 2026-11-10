@@ -101,10 +101,11 @@ def synth_bed(slug, dur):
     return out / (np.max(np.abs(out)) + 1e-9)
 
 
-def load_bed(slug, music_dir, dur):
+def load_bed(slug, music_dir, dur, episode):
     tracks = sorted(Path(music_dir).glob("*.mp3")) + sorted(Path(music_dir).glob("*.wav"))
     if not tracks:
-        return synth_bed(slug, dur), "synthesised bed"
+        from render.music import bed_for
+        return bed_for(slug, episode, dur, music_dir)
     import subprocess
     pick = tracks[hash(slug + str(int(dur))) % len(tracks)]
     raw = subprocess.run(["ffmpeg", "-v", "error", "-i", str(pick), "-t", str(dur), "-ac", "1", "-ar", str(SR),

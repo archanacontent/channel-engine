@@ -31,17 +31,24 @@ class AskedPainter(Painter):
 
         def draw(d, s):
             S = size * s
-            d.rounded_rectangle((0, 0, S - 1, S - 1), radius=int(S * 0.22), fill=mix(bg, (255, 255, 255), 0.08),
+            if not self.bare: d.rounded_rectangle((0, 0, S - 1, S - 1), radius=int(S * 0.22), fill=mix(bg, (255, 255, 255), 0.08),
                                 outline=acc, width=max(2, int(S * 0.035)))
             cx = S / 2
-            # Hook of the question mark.
-            r, w = S * 0.17, int(S * 0.085)
-            box = (cx - r, S * 0.17, cx + r, S * 0.17 + 2 * r)
-            d.arc(box, start=180, end=60, fill=acc, width=w)
-            d.line([(cx + r * 0.5, S * 0.17 + r * 1.86), (cx, S * 0.17 + r * 2.35), (cx, S * 0.6)], fill=acc, width=w,
-                   joint="curve")
+            # The question mark's hook comes from Space Grotesk; its dot is cut away.
+            f = font(SG, int(S * 0.62), 700)
+            gw, gh = int(S), int(S)
+            g = Image.new("L", (gw, gh), 0)
+            ImageDraw.Draw(g).text((gw / 2 - f.getlength("?") / 2, 0), "?", font=f, fill=255)
+            rows = [i for i in range(gh) if g.crop((0, i, gw, i + 1)).getbbox()]
+            gap = next((rows[k] for k in range(len(rows) - 1, 0, -1) if rows[k] - rows[k - 1] > 2), rows[-1])
+            hook = g.crop((0, 0, gw, gap - 1))
+            hb = hook.getbbox()
+            hook = hook.crop(hb)
+            oy = int(S * 0.13)
+            d._image.paste(acc + (255,) if d._image.mode == "RGBA" else acc,
+                           (int(cx - hook.width / 2), oy), hook)
             # The dot is a speech bubble.
-            bw, bh, by = S * 0.2, S * 0.13, S * 0.67
+            bw, bh, by = S * 0.22, S * 0.13, oy + hook.height + S * 0.06
             d.rounded_rectangle((cx - bw / 2, by, cx + bw / 2, by + bh), radius=int(bh * 0.35), fill=acc)
             d.polygon([(cx - bw * 0.15, by + bh - 1), (cx - bw * 0.42, by + bh + S * 0.07), (cx + bw * 0.1, by + bh - 1)],
                       fill=acc)
@@ -168,4 +175,4 @@ class AskedPainter(Painter):
         if t > 0.8:
             text_c(d, W / 2, 940, "Free AEO and GEO question finder", font(IN, 44, 500), self.p["muted_text"])
         if t > 1.4:
-            text_c(d, W / 2, 1020, "Link in the description", font(IN, 44, 700), self.p["accent"])
+            text_c(d, W / 2, 1020, "Link on our channel page", font(IN, 44, 700), self.p["accent"])

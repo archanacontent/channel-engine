@@ -9,6 +9,7 @@ class Painter:
     caption_style = {}
     tag_text_color = "#FFFFFF"
     tag_font = ("Inter[opsz,wght].ttf", 600)
+    bare = False
 
     def __init__(self, brand, episode, timing):
         self.brand, self.ep, self.timing = brand, episode, timing

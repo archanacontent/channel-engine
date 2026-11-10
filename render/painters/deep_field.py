@@ -81,7 +81,7 @@ class FieldPainter(Painter):
 
         def draw(d, s):
             S = size * s
-            d.rounded_rectangle((0, 0, S - 1, S - 1), radius=int(S * 0.22), fill=(7, 11, 26))
+            if not self.bare: d.rounded_rectangle((0, 0, S - 1, S - 1), radius=int(S * 0.22), fill=(7, 11, 26))
             c, r = S / 2, S * 0.32
             d.ellipse((c - r, c - r, c + r, c + r), outline=vio, width=max(3, int(S * 0.045)))
             pts = []

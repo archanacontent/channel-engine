@@ -50,7 +50,7 @@ class BreachPainter(Painter):
 
         def draw(d, s):
             S = size * s
-            d.rounded_rectangle((0, 0, S - 1, S - 1), radius=int(S * 0.22), fill=(11, 15, 20))
+            if not self.bare: d.rounded_rectangle((0, 0, S - 1, S - 1), radius=int(S * 0.22), fill=(11, 15, 20))
             cx, top, bot, w = S / 2, S * 0.17, S * 0.85, S * 0.3
             shield = [(cx, top), (cx + w, top + S * 0.09), (cx + w, S * 0.5), (cx, bot), (cx - w, S * 0.5),
                       (cx - w, top + S * 0.09)]
