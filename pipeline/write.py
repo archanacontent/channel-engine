@@ -28,6 +28,8 @@ VOICE = """Writing rules, all mandatory:
 - Plain, confident, specific. Premium B2B tone for business channels, curious and clear for Space Science.
 - Use only facts present in SOURCE. Never add a number, date, name, product, statistic or claim that SOURCE does not state.
 - No em dashes or en dashes anywhere. No emojis. No hashtags in the script.
+- Never mention Archana Panda, the channel owner or who created a method or standard. Teach the idea itself.
+- Show, don't announce: never say "compare this" or "here is how"; state the actual weak line and the actual fix.
 - No filler openers such as "In this video", "Did you know", "Let's dive in", "Here's the thing".
 - Vary sentence length. No three-item rhythm in every sentence. No hedging.
 - First beat is the hook: the single most useful or surprising fact, stated outright in under 15 words.
