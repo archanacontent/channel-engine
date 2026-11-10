@@ -1,0 +1,29 @@
+series: Rewrite This
+title: "Fixing a real Git error message in under a minute"
+original:
+  text: "fatal: refusing to merge unrelated histories"
+  source: https://github.com/git/git
+  license: GPL-2.0
+beats:
+  - say: "Here's a real error message from Git."
+    caption: "Here's a real error message from Git."
+    highlight: [error message]
+  - say: "It tells you Git said no. It doesn't say why, or what to do next."
+    caption: "It tells you Git said no. It doesn't say why, or what to do next."
+    highlight: [why, what to do next]
+  - say: "Fix one. Say what happened in plain words. Git stopped the merge, because these two branches share no commit history."
+    caption: "Fix one. Say what happened in plain words. Git stopped the merge because these two branches share no commit history."
+    highlight: [plain words]
+  - say: "Fix two. Give the next step. If you meant to combine them, run git pull with the allow unrelated histories flag."
+    caption: "Fix two. Give the next step. If you meant to combine them, run git pull with the allow-unrelated-histories flag."
+    highlight: [next step]
+  - say: "Fix three. Drop the word fatal. Your working files didn't change. The merge just didn't run."
+    caption: "Fix three. Drop the word fatal. Your working files didn't change. The merge just didn't run."
+    highlight: [fatal]
+  - say: "The rule. A good error message names the problem, and the way out."
+    caption: "The rule. A good error message names the problem and the way out."
+    highlight: [the problem, the way out]
+description:
+  what_was_fixed: "A one-line Git error rewritten to say what happened and what to do next."
+  rule: An error message names the problem and the way out.
+instagram_hashtags_rotating: ["#DevDocs", "#UXWriting", "#WritingTips"]

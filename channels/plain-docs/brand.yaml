@@ -1,0 +1,44 @@
+name: Plain Docs
+slug: plain-docs
+positioning: Real docs, rewritten in under a minute
+description: >-
+  Learn technical writing by watching real documentation get better. Every Short
+  takes a passage from a public README, error message or help page and fixes it on
+  screen, with the reason behind each edit. For new writers, developers and career
+  switchers.
+palette:
+  background: "#FBF8F1"
+  text: "#1F2937"
+  edit: "#D7263D"
+  highlight: "#FFE066"
+  muted_text: "#6B7280"
+fonts:
+  headline: { file: "SourceSerif4[opsz,wght].ttf", weight: 600 }
+  body: { file: "SourceSans3[wght].ttf", weight: 400 }
+  caption: { file: "SourceSans3[wght].ttf", weight: 700 }
+voice: { model: kokoro-82m, voice: af_heart, speed: 1.03, lang: en-us }
+music: { source: pixabay, mood: [soft piano, calm acoustic], pool_size: 10, gain_db: -28 }
+captions:
+  size: 62
+  text: "#1F2937"
+  highlight: "#FFE066"
+  pill: { color: "#FFFFFF", opacity: 0.85 }
+series:
+  - { slot: "09:00", name: Rewrite This, source: public docs with open licenses }
+  - { slot: "13:00", name: One Rule, source: published style guides }
+  - { slot: "18:00", name: Doc Types, source: published style guides }
+titles:
+  Rewrite This: "Fixing a real {doc_kind} in under a minute"
+  One Rule: "Writing rule: {rule}"
+  Doc Types: "What a {doc_type} must include"
+description_template: |
+  {what_was_fixed}
+  Original: {source_link} ({license})
+  The rule: {rule}
+  Worked examples and guides: https://archanacontent.github.io/work/
+
+  {youtube_hashtags}
+hashtags:
+  youtube: ["#PlainDocs", "#TechnicalWriting", "#Documentation"]
+  instagram_anchors: ["#PlainDocs", "#TechnicalWriting"]
+  instagram_rotation: ["#WritingTips", "#Documentation", "#DevDocs", "#CareerChange", "#UXWriting", "#TechCareers"]

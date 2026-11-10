@@ -1,0 +1,27 @@
+series: Stop Doing This
+title: "Stop doing this by hand: tracking competitor blog posts"
+workflow_file: workflows/competitor-content-log.sdk.js
+workflow_validated: "n8n validate_workflow: valid, 2 nodes (2026-11-10)"
+beats:
+  - say: "Still checking competitor blogs by hand to see what they published?"
+    caption: "Still checking competitor blogs by hand to see what they published?"
+    highlight: [by hand]
+  - say: "Hand it to a two-step workflow that runs on its own."
+    caption: "Hand it to a two-step workflow that runs on its own."
+    highlight: [two-step workflow]
+  - say: "Step one. An RSS trigger watches their blog feed, and checks it every hour."
+    caption: "Step one. An RSS trigger watches their blog feed, and checks it every hour."
+    highlight: [RSS trigger, every hour]
+  - say: "Step two. Each new post lands in a Google Sheet as a new row, with the date, title, link, and a short summary."
+    caption: "Step two. Each new post lands in a Google Sheet as a new row, with the date, title, link and a short summary."
+    highlight: [Google Sheet]
+  - say: "You read one sheet instead of visiting every blog. The template is free, it passed n eight n's workflow validator, and the link is in the description."
+    caption: "You read one sheet instead of visiting every blog. The template is free, it passed n8n's workflow validator, and the link is in the description."
+    highlight: [free]
+description:
+  task_line: Log every new post from a competitor's blog to a Google Sheet, automatically.
+  tools: n8n (RSS Feed Trigger), Google Sheets
+  template_link: "[added when the public template library repo is created]"
+  setup_time: "Paste the feed URL, connect Google Sheets, pick the sheet"
+  note: Works with any blog that publishes an RSS feed.
+instagram_hashtags_rotating: ["#n8n", "#NoCode", "#MarketingOps"]

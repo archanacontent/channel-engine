@@ -1,0 +1,50 @@
+name: Asked & Answered
+slug: asked-and-answered
+positioning: What your buyers ask AI before they ever talk to sales
+description: >-
+  Every Short starts from a real question buyers ask AI search about a B2B topic,
+  with the evidence behind it. You get the question, the answer AI engines give
+  today, and the one change that gets your page cited. Built on Asked, a free tool
+  by Archana Panda.
+palette:
+  background: "#1E1B4B"
+  accent: "#F59E0B"
+  text: "#FAFAF7"
+  secondary: "#475569"
+  muted_text: "#C7C9E0"
+fonts:
+  headline: { file: "SpaceGrotesk[wght].ttf", weight: 700 }
+  body: { file: "Inter[opsz,wght].ttf", weight: 400 }
+  caption: { file: "Inter[opsz,wght].ttf", weight: 600 }
+voice: { model: kokoro-82m, voice: am_michael, speed: 1.05, lang: en-us }
+music: { source: pixabay, mood: [minimal tech, lo-fi corporate], pool_size: 10, gain_db: -24 }
+captions:
+  size: 64
+  text: "#FAFAF7"
+  highlight: "#F59E0B"
+  pill: { color: "#1E1B4B", opacity: 0.7 }
+  words_per_line: [3, 5]
+series:
+  - { slot: "09:00", name: Buyers Asked, source: asked }
+  - { slot: "13:00", name: The Fix, source: asked-standard }
+  - { slot: "18:00", name: Trend Check, source: sourced-news }
+titles:
+  Buyers Asked: "Buyers ask AI: {question}"
+  The Fix: "Fix this so AI cites you: {issue}"
+  Trend Check: "AI search in 2026: {shift}"
+description_template: |
+  {hook}
+  {answer}
+
+  Sources:
+  {source_links}
+
+  Find your buyers' questions: https://archanacontent.github.io/asked/
+  More from Archana Panda: https://archanacontent.github.io
+
+  {youtube_hashtags}
+hashtags:
+  youtube: ["#AskedAndAnswered", "#AEO", "#B2BMarketing"]
+  instagram_anchors: ["#AskedAndAnswered", "#B2BMarketing"]
+  instagram_rotation: ["#AEO", "#GEO", "#AISearch", "#ContentMarketing", "#SaaSMarketing", "#SEO2026"]
+pinned_comment: Send a B2B keyword and the next Buyers Asked could be about it.

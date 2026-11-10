@@ -1,0 +1,32 @@
+name: Post slot
+
+# 09:00, 13:00 and 18:00 US Eastern (winter offsets, UTC-5). Publishes only ticked Shorts.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 14 * * *"
+    - cron: "0 18 * * *"
+    - cron: "0 23 * * *"
+
+permissions:
+  issues: read
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -q google-api-python-client google-auth
+      - name: Publish approved Shorts for this slot
+        env:
+          GH_TOKEN: ${{ github.token }}
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_ASKED_AND_ANSWERED: ${{ secrets.YT_REFRESH_ASKED_AND_ANSWERED }}
+          YT_REFRESH_AUTOMATION_SHELF: ${{ secrets.YT_REFRESH_AUTOMATION_SHELF }}
+          YT_REFRESH_BREACH_BRIEF: ${{ secrets.YT_REFRESH_BREACH_BRIEF }}
+          YT_REFRESH_PLAIN_DOCS: ${{ secrets.YT_REFRESH_PLAIN_DOCS }}
+          YT_REFRESH_DEEP_FIELD: ${{ secrets.YT_REFRESH_DEEP_FIELD }}
+        run: python -m review.slot_check queue/current.json

@@ -1,0 +1,27 @@
+series: Scale It
+title: "How big is Jupiter, really?"
+visuals: Drawn vector graphics, not NASA imagery. No altered-content disclosure needed.
+beats:
+  - say: "How big is Jupiter, really?"
+    caption: "How big is Jupiter, really?"
+    numbers: []
+  - say: "NASA puts it at eleven times wider than Earth. Line up eleven Earths, and they span it edge to edge."
+    caption: "NASA puts it at 11 times wider than Earth. Line up 11 Earths, and they span it edge to edge."
+    numbers: ["11"]
+  - say: "Make it hollow, and about a thousand Earths could fit inside."
+    caption: "Make it hollow, and about 1,000 Earths could fit inside."
+    numbers: ["1,000"]
+  - say: "Shrink Earth to the size of a grape, and Jupiter becomes a basketball."
+    caption: "Shrink Earth to the size of a grape, and Jupiter becomes a basketball."
+    numbers: [grape, basketball]
+  - say: "Even its weather outgrows us. The Great Red Spot, a giant oval storm, is twice as wide as Earth. And people have watched it for more than three hundred years."
+    caption: "Even its weather outgrows us. The Great Red Spot, a giant oval storm, is twice as wide as Earth. And people have watched it for more than 300 years."
+    numbers: [twice, "300"]
+  - say: "Figures from NASA's Jupiter facts page."
+    caption: "Figures from NASA's Jupiter facts page."
+    numbers: []
+description:
+  explainer: Jupiter is 11 times wider than Earth, could hold about 1,000 Earths, and hosts a storm twice Earth's width.
+  credit: Facts from NASA. Graphics drawn for Deep Field.
+  source_link: https://science.nasa.gov/jupiter/facts/
+instagram_hashtags_rotating: ["#Astronomy", "#Planets", "#ScienceFacts"]

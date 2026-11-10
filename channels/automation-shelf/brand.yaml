@@ -1,0 +1,45 @@
+name: The Automation Shelf
+slug: automation-shelf
+positioning: One marketing task you can stop doing by hand, with the workflow free
+description: >-
+  A free library of marketing automations. Each Short shows one task that runs
+  itself, the exact workflow behind it, and a template you can import today. Only
+  what can be automated, tested before it's shared.
+palette:
+  background: "#111827"
+  accent: "#14B8A6"
+  line: "#CCFBF1"
+  text: "#FFFFFF"
+  muted_text: "#9CA3AF"
+fonts:
+  headline: { file: "Manrope[wght].ttf", weight: 800 }
+  label: { file: "JetBrainsMono[wght].ttf", weight: 500 }
+  caption: { file: "Manrope[wght].ttf", weight: 700 }
+voice: { model: kokoro-82m, voice: af_bella, speed: 1.08, lang: en-us }
+music: { source: pixabay, mood: [upbeat electronic, motivational tech], pool_size: 10, gain_db: -24 }
+captions:
+  size: 62
+  text: "#FFFFFF"
+  highlight: "#14B8A6"
+  style: underline
+series:
+  - { slot: "09:00", name: Stop Doing This, source: n8n-library }
+  - { slot: "13:00", name: Shelf Pick, source: n8n-library }
+  - { slot: "18:00", name: "Can It Be Automated?", source: n8n-library }
+quality_gate: Every workflow passes the n8n workflow validator before it reaches the review queue.
+titles:
+  Stop Doing This: "Stop doing this by hand: {task}"
+  Shelf Pick: "Free workflow: {task} on autopilot"
+  "Can It Be Automated?": "Can you automate {task}?"
+description_template: |
+  {task_line}
+  Tools: {tools}
+  Template: {template_link}
+  Setup time: {setup_time}
+  Full library: {library_link}
+
+  {youtube_hashtags}
+hashtags:
+  youtube: ["#AutomationShelf", "#MarketingAutomation", "#NoCode"]
+  instagram_anchors: ["#AutomationShelf", "#MarketingAutomation"]
+  instagram_rotation: ["#n8n", "#NoCode", "#Workflow", "#MarketingOps", "#Productivity", "#SmallBusinessMarketing"]

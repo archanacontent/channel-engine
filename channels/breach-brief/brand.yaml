@@ -1,0 +1,53 @@
+name: Breach Brief
+slug: breach-brief
+positioning: One real security threat a day, and what to do about it
+description: >-
+  Short, sourced briefings on actively exploited flaws, company breaches and scams
+  going around right now. Every video names its source, what's affected and the
+  step that protects you. No fear, no hype.
+palette:
+  background: "#0B0F14"
+  threat: "#E5484D"
+  fix: "#3DD68C"
+  secondary: "#8B949E"
+  text: "#F0F3F6"
+fonts:
+  headline: { file: "IBMPlexSansCondensed-Bold.ttf" }
+  caption: { file: "IBMPlexSansCondensed-SemiBold.ttf" }
+  data: { file: "IBMPlexMono-Medium.ttf" }
+voice: { model: kokoro-82m, voice: am_onyx, speed: 1.0, lang: en-us }
+music: { source: pixabay, mood: [dark ambient, tension minimal], pool_size: 10, gain_db: -26 }
+captions:
+  size: 64
+  text: "#F0F3F6"
+  threat_words: "#E5484D"
+  fix_words: "#3DD68C"
+series:
+  - { slot: "09:00", name: Exploited Today, source: cisa-kev + nvd + vendor advisory }
+  - { slot: "13:00", name: Breach Watch, source: sec-edgar cyber incident filings }
+  - { slot: "18:00", name: Scam Alert, source: ftc consumer alerts }
+rules:
+  - Never name a person as a victim or a suspect.
+  - Breach Watch covers only what the company itself filed.
+titles:
+  Exploited Today: "Exploited now: {product} {cve}"
+  Breach Watch: "{company} breach: what was taken"
+  Scam Alert: "Scam alert: {scam}"
+description_template: |
+  {summary}
+  Affected: {affected}
+  What to do: {action}
+
+  Sources:
+  {source_links}
+
+  Query the NVD yourself: https://github.com/archanacontent/nvd-cve-api-docs
+
+  {youtube_hashtags}
+hashtags:
+  youtube_by_series:
+    Exploited Today: ["#BreachBrief", "#CyberSecurity", "#CVE"]
+    Breach Watch: ["#BreachBrief", "#CyberSecurity", "#DataBreach"]
+    Scam Alert: ["#BreachBrief", "#CyberSecurity", "#ScamAlert"]
+  instagram_anchors: ["#BreachBrief", "#CyberSecurity"]
+  instagram_rotation: ["#InfoSec", "#DataBreach", "#ScamAlert", "#Phishing", "#PatchNow", "#OnlineSafety"]

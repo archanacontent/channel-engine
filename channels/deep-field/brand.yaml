@@ -1,0 +1,45 @@
+name: Deep Field
+slug: deep-field
+positioning: One real picture of the universe a day, and what it shows
+description: >-
+  Real images and real missions, explained in under a minute. Every Short uses
+  imagery from NASA and other open science archives, with the source in the
+  description. No made-up planets, no AI fakes.
+palette:
+  background: "#070B1A"
+  accent: "#7C5CFF"
+  highlight: "#FF8A3D"
+  text: "#F8FAFC"
+  muted_text: "#A7B0C8"
+fonts:
+  headline: { file: "Sora[wght].ttf", weight: 600 }
+  caption: { file: "Inter[opsz,wght].ttf", weight: 600 }
+voice: { model: kokoro-82m, voice: bm_george, speed: 0.97, lang: en-gb }
+music: { source: pixabay, mood: [ambient space, cinematic calm], pool_size: 10, gain_db: -24 }
+captions:
+  size: 62
+  text: "#F8FAFC"
+  numbers: "#FF8A3D"
+  shadow: true
+series:
+  - { slot: "09:00", name: Look Closer, source: images.nasa.gov }
+  - { slot: "13:00", name: Mission Log, source: NASA mission news }
+  - { slot: "18:00", name: Scale It, source: NASA fact pages, drawn as vector graphics }
+media_filters:
+  - Skip any file whose credit names a party other than NASA.
+  - Never show the NASA insignia or logotype.
+  - Skip shots where an identifiable person is the subject.
+titles:
+  Look Closer: "What you're looking at: {object}"
+  Mission Log: "{mission}: what just happened"
+  Scale It: "How big is {object}, really?"
+description_template: |
+  {explainer}
+  Credit: {credit}
+  Source: {source_link}
+
+  {youtube_hashtags}
+hashtags:
+  youtube: ["#DeepField", "#Space", "#Astronomy"]
+  instagram_anchors: ["#DeepField", "#Space"]
+  instagram_rotation: ["#Astronomy", "#NASA", "#Universe", "#Planets", "#Cosmos", "#ScienceFacts"]

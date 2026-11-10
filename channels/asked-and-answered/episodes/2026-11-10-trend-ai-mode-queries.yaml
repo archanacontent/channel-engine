@@ -1,0 +1,25 @@
+series: Trend Check
+title: "AI search in 2026: questions got three times longer"
+beats:
+  - say: "AI Mode searches are three times longer than a classic Google search."
+    caption: "AI Mode searches are three times longer than a classic Google search."
+    highlight: [three times longer]
+  - say: "Google shared that at I O twenty twenty-six, along with one more number. AI Mode passed one billion monthly users, a year after its US launch."
+    caption: "Google shared that at I/O 2026, along with one more number. AI Mode passed 1 billion monthly users, a year after its US launch."
+    highlight: [1 billion]
+  - say: "Longer questions get split into smaller ones, and the answer engine cites whichever passage answers each part."
+    caption: "Longer questions get split into smaller ones, and the answer engine cites whichever passage answers each part."
+    highlight: [cites]
+  - say: "So write every section to answer one full question in its opening sentence. Name the subject instead of saying it, or this. And make sure the passage still makes sense when it's lifted off the page."
+    caption: "So write every section to answer one full question in its opening sentence. Name the subject instead of saying it, or this. And make sure the passage still makes sense when it's lifted off the page."
+    highlight: [opening sentence, Name the subject, lifted off the page.]
+  - say: "Want the questions your buyers ask? Try Asked. It's free, and the link is in the description."
+    caption: "Want the questions your buyers ask? Try Asked. It's free, and the link is in the description."
+    highlight: [Asked]
+description:
+  hook: AI Mode searches now run three times longer than a classic Google search.
+  answer: Write each section so its first sentence answers one full question, names the subject and stands on its own.
+  sources:
+    - "Google I/O 2026 figures, Talk Android (May 20, 2026): https://www.talkandroid.com/525707-one-year-of-ai-mode-longer-queries-more-voice-search-1b-users/"
+    - "The Citable Passage Standard: https://archanacontent.github.io/asked/standard/"
+instagram_hashtags_rotating: ["#AEO", "#AISearch", "#ContentMarketing"]
