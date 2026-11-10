@@ -1,0 +1,108 @@
+name: Weekly Shorts
+
+# Saturday: write and render the coming week (Monday to Sunday), store the videos,
+# upload the first 95 as private and open the review issue. The daily upload job
+# sends the rest. Run it by hand with a start date to fill any other stretch.
+on:
+  schedule:
+    - cron: "0 9 * * 6"
+  workflow_dispatch:
+    inputs:
+      start:
+        description: "First day to fill (YYYY-MM-DD). Empty = next Monday."
+        required: false
+      days:
+        description: "How many days"
+        required: false
+        default: "7"
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: shorts-state
+  cancel-in-progress: false
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      start: ${{ steps.p.outputs.start }}
+      days: ${{ steps.p.outputs.days }}
+    steps:
+      - id: p
+        run: |
+          start="${{ github.event.inputs.start }}"
+          if [ -z "$start" ]; then start=$(date -u -d "next monday" +%F); fi
+          days="${{ github.event.inputs.days }}"; [ -z "$days" ] && days=7
+          echo "start=$start" >> "$GITHUB_OUTPUT"; echo "days=$days" >> "$GITHUB_OUTPUT"
+
+  render:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      matrix:
+        slug: [asked-and-answered, automation-shelf, breach-brief, plain-docs, deep-field]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Install ffmpeg and Python packages
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install -q -r requirements.txt
+      - uses: actions/cache@v4
+        with: { path: ~/.cache/kokoro, key: kokoro-v1.0 }
+      - run: bash scripts/setup_models.sh
+      - name: Write and render
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python -m pipeline.week --slug ${{ matrix.slug }} --start ${{ needs.plan.outputs.start }} --days ${{ needs.plan.outputs.days }} --out out
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: out-${{ matrix.slug }}
+          path: out/${{ matrix.slug }}
+          retention-days: 1
+
+  upload:
+    needs: [plan, render]
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -q google-api-python-client google-auth pyyaml
+      - uses: actions/download-artifact@v4
+        with: { path: artifacts }
+      - name: Flatten artifact folders
+        run: |
+          mkdir -p collected
+          for d in artifacts/out-*; do [ -d "$d" ] && mv "$d" "collected/${d#artifacts/out-}"; done
+          ls collected
+      - name: Store, upload private, update review issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_ASKED_AND_ANSWERED: ${{ secrets.YT_REFRESH_ASKED_AND_ANSWERED }}
+          YT_REFRESH_AUTOMATION_SHELF: ${{ secrets.YT_REFRESH_AUTOMATION_SHELF }}
+          YT_REFRESH_BREACH_BRIEF: ${{ secrets.YT_REFRESH_BREACH_BRIEF }}
+          YT_REFRESH_PLAIN_DOCS: ${{ secrets.YT_REFRESH_PLAIN_DOCS }}
+          YT_REFRESH_DEEP_FIELD: ${{ secrets.YT_REFRESH_DEEP_FIELD }}
+        run: python -m pipeline.upload --collect collected --release week-${{ needs.plan.outputs.start }}
+      - name: Save queue and scripts
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add queue state channels/*/episodes
+          git diff --cached --quiet || git commit -m "Queue Shorts for week of ${{ needs.plan.outputs.start }}"
+          git pull --rebase -q && git push
+      - name: Report problems
+        if: always()
+        run: cat collected/*/failures.txt 2>/dev/null || true

@@ -17,6 +17,7 @@ from PIL import Image, ImageDraw
 
 from render import audio, seo
 from render.lib import FPS, H, W, caption_timeline, draw_caption
+from render.scenes import SceneMixin
 
 PAINTERS = {
     "asked-and-answered": ("render.painters.asked_and_answered", "AskedPainter"),
@@ -49,7 +50,10 @@ def frame_at(painter, captions, timing, total, t):
         if t >= s:
             bi = j
     s, speech, bd = timing[bi]
-    painter.beat(img, d, bi, max(0.0, t - s), bd)
+    if "scene" in painter.ep["beats"][bi]:
+        painter.scene_beat(img, d, bi, max(0.0, t - s), bd)
+    else:
+        painter.beat(img, d, bi, max(0.0, t - s), bd)
     painter.tag(img, d)
     for (t0, t1, toks) in captions:
         if t0 <= t < t1:
@@ -128,7 +132,8 @@ def main():
     voice, timing = audio.speak_beats(ep["beats"], brand["voice"])
     total = timing[-1][0] + timing[-1][2] + END
     mod, cls = PAINTERS[slug]
-    painter = getattr(importlib.import_module(mod), cls)(brand, ep, timing)
+    base_cls = getattr(importlib.import_module(mod), cls)
+    painter = type("AutoPainter", (SceneMixin, base_cls), {})(brand, ep, timing)
 
     captions = []
     for b, (s, speech, bd) in zip(ep["beats"], timing):

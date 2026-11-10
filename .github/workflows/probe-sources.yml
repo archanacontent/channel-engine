@@ -1,0 +1,17 @@
+name: Probe sources
+
+# Run by hand: checks every data source and prints what's available. Writes nothing.
+on:
+  workflow_dispatch:
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -q pyyaml
+      - env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python -m pipeline.probe

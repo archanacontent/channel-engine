@@ -1,0 +1,161 @@
+"""Collects rendered Shorts, stores them, uploads them to YouTube as private,
+and keeps the Sunday review issue up to date.
+
+    python -m pipeline.upload --collect artifacts --release week-2026-11-16
+    python -m pipeline.upload            # daily catch-up: upload what's still pending
+
+YouTube allows 100 uploads a day per project, so at most CAP go up per Pacific
+day; the rest wait in the GitHub release and go up on the next run.
+"""
+import argparse
+import json
+import re
+import shutil
+import subprocess
+from datetime import datetime, timedelta, timezone
+from pathlib import Path
+from zoneinfo import ZoneInfo
+
+from publish.youtube import upload_private
+
+ROOT = Path(__file__).resolve().parent.parent
+QUEUE = ROOT / "queue" / "current.json"
+USED = ROOT / "state" / "used.json"
+STAGE = ROOT / "staging"
+PT = ZoneInfo("America/Los_Angeles")
+CAP = 95
+
+
+def sh(*args, check=True):
+    return subprocess.run(list(args), capture_output=True, text=True, check=check)
+
+
+def load(p, default):
+    return json.loads(p.read_text()) if p.exists() else default
+
+
+def asset(e):
+    return f"{e['slug']}--{e['stem']}.mp4"
+
+
+def collect(src, release, queue):
+    STAGE.mkdir(exist_ok=True)
+    used = set(load(USED, []))
+    known = {(e["slug"], e["stem"]) for e in queue}
+    files = []
+    for man in sorted(Path(src).glob("*/manifest.json")):
+        chan_out = man.parent
+        for e in json.loads(man.read_text()):
+            if (e["slug"], e["stem"]) in known:
+                continue
+            mp4 = chan_out / f"{e['stem']}.mp4"
+            if not mp4.exists():
+                continue
+            dst = STAGE / asset(e)
+            shutil.copy(mp4, dst)
+            files.append(str(dst))
+            e["release"] = release
+            queue.append(e)
+            used.add(e["record_id"])
+            ep = chan_out / "episodes" / f"{e['stem']}.yaml"
+            if ep.exists():
+                shutil.copy(ep, ROOT / "channels" / e["slug"] / "episodes" / ep.name)
+    if files:
+        if sh("gh", "release", "view", release, check=False).returncode != 0:
+            sh("gh", "release", "create", release, "--title", release, "--prerelease",
+               "--notes", "Rendered Shorts waiting for upload. Safe to delete after the week ends.")
+        for i in range(0, len(files), 20):
+            sh("gh", "release", "upload", release, "--clobber", *files[i:i + 20])
+    USED.parent.mkdir(exist_ok=True)
+    USED.write_text(json.dumps(sorted(used), indent=0))
+    print(f"collected {len(files)} new Shorts into {release}")
+
+
+def upload_pending(queue):
+    today = datetime.now(PT).date().isoformat()
+    done_today = sum(1 for e in queue if (e.get("uploaded_at") or "")[:10] == today)
+    budget = CAP - done_today
+    for e in sorted(queue, key=lambda x: x["publish_at"]):
+        if e["status"] != "rendered" or budget <= 0:
+            continue
+        f = STAGE / asset(e)
+        if not f.exists():
+            STAGE.mkdir(exist_ok=True)
+            r = sh("gh", "release", "download", e["release"], "--pattern", asset(e), "--dir", str(STAGE), check=False)
+            if r.returncode != 0:
+                print("missing asset", asset(e))
+                continue
+        try:
+            e["video_id"] = upload_private(e["slug"], str(f), e["meta"])
+        except Exception as ex:
+            print("upload failed", asset(e), ex)
+            if "quota" in str(ex).lower() or "uploadLimitExceeded" in str(ex):
+                break
+            continue
+        e["status"] = "uploaded"
+        e["uploaded_at"] = datetime.now(PT).isoformat()
+        budget -= 1
+        print("uploaded", e["slug"], e["stem"], e["video_id"])
+    left = sum(1 for e in queue if e["status"] == "rendered")
+    print(f"{left} Shorts still waiting for upload")
+
+
+TICK = re.compile(r"- \[[xX]\] `([A-Za-z0-9_-]{11})`")
+
+
+def review_body(entries, ticked):
+    out = ["Tick each Short you approve. Unticked Shorts stay private and never post.",
+           "Watch them in the YouTube Studio app under Content, filtered to Private.",
+           "Ticked Shorts go public at their slot (US Eastern time), with playlist and captions added.", ""]
+    days = {}
+    for e in sorted(entries, key=lambda x: x["publish_at"]):
+        days.setdefault(e["publish_at"][:10], []).append(e)
+    for day, items in days.items():
+        out.append(f"### {datetime.fromisoformat(day).strftime('%A %d %B')}")
+        for e in items:
+            t = e["publish_at"][11:16]
+            if e.get("video_id"):
+                box = "x" if e["video_id"] in ticked else " "
+                state = " (published)" if e["status"] == "published" else ""
+                out.append(f"- [{box}] `{e['video_id']}` {t} · **{e['channel']}** · {e['series']}: "
+                           f"[{e['title']}](https://studio.youtube.com/video/{e['video_id']}/edit){state}")
+            else:
+                out.append(f"- ⏳ {t} · **{e['channel']}** · {e['series']}: {e['title']} (uploads within a day)")
+        out.append("")
+    return "\n".join(out)
+
+
+def update_issues(queue):
+    sh("gh", "label", "create", "review", "--color", "1D76DB", "--force", check=False)
+    for release in sorted({e["release"] for e in queue}):
+        entries = [e for e in queue if e["release"] == release]
+        title = f"Review: {release.replace('week-', 'week of ')}"
+        found = json.loads(sh("gh", "issue", "list", "--label", "review", "--state", "open", "--search",
+                              f'"{title}" in:title', "--json", "number,title,body").stdout or "[]")
+        found = [i for i in found if i["title"] == title]
+        ticked = set(TICK.findall(found[0]["body"])) if found else set()
+        body = review_body(entries, ticked)
+        if found:
+            sh("gh", "issue", "edit", str(found[0]["number"]), "--body", body)
+        elif any(e.get("video_id") for e in entries):
+            sh("gh", "issue", "create", "--title", title, "--label", "review", "--body", body)
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--collect")
+    ap.add_argument("--release")
+    a = ap.parse_args()
+    queue = load(QUEUE, [])
+    if a.collect:
+        collect(a.collect, a.release, queue)
+    upload_pending(queue)
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=21)).isoformat()
+    queue = [e for e in queue if not (e["status"] == "published" and e["publish_at"] < cutoff)]
+    QUEUE.parent.mkdir(exist_ok=True)
+    QUEUE.write_text(json.dumps(queue, indent=1, ensure_ascii=False))
+    update_issues(queue)
+
+
+if __name__ == "__main__":
+    main()

@@ -1,6 +1,6 @@
 from PIL import Image, ImageDraw
 
-from render.lib import H, W, ease, font, rgb, text_c, tw, wrap
+from render.lib import H, ROOT, W, ease, font, rgb, text_c, tw, wrap
 
 
 class Painter:
@@ -15,8 +15,20 @@ class Painter:
         self.brand, self.ep, self.timing = brand, episode, timing
         self.p = {k: rgb(v) for k, v in brand["palette"].items()}
         self.bg = self.make_bg()
-        self.logo_small = self.logo(72)
-        self.logo_big = self.logo(300)
+        self.logo_file = ROOT / "channels" / brand["slug"] / "art" / "logo.png"
+        self.logo_small = self.logo_any(72)
+        self.logo_big = self.logo_any(520)
+
+    def logo_any(self, size):
+        """The channel's own logo file when there is one, otherwise the drawn mark."""
+        if not self.logo_file.exists():
+            return self.logo(size)
+        im = Image.open(self.logo_file).convert("RGBA").resize((size, size), Image.LANCZOS)
+        big = size * 3
+        mask = Image.new("L", (big, big), 0)
+        ImageDraw.Draw(mask).rounded_rectangle((0, 0, big - 1, big - 1), radius=int(big * 0.18), fill=255)
+        im.putalpha(mask.resize((size, size), Image.LANCZOS))
+        return im
 
     # Subclasses override these.
     def make_bg(self):
@@ -40,12 +52,18 @@ class Painter:
     def end(self, img, d, k):
         """Branded end frame, the same on every Short of the channel."""
         a = ease(k / 0.5)
-        size = int(260 + 40 * a)
-        lg = self.logo_big.resize((size, size))
-        img.paste(lg, ((W - size) // 2, 640 - size // 2), lg)
-        f = font(self.tag_font[0], 72, 700)
-        text_c(d, W / 2, 840, self.brand["name"], f, rgb(self.tag_text_color))
-        f2 = font(self.tag_font[0], 36, 400)
+        f2 = font(self.tag_font[0], 38, 500)
         col = self.p.get("muted_text", self.p.get("secondary"))
-        for j, line in enumerate(wrap(self.brand["positioning"], f2, 820)):
-            text_c(d, W / 2, 950 + j * 50, line, f2, col)
+        if self.logo_file.exists():
+            size = int(470 + 50 * a)
+            lg = self.logo_big.resize((size, size))
+            img.paste(lg, ((W - size) // 2, 700 - size // 2), lg)
+            y = 1010
+        else:
+            size = int(260 + 40 * a)
+            lg = self.logo_big.resize((size, size))
+            img.paste(lg, ((W - size) // 2, 640 - size // 2), lg)
+            text_c(d, W / 2, 840, self.brand["name"], font(self.tag_font[0], 72, 700), rgb(self.tag_text_color))
+            y = 950
+        for j, line in enumerate(wrap(self.brand["positioning"], f2, 860)):
+            text_c(d, W / 2, y + j * 52, line, f2, col)

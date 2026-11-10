@@ -32,6 +32,9 @@ description_template: |
   {what_was_fixed}
   Original: {source_link} ({license})
   The rule: {rule}
+
+  Sources:
+  {source_links}
   Worked examples and guides: https://archanacontent.github.io/work/
 
   {youtube_hashtags}

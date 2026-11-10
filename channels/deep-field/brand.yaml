@@ -36,6 +36,9 @@ description_template: |
   Credit: {credit}
   Source: {source_link}
 
+  Sources:
+  {source_links}
+
   {youtube_hashtags}
 hashtags:
   youtube: ["#SpaceScience", "#Space", "#Astronomy"]

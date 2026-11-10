@@ -33,8 +33,10 @@ description_template: |
   {task_line}
   Tools: {tools}
   Template: {template_link}
-  Setup time: {setup_time}
   Full library: {library_link}
+
+  Sources:
+  {source_links}
 
   {youtube_hashtags}
 hashtags:

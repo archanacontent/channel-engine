@@ -1,0 +1,128 @@
+# Fixed lists the fetchers draw from. Each entry is used once per channel
+# before any repeats, and every video still gets its own facts and script.
+
+b2b_keywords:
+  - CRM software
+  - marketing automation software
+  - SOC 2 compliance
+  - customer data platform
+  - sales engagement platform
+  - product analytics
+  - ABM platform
+  - intent data
+  - revenue operations
+  - conversation intelligence
+  - email deliverability
+  - lead scoring
+  - data warehouse
+  - reverse ETL
+  - HR software
+  - payroll software
+  - project management software
+  - help desk software
+  - customer success platform
+  - billing software
+  - procurement software
+  - expense management software
+  - ERP software
+  - identity and access management
+  - endpoint security
+  - SIEM
+  - zero trust security
+  - cloud cost management
+  - observability platform
+  - API management
+  - feature flag tools
+  - CI/CD tools
+  - data catalog
+  - knowledge base software
+  - digital adoption platform
+  - partner relationship management
+  - CPQ software
+  - contract management software
+  - e-signature software
+  - webinar platform
+
+citable_rules:
+  - id: answer-first
+    name: Answer First
+    rule: The opening sentence answers the question outright, and the explanation follows it.
+  - id: stand-alone
+    name: Stand Alone
+    rule: The passage makes sense without the rest of the page, so phrases like "as mentioned above" never appear.
+  - id: name-the-subject
+    name: Name The Subject
+    rule: The product, standard or concept is named in full instead of being called "it" or "this".
+  - id: be-specific
+    name: Be Specific
+    rule: Numbers, dates, named standards and named tools replace general claims wherever they can.
+  - id: source-the-facts
+    name: Source The Facts
+    rule: Every figure links to where it came from, so readers and answer engines can both verify it.
+  - id: one-question
+    name: One Question Per Section
+    rule: Each section answers a single question fully, so it can be cited without dragging in anything unrelated.
+
+ai_search_feeds:
+  - https://searchengineland.com/feed
+  - https://www.searchenginejournal.com/feed/
+  - https://blog.google/products/search/rss/
+  - https://developers.google.com/search/blog/feed.xml
+
+ai_search_terms: [AI Mode, AI Overviews, ChatGPT, Perplexity, Gemini, Copilot, answer engine, generative engine, LLM, AI search, citations]
+
+style_topics:
+  - https://developers.google.com/style/voice
+  - https://developers.google.com/style/tense
+  - https://developers.google.com/style/person
+  - https://developers.google.com/style/link-text
+  - https://developers.google.com/style/procedures
+  - https://developers.google.com/style/lists
+  - https://developers.google.com/style/headings
+  - https://developers.google.com/style/abbreviations
+  - https://developers.google.com/style/contractions
+  - https://developers.google.com/style/jargon
+  - https://developers.google.com/style/sentence-structure
+  - https://developers.google.com/style/inclusive-documentation
+  - https://developers.google.com/style/code-samples
+  - https://developers.google.com/style/code-in-text
+  - https://developers.google.com/style/placeholders
+  - https://developers.google.com/style/dates-times
+  - https://developers.google.com/style/numbers
+  - https://developers.google.com/style/capitalization
+  - https://developers.google.com/style/tables
+  - https://developers.google.com/style/notices
+  - https://developers.google.com/style/ui-elements
+  - https://developers.google.com/style/accessibility
+  - https://developers.google.com/style/images
+  - https://developers.google.com/style/future
+  - https://developers.google.com/style/timeless-documentation
+  - https://developers.google.com/tech-writing/one/words
+  - https://developers.google.com/tech-writing/one/active-voice
+  - https://developers.google.com/tech-writing/one/clear-sentences
+  - https://developers.google.com/tech-writing/one/short-sentences
+  - https://developers.google.com/tech-writing/one/lists-and-tables
+  - https://developers.google.com/tech-writing/one/paragraphs
+  - https://developers.google.com/tech-writing/one/audience
+  - https://developers.google.com/tech-writing/one/documents
+  - https://developers.google.com/tech-writing/two/self-editing
+  - https://developers.google.com/tech-writing/two/large-docs
+  - https://developers.google.com/tech-writing/two/sample-code
+
+doc_types:
+  - {name: README, url: "https://www.makeareadme.com/"}
+  - {name: Changelog, url: "https://keepachangelog.com/en/1.1.0/"}
+  - {name: Tutorial, url: "https://diataxis.fr/tutorials/"}
+  - {name: How-to guide, url: "https://diataxis.fr/how-to-guides/"}
+  - {name: Reference documentation, url: "https://diataxis.fr/reference/"}
+  - {name: Explanation, url: "https://diataxis.fr/explanation/"}
+  - {name: Error message, url: "https://developers.google.com/tech-writing/error-messages"}
+  - {name: Style guide, url: "https://www.writethedocs.org/guide/writing/style-guides/"}
+  - {name: Docs as code, url: "https://www.writethedocs.org/guide/docs-as-code/"}
+  - {name: API reference, url: "https://www.writethedocs.org/guide/api/"}
+  - {name: Release notes, url: "https://www.writethedocs.org/guide/writing/release-notes/"}
+  - {name: Code sample, url: "https://developers.google.com/tech-writing/two/sample-code"}
+
+nasa_queries: [galaxy, nebula, Mars, Jupiter, Saturn, Moon, Earth from space, Sun, star cluster, black hole, Webb, Hubble, aurora, comet, exoplanet, supernova, Milky Way, Venus, Mercury, asteroid]
+
+scale_bodies: [MERCURY, VENUS, EARTH, MOON, MARS, JUPITER, SATURN, URANUS, NEPTUNE, PLUTO]
