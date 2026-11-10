@@ -58,7 +58,7 @@ SCHEMA = """Return JSON only, in this shape:
  "beats": [ {"say": "...", "caption": "...", "highlight": ["1 to 3 exact phrases from caption"], "scene": {...}} ],
  "description": { <fields listed below> },
  "seo": {"seeds": ["3 or 4 search phrases a viewer would type, specific to this video"], "hashtags": ["#Two", "#Specific"]}}
-Rules for beats: 4 to 6 beats, 80 to 125 words of "say" in total, each beat 1 or 2 sentences.
+Rules for beats: 4 to 6 beats, 90 to 120 words of "say" in total (count them; under 80 is rejected), each beat 1 or 2 full sentences of about 20 words. Every beat has a scene object with a "type" field.
 Scene types and fields (use different types across beats, last beat is usually "cta" or "quote"):
  headline {kicker?, text} | stat {value, label, source?} | card {title, rows: [[label, value]] up to 5}
  list {title, items: up to 4 short items, style: check|number|bullet} | compare {left_label, left_text, right_label, right_text}
@@ -68,11 +68,51 @@ Scene text must be short: headline under 14 words, list items under 9 words, car
 If SOURCE does not contain enough real material for a strong Short, return {"skip": true, "skip_reason": "..."}."""
 
 
-def _call(model, system, user, key):
+def response_schema(desc_fields):
+    S, A = {"type": "STRING"}, lambda t: {"type": "ARRAY", "items": t}
+    scene = {"type": "OBJECT", "properties": {
+        "type": {"type": "STRING", "enum": sorted(SCENES)},
+        "kicker": S, "text": S, "value": S, "label": S, "source": S, "title": S,
+        "rows": A(A(S)), "items": A(S), "style": {"type": "STRING", "enum": ["check", "number", "bullet"]},
+        "left_label": S, "left_text": S, "right_label": S, "right_text": S,
+        "steps": A({"type": "OBJECT", "properties": {"title": S, "note": S}, "required": ["title"]}),
+        "credit": S, "a_label": S, "a_value": S, "b_label": S, "b_value": S, "unit": S,
+        "highlight": A(S), "line": S, "subline": S}, "required": ["type"]}
+    beat = {"type": "OBJECT", "properties": {"say": S, "caption": S, "highlight": A(S), "scene": scene},
+            "required": ["say", "caption", "scene"]}
+    return {"type": "OBJECT", "properties": {
+        "skip": {"type": "BOOLEAN"}, "skip_reason": S, "title": S,
+        "beats": {"type": "ARRAY", "items": beat, "minItems": 4, "maxItems": 6},
+        "description": {"type": "OBJECT", "properties": {f: S for f in desc_fields}, "required": list(desc_fields)},
+        "seo": {"type": "OBJECT", "properties": {"seeds": A(S), "hashtags": A(S)}}},
+        "required": ["skip", "title", "beats", "description", "seo"]}
+
+
+def normalize(ep):
+    """Fixes common shape slips: scene given as {"list": {...}} or with "scene_type"."""
+    for b in ep.get("beats") or []:
+        sc = b.get("scene")
+        if not isinstance(sc, dict):
+            b["scene"] = {"type": "headline", "text": b.get("caption", "")}
+            continue
+        if "type" not in sc:
+            for k in ("scene_type", "kind", "name"):
+                if sc.get(k) in SCENES:
+                    sc["type"] = sc.pop(k)
+            if "type" not in sc and len(sc) == 1 and next(iter(sc)) in SCENES:
+                k, v = next(iter(sc.items()))
+                b["scene"] = dict(v if isinstance(v, dict) else {}, type=k)
+    return ep
+
+
+def _call(model, system, user, key, schema=None):
+    cfg = {"responseMimeType": "application/json", "temperature": 0.7}
+    if schema:
+        cfg["responseSchema"] = schema
     body = json.dumps({
         "systemInstruction": {"parts": [{"text": system}]},
         "contents": [{"role": "user", "parts": [{"text": user}]}],
-        "generationConfig": {"responseMimeType": "application/json", "temperature": 0.7},
+        "generationConfig": cfg,
     }).encode()
     req = urllib.request.Request(API.format(m=model), data=body, method="POST",
                                  headers={"Content-Type": "application/json", "x-goog-api-key": key})
@@ -81,13 +121,13 @@ def _call(model, system, user, key):
     return data["candidates"][0]["content"]["parts"][0]["text"]
 
 
-def generate(system, user):
+def generate(system, user, schema=None):
     key = os.environ["GEMINI_API_KEY"]
     last = None
     for model in [m.strip() for m in MODELS if m.strip() not in SPENT]:
         for attempt in range(3):
             try:
-                out = _call(model, system, user, key)
+                out = _call(model, system, user, key, schema)
                 time.sleep(2)
                 return json.loads(out)
             except urllib.error.HTTPError as e:
@@ -126,8 +166,8 @@ def check(ep, record, desc_fields):
     if not 4 <= len(beats) <= 6:
         errs.append(f"Need 4 to 6 beats, got {len(beats)}.")
     words = sum(len(str(b.get("say", "")).split()) for b in beats)
-    if not 70 <= words <= 135:
-        errs.append(f"'say' totals {words} words; need 80 to 125.")
+    if not 70 <= words <= 140:
+        errs.append(f"'say' totals {words} words; it must be 90 to 120. Add a full sentence of real detail from SOURCE to each beat.")
     facts = record["facts"]
     facts_nums = {_norm_num(n) for n in re.findall(r"\d[\d,]*(?:\.\d+)?", facts)}
     flat_facts = re.sub(r"\s+", " ", facts)
@@ -179,7 +219,7 @@ def write_episode(brand, record):
     errs = []
     for _ in range(3):
         prompt = user if not errs else user + "\n\nYour previous answer failed these checks, fix all of them:\n- " + "\n- ".join(errs)
-        ep = generate(system, prompt)
+        ep = normalize(generate(system, prompt, response_schema(desc_fields)))
         if ep.get("skip"):
             return None, ep.get("skip_reason", "model skipped")
         for b in ep.get("beats", []):
