@@ -111,7 +111,16 @@ def trend_check(used):
             if not it["link"] or f"news:{it['link']}" in used or not any(t.lower() in blob for t in terms):
                 continue
             body = text_of(it["content"] or it["description"], 3500)
-            if len(body) < 300:
+            if len(body) < 1200:
+                try:
+                    page = text_of(get(it["link"]), 9000)
+                    i = page.find(it["title"][:40])
+                    page = page[i: i + 3500] if i >= 0 else page[:3500]
+                    if len(page) > len(body):
+                        body = page
+                except Exception:
+                    pass
+            if len(body) < 250:
                 continue
             yield {"id": f"news:{it['link']}", "series": "Trend Check", "headline": it["title"],
                    "facts": f"Published {it['date']}. Title: {it['title']}. {body}",
@@ -227,7 +236,7 @@ def scam_alert(used):
     except Exception:
         return
     links = []
-    for href, title in re.findall(r'href="(/consumer-alerts/20\d\d/\d\d/[^"#?]+)"[^>]*>(.*?)</a>', page, flags=re.S):
+    for href, title in re.findall(r'href="(?:https://consumer\.ftc\.gov)?(/consumer-alerts/20\d\d/\d\d/[^"#?]+)"[^>]*>(.*?)</a>', page, flags=re.S):
         t = text_of(title, 200)
         if t and href not in [l for l, _ in links]:
             links.append((href, t))
