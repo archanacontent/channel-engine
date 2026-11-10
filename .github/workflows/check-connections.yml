@@ -32,4 +32,4 @@ jobs:
         run: |
           pip install -q pyyaml
           if [ -z "$GEMINI_API_KEY" ]; then echo "GEMINI_API_KEY missing"; exit 1; fi
-          python -c "from pipeline.write import generate; print('Gemini ->', generate('You answer in one word.', 'Reply with the word ready.')[:40])"
+          python scripts/gemini_diag.py
