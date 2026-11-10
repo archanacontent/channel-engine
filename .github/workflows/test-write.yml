@@ -8,6 +8,9 @@ on:
       start: { description: "Day (YYYY-MM-DD)", required: true }
       days: { description: "How many days", required: false, default: "1" }
 
+permissions:
+  contents: write
+
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -33,3 +36,14 @@ jobs:
           name: test-${{ inputs.slug }}
           path: out
           retention-days: 2
+      - name: Show scripts and push preview frames
+        if: always()
+        run: |
+          for f in out/*/episodes/*.yaml; do echo "=== $f"; cat "$f"; done
+          mkdir -p previews
+          for v in out/*/*.mp4; do b=$(basename "$v" .mp4)
+            ffmpeg -loglevel error -i "$v" -vf "fps=1/6,scale=360:-1,tile=5x1" -frames:v 1 "previews/$b.jpg"; done
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -q --orphan previews-${{ github.run_id }}
+          git rm -rq --cached . ; git add previews; git commit -qm "Preview frames"; git push -q origin HEAD
