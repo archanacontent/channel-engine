@@ -1,11 +1,8 @@
-name: Asked & Answered
+name: AI Search Marketing
 slug: asked-and-answered
-positioning: What your buyers ask AI before they ever talk to sales
+positioning: Master AI visibility before your competitors do.
 description: >-
-  Every Short starts from a real question buyers ask AI search about a B2B topic,
-  with the evidence behind it. You get the question, the answer AI engines give
-  today, and the one change that gets your page cited. Built on Asked, a free tool
-  by Archana Panda.
+  Your buyers now research vendors inside Google AI Mode, ChatGPT and Perplexity, and they can settle on a shortlist there long before your sales team hears from them. If your pages aren't cited in those answers, you aren't on that list. AI Search Marketing breaks down how answer engines decide what to cite and what B2B teams must change to earn the mention, covering answer engine optimization (AEO), generative engine optimization (GEO), the questions buyers put to AI and the page structure that gets quoted.
 palette:
   background: "#1E1B4B"
   accent: "#F59E0B"
@@ -44,7 +41,20 @@ description_template: |
 
   {youtube_hashtags}
 hashtags:
-  youtube: ["#AskedAndAnswered", "#AEO", "#B2BMarketing"]
-  instagram_anchors: ["#AskedAndAnswered", "#B2BMarketing"]
+  youtube: ["#AISearchMarketing", "#AEO", "#B2BMarketing"]
+  instagram_anchors: ["#AISearchMarketing", "#B2BMarketing"]
   instagram_rotation: ["#AEO", "#GEO", "#AISearch", "#ContentMarketing", "#SaaSMarketing", "#SEO2026"]
 pinned_comment: Send a B2B keyword and the next Buyers Asked could be about it.
+handle: "@AISearchMarketingHQ"
+seo:
+  category_id: "27"
+  tag_pool: [AI search, AEO, GEO, answer engine optimization, generative engine optimization, AI search optimization]
+  hashtag_pool: ['#AISearchMarketing', '#AEO', '#GEO', '#AISearch']
+  playlists:
+    "Buyers Asked": "Buyers Asked: What B2B Buyers Ask AI"
+    "The Fix": "The Fix: Get Cited by AI Search"
+    "Trend Check": "AI Search Trends 2026"
+  series_pools:
+    "Buyers Asked": {tags: [B2B marketing, buyer research, content strategy, SaaS marketing], hashtags: ['#B2BMarketing', '#ContentStrategy']}
+    "The Fix": {tags: [AI Overviews, ChatGPT SEO, LLM SEO, content optimization], hashtags: ['#ContentMarketing', '#SEO']}
+    "Trend Check": {tags: [Google AI Mode, AI Overviews, SEO 2026, search trends], hashtags: ['#AIMode', '#SEO']}

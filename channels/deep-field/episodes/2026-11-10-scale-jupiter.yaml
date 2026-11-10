@@ -22,6 +22,9 @@ beats:
     numbers: []
 description:
   explainer: Jupiter is 11 times wider than Earth, could hold about 1,000 Earths, and hosts a storm twice Earth's width.
-  credit: Facts from NASA. Graphics drawn for Deep Field.
+  credit: Facts from NASA. Graphics drawn for Space Science.
   source_link: https://science.nasa.gov/jupiter/facts/
 instagram_hashtags_rotating: ["#Astronomy", "#Planets", "#ScienceFacts"]
+seo:
+  seeds: [how big is Jupiter, Jupiter size, Great Red Spot]
+  hashtags: ['#Jupiter', '#SolarSystem']

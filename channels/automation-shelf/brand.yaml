@@ -1,10 +1,8 @@
-name: The Automation Shelf
+name: Marketing Automation Library
 slug: automation-shelf
-positioning: One marketing task you can stop doing by hand, with the workflow free
+positioning: Stop paying your team to do work a workflow can run.
 description: >-
-  A free library of marketing automations. Each Short shows one task that runs
-  itself, the exact workflow behind it, and a template you can import today. Only
-  what can be automated, tested before it's shared.
+  Lead routing, content tracking, report pulls and follow-up reminders still eat hours in most marketing teams, because nobody has time to build the automation. Marketing Automation Library hands you the build. Each video breaks down one marketing task and the exact n8n workflow behind it, with a free template you can import the same day. Only tasks that can be fully automated make the library, and every template is validated before release.
 palette:
   background: "#111827"
   accent: "#14B8A6"
@@ -24,12 +22,12 @@ captions:
   style: underline
 series:
   - { slot: "09:00", name: Stop Doing This, source: n8n-library }
-  - { slot: "13:00", name: Shelf Pick, source: n8n-library }
+  - { slot: "13:00", name: Library Pick, source: n8n-library }
   - { slot: "18:00", name: "Can It Be Automated?", source: n8n-library }
 quality_gate: Every workflow passes the n8n workflow validator before it reaches the review queue.
 titles:
   Stop Doing This: "Stop doing this by hand: {task}"
-  Shelf Pick: "Free workflow: {task} on autopilot"
+  Library Pick: "Free workflow: {task} on autopilot"
   "Can It Be Automated?": "Can you automate {task}?"
 description_template: |
   {task_line}
@@ -40,6 +38,19 @@ description_template: |
 
   {youtube_hashtags}
 hashtags:
-  youtube: ["#AutomationShelf", "#MarketingAutomation", "#NoCode"]
-  instagram_anchors: ["#AutomationShelf", "#MarketingAutomation"]
+  youtube: ["#MarketingAutomationLibrary", "#MarketingAutomation", "#NoCode"]
+  instagram_anchors: ["#MarketingAutomationLibrary", "#MarketingAutomation"]
   instagram_rotation: ["#n8n", "#NoCode", "#Workflow", "#MarketingOps", "#Productivity", "#SmallBusinessMarketing"]
+handle: "@MarketingAutomationLibrary"
+seo:
+  category_id: "28"
+  tag_pool: [marketing automation, n8n, n8n workflow, n8n templates, no code automation, workflow automation]
+  hashtag_pool: ['#MarketingAutomationLibrary', '#MarketingAutomation', '#n8n', '#NoCode']
+  playlists:
+    "Stop Doing This": "Stop Doing This: Marketing Tasks to Automate"
+    "Library Pick": "Library Picks: Free n8n Templates"
+    "Can It Be Automated?": "Can It Be Automated?"
+  series_pools:
+    "Stop Doing This": {tags: [marketing ops, automation for small business, productivity], hashtags: ['#MarketingOps', '#Productivity']}
+    "Library Pick": {tags: [n8n tutorial, free automation templates, marketing automation tools], hashtags: ['#Automation', '#n8nTemplates']}
+    "Can It Be Automated?": {tags: [marketing automation ideas, automation for small business], hashtags: ['#Automation', '#MarketingOps']}

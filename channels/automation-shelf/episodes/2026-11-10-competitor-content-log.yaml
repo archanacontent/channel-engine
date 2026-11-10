@@ -25,3 +25,6 @@ description:
   setup_time: "Paste the feed URL, connect Google Sheets, pick the sheet"
   note: Works with any blog that publishes an RSS feed.
 instagram_hashtags_rotating: ["#n8n", "#NoCode", "#MarketingOps"]
+seo:
+  seeds: [n8n RSS, n8n Google Sheets, competitor analysis]
+  hashtags: ['#n8n', '#GoogleSheets']

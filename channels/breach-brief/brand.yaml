@@ -1,10 +1,8 @@
-name: Breach Brief
+name: Cybersecurity Daily
 slug: breach-brief
-positioning: One real security threat a day, and what to do about it
+positioning: The threats that matter this week, and the exact step that stops them.
 description: >-
-  Short, sourced briefings on actively exploited flaws, company breaches and scams
-  going around right now. Every video names its source, what's affected and the
-  step that protects you. No fear, no hype.
+  New flaws come under active attack every week, companies disclose new breaches and fresh scams spread, and most people learn about them only after they've been hit. Cybersecurity Daily turns official sources into clear one-minute briefings: vulnerabilities attackers are exploiting right now from CISA's Known Exploited Vulnerabilities catalog, breaches as companies report them to the SEC, and scams flagged by the FTC. Every briefing names what's affected and the step that protects you, so IT teams, business owners and everyday users can act the same day.
 palette:
   background: "#0B0F14"
   threat: "#E5484D"
@@ -46,8 +44,21 @@ description_template: |
   {youtube_hashtags}
 hashtags:
   youtube_by_series:
-    Exploited Today: ["#BreachBrief", "#CyberSecurity", "#CVE"]
-    Breach Watch: ["#BreachBrief", "#CyberSecurity", "#DataBreach"]
-    Scam Alert: ["#BreachBrief", "#CyberSecurity", "#ScamAlert"]
-  instagram_anchors: ["#BreachBrief", "#CyberSecurity"]
+    Exploited Today: ["#CybersecurityDaily", "#CyberSecurity", "#CVE"]
+    Breach Watch: ["#CybersecurityDaily", "#CyberSecurity", "#DataBreach"]
+    Scam Alert: ["#CybersecurityDaily", "#CyberSecurity", "#ScamAlert"]
+  instagram_anchors: ["#CybersecurityDaily", "#CyberSecurity"]
   instagram_rotation: ["#InfoSec", "#DataBreach", "#ScamAlert", "#Phishing", "#PatchNow", "#OnlineSafety"]
+handle: "@CybersecurityDailyHQ"
+seo:
+  category_id: "28"
+  tag_pool: [cybersecurity, cybersecurity news, cyber security, infosec]
+  hashtag_pool: ['#CybersecurityDaily', '#CyberSecurity', '#InfoSec']
+  playlists:
+    "Exploited Today": "Exploited Today: Actively Exploited Vulnerabilities"
+    "Breach Watch": "Breach Watch: Company Data Breaches"
+    "Scam Alert": "Scam Alert: Scams Going Around Now"
+  series_pools:
+    "Exploited Today": {tags: [CISA KEV, known exploited vulnerabilities, CVE, vulnerability, patch now, security update], hashtags: ['#CVE', '#PatchNow']}
+    "Breach Watch": {tags: [data breach, data breach news, SEC 8-K, cyber incident], hashtags: ['#DataBreach', '#CyberIncident']}
+    "Scam Alert": {tags: [scam alert, online scams, phishing, fraud prevention, online safety], hashtags: ['#ScamAlert', '#Phishing']}

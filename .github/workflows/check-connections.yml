@@ -1,0 +1,28 @@
+name: Check connections
+
+# Run by hand after adding the YouTube secrets. Prints the channel each token
+# belongs to, so a token made on the wrong channel is caught before any upload.
+on:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -q google-api-python-client google-auth
+      - name: Which channel does each token open?
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_ASKED_AND_ANSWERED: ${{ secrets.YT_REFRESH_ASKED_AND_ANSWERED }}
+          YT_REFRESH_AUTOMATION_SHELF: ${{ secrets.YT_REFRESH_AUTOMATION_SHELF }}
+          YT_REFRESH_BREACH_BRIEF: ${{ secrets.YT_REFRESH_BREACH_BRIEF }}
+          YT_REFRESH_PLAIN_DOCS: ${{ secrets.YT_REFRESH_PLAIN_DOCS }}
+          YT_REFRESH_DEEP_FIELD: ${{ secrets.YT_REFRESH_DEEP_FIELD }}
+        run: |
+          for s in asked-and-answered automation-shelf breach-brief plain-docs deep-field; do
+            echo -n "$s -> "; python -m publish.youtube whoami $s || echo "NOT CONNECTED"
+          done

@@ -23,3 +23,6 @@ description:
     - "Google I/O 2026 figures, Talk Android (May 20, 2026): https://www.talkandroid.com/525707-one-year-of-ai-mode-longer-queries-more-voice-search-1b-users/"
     - "The Citable Passage Standard: https://archanacontent.github.io/asked/standard/"
 instagram_hashtags_rotating: ["#AEO", "#AISearch", "#ContentMarketing"]
+seo:
+  seeds: [Google AI Mode, AI Mode search, AEO]
+  hashtags: ['#AIMode', '#GoogleAIMode']

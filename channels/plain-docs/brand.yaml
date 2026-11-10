@@ -1,11 +1,8 @@
-name: Plain Docs
+name: Technical Writing For Beginners
 slug: plain-docs
-positioning: Real docs, rewritten in under a minute
+positioning: Write documentation people actually finish reading.
 description: >-
-  Learn technical writing by watching real documentation get better. Every Short
-  takes a passage from a public README, error message or help page and fixes it on
-  screen, with the reason behind each edit. For new writers, developers and career
-  switchers.
+  Unclear docs turn into support tickets, stalled onboarding and features nobody uses. Most new writers learn the craft from rule lists that never show the work. Technical Writing For Beginners teaches it on real material: a confusing README, a vague error message or a cluttered help page, rewritten edit by edit with the reason behind each change. Made for aspiring technical writers, developers who own their docs and professionals moving into technical writing.
 palette:
   background: "#FBF8F1"
   text: "#1F2937"
@@ -39,6 +36,19 @@ description_template: |
 
   {youtube_hashtags}
 hashtags:
-  youtube: ["#PlainDocs", "#TechnicalWriting", "#Documentation"]
-  instagram_anchors: ["#PlainDocs", "#TechnicalWriting"]
+  youtube: ["#TechnicalWritingForBeginners", "#TechnicalWriting", "#Documentation"]
+  instagram_anchors: ["#TechnicalWritingForBeginners", "#TechnicalWriting"]
   instagram_rotation: ["#WritingTips", "#Documentation", "#DevDocs", "#CareerChange", "#UXWriting", "#TechCareers"]
+handle: "@TECHNICALWRITINGFORBEGINNERS"
+seo:
+  category_id: "27"
+  tag_pool: [technical writing, technical writing for beginners, technical writer, documentation, how to write documentation]
+  hashtag_pool: ['#TechnicalWritingForBeginners', '#TechnicalWriting', '#Documentation', '#TechWriter']
+  playlists:
+    "Rewrite This": "Rewrite This: Real Docs Fixed"
+    "One Rule": "One Rule: Technical Writing Rules"
+    "Doc Types": "Doc Types: What Every Doc Needs"
+  series_pools:
+    "Rewrite This": {tags: [writing tips, UX writing, before and after, editing], hashtags: ['#WritingTips', '#UXWriting']}
+    "One Rule": {tags: [writing tips, style guide, clear writing], hashtags: ['#WritingTips', '#StyleGuide']}
+    "Doc Types": {tags: [README, API documentation, release notes, docs as code], hashtags: ['#DevDocs', '#README']}

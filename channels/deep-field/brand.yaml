@@ -1,10 +1,8 @@
-name: Deep Field
+name: Space Science
 slug: deep-field
-positioning: One real picture of the universe a day, and what it shows
+positioning: Discover space through real images, explained every day.
 description: >-
-  Real images and real missions, explained in under a minute. Every Short uses
-  imagery from NASA and other open science archives, with the source in the
-  description. No made-up planets, no AI fakes.
+  Most space pictures reach your feed with no context. You see a galaxy, a planet or a nebula, but not what it is, how far away it sits or why it matters. Space Science fixes that. Every day you get real images of planets, stars and galaxies, explained in plain words in under a minute, so each picture finally makes sense.
 palette:
   background: "#070B1A"
   accent: "#7C5CFF"
@@ -40,6 +38,19 @@ description_template: |
 
   {youtube_hashtags}
 hashtags:
-  youtube: ["#DeepField", "#Space", "#Astronomy"]
-  instagram_anchors: ["#DeepField", "#Space"]
+  youtube: ["#SpaceScience", "#Space", "#Astronomy"]
+  instagram_anchors: ["#SpaceScience", "#Space"]
   instagram_rotation: ["#Astronomy", "#NASA", "#Universe", "#Planets", "#Cosmos", "#ScienceFacts"]
+handle: "@SPACESCIENCE101"
+seo:
+  category_id: "28"
+  tag_pool: [space, space science, astronomy, NASA, space facts]
+  hashtag_pool: ['#SpaceScience', '#Space', '#Astronomy', '#NASA']
+  playlists:
+    "Look Closer": "Look Closer: Real Space Images Explained"
+    "Mission Log": "Mission Log: Space Missions Explained"
+    "Scale It": "Scale It: How Big Is It Really?"
+  series_pools:
+    "Look Closer": {tags: [space images, James Webb, Hubble, galaxy, nebula], hashtags: ['#JamesWebb', '#Hubble']}
+    "Mission Log": {tags: [space news, NASA mission, space exploration], hashtags: ['#SpaceNews', '#NASA']}
+    "Scale It": {tags: [solar system, planets, size comparison, scale of the universe], hashtags: ['#SolarSystem', '#Planets']}

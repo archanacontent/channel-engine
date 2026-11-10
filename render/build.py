@@ -15,7 +15,7 @@ import numpy as np
 import yaml
 from PIL import Image, ImageDraw
 
-from render import audio
+from render import audio, seo
 from render.lib import FPS, H, W, caption_timeline, draw_caption
 
 PAINTERS = {
@@ -71,25 +71,45 @@ def fill_template(template, fields):
     return re.sub(r"\n{3,}", "\n\n", text).strip()
 
 
-def metadata(brand, ep):
+def metadata(brand, ep, use_autocomplete=True):
     series = ep["series"]
-    yt = brand["hashtags"].get("youtube") or brand["hashtags"]["youtube_by_series"][series]
+    yt_tags = seo.build_hashtags(brand, ep, seo.MAX_YT_HASHTAGS)
+    ig_tags = seo.build_hashtags(brand, ep, seo.MAX_IG_HASHTAGS)
     fields = {k: v for k, v in ep["description"].items() if k != "sources"}
     srcs = ep["description"].get("sources", [])
     fields["source_links"] = "\n".join(f"- {s}" for s in srcs) if srcs else ""
-    fields["youtube_hashtags"] = " ".join(yt)
+    fields["youtube_hashtags"] = " ".join(yt_tags)
     if "original" in ep:
         fields.setdefault("source_link", ep["original"]["source"])
         fields.setdefault("license", ep["original"]["license"])
-    ig = brand["hashtags"]["instagram_anchors"] + ep.get("instagram_hashtags_rotating", [])[:3]
+    first_line = next((str(v) for v in ep["description"].values() if isinstance(v, str)), ep["title"])
     return {
         "channel": brand["name"],
+        "handle": brand.get("handle"),
         "series": series,
-        "title": ep["title"],
-        "youtube_description": fill_template(brand["description_template"], fields),
-        "instagram_caption": f"{ep['title']}\n\n" + " ".join(ig[:5]),
+        "playlist": brand["seo"]["playlists"].get(series),
+        "title": ep["title"][:100],
+        "youtube_description": fill_template(brand["description_template"], fields)[:5000],
+        "tags": seo.build_tags(brand, ep, use_autocomplete),
+        "category_id": brand["seo"]["category_id"],
+        "language": "en",
+        "made_for_kids": False,
         "altered_content": "No",
+        "instagram_caption": f"{first_line}\n\n" + " ".join(ig_tags),
     }
+
+
+def srt(captions):
+    def ts(t):
+        ms = int(round(t * 1000))
+        h, ms = divmod(ms, 3600000)
+        m, ms = divmod(ms, 60000)
+        s, ms = divmod(ms, 1000)
+        return f"{h:02d}:{m:02d}:{s:02d},{ms:03d}"
+    lines = []
+    for i, (t0, t1, toks) in enumerate(captions, 1):
+        lines += [str(i), f"{ts(t0)} --> {ts(t1)}", " ".join(w for w, _ in toks), ""]
+    return "\n".join(lines)
 
 
 def main():
@@ -147,6 +167,7 @@ def main():
     meta = metadata(brand, ep)
     meta.update({"duration_s": round(total, 2), "music": bed_name})
     (out / f"{stem}.json").write_text(json.dumps(meta, indent=2))
+    (out / f"{stem}.srt").write_text(srt(captions))
     print("done", out / f"{stem}.mp4", round(total, 1), "s")
 
 

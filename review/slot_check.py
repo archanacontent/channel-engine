@@ -1,11 +1,16 @@
-"""Runs at each slot. Publishes only the Shorts ticked in the open review issue."""
+"""Runs at each slot. Publishes only the Shorts ticked in the open review issue.
+
+Each queue entry carries its metadata ("meta") and caption text ("srt"), written
+by the Sunday upload, so the slot run needs nothing but the queue file.
+"""
 import json
 import re
+import tempfile
 import subprocess
 import sys
 from datetime import datetime, timedelta, timezone
 
-from publish.youtube import make_public
+from publish.youtube import publish
 
 TICKED = re.compile(r"- \[x\] `([A-Za-z0-9_-]{11})`", re.I)
 
@@ -24,5 +29,10 @@ if __name__ == "__main__":
     for q in queue:
         due = datetime.fromisoformat(q["publish_at"])
         if now - timedelta(minutes=30) <= due <= now + timedelta(minutes=5) and q["video_id"] in ok:
-            make_public(q["slug"], q["video_id"])
+            srt = None
+            if q.get("srt"):
+                srt = tempfile.NamedTemporaryFile("w", suffix=".srt", delete=False)
+                srt.write(q["srt"])
+                srt.close()
+            publish(q["slug"], q["video_id"], q["meta"], srt.name if srt else None)
             print("published", q["slug"], q["video_id"])

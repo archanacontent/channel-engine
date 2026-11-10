@@ -27,3 +27,6 @@ description:
   what_was_fixed: "A one-line Git error rewritten to say what happened and what to do next."
   rule: An error message names the problem and the way out.
 instagram_hashtags_rotating: ["#DevDocs", "#UXWriting", "#WritingTips"]
+seo:
+  seeds: [refusing to merge unrelated histories, git error, error messages]
+  hashtags: ['#Git', '#ErrorMessages']
