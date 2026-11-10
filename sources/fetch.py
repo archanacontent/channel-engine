@@ -263,6 +263,11 @@ PEOPLE = re.compile(r"astronaut|crew|portrait|headshot|administrator|ceremony|pr
                     re.I)
 
 
+# Look Closer promises images of planets, stars and galaxies, not hardware on the ground.
+GROUND = re.compile(r"arriv|facility|processing|payload|launch pad|launch complex|rollout|roll out|clean ?room|"
+                    r"technician|hangar|crane|test stand|vandenberg|kennedy space center|transport", re.I)
+
+
 def look_closer(used):
     year = date.today().year - 1
     for q in CATALOG["nasa_queries"]:
@@ -277,7 +282,7 @@ def look_closer(used):
             rid = f"nasa:{nid}"
             desc = text_of(meta.get("description", ""), 3000)
             blob = meta.get("title", "") + " " + desc + " " + " ".join(meta.get("keywords") or [])
-            if not nid or rid in used or PEOPLE.search(blob) or len(desc) < 200:
+            if not nid or rid in used or PEOPLE.search(blob) or GROUND.search(blob) or len(desc) < 200:
                 continue
             m = re.search(r"(?:Image )?[Cc]redit[s]?:\s*([^.]{3,120})", desc)
             credit = (m.group(1).strip() if m else "NASA")

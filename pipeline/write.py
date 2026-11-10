@@ -7,6 +7,7 @@ that fails is sent back with the errors, twice at most, then the record is
 skipped.
 """
 import json
+from datetime import date
 import os
 import re
 import time
@@ -58,7 +59,7 @@ SCHEMA = """Return JSON only, in this shape:
  "beats": [ {"say": "...", "caption": "...", "highlight": ["1 to 3 exact phrases from caption"], "scene": {...}} ],
  "description": { <fields listed below> },
  "seo": {"seeds": ["3 or 4 search phrases a viewer would type, specific to this video"], "hashtags": ["#Two", "#Specific"]}}
-Rules for beats: 4 to 6 beats, 90 to 120 words of "say" in total (count them; under 80 is rejected), each beat 1 or 2 full sentences of about 20 words. Every beat has a scene object with a "type" field.
+Rules for beats: 4 to 6 beats, 70 to 120 words of "say" in total, each beat 1 or 2 full sentences. Every beat has a scene object with a "type" field.
 Scene types and fields (use different types across beats, last beat is usually "cta" or "quote"):
  headline {kicker?, text} | stat {value, label, source?} | card {title, rows: [[label, value]] up to 5}
  list {title, items: up to 4 short items, style: check|number|bullet} | compare {left_label, left_text, right_label, right_text}
@@ -101,8 +102,24 @@ def normalize(ep):
                     sc["type"] = sc.pop(k)
             if "type" not in sc and len(sc) == 1 and next(iter(sc)) in SCENES:
                 k, v = next(iter(sc.items()))
-                b["scene"] = dict(v if isinstance(v, dict) else {}, type=k)
+                b["scene"] = sc = dict(v if isinstance(v, dict) else {}, type=k)
+        t = sc.get("type")
+        if t == "card" and not sc.get("rows") and sc.get("value"):
+            sc["rows"] = [[sc.get("label") or "Detail", sc.pop("value")]]
+        if t == "list" and not sc.get("items") and sc.get("value"):
+            sc["items"] = [sc.pop("value")]
+        if t == "headline" and not sc.get("text"):
+            sc["text"] = sc.get("title") or sc.get("value") or b.get("caption", "")
+        if t == "quote" and not sc.get("text"):
+            sc["text"] = sc.get("value") or b.get("caption", "")
+        if t == "cta" and not sc.get("line"):
+            sc["line"] = sc.get("text") or b.get("caption", "")
     return ep
+
+
+NEEDS = {"headline": ["text"], "stat": ["value", "label"], "card": ["title", "rows"], "list": ["title", "items"],
+         "compare": ["left_label", "left_text", "right_label", "right_text"], "flow": ["steps"], "image": [],
+         "sizes": ["a_label", "b_label"], "quote": ["text"], "cta": ["line"]}
 
 
 def _call(model, system, user, key, schema=None):
@@ -157,7 +174,8 @@ def generate(system, user, schema=None):
 
 
 def _norm_num(s):
-    return s.replace(",", "").rstrip(".")
+    s = s.replace(",", "").rstrip(".")
+    return s[:-2] if s.endswith(".0") else s
 
 
 def check(ep, record, desc_fields):
@@ -166,8 +184,8 @@ def check(ep, record, desc_fields):
     if not 4 <= len(beats) <= 6:
         errs.append(f"Need 4 to 6 beats, got {len(beats)}.")
     words = sum(len(str(b.get("say", "")).split()) for b in beats)
-    if not 70 <= words <= 140:
-        errs.append(f"'say' totals {words} words; it must be 90 to 120. Add a full sentence of real detail from SOURCE to each beat.")
+    if not 55 <= words <= 140:
+        errs.append(f"'say' totals {words} words; it must be 70 to 120. Add real detail from SOURCE, never invented detail.")
     facts = record["facts"]
     facts_nums = {_norm_num(n) for n in re.findall(r"\d[\d,]*(?:\.\d+)?", facts)}
     flat_facts = re.sub(r"\s+", " ", facts)
@@ -178,6 +196,12 @@ def check(ep, record, desc_fields):
         sc = b.get("scene") or {}
         if sc.get("type") not in SCENES:
             errs.append(f"Beat {i + 1} has unknown scene type {sc.get('type')!r}.")
+        else:
+            gaps = [f for f in NEEDS[sc["type"]] if not sc.get(f)]
+            if gaps:
+                errs.append(f"Beat {i + 1} {sc['type']} scene is missing {gaps}.")
+            if sc["type"] == "card" and not all(isinstance(r, list) and len(r) == 2 for r in sc.get("rows") or []):
+                errs.append(f"Beat {i + 1} card rows must be [label, value] pairs.")
         text = json.dumps(b, ensure_ascii=False)
         if "—" in text or "–" in text:
             errs.append(f"Beat {i + 1} uses a dash character; rewrite without it.")
@@ -215,7 +239,10 @@ def write_episode(brand, record):
               f"Title pattern for this series: {title_pattern}\n"
               f"Description fields to fill (one or two plain sentences each, first field answers the viewer's question "
               f"outright and names the subject): {desc_fields}\n\n{SCHEMA}")
-    user = f"SOURCE (the only facts you may use):\n{record['facts']}\n\nSOURCE LINKS: {record['sources']}"
+    today = date.today().isoformat()
+    user = (f"TODAY is {today}. SOURCE may be older. Anything SOURCE describes as planned or upcoming that is dated "
+            f"before today must be stated in past tense as what was planned at the time, with its date, or left out. "
+            f"Never present an old event as new.\n\n") + f"SOURCE (the only facts you may use):\n{record['facts']}\n\nSOURCE LINKS: {record['sources']}"
     errs = []
     for _ in range(3):
         prompt = user if not errs else user + "\n\nYour previous answer failed these checks, fix all of them:\n- " + "\n- ".join(errs)
