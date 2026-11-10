@@ -1,0 +1,63 @@
+skip: false
+title: 'Exploited now: Openwave Webtop Media Transcoder CVE-2026-111793'
+beats:
+- say: C V E 2026, 1 1 1 7 9 3 is under active attack.
+  caption: CVE-2026-111793 is under active attack.
+  scene:
+    type: headline
+    text: CVE-2026-111793 Under Active Attack
+  highlight:
+  - active attack
+- say: Openwave Messaging Limited Webtop Media Transcoder contains an incorrect resource transfer between spheres vulnerability.
+  caption: Openwave Messaging Limited Webtop Media Transcoder contains an incorrect resource transfer between spheres vulnerability.
+  scene:
+    type: stat
+    value: CVE-2026-111793
+    label: Vulnerability Details
+  highlight:
+  - incorrect resource transfer
+- say: This allows an authenticated user to process unintended document types if bypassing the Webmail experience.
+  caption: This allows an authenticated user to process unintended document types if bypassing the Webmail experience.
+  scene:
+    type: headline
+    text: Bypasses Webmail Experience
+  highlight:
+  - unintended document types
+- say: CISA added this flaw to the catalog on November tenth, 2026, with a remediation due date of November twenty-fourth, 2026.
+  caption: CISA added this flaw to the catalog on 2026-11-10, with a remediation due date of 2026-11-24.
+  scene:
+    type: stat
+    value: '2026-11-10'
+    label: Timeline
+  highlight:
+  - '2026-11-24'
+- say: Apply vendor mitigations immediately or discontinue use of the product.
+  caption: Apply vendor mitigations immediately or discontinue use of the product.
+  scene:
+    type: list
+    items:
+    - Apply vendor mitigations
+    - Discontinue use if needed
+    style: check
+    title: Key points
+  highlight:
+  - Apply vendor mitigations
+description:
+  summary: CISA added CVE-2026-111793 to the Known Exploited Vulnerabilities catalog on November tenth, 2026.
+  affected: Openwave Messaging Limited Webtop Media Transcoder.
+  action: Apply mitigations in accordance with vendor instructions or discontinue use of the product.
+  sources:
+  - 'CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog'
+  - 'NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-111793'
+seo:
+  seeds:
+  - CVE-2026-111793
+  - Openwave Webtop Media Transcoder
+  - CISA KEV catalog 2026
+  - Webmail vulnerability patch
+  - BOD 26-04 guidance updates
+skip_reason: ''
+series: Exploited Today
+record_id: kev:CVE-2026-111793
+auto: true
+instagram_hashtags_rotating: []

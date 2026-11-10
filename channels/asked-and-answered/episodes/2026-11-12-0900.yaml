@@ -1,0 +1,91 @@
+skip: false
+title: 'Buyers ask AI: what is marketing automation software'
+beats:
+- say: What is marketing automation software? B2B buyers type this question into generative engines every day.
+  caption: What is marketing automation software? B2B buyers type this question into generative engines every day.
+  scene:
+    type: headline
+    text: What is marketing automation software?
+  highlight:
+  - What is marketing automation software?
+- say: To get cited as the answer, your page must explicitly define software capabilities and clarify platform differences.
+  caption: To get cited as the answer, your page must explicitly define software capabilities and clarify platform differences.
+  scene:
+    type: list
+    items:
+    - Define capabilities
+    - Clarify differences
+    - Compare crm systems
+    style: check
+    title: Key points
+  highlight:
+  - explicitly define software capabilities
+- say: AI search engines look for clear software definitions rather than vague marketing language.
+  caption: AI search engines look for clear software definitions rather than vague marketing language.
+  scene:
+    type: quote
+    text: AI engines look for clear definitions.
+    unit: ''
+    value: ''
+  highlight:
+  - clear software definitions
+- say: Find your buyers questions with Asked, link on our channel page.
+  caption: Find your buyers questions with Asked, link on our channel page.
+  scene:
+    type: cta
+    line: Find buyers questions
+    subline: Use Asked today
+  highlight:
+  - Asked
+description:
+  hook: Buyers ask AI what is marketing automation software to research platforms before talking to sales teams.
+  answer: Your web pages must provide direct software definitions and comparison points to earn citations in generative search results.
+  sources:
+  - 'Asked, free AEO and GEO question finder: https://archanacontent.github.io/asked/'
+seo:
+  seeds:
+  - marketing automation software
+  - answer engine optimization
+  - AI search marketing
+  - generative engine optimization B2B SEO
+  - how to rank in Perplexity Google AI Mode
+  - B2B vendor discovery in AI engines
+  - marketing automation tools definition
+  - AEO strategy for software companies
+  - best marketing automation platform for small business
+  - software comparison for AI search engines
+  - how AI citations work for SaaS companies
+  - optimizing B2B content for ChatGPT search
+  - marketing automation software vs CRM systems
+  - AI search visibility for B2B brands
+  - Asked keyword tool for AEO and GEO
+  - earning mentions in AI engine answers
+  - B2B buyer intent in Google AI Mode
+  - generative AI search optimization tips
+  - marketing automation platform requirements
+  - software documentation for AI citation
+  - AI SEO tactics for enterprise software
+  - content structure for generative search
+  - answering B2B buyer questions with AI
+  - B2B SaaS visibility in AI answers
+  - marketing automation features for small business
+  - AI search engine ranking factors
+  - optimizing SaaS pages for Perplexity
+  - software vendor evaluation in AI mode
+  - how search generative experience works
+  - AEO best practices for B2B marketers
+  - generative engine optimization tactics
+  - marketing automation tools and platforms
+  - B2B search behavior in AI assistants
+  - earning AI citations for software
+  - AI answer engine optimization guide
+  - marketing automation software for small business
+  - AI marketing automation tools comparison
+  - content marketing for AI search engines
+  - B2B demand generation through AI
+  - AI visibility strategy for SaaS brands
+skip_reason: ''
+series: Buyers Asked
+record_id: asked:marketing automation software
+auto: true
+instagram_hashtags_rotating: []

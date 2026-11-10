@@ -1,0 +1,60 @@
+skip: false
+title: 'What you''re looking at: SPHEREx in Orbit'
+beats:
+- say: This artist concept shows NASA's S P H E R E x spacecraft in low Earth orbit.
+  caption: This artist concept shows NASA's SPHEREx spacecraft in low Earth orbit.
+  scene:
+    type: image
+    credit: NASA JPL
+  highlight:
+  - SPHEREx spacecraft
+- say: It features distinctive conical photon shields protecting its telescope from the Sun and Earth.
+  caption: It features distinctive conical photon shields protecting its telescope from the Sun and Earth.
+  scene:
+    type: headline
+    text: Distinctive Conical Photon Shields
+  highlight:
+  - conical photon shields
+- say: Using spectroscopy, it will image the entire sky in 1 0 2 wavelengths of infrared light.
+  caption: Using spectroscopy, it will image the entire sky in 102 wavelengths of infrared light.
+  scene:
+    type: stat
+    label: Infrared Wavelengths
+    value: '102'
+  highlight:
+  - 102 wavelengths
+- say: Scientists will study the big bang, galaxy formation, and the origins of water.
+  caption: Scientists will study the big bang, galaxy formation, and the origins of water.
+  scene:
+    type: list
+    title: Science Goals
+    unit: ''
+    items:
+    - 3 goals
+  highlight: []
+- say: Discover space daily. Image credit in the description.
+  caption: Discover space daily. Image credit in the description.
+  scene:
+    type: cta
+    line: Subscribe for daily space discoveries
+    subline: Image credit in the description
+  highlight: []
+description:
+  explainer: This artist concept shows the SPHEREx spacecraft in low Earth orbit with its distinctive conical photon shields, designed to create the first all-sky spectroscopic survey in the near-infrared.
+  sources:
+  - 'NASA Image and Video Library: https://images.nasa.gov/details/PIA26531'
+  credit: NASA
+seo:
+  seeds:
+  - SPHEREx NASA mission
+  - infrared space telescope
+  - spectroscopic sky survey
+  - 'origin of water in space id PIA26531 '
+skip_reason: ''
+series: Look Closer
+record_id: nasa:PIA26531
+auto: true
+instagram_hashtags_rotating: []
+media:
+  image: /home/runner/work/channel-engine/channel-engine/out/deep-field/media/2026-11-11-0900.jpg
+  credit: NASA

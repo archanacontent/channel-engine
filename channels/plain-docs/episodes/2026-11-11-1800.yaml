@@ -1,0 +1,52 @@
+skip: false
+title: What a README must include
+beats:
+- say: A README is a text file that introduces and explains your project.
+  caption: A README is a text file that introduces and explains your project.
+  scene:
+    type: headline
+    text: The purpose of a README
+  highlight: []
+- say: Place this file in the top level directory of your project.
+  caption: Place this file in the top level directory of your project.
+  scene:
+    type: headline
+    text: Where to put your file
+  highlight: []
+- say: Essential sections for a README include project name, description, installation, usage, contributing, and license.
+  caption: Essential sections for a README include project name, description, installation, usage, contributing, and license.
+  scene:
+    type: list
+    title: Must have sections
+    items:
+    - check
+  highlight: []
+- say: Use Markdown to add lightweight formatting to your file.
+  caption: Use Markdown to add lightweight formatting to your file.
+  scene:
+    type: stat
+    value: Markdown
+    label: Best format
+  highlight: []
+- say: When in doubt, remember that too long is better than too short.
+  caption: When in doubt, remember that too long is better than too short.
+  scene:
+    type: quote
+    text: Too long is better than too short.
+    value: Too long is better than too short
+  highlight: []
+description:
+  what_was_fixed: This video defines the purpose and essential components of a project README file.
+  rule: Always place your README in the top level directory of your project.
+  sources:
+  - 'README guidance: https://www.makeareadme.com/'
+seo:
+  seeds:
+  - how to write a readme
+  - what to include in a readme
+  - readme best practices
+  - project documentation
+series: Doc Types
+record_id: doctype:README
+auto: true
+instagram_hashtags_rotating: []

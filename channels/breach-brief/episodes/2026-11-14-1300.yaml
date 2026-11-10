@@ -1,0 +1,54 @@
+skip: false
+title: 'Exploited now: IBM Aspera Faspex CVE-2026-123218'
+beats:
+- say: Attackers are actively exploiting a critical authorization flaw in IBM Aspera Faspex.
+  caption: Attackers are actively exploiting a critical authorization flaw in IBM Aspera Faspex.
+  scene:
+    type: headline
+    text: Critical vulnerability found in IBM Aspera Faspex
+  highlight: []
+- say: This vulnerability, C V E 2026 123218, allows an authenticated user to bypass authorization and gain full administrative privileges.
+  caption: This vulnerability, CVE-2026-123218, allows an authenticated user to bypass authorization and gain full administrative privileges.
+  scene:
+    type: stat
+    value: CVE-2026-123218
+    label: Vulnerability Details
+  highlight: []
+- say: C I S A added this flaw to its list on November 9, 2026. The deadline for federal agencies to apply mitigations is November 12, 2026.
+  caption: CISA added this flaw to its list on November 9, 2026. The deadline for federal agencies to apply mitigations is November 12, 2026.
+  scene:
+    type: stat
+    value: November 2026
+    label: CISA KEV Timeline
+  highlight: []
+- say: You must apply mitigations per vendor instructions immediately. If you cannot patch, discontinue use of the product.
+  caption: You must apply mitigations per vendor instructions immediately. If you cannot patch, discontinue use of the product.
+  scene:
+    type: list
+    title: Required Actions
+    items:
+    - Patch or disconnect
+  highlight: []
+- say: Assess your internet exposure now. Sources are in the description.
+  caption: Assess your internet exposure now. Sources are in the description.
+  scene:
+    type: cta
+    line: Sources are in the description.
+  highlight: []
+description:
+  summary: IBM Aspera Faspex contains a critical authorization vulnerability that allows privilege escalation. CISA added this flaw to its known exploited list on November 9, 2026.
+  affected: IBM Aspera Faspex versions 5.0.0 through 5.0.19.
+  action: Apply vendor mitigations immediately or discontinue use of the product if patches are unavailable.
+  sources:
+  - 'CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog'
+  - 'NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-123218'
+seo:
+  seeds:
+  - IBM Aspera Faspex vulnerability
+  - CVE-2026-123218
+  - CISA KEV catalog
+  - privilege escalation exploit
+series: Exploited Today
+record_id: kev:CVE-2026-123218
+auto: true
+instagram_hashtags_rotating: []

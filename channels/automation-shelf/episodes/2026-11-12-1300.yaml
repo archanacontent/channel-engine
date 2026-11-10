@@ -1,0 +1,64 @@
+skip: false
+title: 'Free workflow: restaurant booking on autopilot'
+beats:
+- say: Automate restaurant marketing and bookings using n eight n, V A P I, and Google Sheets.
+  caption: Automate restaurant marketing and bookings using n8n, VAPI, and Google Sheets.
+  scene:
+    type: headline
+    kicker: Library Pick
+    text: Automate Restaurant Marketing and Bookings
+  highlight:
+  - restaurant marketing and bookings
+- say: The workflow triggers on new leads, prepares data, and loops through batch marketing campaigns.
+  caption: The workflow triggers on new leads, prepares data, and loops through batch marketing campaigns.
+  scene:
+    type: flow
+    steps:
+    - title: New Lead Trigger
+      note: Captures new leads from sheets
+    - title: Lead Preparation
+      note: Extracts contact details
+    - title: Campaign Loop
+      note: Processes batch marketing
+  highlight: []
+- say: V A P I initiates personalized voice calls with tailored offers and booking invitations.
+  caption: VAPI initiates personalized voice calls with tailored offers and booking invitations.
+  scene:
+    type: stat
+    value: VAPI
+    label: Voice Integration
+  highlight:
+  - personalized voice calls
+- say: Customer responses are stored, booking details are extracted, and events land in Google Calendar.
+  caption: Customer responses are stored, booking details are extracted, and events land in Google Calendar.
+  scene:
+    type: list
+    style: check
+    title: Booking Steps
+    items:
+    - Responses stored
+  highlight:
+  - Google Calendar
+- say: This setup suits restaurants looking to automate campaigns and streamline booking processes. Template link in the description.
+  caption: This setup suits restaurants looking to automate campaigns and streamline booking processes. Template link in the description.
+  scene:
+    type: cta
+    line: Get this workflow
+    subline: Template link in the description.
+  highlight:
+  - Template link in the description
+description:
+  task_line: Automate restaurant marketing campaigns and customer bookings using n8n, VAPI, and Google Sheets.
+  tools: n8n, VAPI, Google Sheets, Google Calendar
+  sources:
+  - 'n8n template: https://n8n.io/workflows/5890'
+  template_link: https://n8n.io/workflows/5890
+seo:
+  seeds:
+  - restaurant marketing automation n8n
+  - VAPI voice agent workflow
+  - automated restaurant booking n8n template
+series: Library Pick
+record_id: n8n:5890
+auto: true
+instagram_hashtags_rotating: []

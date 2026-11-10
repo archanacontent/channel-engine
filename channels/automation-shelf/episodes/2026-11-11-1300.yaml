@@ -1,0 +1,61 @@
+skip: false
+title: 'Free workflow: Amazon affiliate marketing on autopilot'
+beats:
+- say: Stop manually creating Facebook posts for your Amazon affiliate products every single day.
+  caption: Stop manually creating Facebook posts for your Amazon affiliate products every single day.
+  scene:
+    type: headline
+    text: Automate your affiliate marketing posts
+  highlight: []
+- say: This n eight n workflow watches your Google Sheet for new product links and triggers automatically. It fetches details from Amazon and uses OpenRouter to write your social media captions.
+  caption: This n8n workflow watches your Google Sheet for new product links and triggers automatically. It fetches details from Amazon and uses OpenRouter to write your social media captions.
+  scene:
+    type: flow
+    steps:
+    - title: Sheet trigger
+      note: Watch for new links
+    - title: Fetch details
+      note: Use Amazon product data
+    - title: AI generation
+      note: Create captions and images
+  highlight: []
+- say: The system generates high quality product images with Google Gemini and uploads them directly to your Facebook page. It then marks your spreadsheet row as done so you stay organized.
+  caption: The system generates high quality product images with Google Gemini and uploads them directly to your Facebook page. It then marks your spreadsheet row as done so you stay organized.
+  scene:
+    type: list
+    title: Workflow capabilities
+    items:
+    - check
+  highlight: []
+- say: You can customize the caption prompt to match your brand tone or swap the final API call to post on Instagram instead. This automation saves time for affiliate marketers and social media managers.
+  caption: You can customize the caption prompt to match your brand tone or swap the final API call to post on Instagram instead. This automation saves time for affiliate marketers and social media managers.
+  scene:
+    type: stat
+    value: Flexible settings
+    label: Customization options
+  highlight: []
+- say: Template link in the description.
+  caption: Template link in the description.
+  scene:
+    type: cta
+    line: Get this workflow
+    subline: Template link in the description
+  highlight: []
+description:
+  task_line: This workflow automates Amazon affiliate marketing by turning product links into Facebook posts using AI.
+  tools: n8n, Google Sheets, Amazon API, OpenRouter, Google Gemini, Facebook Graph API
+  sources:
+  - 'n8n template: https://n8n.io/workflows/7422'
+  template_link: https://n8n.io/workflows/7422
+seo:
+  seeds:
+  - n8n affiliate automation
+  - Amazon affiliate Facebook post
+  - automate social media posts
+  - n8n template library
+  - AI marketing workflow for Facebook
+skip_reason: ''
+series: Library Pick
+record_id: n8n:7422
+auto: true
+instagram_hashtags_rotating: []

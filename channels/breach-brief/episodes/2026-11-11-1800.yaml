@@ -1,0 +1,64 @@
+skip: false
+title: 'Scam alert: Tax debt relief scams'
+beats:
+- say: Dishonest companies promise to eliminate tax debt for pennies on the dollar before looking at your situation.
+  caption: Dishonest companies promise to eliminate tax debt for pennies on the dollar before looking at your situation.
+  scene:
+    type: headline
+    text: Tax debt relief promises are scams
+  highlight:
+  - tax debt
+  - pennies on the dollar
+- say: American Tax Service mailed letters impersonating the government and demanded calls to avoid property seizure.
+  caption: American Tax Service mailed letters impersonating the government and demanded calls to avoid property seizure.
+  scene:
+    type: stat
+    value: Impersonation
+    label: Tactics Used
+  highlight:
+  - impersonating the government
+  - property seizure
+- say: Ignore businesses claiming you qualify for programs or demanding their entire fee upfront.
+  caption: Ignore businesses claiming you qualify for programs or demanding their entire fee upfront.
+  scene:
+    type: list
+    items:
+    - Ignore qualification promises
+    - Walk away from upfront fees
+    - No guaranteed results
+    style: check
+    title: Key points
+  highlight:
+  - fee upfront
+  - qualify
+- say: Only the IRS or state revenue departments decide tax qualifications.
+  caption: Only the IRS or state revenue departments decide tax qualifications.
+  scene:
+    type: headline
+    text: Only agencies decide tax relief
+  highlight:
+  - IRS or state revenue
+- say: More in the FTC alert linked in the description.
+  caption: More in the FTC alert linked in the description.
+  scene:
+    type: cta
+    line: Read the FTC alert
+    subline: Link in description
+  highlight:
+  - FTC alert
+description:
+  summary: A consumer alert warns about dishonest tax debt relief companies charging fees without helping.
+  affected: Taxpayers owing back taxes looking for debt relief.
+  action: Ignore promises of pennies on the dollar settlements and report scams to the FTC.
+  sources:
+  - 'FTC consumer alert: https://consumer.ftc.gov/consumer-alerts/2026/08/struggling-tax-debt-heres-what-know'
+seo:
+  seeds:
+  - tax debt scam
+  - IRS impostor scam
+  - tax relief fraud FTC
+  - American Tax Service settlement
+series: Scam Alert
+record_id: ftc:/consumer-alerts/2026/08/struggling-tax-debt-heres-what-know
+auto: true
+instagram_hashtags_rotating: []

@@ -1,0 +1,55 @@
+skip: false
+title: 'Exploited now: Microsoft Office CVE-2026-124194'
+beats:
+- say: Microsoft Office Outlook has a new flaw actively exploited right now.
+  caption: Microsoft Office Outlook has a new flaw actively exploited right now.
+  scene:
+    type: headline
+    text: Active Office Outlook Flaw
+  highlight:
+  - actively exploited
+- say: C V E 2026, 1 2 4 1 9 4 allows an attacker to perform spoofing over a network.
+  caption: CVE-2026-124194 allows an attacker to perform spoofing over a network.
+  scene:
+    type: stat
+    value: Microsoft Office
+    label: CVE-2026-124194
+  highlight:
+  - spoofing over a network
+- say: CISA added this vulnerability to the catalog on November 10, 2026 with a due date of November 24, 2026.
+  caption: CISA added this vulnerability to the catalog on 2026-11-10 with a due date of 2026-11-24.
+  scene:
+    type: stat
+    value: '2026-11-10'
+    label: Details
+  highlight: []
+- say: Apply mitigations from vendor instructions and follow CISA guidance or discontinue use.
+  caption: Apply mitigations from vendor instructions and follow CISA guidance or discontinue use.
+  scene:
+    type: list
+    items:
+    - Apply vendor mitigations
+    - Follow CISA guidance
+    - Discontinue if unpatched
+    style: check
+    title: Key points
+  highlight:
+  - Apply mitigations
+description:
+  summary: Microsoft Office Outlook contains a missing user interaction vulnerability allowing network spoofing.
+  affected: Microsoft Office Outlook.
+  action: Apply mitigations in accordance with vendor instructions and CISA guidance or discontinue use.
+  sources:
+  - 'CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog'
+  - 'NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-124194'
+seo:
+  seeds:
+  - CVE-2026-124194
+  - Microsoft Office Outlook vulnerability
+  - CISA KEV Microsoft Office
+  - Outlook spoofing flaw 2026
+skip_reason: ''
+series: Exploited Today
+record_id: kev:CVE-2026-124194
+auto: true
+instagram_hashtags_rotating: []

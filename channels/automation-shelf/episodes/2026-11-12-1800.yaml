@@ -1,0 +1,66 @@
+skip: false
+title: Can you automate video marketing ideation?
+beats:
+- say: Can you automate video marketing ideation? Yes, using this n eight n workflow.
+  caption: Can you automate video marketing ideation? Yes, using this n8n workflow.
+  scene:
+    type: headline
+    text: Can you automate video marketing ideation?
+  highlight: []
+- say: The flow tracks daily trends, generates creative concepts, and emails them for production.
+  caption: The flow tracks daily trends, generates creative concepts, and emails them for production.
+  scene:
+    type: list
+    title: Workflow Capabilities
+    items:
+    - check
+  highlight:
+  - tracks daily trends
+  - generates creative concepts
+  - emails them
+- say: It connects Tavily for research, GPT-4 for brainstorming, and Gmail for delivery.
+  caption: It connects Tavily for research, GPT-4 for brainstorming, and Gmail for delivery.
+  scene:
+    type: flow
+    steps:
+    - title: Tavily
+      note: Search daily trends
+    - title: GPT-4
+      note: Generate video concepts
+    - title: Gmail
+      note: Deliver prompts
+  highlight:
+  - Tavily
+  - GPT-4
+  - Gmail
+- say: This setup saves your team hours of creative brainstorming and manual content planning.
+  caption: This setup saves your team hours of creative brainstorming and manual content planning.
+  scene:
+    type: stat
+    value: Saves hours
+    label: Benefits
+  highlight:
+  - saves your team hours
+- say: Template link in the description.
+  caption: Template link in the description.
+  scene:
+    type: cta
+    line: Get the template
+    subline: Link in description
+  highlight: []
+description:
+  task_line: This workflow automates your video content ideation by researching trends and emailing ready-to-use prompts.
+  tools: Built with n8n, Tavily, OpenAI GPT-4, and Gmail.
+  sources:
+  - 'n8n template: https://n8n.io/workflows/4921'
+  template_link: https://n8n.io/workflows/4921
+seo:
+  seeds:
+  - n8n workflow
+  - automated video marketing
+  - GPT-4 video ideas
+  - marketing automation template
+series: Can It Be Automated?
+record_id: n8n:4921
+auto: true
+instagram_hashtags_rotating: []

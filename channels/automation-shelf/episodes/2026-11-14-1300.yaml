@@ -1,0 +1,65 @@
+skip: false
+title: 'Free workflow: Google Drive to Facebook Ads on autopilot'
+beats:
+- say: Automate your video ads by syncing Google Drive directly to Facebook.
+  caption: Automate your video ads by syncing Google Drive directly to Facebook.
+  scene:
+    type: headline
+    text: Sync Google Drive to Facebook Ads automatically
+  highlight: []
+- say: This n eight n workflow scans your drive for new videos and uploads them to Facebook.
+  caption: This n8n workflow scans your drive for new videos and uploads them to Facebook.
+  scene:
+    type: list
+    style: check
+    title: Workflow Capabilities
+    items:
+    - Scan Drive to Facebook upload
+  highlight:
+  - scans your drive
+  - uploads them to Facebook
+- say: The process follows four stages to turn files into ad creatives.
+  caption: The process follows four stages to turn files into ad creatives.
+  scene:
+    type: flow
+    steps:
+    - title: Content Discovery
+      note: Scan Google Drive
+    - title: Video Preparation
+      note: Download and validate
+    - title: Facebook Upload
+      note: Direct platform transfer
+    - title: Creative Generation
+      note: Prepare ad assets
+  highlight: []
+- say: It is built for marketing teams and agencies needing rapid content deployment.
+  caption: It is built for marketing teams and agencies needing rapid content deployment.
+  scene:
+    type: stat
+    value: Marketing Teams and Agencies
+    label: Ideal Users
+  highlight: []
+- say: Template link in the description.
+  caption: Template link in the description.
+  scene:
+    type: cta
+    line: Get the template
+    subline: Link in description
+  highlight: []
+description:
+  task_line: This workflow automatically identifies video files in Google Drive and uploads them to Facebook for ad creation.
+  tools: n8n, Google Drive, Facebook Ads
+  sources:
+  - 'n8n template: https://n8n.io/workflows/4620'
+  template_link: https://n8n.io/workflows/4620
+seo:
+  seeds:
+  - n8n automation
+  - Google Drive Facebook Ads integration
+  - marketing workflow automation
+  - automated video marketing tool
+  - n8n template for marketing teams
+series: Library Pick
+record_id: n8n:4620
+auto: true
+instagram_hashtags_rotating: []

@@ -1,0 +1,58 @@
+skip: false
+title: 'Park Dental Partners breach: what was taken'
+beats:
+- say: Park Dental Partners identified unauthorized access to its computer network on August twenty eighth, two thousand twenty six.
+  caption: Park Dental Partners identified unauthorized access to its computer network on August 28, 2026.
+  scene:
+    type: headline
+    kicker: Breach Watch
+    text: Park Dental Partners network accessed
+  highlight:
+  - unauthorized access
+- say: The investigation determined that data was subject to unauthorized acquisition. Protected health information of impacted patients was involved.
+  caption: The investigation determined that data was subject to unauthorized acquisition. Protected health information of impacted patients was involved.
+  scene:
+    type: stat
+    unit: ''
+    value: Unauthorized acquisition of data reported in SEC filing on October thirteenth, two thousand twenty six.
+    label: Incident Details
+  highlight:
+  - unauthorized acquisition
+  - Protected health information
+- say: The company engaged external experts, notified law enforcement, and is completing notifications for impacted patients.
+  caption: The company engaged external experts, notified law enforcement, and is completing notifications for impacted patients.
+  scene:
+    type: list
+    style: check
+    title: Response Actions
+    unit: ''
+    items:
+    - Engaged experts and law enforcement.
+  highlight:
+  - external experts
+  - law enforcement
+- say: Four state court lawsuits were filed in Minnesota regarding the data breach. The filing is linked in the description.
+  caption: Four state court lawsuits were filed in Minnesota regarding the data breach. The filing is linked in the description.
+  scene:
+    type: cta
+    line: Read the official filing
+    subline: Link in description
+  highlight:
+  - Four state court lawsuits
+description:
+  summary: Park Dental Partners disclosed an unauthorized acquisition of data involving protected health information following an August 2026 network breach.
+  affected: Impacted patients had their protected health information involved in the incident.
+  action: The company engaged external cybersecurity experts, notified law enforcement, and is completing required patient notifications.
+  sources:
+  - 'SEC filing: https://www.sec.gov/Archives/edgar/data/2069604/000110465926115541/park-20261007x8k.htm'
+seo:
+  seeds:
+  - Park Dental Partners breach
+  - Park Dental SEC filing
+  - August 2026 healthcare data breach
+  - Park Dental cyber attack
+skip_reason: ''
+series: Breach Watch
+record_id: sec:0001104659-26-115541
+auto: true
+instagram_hashtags_rotating: []

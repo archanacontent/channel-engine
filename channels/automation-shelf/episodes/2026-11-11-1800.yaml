@@ -1,0 +1,57 @@
+skip: false
+title: Can you automate ad banner creation?
+beats:
+- say: Can you automate ad banner creation? Yes, you can generate high quality banners from LINE messages.
+  caption: Can you automate ad banner creation? Yes, you can generate high quality banners from LINE messages.
+  scene:
+    type: headline
+    text: Automate Ad Banner Creation
+  highlight: []
+- say: This n eight n workflow uses Google Gemini to engineer marketing prompts for your banner concepts.
+  caption: This n8n workflow uses Google Gemini to engineer marketing prompts for your banner concepts.
+  scene:
+    type: stat
+    value: Gemini Prompting
+    label: Workflow Components
+  highlight: []
+- say: The workflow submits a job to Nano Banana Pro and handles the asynchronous API polling.
+  caption: The workflow submits a job to Nano Banana Pro and handles the asynchronous API polling.
+  scene:
+    type: flow
+    steps:
+    - title: Submit Job
+      note: Nano Banana Pro
+    - title: Async Polling
+      note: Wait for completion
+  highlight: []
+- say: Final images are uploaded to AWS S three and sent directly back to your LINE account.
+  caption: Final images are uploaded to AWS S3 and sent directly back to your LINE account.
+  scene:
+    type: list
+    title: Final Delivery
+    items:
+    - AWS S3 Uploads, LINE Delivery
+  highlight: []
+- say: Template link in the description.
+  caption: Template link in the description.
+  scene:
+    type: cta
+    line: Get the n8n template
+    subline: Link in description
+  highlight: []
+description:
+  task_line: This workflow generates high quality advertising banners from simple LINE messages using Google Gemini and Nano Banana Pro.
+  tools: n8n, Google Gemini, Nano Banana Pro, AWS S3, LINE Official Account
+  sources:
+  - 'n8n template: https://n8n.io/workflows/11205'
+  template_link: https://n8n.io/workflows/11205
+seo:
+  seeds:
+  - n8n marketing automation
+  - automated banner generation
+  - Kie.ai API n8n
+  - LINE messaging automation
+series: Can It Be Automated?
+record_id: n8n:11205
+auto: true
+instagram_hashtags_rotating: []

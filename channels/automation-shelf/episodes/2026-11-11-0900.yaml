@@ -1,0 +1,64 @@
+skip: false
+title: 'Stop doing this by hand: competitor content tracking'
+beats:
+- say: Stop wasting hours manually tracking competitor moves and keyword trends.
+  caption: Stop wasting hours manually tracking competitor moves and keyword trends.
+  scene:
+    type: headline
+    text: Stop wasting hours manually tracking competitor moves
+  highlight: []
+- say: This n eight n workflow monitors competitor content and generates AI recommendations automatically.
+  caption: This n8n workflow monitors competitor content and generates AI recommendations automatically.
+  scene:
+    type: stat
+    label: Workflow capability
+    value: Automated intelligence
+  highlight: []
+- say: The flow uses a trigger to monitor domains and query multiple data sources.
+  caption: The flow uses a trigger to monitor domains and query multiple data sources.
+  scene:
+    type: flow
+    steps:
+    - title: Schedule Trigger
+      note: Starts the daily check
+    - title: HTTP Requests
+      note: Fetches data from Ahrefs and SEMrush
+    - title: Code Nodes
+      note: Processes and analyzes content gaps
+    - title: Airtable
+      note: Saves insights to your database
+  highlight: []
+- say: You get instant updates in Airtable, Notion, and Slack without manual input.
+  caption: You get instant updates in Airtable, Notion, and Slack without manual input.
+  scene:
+    type: list
+    title: Automated Outputs
+    unit: bullet
+    items:
+    - bullet
+  highlight: []
+- say: The free template is linked in the description.
+  caption: The free template is linked in the description.
+  scene:
+    type: cta
+    line: Get the template
+    subline: Link in description
+  highlight: []
+description:
+  task_line: This workflow automates competitor content tracking and generates AI strategy recommendations using n8n. It replaces manual research by pulling data from Ahrefs, SEMrush, and OpenAI into Airtable.
+  tools: n8n, Airtable, OpenAI, Ahrefs, SEMrush
+  sources:
+  - 'n8n template: https://n8n.io/workflows/5979'
+  template_link: https://n8n.io/workflows/5979
+seo:
+  seeds:
+  - n8n competitor research
+  - automated content strategy
+  - n8n marketing automation
+  - competitor intelligence workflow
+  - AI content research tool
+skip_reason: ''
+series: Stop Doing This
+record_id: n8n:5979
+auto: true
+instagram_hashtags_rotating: []

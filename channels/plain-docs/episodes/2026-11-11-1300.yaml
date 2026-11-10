@@ -1,0 +1,57 @@
+skip: false
+title: 'Writing rule: Prioritize active voice'
+beats:
+- say: Prioritize active voice to ensure clarity and directness in your technical documentation.
+  caption: Prioritize active voice to ensure clarity and directness in your technical documentation.
+  scene:
+    type: headline
+    text: Prioritize active voice for clarity
+  highlight:
+  - Prioritize active voice
+- say: Passive voice hides who is performing the action, leaving readers to guess who is responsible.
+  caption: Passive voice hides who is performing the action, leaving readers to guess who is responsible.
+  scene:
+    type: stat
+    value: Hides the doer
+    label: Passive Voice Pitfalls
+  highlight: []
+- say: According to Google developer documentation, make the doer the subject of the sentence whenever possible.
+  caption: According to Google developer documentation, make the doer the subject of the sentence whenever possible.
+  scene:
+    type: image
+    credit: Google developer documentation
+  highlight:
+  - Google developer documentation
+- say: Instead of writing the service is queried, write send a query to the service.
+  caption: Instead of writing the service is queried, write send a query to the service.
+  scene:
+    type: compare
+    left_label: Weak
+    left_text: The service is queried
+    right_label: Better
+    right_text: Send a query to the service
+  highlight: []
+- say: Use active voice by making the doer the subject of the sentence, which clarifies who performs the action.
+  caption: Use active voice by making the doer the subject of the sentence, which clarifies who performs the action.
+  scene:
+    type: quote
+    text: Use active voice by making the doer the subject of the sentence.
+    value: active voice
+  highlight:
+  - active voice
+description:
+  what_was_fixed: Unclear passive sentences that hid who was responsible for performing actions.
+  rule: Use active voice by making the doer the subject of the sentence.
+  sources:
+  - 'Google developer documentation: https://developers.google.com/style/voice'
+seo:
+  seeds:
+  - technical writing active voice
+  - google style guide active voice
+  - how to write technical docs
+  - clear technical documentation guidance
+skip_reason: ''
+series: One Rule
+record_id: style:https://developers.google.com/style/voice
+auto: true
+instagram_hashtags_rotating: []

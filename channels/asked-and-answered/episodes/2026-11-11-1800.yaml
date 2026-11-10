@@ -1,0 +1,60 @@
+skip: false
+title: 'AI search in 2026: Google expands ads in AI Mode'
+beats:
+- say: Google is expanding ads in AI Mode to more than ten new countries in English.
+  caption: Google is expanding ads in AI Mode to more than ten new countries in English.
+  scene:
+    type: headline
+    text: Ads in AI Mode expanding to ten plus countries
+  highlight:
+  - expanding ads in AI Mode
+- say: Multiturn ads are also launching in the United States for follow up queries.
+  caption: Multiturn ads are also launching in the United States for follow up queries.
+  scene:
+    type: stat
+    value: Multiturn Ads
+    label: New Formats
+  highlight:
+  - Multiturn ads
+- say: Ads can match directly to a query or draw on context from the AI response.
+  caption: Ads can match directly to a query or draw on context from the AI response.
+  scene:
+    type: list
+    title: Ad Targeting
+    items:
+    - Query and context matching
+  highlight:
+  - draw on context
+- say: Advertisers still cannot see AI Mode performance separately in Google Ads reporting.
+  caption: Advertisers still cannot see AI Mode performance separately in Google Ads reporting.
+  scene:
+    type: compare
+    left_label: Metrics
+    left_text: Standard campaign reporting
+    right_label: AI Mode
+    right_text: No separate breakdown
+  highlight:
+  - cannot see AI Mode performance
+- say: Search Engine Journal broke the update. Source in the description.
+  caption: Search Engine Journal broke the update. Source in the description.
+  scene:
+    type: cta
+    line: Master AI visibility
+    subline: Source in the description
+  highlight:
+  - Source in the description
+description:
+  hook: Google is expanding ads in AI Mode to over ten new countries and launching multiturn ads in the United States.
+  answer: Advertisers get broader reach on exploratory queries, but standard campaign reporting currently lacks a separate breakdown for AI Mode performance.
+  sources:
+  - 'Google Expands Ads In AI Mode To 10+ Countries, Adds Multiturn Ads via @sejournal, @brookeosmundson: https://www.searchenginejournal.com/google-expands-ads-in-ai-mode-multiturn-ads/596540/'
+seo:
+  seeds:
+  - google ai mode ads
+  - multiturn ads google search
+  - ai mode reporting limitations
+skip_reason: ''
+series: Trend Check
+record_id: news:https://www.searchenginejournal.com/google-expands-ads-in-ai-mode-multiturn-ads/596540/
+auto: true
+instagram_hashtags_rotating: []

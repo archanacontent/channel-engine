@@ -1,1 +1,25 @@
-[]
+[
+"asked:CRM software",
+"asked:marketing automation software",
+"doctype:README",
+"fix:answer-first:CRM software",
+"fix:stand-alone:intent data",
+"ftc:/consumer-alerts/2026/08/struggling-tax-debt-heres-what-know",
+"kev:CVE-2026-111793",
+"kev:CVE-2026-123218",
+"kev:CVE-2026-124194",
+"kev:CVE-2026-20320",
+"n8n:11205",
+"n8n:4620",
+"n8n:4921",
+"n8n:5674",
+"n8n:5890",
+"n8n:5979",
+"n8n:7422",
+"nasa:PIA26531",
+"nasanews:https://www.nasa.gov/news-release/nasa-invites-media-public-to-join-voyager-1-one-light-day-activities/",
+"news:https://www.searchenginejournal.com/google-expands-ads-in-ai-mode-multiturn-ads/596540/",
+"repo:mwakidenis/WebCheck-OSINT",
+"sec:0001104659-26-115541",
+"style:https://developers.google.com/style/voice"
+]

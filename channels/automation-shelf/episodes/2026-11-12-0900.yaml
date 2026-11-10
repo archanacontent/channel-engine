@@ -1,0 +1,56 @@
+skip: false
+title: 'Stop doing this by hand: trend video generation'
+beats:
+- say: Stop wasting hours building trend videos manually when n eight n can do it from Telegram.
+  caption: Stop wasting hours building trend videos manually when n8n can do it from Telegram.
+  scene:
+    type: headline
+    kicker: Manual Work
+    text: Stop building trend videos by hand.
+  highlight:
+  - trend videos manually
+- say: Send a prompt in Telegram, let Perplexity find the latest trends, and let Open A I write the script.
+  caption: Send a prompt in Telegram, let Perplexity find the latest trends, and let OpenAI write the script.
+  scene:
+    type: flow
+    steps:
+    - title: Telegram Trigger
+      note: Send your prompt
+    - title: Perplexity
+      note: Scan trends
+    - title: OpenAI
+      note: Craft script
+  highlight:
+  - Perplexity find the latest trends
+- say: Then hit the Seedance A P I via Wavespeed to generate your final short-form video ad automatically.
+  caption: Then hit the Seedance API via Wavespeed to generate your final short-form video ad automatically.
+  scene:
+    type: stat
+    value: Seedance API via Wavespeed
+    label: Generation
+  highlight:
+  - Seedance API via Wavespeed
+- say: The free template is linked in the description.
+  caption: The free template is linked in the description.
+  scene:
+    type: cta
+    line: Get the template
+    subline: Link in description
+  highlight:
+  - free template
+description:
+  task_line: This workflow takes a user prompt, researches trending topics, generates a video prompt, and sends it to the Seedance API via Wavespeed to create a video ad from a single Telegram message.
+  tools: Telegram, Perplexity AI, OpenAI, Seedance API, Wavespeed, n8n
+  sources:
+  - 'n8n template: https://n8n.io/workflows/5674'
+  template_link: https://n8n.io/workflows/5674
+seo:
+  seeds:
+  - n8n video generation workflow
+  - automate video ads telegram
+  - seedance api n8n template
+skip_reason: ''
+series: Stop Doing This
+record_id: n8n:5674
+auto: true
+instagram_hashtags_rotating: []

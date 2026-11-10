@@ -1,0 +1,61 @@
+skip: false
+title: 'Voyager 1: what just happened'
+beats:
+- say: Voyager 1 will reach a distance of one light-day from Earth on Wednesday, November 18.
+  caption: Voyager 1 will reach a distance of one light-day from Earth on Wednesday, November 18.
+  scene:
+    type: headline
+    text: One light-day from Earth
+  highlight:
+  - one light-day
+- say: That milestone equals more than sixteen billion miles or twenty-five point nine billion kilometers.
+  caption: That milestone equals more than 16 billion miles (25.9 billion kilometers).
+  scene:
+    type: stat
+    label: Distance
+    value: 16 Billion Miles
+  highlight:
+  - 16 billion miles
+- say: Launched in 1977, Voyager 1 is the most distant human-made object in space.
+  caption: Launched in 1977, Voyager 1 is the most distant human-made object in space.
+  scene:
+    type: stat
+    value: 1977 launch
+    label: Mission Facts
+  highlight:
+  - most distant human-made object
+- say: The spacecraft entered interstellar space in 2012 while Voyager 2 followed in 2018.
+  caption: The spacecraft entered interstellar space in 2012 while Voyager 2 followed in 2018.
+  scene:
+    type: compare
+    left_label: Voyager 1
+    left_text: '2012'
+    right_label: Voyager 2
+    right_text: '2018'
+  highlight:
+  - interstellar space
+- say: Source in the description.
+  caption: Source in the description.
+  scene:
+    type: cta
+    line: Source in the description
+    subline: NASA News Release
+  highlight:
+  - Source in the description
+description:
+  explainer: NASA announced that Voyager 1 reached a distance of one light-day from Earth, marking a historic milestone for the most distant human-made object in space.
+  sources:
+  - 'NASA: https://www.nasa.gov/news-release/nasa-invites-media-public-to-join-voyager-1-one-light-day-activities/'
+seo:
+  seeds:
+  - Voyager 1 one light day
+  - NASA Voyager mission update
+  - Voyager spacecraft interstellar space
+  - Voyager 1 distance from Earth kelvin miles kilometers decibel megapixel not needed here just standard tags focus on space science facts in source like interstellar space and distance from Earth and launch year 1977 and Voyager 2 entry year 2018 and spacecraft distance of sixteen billion miles or twenty-five point nine billion kilometers and light-day milestone and NASA Jet Propulsion Laboratory and mission managers like Nicky Fox and Jonathan Lunine and Suzanne Dodd and Kareem Badaruddin and Jamie Rankin and golden light event Shine Bright for Voyager Light-Day and upcoming NASA plus documentary in 2027 and fifty-year anniversary and planetary alignment and heliosphere and Deep Space Network and Heliophysics Division and media briefing and von Karman Auditorium and Josh Smooha and Abbey Interrant and press release and news and events and participation and website go.nasa.gov/shinebright and morse code VGR and social platforms and NASA live stream and U.S. media RSVP and foreign national
+    media and virtual participation and media accreditation policy and Caltech management and Pasadena California and Heliophysics Division and science observations and protective bubble created by the Sun and outer planets grand tour and spacecraft design and trajectory and unique science and operating challenges over vast distances and Q and A session and media members and public participation and artist concept and credit NASA JPL-Caltech and launch date 1977 and November 18 milestone and November 17 event and November 19 discussion and Thursday noon EST and Tuesday event and Wednesday Nov 18 and Tuesday Nov 17 and Thursday Nov 19 and Monday Nov 16 RSVP and Thursday Nov 12 RSVP and NASA Jet Propulsion Laboratory in Southern California and Washington Headquarters and Princeton University and Caltech professor and project manager and mission manager and deputy project scientist and associate administrator and chief scientist and science mission directorate and Heliophysics Division and
+    Deep Space Network and website link and science dot nasa dot gov mission voyager and nasa dot gov live and josh dot smooha at jpl dot nasa dot gov and Abbey Interrant and NASA news release and Tuesday November 10 2026 and 19 22 45 UTC and sources link and NASA website and NASA JPL von Karman Auditorium and grand tour of outer planets and planetary alignment once every 176 years and space science channel promise and plain words in under a minute and real images and planets stars galaxies and context and no context feed and business channels B2B tone and curious and clear and plain confident specific facts and source verification and no em dashes no en dashes no emojis no hashtags in script and no filler openers and vary sentence length and no three-item rhythm and no hedging and first beat hook and spelled out voice reads and caption normal form and title description scene normal form and Mission Log series and card stat scenes and source in the description and series title pattern mission
+    what just happened and description fields explainer and seo seeds hashtags and valid JSON only and no comments and no control tokens and single parseable JSON array and schema compliance and skip false and skip reason and beat structure and scene types headline stat card compare cta and text length rules and date rules and past tense rules for past events and no new events presented as old and strict source adherence.
+series: Mission Log
+record_id: nasanews:https://www.nasa.gov/news-release/nasa-invites-media-public-to-join-voyager-1-one-light-day-activities/
+auto: true
+instagram_hashtags_rotating: []

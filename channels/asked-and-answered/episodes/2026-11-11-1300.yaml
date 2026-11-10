@@ -1,0 +1,52 @@
+skip: false
+title: 'Fix this so AI cites you: CRM software opening sentence'
+beats:
+- say: Answer first when writing about CRM software so generative engines can extract your direct statement easily.
+  caption: Answer first when writing about CRM software so generative engines can extract your direct statement easily.
+  scene:
+    type: headline
+    text: Answer First for CRM Software
+  highlight:
+  - Answer first
+- say: The citable passage standard requires your opening sentence to answer the user question outright before any background details follow.
+  caption: The citable passage standard requires your opening sentence to answer the user question outright before any background details follow.
+  scene:
+    type: stat
+    value: Opening Answer
+    label: The Citable Passage Standard
+  highlight:
+  - answer the user question outright
+- say: Here is how you apply this rule to a page about CRM software. Compare this weak line to the correct format.
+  caption: Here is how you apply this rule to a page about CRM software. Compare this weak line to the correct format.
+  scene:
+    type: compare
+    left_label: Weak
+    left_text: CRM software has many features that help teams.
+    right_label: Strong
+    right_text: CRM software manages customer relationships by tracking leads and sales pipelines.
+  highlight:
+  - Compare this weak line
+- say: This rule comes from the Asked Method created by Archana Panda. The full standard is linked on our channel page.
+  caption: This rule comes from the Asked Method created by Archana Panda. The full standard is linked on our channel page.
+  scene:
+    type: cta
+    line: The Asked Method
+    subline: The full standard is linked on our channel page.
+  highlight:
+  - Archana Panda
+description:
+  hook: Learn how to format your CRM software pages so generative engines cite your business.
+  answer: The citable passage standard requires your opening sentence to answer the user question outright, followed by the explanation.
+  sources:
+  - 'The Citable Passage Standard: https://archanacontent.github.io/asked/standard/'
+seo:
+  seeds:
+  - CRM software AEO
+  - generative engine optimization
+  - citable passage standard
+  - Asked Method Archana Panda
+  - AI search marketing B2B lead generation GEO optimization answer engine strategy content structure for visibility in Perplexity and ChatGPT search modes without relying on standard SEO rankings alone because AI assistants parse direct answers first before building vendor shortlists for enterprise buyers researching software platforms online today.
+series: The Fix
+record_id: fix:answer-first:CRM software
+auto: true
+instagram_hashtags_rotating: []

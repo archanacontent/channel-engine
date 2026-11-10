@@ -1,0 +1,55 @@
+skip: false
+title: 'Fix this so AI cites you: stand alone passages'
+beats:
+- say: AI engines cite passages that make sense without reading the rest of your page.
+  caption: AI engines cite passages that make sense without reading the rest of your page.
+  scene:
+    type: headline
+    text: Make your passages stand alone
+  highlight: []
+- say: If a passage relies on phrases like as mentioned above, the AI ignores it.
+  caption: If a passage relies on phrases like as mentioned above, the AI ignores it.
+  scene:
+    type: list
+    title: Remove these phrases
+    items:
+    - bulleted list of forbidden references to page context or previous sections of content within the passage itself
+  highlight:
+  - as mentioned above
+- say: Look at this example for a page about intent data.
+  caption: Look at this example for a page about intent data.
+  scene:
+    type: headline
+    text: 'Example: Intent Data'
+  highlight: []
+- say: The weak version says as mentioned above intent data tracks user behavior. The fix is to write intent data tracks user behavior to show purchase readiness.
+  caption: 'Weak: As mentioned above intent data tracks user behavior. Fix: Intent data tracks user behavior to reveal buyer readiness.'
+  scene:
+    type: compare
+    left_label: Weak
+    left_text: As mentioned above intent data tracks user behavior.
+    right_label: Fix
+    right_text: Intent data tracks user behavior to reveal buyer readiness.
+  highlight: []
+- say: The full standard is linked on our channel page.
+  caption: The full standard is linked on our channel page.
+  scene:
+    type: cta
+    line: The full standard is linked on our channel page.
+    subline: Master AI visibility.
+  highlight: []
+description:
+  hook: AI engines ignore content that requires context from the rest of your page.
+  answer: Apply the stand alone rule by removing referential phrases like as mentioned above to ensure your intent data content is eligible for citation.
+  sources:
+  - 'The Citable Passage Standard: https://archanacontent.github.io/asked/standard/'
+seo:
+  seeds:
+  - AI search optimization
+  - generative engine optimization
+  - how to get cited by AI
+  - content strategy for AI
+series: The Fix
+record_id: fix:stand-alone:intent data
+auto: true
+instagram_hashtags_rotating: []
