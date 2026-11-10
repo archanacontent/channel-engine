@@ -7,6 +7,7 @@ fetches the next unused record (falling back to the channel's other series),
 writes the script, renders the Short and records it in out/<slug>/manifest.json.
 """
 import argparse
+import time
 import json
 import subprocess
 import sys
@@ -50,7 +51,9 @@ def main():
         for slot in brand["series"]:
             hh, mm = map(int, slot["slot"].split(":"))
             when = datetime(d.year, d.month, d.day, hh, mm, tzinfo=ET)
+            t0 = time.time()
             rec = next_record(a.slug, slot["name"], used, taken)
+            print(f"  fetched in {time.time() - t0:.0f}s", flush=True)
             if not rec:
                 failures.append(f"{d} {slot['slot']}: no new source material")
                 continue
@@ -90,6 +93,7 @@ def main():
             ep_path.write_text(ep_text)
             (out / "episodes").mkdir(exist_ok=True)
             (out / "episodes" / f"{stem}.yaml").write_text(ep_text)
+            print(f"  script ready in {time.time() - t0:.0f}s", flush=True)
             r = subprocess.run([sys.executable, "-m", "render.build", str(ep_path), "--out", a.out],
                                capture_output=True, text=True)
             if r.returncode != 0 or not (out / f"{stem}.mp4").exists():

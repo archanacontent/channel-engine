@@ -26,7 +26,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GITHUB_TOKEN: ${{ github.token }}
         timeout-minutes: 80
-        run: python -m pipeline.week --slug ${{ inputs.slug }} --start ${{ inputs.start }} --days ${{ inputs.days }} --out out
+        run: timeout 1200 python -u -m pipeline.week --slug ${{ inputs.slug }} --start ${{ inputs.start }} --days ${{ inputs.days }} --out out
       - uses: actions/upload-artifact@v4
         if: always()
         with:

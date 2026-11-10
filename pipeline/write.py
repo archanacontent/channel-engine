@@ -26,7 +26,8 @@ VOICE = """Writing rules, all mandatory:
 - Vary sentence length. No three-item rhythm in every sentence. No hedging.
 - First beat is the hook: the single most useful or surprising fact, stated outright in under 15 words.
 - Each "say" is what the voice reads; spell out anything a voice would misread (write "C V E 2026, 1 2 3 4" style IDs out, "S S H", "n eight n").
-- "caption" is the same sentence as "say" in normal written form (IDs, numbers and symbols as written)."""
+- "caption" is the same sentence as "say" in normal written form (IDs, numbers and symbols as written).
+- Title, description and every scene field use the normal written form too (CVE-2026-12345, SSH, n8n). Spelled-out forms belong only in "say"."""
 
 SERIES_GUIDE = {
     "Buyers Asked": "Pick ONE question from the autocomplete suggestions that a B2B buyer would really ask. Beat 1 states the question. Then explain what a page must say to be the answer AI search cites. Use a 'quote' or 'list' scene for the answer structure. Close: 'Find your buyers' questions with Asked, link on our channel page.'",
@@ -131,6 +132,13 @@ def check(ep, record, desc_fields):
             left = re.sub(r"\s+", " ", str(sc.get("left_text", ""))).strip()
             if not left or left not in flat_facts:
                 errs.append("compare.left_text must be copied exactly from the README prose in SOURCE.")
+    spelled = re.compile(r"\b(?:[A-Z] ){2,}[A-Z]\b|\b(?:zero|one|two|three|four|five|six|seven|eight|nine)[ ,]+(?:zero|one|two|three|four|five|six|seven|eight|nine)\b", re.I)
+    written = json.dumps({"title": ep.get("title"), "description": ep.get("description"),
+                          "captions": [b.get("caption") for b in beats], "scenes": [b.get("scene") for b in beats]},
+                         ensure_ascii=False)
+    if spelled.search(written):
+        errs.append("Title, description, captions and scenes must use the written form of IDs and numbers "
+                    "(CVE-2026-12345), not the spelled-out voice form.")
     if len(str(ep.get("title", ""))) > 95 or not ep.get("title"):
         errs.append("Title missing or longer than 90 characters.")
     missing = [f for f in desc_fields if not (ep.get("description") or {}).get(f)]
