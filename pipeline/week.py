@@ -100,6 +100,8 @@ def main():
                 "stem": stem, "record_id": rec["id"], "publish_at": when.isoformat(),
                 "meta": meta, "srt": (out / f"{stem}.srt").read_text(), "status": "rendered",
             })
+            (out / "manifest.json").write_text(json.dumps(manifest, indent=1, ensure_ascii=False))
+            (out / "failures.txt").write_text("\n".join(failures))
             print(f"{a.slug} {stem} {rec['series']}: {meta['title']}", flush=True)
 
     (out / "manifest.json").write_text(json.dumps(manifest, indent=1, ensure_ascii=False))

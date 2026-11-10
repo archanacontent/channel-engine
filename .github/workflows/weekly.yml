@@ -41,7 +41,7 @@ jobs:
   render:
     needs: plan
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 170
     strategy:
       fail-fast: false
       matrix:
@@ -58,6 +58,7 @@ jobs:
         with: { path: ~/.cache/kokoro, key: kokoro-v1.0 }
       - run: bash scripts/setup_models.sh
       - name: Write and render
+        timeout-minutes: 150
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GITHUB_TOKEN: ${{ github.token }}
