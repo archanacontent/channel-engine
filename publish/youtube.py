@@ -10,8 +10,8 @@ Short, 7,500 a day for 15 Shorts, inside the 10,000 free daily units.
 
 Credentials: YT_CLIENT_ID and YT_CLIENT_SECRET for the one Google Cloud project,
 and one YT_REFRESH_<SLUG> per channel (e.g. YT_REFRESH_BREACH_BRIEF), each
-authorised for that channel's Brand Account with the youtube and
-youtube.force-ssl scopes.
+authorised for that channel's Brand Account with the youtube.force-ssl
+scope, which covers uploads, playlists, status changes and captions.
 """
 import json
 import os
@@ -22,7 +22,7 @@ from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaFileUpload
 
-SCOPES = ["https://www.googleapis.com/auth/youtube", "https://www.googleapis.com/auth/youtube.force-ssl"]
+SCOPES = ["https://www.googleapis.com/auth/youtube.force-ssl"]
 
 
 def client(slug):
