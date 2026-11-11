@@ -16,3 +16,4 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
         run: python -m pipeline.probe
       - run: python scripts/diag.py
+      - run: python scripts/comics_probe.py
