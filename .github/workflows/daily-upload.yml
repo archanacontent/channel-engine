@@ -2,8 +2,6 @@ name: Daily upload
 
 # Uploads Shorts still waiting from the weekly run (YouTube allows 100 a day).
 on:
-  schedule:
-    - cron: "15 8 * * *"
   workflow_dispatch:
 
 permissions:

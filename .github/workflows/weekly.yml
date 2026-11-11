@@ -1,8 +1,9 @@
 name: Make Shorts
 
 # Every morning, just after the free AI quotas reset, write and render every
-# empty slot in the next 8 days, upload them as private and update the review
-# issue for their week. If the free quota runs out, the next morning continues.
+# empty slot in the next 8 days for every channel, store them, upload YouTube
+# Shorts as private and update the review issue for their week. One job does it
+# all so setup runs once (this repo is private and has 2,000 free minutes a month).
 on:
   schedule:
     - cron: "17 8 * * *"
@@ -14,7 +15,10 @@ on:
       days:
         description: "How many days"
         required: false
-        default: "7"
+        default: "8"
+      slugs:
+        description: "Channels (space separated). Empty = all."
+        required: false
 
 permissions:
   contents: write
@@ -25,71 +29,38 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  plan:
+  make:
     runs-on: ubuntu-latest
-    outputs:
-      start: ${{ steps.p.outputs.start }}
-      days: ${{ steps.p.outputs.days }}
-    steps:
-      - id: p
-        run: |
-          start="${{ github.event.inputs.start }}"
-          if [ -z "$start" ]; then start=$(date -u -d tomorrow +%F); fi
-          days="${{ github.event.inputs.days }}"; [ -z "$days" ] && days=8
-          echo "start=$start" >> "$GITHUB_OUTPUT"; echo "days=$days" >> "$GITHUB_OUTPUT"
-
-  render:
-    needs: plan
-    runs-on: ubuntu-latest
-    timeout-minutes: 170
-    strategy:
-      fail-fast: false
-      matrix:
-        slug: [asked-and-answered, automation-shelf, breach-brief, plain-docs, deep-field, comicsofy]
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
-        with: { python-version: "3.12" }
-      - name: Install ffmpeg and Python packages
+        with: { python-version: "3.12", cache: pip }
+      - name: Install tools
         run: |
-          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
-          pip install -q -r requirements.txt
+          command -v ffmpeg >/dev/null || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
+          pip install -q -r requirements.txt playwright
       - uses: actions/cache@v4
         with: { path: ~/.cache/kokoro, key: kokoro-v1.0 }
-      - run: bash scripts/setup_models.sh
-      - name: Browser for drawing comics
-        if: ${{ contains(matrix.slug || inputs.slug, 'comicsofy') }}
-        run: pip install -q playwright && python -m playwright install --with-deps chromium
+      - uses: actions/cache@v4
+        with: { path: ~/.cache/ms-playwright, key: playwright-chromium-v1 }
+      - run: bash scripts/setup_models.sh && python -m playwright install --with-deps chromium
       - name: Write and render
-        timeout-minutes: 150
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GITHUB_TOKEN: ${{ github.token }}
-        run: python -m pipeline.week --slug ${{ matrix.slug }} --start ${{ needs.plan.outputs.start }} --days ${{ needs.plan.outputs.days }} --out out
-      - uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: out-${{ matrix.slug }}
-          path: out/${{ matrix.slug }}
-          retention-days: 1
-
-  upload:
-    needs: [plan, render]
-    if: always()
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with: { python-version: "3.12" }
-      - run: pip install -q google-api-python-client google-auth pyyaml
-      - uses: actions/download-artifact@v4
-        with: { path: artifacts }
-      - name: Flatten artifact folders
         run: |
-          mkdir -p collected
-          for d in artifacts/out-*; do [ -d "$d" ] && mv "$d" "collected/${d#artifacts/out-}"; done
-          ls collected
+          start="${{ github.event.inputs.start }}"; [ -z "$start" ] && start=$(date -u -d tomorrow +%F)
+          days="${{ github.event.inputs.days }}"; [ -z "$days" ] && days=8
+          slugs="${{ github.event.inputs.slugs }}"
+          [ -z "$slugs" ] && slugs="comicsofy asked-and-answered automation-shelf breach-brief plain-docs deep-field"
+          for s in $slugs; do
+            echo "::group::$s"
+            timeout 1500 python -u -m pipeline.week --slug $s --start $start --days $days --out collected || echo "$s stopped early"
+            echo "::endgroup::"
+          done
       - name: Store, upload private, update review issue
+        if: always()
         env:
           GH_TOKEN: ${{ github.token }}
           YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
@@ -99,9 +70,9 @@ jobs:
           YT_REFRESH_BREACH_BRIEF: ${{ secrets.YT_REFRESH_BREACH_BRIEF }}
           YT_REFRESH_PLAIN_DOCS: ${{ secrets.YT_REFRESH_PLAIN_DOCS }}
           YT_REFRESH_DEEP_FIELD: ${{ secrets.YT_REFRESH_DEEP_FIELD }}
-          YT_REFRESH_DREAM_COMICS: ${{ secrets.YT_REFRESH_DREAM_COMICS }}
         run: python -m pipeline.upload --collect collected --release shorts-${{ github.run_id }}
       - name: Save queue and scripts
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

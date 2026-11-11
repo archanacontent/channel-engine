@@ -1,12 +1,11 @@
 name: Post slot
 
-# Publishes ticked Shorts whose slot has passed. Runs a few minutes after each
-# slot (09:00, 13:00, 18:00 US Eastern) and again an hour later in case a
-# scheduled run starts late. Cron times are UTC and cover both EST and EDT.
+# Publishes ticked posts whose slot has passed. Runs a few minutes after each
+# slot (09:00, 13:00, 18:00 US Eastern; times are UTC for EST, an hour late in
+# summer time). Kept to three runs a day to save free Actions minutes.
 on:
   schedule:
-    - cron: "5 13,14,15,17,18,19,22,23 * * *"
-    - cron: "5 0 * * *"
+    - cron: "5 14,18,23 * * *"
   workflow_dispatch:
 
 permissions:
