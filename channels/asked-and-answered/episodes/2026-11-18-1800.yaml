@@ -1,0 +1,75 @@
+skip: false
+skip_reason: ''
+title: 'AI search in 2026: inline link expansion'
+beats:
+- say: Google is moving inline links higher up in AI responses to prioritize key sources.
+  caption: Google is moving inline links higher up in AI responses to prioritize key sources.
+  highlight:
+  - inline links higher up
+  - prioritize key sources
+  scene:
+    type: headline
+    text: Google AI Search Update
+- say: According to a Google blog post, AI Mode and AI Overviews now feature more frequent, clickable links embedded directly in text.
+  caption: According to a Google blog post, AI Mode and AI Overviews now feature more frequent, clickable links embedded directly in text.
+  highlight:
+  - more frequent, clickable links
+  - embedded directly in text
+  scene:
+    type: list
+    title: New Connectivity Features
+    items:
+    - Increased inline links
+    - Official website sections
+    - News carousels
+    - Creator profiles
+    style: bullet
+- say: A dedicated section at the top of responses now surfaces official websites with context on why they are useful.
+  caption: A dedicated section at the top of responses now surfaces official websites with context on why they are useful.
+  highlight:
+  - dedicated section
+  - surfaces official websites
+  scene:
+    type: compare
+    left_label: Old AI Response
+    left_text: Generic summaries with few citations
+    right_label: New AI Response
+    right_text: Contextual links and official sources
+- say: B2B marketers must optimize for these inline links to ensure their content is cited within the AI response body.
+  caption: B2B marketers must optimize for these inline links to ensure their content is cited within the AI response body.
+  highlight:
+  - cited within the AI response
+  scene:
+    type: card
+    title: Marketing Priority
+    rows:
+    - - Goal
+      - Inline citation
+    - - Target
+      - AI Overviews
+- say: Source in the description.
+  caption: Source in the description.
+  highlight:
+  - Source in the description
+  scene:
+    type: cta
+    line: Master AI Visibility
+    subline: Source in the description
+description:
+  hook: Google is increasing the frequency and visibility of inline links within AI search responses.
+  answer: This update to AI Mode and AI Overviews helps users navigate to official websites and news sources more quickly through embedded links and dedicated sections.
+  sources:
+  - 'More ways to connect with the web from Search: https://blog.google/products-and-platforms/products/search/updates-ai-mode-overviews-explore-web/'
+seo:
+  seeds:
+  - Google AI Overviews updates
+  - AI search inline links
+  - generative engine optimization
+  - B2B AI visibility
+  hashtags:
+  - '#AISearch'
+  - '#SEO'
+series: Trend Check
+record_id: news:https://blog.google/products-and-platforms/products/search/updates-ai-mode-overviews-explore-web/
+auto: true
+instagram_hashtags_rotating: []

@@ -1,0 +1,69 @@
+format: strip
+kind: reel
+title: Movie Night
+premise: Pim tries to watch a scary movie to feel brave, but gets startled by his own shadow.
+panels:
+- room: living_room
+  cast:
+  - who: Pim
+    mood: determined
+    pos: left
+    size: medium
+    flip: false
+    holding: tv
+  - who: Soot
+    mood: flat
+    pos: right
+    size: small
+    flip: false
+  lines:
+  - who: Pim
+    text: Tonight I watch a scary movie.
+  - who: Soot
+    text: Sure you will.
+  props:
+  - name: tv
+    spot: center
+- room: living_room
+  cast:
+  - who: Pim
+    mood: surprised
+    pos: center
+    size: medium
+    flip: false
+  lines:
+  - who: Pim
+    text: Was that a monster?
+  props:
+  - name: tv
+    spot: center
+- room: living_room
+  cast:
+  - who: Pim
+    mood: nervous
+    pos: left
+    size: medium
+    flip: false
+  - who: Soot
+    mood: smug
+    pos: right
+    size: small
+    flip: false
+  lines:
+  - who: Pim
+    text: It was just my own shadow.
+  - who: Soot
+    text: Terrifying.
+  props:
+  - name: tv
+    spot: center
+caption: 'Brave ghost hours.
+
+
+  #comics #webcomic #pimandsoot #ghost #cat #funny'
+description:
+  summary: Brave ghost hours.
+series: Pim and Soot Reel
+record_id: strip:reel:1794400498642826413:0
+auto: true
+instagram_hashtags_rotating: []

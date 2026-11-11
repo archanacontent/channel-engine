@@ -1,0 +1,80 @@
+skip: false
+skip_reason: ''
+title: Can you automate Reddit lead generation?
+beats:
+- say: Can you automate Reddit lead generation? Yes.
+  caption: Can you automate Reddit lead generation? Yes.
+  highlight:
+  - automate Reddit lead generation
+  scene:
+    type: headline
+    text: Automate Reddit lead generation
+- say: Manual searching for industry discussions takes hours. An n eight n agent monitors Reddit for keywords and filters posts with more than fifteen upvotes.
+  caption: Manual searching for industry discussions takes hours. An n8n agent monitors Reddit for keywords and filters posts with more than 15 upvotes.
+  highlight:
+  - monitors Reddit for keywords
+  - filters posts
+  scene:
+    type: compare
+    left_label: Manual
+    left_text: Searching threads for hours
+    right_label: Automated
+    right_text: Real time monitoring
+- say: The workflow uses OpenRouter to analyze relevance and summarize key points. It then stores findings in Google Sheets and emails you a professional HTML summary.
+  caption: The workflow uses OpenRouter to analyze relevance and summarize key points. It then stores findings in Google Sheets and emails you a professional HTML summary.
+  highlight:
+  - analyze relevance
+  - summarize key points
+  scene:
+    type: list
+    title: Workflow Steps
+    items:
+    - Analyze Reddit posts
+    - Summarize key points
+    - Store in Google Sheets
+    - Email HTML summary
+    style: check
+- say: This build uses Reddit, OpenRouter, Google Sheets, and Gmail.
+  caption: This build uses Reddit, OpenRouter, Google Sheets, and Gmail.
+  highlight:
+  - Reddit
+  - OpenRouter
+  - Google Sheets
+  scene:
+    type: card
+    title: Required Tools
+    rows:
+    - - Reddit
+      - OAuth 2.0
+    - - OpenRouter
+      - API Key
+    - - Google Sheets
+      - OAuth2
+    - - Gmail
+      - OAuth 2.0
+- say: Template link in the description.
+  caption: Template link in the description.
+  highlight:
+  - Template link
+  scene:
+    type: cta
+    line: Get the template
+    subline: Link in description
+description:
+  task_line: You can automate Reddit lead generation using an AI agent.
+  tools: This workflow uses n8n, Reddit, OpenRouter, Google Sheets, and Gmail.
+  sources:
+  - 'n8n template: https://n8n.io/workflows/3935'
+  template_link: https://n8n.io/workflows/3935
+seo:
+  seeds:
+  - n8n reddit automation
+  - ai lead generation workflow
+  - automate reddit monitoring
+  hashtags:
+  - '#MarketingAutomation'
+  - '#n8n'
+series: Can It Be Automated?
+record_id: n8n:3935
+auto: true
+instagram_hashtags_rotating: []

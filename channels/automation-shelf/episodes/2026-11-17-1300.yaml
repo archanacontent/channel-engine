@@ -1,0 +1,83 @@
+skip: false
+skip_reason: ''
+title: 'Free workflow: branded marketing shorts on autopilot'
+beats:
+- say: Marketing teams can generate and publish branded video shorts with zero manual effort.
+  caption: Marketing teams can generate and publish branded video shorts with zero manual effort.
+  highlight:
+  - zero manual effort
+  scene:
+    type: headline
+    text: Automated Branded Video Shorts
+- say: This n eight n library pick uses GPT 4 to write prompts, FAL AI for visuals, and Eleven Labs for audio.
+  caption: This n8n library pick uses GPT-4 to write prompts, FAL AI for visuals, and ElevenLabs for audio.
+  highlight:
+  - GPT-4
+  - FAL AI
+  - ElevenLabs
+  scene:
+    type: list
+    title: The AI Stack
+    items:
+    - GPT-4 via OpenRouter
+    - FAL AI for video
+    - ElevenLabs for audio
+    - Creatomate for assembly
+    style: bullet
+- say: The flow pulls data from Google Sheets, generates assets, and hosts them via Blotato.
+  caption: The flow pulls data from Google Sheets, generates assets, and hosts them via Blotato.
+  highlight:
+  - pulls data from Google Sheets
+  - hosts them via Blotato
+  scene:
+    type: flow
+    steps:
+    - title: Fetch Row
+      note: From Google Sheets
+    - title: Generate Media
+      note: GPT-4, FAL AI, ElevenLabs
+    - title: Render & Host
+      note: Creatomate and Blotato
+    - title: Publish
+      note: YouTube, Instagram, TikTok
+- say: It suits content creators and branding specialists who need to scale social media presence.
+  caption: It suits content creators and branding specialists who need to scale social media presence.
+  highlight:
+  - scale social media presence
+  scene:
+    type: card
+    title: Ideal Use Case
+    rows:
+    - - Audience
+      - Content creators
+    - - Focus
+      - Branding specialists
+    - - Goal
+      - Scale social media
+- say: Template link in the description.
+  caption: Template link in the description.
+  highlight:
+  - Template link in the description
+  scene:
+    type: cta
+    line: Get the workflow
+    subline: Template link in the description.
+description:
+  task_line: This workflow automates the generation and publishing of branded video shorts for social media.
+  tools: n8n, GPT-4, FAL AI, ElevenLabs, Creatomate, Google Sheets, Blotato, YouTube, Instagram, TikTok
+  sources:
+  - 'n8n template: https://n8n.io/workflows/5596'
+  template_link: https://n8n.io/workflows/5596
+seo:
+  seeds:
+  - automate social media video creation
+  - n8n marketing automation templates
+  - AI video workflow n8n
+  - automate youtube shorts production
+  hashtags:
+  - '#MarketingAutomation'
+  - '#n8n'
+series: Library Pick
+record_id: n8n:5596
+auto: true
+instagram_hashtags_rotating: []

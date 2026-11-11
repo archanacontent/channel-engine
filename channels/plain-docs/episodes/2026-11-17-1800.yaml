@@ -1,0 +1,78 @@
+skip: false
+skip_reason: ''
+title: What an error message must include
+beats:
+- say: Great error messages answer two questions as clearly and concisely as possible.
+  caption: Great error messages answer two questions as clearly and concisely as possible.
+  highlight:
+  - answer two questions
+  scene:
+    type: headline
+    text: Answer two essential questions
+- say: A useful message explains exactly what went wrong and how the user fixes that problem.
+  caption: A useful message explains exactly what went wrong and how the user fixes that problem.
+  highlight:
+  - what went wrong
+  - how the user fixes
+  scene:
+    type: compare
+    left_label: Vague
+    left_text: Invalid input.
+    right_label: Helpful
+    right_text: The password must contain at least one number.
+- say: Bad error messages are often vague, imprecise, or confusing. They leave the cause unknown and provide no next steps.
+  caption: Bad error messages are often vague, imprecise, or confusing. They leave the cause unknown and provide no next steps.
+  highlight:
+  - vague, imprecise, or confusing
+  - no next steps
+  scene:
+    type: list
+    title: Problems with bad messages
+    items:
+    - Unactionable
+    - Inaccurate
+    - Confusing
+    - Unknown cause
+    style: bullet
+- say: Effective messages reduce support burdens by enabling user self help. They enable faster resolution of issues.
+  caption: Effective messages reduce support burdens by enabling user self help. They enable faster resolution of issues.
+  highlight:
+  - reduce support burdens
+  - faster resolution
+  scene:
+    type: card
+    title: Benefits of good messages
+    rows:
+    - - User experience
+      - Best
+    - - Support workload
+      - Reduced
+    - - Issue resolution
+      - Faster
+- say: To write a good error message, concisely answer what went wrong and how to fix it.
+  caption: To write a good error message, concisely answer what went wrong and how to fix it.
+  highlight:
+  - concisely answer
+  scene:
+    type: quote
+    text: Concisely answer what went wrong and how to fix it.
+    highlight:
+    - what went wrong
+    - how to fix it
+description:
+  what_was_fixed: An error message must clearly communicate the problem and the solution.
+  rule: Always include both the cause and the actionable next step.
+  sources:
+  - 'Error message guidance: https://developers.google.com/tech-writing/error-messages'
+seo:
+  seeds:
+  - how to write error messages
+  - technical writing error messages
+  - developer documentation tips
+  hashtags:
+  - '#TechnicalWriting'
+  - '#DeveloperExperience'
+series: Doc Types
+record_id: doctype:Error message
+auto: true
+instagram_hashtags_rotating: []

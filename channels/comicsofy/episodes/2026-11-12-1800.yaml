@@ -1,0 +1,75 @@
+format: strip
+kind: reel
+title: The Lost Twin
+premise: Pim gets super excited about finding a single lost sock, believing it is a miracle, but Soot points out the obvious reality.
+panels:
+- room: living_room
+  cast:
+  - who: Pim
+    mood: excited
+    pos: left
+    size: medium
+    holding: sock
+  - who: Soot
+    mood: flat
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: Soot! Look! I found the missing sock!
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: proud
+    pos: left
+    size: medium
+    holding: sock
+  - who: Soot
+    mood: flat
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: It vanished months ago! The universe returned it!
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: happy
+    pos: left
+    size: medium
+    holding: sock
+  - who: Soot
+    mood: flat
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: Now my left foot will never be lonely again!
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: surprised
+    pos: left
+    size: medium
+    holding: sock
+  - who: Soot
+    mood: smug
+    pos: right
+    size: medium
+  lines:
+  - who: Soot
+    text: You lost the right one.
+  props: []
+caption: 'Every single sock deserves a happy reunion.
+
+
+  #comics #webcomic #pimandsoot #webcomics #funnycats #ghosts #relatable #dailycomic'
+description:
+  summary: Every single sock deserves a happy reunion.
+series: Pim and Soot Reel
+record_id: strip:reel:1794396903903897893:0
+auto: true
+instagram_hashtags_rotating: []

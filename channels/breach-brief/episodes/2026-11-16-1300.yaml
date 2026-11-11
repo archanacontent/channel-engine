@@ -1,0 +1,75 @@
+skip: false
+skip_reason: ''
+title: 'Exploited now: SonicWall SonicOS SSLVPN CVE-2026-19868'
+beats:
+- say: Attackers are bypassing multi-factor authentication on SonicWall Sonic O S S L V P N devices.
+  caption: Attackers are bypassing multi-factor authentication on SonicWall SonicOS SSLVPN devices.
+  highlight:
+  - bypassing multi-factor authentication
+  scene:
+    type: headline
+    text: MFA Bypass Exploited
+- say: The flaw in C V E 2 0 2 6 1 9 8 6 8 lets users with valid credentials for other methods skip S A M L authentication controls.
+  caption: The flaw in CVE-2026-19868 lets users with valid credentials for other methods skip SAML authentication controls.
+  highlight:
+  - skip SAML authentication controls
+  scene:
+    type: card
+    title: Vulnerability Details
+    rows:
+    - - CVE ID
+      - CVE-2026-19868
+    - - Product
+      - SonicOS SSLVPN
+    - - Added
+      - '2026-11-06'
+    - - Due Date
+      - '2026-11-20'
+- say: This vulnerability allows successful exploitation to bypass SAML enforced multi-factor authentication.
+  caption: This vulnerability allows successful exploitation to bypass SAML-enforced multi-factor authentication.
+  highlight:
+  - bypass SAML-enforced multi-factor authentication
+  scene:
+    type: stat
+    value: '7.5'
+    label: CVSS Base Score
+- say: Apply vendor mitigations immediately. If mitigations are unavailable, discontinue use of the product.
+  caption: Apply vendor mitigations immediately. If mitigations are unavailable, discontinue use of the product.
+  highlight:
+  - Apply vendor mitigations
+  - discontinue use
+  scene:
+    type: list
+    title: Required Actions
+    items:
+    - Apply vendor mitigations
+    - Follow BOD 26-04
+    - Evaluate internet exposure
+    - Discontinue if unmitigated
+    style: check
+- say: Sources are in the description.
+  caption: Sources are in the description.
+  highlight: []
+  scene:
+    type: cta
+    line: Stay Protected
+    subline: Sources in description
+description:
+  summary: Attackers are using CVE-2026-19868 to bypass multi-factor authentication on SonicWall SonicOS SSLVPN devices.
+  affected: SonicWall SonicOS SSLVPN products.
+  action: Apply vendor mitigations or discontinue use if mitigations are unavailable.
+  sources:
+  - 'CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog'
+  - 'NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-19868'
+seo:
+  seeds:
+  - SonicWall CVE-2026-19868 exploit
+  - SonicOS SSLVPN MFA bypass
+  - CISA KEV SonicWall update
+  hashtags:
+  - '#Cybersecurity'
+  - '#SonicWall'
+series: Exploited Today
+record_id: kev:CVE-2026-19868
+auto: true
+instagram_hashtags_rotating: []

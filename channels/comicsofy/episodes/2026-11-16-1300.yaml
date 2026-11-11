@@ -1,0 +1,77 @@
+format: strip
+kind: image
+title: The Big Move
+premise: Pim carries a mug of coffee across the room with extreme concentration.
+panels:
+- room: living_room
+  cast:
+  - who: Pim
+    mood: nervous
+    pos: left
+    size: medium
+    holding: mug
+  lines:
+  - who: Pim
+    text: Must not spill a single drop today.
+  props:
+  - name: mug
+    spot: left
+- room: living_room
+  cast:
+  - who: Pim
+    mood: determined
+    pos: center
+    size: medium
+    holding: mug
+  lines:
+  - who: Pim
+    text: Step by careful step now.
+  props:
+  - name: mug
+    spot: center
+- room: living_room
+  cast:
+  - who: Pim
+    mood: nervous
+    pos: right
+    size: medium
+    holding: mug
+  - who: Soot
+    mood: sleeping
+    pos: left
+    size: small
+  lines:
+  - who: Pim
+    text: Almost to the sofa.
+  props:
+  - name: mug
+    spot: right
+- room: living_room
+  cast:
+  - who: Pim
+    mood: happy
+    pos: right
+    size: medium
+    holding: mug
+  - who: Soot
+    mood: flat
+    pos: left
+    size: small
+  lines:
+  - who: Pim
+    text: I made it!
+  - who: Soot
+    text: It is empty.
+  props:
+  - name: mug
+    spot: right
+caption: 'Dangerous journey ahead.
+
+
+  #comics #webcomic #pimandsoot #ghost #catlife #coffee'
+description:
+  summary: Dangerous journey ahead.
+series: Pim and Soot Comic
+record_id: strip:image:1794398833084229213:0
+auto: true
+instagram_hashtags_rotating: []

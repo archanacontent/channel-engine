@@ -1,0 +1,71 @@
+skip: false
+skip_reason: ''
+title: 'Fix this so AI cites you: Answer First'
+beats:
+- say: Answer engines prioritize pages that answer questions immediately.
+  caption: Answer engines prioritize pages that answer questions immediately.
+  highlight:
+  - Answer engines prioritize
+  - answer questions immediately
+  scene:
+    type: headline
+    text: Prioritize immediate answers
+- say: When writing about S O C 2 compliance, do not lead with a long history of the framework.
+  caption: When writing about SOC 2 compliance, do not lead with a long history of the framework.
+  highlight:
+  - do not lead with
+  - long history
+  scene:
+    type: compare
+    left_label: Weak
+    left_text: SOC 2 is a framework developed to manage data...
+    right_label: Fix
+    right_text: SOC 2 compliance is a security standard that...
+- say: The opening sentence must answer the user question outright before providing explanation.
+  caption: The opening sentence must answer the user question outright before providing explanation.
+  highlight:
+  - answer the user question outright
+  - before providing explanation
+  scene:
+    type: list
+    title: The Citable Passage Standard
+    items:
+    - Answer first
+    - Explanation follows
+    style: check
+- say: This rule is part of the Asked Method by Archana Panda.
+  caption: This rule is part of the Asked Method by Archana Panda.
+  highlight:
+  - Asked Method
+  - Archana Panda
+  scene:
+    type: quote
+    text: 'The Citable Passage Standard: Answer First.'
+    highlight:
+    - Answer First
+- say: The full standard is linked on our channel page.
+  caption: The full standard is linked on our channel page.
+  highlight:
+  - full standard is linked
+  scene:
+    type: cta
+    line: Master AI visibility
+    subline: Link in bio
+description:
+  hook: Answer engines prioritize pages that answer questions immediately.
+  answer: To get cited, use the Answer First rule from the Citable Passage Standard for your SOC 2 compliance pages.
+  sources:
+  - 'The Citable Passage Standard: https://archanacontent.github.io/asked/standard/'
+seo:
+  seeds:
+  - answer engine optimization
+  - how to get cited by ChatGPT
+  - SOC 2 compliance content strategy
+  - generative engine optimization
+  hashtags:
+  - '#AEO'
+  - '#B2BMarketing'
+series: The Fix
+record_id: fix:answer-first:SOC 2 compliance
+auto: true
+instagram_hashtags_rotating: []

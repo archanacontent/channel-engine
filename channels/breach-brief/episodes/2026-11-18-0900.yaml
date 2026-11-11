@@ -1,0 +1,77 @@
+skip: false
+skip_reason: ''
+title: 'Exploited now: Ivanti Connect Secure CVE-2026-118527'
+beats:
+- say: Attackers are exploiting Ivanti Connect Secure to upload malicious files to your disk.
+  caption: Attackers are exploiting Ivanti Connect Secure to upload malicious files to your disk.
+  highlight:
+  - upload malicious files
+  scene:
+    type: headline
+    text: Malicious File Upload Vulnerability
+- say: C V E 2 0 2 6, 1 1 8 5 2 7 allows remote authenticated users to control content in known disk locations.
+  caption: CVE-2026-118527 allows remote authenticated users to control content in known disk locations.
+  highlight:
+  - control content in known disk locations
+  scene:
+    type: card
+    title: Vulnerability Details
+    rows:
+    - - CVE ID
+      - CVE-2026-118527
+    - - Product
+      - Ivanti Connect Secure
+    - - Added to KEV
+      - '2026-10-30'
+    - - Remediation Due
+      - '2026-11-13'
+- say: This flaw is often chained with other vulnerabilities to expand access.
+  caption: This flaw is often chained with other vulnerabilities to expand access.
+  highlight:
+  - chained with other vulnerabilities
+  scene:
+    type: stat
+    value: Medium
+    label: CVSS Base Score
+    source: NVD
+- say: Protect your environment by applying vendor mitigations immediately.
+  caption: Protect your environment by applying vendor mitigations immediately.
+  highlight:
+  - applying vendor mitigations immediately
+  scene:
+    type: list
+    title: Required Actions
+    items:
+    - Apply vendor mitigations
+    - Follow CISA BOD 26-04
+    - Assess internet exposure
+    - Discontinue if unmitigated
+    style: check
+- say: Sources are in the description.
+  caption: Sources are in the description.
+  highlight:
+  - Sources are in the description
+  scene:
+    type: cta
+    line: Stay Secure
+    subline: Sources are in the description.
+description:
+  summary: Attackers are exploiting CVE-2026-118527 in Ivanti Connect Secure to upload unauthorized files.
+  affected: Ivanti Connect Secure versions prior to 25.1.1.3 and 22.8R2.6.
+  action: Apply vendor mitigations and follow CISA BOD 26-04 guidance immediately.
+  sources:
+  - 'CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog'
+  - 'NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-118527'
+seo:
+  seeds:
+  - Ivanti Connect Secure vulnerability
+  - CVE-2026-118527 exploit
+  - CISA KEV Ivanti
+  - Ivanti security update
+  hashtags:
+  - '#Cybersecurity'
+  - '#Ivanti'
+series: Exploited Today
+record_id: kev:CVE-2026-118527
+auto: true
+instagram_hashtags_rotating: []

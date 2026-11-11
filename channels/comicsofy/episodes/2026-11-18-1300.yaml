@@ -1,0 +1,67 @@
+format: strip
+kind: image
+title: Ghost Work
+premise: Pim tries to use a laptop for important ghost business.
+panels:
+- room: living_room
+  cast:
+  - who: Pim
+    mood: determined
+    pos: left
+    size: medium
+    holding: laptop
+  lines:
+  - who: Pim
+    text: I am answering all my emails today.
+  props:
+  - name: laptop
+    spot: center
+- room: living_room
+  cast:
+  - who: Pim
+    mood: nervous
+    pos: left
+    size: medium
+    holding: laptop
+  lines:
+  - who: Pim
+    text: Why is the screen passing through my hands?
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: sad
+    pos: left
+    size: medium
+  - who: Soot
+    mood: flat
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: My digital productivity is ruined.
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: sad
+    pos: left
+    size: medium
+  - who: Soot
+    mood: smug
+    pos: right
+    size: medium
+  lines:
+  - who: Soot
+    text: Just send good vibes.
+  props: []
+caption: 'Technology is hard when you are translucent.
+
+
+  #comics #webcomic #pimandsoot #ghost #cat #relatable'
+description:
+  summary: Technology is hard when you are translucent.
+series: Pim and Soot Comic
+record_id: strip:image:1794400864931623544:0
+auto: true
+instagram_hashtags_rotating: []

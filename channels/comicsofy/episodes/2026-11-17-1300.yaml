@@ -1,0 +1,65 @@
+format: strip
+kind: image
+title: The Big Book
+premise: Pim tries to read a thick book to look smart, but immediately falls asleep.
+panels:
+- room: living_room
+  cast:
+  - who: Pim
+    mood: determined
+    pos: left
+    size: medium
+    holding: book
+  lines:
+  - who: Pim
+    text: Tonight I become a scholar.
+  props:
+  - name: book
+    spot: left
+- room: living_room
+  cast:
+  - who: Pim
+    mood: excited
+    pos: center
+    size: medium
+    holding: book
+  lines:
+  - who: Pim
+    text: Look at all these serious words!
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: sleepy
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: So much wisdom...
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: sleepy
+    pos: left
+    size: small
+  - who: Soot
+    mood: flat
+    pos: right
+    size: medium
+  lines:
+  - who: Soot
+    text: Page two record broken.
+  props:
+  - name: book
+    spot: left
+caption: 'Knowledge is power, but naps are better.
+
+
+  #comics #webcomic #pimandsoot #ghost #cat #reading'
+description:
+  summary: Knowledge is power, but naps are better.
+series: Pim and Soot Comic
+record_id: strip:image:1794399855840723029:0
+auto: true
+instagram_hashtags_rotating: []

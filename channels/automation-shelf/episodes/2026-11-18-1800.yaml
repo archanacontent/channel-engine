@@ -1,0 +1,74 @@
+skip: false
+skip_reason: ''
+title: Can you automate AI UGC video creation?
+beats:
+- say: Can you automate AI U G C video creation? Yes.
+  caption: Can you automate AI UGC video creation? Yes.
+  highlight:
+  - automate AI UGC video creation
+  scene:
+    type: headline
+    text: Automate AI UGC video creation
+- say: Send a product photo and character instructions to a Telegram bot.
+  caption: Send a product photo and character instructions to a Telegram bot.
+  highlight:
+  - Telegram bot
+  scene:
+    type: list
+    title: Input
+    items:
+    - Product photo
+    - Character details
+    - Instruction text
+    style: bullet
+- say: The n eight n workflow analyzes the image and generates prompts for Key dot A I.
+  caption: The n8n workflow analyzes the image and generates prompts for Key.AI.
+  highlight:
+  - analyzes the image
+  - generates prompts
+  scene:
+    type: flow
+    steps:
+    - title: Image Analysis
+      note: Extracts product and character details
+    - title: Prompt Generation
+      note: Creates realistic iPhone look prompts
+    - title: Asset Creation
+      note: Generates images and video clips
+- say: It stitches clips together using F F m peg and sends the final video back to Telegram.
+  caption: It stitches clips together using FFmpeg and sends the final video back to Telegram.
+  highlight:
+  - stitches clips together
+  - sends the final video
+  scene:
+    type: compare
+    left_label: Manual
+    left_text: Hours of editing
+    right_label: Automated
+    right_text: Direct to Telegram
+- say: Template link in the description.
+  caption: Template link in the description.
+  highlight:
+  - Template link
+  scene:
+    type: cta
+    line: Get the workflow
+    subline: Template link in the description
+description:
+  task_line: You can automate the creation of AI-generated UGC marketing videos.
+  tools: This workflow uses n8n, Telegram, OpenAI, and Key.AI.
+  sources:
+  - 'n8n template: https://n8n.io/workflows/9253'
+  template_link: https://n8n.io/workflows/9253
+seo:
+  seeds:
+  - automate UGC video creation
+  - n8n AI video workflow
+  - AI marketing automation
+  hashtags:
+  - '#MarketingAutomation'
+  - '#n8n'
+series: Can It Be Automated?
+record_id: n8n:9253
+auto: true
+instagram_hashtags_rotating: []

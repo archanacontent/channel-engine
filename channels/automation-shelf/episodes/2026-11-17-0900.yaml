@@ -1,0 +1,79 @@
+skip: false
+skip_reason: ''
+title: 'Stop doing this by hand: AI product photography'
+beats:
+- say: Creating professional product photography with human models takes hours of manual work.
+  caption: Creating professional product photography with human models takes hours of manual work.
+  highlight:
+  - professional product photography
+  - hours of manual work
+  scene:
+    type: headline
+    text: Stop manual product shoots
+- say: Standard product images often lack the human element needed for high conversion ads.
+  caption: Standard product images often lack the human element needed for high conversion ads.
+  highlight:
+  - lack the human element
+  - high conversion ads
+  scene:
+    type: compare
+    left_label: Standard
+    left_text: Basic product URL
+    right_label: Enhanced
+    right_text: AI model photography
+- say: This n eight n workflow reads image URLs from Google Sheets and uses OpenAI to analyze the product and generate specialized prompts.
+  caption: This n8n workflow reads image URLs from Google Sheets and uses OpenAI to analyze the product and generate specialized prompts.
+  highlight:
+  - reads image URLs
+  - generate specialized prompts
+  scene:
+    type: flow
+    steps:
+    - title: Google Sheets
+      note: Read image URLs
+    - title: OpenAI
+      note: Analyze and prompt
+    - title: Convert to File
+      note: Generate photography
+    - title: Google Drive
+      note: Store results
+- say: The system uploads the final professional images to Google Drive and updates your spreadsheet with the new links automatically.
+  caption: The system uploads the final professional images to Google Drive and updates your spreadsheet with the new links automatically.
+  highlight:
+  - uploads the final professional images
+  - updates your spreadsheet
+  scene:
+    type: list
+    title: Automated Output
+    items:
+    - Professional AI photography
+    - Google Drive storage
+    - Updated Google Sheets
+    style: check
+- say: The free template is linked in the description.
+  caption: The free template is linked in the description.
+  highlight:
+  - free template
+  scene:
+    type: cta
+    line: Get the workflow
+    subline: The free template is linked in the description.
+description:
+  task_line: Automate the generation of AI advertising photos for product marketing using n8n.
+  tools: n8n, OpenAI, Google Sheets, Google Drive
+  sources:
+  - 'n8n template: https://n8n.io/workflows/3700'
+  template_link: https://n8n.io/workflows/3700
+seo:
+  seeds:
+  - AI product photography automation
+  - n8n marketing workflow templates
+  - automate product image generation
+  - OpenAI image generation workflow
+  hashtags:
+  - '#MarketingAutomation'
+  - '#n8n'
+series: Stop Doing This
+record_id: n8n:3700
+auto: true
+instagram_hashtags_rotating: []

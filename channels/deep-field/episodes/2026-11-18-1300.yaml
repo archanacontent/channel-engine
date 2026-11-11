@@ -1,0 +1,77 @@
+skip: false
+skip_reason: ''
+title: 'Curiosity: what just happened'
+beats:
+- say: Curiosity just completed its 49th drill hole on Mars, named Nazca.
+  caption: Curiosity just completed its 49th drill hole on Mars, named Nazca.
+  highlight:
+  - 49th drill hole
+  - named Nazca
+  scene:
+    type: headline
+    text: Curiosity's 49th Drill Hole
+- say: The team returned to an area containing disc shaped inclusions in the rocks.
+  caption: The team returned to an area containing disc shaped inclusions in the rocks.
+  highlight:
+  - disc shaped inclusions
+  scene:
+    type: image
+    credit: NASA/JPL-Caltech/MSSS
+- say: These shapes might be crystals that reveal environmental conditions.
+  caption: These shapes might be crystals that reveal environmental conditions.
+  highlight:
+  - might be crystals
+  - reveal environmental conditions
+  scene:
+    type: card
+    title: Scientific Goal
+    rows:
+    - - Target
+      - Nazca
+    - - Feature
+      - Disc shapes
+    - - Purpose
+      - Identify crystals
+- say: Before drilling, the rover passed stability and preload tests to ensure the rock and arm could handle the pressure.
+  caption: Before drilling, the rover passed stability and preload tests to ensure the rock and arm could handle the pressure.
+  highlight:
+  - passed stability and preload tests
+  scene:
+    type: list
+    title: Pre-Drill Tests
+    items:
+    - Stability test
+    - Preload test
+    style: check
+- say: The sample was dropped to the CheMin instrument, and results are expected to reach Earth soon.
+  caption: The sample was dropped to the CheMin instrument, and results are expected to reach Earth soon.
+  highlight:
+  - results are expected to reach Earth soon
+  scene:
+    type: stat
+    value: '49'
+    label: Total drill holes completed
+- say: Source in the description.
+  caption: Source in the description.
+  highlight: []
+  scene:
+    type: cta
+    line: Follow for more Mars updates
+    subline: Space Science
+description:
+  explainer: NASA's Curiosity rover successfully drilled its 49th hole, named Nazca, to investigate potential crystals on Mars. This mission aims to understand the environmental conditions of the Martian surface through rock samples.
+  sources:
+  - 'NASA: https://science.nasa.gov/blog/curiosity-blog-sols-5050-5055-its-nazca-our-49th-drill-hole/'
+seo:
+  seeds:
+  - Curiosity rover Mars drill
+  - NASA Mars mission update
+  - Mars Nazca drill hole
+  - Curiosity rover science
+  hashtags:
+  - '#Mars'
+  - '#NASA'
+series: Mission Log
+record_id: nasanews:https://science.nasa.gov/blog/curiosity-blog-sols-5050-5055-its-nazca-our-49th-drill-hole/
+auto: true
+instagram_hashtags_rotating: []

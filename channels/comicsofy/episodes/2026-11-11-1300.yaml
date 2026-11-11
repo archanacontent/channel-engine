@@ -1,0 +1,77 @@
+format: strip
+kind: image
+title: Laundry Day
+premise: Pim tries to fold a fitted sheet, gets completely confused by the process, and Soot offers dry commentary.
+panels:
+- room: living_room
+  cast:
+  - who: Pim
+    mood: determined
+    pos: left
+    size: medium
+    holding: sheet
+  - who: Soot
+    mood: flat
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: I am mastering the fitted sheet today.
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: nervous
+    pos: left
+    size: medium
+    holding: sheet
+  - who: Soot
+    mood: flat
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: First, you match corner to corner...
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: surprised
+    pos: left
+    size: medium
+    holding: sheet
+  - who: Soot
+    mood: flat
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: Wait. Which corner is this?
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: sad
+    pos: left
+    size: medium
+    holding: sheet
+  - who: Soot
+    mood: smug
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: I rolled it into a ball.
+  - who: Soot
+    text: A majestic ball.
+  props: []
+caption: 'Nobody actually knows how to fold a fitted sheet. It''s a myth.
+
+
+  #comics #webcomic #pimandsoot #webcomics #catcomics #ghost #relatable #humor'
+description:
+  summary: Nobody actually knows how to fold a fitted sheet. It's a myth.
+series: Pim and Soot Comic
+record_id: strip:image:1794396816732321857:0
+auto: true
+instagram_hashtags_rotating: []

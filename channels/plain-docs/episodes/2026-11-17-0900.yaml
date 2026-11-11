@@ -1,0 +1,74 @@
+skip: false
+skip_reason: ''
+title: Fixing a real README in under a minute
+beats:
+- say: Vague installation instructions stall onboarding and create support tickets.
+  caption: Vague installation instructions stall onboarding and create support tickets.
+  highlight:
+  - Vague installation instructions
+  - stall onboarding
+  scene:
+    type: headline
+    text: Vague instructions stall onboarding
+- say: The Re M C T S README says Python three point one zero plus is enough.
+  caption: The ReMCTS README says Python 3.10+ is enough.
+  highlight:
+  - Python 3.10+ is enough
+  scene:
+    type: compare
+    left_label: Original
+    left_text: Python 3.10+ is enough
+    right_label: Improved
+    right_text: Requires Python 3.10 or higher
+- say: The original is passive and uses a symbol that might be misread.
+  caption: The original is passive and uses a symbol that might be misread.
+  highlight:
+  - passive
+  - symbol
+  scene:
+    type: list
+    title: Why it failed
+    items:
+    - Passive phrasing
+    - Ambiguous plus symbol
+    style: bullet
+- say: Replacing the plus sign with words makes the requirement explicit and confident.
+  caption: Replacing the plus sign with words makes the requirement explicit and confident.
+  highlight:
+  - explicit
+  - confident
+  scene:
+    type: flow
+    steps:
+    - title: Identify
+      note: Find vague symbols
+    - title: Rewrite
+      note: Use clear words
+- say: Write requirements as explicit facts to prevent user error.
+  caption: Write requirements as explicit facts to prevent user error.
+  highlight:
+  - explicit facts
+  scene:
+    type: quote
+    text: Write requirements as explicit facts to prevent user error.
+    highlight:
+    - explicit facts
+description:
+  what_was_fixed: I clarified the Python version requirement in the ReMCTS README by replacing the plus symbol with explicit text.
+  rule: Use words instead of symbols to define technical requirements.
+  sources:
+  - 'MUSE-AI-Lab/ReMCTS README (MIT): https://github.com/MUSE-AI-Lab/ReMCTS'
+  source_link: https://github.com/MUSE-AI-Lab/ReMCTS
+  license: MIT
+seo:
+  seeds:
+  - technical writing tips
+  - how to write README documentation
+  - improving developer experience
+  hashtags:
+  - '#TechnicalWriting'
+  - '#DeveloperDocs'
+series: Rewrite This
+record_id: repo:MUSE-AI-Lab/ReMCTS
+auto: true
+instagram_hashtags_rotating: []

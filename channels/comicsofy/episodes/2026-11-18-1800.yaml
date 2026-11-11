@@ -1,0 +1,56 @@
+format: strip
+kind: reel
+title: The Remote
+premise: Pim tries to use the TV remote and gets confused by too many buttons.
+panels:
+- room: living_room
+  cast:
+  - who: Pim
+    mood: nervous
+    pos: left
+    size: medium
+    holding: tv
+  - who: Soot
+    mood: flat
+    pos: right
+    size: small
+  lines:
+  - who: Pim
+    text: Why are there so many buttons?
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: surprised
+    pos: center
+    size: medium
+    holding: tv
+  lines:
+  - who: Pim
+    text: Which one turns it on?
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: sad
+    pos: left
+    size: medium
+  - who: Soot
+    mood: smug
+    pos: right
+    size: small
+    holding: tv
+  lines:
+  - who: Soot
+    text: Amateur.
+  props: []
+caption: 'Too many buttons, zero answers.
+
+
+  #comics #webcomic #pimandsoot #ghost #cat #funny'
+description:
+  summary: Too many buttons, zero answers.
+series: Pim and Soot Reel
+record_id: strip:reel:1794401039588552842:0
+auto: true
+instagram_hashtags_rotating: []

@@ -1,0 +1,63 @@
+skip: false
+skip_reason: ''
+title: How big is Venus, really?
+beats:
+- say: Venus is over five times larger in diameter than Pluto.
+  caption: Venus is over five times larger in diameter than Pluto.
+  highlight:
+  - five times larger
+  scene:
+    type: headline
+    text: Venus vs Pluto
+- say: Venus has a diameter of 12,104 kilometers. Pluto measures only 2,376 kilometers across.
+  caption: Venus has a diameter of 12,104 km. Pluto measures only 2,376 km across.
+  highlight: []
+  scene:
+    type: sizes
+    a_label: Venus
+    a_value: 12104.0
+    b_label: Pluto
+    b_value: 2376.0
+    unit: km
+- say: Venus orbits much closer to the Sun at 108.2 million kilometers. Pluto sits much further away at 5,906.4 million kilometers.
+  caption: Venus orbits much closer to the Sun at 108.2 million km. Pluto sits much further away at 5,906.4 million km.
+  highlight: []
+  scene:
+    type: compare
+    left_label: Venus distance
+    left_text: 108.2 million km
+    right_label: Pluto distance
+    right_text: 5,906.4 million km
+- say: The diameter ratio between these two bodies is 5.09.
+  caption: The diameter ratio between these two bodies is 5.09.
+  highlight: []
+  scene:
+    type: stat
+    value: '5.09'
+    label: Diameter Ratio
+- say: Figures from NASA's Planetary Fact Sheet.
+  caption: Figures from NASA's Planetary Fact Sheet.
+  highlight:
+  - NASA's Planetary Fact Sheet
+  scene:
+    type: quote
+    text: Figures from NASA's Planetary Fact Sheet.
+    highlight:
+    - NASA's Planetary Fact Sheet
+description:
+  explainer: Venus is significantly larger than Pluto. This video compares their diameters and distances from the Sun.
+  sources:
+  - 'NASA Planetary Fact Sheet: https://nssdc.gsfc.nasa.gov/planetary/factsheet/'
+seo:
+  seeds:
+  - size of Venus vs Pluto
+  - Venus diameter km
+  - Pluto distance from sun
+  hashtags:
+  - '#SpaceScience'
+  - '#Venus'
+  - '#Pluto'
+series: Scale It
+record_id: scale:VENUS:PLUTO
+auto: true
+instagram_hashtags_rotating: []

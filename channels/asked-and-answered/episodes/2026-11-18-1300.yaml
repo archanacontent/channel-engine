@@ -1,0 +1,69 @@
+skip: false
+skip_reason: ''
+title: 'Fix this so AI cites you: non-standalone passages'
+beats:
+- say: AI answer engines will not cite your content if the passage depends on the rest of the page.
+  caption: AI answer engines will not cite your content if the passage depends on the rest of the page.
+  highlight:
+  - will not cite your content
+  scene:
+    type: headline
+    text: Stop losing AI citations
+- say: The Citable Passage Standard from Archana Panda requires every quoted snippet to stand alone.
+  caption: The Citable Passage Standard from Archana Panda requires every quoted snippet to stand alone.
+  highlight:
+  - stand alone
+  scene:
+    type: quote
+    text: The Citable Passage Standard requires every quoted snippet to stand alone.
+    highlight:
+    - stand alone
+- say: A weak line for conversation intelligence says, As mentioned above, meeting transcripts provide context.
+  caption: A weak line for conversation intelligence says, As mentioned above, meeting transcripts provide context.
+  highlight:
+  - As mentioned above
+  scene:
+    type: compare
+    left_label: Weak Line
+    left_text: As mentioned above, meeting transcripts provide context.
+    right_label: The Fix
+    right_text: Meeting transcripts provide essential context for conversation intelligence.
+- say: The fix removes references to previous sections so the engine can extract the idea independently.
+  caption: The fix removes references to previous sections so the engine can extract the idea independently.
+  highlight:
+  - extract the idea independently
+  scene:
+    type: flow
+    steps:
+    - title: Identify
+      note: Find references to other sections
+    - title: Remove
+      note: Delete phrases like as mentioned above
+    - title: Verify
+      note: Ensure the snippet makes sense alone
+- say: The full standard is linked on our channel page.
+  caption: The full standard is linked on our channel page.
+  highlight:
+  - full standard
+  scene:
+    type: cta
+    line: Master AEO
+    subline: The full standard is linked on our channel page.
+description:
+  hook: AI engines skip passages that rely on surrounding text to make sense.
+  answer: Use the Stand Alone rule from the Citable Passage Standard to ensure your content is extractable.
+  sources:
+  - 'The Citable Passage Standard: https://archanacontent.github.io/asked/standard/'
+seo:
+  seeds:
+  - answer engine optimization
+  - how to get cited by ChatGPT
+  - generative engine optimization tips
+  - AEO for B2B
+  hashtags:
+  - '#AEO'
+  - '#B2BMarketing'
+series: The Fix
+record_id: fix:stand-alone:conversation intelligence
+auto: true
+instagram_hashtags_rotating: []

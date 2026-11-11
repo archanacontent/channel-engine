@@ -1,0 +1,73 @@
+format: strip
+kind: image
+title: The Big Project
+premise: Pim worries that sitting on the couch counts as a hobby, while Soot reassures him.
+panels:
+- room: living_room
+  cast:
+  - who: Pim
+    mood: nervous
+    pos: left
+    size: medium
+  - who: Soot
+    mood: flat
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: Do I have any real hobbies?
+  - who: Soot
+    text: Existing.
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: sad
+    pos: center
+    size: medium
+  lines:
+  - who: Pim
+    text: That is not a hobby.
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: excited
+    pos: left
+    size: medium
+  - who: Soot
+    mood: smug
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: I need a skill! Like pottery!
+  - who: Soot
+    text: You are a ghost.
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: happy
+    pos: left
+    size: medium
+  - who: Soot
+    mood: pleased
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: Couch sitting it is.
+  - who: Soot
+    text: A professional.
+  props: []
+caption: 'Productivity is a state of mind.
+
+
+  #comics #webcomic #pimandsoot #pimanndsoot #ghost #cat #relatable'
+description:
+  summary: Productivity is a state of mind.
+series: Pim and Soot Comic
+record_id: strip:image:1794397001249965369:0
+auto: true
+instagram_hashtags_rotating: []

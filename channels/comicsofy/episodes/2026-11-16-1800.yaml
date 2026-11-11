@@ -1,0 +1,60 @@
+format: strip
+kind: reel
+title: The Missing Phone
+premise: Pim panics because he cannot find his phone while he is already holding it.
+panels:
+- room: living_room
+  cast:
+  - who: Pim
+    mood: nervous
+    pos: left
+    size: medium
+    holding: phone
+  - who: Soot
+    mood: flat
+    pos: right
+    size: small
+  lines:
+  - who: Pim
+    text: I lost my phone everywhere!
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: surprised
+    pos: left
+    size: medium
+    holding: phone
+  - who: Soot
+    mood: flat
+    pos: right
+    size: small
+  lines:
+  - who: Pim
+    text: It is completely gone!
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: happy
+    pos: left
+    size: medium
+    holding: phone
+  - who: Soot
+    mood: smug
+    pos: right
+    size: small
+  lines:
+  - who: Soot
+    text: Look in your hand.
+  props: []
+caption: 'Every single time.
+
+
+  #comics #webcomic #pimandsoot #ghost #cat #relatable'
+description:
+  summary: Every single time.
+series: Pim and Soot Reel
+record_id: strip:reel:1794399382891707794:0
+auto: true
+instagram_hashtags_rotating: []

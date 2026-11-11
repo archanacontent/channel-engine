@@ -1,0 +1,73 @@
+skip: false
+skip_reason: ''
+title: Fixing a real README in under a minute
+beats:
+- say: Vague documentation creates support tickets and stalls onboarding.
+  caption: Vague documentation creates support tickets and stalls onboarding.
+  highlight:
+  - Vague documentation
+  - stalls onboarding
+  scene:
+    type: headline
+    text: Bad docs stall onboarding
+- say: Ounce Core is an AArch64 execution lab written in safe Rust.
+  caption: Ounce Core is an AArch64 execution lab written in safe Rust.
+  highlight:
+  - AArch64 execution lab
+  - safe Rust
+  scene:
+    type: headline
+    kicker: The Subject
+    text: Ounce Core
+- say: The original sentence says, An open-source ARM64 execution, debugging and verification platform in safe Rust.
+  caption: The original sentence says, An open-source ARM64 execution, debugging and verification platform in safe Rust.
+  highlight:
+  - original sentence
+  scene:
+    type: compare
+    left_label: Original
+    left_text: An open-source ARM64 execution, debugging and verification platform in safe Rust.
+    right_label: Better
+    right_text: Ounce Core is an AArch64 execution lab written in safe Rust.
+- say: The first version uses a list of nouns that lacks a clear subject. The rewrite uses a strong verb and defines exactly what the project is.
+  caption: The first version uses a list of nouns that lacks a clear subject. The rewrite uses a strong verb and defines exactly what the project is.
+  highlight:
+  - lacks a clear subject
+  - uses a strong verb
+  scene:
+    type: list
+    title: The Fix
+    items:
+    - Add a subject
+    - Use active verbs
+    - Remove noun piles
+    style: check
+- say: State what the tool is, not just what it contains.
+  caption: State what the tool is, not just what it contains.
+  highlight:
+  - State what the tool is
+  scene:
+    type: quote
+    text: State what the tool is, not just what it contains.
+    highlight:
+    - State what the tool is
+description:
+  what_was_fixed: This video shows how to turn a vague noun-heavy description into a clear definition for Ounce Core.
+  rule: Avoid noun piles by using a subject and an active verb.
+  sources:
+  - 'hffgzktbcc-blip/ounce-core README (MIT): https://github.com/hffgzktbcc-blip/ounce-core'
+  source_link: https://github.com/hffgzktbcc-blip/ounce-core
+  license: MIT
+seo:
+  seeds:
+  - technical writing tips
+  - how to write documentation
+  - README best practices
+  - improving developer docs
+  hashtags:
+  - '#TechnicalWriting'
+  - '#DeveloperExperience'
+series: Rewrite This
+record_id: repo:hffgzktbcc-blip/ounce-core
+auto: true
+instagram_hashtags_rotating: []

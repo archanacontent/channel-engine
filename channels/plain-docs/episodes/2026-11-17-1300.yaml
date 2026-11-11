@@ -1,0 +1,71 @@
+skip: false
+skip_reason: ''
+title: 'Writing rule: Avoid -ing verbs in headings'
+beats:
+- say: Starting headings with -ing verbs makes them harder to translate and harder to read.
+  caption: Starting headings with -ing verbs makes them harder to translate and harder to read.
+  highlight:
+  - harder to translate
+  - harder to read
+  scene:
+    type: headline
+    text: Avoid -ing verbs in headings
+- say: Google developer documentation recommends using bare infinitives for tasks and noun phrases for concepts.
+  caption: Google developer documentation recommends using bare infinitives for tasks and noun phrases for concepts.
+  highlight:
+  - bare infinitives
+  - noun phrases
+  scene:
+    type: image
+    credit: Google developer documentation
+- say: Transferring data sets is a weak task heading. Transfer data sets is better.
+  caption: Transferring data sets is a weak task heading. Transfer data sets is better.
+  highlight:
+  - weak task heading
+  - is better
+  scene:
+    type: compare
+    left_label: Not recommended
+    left_text: Transferring data sets
+    right_label: Recommended
+    right_text: Transfer data sets
+- say: Present participles increase character count in limited spaces and cause inconsistent translations.
+  caption: Present participles increase character count in limited spaces and cause inconsistent translations.
+  highlight:
+  - increase character count
+  - inconsistent translations
+  scene:
+    type: list
+    title: Why avoid gerunds?
+    items:
+    - Inconsistent translations
+    - Higher character counts
+    style: bullet
+- say: Use bare infinitives for tasks and noun phrases for concepts.
+  caption: Use bare infinitives for tasks and noun phrases for concepts.
+  highlight:
+  - bare infinitives for tasks
+  - noun phrases for concepts
+  scene:
+    type: quote
+    text: Use bare infinitives for tasks and noun phrases for concepts.
+    highlight:
+    - bare infinitives
+    - noun phrases
+description:
+  what_was_fixed: The heading was changed from a gerund to a bare infinitive to improve clarity and translation.
+  rule: Avoid using -ing verbs as the first word in headings or titles.
+  sources:
+  - 'Google developer documentation: https://developers.google.com/style/headings'
+seo:
+  seeds:
+  - technical writing heading rules
+  - how to write documentation headings
+  - Google developer documentation style guide
+  hashtags:
+  - '#TechnicalWriting'
+  - '#Documentation'
+series: One Rule
+record_id: style:https://developers.google.com/style/headings
+auto: true
+instagram_hashtags_rotating: []

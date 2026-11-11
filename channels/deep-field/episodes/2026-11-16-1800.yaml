@@ -1,0 +1,64 @@
+skip: false
+skip_reason: ''
+title: How big is Venus, really?
+beats:
+- say: Venus is nearly twice as wide as Mars.
+  caption: Venus is nearly twice as wide as Mars.
+  highlight:
+  - twice as wide as Mars
+  scene:
+    type: headline
+    text: Venus vs Mars
+- say: The diameter of Venus is 12,104 kilometers.
+  caption: The diameter of Venus is 12,104 km.
+  highlight: []
+  scene:
+    type: stat
+    value: 12,104
+    label: Venus Diameter (km)
+- say: Mars has a diameter of 6,792 kilometers. That makes Venus 1.78 times larger than the Red Planet.
+  caption: Mars has a diameter of 6,792 km. That makes Venus 1.78 times larger than the Red Planet.
+  highlight:
+  - 1.78 times larger
+  scene:
+    type: compare
+    left_label: Venus
+    left_text: 12,104 km
+    right_label: Mars
+    right_text: 6,792 km
+- say: Venus sits 108.2 million kilometers from the Sun. Mars orbits much further out at 228.0 million kilometers.
+  caption: Venus sits 108.2 million km from the Sun. Mars orbits much further out at 228.0 million km.
+  highlight: []
+  scene:
+    type: card
+    title: Distance from Sun
+    rows:
+    - - Venus
+      - 108.2 million km
+    - - Mars
+      - 228.0 million km
+- say: Figures from NASA's Planetary Fact Sheet.
+  caption: Figures from NASA's Planetary Fact Sheet.
+  highlight:
+  - NASA's Planetary Fact Sheet
+  scene:
+    type: cta
+    line: Space Science
+    subline: Figures from NASA's Planetary Fact Sheet
+description:
+  explainer: Venus is 12,104 km in diameter, making it significantly larger than Mars. This comparison uses data from the NASA Planetary Fact Sheet.
+  sources:
+  - 'NASA Planetary Fact Sheet: https://nssdc.gsfc.nasa.gov/planetary/factsheet/'
+seo:
+  seeds:
+  - size of Venus vs Mars
+  - Venus diameter km
+  - Mars distance from sun
+  - planetary scale comparison
+  hashtags:
+  - '#Space'
+  - '#Astronomy'
+series: Scale It
+record_id: scale:VENUS:MARS
+auto: true
+instagram_hashtags_rotating: []

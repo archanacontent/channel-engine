@@ -1,0 +1,83 @@
+skip: false
+skip_reason: ''
+title: 'Stop doing this by hand: WooCommerce customer segmentation'
+beats:
+- say: Manually grouping WooCommerce customers by purchase behavior wastes hours every week.
+  caption: Manually grouping WooCommerce customers by purchase behavior wastes hours every week.
+  highlight:
+  - Manually grouping WooCommerce customers
+  - wastes hours every week
+  scene:
+    type: headline
+    text: Stop Manual Segmentation
+- say: You need to identify champions and at risk customers using the R F M model.
+  caption: You need to identify champions and at risk customers using the RFM model.
+  highlight:
+  - identify champions
+  - at risk customers
+  - RFM model
+  scene:
+    type: list
+    title: RFM Segments
+    items:
+    - Champions
+    - New Buyers
+    - At Risk
+    - Lost
+    style: check
+- say: This n eight n workflow pulls completed orders from the past year and calculates scores automatically.
+  caption: This n8n workflow pulls completed orders from the past year and calculates scores automatically.
+  highlight:
+  - pulls completed orders
+  - calculates scores automatically
+  scene:
+    type: flow
+    steps:
+    - title: Schedule Trigger
+      note: Weekly automation
+    - title: WooCommerce
+      note: Fetch orders
+    - title: Code
+      note: Calculate RFM
+    - title: HTML
+      note: Styled report
+- say: The output is a styled HTML report summarizing segments and suggested marketing actions.
+  caption: The output is a styled HTML report summarizing segments and suggested marketing actions.
+  highlight:
+  - styled HTML report
+  - suggested marketing actions
+  scene:
+    type: card
+    title: Report Contents
+    rows:
+    - - Customer Segment
+      - Group Label
+    - - Marketing Action
+      - Suggested Task
+- say: The free template is linked in the description.
+  caption: The free template is linked in the description.
+  highlight:
+  - free template
+  scene:
+    type: cta
+    line: Get the template
+    subline: Linked in description
+description:
+  task_line: Automate your WooCommerce customer segmentation using the RFM model.
+  tools: n8n and WooCommerce
+  sources:
+  - 'n8n template: https://n8n.io/workflows/4880'
+  template_link: https://n8n.io/workflows/4880
+seo:
+  seeds:
+  - WooCommerce RFM automation
+  - n8n ecommerce workflow
+  - customer segmentation automation
+  - WooCommerce marketing segments
+  hashtags:
+  - '#WooCommerce'
+  - '#n8n'
+series: Stop Doing This
+record_id: n8n:4880
+auto: true
+instagram_hashtags_rotating: []

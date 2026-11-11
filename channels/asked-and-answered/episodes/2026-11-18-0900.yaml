@@ -1,0 +1,75 @@
+skip: false
+skip_reason: ''
+title: 'Buyers ask AI: what is revenue operations'
+beats:
+- say: What is revenue operations?
+  caption: What is revenue operations?
+  highlight:
+  - What is revenue operations?
+  scene:
+    type: headline
+    text: Buyers ask AI
+- say: Buyers searching for this term often want to know the specific role of a revenue operations analyst or specialist.
+  caption: Buyers searching for this term often want to know the specific role of a revenue operations analyst or specialist.
+  highlight:
+  - revenue operations analyst
+  - specialist
+  scene:
+    type: list
+    title: Common Search Intent
+    items:
+    - Revenue operations analyst
+    - Revenue operations specialist
+    - Revenue operations manager
+    style: bullet
+- say: They also compare revenue operations against sales operations or go to market strategy to define boundaries.
+  caption: They also compare revenue operations against sales operations or go to market strategy to define boundaries.
+  highlight:
+  - revenue operations against sales operations
+  - go to market strategy
+  scene:
+    type: compare
+    left_label: Revenue Operations
+    left_text: Cross functional alignment
+    right_label: Sales Operations
+    right_text: Sales team focus
+- say: To be cited, your page must clearly distinguish these roles and explain how revenue operations differs from finance or go to market strategy.
+  caption: To be cited, your page must clearly distinguish these roles and explain how revenue operations differs from finance or go to market strategy.
+  highlight:
+  - distinguish these roles
+  - differs from finance
+  scene:
+    type: card
+    title: Optimization Checklist
+    rows:
+    - - Role clarity
+      - Define analyst vs manager
+    - - Comparison
+      - Vs sales operations
+    - - Strategic context
+      - Vs GTM strategy
+- say: Find your buyers' questions with Asked, link on our channel page.
+  caption: Find your buyers' questions with Asked, link on our channel page.
+  highlight:
+  - Find your buyers' questions
+  scene:
+    type: cta
+    line: Find your buyers' questions with Asked
+    subline: Link on our channel page
+description:
+  hook: Revenue operations encompasses various roles like analysts, specialists, and managers.
+  answer: To earn AI citations, distinguish revenue operations from sales operations, finance, and GTM strategy.
+  sources:
+  - 'Asked, free AEO and GEO question finder: https://archanacontent.github.io/asked/'
+seo:
+  seeds:
+  - what is revenue operations role
+  - revenue operations vs sales operations
+  - revenue operations analyst vs specialist
+  hashtags:
+  - '#RevenueOperations'
+  - '#AEO'
+series: Buyers Asked
+record_id: asked:revenue operations
+auto: true
+instagram_hashtags_rotating: []

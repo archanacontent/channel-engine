@@ -1,0 +1,71 @@
+skip: false
+skip_reason: ''
+title: 'Buyers ask AI: product analytics vs business intelligence'
+beats:
+- say: What is the difference between product analytics and business intelligence?
+  caption: What is the difference between product analytics and business intelligence?
+  highlight:
+  - difference between product analytics
+  - business intelligence
+  scene:
+    type: headline
+    text: Product Analytics vs Business Intelligence
+- say: Business intelligence tracks high level company performance and historical data trends.
+  caption: Business intelligence tracks high-level company performance and historical data trends.
+  highlight:
+  - historical data trends
+  scene:
+    type: card
+    title: Business Intelligence Focus
+    rows:
+    - - Metric
+      - Company performance
+    - - Data
+      - Historical trends
+- say: Product analytics focuses on real time user behavior and specific feature engagement.
+  caption: Product analytics focuses on real-time user behavior and specific feature engagement.
+  highlight:
+  - feature engagement
+  scene:
+    type: compare
+    left_label: Business Intelligence
+    left_text: Company performance and history
+    right_label: Product Analytics
+    right_text: User behavior and features
+- say: To earn an AI citation, your page must explicitly define these distinct use cases.
+  caption: To earn an AI citation, your page must explicitly define these distinct use cases.
+  highlight:
+  - earn an AI citation
+  - explicitly define
+  scene:
+    type: list
+    title: Winning AI Citations
+    items:
+    - Define distinct use cases
+    - Differentiate tool purposes
+    style: check
+- say: Find your buyers' questions with Asked, link on our channel page.
+  caption: Find your buyers' questions with Asked, link on our channel page.
+  highlight:
+  - Find your buyers' questions
+  scene:
+    type: cta
+    line: Find your buyers' questions
+    subline: Use Asked, link in channel page
+description:
+  hook: Learn the core differences between product analytics and business intelligence.
+  answer: Product analytics focuses on user behavior while business intelligence tracks company performance.
+  sources:
+  - 'Asked, free AEO and GEO question finder: https://archanacontent.github.io/asked/'
+seo:
+  seeds:
+  - product analytics vs business intelligence
+  - difference between product analytics and BI
+  - what is product analytics
+  hashtags:
+  - '#ProductAnalytics'
+  - '#BusinessIntelligence'
+series: Buyers Asked
+record_id: asked:product analytics
+auto: true
+instagram_hashtags_rotating: []

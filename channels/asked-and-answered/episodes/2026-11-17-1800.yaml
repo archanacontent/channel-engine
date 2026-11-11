@@ -1,0 +1,75 @@
+skip: false
+skip_reason: ''
+title: 'AI search in 2026: Google rank data issues'
+beats:
+- say: Google rank tracking reports are being skewed by unrelated one word results. Search Engine Journal reports that eighty four percent of flagged cases involved unrelated listings.
+  caption: Google rank tracking reports are being skewed by unrelated one word results. Search Engine Journal reports that 84% of flagged cases involved unrelated listings.
+  highlight:
+  - unrelated one word results
+  - 84% of flagged cases
+  scene:
+    type: stat
+    value: 84%
+    label: flagged cases with unrelated listings
+    source: Search Engine Journal
+- say: These unrelated blocks typically begin at position nine or lower. If your ranking dropped recently, check if the new result matches your query or just a single word.
+  caption: These unrelated blocks typically begin at position 9 or lower. If your ranking dropped recently, check if the new result matches your query or just a single word.
+  highlight:
+  - position 9 or lower
+  - matches your query
+  scene:
+    type: list
+    title: Check your ranking drops
+    items:
+    - Check position 9 or lower
+    - Verify query relevance
+    - Check for single word matches
+    style: check
+- say: Google is also throttling redirect links. Data For S E O says their modes will now only resolve approximately half of goto U R Ls.
+  caption: Google is also throttling redirect links. DataForSEO says their modes will now only resolve approximately half of goto URLs.
+  highlight:
+  - throttling redirect links
+  - half of goto URLs
+  scene:
+    type: compare
+    left_label: Previous state
+    left_text: Full URL resolution
+    right_label: Current state
+    right_text: Approximately half resolved
+- say: To verify if a redirect caused your data issue, compare your tracker URL against the destination. Use Search Console impression and click reports to confirm.
+  caption: To verify if a redirect caused your data issue, compare your tracker URL against the destination. Use Search Console impression and click reports to confirm.
+  highlight:
+  - use Search Console
+  scene:
+    type: flow
+    steps:
+    - title: Identify mismatch
+      note: Compare tracker to destination
+    - title: Verify data
+      note: Use Search Console reports
+- say: Source in the description.
+  caption: Source in the description.
+  highlight:
+  - Source in the description
+  scene:
+    type: cta
+    line: Master AI visibility
+    subline: Source in the description
+description:
+  hook: Google rank tracking data is being disrupted by unrelated results and throttled redirects.
+  answer: New issues with one word results and goto URL limitations are affecting SEO reporting accuracy.
+  sources:
+  - 'Google Rank Data Issues, Lighthouse Update & AI Opt-Out – SEO Pulse via @sejournal, @MattGSouthern: https://www.searchenginejournal.com/seo-pulse-rank-data-problems-pagespeed-scores-ai-training-opt-out/596104/'
+seo:
+  seeds:
+  - Google rank tracking issues 2026
+  - SEO rank data accuracy
+  - Google goto URL throttling
+  - Search Engine Journal SEO Pulse
+  hashtags:
+  - '#SEO'
+  - '#GoogleUpdate'
+series: Trend Check
+record_id: news:https://www.searchenginejournal.com/seo-pulse-rank-data-problems-pagespeed-scores-ai-training-opt-out/596104/
+auto: true
+instagram_hashtags_rotating: []

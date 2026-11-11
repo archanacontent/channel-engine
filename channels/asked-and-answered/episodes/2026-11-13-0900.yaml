@@ -1,0 +1,67 @@
+skip: false
+title: 'Buyers ask AI: CDP vs Data Warehouse'
+beats:
+- say: Buyers frequently ask AI search engines to compare a customer data platform against a data warehouse.
+  caption: Buyers frequently ask AI search engines to compare a customer data platform against a data warehouse.
+  scene:
+    type: headline
+    text: CDP vs Data Warehouse
+    title: Buyer Intent
+  highlight:
+  - customer data platform
+  - data warehouse
+- say: When buyers research customer data platform versus data warehouse, answer engines look for clear, structured comparison points.
+  caption: When buyers research customer data platform versus data warehouse, answer engines look for clear, structured comparison points.
+  scene:
+    type: flow
+    steps:
+    - title: Buyer Prompt
+      note: Compare CDP vs Data Warehouse
+    - title: AI Extraction
+      note: Scans structural differences
+  highlight:
+  - clear, structured comparison
+- say: To earn the citation, your page must explicitly define how a CDP differs from a data warehouse, a DMP, and a CRM.
+  caption: To earn the citation, your page must explicitly define how a CDP differs from a data warehouse, a DMP, and a CRM.
+  scene:
+    type: list
+    style: bullet
+    title: Required Comparisons
+    items:
+    - Comparison Types
+  highlight:
+  - differs from a data warehouse
+- say: AI search targets pages that answer specific queries, like Segment or Adobe CDP capabilities, alongside direct architectural comparisons.
+  caption: AI search targets pages that answer specific queries, like Segment or Adobe CDP capabilities, alongside direct architectural comparisons.
+  scene:
+    type: quote
+    text: Define exact differences across CDP, CRM, DMP, and Data Warehouse.
+    value: Citation Target
+  highlight:
+  - Segment or Adobe CDP capabilities
+- say: Find your buyers' questions with Asked, link on our channel page.
+  caption: Find your buyers' questions with Asked, link on our channel page.
+  scene:
+    type: cta
+    line: Find your buyers' questions with Asked
+    subline: Link on our channel page
+  highlight:
+  - Asked
+  - link on our channel page
+description:
+  hook: B2B buyers ask AI search engines to evaluate a customer data platform versus a data warehouse.
+  answer: Structure your pages with explicit comparisons between a CDP, data warehouse, DMP, and CRM to win AI citations.
+  sources:
+  - 'Asked, free AEO and GEO question finder: https://archanacontent.github.io/asked/'
+seo:
+  hashtags:
+  - '#AEO'
+  - '#B2BMarketing'
+  seeds:
+  - customer data platform vs data warehouse
+  - what is customer data platform
+  - cdp vs crm vs dmp
+series: Buyers Asked
+record_id: asked:customer data platform
+auto: true
+instagram_hashtags_rotating: []

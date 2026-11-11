@@ -1,0 +1,70 @@
+skip: false
+skip_reason: ''
+title: 'Scam alert: Impersonation scams'
+beats:
+- say: Fraud losses reported by older adults jumped from 600 million dollars to 3 billion dollars between 2020 and 2025.
+  caption: Fraud losses reported by older adults jumped from $600 million to $3 billion between 2020 and 2025.
+  highlight: []
+  scene:
+    type: stat
+    value: $3 billion
+    label: Fraud losses reported by older adults (2020-2025)
+    source: FTC
+- say: Older adults are more likely to report losing money to tech support, prize, and government impersonation scams.
+  caption: Older adults are more likely to report losing money to tech support, prize, and government impersonation scams.
+  highlight:
+  - tech support, prize, and government impersonation scams
+  scene:
+    type: headline
+    text: Common scam types affecting older adults
+- say: Watch for these warning signs when dealing with unexpected callers or websites.
+  caption: Watch for these warning signs when dealing with unexpected callers or websites.
+  highlight:
+  - warning signs
+  scene:
+    type: list
+    title: Warning signs
+    items:
+    - Government or business impersonation
+    - Tech support offers
+    - Unsolicited prize claims
+    - Money making opportunities
+    style: bullet
+- say: Verify that federal government websites end in dot gov or dot mil and use h t t p s to ensure encryption.
+  caption: Verify that federal government websites end in .gov or .mil and use https to ensure encryption.
+  highlight:
+  - end in .gov or .mil
+  - use https
+  scene:
+    type: compare
+    left_label: Unsafe
+    left_text: Non-government domains
+    right_label: Official
+    right_text: Ends in .gov or .mil
+- say: More in the F T C alert linked in the description.
+  caption: More in the FTC alert linked in the description.
+  highlight:
+  - FTC alert
+  scene:
+    type: cta
+    line: Stay protected
+    subline: More in the FTC alert linked in the description.
+description:
+  summary: Older adults are increasingly targeted by specific types of fraud including tech support and impersonation scams.
+  affected: Individuals ages 60 and over.
+  action: Verify government websites end in .gov or .mil and use https before sharing sensitive information.
+  sources:
+  - 'FTC consumer alert: https://consumer.ftc.gov/consumer-alerts/2026/11/new-report-ftcs-work-protect-older-adults'
+seo:
+  seeds:
+  - FTC older adult fraud report
+  - government impersonation scams
+  - how to spot tech support scams
+  - protecting seniors from fraud
+  hashtags:
+  - '#ScamAlert'
+  - '#Cybersecurity'
+series: Scam Alert
+record_id: ftc:/consumer-alerts/2026/11/new-report-ftcs-work-protect-older-adults
+auto: true
+instagram_hashtags_rotating: []

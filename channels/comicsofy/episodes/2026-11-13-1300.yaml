@@ -1,0 +1,75 @@
+format: strip
+kind: image
+title: Scent of Autumn
+premise: Pim buys a candle with an overly specific cozy scent name, trying to identify what it actually smells like, until Soot reveals the truth.
+panels:
+- room: living_room
+  cast:
+  - who: Pim
+    mood: excited
+    pos: left
+    size: medium
+    holding: candle
+  - who: Soot
+    mood: flat
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: This candle is called 'Midnight Rain and Old Books'!
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: determined
+    pos: left
+    size: medium
+    holding: candle
+  - who: Soot
+    mood: flat
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: I can definitely smell the nostalgia and cedar wood!
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: nervous
+    pos: left
+    size: medium
+    holding: candle
+  - who: Soot
+    mood: annoyed
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: Wait... what does rain smell like to you?
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: sad
+    pos: left
+    size: medium
+    holding: candle
+  - who: Soot
+    mood: smug
+    pos: right
+    size: medium
+  lines:
+  - who: Soot
+    text: Warm wax and disappointment.
+  props: []
+caption: 'The label promised memories, but it smells like dust.
+
+
+  #comics #webcomic #pimandsoot #catcomic #ghost #cozyvibes #relatable'
+description:
+  summary: The label promised memories, but it smells like dust.
+series: Pim and Soot Comic
+record_id: strip:image:1794396949988565394:0
+auto: true
+instagram_hashtags_rotating: []

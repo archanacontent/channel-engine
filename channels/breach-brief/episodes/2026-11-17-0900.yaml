@@ -1,0 +1,79 @@
+skip: false
+skip_reason: ''
+title: 'Exploited now: Apple Multiple Products CVE-2024-27834'
+beats:
+- say: Attackers are bypassing pointer authentication on multiple Apple products.
+  caption: Attackers are bypassing pointer authentication on multiple Apple products.
+  highlight:
+  - bypassing pointer authentication
+  - multiple Apple products
+  scene:
+    type: headline
+    text: Pointer Authentication Bypass
+- say: C V E 2 0 2 4, 2 7 8 3 4 allows an attacker with read and write capability to bypass security checks.
+  caption: CVE-2024-27834 allows an attacker with read and write capability to bypass security checks.
+  highlight:
+  - read and write capability
+  - bypass security checks
+  scene:
+    type: card
+    title: Vulnerability Details
+    rows:
+    - - CVE ID
+      - CVE-2024-27834
+    - - Vendor
+      - Apple
+    - - Added
+      - '2026-11-04'
+    - - Due Date
+      - '2026-11-18'
+- say: This flaw affects iOS, iPad O S, macOS, Safari, t V O S, and watch O S.
+  caption: This flaw affects iOS, iPadOS, macOS, Safari, tvOS, and watchOS.
+  highlight:
+  - affects iOS, iPadOS, macOS
+  - Safari, tvOS, and watchOS
+  scene:
+    type: headline
+    text: Affected Apple Platforms
+- say: Update Safari to 1 7 point 5, iOS to 1 6 point 7 point 8 or 1 7 point 5, and macOS Sonoma to 1 4 point 5.
+  caption: Update Safari to 17.5, iOS to 16.7.8 or 17.5, and macOS Sonoma to 14.5.
+  highlight:
+  - Update Safari
+  - iOS
+  - macOS Sonoma
+  scene:
+    type: list
+    title: Required Actions
+    items:
+    - Update Safari to 17.5
+    - Update iOS or iPadOS
+    - Update macOS Sonoma
+    - Update tvOS or watchOS
+    style: check
+- say: Sources are in the description.
+  caption: Sources are in the description.
+  highlight:
+  - Sources are in the description
+  scene:
+    type: cta
+    line: Stay Protected
+    subline: Sources are in the description.
+description:
+  summary: Attackers are exploiting an improper authentication vulnerability in multiple Apple products.
+  affected: Apple iOS, iPadOS, macOS, Safari, tvOS, and watchOS.
+  action: Apply vendor updates for Safari, iOS, iPadOS, macOS, tvOS, and watchOS immediately.
+  sources:
+  - 'CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog'
+  - 'NVD: https://nvd.nist.gov/vuln/detail/CVE-2024-27834'
+seo:
+  seeds:
+  - Apple CVE-2024-27834 exploit
+  - Apple pointer authentication bypass
+  - CISA exploited vulnerabilities Apple
+  hashtags:
+  - '#Cybersecurity'
+  - '#Apple'
+series: Exploited Today
+record_id: kev:CVE-2024-27834
+auto: true
+instagram_hashtags_rotating: []

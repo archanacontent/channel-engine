@@ -1,0 +1,85 @@
+skip: false
+skip_reason: ''
+title: Can you automate SEO content and marketing copy?
+beats:
+- say: Can you automate SEO content and marketing copy? Yes.
+  caption: Can you automate SEO content and marketing copy? Yes.
+  highlight:
+  - automate SEO content
+  - marketing copy
+  scene:
+    type: headline
+    text: Automate SEO and Marketing Copy
+- say: A single webhook payload triggers a workflow that generates blog posts, ad copy, email sequences, and social captions.
+  caption: A single webhook payload triggers a workflow that generates blog posts, ad copy, email sequences, and social captions.
+  highlight:
+  - single webhook payload
+  - generates blog posts
+  - ad copy
+  scene:
+    type: list
+    title: Supported Content Types
+    items:
+    - blog_post
+    - ad_copy
+    - email_sequence
+    - social_captions
+    style: check
+- say: The n eight n flow fetches SERP data, builds a prompt, calls Claude A I, and saves results to Google Sheets.
+  caption: The n8n flow fetches SERP data, builds a prompt, calls Claude AI, and saves results to Google Sheets.
+  highlight:
+  - fetches SERP data
+  - calls Claude AI
+  - saves results
+  scene:
+    type: flow
+    steps:
+    - title: Fetch SERP Data
+      note: Using Serper
+    - title: Call Claude AI
+      note: Generates content
+    - title: Save to Sheets
+      note: Stores results
+- say: You only need to provide your Anthropic, Serper, SendGrid, and Google Sheets credentials.
+  caption: You only need to provide your Anthropic, Serper, SendGrid, and Google Sheets credentials.
+  highlight:
+  - only need to provide
+  - credentials
+  scene:
+    type: card
+    title: Required Credentials
+    rows:
+    - - Anthropic
+      - API Key
+    - - Serper
+      - API Key
+    - - SendGrid
+      - API Key
+    - - Google Sheets
+      - Sheet ID
+- say: Template link in the description.
+  caption: Template link in the description.
+  highlight:
+  - Template link
+  scene:
+    type: cta
+    line: Get the template
+    subline: Link in description
+description:
+  task_line: This workflow automates the generation of SEO blog posts, ad copy, email sequences, and social captions.
+  tools: n8n, Claude AI, Serper, Google Sheets, and SendGrid.
+  sources:
+  - 'n8n template: https://n8n.io/workflows/13596'
+  template_link: https://n8n.io/workflows/13596
+seo:
+  seeds:
+  - automate content creation n8n
+  - AI marketing automation workflow
+  - n8n SEO blog post template
+  hashtags:
+  - '#MarketingAutomation'
+  - '#n8n'
+series: Can It Be Automated?
+record_id: n8n:13596
+auto: true
+instagram_hashtags_rotating: []

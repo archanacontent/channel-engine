@@ -1,0 +1,72 @@
+skip: false
+skip_reason: ''
+title: What an explanation must include
+beats:
+- say: Explanations deepen understanding by providing context and clarity for a subject.
+  caption: Explanations deepen understanding by providing context and clarity for a subject.
+  highlight:
+  - deepen understanding
+  - context and clarity
+  scene:
+    type: headline
+    text: Explanations deepen understanding
+- say: This documentation type answers the question, can you tell me about this?
+  caption: This documentation type answers the question, can you tell me about this?
+  highlight:
+  - can you tell me about this?
+  scene:
+    type: card
+    title: The core question
+    rows:
+    - - Purpose
+      - Provide context
+    - - Focus
+      - Broad understanding
+- say: A good explanation must contain these elements.
+  caption: A good explanation must contain these elements.
+  highlight:
+  - must contain
+  scene:
+    type: list
+    title: Essential elements
+    items:
+    - Discursive treatment
+    - Reasonable topic bounds
+    - A why question
+    style: bullet
+- say: It is documentation that makes sense to read while away from the product.
+  caption: It is documentation that makes sense to read while away from the product.
+  highlight:
+  - away from the product
+  scene:
+    type: compare
+    left_label: How-to guide
+    left_text: User eye level view
+    right_label: Explanation
+    right_text: Higher and wider view
+- say: Use a why question as a prompt to mark out a reasonable area of knowledge.
+  caption: Use a why question as a prompt to mark out a reasonable area of knowledge.
+  highlight:
+  - Use a why question
+  scene:
+    type: quote
+    text: Use a why question as a prompt.
+    highlight:
+    - why question
+description:
+  what_was_fixed: Explanation documentation provides the context and clarity needed to connect fragmented knowledge.
+  rule: Use a why question to define the scope of your explanation.
+  sources:
+  - 'Explanation guidance: https://diataxis.fr/explanation/'
+seo:
+  seeds:
+  - what is technical explanation
+  - diataxis framework explanation
+  - writing technical documentation
+  hashtags:
+  - '#TechnicalWriting'
+  - '#Documentation'
+series: Doc Types
+record_id: doctype:Explanation
+auto: true
+instagram_hashtags_rotating: []

@@ -1,0 +1,93 @@
+skip: false
+skip_reason: ''
+title: 'Free workflow: guerrilla marketing campaign plans on autopilot'
+beats:
+- say: Building a full guerrilla marketing strategy usually takes hours of brainstorming and validation.
+  caption: Building a full guerrilla marketing strategy usually takes hours of brainstorming and validation.
+  highlight:
+  - takes hours of brainstorming
+  scene:
+    type: headline
+    text: Guerrilla marketing takes hours
+- say: This n eight n template uses a swarm of AI agents to generate ideas and kill bad ones before you waste time.
+  caption: This n8n template uses a swarm of AI agents to generate ideas and kill bad ones before you waste time.
+  highlight:
+  - swarm of AI agents
+  - kill bad ones
+  scene:
+    type: compare
+    left_label: Manual
+    left_text: Hours of brainstorming
+    right_label: Swarm Intelligence
+    right_text: Minutes to completion
+- say: One agent generates ideas while a pessimistic validator provides honest feedback to filter weak concepts.
+  caption: One agent generates ideas while a pessimistic validator provides honest feedback to filter weak concepts.
+  highlight:
+  - pessimistic validator
+  - filter weak concepts
+  scene:
+    type: list
+    title: The Swarm Process
+    items:
+    - Generate guerrilla ideas
+    - Critically validate ideas
+    - Filter weak concepts
+    - Generate 16 specialist outputs
+    style: check
+- say: The workflow produces objectives, personas, messaging, tactics, channels, budget, and KPIs in a single Markdown file.
+  caption: The workflow produces objectives, personas, messaging, tactics, channels, budget, and KPIs in a single Markdown file.
+  highlight:
+  - single Markdown file
+  scene:
+    type: flow
+    steps:
+    - title: Chat Input
+      note: Describe business idea
+    - title: Swarm Loop
+      note: Idea generation and validation
+    - title: Specialist Agents
+      note: Build 16 campaign chapters
+    - title: Markdown Export
+      note: Download final plan
+- say: Startup founders and marketing teams can import this from the n eight n library and use OpenAI or Ollama.
+  caption: Startup founders and marketing teams can import this from the n8n library and use OpenAI or Ollama.
+  highlight:
+  - Startup founders
+  - OpenAI or Ollama
+  scene:
+    type: card
+    title: Ideal Users
+    rows:
+    - - Founders
+      - Growth strategy
+    - - Marketing Teams
+      - Low cost campaigns
+    - - Agencies
+      - Fast guerrilla plans
+- say: Template link in the description.
+  caption: Template link in the description.
+  highlight:
+  - Template link
+  scene:
+    type: cta
+    line: Get the workflow
+    subline: Template link in the description.
+description:
+  task_line: This workflow uses a swarm of AI agents to build complete guerrilla marketing campaign plans.
+  tools: n8n, OpenAI, Ollama
+  sources:
+  - 'n8n template: https://n8n.io/workflows/4553'
+  template_link: https://n8n.io/workflows/4553
+seo:
+  seeds:
+  - n8n guerrilla marketing workflow
+  - AI agent swarm marketing
+  - automate marketing campaign planning
+  - n8n AI marketing template
+  hashtags:
+  - '#n8n'
+  - '#MarketingAutomation'
+series: Library Pick
+record_id: n8n:4553
+auto: true
+instagram_hashtags_rotating: []

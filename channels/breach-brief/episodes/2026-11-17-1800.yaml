@@ -1,0 +1,75 @@
+skip: false
+skip_reason: ''
+title: 'Scam alert: scams targeting small businesses'
+beats:
+- say: Scammers target small businesses using fake invoices and government impersonators.
+  caption: Scammers target small businesses using fake invoices and government impersonators.
+  highlight:
+  - Scammers target small businesses
+  - fake invoices
+  - government impersonators
+  scene:
+    type: headline
+    text: Scams Targeting Small Businesses
+- say: Watch for tech support scams or people pretending to be officials.
+  caption: Watch for tech support scams or people pretending to be officials.
+  highlight:
+  - tech support scams
+  - pretending to be officials
+  scene:
+    type: list
+    title: Warning Signs
+    items:
+    - Fake invoices
+    - Tech support scams
+    - Government impersonators
+    style: bullet
+- say: Verify that any federal website ends in dot gov or dot mil.
+  caption: Verify that any federal website ends in .gov or .mil.
+  highlight:
+  - ends in .gov or .mil
+  scene:
+    type: compare
+    left_label: Fake Site
+    left_text: non-government domains
+    right_label: Official Site
+    right_text: .gov or .mil
+- say: Check for the H T T P S colon slash slash prefix to ensure your connection is encrypted.
+  caption: Check for the https:// prefix to ensure your connection is encrypted.
+  highlight:
+  - https:// prefix
+  - connection is encrypted
+  scene:
+    type: card
+    title: Security Check
+    rows:
+    - - Domain
+      - .gov or .mil
+    - - Protocol
+      - https://
+- say: Train your workforce to spot these threats. More in the F T C alert linked in the description.
+  caption: Train your workforce to spot these threats. More in the FTC alert linked in the description.
+  highlight:
+  - Train your workforce
+  scene:
+    type: cta
+    line: Protect your business
+    subline: More in the FTC alert linked in the description.
+description:
+  summary: Scammers are using fake invoices and impersonation to target small businesses.
+  affected: Small business owners and their employees.
+  action: Verify government websites end in .gov or .mil and ensure they use https.
+  sources:
+  - 'FTC consumer alert: https://consumer.ftc.gov/consumer-alerts/2026/11/help-veteran-owned-small-businesses-avoid-scams-during-national-veterans-small-business-week'
+seo:
+  seeds:
+  - small business scam prevention
+  - FTC small business alert
+  - how to spot fake invoices
+  hashtags:
+  - '#SmallBusiness'
+  - '#ScamAlert'
+series: Scam Alert
+record_id: ftc:/consumer-alerts/2026/11/help-veteran-owned-small-businesses-avoid-scams-during-national-veterans-small-business-week
+auto: true
+instagram_hashtags_rotating: []

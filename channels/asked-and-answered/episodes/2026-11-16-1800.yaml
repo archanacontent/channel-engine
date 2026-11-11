@@ -1,0 +1,70 @@
+skip: false
+skip_reason: ''
+title: 'AI search in 2026: data driven content'
+beats:
+- say: AI search engines cite content that solves specific problems identified in customer data.
+  caption: AI search engines cite content that solves specific problems identified in customer data.
+  highlight:
+  - cite content that solves specific problems
+  scene:
+    type: headline
+    text: AI cites content that solves specific problems
+- say: Search Engine Journal reports that using customer calls and data creates more helpful content for AI.
+  caption: Search Engine Journal reports that using customer calls and data creates more helpful content for AI.
+  highlight:
+  - Search Engine Journal
+  - customer calls and data
+  scene:
+    type: quote
+    text: Use customer calls and data to create helpful content for AI search.
+    highlight:
+    - customer calls and data
+- say: Instead of asking AI to expand an article, use a brief based on actual reader needs.
+  caption: Instead of asking AI to expand an article, use a brief based on actual reader needs.
+  highlight:
+  - instead of asking AI to expand
+  - use a brief
+  scene:
+    type: compare
+    left_label: Weak approach
+    left_text: Asking AI to expand an article
+    right_label: Strong approach
+    right_text: Using a brief from customer data
+- say: B2B teams must evaluate content for citation readiness rather than relying on technical schema fixes.
+  caption: B2B teams must evaluate content for citation readiness rather than relying on technical schema fixes.
+  highlight:
+  - citation readiness
+  scene:
+    type: list
+    title: Focus on citation readiness
+    items:
+    - Identify reader problems
+    - Use customer insights
+    - Build repeatable workflows
+    style: check
+- say: Source in the description.
+  caption: Source in the description.
+  highlight:
+  - Source in the description
+  scene:
+    type: cta
+    line: Master AI visibility
+    subline: Source in the description.
+description:
+  hook: Learn how to use customer data to create content that AI search engines actually cite.
+  answer: This video covers how B2B marketers can move beyond technical schema to use customer insights and automated workflows for better AI visibility.
+  sources:
+  - 'Create More Helpful Content For AI Search With 9 Practical Workflows [Webinar] via @sejournal, @hethr_campbell: https://www.searchenginejournal.com/create-more-helpful-content-for-ai-search-with-9-practical-workflows-webinar/596241/'
+seo:
+  seeds:
+  - AI search optimization
+  - generative engine optimization
+  - B2B content workflows
+  - answer engine optimization
+  hashtags:
+  - '#AISearch'
+  - '#B2BMarketing'
+series: Trend Check
+record_id: news:https://www.searchenginejournal.com/create-more-helpful-content-for-ai-search-with-9-practical-workflows-webinar/596241/
+auto: true
+instagram_hashtags_rotating: []

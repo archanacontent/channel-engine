@@ -1,0 +1,83 @@
+skip: false
+skip_reason: ''
+title: 'What you''re looking at: SPHEREx Observatory'
+beats:
+- say: This is the final assembly of the S P H E R E x spacecraft.
+  caption: This is the final assembly of the SPHEREx spacecraft.
+  highlight:
+  - final assembly
+  - SPHEREx spacecraft
+  scene:
+    type: image
+    credit: NASA/JPL
+- say: Short for Spectro-Photometer for the History of the Universe, Epoch of Reionization and Ices Explorer, it maps the cosmos using infrared light.
+  caption: Short for Spectro-Photometer for the History of the Universe, Epoch of Reionization and Ices Explorer, it maps the cosmos using infrared light.
+  highlight:
+  - maps the cosmos
+  - infrared light
+  scene:
+    type: headline
+    text: Mapping the cosmos via infrared light
+- say: The observatory uses spectroscopy to image the entire sky in one hundred and two different wavelengths.
+  caption: The observatory uses spectroscopy to image the entire sky in 102 different wavelengths.
+  highlight:
+  - wavelengths
+  scene:
+    type: stat
+    value: '102'
+    label: infrared wavelengths
+- say: This data reveals the composition and distance of millions of galaxies and stars.
+  caption: This data reveals the composition and distance of millions of galaxies and stars.
+  highlight:
+  - composition and distance
+  - millions of galaxies
+  scene:
+    type: list
+    title: Data collected
+    items:
+    - Galaxy composition
+    - Star distance
+    - Millions of objects
+    style: bullet
+- say: Scientists use these maps to study the first fraction of a second after the big bang and the origins of water in our galaxy.
+  caption: Scientists use these maps to study the first fraction of a second after the big bang and the origins of water in our galaxy.
+  highlight:
+  - origins of water
+  - after the big bang
+  scene:
+    type: flow
+    steps:
+    - title: Early Universe
+      note: Study the big bang
+    - title: Galactic Evolution
+      note: How galaxies formed
+    - title: Water Origins
+      note: Planetary system history
+- say: Image credit in the description.
+  caption: Image credit in the description.
+  highlight: []
+  scene:
+    type: cta
+    line: Subscribe for more space science
+    subline: Daily cosmic explanations
+description:
+  explainer: The SPHEREx observatory is designed to map the cosmos using infrared spectroscopy. This mission will investigate the early universe and the origins of water in our galaxy.
+  sources:
+  - 'NASA Image and Video Library: https://images.nasa.gov/details/PIA26543'
+  credit: NASA
+seo:
+  seeds:
+  - NASA SPHEREx mission
+  - infrared spectroscopy space
+  - how galaxies form
+  - origins of water in space
+  hashtags:
+  - '#SpaceScience'
+  - '#NASA'
+series: Look Closer
+record_id: nasa:PIA26543
+auto: true
+instagram_hashtags_rotating: []
+media:
+  image: /home/runner/work/channel-engine/channel-engine/out/deep-field/media/2026-11-16-0900.jpg
+  credit: NASA

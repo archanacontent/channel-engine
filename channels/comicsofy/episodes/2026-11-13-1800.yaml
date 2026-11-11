@@ -1,0 +1,83 @@
+format: strip
+kind: reel
+title: Tea Time
+premise: Pim tries to make tea to stay warm and overthinks the exact steeping time.
+panels:
+- room: kitchen
+  cast:
+  - who: Pim
+    mood: excited
+    pos: left
+    size: medium
+    holding: mug
+  - who: Soot
+    mood: flat
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: I am steeping my tea for precisely four minutes.
+  props:
+  - name: mug
+    spot: left
+- room: kitchen
+  cast:
+  - who: Pim
+    mood: nervous
+    pos: left
+    size: medium
+    holding: mug
+  - who: Soot
+    mood: flat
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: Three minutes is too weak. Five is too bitter.
+  props:
+  - name: mug
+    spot: left
+- room: kitchen
+  cast:
+  - who: Pim
+    mood: surprised
+    pos: left
+    size: medium
+    holding: mug
+  - who: Soot
+    mood: flat
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: Oh no! I blinked and four minutes passed!
+  props:
+  - name: mug
+    spot: left
+- room: kitchen
+  cast:
+  - who: Pim
+    mood: sad
+    pos: left
+    size: medium
+    holding: mug
+  - who: Soot
+    mood: smug
+    pos: right
+    size: medium
+  lines:
+  - who: Soot
+    text: Ruined forever.
+  props:
+  - name: mug
+    spot: left
+caption: 'Precision timing is the key to cozy warmth.
+
+
+  #comics #webcomic #pimandsoot #webcomics #cozyvibes #tea #catcomics'
+description:
+  summary: Precision timing is the key to cozy warmth.
+series: Pim and Soot Reel
+record_id: strip:reel:1794396970820576264:0
+auto: true
+instagram_hashtags_rotating: []

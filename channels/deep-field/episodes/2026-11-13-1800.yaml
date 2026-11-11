@@ -1,0 +1,72 @@
+skip: false
+skip_reason: ''
+title: How big is Mercury, really?
+beats:
+- say: Mercury is nearly one and a half times wider than our Moon.
+  caption: Mercury is nearly one and a half times wider than our Moon.
+  highlight:
+  - nearly one and a half times wider
+  scene:
+    type: headline
+    text: Mercury vs. The Moon
+- say: The diameter of Mercury is 4 8 7 9 kilometers.
+  caption: The diameter of Mercury is 4,879 km.
+  highlight:
+  - 4,879 km
+  scene:
+    type: stat
+    value: 4,879
+    label: Mercury diameter in km
+- say: In comparison, the Moon has a diameter of 3 4 7 5 kilometers.
+  caption: In comparison, the Moon has a diameter of 3,475 km.
+  highlight:
+  - 3,475 km
+  scene:
+    type: stat
+    value: 3,475
+    label: Moon diameter in km
+- say: Mercury sits 5 7.9 million kilometers from the Sun, while the Moon is only 0.3 8 4 million kilometers away.
+  caption: Mercury sits 57.9 million km from the Sun, while the Moon is only 0.384 million km away.
+  highlight:
+  - 57.9 million km
+  - 0.384 million km
+  scene:
+    type: compare
+    left_label: Mercury distance to Sun
+    left_text: 57.9 million km
+    right_label: Moon distance to Sun
+    right_text: 0.384 million km
+- say: The size ratio between these two bodies is 1.4 0.
+  caption: The size ratio between these two bodies is 1.40.
+  highlight: []
+  scene:
+    type: sizes
+    a_label: Mercury
+    a_value: 4879.0
+    b_label: Moon
+    b_value: 3475.0
+    unit: km
+- say: Figures from NASA's Planetary Fact Sheet.
+  caption: Figures from NASA's Planetary Fact Sheet.
+  highlight:
+  - NASA's Planetary Fact Sheet
+  scene:
+    type: cta
+    line: Scale It
+    subline: Figures from NASA's Planetary Fact Sheet
+description:
+  explainer: Mercury is significantly larger than the Moon. This video compares their diameters and distances from the Sun.
+  sources:
+  - 'NASA Planetary Fact Sheet: https://nssdc.gsfc.nasa.gov/planetary/factsheet/'
+seo:
+  seeds:
+  - size of mercury vs moon
+  - mercury diameter km
+  - mercury distance from sun
+  hashtags:
+  - '#Space'
+  - '#Mercury'
+series: Scale It
+record_id: scale:MERCURY:MOON
+auto: true
+instagram_hashtags_rotating: []

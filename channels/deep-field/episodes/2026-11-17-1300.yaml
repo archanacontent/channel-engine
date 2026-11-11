@@ -1,0 +1,63 @@
+skip: false
+skip_reason: ''
+title: 'Navajo Reservoir: what just happened'
+beats:
+- say: Navajo Reservoir rose by nearly 6 0 feet in just weeks.
+  caption: Navajo Reservoir rose by nearly 60 feet in just weeks.
+  highlight:
+  - rose by nearly 60 feet
+  scene:
+    type: headline
+    text: Navajo Reservoir water surge
+- say: Back to back extreme rain events inundated the Four Corners region in late October and early November 2 0 2 6.
+  caption: Back to back extreme rain events inundated the Four Corners region in late October and early November 2026.
+  highlight:
+  - extreme rain events
+  - Four Corners region
+  scene:
+    type: image
+    credit: NASA Earth Observatory/Michala Garrison
+- say: On September 20, the lake held 6 0 percent of its average capacity. By November 7, it stood at 1 0 8 percent.
+  caption: On September 20, the lake held 60 percent of its average capacity. By November 7, it stood at 108 percent.
+  highlight:
+  - 60 percent
+  - 108 percent
+  scene:
+    type: compare
+    left_label: September 20
+    left_text: 60 percent capacity
+    right_label: November 7
+    right_text: 108 percent capacity
+- say: The storms provided drought relief, but triggered damaging floods. In Pagosa Springs, Colorado, the San Juan River reached nearly the record level set in 1 9 1 1.
+  caption: The storms provided drought relief, but triggered damaging floods. In Pagosa Springs, Colorado, the San Juan River reached nearly the record level set in 1911.
+  highlight:
+  - drought relief
+  - damaging floods
+  scene:
+    type: stat
+    value: '1911'
+    label: Year of previous record flood
+- say: Source in the description.
+  caption: Source in the description.
+  highlight: []
+  scene:
+    type: cta
+    line: Learn more about the Southwest floods
+    subline: Source in the description.
+description:
+  explainer: Heavy rain events in the Four Corners region caused Navajo Reservoir to rise by nearly 60 feet. This surge provided drought relief but also triggered significant flooding across the Southwest.
+  sources:
+  - 'NASA: https://science.nasa.gov/earth/earth-observatory/water-surges-into-navajo-reservoir/'
+seo:
+  seeds:
+  - Navajo Reservoir water levels
+  - Four Corners flooding 2026
+  - NASA Earth Observatory Navajo Reservoir
+  - Southwest drought relief
+  hashtags:
+  - '#SpaceScience'
+  - '#NASA'
+series: Mission Log
+record_id: nasanews:https://science.nasa.gov/earth/earth-observatory/water-surges-into-navajo-reservoir/
+auto: true
+instagram_hashtags_rotating: []

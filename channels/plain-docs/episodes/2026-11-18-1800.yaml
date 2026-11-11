@@ -1,0 +1,74 @@
+skip: false
+skip_reason: ''
+title: What a style guide must include
+beats:
+- say: Style guides maintain consistent voice and tone across all your documentation.
+  caption: Style guides maintain consistent voice and tone across all your documentation.
+  highlight:
+  - consistent voice and tone
+  scene:
+    type: headline
+    text: Style Guides
+- say: They reduce cognitive load and increase user confidence in your content.
+  caption: They reduce cognitive load and increase user confidence in your content.
+  highlight:
+  - reduce cognitive load
+  - increase user confidence
+  scene:
+    type: stat
+    value: Low
+    label: Cognitive load with consistent style
+- say: A style guide must contain standards for writing and designing content.
+  caption: A style guide must contain standards for writing and designing content.
+  highlight:
+  - standards for writing
+  - designing content
+  scene:
+    type: card
+    title: Core Functions
+    rows:
+    - - Writing
+      - Standards
+    - - Design
+      - Standards
+- say: Include guidelines for API reference manuals, tutorials, release notes, or complex concepts.
+  caption: Include guidelines for API reference manuals, tutorials, release notes, or complex concepts.
+  highlight:
+  - API reference manuals
+  - tutorials
+  - release notes
+  scene:
+    type: list
+    title: Must-have content
+    items:
+    - API reference manuals
+    - Tutorials
+    - Release notes
+    - Complex concepts
+    style: bullet
+- say: Use a style guide as a single reference for common topics and features.
+  caption: Use a style guide as a single reference for common topics and features.
+  highlight:
+  - single reference
+  scene:
+    type: quote
+    text: A style guide saves documentarians time and trouble by providing a single reference.
+    highlight:
+    - single reference
+description:
+  what_was_fixed: A style guide provides a single reference for writing about common topics and features.
+  rule: Standardize your voice and tone to reduce user cognitive load.
+  sources:
+  - 'Style guide guidance: https://www.writethedocs.org/guide/writing/style-guides/'
+seo:
+  seeds:
+  - what is a technical writing style guide
+  - technical writing documentation standards
+  - how to create a style guide
+  hashtags:
+  - '#TechnicalWriting'
+  - '#Documentation'
+series: Doc Types
+record_id: doctype:Style guide
+auto: true
+instagram_hashtags_rotating: []

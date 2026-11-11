@@ -1,0 +1,79 @@
+skip: false
+skip_reason: ''
+title: 'What you''re looking at: SPHEREx observatory'
+beats:
+- say: This observatory undergoes acoustic testing to prepare for the stress of launch.
+  caption: This observatory undergoes acoustic testing to prepare for the stress of launch.
+  highlight:
+  - acoustic testing
+  - stress of launch
+  scene:
+    type: image
+    credit: NASA/JPL
+- say: The SPHEREx observatory sits in Boulder, Colorado, surrounded by large speaker stacks.
+  caption: The SPHEREx observatory sits in Boulder, Colorado, surrounded by large speaker stacks.
+  highlight:
+  - surrounded by large speaker stacks
+  scene:
+    type: headline
+    text: Acoustic testing at BAE Systems
+- say: Short for Spectro-Photometer for the History of the Universe, Epoch of Reionization and Ices Explorer, it will map the cosmos.
+  caption: Short for Spectro-Photometer for the History of the Universe, Epoch of Reionization and Ices Explorer, it will map the cosmos.
+  highlight:
+  - map the cosmos
+  scene:
+    type: card
+    title: SPHEREx Mission
+    rows:
+    - - Full Name
+      - Spectro-Photometer for the History of the Universe, Epoch of Reionization and Ices Explorer
+- say: It uses spectroscopy to image the entire sky in one hundred and two wavelengths of infrared light.
+  caption: It uses spectroscopy to image the entire sky in 102 wavelengths of infrared light.
+  highlight:
+  - 102 wavelengths
+  - infrared light
+  scene:
+    type: stat
+    value: '102'
+    label: Infrared wavelengths
+- say: This data reveals the composition and distance of millions of stars and galaxies.
+  caption: This data reveals the composition and distance of millions of stars and galaxies.
+  highlight:
+  - composition and distance
+  - millions of stars and galaxies
+  scene:
+    type: list
+    title: Scientific Goals
+    items:
+    - First fraction of a second after Big Bang
+    - Galaxy formation and evolution
+    - Origins of water in planetary systems
+    style: bullet
+- say: Image credit in the description.
+  caption: Image credit in the description.
+  highlight: []
+  scene:
+    type: cta
+    line: Discover more space science.
+    subline: Subscribe for daily images.
+description:
+  explainer: The SPHEREx observatory is being tested to withstand the intense sound and vibrations of a rocket launch. It will map the cosmos using infrared spectroscopy to study galaxy evolution and the origins of water.
+  sources:
+  - 'NASA Image and Video Library: https://images.nasa.gov/details/PIA26540'
+  credit: NASA
+seo:
+  seeds:
+  - NASA SPHEREx mission
+  - spacecraft acoustic testing
+  - infrared spectroscopy space
+  - how NASA tests spacecraft
+  hashtags:
+  - '#SpaceScience'
+  - '#NASA'
+series: Look Closer
+record_id: nasa:PIA26540
+auto: true
+instagram_hashtags_rotating: []
+media:
+  image: /home/runner/work/channel-engine/channel-engine/out/deep-field/media/2026-11-18-0900.jpg
+  credit: NASA

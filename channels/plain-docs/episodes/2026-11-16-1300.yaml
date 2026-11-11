@@ -1,0 +1,71 @@
+skip: false
+skip_reason: ''
+title: 'Writing rule: Use lists for sequential information'
+beats:
+- say: Use lists for sequential information or simple collections of items.
+  caption: Use lists for sequential information or simple collections of items.
+  highlight:
+  - sequential information
+  - simple collections
+  scene:
+    type: headline
+    text: When to use lists
+- say: Google developer documentation suggests using tables for structured data with multiple properties.
+  caption: Google developer documentation suggests using tables for structured data with multiple properties.
+  highlight:
+  - tables for structured data
+  scene:
+    type: image
+    credit: Google developer documentation
+- say: A single list item is not a list. Do not use a list to show only one item.
+  caption: A single list item is not a list. Do not use a list to show only one item.
+  highlight:
+  - not a list
+  - only one item
+  scene:
+    type: compare
+    left_label: Weak
+    left_text: 'Requirements:
+
+      * Valid ID'
+    right_label: Better
+    right_text: You need a valid ID.
+- say: Numbered lists are for items where sequence is significant like steps or priorities. Bulleted lists are for nonsequential options or examples.
+  caption: Numbered lists are for items where sequence is significant like steps or priorities. Bulleted lists are for nonsequential options or examples.
+  highlight:
+  - sequence is significant
+  - nonsequential options
+  scene:
+    type: card
+    title: List Types
+    rows:
+    - - Numbered
+      - Significant sequence
+    - - Bulleted
+      - Nonsequential items
+- say: Maintain parallel structure across all list items for clarity.
+  caption: Maintain parallel structure across all list items for clarity.
+  highlight:
+  - parallel structure
+  scene:
+    type: quote
+    text: Maintain parallel structure across all list items.
+    highlight:
+    - parallel structure
+description:
+  what_was_fixed: This video explains how to choose between lists and tables and why single items should not be formatted as lists.
+  rule: Use lists for sequential information or simple collections of items.
+  sources:
+  - 'Google developer documentation: https://developers.google.com/style/lists'
+seo:
+  seeds:
+  - technical writing list rules
+  - how to use numbered lists
+  - technical documentation style guide
+  hashtags:
+  - '#TechnicalWriting'
+  - '#Documentation'
+series: One Rule
+record_id: style:https://developers.google.com/style/lists
+auto: true
+instagram_hashtags_rotating: []

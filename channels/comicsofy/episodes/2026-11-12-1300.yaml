@@ -1,0 +1,77 @@
+format: strip
+kind: image
+title: Cozy Goals
+premise: Pim tries to plan the ultimate cozy evening, but over-optimizes it until it feels stressful.
+panels:
+- room: living_room
+  cast:
+  - who: Pim
+    mood: excited
+    pos: left
+    size: medium
+    holding: mug
+  - who: Soot
+    mood: flat
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: I set up tea, candles, and soft blankets!
+  - who: Pim
+    text: Tonight will be maximum cozy!
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: determined
+    pos: left
+    size: medium
+    holding: book
+  - who: Soot
+    mood: flat
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: Now I just need the exact perfect reading angle.
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: nervous
+    pos: left
+    size: medium
+  - who: Soot
+    mood: flat
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: Wait, am I relaxed enough? Is this working?
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: sad
+    pos: left
+    size: medium
+  - who: Soot
+    mood: smug
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: Relaxing is exhausting.
+  - who: Soot
+    text: You are doing it wrong.
+  props: []
+caption: 'The pressure to relax is very real.
+
+
+  #comics #webcomic #pimandsoot #relatable #cozyvibes #catcomic'
+description:
+  summary: The pressure to relax is very real.
+series: Pim and Soot Comic
+record_id: strip:image:1794396895552639680:0
+auto: true
+instagram_hashtags_rotating: []

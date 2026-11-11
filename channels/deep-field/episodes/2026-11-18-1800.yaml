@@ -1,0 +1,69 @@
+skip: false
+skip_reason: ''
+title: How big is Mercury, really?
+beats:
+- say: Mercury is about two point six one times smaller than Earth.
+  caption: Mercury is about 2.61 times smaller than Earth.
+  highlight:
+  - 2.61 times smaller
+  scene:
+    type: headline
+    text: Mercury vs Earth
+- say: Earth has a diameter of 12,756 kilometers.
+  caption: Earth has a diameter of 12,756 km.
+  highlight: []
+  scene:
+    type: stat
+    value: 12,756
+    label: Earth diameter in km
+- say: Mercury is much smaller with a diameter of only 4,879 kilometers.
+  caption: Mercury is much smaller with a diameter of only 4,879 km.
+  highlight: []
+  scene:
+    type: image
+    credit: NASA
+- say: Mercury sits much closer to the Sun at 57.9 million kilometers away.
+  caption: Mercury sits much closer to the Sun at 57.9 million km away.
+  highlight: []
+  scene:
+    type: card
+    title: Distance from Sun
+    rows:
+    - - Mercury
+      - 57.9 million km
+    - - Earth
+      - 149.6 million km
+- say: Earth orbits much further out at 149.6 million kilometers.
+  caption: Earth orbits much further out at 149.6 million km.
+  highlight: []
+  scene:
+    type: sizes
+    a_label: Earth
+    a_value: 12756.0
+    b_label: Mercury
+    b_value: 4879.0
+    unit: km
+- say: Figures from NASA's Planetary Fact Sheet.
+  caption: Figures from NASA's Planetary Fact Sheet.
+  highlight:
+  - NASA's Planetary Fact Sheet
+  scene:
+    type: cta
+    line: Explore more space facts.
+    subline: Figures from NASA's Planetary Fact Sheet.
+description:
+  explainer: Mercury is significantly smaller than Earth. This video compares their diameters and distances from the Sun.
+  sources:
+  - 'NASA Planetary Fact Sheet: https://nssdc.gsfc.nasa.gov/planetary/factsheet/'
+seo:
+  seeds:
+  - size of mercury vs earth
+  - mercury diameter
+  - distance from sun to mercury
+  hashtags:
+  - '#Space'
+  - '#Mercury'
+series: Scale It
+record_id: scale:EARTH:MERCURY
+auto: true
+instagram_hashtags_rotating: []

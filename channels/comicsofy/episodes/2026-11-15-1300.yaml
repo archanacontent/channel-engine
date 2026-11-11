@@ -1,0 +1,75 @@
+format: strip
+kind: image
+title: The Pumpkin Chat
+premise: Pim holds a tiny autumn pumpkin and tries to have a deep conversation with it.
+panels:
+- room: living_room
+  cast:
+  - who: Pim
+    mood: excited
+    pos: left
+    size: medium
+    holding: pumpkin
+  - who: Soot
+    mood: flat
+    pos: right
+    size: small
+  lines:
+  - who: Pim
+    text: I think this pumpkin understands me.
+  props:
+  - name: pumpkin
+    spot: left
+- room: living_room
+  cast:
+  - who: Pim
+    mood: nervous
+    pos: left
+    size: medium
+    holding: pumpkin
+  - who: Soot
+    mood: annoyed
+    pos: right
+    size: small
+  lines:
+  - who: Pim
+    text: It has not interrupted me once today.
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: happy
+    pos: left
+    size: medium
+    holding: pumpkin
+  lines:
+  - who: Pim
+    text: Such a good listener.
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: surprised
+    pos: left
+    size: medium
+    holding: pumpkin
+  - who: Soot
+    mood: smug
+    pos: right
+    size: small
+  lines:
+  - who: Soot
+    text: It lacks a brain.
+  - who: Pim
+    text: Explains a lot.
+  props: []
+caption: 'Sometimes you just need someone who is a good listener.
+
+
+  #comics #webcomic #pimandsoot #ghost #cat #autumn'
+description:
+  summary: Sometimes you just need someone who is a good listener.
+series: Pim and Soot Comic
+record_id: strip:image:1794397869836781340:0
+auto: true
+instagram_hashtags_rotating: []

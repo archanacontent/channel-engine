@@ -1,0 +1,70 @@
+skip: false
+skip_reason: ''
+title: 'What you''re looking at: SPHEREx spacecraft'
+beats:
+- say: This is the S P H E R E x observatory undergoing integration and testing.
+  caption: This is the SPHEREx observatory undergoing integration and testing.
+  highlight:
+  - SPHEREx observatory
+  - integration and testing
+  scene:
+    type: image
+    credit: NASA/JPL
+- say: The mission name stands for Spectro-Photometer for the History of the Universe, Epoch of Reionization and Ices Explorer.
+  caption: The mission name stands for Spectro-Photometer for the History of the Universe, Epoch of Reionization and Ices Explorer.
+  highlight:
+  - Spectro-Photometer
+  - History of the Universe
+  scene:
+    type: headline
+    text: Spectro-Photometer for the History of the Universe, Epoch of Reionization and Ices Explorer
+- say: It will map the entire sky using spectroscopy across one hundred and two infrared wavelengths.
+  caption: It will map the entire sky using spectroscopy across 102 infrared wavelengths.
+  highlight:
+  - map the entire sky
+  - 102 infrared wavelengths
+  scene:
+    type: stat
+    value: '102'
+    label: infrared wavelengths
+- say: This data reveals the composition and distance of millions of stars and galaxies.
+  caption: This data reveals the composition and distance of millions of stars and galaxies.
+  highlight:
+  - composition and distance
+  - millions of stars and galaxies
+  scene:
+    type: list
+    title: SPHEREx will study
+    items:
+    - The early Big Bang
+    - Galaxy formation and evolution
+    - Origins of water
+    style: bullet
+- say: Image credit in the description.
+  caption: Image credit in the description.
+  highlight: []
+  scene:
+    type: cta
+    line: Follow Space Science
+    subline: for daily cosmic context
+description:
+  explainer: SPHEREx is a NASA observatory designed to create an unprecedented map of the cosmos. It uses spectroscopy to study the history of the universe and the origins of water.
+  sources:
+  - 'NASA Image and Video Library: https://images.nasa.gov/details/PIA26538'
+  credit: NASA
+seo:
+  seeds:
+  - NASA SPHEREx mission
+  - what is spectroscopy in space
+  - infrared sky map
+  - SPHEREx spacecraft testing
+  hashtags:
+  - '#SpaceScience'
+  - '#NASA'
+series: Look Closer
+record_id: nasa:PIA26538
+auto: true
+instagram_hashtags_rotating: []
+media:
+  image: /home/runner/work/channel-engine/channel-engine/out/deep-field/media/2026-11-13-0900.jpg
+  credit: NASA

@@ -1,0 +1,69 @@
+skip: false
+skip_reason: ''
+title: 'Buyers ask AI: what is sales engagement platform'
+beats:
+- say: What is a sales engagement platform?
+  caption: What is a sales engagement platform?
+  highlight:
+  - What is a sales engagement platform?
+  scene:
+    type: headline
+    text: Buyer Question
+- say: When buyers ask this, AI engines look for pages that define the category clearly.
+  caption: When buyers ask this, AI engines look for pages that define the category clearly.
+  highlight:
+  - define the category clearly
+  scene:
+    type: card
+    title: AI Search Logic
+    rows:
+    - - Search Goal
+      - Category Definition
+    - - Citation Trigger
+      - Clear Answer
+- say: To earn the citation, your page must provide a direct definition and explain how it differs from a CRM.
+  caption: To earn the citation, your page must provide a direct definition and explain how it differs from a CRM.
+  highlight:
+  - direct definition
+  - differs from a CRM
+  scene:
+    type: compare
+    left_label: Weak Page
+    left_text: Mentions sales tools generally.
+    right_label: Optimized Page
+    right_text: Defines sales engagement platform vs CRM.
+- say: Structure your content to address the specific terms buyers use, like sales engagement software or customer engagement platform.
+  caption: Structure your content to address the specific terms buyers use, like sales engagement software or customer engagement platform.
+  highlight: []
+  scene:
+    type: list
+    title: Target Keywords
+    items:
+    - sales engagement software
+    - customer engagement platform
+    style: bullet
+- say: Find your buyers' questions with Asked, link on our channel page.
+  caption: Find your buyers' questions with Asked, link on our channel page.
+  highlight:
+  - Find your buyers' questions
+  scene:
+    type: cta
+    line: Master AI visibility
+    subline: Use Asked to find buyer questions
+description:
+  hook: Learn how to define a sales engagement platform so AI engines cite your site.
+  answer: To be cited, your content must clearly define the category and differentiate it from a CRM.
+  sources:
+  - 'Asked, free AEO and GEO question finder: https://archanacontent.github.io/asked/'
+seo:
+  seeds:
+  - what is sales engagement platform
+  - sales engagement platform vs crm
+  - sales engagement software definition
+  hashtags:
+  - '#AEO'
+  - '#B2BMarketing'
+series: Buyers Asked
+record_id: asked:sales engagement platform
+auto: true
+instagram_hashtags_rotating: []

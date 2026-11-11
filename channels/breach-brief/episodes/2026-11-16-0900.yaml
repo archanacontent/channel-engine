@@ -1,0 +1,78 @@
+skip: false
+skip_reason: ''
+title: 'Exploited now: SignalWire FreeSwitch CVE-2026-116779'
+beats:
+- say: Attackers are using a code injection flaw in SignalWire FreeSwitch to run system commands.
+  caption: Attackers are using a code injection flaw in SignalWire FreeSwitch to run system commands.
+  highlight:
+  - code injection flaw
+  - run system commands
+  scene:
+    type: headline
+    text: Active Code Injection Exploit
+- say: C V E 2 0 2 6, 1 1 6 7 7 9 allows unauthorized users to execute commands with daemon privileges through inbound chat messages.
+  caption: CVE-2026-116779 allows unauthorized users to execute commands with daemon privileges through inbound chat messages.
+  highlight:
+  - execute commands
+  - daemon privileges
+  scene:
+    type: card
+    title: Vulnerability Details
+    rows:
+    - - CVE ID
+      - CVE-2026-116779
+    - - Product
+      - SignalWire FreeSwitch
+    - - Added to KEV
+      - '2026-11-09'
+    - - Due Date
+      - '2026-11-12'
+- say: This critical flaw permits credential disclosure and arbitrary call control.
+  caption: This critical flaw permits credential disclosure and arbitrary call control.
+  highlight:
+  - credential disclosure
+  - arbitrary call control
+  scene:
+    type: stat
+    value: '9.8'
+    label: CVSS Base Score
+- say: Update to version 1.1 1.3 immediately. If mitigations are unavailable, discontinue use of the product.
+  caption: Update to version 1.11.3 immediately. If mitigations are unavailable, discontinue use of the product.
+  highlight:
+  - Update to version 1.11.3
+  - discontinue use
+  scene:
+    type: list
+    title: Required Actions
+    items:
+    - Update to version 1.11.3
+    - Apply vendor mitigations
+    - Discontinue if unmitigated
+    style: check
+- say: Sources are in the description.
+  caption: Sources are in the description.
+  highlight:
+  - Sources are in the description
+  scene:
+    type: cta
+    line: Stay Protected
+    subline: Sources are in the description
+description:
+  summary: Attackers are exploiting a critical code injection vulnerability in SignalWire FreeSwitch to execute commands.
+  affected: SignalWire FreeSwitch versions prior to 1.11.3.
+  action: Update to version 1.11.3 or follow vendor mitigation instructions immediately.
+  sources:
+  - 'CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog'
+  - 'NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-116779'
+seo:
+  seeds:
+  - SignalWire FreeSwitch vulnerability
+  - CVE-2026-116779 exploit
+  - FreeSwitch code injection fix
+  hashtags:
+  - '#Cybersecurity'
+  - '#FreeSwitch'
+series: Exploited Today
+record_id: kev:CVE-2026-116779
+auto: true
+instagram_hashtags_rotating: []

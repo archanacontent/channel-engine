@@ -1,0 +1,78 @@
+skip: false
+skip_reason: ''
+title: 'Exploited now: Ivanti Connect Secure CVE-2026-111357'
+beats:
+- say: Attackers are exploiting a flaw in Ivanti Connect Secure to escalate privileges to root.
+  caption: Attackers are exploiting a flaw in Ivanti Connect Secure to escalate privileges to root.
+  highlight:
+  - escalate privileges to root
+  scene:
+    type: headline
+    text: Privilege Escalation in Ivanti Connect Secure
+- say: C V E 2 0 2 6, 1 1 1 3 5 7 allows a local authenticated user to gain full control through improper trust of configuration data.
+  caption: CVE-2026-111357 allows a local authenticated user to gain full control through improper trust of configuration data.
+  highlight:
+  - gain full control
+  - improper trust of configuration data
+  scene:
+    type: card
+    title: Vulnerability Details
+    rows:
+    - - CVE ID
+      - CVE-2026-111357
+    - - Product
+      - Ivanti Connect Secure
+    - - Added to KEV
+      - '2026-10-30'
+    - - Due Date
+      - '2026-11-02'
+- say: This flaw can be chained with other vulnerabilities to increase the impact of an attack.
+  caption: This flaw can be chained with other vulnerabilities to increase the impact of an attack.
+  highlight:
+  - chained with other vulnerabilities
+  scene:
+    type: stat
+    value: '7.0'
+    label: CVSS Base Score
+- say: Apply vendor mitigations immediately and follow C I S A guidance for forensics triage.
+  caption: Apply vendor mitigations immediately and follow CISA guidance for forensics triage.
+  highlight:
+  - Apply vendor mitigations
+  - follow CISA guidance
+  scene:
+    type: list
+    title: Required Actions
+    items:
+    - Apply vendor mitigations
+    - Follow CISA BOD 26-04
+    - Conduct forensics triage
+    - Evaluate internet exposure
+    style: check
+- say: If mitigations are unavailable for cloud services, discontinue use of the product. Sources are in the description.
+  caption: If mitigations are unavailable for cloud services, discontinue use of the product. Sources are in the description.
+  highlight:
+  - discontinue use of the product
+  scene:
+    type: cta
+    line: Act today to secure your assets.
+    subline: Sources are in the description.
+description:
+  summary: Attackers are using CVE-2026-111357 to escalate privileges in Ivanti Connect Secure.
+  affected: Ivanti Connect Secure 22.8R2.4 and other affected versions.
+  action: Apply vendor mitigations and follow CISA forensics triage requirements.
+  sources:
+  - 'CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog'
+  - 'NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-111357'
+seo:
+  seeds:
+  - Ivanti Connect Secure vulnerability
+  - CVE-2026-111357 exploit
+  - CISA KEV Ivanti
+  - privilege escalation fix
+  hashtags:
+  - '#Cybersecurity'
+  - '#Ivanti'
+series: Exploited Today
+record_id: kev:CVE-2026-111357
+auto: true
+instagram_hashtags_rotating: []

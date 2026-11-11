@@ -1,0 +1,75 @@
+skip: false
+skip_reason: ''
+title: 'Scam alert: hidden rental fees'
+beats:
+- say: Progress Residential allegedly charged renters tens of millions in hidden fees over five years.
+  caption: Progress Residential allegedly charged renters tens of millions in hidden fees over five years.
+  highlight:
+  - tens of millions
+  - hidden fees
+  scene:
+    type: headline
+    text: Hidden rental fees cost tenants millions
+- say: The company allegedly included mandatory smart home and utility maintenance fees that were not in the advertised rent.
+  caption: The company allegedly included mandatory smart home and utility maintenance fees that were not in the advertised rent.
+  highlight:
+  - mandatory smart home
+  - utility maintenance fees
+  scene:
+    type: card
+    title: Alleged hidden costs
+    rows:
+    - - Smart home
+      - Mandatory
+    - - Utility maintenance
+      - Mandatory
+- say: Watch for these warning signs when looking for a home.
+  caption: Watch for these warning signs when looking for a home.
+  highlight:
+  - warning signs
+  scene:
+    type: list
+    title: Warning signs
+    items:
+    - Fees in fine print
+    - Fees in footnotes
+    - Fees in hyperlinks
+    style: bullet
+- say: Confirm your total monthly rent in writing including all mandatory fees before paying application costs.
+  caption: Confirm your total monthly rent in writing including all mandatory fees before paying application costs.
+  highlight:
+  - including all mandatory fees
+  scene:
+    type: flow
+    steps:
+    - title: Ask agent
+      note: Confirm total rent
+    - title: Get writing
+      note: Include all fees
+- say: Document your unit with photos at move in and move out to protect your security deposit. More in the FTC alert linked in the description.
+  caption: Document your unit with photos at move in and move out to protect your security deposit. More in the FTC alert linked in the description.
+  highlight:
+  - Document your unit
+  - photos
+  scene:
+    type: cta
+    line: Protect your deposit
+    subline: Document everything with photos
+description:
+  summary: Progress Residential allegedly charged renters tens of millions of dollars in hidden fees.
+  affected: Renters of single-family homes managed by Progress Residential.
+  action: Confirm all mandatory fees in writing and document unit condition with photos.
+  sources:
+  - 'FTC consumer alert: https://consumer.ftc.gov/consumer-alerts/2026/11/ftc-says-progress-residential-charged-renters-hidden-fees'
+seo:
+  seeds:
+  - Progress Residential hidden fees
+  - rental scam warning signs
+  - how to avoid rental fees
+  hashtags:
+  - '#RentalScams'
+  - '#ConsumerProtection'
+series: Scam Alert
+record_id: ftc:/consumer-alerts/2026/11/ftc-says-progress-residential-charged-renters-hidden-fees
+auto: true
+instagram_hashtags_rotating: []

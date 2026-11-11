@@ -1,0 +1,68 @@
+skip: false
+skip_reason: ''
+title: 'Writing rule: Abbreviations'
+beats:
+- say: Abbreviations save time for both the writer and the reader.
+  caption: Abbreviations save time for both the writer and the reader.
+  highlight:
+  - save time
+  scene:
+    type: headline
+    text: Why use abbreviations?
+- say: Google developer documentation says to spell out an abbreviation on first reference. Use the full term and the abbreviation in italics.
+  caption: Google developer documentation says to spell out an abbreviation on first reference. Use the full term and the abbreviation in italics.
+  highlight:
+  - spell out an abbreviation
+  - on first reference
+  scene:
+    type: image
+    credit: Google developer documentation
+- say: The internet of things (I O T) service connects sensors. This is better than using I O T and L E O without explanation.
+  caption: The internet of things (IoT) service connects sensors. This is better than using IoT and LEO without explanation.
+  highlight: []
+  scene:
+    type: compare
+    left_label: Not recommended
+    left_text: The IoT (internet of things) service can be used in LEO (low Earth orbit).
+    right_label: Recommended
+    right_text: The internet of things (IoT) service can be used in low Earth orbit.
+- say: If the reader has to think about an abbreviation, it slows down their reading comprehension.
+  caption: If the reader has to think about an abbreviation, it slows down their reading comprehension.
+  highlight:
+  - slows down
+  - reading comprehension
+  scene:
+    type: card
+    title: The Risk
+    rows:
+    - - Impact
+      - Slower reading
+    - - Result
+      - Stalled comprehension
+- say: Spell out abbreviations on first reference.
+  caption: Spell out abbreviations on first reference.
+  highlight:
+  - Spell out abbreviations
+  - on first reference
+  scene:
+    type: quote
+    text: Spell out abbreviations on first reference.
+    highlight:
+    - Spell out abbreviations
+description:
+  what_was_fixed: The text was updated to define the term before using the abbreviation.
+  rule: Always spell out abbreviations on their first mention to ensure reader comprehension.
+  sources:
+  - 'Google developer documentation: https://developers.google.com/style/abbreviations'
+seo:
+  seeds:
+  - technical writing abbreviations
+  - how to use acronyms in docs
+  - Google developer style guide
+  hashtags:
+  - '#TechnicalWriting'
+  - '#Documentation'
+series: One Rule
+record_id: style:https://developers.google.com/style/abbreviations
+auto: true
+instagram_hashtags_rotating: []

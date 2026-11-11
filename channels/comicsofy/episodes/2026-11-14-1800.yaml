@@ -1,0 +1,63 @@
+format: strip
+kind: reel
+title: The Special Mug
+premise: Pim tries to use a new mug and treats it with extreme reverence.
+panels:
+- room: kitchen
+  cast:
+  - who: Pim
+    mood: excited
+    pos: left
+    size: medium
+    flip: false
+    holding: mug
+  - who: Soot
+    mood: flat
+    pos: right
+    size: small
+    flip: false
+  lines:
+  - who: Pim
+    text: Behold the special morning mug.
+  props: []
+- room: kitchen
+  cast:
+  - who: Pim
+    mood: nervous
+    pos: center
+    size: medium
+    flip: false
+    holding: mug
+  lines:
+  - who: Pim
+    text: It is far too nice to ever use.
+  props: []
+- room: kitchen
+  cast:
+  - who: Soot
+    mood: smug
+    pos: right
+    size: small
+    flip: false
+  - who: Pim
+    mood: surprised
+    pos: left
+    size: medium
+    flip: false
+    holding: mug
+  lines:
+  - who: Soot
+    text: Use it.
+  - who: Pim
+    text: Never!
+  props: []
+caption: 'Handle with extreme care.
+
+
+  #comics #webcomic #pimandsoot #ghost #cat #mugs'
+description:
+  summary: Handle with extreme care.
+series: Pim and Soot Reel
+record_id: strip:reel:1794397526317101024:0
+auto: true
+instagram_hashtags_rotating: []

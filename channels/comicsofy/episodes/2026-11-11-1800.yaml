@@ -1,0 +1,79 @@
+format: strip
+kind: reel
+title: The Patient
+premise: Pim gets overly anxious about taking care of a single houseplant, treating its minor needs like a medical emergency.
+panels:
+- room: living_room
+  cast:
+  - who: Pim
+    mood: nervous
+    pos: left
+    size: medium
+    holding: plant
+  - who: Soot
+    mood: flat
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: Soot, help! One leaf turned slightly yellow.
+  - who: Pim
+    text: Is it overwatering? Underwatering? Existential dread?
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: determined
+    pos: left
+    size: medium
+    holding: plant
+  - who: Soot
+    mood: flat
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: I moved it two inches left for better sunlight.
+  - who: Pim
+    text: Now I must monitor its breathing.
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: sad
+    pos: left
+    size: medium
+    holding: plant
+  - who: Soot
+    mood: flat
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: What if I am not ready for this responsibility?
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: surprised
+    pos: left
+    size: medium
+    holding: plant
+  - who: Soot
+    mood: smug
+    pos: right
+    size: medium
+  lines:
+  - who: Soot
+    text: It is fake, Pim.
+  props: []
+caption: 'He is doing his best as a plant parent.
+
+
+  #comics #webcomic #pimandsoot'
+description:
+  summary: He is doing his best as a plant parent.
+series: Pim and Soot Reel
+record_id: strip:reel:1794396840464550217:0
+auto: true
+instagram_hashtags_rotating: []

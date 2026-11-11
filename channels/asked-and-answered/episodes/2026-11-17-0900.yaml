@@ -1,0 +1,72 @@
+skip: false
+skip_reason: ''
+title: 'Buyers ask AI: what is intent data in marketing'
+beats:
+- say: What is intent data in marketing?
+  caption: What is intent data in marketing?
+  highlight:
+  - intent data in marketing
+  scene:
+    type: headline
+    text: Buyers ask AI
+- say: Intent data is information that signals a prospect is actively researching a solution.
+  caption: Intent data is information that signals a prospect is actively researching a solution.
+  highlight:
+  - signals a prospect
+  - actively researching
+  scene:
+    type: quote
+    text: Intent data signals active research.
+    highlight:
+    - signals
+    - active research
+- say: To get cited, your pages must define the concept and list specific signals.
+  caption: To get cited, your pages must define the concept and list specific signals.
+  highlight:
+  - define the concept
+  - list specific signals
+  scene:
+    type: flow
+    steps:
+    - title: Define
+      note: State the meaning
+    - title: Signal
+      note: List behaviors
+- say: AI engines look for structured lists of behaviors like whitepaper downloads or webinar registrations.
+  caption: AI engines look for structured lists of behaviors like whitepaper downloads or webinar registrations.
+  highlight:
+  - structured lists
+  - behaviors
+  scene:
+    type: list
+    title: Intent Signals
+    items:
+    - Whitepaper downloads
+    - Webinar registrations
+    - Pricing page visits
+    style: bullet
+- say: Find your buyers' questions with Asked, link on our channel page.
+  caption: Find your buyers' questions with Asked, link on our channel page.
+  highlight:
+  - Find your buyers' questions
+  scene:
+    type: cta
+    line: Find your buyers' questions
+    subline: Use Asked via our channel page
+description:
+  hook: Intent data tracks how prospects research solutions before they contact sales.
+  answer: Learn how to structure your content so AI search engines cite your definition of intent data.
+  sources:
+  - 'Asked, free AEO and GEO question finder: https://archanacontent.github.io/asked/'
+seo:
+  seeds:
+  - what is intent data in marketing
+  - intent data definition B2B
+  - how to optimize for intent data
+  hashtags:
+  - '#IntentData'
+  - '#AEO'
+series: Buyers Asked
+record_id: asked:intent data
+auto: true
+instagram_hashtags_rotating: []

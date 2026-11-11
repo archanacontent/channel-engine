@@ -1,0 +1,87 @@
+skip: false
+skip_reason: ''
+title: 'Free workflow: Personalize marketing emails on autopilot'
+beats:
+- say: Generic post purchase emails miss the mark when customers are unhappy.
+  caption: Generic post purchase emails miss the mark when customers are unhappy.
+  highlight:
+  - miss the mark
+  scene:
+    type: compare
+    left_label: Standard
+    left_text: One size fits all
+    right_label: Personalized
+    right_text: Context aware
+- say: This n eight n template uses AI to analyze customer sentiment from product feedback.
+  caption: This n8n template uses AI to analyze customer sentiment from product feedback.
+  highlight:
+  - analyze customer sentiment
+  - product feedback
+  scene:
+    type: headline
+    text: AI Sentiment Analysis
+- say: If the sentiment is negative, AI determines if a coupon improves the experience.
+  caption: If the sentiment is negative, AI determines if a coupon improves the experience.
+  highlight:
+  - AI determines if a coupon improves
+  scene:
+    type: list
+    title: Logic Flow
+    items:
+    - Analyze sentiment
+    - Check for negativity
+    - Evaluate coupon offer
+    - Generate email
+    style: check
+- say: The workflow then creates personalized email templates to address dissatisfaction automatically.
+  caption: The workflow then creates personalized email templates to address dissatisfaction automatically.
+  highlight:
+  - creates personalized email templates
+  - address dissatisfaction automatically
+  scene:
+    type: flow
+    steps:
+    - title: Information Extractor
+      note: Extracts sentiment
+    - title: OpenAI Chat
+      note: Decides on coupon
+    - title: HTTP Request
+      note: Sends personalized email
+- say: This first place AI contest winner automates post purchase engagement.
+  caption: This first place AI contest winner automates post purchase engagement.
+  highlight:
+  - first place AI contest winner
+  scene:
+    type: card
+    title: Template Stats
+    rows:
+    - - Award
+      - 1st Place
+    - - Category
+      - AI Contest
+- say: Template link in the description.
+  caption: Template link in the description.
+  highlight:
+  - Template link
+  scene:
+    type: cta
+    line: Get the workflow
+    subline: Template link in the description.
+description:
+  task_line: Automate personalized email responses based on customer sentiment analysis.
+  tools: n8n, OpenAI
+  sources:
+  - 'n8n template: https://n8n.io/workflows/1978'
+  template_link: https://n8n.io/workflows/1978
+seo:
+  seeds:
+  - n8n customer sentiment automation
+  - AI email personalization workflow
+  - automate customer feedback response
+  hashtags:
+  - '#n8n'
+  - '#MarketingAutomation'
+series: Library Pick
+record_id: n8n:1978
+auto: true
+instagram_hashtags_rotating: []

@@ -1,0 +1,72 @@
+skip: false
+skip_reason: ''
+title: 'What you''re looking at: SPHEREx observatory'
+beats:
+- say: SPHEREx will map the entire sky using one hundred and two wavelengths of infrared light.
+  caption: SPHEREx will map the entire sky using 102 wavelengths of infrared light.
+  highlight:
+  - map the entire sky
+  - 102 wavelengths of infrared light
+  scene:
+    type: headline
+    text: Mapping the entire sky
+- say: This view shows the telescope and three layers of photon shields in a horizontal orientation.
+  caption: This view shows the telescope and three layers of photon shields in a horizontal orientation.
+  highlight:
+  - three layers of photon shields
+  scene:
+    type: image
+    credit: NASA/JPL
+- say: The observatory uses spectroscopy to measure the composition and distance of millions of galaxies and stars.
+  caption: The observatory uses spectroscopy to measure the composition and distance of millions of galaxies and stars.
+  highlight:
+  - composition and distance
+  - millions of galaxies and stars
+  scene:
+    type: list
+    title: SPHEREx goals
+    items:
+    - Measure composition
+    - Determine distance
+    - Map millions of objects
+    style: bullet
+- say: Scientists will use this data to study galaxy formation and the origins of water in our galaxy.
+  caption: Scientists will use this data to study galaxy formation and the origins of water in our galaxy.
+  highlight:
+  - galaxy formation
+  - origins of water
+  scene:
+    type: card
+    title: Scientific objectives
+    rows:
+    - - Galaxy evolution
+      - Study formation
+    - - Water origins
+      - Planetary systems
+- say: Image credit in the description.
+  caption: Image credit in the description.
+  highlight: []
+  scene:
+    type: cta
+    line: Explore the cosmos
+    subline: Subscribe to Space Science
+description:
+  explainer: SPHEREx is a NASA observatory designed to create a massive map of the cosmos. It uses infrared spectroscopy to study the composition and distance of millions of stars and galaxies.
+  sources:
+  - 'NASA Image and Video Library: https://images.nasa.gov/details/PIA26542'
+  credit: NASA
+seo:
+  seeds:
+  - NASA SPHEREx observatory
+  - infrared spectroscopy space
+  - how SPHEREx maps the universe
+  hashtags:
+  - '#SpaceScience'
+  - '#NASA'
+series: Look Closer
+record_id: nasa:PIA26542
+auto: true
+instagram_hashtags_rotating: []
+media:
+  image: /home/runner/work/channel-engine/channel-engine/out/deep-field/media/2026-11-14-0900.jpg
+  credit: NASA

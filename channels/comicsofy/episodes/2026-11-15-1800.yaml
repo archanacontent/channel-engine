@@ -1,0 +1,63 @@
+format: strip
+kind: reel
+title: The Box
+premise: Pim tries to give a gift to Soot, but Soot just wants the box.
+panels:
+- room: living_room
+  cast:
+  - who: Pim
+    mood: excited
+    pos: left
+    size: medium
+    holding: gift
+  - who: Soot
+    mood: flat
+    pos: right
+    size: small
+  lines:
+  - who: Pim
+    text: I got you a very special present!
+  props:
+  - name: gift
+    spot: center
+- room: living_room
+  cast:
+  - who: Pim
+    mood: happy
+    pos: left
+    size: medium
+  - who: Soot
+    mood: pleased
+    pos: right
+    size: small
+    holding: gift
+  lines:
+  - who: Pim
+    text: Open it up!
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: surprised
+    pos: left
+    size: medium
+  - who: Soot
+    mood: smug
+    pos: right
+    size: small
+  lines:
+  - who: Pim
+    text: You are ignoring the gift entirely?
+  - who: Soot
+    text: The box is better.
+  props: []
+caption: 'The best part of any present.
+
+
+  #comics #webcomic #pimandsoot #cats #ghost #comic #cute'
+description:
+  summary: The best part of any present.
+series: Pim and Soot Reel
+record_id: strip:reel:1794398316619277907:0
+auto: true
+instagram_hashtags_rotating: []
