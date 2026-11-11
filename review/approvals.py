@@ -41,6 +41,7 @@ def review_body(entries, ticks):
            "Approved Shorts go public at their slot (US Eastern time), with playlist and captions added.", "",
            "- [ ] **Approve every Short in this week**", ""]
     days = {}
+    entries = [e for e in entries if e.get("status") != "expired"]
     for e in sorted(entries, key=lambda x: x["publish_at"]):
         days.setdefault(e["publish_at"][:10], []).append(e)
     for day, items in days.items():

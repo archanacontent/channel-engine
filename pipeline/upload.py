@@ -9,6 +9,7 @@ day; the rest wait in the GitHub release and go up on the next run.
 """
 import argparse
 import json
+import os
 import re
 import shutil
 import subprocess
@@ -76,8 +77,17 @@ def upload_pending(queue):
     done_today = sum(1 for e in queue if (e.get("uploaded_at") or "")[:10] == today)
     budget = CAP - done_today
     capped = set()  # channels that hit YouTube's own daily upload limit
+    now = datetime.now(timezone.utc)
     for e in sorted(queue, key=lambda x: x["publish_at"]):
         if e["status"] != "rendered" or budget <= 0 or e["slug"] in capped:
+            continue
+        if datetime.fromisoformat(e["publish_at"]) < now - timedelta(hours=6):
+            e["status"] = "expired"  # its slot passed before it could upload
+            continue
+        if not os.environ.get("YT_REFRESH_" + e["slug"].upper().replace("-", "_")):
+            if e["slug"] not in capped:
+                print(f"{e['slug']}: no YouTube connection yet, keeping its Shorts for later")
+            capped.add(e["slug"])
             continue
         f = STAGE / asset(e)
         if not f.exists():
