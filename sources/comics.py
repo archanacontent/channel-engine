@@ -71,18 +71,19 @@ def pages(key):
               and not BLOCK.search(t) and "cover" not in t.lower()]
     by_date = {}
     for i in range(0, len(titles), 40):
-        info = _q(titles="|".join(titles[i:i + 40]), prop="imageinfo", iiprop="size|url", iiurlwidth=2400)
+        info = _q(titles="|".join(titles[i:i + 40]), prop="imageinfo", iiprop="size|url", iiurlwidth=4000)
         for p in info["query"]["pages"].values():
             ii = (p.get("imageinfo") or [{}])[0]
-            if not ii or ii.get("width", 0) < 1000:
-                continue
+            if not ii or max(ii.get("width", 0), ii.get("height", 0)) < 2200:
+                continue  # small scans blur when a panel fills the screen
             m = DATE.search(p["title"])
             d = f"{m[1]}-{m[2]}-{m[3]}"
             if int(m[1]) > 1930:
                 continue
             area = ii["width"] * ii["height"]
             if d not in by_date or area > by_date[d][0]:
-                by_date[d] = (area, p["title"], ii.get("thumburl") or ii["url"], ii["descriptionurl"],
+                by_date[d] = (area, p["title"], ii["url"] if max(ii["width"], ii["height"]) <= 5000 else ii["thumburl"],
+                              ii["descriptionurl"],
                               ii["width"], ii["height"])
     _cache[key] = sorted((d, *v[1:]) for d, v in by_date.items())
     return _cache[key]

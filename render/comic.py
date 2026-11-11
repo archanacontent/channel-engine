@@ -12,7 +12,7 @@ from PIL import Image, ImageDraw, ImageFilter
 from render import audio
 from render.lib import FPS, H, W, alpha_rect, ease_io, font, rgb, tw, wrap
 
-STAGE = (40, 250, 1040, 1450)          # where the page is shown
+STAGE = (40, 250, 1040, 1450)          # page area; wide panels sit centred in it          # where the page is shown
 SW, SH = STAGE[2] - STAGE[0], STAGE[3] - STAGE[1]
 MOVE = 0.55                            # seconds for the camera to travel to the next panel
 LINE_GAP, PANEL_GAP, SILENT_PANEL = 0.22, 0.35, 1.3
@@ -27,17 +27,23 @@ def fit_rect(box, iw, ih, pad=0.03):
     x0, y0, x1, y1 = box
     w, h = (x1 - x0) * (1 + pad * 2), (y1 - y0) * (1 + pad * 2)
     cx, cy = (x0 + x1) / 2, (y0 + y1) / 2
-    asp = max(0.62, min(w / h, SW / 560))          # screen frame from 744x1200 (tall) to 1000x560 (wide)
-    if w / h > asp:
+    asp = max(0.62, min(w / h, SW / 820))          # screen frame from 744x1200 (tall) to 1000x820 (wide)
+    pan = 0.0
+    if w / h > asp * 1.15:
+        # Very wide panel: show its full height and slide across it while the lines play.
+        pan = w - h * asp
+        w = h * asp
+    elif w / h > asp:
         h = w / asp
     else:
         w = h * asp
+    cx = cx - pan / 2
     x0 = min(max(cx - w / 2, 0), max(0, iw - w)) if w <= iw else (iw - w) / 2
     y0 = min(max(cy - h / 2, 0), max(0, ih - h)) if h <= ih else (ih - h) / 2
     dw, dh = (SW, SW / asp) if SW / asp <= SH else (SH * asp, SH)
     mid = (STAGE[1] + STAGE[3]) / 2
     disp = np.array([W / 2 - dw / 2, mid - dh / 2, W / 2 + dw / 2, mid + dh / 2], float)
-    return np.concatenate([np.array([x0, y0, x0 + w, y0 + h], float), disp])
+    return np.concatenate([np.array([x0, y0, x0 + w, y0 + h], float), disp, [pan]])
 
 
 def build_timeline(ep, iw, ih, voices):
@@ -113,7 +119,13 @@ class ComicPainter:
                     half = (r[2:4] - r[:2]) / 2 * zoom
                     r[:4] = np.concatenate([c - half, c + half])
                     return r
-                prev = shots[i - 1][2]
+                prev = shots[i - 1][2].copy()
+                if prev[8]:
+                    prev[[0, 2]] += prev[8]
+                r = r.copy()
+                if r[8] and t - t0 > MOVE:
+                    slide = ease_io(min(1.0, (t - t0 - MOVE) / max(0.5, (t1 - t0 - MOVE) * 0.9)))
+                    r[[0, 2]] += r[8] * slide
                 k = ease_io(min(1.0, max(0.0, (t - t0) / MOVE)))
                 return prev + (r - prev) * k
         return shots[-1][2]
@@ -121,9 +133,12 @@ class ComicPainter:
     def frame(self, shots, lines, total, t):
         img = self.backdrop.copy()
         r = self.rect_at(shots, t)
-        crop, disp = r[:4], r[4:]
+        crop, disp = r[:4], r[4:8]
         dw, dh = int(round(disp[2] - disp[0])), int(round(disp[3] - disp[1]))
-        view = self.page.transform((dw, dh), Image.EXTENT, tuple(crop), Image.BILINEAR, fillcolor=(18, 16, 14))
+        view = self.page.transform((dw, dh), Image.EXTENT, tuple(crop), Image.BICUBIC, fillcolor=(18, 16, 14))
+        scale = dw / max(1.0, crop[2] - crop[0])
+        if scale > 1.15:
+            view = view.filter(ImageFilter.UnsharpMask(radius=1.6, percent=int(min(120, 60 + 40 * scale)), threshold=2))
         x, y = int(round(disp[0])), int(round(disp[1]))
         alpha_rect(img, (x + 10, y + 16, x + dw + 10, y + dh + 16), (0, 0, 0), 0.55)
         img.paste(view, (x, y))
@@ -191,7 +206,7 @@ def render_comic(brand, ep, chan_dir, out, stem, metadata, srt):
     audio.mixdown(voice, bed, brand["music"]["gain_db"], wav)
     tmp = out / f"{stem}.video.part.mp4"
     enc = subprocess.Popen(["ffmpeg", "-y", "-v", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}",
-                            "-r", str(FPS), "-i", "-", "-c:v", "libx264", "-preset", "veryfast", "-crf", "20",
+                            "-r", str(FPS), "-i", "-", "-c:v", "libx264", "-preset", "veryfast", "-crf", "17",
                             "-pix_fmt", "yuv420p", str(tmp)], stdin=subprocess.PIPE)
     n = int(round(total * FPS))
     for i in range(n):
