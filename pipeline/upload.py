@@ -132,7 +132,7 @@ def update_issues(queue):
     sh("gh", "label", "create", "review", "--color", "1D76DB", "--force", check=False)
     for week in sorted({week_of(e) for e in queue}):
         entries = [e for e in queue if week_of(e) == week]
-        title = f"Review: week of {week}"
+        title = f"Stop list: week of {week}"
         found = json.loads(sh("gh", "issue", "list", "--label", "review", "--state", "open", "--search",
                               f'"{title}" in:title', "--json", "number,title,body").stdout or "[]")
         found = [i for i in found if i["title"] == title]

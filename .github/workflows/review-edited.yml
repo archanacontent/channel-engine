@@ -16,7 +16,7 @@ concurrency:
 
 jobs:
   expand:
-    if: contains(github.event.issue.title, 'Review:')
+    if: contains(github.event.issue.title, 'week of')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

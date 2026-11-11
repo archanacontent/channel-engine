@@ -23,7 +23,7 @@ def week_of(e):
 def main(number):
     issue = json.loads(subprocess.run(["gh", "issue", "view", number, "--json", "title,body,labels"],
                                       capture_output=True, text=True, check=True).stdout)
-    if "review" not in [l["name"] for l in issue["labels"]] or not issue["title"].startswith("Review: week of"):
+    if "review" not in [l["name"] for l in issue["labels"]] or "week of" not in issue["title"]:
         return
     week = issue["title"].rsplit(" ", 1)[-1]
     queue = json.loads(QUEUE.read_text()) if QUEUE.exists() else []
