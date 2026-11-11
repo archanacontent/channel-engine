@@ -41,6 +41,10 @@ def main():
 
     chan = ROOT / "channels" / a.slug
     brand = yaml.safe_load((chan / "brand.yaml").read_text())
+    if brand.get("format") == "comic":
+        from pipeline.comic import write_comic as writer
+    else:
+        writer = write_episode
     out = Path(a.out) / a.slug
     (out / "media").mkdir(parents=True, exist_ok=True)
     used = load_used()
@@ -66,7 +70,7 @@ def main():
             taken.add(rec["id"])
             print(f"writing {d} {slot['slot']} {rec['series']} {rec['id']}", flush=True)
             try:
-                ep, err = write_episode(brand, rec)
+                ep, err = writer(brand, rec)
             except QuotaSpent as e:
                 failures.append(f"Stopped at {d} {slot['slot']}: {e}. The next run picks up from here.")
                 spent = True
@@ -81,7 +85,7 @@ def main():
                     continue
                 taken.add(rec["id"])
                 try:
-                    ep, err = write_episode(brand, rec)
+                    ep, err = writer(brand, rec)
                 except QuotaSpent as e:
                     failures.append(f"Stopped at {d} {slot['slot']}: {e}. The next run picks up from here.")
                     spent = True
@@ -94,7 +98,7 @@ def main():
             stem = f"{d.isoformat()}-{slot['slot'].replace(':', '')}"
             ep.update({"series": rec["series"], "record_id": rec["id"], "auto": True,
                        "instagram_hashtags_rotating": []})
-            if rec.get("image_url"):
+            if rec.get("image_url") and not ep.get("media"):
                 img = out / "media" / f"{stem}.jpg"
                 try:
                     req = urllib.request.Request(rec["image_url"], headers={"User-Agent": UA})

@@ -76,7 +76,7 @@ def fill_template(template, fields):
 
 
 def metadata(brand, ep, use_autocomplete=True):
-    series = ep["series"]
+    series = ep.get("series", "")
     yt_tags = seo.build_hashtags(brand, ep, seo.MAX_YT_HASHTAGS)
     ig_tags = seo.build_hashtags(brand, ep, seo.MAX_IG_HASHTAGS)
     fields = {k: v for k, v in ep["description"].items() if k != "sources"}
@@ -128,6 +128,10 @@ def main():
     out = Path(a.out) / slug
     out.mkdir(parents=True, exist_ok=True)
     stem = Path(a.episode).stem
+
+    if ep.get("format") == "comic":
+        from render.comic import render_comic
+        return render_comic(brand, ep, chan_dir, out, stem, metadata, srt)
 
     voice, timing = audio.speak_beats(ep["beats"], brand["voice"])
     total = timing[-1][0] + timing[-1][2] + END

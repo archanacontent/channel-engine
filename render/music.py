@@ -44,6 +44,10 @@ STYLES = {
                        bass=True, swing=0.0, reverb=2.6,
                        progs=[[0, 1, 0, 5], [0, 5, 3, 0], [0, 3, 0, 4], [5, 3, 0, 0], [0, 6, 5, 3],
                               [0, 1, 5, 3], [3, 0, 5, 1], [0, 0, 3, 3]]),
+    "dream-comics": dict(modes=["major", "lydian", "mixolydian"], bpm=(100, 116), lead="pluck", pad=0.3,
+                         drums=None, bass=True, swing=0.18, reverb=1.1,
+                         progs=[[0, 5, 1, 4], [0, 3, 4, 0], [0, 2, 5, 4], [3, 4, 0, 5], [0, 4, 5, 3],
+                                [0, 5, 3, 4], [1, 4, 0, 0], [0, 3, 1, 4]]),
 }
 
 

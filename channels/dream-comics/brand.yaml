@@ -1,0 +1,64 @@
+name: Classic Comics Alive
+slug: dream-comics
+format: comic
+handle: ""
+positioning: Century-old comics, voiced and brought to life every day.
+end_line: A new classic comic, voiced, every day.
+description: >-
+  The funniest and strangest comics of the early 1900s were printed once, read on a Sunday morning and forgotten. Classic Comics Alive brings them back as voiced motion comics, panel by panel, with every character speaking their original lines. Daily episodes of Little Nemo in Slumberland, Little Sammy Sneeze and Dream of the Rarebit Fiend by Winsor McCay, all public domain.
+palette:
+  background: "#1B1410"
+  accent: "#E8B04B"
+  highlight: "#F2C14E"
+  text: "#FFF6E5"
+  muted_text: "#C9B79C"
+fonts:
+  headline: { file: "SourceSerif4[opsz,wght].ttf", weight: 700 }
+  caption: { file: "Inter[opsz,wght].ttf", weight: 700 }
+voice: { model: kokoro-82m, voice: bm_fable, speed: 1.0, lang: en-gb }
+voices:
+  narrator: { voice: bm_fable, speed: 1.0, lang: en-gb }
+  boy: { voice: af_sky, speed: 1.06, lang: en-us }
+  girl: { voice: bf_lily, speed: 1.04, lang: en-gb }
+  man: { voice: am_eric, speed: 1.0, lang: en-us }
+  woman: { voice: bf_emma, speed: 1.0, lang: en-gb }
+  old_man: { voice: bm_lewis, speed: 0.95, lang: en-gb }
+  creature: { voice: am_fenrir, speed: 0.92, lang: en-us }
+speaker_colors:
+  narrator: "#F2C14E"
+  boy: "#7FC8F8"
+  girl: "#F7A1C4"
+  man: "#9BE15D"
+  woman: "#C7A6FF"
+  old_man: "#F4A261"
+  creature: "#FF6B6B"
+music: { source: generated, mood: [ragtime whimsy], gain_db: -21 }
+series:
+  - { slot: "08:30", name: Little Nemo, source: Wikimedia Commons public domain scans }
+  - { slot: "12:00", name: Sneeze and Fiends, source: Wikimedia Commons public domain scans }
+  - { slot: "16:30", name: Little Nemo, source: Wikimedia Commons public domain scans }
+  - { slot: "20:00", name: Sneeze and Fiends, source: Wikimedia Commons public domain scans }
+description_template: |
+  {summary}
+  {abridged_note}
+
+  {credit}
+
+  Sources:
+  {source_links}
+
+  {youtube_hashtags}
+hashtags:
+  youtube: ["#ClassicComics", "#MotionComic", "#WinsorMcCay"]
+  instagram_anchors: ["#ClassicComics", "#MotionComic"]
+  instagram_rotation: ["#LittleNemo", "#WinsorMcCay", "#VintageComics", "#ComicStrip", "#PublicDomain", "#Animation"]
+seo:
+  category_id: "23"
+  tag_pool: [classic comics, motion comic, vintage comics, comic strip, Winsor McCay, old cartoons, comics read aloud]
+  hashtag_pool: ['#ClassicComics', '#MotionComic', '#WinsorMcCay', '#VintageComics']
+  playlists:
+    "Little Nemo": "Little Nemo in Slumberland, Voiced"
+    "Sneeze and Fiends": "Sammy Sneeze and the Rarebit Fiend, Voiced"
+  series_pools:
+    "Little Nemo": {tags: [Little Nemo, Little Nemo in Slumberland, Slumberland, dream comic], hashtags: ['#LittleNemo', '#Slumberland']}
+    "Sneeze and Fiends": {tags: [Little Sammy Sneeze, Dream of the Rarebit Fiend, funny old comics, vintage humor], hashtags: ['#RarebitFiend', '#FunnyComics']}

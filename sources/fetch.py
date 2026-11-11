@@ -426,6 +426,8 @@ def doc_types(used):
 
 # ---------------- registry ----------------
 
+from sources.comics import comic_records  # noqa: E402
+
 SERIES = {
     "asked-and-answered": {"Buyers Asked": buyers_asked, "The Fix": the_fix, "Trend Check": trend_check},
     "automation-shelf": {"Stop Doing This": lambda u: n8n_templates(u, "Stop Doing This"),
@@ -434,6 +436,8 @@ SERIES = {
     "breach-brief": {"Exploited Today": exploited_today, "Breach Watch": breach_watch, "Scam Alert": scam_alert},
     "plain-docs": {"Rewrite This": rewrite_this, "One Rule": one_rule, "Doc Types": doc_types},
     "deep-field": {"Look Closer": look_closer, "Mission Log": mission_log, "Scale It": scale_it},
+    "dream-comics": {"Little Nemo": lambda u: comic_records(["nemo"], "Little Nemo", u),
+                     "Sneeze and Fiends": lambda u: comic_records(["sammy", "rarebit"], "Sneeze and Fiends", u)},
 }
 
 

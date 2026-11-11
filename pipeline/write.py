@@ -133,16 +133,20 @@ class QuotaSpent(RuntimeError):
     pass
 
 
-def _call(model, system, user, key, schema=None):
+def _call(model, system, user, key, schema=None, image=None):
     cfg = {"responseMimeType": "application/json", "temperature": 0.7}
     if model.startswith("gemma"):
         # Gemma takes no system instruction or schema; the rules go in the prompt.
         payload = {"contents": [{"role": "user", "parts": [{"text": system + "\n\n" + user}]}]}
+        if image:
+            payload["contents"][0]["parts"].insert(0, {"inlineData": {"mimeType": "image/jpeg", "data": image}})
     else:
         if schema:
             cfg["responseSchema"] = schema
         payload = {"systemInstruction": {"parts": [{"text": system}]},
                    "contents": [{"role": "user", "parts": [{"text": user}]}]}
+        if image:
+            payload["contents"][0]["parts"].insert(0, {"inlineData": {"mimeType": "image/jpeg", "data": image}})
     payload["generationConfig"] = cfg
     req = urllib.request.Request(API.format(m=model), data=json.dumps(payload).encode(), method="POST",
                                  headers={"Content-Type": "application/json", "x-goog-api-key": key})
@@ -155,13 +159,13 @@ def _call(model, system, user, key, schema=None):
     return text
 
 
-def generate(system, user, schema=None):
+def generate(system, user, schema=None, image=None):
     key = os.environ["GEMINI_API_KEY"]
     last = None
     for model in [m.strip() for m in MODELS if m.strip() not in SPENT]:
         for attempt in range(3):
             try:
-                out = json.loads(_call(model, system, user, key, schema))
+                out = json.loads(_call(model, system, user, key, schema, image))
                 time.sleep(2)
                 if isinstance(out, list):
                     out = next((x for x in out if isinstance(x, dict)), {})
