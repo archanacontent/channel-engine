@@ -1,0 +1,57 @@
+name: Collect a run
+
+# Run by hand: stores and uploads the rendered files of an earlier Make Shorts run
+# whose storage step failed (artifacts are kept for one day).
+on:
+  workflow_dispatch:
+    inputs:
+      run_id: { description: "Make Shorts run id", required: true }
+
+permissions:
+  contents: write
+  issues: write
+  actions: read
+
+concurrency:
+  group: shorts-state
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12", cache: pip }
+      - run: pip install -q google-api-python-client google-auth pyyaml
+      - uses: actions/download-artifact@v4
+        with:
+          path: artifacts
+          run-id: ${{ inputs.run_id }}
+          github-token: ${{ github.token }}
+      - run: |
+          mkdir -p collected
+          for d in artifacts/out-*; do [ -d "$d" ] && mv "$d" "collected/${d#artifacts/out-}"; done
+          ls collected
+      - name: Store, upload, schedule
+        env:
+          GH_TOKEN: ${{ github.token }}
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_ASKED_AND_ANSWERED: ${{ secrets.YT_REFRESH_ASKED_AND_ANSWERED }}
+          YT_REFRESH_AUTOMATION_SHELF: ${{ secrets.YT_REFRESH_AUTOMATION_SHELF }}
+          YT_REFRESH_BREACH_BRIEF: ${{ secrets.YT_REFRESH_BREACH_BRIEF }}
+          YT_REFRESH_PLAIN_DOCS: ${{ secrets.YT_REFRESH_PLAIN_DOCS }}
+          YT_REFRESH_DEEP_FIELD: ${{ secrets.YT_REFRESH_DEEP_FIELD }}
+        run: python -m pipeline.upload --collect collected --release shorts-${{ inputs.run_id }} && python -m review.schedule
+      - name: Save queue and scripts
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add queue state channels/*/episodes
+          git diff --cached --quiet || git commit -m "Queue new posts"
+          for i in 1 2 3; do git pull --rebase -q && git push && break; sleep 5; done
+      - name: Report problems
+        if: always()
+        run: cat collected/*/failures.txt 2>/dev/null || true

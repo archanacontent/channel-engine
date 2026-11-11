@@ -63,6 +63,7 @@ def collect(src, release, queue):
             used.add(e["record_id"])
             ep = chan_out / "episodes" / f"{e['stem']}.yaml"
             if ep.exists():
+                (ROOT / "channels" / e["slug"] / "episodes").mkdir(parents=True, exist_ok=True)
                 shutil.copy(ep, ROOT / "channels" / e["slug"] / "episodes" / ep.name)
     if files:
         if sh("gh", "release", "view", release, check=False).returncode != 0:
