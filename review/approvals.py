@@ -32,8 +32,20 @@ def ticked(body, entries):
     return out
 
 
+_AUTO = {}
+
+
+def auto(e):
+    """Channels whose brand says auto_approve post without a checklist tick."""
+    slug = e["slug"]
+    if slug not in _AUTO:
+        f = Path(__file__).resolve().parent.parent / "channels" / slug / "brand.yaml"
+        _AUTO[slug] = f.exists() and "auto_approve: true" in f.read_text()
+    return _AUTO[slug] or bool(e.get("auto_approve"))
+
+
 def is_approved(e, ticks):
-    return key(e) in ticks or (e.get("video_id") or "") in ticks
+    return auto(e) or key(e) in ticks or (e.get("video_id") or "") in ticks
 
 
 def review_body(entries, ticks):
@@ -43,7 +55,7 @@ def review_body(entries, ticks):
            "Approved Shorts go public at their slot (US Eastern time), with playlist and captions added.", "",
            "- [ ] **Approve every Short in this week**", ""]
     days = {}
-    entries = [e for e in entries if e.get("status") != "expired"]
+    entries = [e for e in entries if e.get("status") != "expired" and not auto(e)]
     for e in sorted(entries, key=lambda x: x["publish_at"]):
         days.setdefault(e["publish_at"][:10], []).append(e)
     for day, items in days.items():

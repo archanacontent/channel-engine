@@ -2,6 +2,7 @@ name: Comicsofy
 slug: comicsofy
 format: strip
 platform: instagram
+auto_approve: true   # posts without a checklist tick
 handle: "@comicsofy"
 series_title: Pim & Soot
 end_line: A new Pim & Soot every day. Follow @comicsofy

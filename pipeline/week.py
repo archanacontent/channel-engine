@@ -127,6 +127,7 @@ def main():
                 "stem": stem, "record_id": rec["id"], "publish_at": when.isoformat(),
                 "meta": meta, "srt": (out / f"{stem}.srt").read_text() if (out / f"{stem}.srt").exists() else "",
                 "status": "rendered", "file": made.name, "platform": brand.get("platform", "youtube"),
+                "auto_approve": bool(brand.get("auto_approve")),
             })
             (out / "manifest.json").write_text(json.dumps(manifest, indent=1, ensure_ascii=False))
             (out / "failures.txt").write_text("\n".join(failures))
