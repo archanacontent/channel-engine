@@ -7,6 +7,10 @@ on:
   schedule:
     - cron: "5 14,18,23 * * *"
   workflow_dispatch:
+    inputs:
+      post_now:
+        description: "Channel slug to post its next item immediately (optional)"
+        required: false
 
 permissions:
   contents: write
@@ -27,6 +31,7 @@ jobs:
       - name: Publish approved Shorts that are due
         env:
           GH_TOKEN: ${{ github.token }}
+          POST_NOW: ${{ github.event.inputs.post_now }}
           YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
           YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
           YT_REFRESH_ASKED_AND_ANSWERED: ${{ secrets.YT_REFRESH_ASKED_AND_ANSWERED }}

@@ -4,6 +4,7 @@ review issue and whose slot time has passed, then marks it published.
 A Short that is never ticked stays private.
 """
 import json
+import os
 import subprocess
 import tempfile
 from datetime import datetime, timezone
@@ -38,11 +39,15 @@ def main():
     now = datetime.now(timezone.utc)
     ok = approved_keys(queue)
     changed = False
+    now_slug = os.environ.get("POST_NOW", "").strip()   # post this channel's next item right away
     for e in sorted(queue, key=lambda x: x["publish_at"]):
         if e.get("status") not in ("uploaded", "ready") or not is_approved(e, ok):
             continue
-        if datetime.fromisoformat(e["publish_at"]) > now:
+        early = now_slug and e["slug"] == now_slug
+        if datetime.fromisoformat(e["publish_at"]) > now and not early:
             continue
+        if early:
+            now_slug = ""
         try:
             if e.get("platform") == "instagram":
                 e["ig_media_id"] = post_instagram(e)
