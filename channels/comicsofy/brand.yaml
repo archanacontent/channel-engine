@@ -16,6 +16,6 @@ voices:
   Soot: { voice: am_onyx, speed: 0.9, lang: en-us, pitch: 0.94 }
 music: { source: generated, gain_db: -20 }
 series:
-  - { slot: "11:00", name: Pim and Soot Comic, kind: image }
-  - { slot: "19:00", name: Pim and Soot Reel, kind: reel }
+  - { slot: "13:00", name: Pim and Soot Comic, kind: image }
+  - { slot: "18:00", name: Pim and Soot Reel, kind: reel }
 hashtags: ["#comics", "#webcomic", "#pimandsoot"]
