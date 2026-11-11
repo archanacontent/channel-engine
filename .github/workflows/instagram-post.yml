@@ -1,0 +1,26 @@
+name: Instagram post now
+
+# Run by hand: posts one file from a branch to Instagram immediately.
+on:
+  workflow_dispatch:
+    inputs:
+      ref: { description: "Branch holding the file", required: true }
+      path: { description: "File path in that branch", required: true }
+      caption: { description: "Caption", required: true }
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with: { ref: "${{ inputs.ref }}", path: drop }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_PAGE_ID: ${{ secrets.IG_PAGE_ID }}
+          IG_PAGE_TOKEN: ${{ secrets.IG_PAGE_TOKEN }}
+          CAPTION: ${{ inputs.caption }}
+          FILE: drop/${{ inputs.path }}
+        run: python -c "import os; from publish.instagram import publish; print('posted', publish(os.environ['FILE'], os.environ['CAPTION']))"
