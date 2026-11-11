@@ -95,8 +95,43 @@ def post_reel(path, caption, dry=False):
     return call("POST", f"{ig}/media_publish", {"creation_id": c, "access_token": token})["id"]
 
 
+LEDGER = Path(__file__).resolve().parent.parent / "state" / "instagram_posted.json"
+
+
+def fingerprint(path):
+    import hashlib
+    return hashlib.sha256(Path(path).read_bytes()).hexdigest()
+
+
+def already_posted(path, caption):
+    """True if this exact file, or a post with the same opening caption line, is already up.
+    Checks our ledger and the account's 25 most recent posts, so a second run or a second
+    tool can never post the same thing twice."""
+    fp = fingerprint(path)
+    led = json.loads(LEDGER.read_text()) if LEDGER.exists() else {}
+    if fp in led:
+        return led[fp]
+    ig, _, token = env()
+    first = caption.strip().splitlines()[0].strip().lower() if caption.strip() else ""
+    recent = call("GET", f"{ig}/media", {"fields": "id,caption,timestamp", "limit": 25, "access_token": token})
+    for m in recent.get("data", []):
+        c = (m.get("caption") or "").strip().splitlines()
+        if first and c and c[0].strip().lower() == first:
+            return m["id"]
+    return None
+
+
 def publish(path, caption):
-    return post_reel(path, caption) if str(path).endswith(".mp4") else post_image(path, caption)
+    dup = already_posted(path, caption)
+    if dup:
+        print(f"skipped: already on Instagram as {dup}")
+        return dup
+    mid = post_reel(path, caption) if str(path).endswith(".mp4") else post_image(path, caption)
+    led = json.loads(LEDGER.read_text()) if LEDGER.exists() else {}
+    led[fingerprint(path)] = mid
+    LEDGER.parent.mkdir(exist_ok=True)
+    LEDGER.write_text(json.dumps(led, indent=1))
+    return mid
 
 
 def delete(media_id):
