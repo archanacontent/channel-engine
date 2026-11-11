@@ -106,6 +106,7 @@ def main():
                     ep["media"] = {"image": str(img.resolve()), "credit": rec.get("credit", "NASA")}
                 except Exception as e:
                     failures.append(f"{stem}: image download failed ({e}); image scenes fall back to text")
+            (chan / "episodes").mkdir(exist_ok=True)
             ep_path = chan / "episodes" / f"{stem}.yaml"
             ep_text = yaml.safe_dump(ep, sort_keys=False, allow_unicode=True, width=1000)
             ep_path.write_text(ep_text)
