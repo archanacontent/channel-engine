@@ -85,7 +85,7 @@ def post_image(path, caption, dry=False):
 def post_reel(path, caption, dry=False):
     ig, page, token = env()
     c = call("POST", f"{ig}/media", {"media_type": "REELS", "upload_type": "resumable", "caption": caption,
-                                     "share_to_feed": "true", "access_token": token})["id"]
+                                     "share_to_feed": "true", "thumb_offset": "2500", "access_token": token})["id"]
     data = Path(path).read_bytes()
     call("POST", f"ig-api-upload/{V}/{c}", data=data, base="https://rupload.facebook.com",
          headers={"Authorization": f"OAuth {token}", "offset": "0", "file_size": str(len(data))})
