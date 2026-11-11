@@ -19,7 +19,7 @@ import urllib.request
 import uuid
 from pathlib import Path
 
-V = os.environ.get("GRAPH_VERSION", "v24.0")
+V = os.environ.get("GRAPH_VERSION", "v27.0")
 G = f"https://graph.facebook.com/{V}"
 
 
