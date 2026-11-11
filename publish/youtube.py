@@ -39,7 +39,8 @@ def whoami(slug):
     return ch["title"], ch.get("customUrl")
 
 
-def upload_private(slug, mp4, meta):
+def upload_private(slug, mp4, meta, publish_at=None):
+    """Uploads the Short. With publish_at (UTC, ...Z) YouTube itself releases it at that minute."""
     body = {
         "snippet": {
             "title": meta["title"],
@@ -57,6 +58,8 @@ def upload_private(slug, mp4, meta):
             "publicStatsViewable": True,
         },
     }
+    if publish_at:
+        body["status"]["publishAt"] = publish_at
     req = client(slug).videos().insert(part="snippet,status", body=body,
                                        media_body=MediaFileUpload(mp4, chunksize=-1, resumable=True))
     resp = None
@@ -90,16 +93,29 @@ def publish(slug, video_id, meta, srt_path=None):
     _extras(yt, video_id, meta)
 
 
+def add_playlist(slug, video_id, meta):
+    yt = client(slug)
+    yt.playlistItems().insert(part="snippet", body={"snippet": {
+        "playlistId": playlist_id(yt, meta["playlist"]),
+        "resourceId": {"kind": "youtube#video", "videoId": video_id}}}).execute()
+
+
+def add_captions(slug, video_id, meta, srt_path):
+    client(slug).captions().insert(part="snippet", body={"snippet": {
+        "videoId": video_id, "language": meta["language"], "name": "English", "isDraft": False}},
+        media_body=MediaFileUpload(str(srt_path), mimetype="application/octet-stream")).execute()
+
+
+def hold(slug, video_id, meta):
+    """Stops a release: the video stays private with no release time."""
+    client(slug).videos().update(part="status", body={"id": video_id, "status": {
+        "privacyStatus": "private", "selfDeclaredMadeForKids": meta["made_for_kids"],
+        "containsSyntheticMedia": meta["altered_content"] == "Yes", "embeddable": True,
+        "publicStatsViewable": True}}).execute()
+
+
 def _extras(yt, video_id, meta):
-    """Playlist is a nice-to-have; it must never block a release. (Captions are left to
-    YouTube's automatic captions: uploading them costs 400 of the 10,000 daily quota units.)"""
-    if meta.get("playlist"):
-        try:
-            yt.playlistItems().insert(part="snippet", body={"snippet": {
-                "playlistId": playlist_id(yt, meta["playlist"]),
-                "resourceId": {"kind": "youtube#video", "videoId": video_id}}}).execute()
-        except Exception as e:
-            print("  playlist skipped:", str(e)[:120])
+    pass  # playlist and captions are handled by review.schedule, which retries until done
 
 
 def schedule(slug, video_id, meta, srt_path, when_utc):

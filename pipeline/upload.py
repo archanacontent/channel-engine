@@ -99,8 +99,10 @@ def upload_pending(queue):
             if r.returncode != 0:
                 print("missing asset", asset(e))
                 continue
+        when = datetime.fromisoformat(e["publish_at"]).astimezone(timezone.utc)
+        at = when.strftime("%Y-%m-%dT%H:%M:%SZ") if when > now + timedelta(minutes=15) else None
         try:
-            e["video_id"] = upload_private(e["slug"], str(f), e["meta"])
+            e["video_id"] = upload_private(e["slug"], str(f), e["meta"], publish_at=at)
         except Exception as ex:
             print("upload failed", asset(e), ex)
             if "quota" in str(ex).lower():
@@ -109,7 +111,7 @@ def upload_pending(queue):
                 capped.add(e["slug"])
                 print(f"{e['slug']} reached its daily upload limit; the rest go up tomorrow")
             continue
-        e["status"] = "uploaded"
+        e["status"] = "scheduled" if at else "uploaded"   # "uploaded" = due now; the slot check releases it
         e["uploaded_at"] = datetime.now(PT).isoformat()
         budget -= 1
         print("uploaded", e["slug"], e["stem"], e["video_id"])
