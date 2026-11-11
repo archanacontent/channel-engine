@@ -27,12 +27,14 @@ motion comics. You get one scanned comic page.
    box_2d as [ymin, xmin, ymax, xmax] on a 0-1000 scale, tight to the panel's border. Ignore the
    title banner, signature and newspaper margins.
 2. For each panel, transcribe its lettering: speech, thought and caption text, exactly as printed,
-   keeping old spelling and dialect. Fix only line-break hyphens. If a panel has no text, give it
+   keeping old spelling and dialect, but written in normal sentence case (the lettering is in
+   capitals; write "Be careful you don't tip over." not "BE CAREFUL YOU DON'T TIP OVER"), with
+   names capitalised and end punctuation added. Fix only line-break hyphens. If a panel has no text, give it
    no lines. Give each line a speaker (the character's name if the page shows it, else a short
    description like "Mother" or "Policeman"; captions use "Narrator") and a voice from:
    narrator, boy, girl, man, woman, old_man, creature.
-3. If the dialogue on the page totals more than 150 words, shorten long lines by cutting words
-   only, never adding or rewording, and set "abridged" true.
+3. If the dialogue on the page totals more than 200 words, shorten long lines by cutting words
+   only, never adding or rewording, until it is under 200, and set "abridged" true.
 4. Write "hook": one line, at most 14 words, spoken by our narrator over the first panel. It sets
    up the comedy of what is on this page without giving away the ending. Present tense. Funny,
    warm, modern, never mean.
@@ -70,6 +72,23 @@ def fetch_image(rec):
     return path
 
 
+NAMES = {"nemo", "flip", "morpheus", "slumberland", "somnus", "oomp", "sammy", "moontown", "pill", "princess",
+         "silas", "papa", "mama", "god"}
+
+
+def sentence_case(text, names=()):
+    """Turns all-capitals lettering into sentence case, keeping names capitalised."""
+    letters = [c for c in text if c.isalpha()]
+    if not letters or sum(c.isupper() for c in letters) / len(letters) < 0.6:
+        return text
+    keep = NAMES | {n.lower() for n in names}
+    out = re.sub(r"[A-Za-z']+", lambda m: m[0].capitalize() if m[0].lower().strip("'") in keep else m[0].lower(), text)
+    out = re.sub(r"(^|[.!?]\s+|(?:^|\s)['\"])([a-z])", lambda m: m[1] + m[2].upper(), out)
+    out = re.sub(r"\bi\b", "I", out)
+    out = re.sub(r"\bi'", "I'", out)
+    return out
+
+
 def check(ep):
     errs = []
     panels = ep.get("panels") or []
@@ -84,8 +103,8 @@ def check(ep):
     words = sum(len(l.get("text", "").split()) for p in panels for l in p.get("lines") or [])
     if words == 0:
         errs.append("No lettering transcribed.")
-    if words > 190:
-        errs.append(f"Dialogue totals {words} words; abridge to 150 by cutting words.")
+    if words > 240:
+        errs.append(f"Dialogue totals {words} words; abridge to under 200 by cutting words from long lines.")
     for k, n in (("hook", 14), ("closer", 16)):
         if not ep.get(k) or len(ep[k].split()) > n + 3:
             errs.append(f"{k} must be one line of at most {n} words.")
@@ -118,6 +137,11 @@ def write_comic(brand, rec):
         return None, "; ".join(errs[:4])
     for k in ("title", "hook", "closer", "summary"):
         ep[k] = DASHES.sub(", ", ep[k]).strip()
+    speakers = {w for p in ep["panels"] for l in p["lines"] for w in l["speaker"].split()}
+    for p in ep["panels"]:
+        for l in p["lines"]:
+            l["text"] = sentence_case(DASHES.sub(", ", l["text"]), speakers)
+            l["speaker"] = l["speaker"].title() if l["speaker"].isupper() else l["speaker"]
     year = rec["date"][:4]
     out = {
         "format": "comic",
