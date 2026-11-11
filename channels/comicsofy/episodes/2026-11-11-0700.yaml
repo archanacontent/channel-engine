@@ -1,0 +1,87 @@
+format: strip
+kind: image
+title: Cozy Nook
+premise: Pim spends all morning building the ultimate cozy reading nook, only for Soot to immediately take ownership of it.
+panels:
+- room: living_room
+  cast:
+  - who: Pim
+    mood: excited
+    pos: left
+    size: medium
+    flip: false
+  - who: Soot
+    mood: flat
+    pos: right
+    size: small
+    flip: false
+  lines:
+  - who: Pim
+    text: Behold! The ultimate autumn reading nook.
+  props:
+  - name: book
+    spot: center
+- room: living_room
+  cast:
+  - who: Pim
+    mood: proud
+    pos: left
+    size: medium
+    flip: false
+  - who: Soot
+    mood: pleased
+    pos: center
+    size: small
+    flip: false
+  lines:
+  - who: Pim
+    text: Fluffy pillows, warm lighting, perfectly arranged.
+  props:
+  - name: book
+    spot: center
+- room: living_room
+  cast:
+  - who: Pim
+    mood: nervous
+    pos: left
+    size: medium
+    flip: false
+  - who: Soot
+    mood: sleeping
+    pos: center
+    size: small
+    flip: false
+  lines:
+  - who: Pim
+    text: Wait, where am I supposed to sit?
+  props:
+  - name: book
+    spot: center
+- room: living_room
+  cast:
+  - who: Pim
+    mood: sad
+    pos: left
+    size: medium
+    flip: false
+  - who: Soot
+    mood: smug
+    pos: center
+    size: small
+    flip: false
+  lines:
+  - who: Soot
+    text: The floor has character.
+  props:
+  - name: book
+    spot: center
+caption: 'Built with love. Claimed by law of cat.
+
+
+  #comics #webcomic #pimandsoot #catcomic #ghost #cozyvibes'
+description:
+  summary: Built with love. Claimed by law of cat.
+series: Pim and Soot Comic
+record_id: strip:image:1794388341875958402:0
+auto: true
+instagram_hashtags_rotating: []

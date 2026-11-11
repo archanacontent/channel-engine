@@ -1,0 +1,75 @@
+format: strip
+kind: reel
+title: Laundry Day
+premise: Pim attempts to fold a fitted sheet, overcomplicates the process, and ends up completely wrapped inside it.
+panels:
+- room: living_room
+  cast:
+  - who: Pim
+    mood: determined
+    pos: left
+    size: medium
+    holding: sheet
+  - who: Soot
+    mood: flat
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: I watched a tutorial online. Corner to corner!
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: nervous
+    pos: center
+    size: medium
+    holding: sheet
+  - who: Soot
+    mood: flat
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: Wait. Which corner is this?
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: peek
+    pos: center
+    size: medium
+    holding: sheet
+  - who: Soot
+    mood: flat
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: Soot? I am trapped in the sheet dimension.
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: sad
+    pos: center
+    size: medium
+    holding: sheet
+  - who: Soot
+    mood: smug
+    pos: right
+    size: medium
+  lines:
+  - who: Soot
+    text: It happens.
+  props: []
+caption: 'Fitted sheets are a ghost''s greatest natural enemy.
+
+
+  #comics #webcomic #pimandsoot #ghosts #relatablehumor #laundryday #cats'
+description:
+  summary: Fitted sheets are a ghost's greatest natural enemy.
+series: Pim and Soot Reel
+record_id: strip:reel:1794388577151913445:0
+auto: true
+instagram_hashtags_rotating: []
