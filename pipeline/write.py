@@ -147,10 +147,12 @@ def _call(model, system, user, key, schema=None, image=None):
                    "contents": [{"role": "user", "parts": [{"text": user}]}]}
         if image:
             payload["contents"][0]["parts"].insert(0, {"inlineData": {"mimeType": "image/jpeg", "data": image}})
+    if model.startswith("gemini-3") and os.environ.get("GEMINI_THINKING", "low") != "default":
+        cfg["thinkingConfig"] = {"thinkingLevel": os.environ.get("GEMINI_THINKING", "low")}
     payload["generationConfig"] = cfg
     req = urllib.request.Request(API.format(m=model), data=json.dumps(payload).encode(), method="POST",
                                  headers={"Content-Type": "application/json", "x-goog-api-key": key})
-    with urllib.request.urlopen(req, timeout=180) as r:
+    with urllib.request.urlopen(req, timeout=100) as r:
         data = json.loads(r.read())
     parts = [p.get("text", "") for p in data["candidates"][0]["content"]["parts"] if not p.get("thought")]
     text = parts[-1].strip()
@@ -182,6 +184,9 @@ def generate(system, user, schema=None, image=None):
                 if e.code in (429, 500, 503):
                     print(f"  gemini {model}: HTTP {e.code}, retrying", flush=True)
                     time.sleep(12 * (attempt + 1))
+                    continue
+                if e.code == 400 and "thinking" in body.lower() and os.environ.get("GEMINI_THINKING") != "default":
+                    os.environ["GEMINI_THINKING"] = "default"   # this API version rejects the setting; drop it
                     continue
                 if e.code == 404:
                     SPENT.add(model)

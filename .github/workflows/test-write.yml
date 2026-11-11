@@ -42,6 +42,7 @@ jobs:
       - name: Show scripts and push preview frames
         if: always()
         run: |
+          shopt -s nullglob
           for f in out/*/episodes/*.yaml; do echo "=== $f"; cat "$f"; done
           mkdir -p previews
           for v in out/*/*.mp4; do b=$(basename "$v" .mp4)
