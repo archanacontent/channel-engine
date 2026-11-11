@@ -8,26 +8,28 @@ import subprocess
 import tempfile
 from datetime import datetime, timezone
 
-from pipeline.upload import QUEUE, TICK, load, update_issues
+from pipeline.upload import QUEUE, load, update_issues, week_of
+from review.approvals import is_approved, ticked
 from publish.youtube import publish
 
 
-def ticked_ids():
-    raw = subprocess.run(["gh", "issue", "list", "--label", "review", "--state", "open", "--json", "body",
+def approved_keys(queue):
+    raw = subprocess.run(["gh", "issue", "list", "--label", "review", "--state", "open", "--json", "title,body",
                           "--limit", "20"], capture_output=True, text=True, check=True).stdout
-    ids = set()
+    keys = set()
     for issue in json.loads(raw or "[]"):
-        ids |= set(TICK.findall(issue["body"]))
-    return ids
+        week = issue["title"].rsplit(" ", 1)[-1]
+        keys |= ticked(issue["body"], [e for e in queue if week_of(e) == week])
+    return keys
 
 
 def main():
     queue = load(QUEUE, [])
     now = datetime.now(timezone.utc)
-    ok = ticked_ids()
+    ok = approved_keys(queue)
     changed = False
     for e in sorted(queue, key=lambda x: x["publish_at"]):
-        if e.get("status") != "uploaded" or e.get("video_id") not in ok:
+        if e.get("status") != "uploaded" or not is_approved(e, ok):
             continue
         if datetime.fromisoformat(e["publish_at"]) > now:
             continue

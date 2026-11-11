@@ -1,0 +1,26 @@
+name: Review edited
+
+# When a bulk box ("Approve every Short in this week" or "Approve all of <day>")
+# is ticked, tick every Short it covers and clear the bulk box.
+on:
+  issues:
+    types: [edited]
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: review-${{ github.event.issue.number }}
+  cancel-in-progress: false
+
+jobs:
+  expand:
+    if: contains(github.event.issue.body, '**Approve ')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Expand bulk approvals
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python -m review.expand ${{ github.event.issue.number }}

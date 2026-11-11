@@ -104,29 +104,7 @@ def upload_pending(queue):
     print(f"{left} Shorts still waiting for upload")
 
 
-TICK = re.compile(r"- \[[xX]\] `([A-Za-z0-9_-]{11})`")
-
-
-def review_body(entries, ticked):
-    out = ["Tick each Short you approve. Unticked Shorts stay private and never post.",
-           "Watch them in the YouTube Studio app under Content, filtered to Private.",
-           "Ticked Shorts go public at their slot (US Eastern time), with playlist and captions added.", ""]
-    days = {}
-    for e in sorted(entries, key=lambda x: x["publish_at"]):
-        days.setdefault(e["publish_at"][:10], []).append(e)
-    for day, items in days.items():
-        out.append(f"### {datetime.fromisoformat(day).strftime('%A %d %B')}")
-        for e in items:
-            t = e["publish_at"][11:16]
-            if e.get("video_id"):
-                box = "x" if e["video_id"] in ticked else " "
-                state = " (published)" if e["status"] == "published" else ""
-                out.append(f"- [{box}] `{e['video_id']}` {t} · **{e['channel']}** · {e['series']}: "
-                           f"[{e['title']}](https://studio.youtube.com/video/{e['video_id']}/edit){state}")
-            else:
-                out.append(f"- ⏳ {t} · **{e['channel']}** · {e['series']}: {e['title']} (uploads within a day)")
-        out.append("")
-    return "\n".join(out)
+from review.approvals import TICK, review_body, ticked  # noqa: E402
 
 
 def week_of(e):
@@ -143,8 +121,8 @@ def update_issues(queue):
         found = json.loads(sh("gh", "issue", "list", "--label", "review", "--state", "open", "--search",
                               f'"{title}" in:title', "--json", "number,title,body").stdout or "[]")
         found = [i for i in found if i["title"] == title]
-        ticked = set(TICK.findall(found[0]["body"])) if found else set()
-        body = review_body(entries, ticked)
+        ticks = ticked(found[0]["body"], entries) if found else set()
+        body = review_body(entries, ticks)
         if found:
             sh("gh", "issue", "edit", str(found[0]["number"]), "--body", body)
         elif any(e.get("video_id") for e in entries):
