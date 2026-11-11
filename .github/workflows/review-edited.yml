@@ -7,16 +7,16 @@ on:
     types: [edited]
 
 permissions:
-  contents: read
+  contents: write
   issues: write
 
 concurrency:
-  group: review-${{ github.event.issue.number }}
+  group: review-schedule
   cancel-in-progress: false
 
 jobs:
   expand:
-    if: contains(github.event.issue.body, '**Approve ')
+    if: contains(github.event.issue.title, 'Review:')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -24,3 +24,24 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: python -m review.expand ${{ github.event.issue.number }}
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12", cache: pip }
+      - run: pip install -q google-api-python-client google-auth pyyaml
+      - name: Hand approved Shorts to YouTube's scheduler
+        env:
+          GH_TOKEN: ${{ github.token }}
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_ASKED_AND_ANSWERED: ${{ secrets.YT_REFRESH_ASKED_AND_ANSWERED }}
+          YT_REFRESH_AUTOMATION_SHELF: ${{ secrets.YT_REFRESH_AUTOMATION_SHELF }}
+          YT_REFRESH_BREACH_BRIEF: ${{ secrets.YT_REFRESH_BREACH_BRIEF }}
+          YT_REFRESH_PLAIN_DOCS: ${{ secrets.YT_REFRESH_PLAIN_DOCS }}
+          YT_REFRESH_DEEP_FIELD: ${{ secrets.YT_REFRESH_DEEP_FIELD }}
+        run: python -m review.schedule
+      - name: Save queue
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add queue
+          git diff --cached --quiet || git commit -m "Scheduled approved Shorts"
+          for i in 1 2 3; do git pull --rebase -q && git push && break; sleep 5; done

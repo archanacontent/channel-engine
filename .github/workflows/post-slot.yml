@@ -43,7 +43,7 @@ jobs:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_PAGE_ID: ${{ secrets.IG_PAGE_ID }}
           IG_PAGE_TOKEN: ${{ secrets.IG_PAGE_TOKEN }}
-        run: python -m review.slot_check
+        run: python -m review.slot_check && python -m review.schedule
       - name: Save queue
         run: |
           git config user.name "github-actions[bot]"

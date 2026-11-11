@@ -66,7 +66,7 @@ def review_body(entries, ticks):
             t = e["publish_at"][11:16]
             box = "x" if is_approved(e, ticks) else " "
             if e.get("video_id"):
-                state = " (published)" if e["status"] == "published" else ""
+                state = {"published": " (published)", "scheduled": " (scheduled on YouTube)"}.get(e["status"], "")
                 out.append(f"- [{box}] `{e['video_id']}` {t} · **{e['channel']}** · {e['series']}: "
                            f"[{e['title']}](https://studio.youtube.com/video/{e['video_id']}/edit){state}")
             elif e.get("platform") == "instagram":

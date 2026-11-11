@@ -31,7 +31,7 @@ jobs:
           YT_REFRESH_PLAIN_DOCS: ${{ secrets.YT_REFRESH_PLAIN_DOCS }}
           YT_REFRESH_DEEP_FIELD: ${{ secrets.YT_REFRESH_DEEP_FIELD }}
           YT_REFRESH_DREAM_COMICS: ${{ secrets.YT_REFRESH_DREAM_COMICS }}
-        run: python -m pipeline.upload
+        run: python -m pipeline.upload && python -m review.schedule
       - name: Save queue
         run: |
           git config user.name "github-actions[bot]"

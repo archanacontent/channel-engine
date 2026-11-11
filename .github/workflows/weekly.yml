@@ -70,7 +70,7 @@ jobs:
           YT_REFRESH_BREACH_BRIEF: ${{ secrets.YT_REFRESH_BREACH_BRIEF }}
           YT_REFRESH_PLAIN_DOCS: ${{ secrets.YT_REFRESH_PLAIN_DOCS }}
           YT_REFRESH_DEEP_FIELD: ${{ secrets.YT_REFRESH_DEEP_FIELD }}
-        run: python -m pipeline.upload --collect collected --release shorts-${{ github.run_id }}
+        run: python -m pipeline.upload --collect collected --release shorts-${{ github.run_id }} && python -m review.schedule
       - name: Save queue and scripts
         if: always()
         run: |
