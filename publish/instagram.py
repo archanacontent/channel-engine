@@ -113,6 +113,8 @@ if __name__ == "__main__":
         for f in sys.argv[2:]:
             fn = post_reel if f.endswith(".mp4") else post_image
             print(f, fn(f, "test", dry=True))
+    elif cmd == "post":    # python -m publish.instagram post FILE CAPTION_FILE
+        print("posted", publish(sys.argv[2], Path(sys.argv[3]).read_text()))
     elif cmd == "delete":
         for m in sys.argv[2:]:
             print(m, delete(m))
