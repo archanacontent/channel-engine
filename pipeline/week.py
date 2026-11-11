@@ -43,6 +43,8 @@ def main():
     brand = yaml.safe_load((chan / "brand.yaml").read_text())
     if brand.get("format") == "comic":
         from pipeline.comic import write_comic as writer
+    elif brand.get("format") == "strip":
+        from strips.write import write_strip as writer
     else:
         writer = write_episode
     out = Path(a.out) / a.slug
@@ -115,14 +117,16 @@ def main():
             print(f"  script ready in {time.time() - t0:.0f}s", flush=True)
             r = subprocess.run([sys.executable, "-m", "render.build", str(ep_path), "--out", a.out],
                                capture_output=True, text=True)
-            if r.returncode != 0 or not (out / f"{stem}.mp4").exists():
+            made = next((out / f"{stem}{x}" for x in (".mp4", ".png") if (out / f"{stem}{x}").exists()), None)
+            if r.returncode != 0 or not made:
                 failures.append(f"{stem}: render failed: {r.stderr[-400:]}")
                 continue
             meta = json.loads((out / f"{stem}.json").read_text())
             manifest.append({
                 "slug": a.slug, "channel": brand["name"], "series": rec["series"], "title": meta["title"],
                 "stem": stem, "record_id": rec["id"], "publish_at": when.isoformat(),
-                "meta": meta, "srt": (out / f"{stem}.srt").read_text(), "status": "rendered",
+                "meta": meta, "srt": (out / f"{stem}.srt").read_text() if (out / f"{stem}.srt").exists() else "",
+                "status": "rendered", "file": made.name, "platform": brand.get("platform", "youtube"),
             })
             (out / "manifest.json").write_text(json.dumps(manifest, indent=1, ensure_ascii=False))
             (out / "failures.txt").write_text("\n".join(failures))

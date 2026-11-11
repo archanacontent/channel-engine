@@ -45,7 +45,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        slug: [asked-and-answered, automation-shelf, breach-brief, plain-docs, deep-field, dream-comics]
+        slug: [asked-and-answered, automation-shelf, breach-brief, plain-docs, deep-field, comicsofy]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -57,6 +57,9 @@ jobs:
       - uses: actions/cache@v4
         with: { path: ~/.cache/kokoro, key: kokoro-v1.0 }
       - run: bash scripts/setup_models.sh
+      - name: Browser for drawing comics
+        if: ${{ contains(matrix.slug || inputs.slug, 'comicsofy') }}
+        run: pip install -q playwright && python -m playwright install --with-deps chromium
       - name: Write and render
         timeout-minutes: 150
         env:

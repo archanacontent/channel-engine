@@ -25,6 +25,9 @@ jobs:
       - uses: actions/cache@v4
         with: { path: ~/.cache/kokoro, key: kokoro-v1.0 }
       - run: bash scripts/setup_models.sh
+      - name: Browser for drawing comics
+        if: ${{ contains(matrix.slug || inputs.slug, 'comicsofy') }}
+        run: pip install -q playwright && python -m playwright install --with-deps chromium
       - env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GITHUB_TOKEN: ${{ github.token }}
@@ -44,6 +47,7 @@ jobs:
           for v in out/*/*.mp4; do b=$(basename "$v" .mp4)
             ffmpeg -loglevel error -i "$v" -vf "fps=1/6,scale=360:-1,tile=5x1" -frames:v 1 "previews/$b.jpg"
             cp "$v" "previews/$b.mp4"; done
+          cp out/*/*.png previews/ 2>/dev/null || true
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -q --orphan previews-${{ github.run_id }}

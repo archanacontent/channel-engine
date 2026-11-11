@@ -23,30 +23,43 @@ def approved_keys(queue):
     return keys
 
 
+def post_instagram(e):
+    from pipeline.upload import STAGE, asset
+    from publish.instagram import publish as ig_publish
+    STAGE.mkdir(exist_ok=True)
+    f = STAGE / asset(e)
+    if not f.exists():
+        subprocess.run(["gh", "release", "download", e["release"], "--pattern", asset(e), "--dir", str(STAGE)], check=True)
+    return ig_publish(f, e["meta"]["instagram_caption"])
+
+
 def main():
     queue = load(QUEUE, [])
     now = datetime.now(timezone.utc)
     ok = approved_keys(queue)
     changed = False
     for e in sorted(queue, key=lambda x: x["publish_at"]):
-        if e.get("status") != "uploaded" or not is_approved(e, ok):
+        if e.get("status") not in ("uploaded", "ready") or not is_approved(e, ok):
             continue
         if datetime.fromisoformat(e["publish_at"]) > now:
             continue
-        srt = None
-        if e.get("srt"):
-            srt = tempfile.NamedTemporaryFile("w", suffix=".srt", delete=False)
-            srt.write(e["srt"])
-            srt.close()
         try:
-            publish(e["slug"], e["video_id"], e["meta"], srt.name if srt else None)
+            if e.get("platform") == "instagram":
+                e["ig_media_id"] = post_instagram(e)
+            else:
+                srt = None
+                if e.get("srt"):
+                    srt = tempfile.NamedTemporaryFile("w", suffix=".srt", delete=False)
+                    srt.write(e["srt"])
+                    srt.close()
+                publish(e["slug"], e["video_id"], e["meta"], srt.name if srt else None)
         except Exception as ex:
-            print("publish failed", e["slug"], e["video_id"], ex)
+            print("publish failed", e["slug"], e.get("video_id") or e["stem"], ex)
             continue
         e["status"] = "published"
         e["published_at"] = now.isoformat()
         changed = True
-        print("published", e["slug"], e["video_id"], e["title"])
+        print("published", e["slug"], e.get("video_id") or e.get("ig_media_id"), e["title"])
     if changed:
         QUEUE.write_text(json.dumps(queue, indent=1, ensure_ascii=False))
         update_issues(queue)

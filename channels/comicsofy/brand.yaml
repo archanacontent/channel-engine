@@ -1,0 +1,21 @@
+name: Comicsofy
+slug: comicsofy
+format: strip
+platform: instagram
+handle: "@comicsofy"
+series_title: Pim & Soot
+end_line: A new Pim & Soot every day. Follow @comicsofy
+palette:
+  background: "#2b2440"
+  accent: "#f4d03f"
+  highlight: "#ffb3c1"
+  text: "#fffdf7"
+  muted_text: "#c8bedc"
+voices:
+  Pim: { voice: af_sky, speed: 1.12, lang: en-us, pitch: 1.18 }
+  Soot: { voice: am_onyx, speed: 0.9, lang: en-us, pitch: 0.94 }
+music: { source: generated, gain_db: -20 }
+series:
+  - { slot: "11:00", name: Pim and Soot Comic, kind: image }
+  - { slot: "19:00", name: Pim and Soot Reel, kind: reel }
+hashtags: ["#comics", "#webcomic", "#pimandsoot"]

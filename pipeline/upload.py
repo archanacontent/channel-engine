@@ -36,7 +36,8 @@ def load(p, default):
 
 
 def asset(e):
-    return f"{e['slug']}--{e['stem']}.mp4"
+    ext = Path(e.get("file", e["stem"] + ".mp4")).suffix or ".mp4"
+    return f"{e['slug']}--{e['stem']}{ext}"
 
 
 def collect(src, release, queue):
@@ -49,9 +50,11 @@ def collect(src, release, queue):
         for e in json.loads(man.read_text()):
             if (e["slug"], e["stem"]) in known:
                 continue
-            mp4 = chan_out / f"{e['stem']}.mp4"
+            mp4 = chan_out / e.get("file", f"{e['stem']}.mp4")
             if not mp4.exists():
                 continue
+            if e.get("platform") == "instagram":
+                e["status"] = "ready"   # Instagram has no private uploads; it posts straight from storage at its slot
             dst = STAGE / asset(e)
             shutil.copy(mp4, dst)
             files.append(str(dst))

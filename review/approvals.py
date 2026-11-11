@@ -5,7 +5,9 @@ Every Short has its own box, keyed by its YouTube id once uploaded, or by
 Two kinds of bulk box approve many at once and then clear themselves:
 "Approve every Short in this week" and "Approve all of <day>".
 """
+import os
 import re
+from pathlib import Path
 from datetime import datetime
 
 TICK = re.compile(r"- \[[xX]\] `([A-Za-z0-9_.:-]+)`")
@@ -55,6 +57,13 @@ def review_body(entries, ticks):
                 state = " (published)" if e["status"] == "published" else ""
                 out.append(f"- [{box}] `{e['video_id']}` {t} · **{e['channel']}** · {e['series']}: "
                            f"[{e['title']}](https://studio.youtube.com/video/{e['video_id']}/edit){state}")
+            elif e.get("platform") == "instagram":
+                repo = os.environ.get("GITHUB_REPOSITORY", "archanacontent/channel-engine")
+                ext = Path(e.get("file", "x.mp4")).suffix
+                link = f"https://github.com/{repo}/releases/download/{e['release']}/{e['slug']}--{e['stem']}{ext}"
+                state = " (posted)" if e["status"] == "published" else ""
+                kind = "Reel" if ext == ".mp4" else "Image"
+                out.append(f"- [{box}] `{key(e)}` {t} · **{e['channel']}** (Instagram {kind}): [{e['title']}]({link}){state}")
             else:
                 out.append(f"- [{box}] `{key(e)}` ⏳ {t} · **{e['channel']}** · {e['series']}: {e['title']}")
         out.append("")

@@ -129,6 +129,18 @@ def main():
     out.mkdir(parents=True, exist_ok=True)
     stem = Path(a.episode).stem
 
+    if ep.get("format") == "strip":
+        from strips.render import render_image, render_reel
+        meta = {"channel": brand["name"], "series": ep.get("series"), "title": ep["title"][:100],
+                "instagram_caption": ep["caption"], "kind": ep["kind"]}
+        if ep["kind"] == "image":
+            render_image(ep, out / f"{stem}.png")
+        else:
+            meta["duration_s"] = round(render_reel(ep, brand["voices"], out / f"{stem}.mp4", brand), 2)
+        (out / f"{stem}.json").write_text(json.dumps(meta, indent=2))
+        print("done", stem, ep["kind"])
+        return
+
     if ep.get("format") == "comic":
         from render.comic import render_comic
         return render_comic(brand, ep, chan_dir, out, stem, metadata, srt)

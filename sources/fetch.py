@@ -428,6 +428,14 @@ def doc_types(used):
 
 from sources.comics import comic_records  # noqa: E402
 
+
+def strip_records(series, kind):
+    """Original comics need no source material: each record is a fresh, unique slot."""
+    import time
+    for n in itertools.count():
+        yield {"id": f"strip:{kind}:{time.time_ns()}:{n}", "series": series, "kind": kind, "headline": series,
+               "facts": "", "sources": []}
+
 SERIES = {
     "asked-and-answered": {"Buyers Asked": buyers_asked, "The Fix": the_fix, "Trend Check": trend_check},
     "automation-shelf": {"Stop Doing This": lambda u: n8n_templates(u, "Stop Doing This"),
@@ -436,6 +444,8 @@ SERIES = {
     "breach-brief": {"Exploited Today": exploited_today, "Breach Watch": breach_watch, "Scam Alert": scam_alert},
     "plain-docs": {"Rewrite This": rewrite_this, "One Rule": one_rule, "Doc Types": doc_types},
     "deep-field": {"Look Closer": look_closer, "Mission Log": mission_log, "Scale It": scale_it},
+    "comicsofy": {"Pim and Soot Comic": lambda u: strip_records("Pim and Soot Comic", "image"),
+                  "Pim and Soot Reel": lambda u: strip_records("Pim and Soot Reel", "reel")},
     "dream-comics": {"Little Nemo": lambda u: comic_records(["nemo"], "Little Nemo", u),
                      "Sneeze and Fiends": lambda u: comic_records(["sammy", "rarebit"], "Sneeze and Fiends", u)},
 }
