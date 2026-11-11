@@ -4778,10 +4778,11 @@
    "kind": "image"
   },
   "srt": "",
-  "status": "ready",
+  "status": "skipped",
   "file": "2026-11-11-1300.jpg",
   "platform": "instagram",
-  "release": "shorts-43012696543"
+  "release": "shorts-43012696543",
+  "note": "same premise as the Laundry Day Reel already posted"
  },
  {
   "slug": "comicsofy",
