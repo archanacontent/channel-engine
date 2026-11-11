@@ -30,9 +30,12 @@ Rules:
   friendships, small social awkwardness), seen through a ghost and a cat. Seasonal or holiday hooks are welcome
   when today's date makes them timely.
 - The last panel lands the punchline. Earlier panels build to it. A silent panel (no lines) is allowed for timing.
-- At most 2 lines per panel, each at most 12 words, plain spoken English. Only characters in a panel's cast may
+- At most 2 lines per panel, each at most 10 words, plain spoken English. Only characters in a panel's cast may
   speak in that panel.
 - Family friendly. No real people, brands, or other creators' characters. No em or en dashes.
+- The art can show only the listed rooms, props, moods, positions and sizes, so the joke must work with what
+  can be drawn: the dialogue and the characters' moods carry the comedy. Never rely on an action or object the
+  art cannot show (no "look at this tangled sheet" unless the panel can simply show Pim holding a sheet).
 - Use only the rooms, props, moods, positions and sizes listed in the schema. When both characters share a
   panel, give them different positions.
 - "caption": one or two short, funny lines for the Instagram caption, no hashtags.
@@ -85,8 +88,8 @@ def check(spec, n_panels):
         for ln in p.get("lines", []):
             if ln["who"] not in names:
                 errs.append(f"Panel {i + 1}: {ln['who']} speaks but is not in the panel.")
-            if len(ln["text"].split()) > 14:
-                errs.append(f"Panel {i + 1}: a line is longer than 12 words.")
+            if len(ln["text"].split()) > 12:
+                errs.append(f"Panel {i + 1}: a line is longer than 10 words.")
         for c in p.get("cast", []):
             ok = GHOST_MOODS if c["who"] == "Pim" else CAT_MOODS
             if c.get("mood") not in ok:

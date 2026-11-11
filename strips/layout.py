@@ -31,8 +31,20 @@ def place(c, room):
     return x, y, s, head
 
 
+def spread(cast):
+    """Two characters in one panel stand at the far sides so they never overlap."""
+    if len(cast) == 2:
+        order = sorted(range(2), key=lambda j: X.get(cast[j].get("pos", "center"), 256))
+        cast[order[0]]["pos"], cast[order[1]]["pos"] = "left", "right"
+        for c in cast:
+            if c.get("size") == "large":
+                c["size"] = "medium"
+    return cast
+
+
 def panel_html(i, p):
     room = p["room"]
+    spread(p.get("cast", []))
     art = [f'<g class="layer bg">{ROOMS[room]()}</g>']
     floor = FLOOR[room]
     heads = {}
@@ -79,13 +91,9 @@ function layout() {
       let left = Math.min(Math.max(hx - w / 2, 14), PW - w - 14);
       if (bs.length > 1) left = Math.min(Math.max(hx - w / 2 + (k % 2 ? 30 : -30), 14), PW - w - 14);
       top = Math.max(top, Math.min(hy - 60 - h, PH * 0.42 - h));   // sit close above the speaker
-      if (top + h > hy - 26) {  // would cover the speaker's head: move beside it instead
-        const side = hx > PW / 2 ? -1 : 1;
-        left = Math.min(Math.max(hx + side * (w / 2 + 70) - w / 2, 14), PW - w - 14);
-      }
       b.style.left = left + 'px'; b.style.top = top + 'px';
       const bx = Math.min(Math.max(hx, left + 40), left + w - 40), by = top + h - 8;
-      const ty = Math.max(by + 26, hy - 14);
+      const ty = Math.max(by + 20, Math.min(hy - 10, by + 70));
       const tx = hx + (bx - hx) * 0.15;
       const ns = 'http://www.w3.org/2000/svg';
       const t = document.createElementNS(ns, 'path');
@@ -117,8 +125,8 @@ html, body {{ margin: 0; background: #fffdf7; }}
 .grid {{ display: grid; grid-template-columns: repeat({cols}, {PW}px); gap: {G}px; }}
 .p {{ position: relative; width: {PW}px; height: {PH}px; overflow: hidden; outline: 6px solid {INK}; outline-offset: -3px; background: #fff; }}
 .p svg {{ position: absolute; left: 0; top: 0; display: block; }}
-.b {{ position: absolute; max-width: 330px; min-width: 110px; width: max-content; background: #fff; border: 5px solid {INK};
-      border-radius: 46% / 50%; padding: 20px 26px; box-sizing: border-box; text-align: center; font-family: Hand;
+.b {{ position: absolute; max-width: 400px; min-width: 120px; width: max-content; background: #fff; border: 5px solid {INK};
+      border-radius: 44px; padding: 18px 26px; box-sizing: border-box; text-align: center; font-family: Hand;
       line-height: 1.08; color: {INK}; text-transform: uppercase; letter-spacing: 0.5px; }}
 .sig {{ font-family: Hand; font-size: 30px; color: #8a7f9c; text-align: right; padding: 6px 4px 10px 0; }}
 </style></head><body><div class="sheet"><div class="grid">{"".join(panels)}</div>

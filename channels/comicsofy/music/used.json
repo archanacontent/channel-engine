@@ -1,4 +1,30 @@
 {
+ "pim-soot-laundry-day": {
+  "bpm": 110,
+  "mode": "major",
+  "motif": [
+   6,
+   5,
+   0,
+   5,
+   0,
+   4
+  ],
+  "prog": 0,
+  "rhythm": [
+   0,
+   0,
+   1,
+   0,
+   0,
+   0,
+   1,
+   0
+  ],
+  "root": 7,
+  "seed": 85533709077492,
+  "sig": "7-major-0-110-650504"
+ },
  "reel1": {
   "bpm": 107,
   "mode": "major",

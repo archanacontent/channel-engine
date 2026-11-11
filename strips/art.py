@@ -55,7 +55,7 @@ def ghost(x, y, s=1.0, mood="happy", flip=False, talking=False, prop=None):
             else '<path d="M-80,6 Q-104,24 -100,44" /><path d="M80,6 Q104,24 100,44" />' if mood in ("sad", "sleepy")
             else '<path d="M-78,-4 Q-96,-30 -70,-46" /><path d="M78,-4 Q96,-30 70,-46" />' if mood in ("nervous", "surprised")
             else '<path d="M-80,10 Q-108,14 -112,-6" /><path d="M80,10 Q108,14 112,-6" />')
-    held = prop_svg(prop, 0, 40, 0.45) if prop else ""
+    held = prop_svg(prop, 118, 10, 0.42) if prop else ""
     return f'''<g transform="translate({x},{y}) scale({sx},{s})">
   <ellipse cx="0" cy="150" rx="70" ry="12" fill="#000" opacity="0.10"/>
   <path d="M-82,40 C-86,-70 -48,-122 0,-122 C48,-122 86,-70 82,40 L82,104 Q70,128 54,108 Q40,90 26,110 Q12,130 -2,110 Q-16,90 -30,110
@@ -98,7 +98,7 @@ def cat(x, y, s=1.0, mood="flat", flip=False, talking=False, prop=None):
                  }.get(mood, '<path d="M-9,-20 L9,-20" stroke="#e8e6f0" stroke-width="4" fill="none" stroke-linecap="round"/>')
     zzz = (f'<text x="56" y="-120" font-family="Hand" font-size="34" fill="{INK}">z</text>'
            f'<text x="78" y="-146" font-family="Hand" font-size="44" fill="{INK}">Z</text>' if mood == "sleeping" else "")
-    held = prop_svg(prop, 0, 70, 0.4) if prop else ""
+    held = prop_svg(prop, 96, 70, 0.4) if prop else ""
     return f'''<g transform="translate({x},{y}) scale({sx},{s})">
   <ellipse cx="0" cy="128" rx="78" ry="12" fill="#000" opacity="0.10"/>
   <path d="M58,110 C120,108 124,40 96,20 C84,12 76,26 88,34 C104,48 98,88 56,92" fill="{fur}" stroke="{INK}" stroke-width="6" stroke-linejoin="round"/>
