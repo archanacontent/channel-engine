@@ -87,32 +87,29 @@ def publish(slug, video_id, meta, srt_path=None):
         "privacyStatus": "public", "selfDeclaredMadeForKids": meta["made_for_kids"],
         "containsSyntheticMedia": meta["altered_content"] == "Yes", "embeddable": True,
         "publicStatsViewable": True}}).execute()
+    _extras(yt, video_id, meta)
+
+
+def _extras(yt, video_id, meta):
+    """Playlist is a nice-to-have; it must never block a release. (Captions are left to
+    YouTube's automatic captions: uploading them costs 400 of the 10,000 daily quota units.)"""
     if meta.get("playlist"):
-        yt.playlistItems().insert(part="snippet", body={"snippet": {
-            "playlistId": playlist_id(yt, meta["playlist"]),
-            "resourceId": {"kind": "youtube#video", "videoId": video_id}}}).execute()
-    if srt_path and Path(srt_path).exists():
-        yt.captions().insert(part="snippet", body={"snippet": {
-            "videoId": video_id, "language": meta["language"], "name": "English", "isDraft": False}},
-            media_body=MediaFileUpload(str(srt_path), mimetype="application/octet-stream")).execute()
+        try:
+            yt.playlistItems().insert(part="snippet", body={"snippet": {
+                "playlistId": playlist_id(yt, meta["playlist"]),
+                "resourceId": {"kind": "youtube#video", "videoId": video_id}}}).execute()
+        except Exception as e:
+            print("  playlist skipped:", str(e)[:120])
 
 
 def schedule(slug, video_id, meta, srt_path, when_utc):
-    """Hands the release to YouTube itself: the video goes public at exactly when_utc,
-    as a normal scheduled upload. Playlist and captions are attached now."""
+    """Hands the release to YouTube itself: the video goes public at exactly when_utc."""
     yt = client(slug)
     yt.videos().update(part="status", body={"id": video_id, "status": {
         "privacyStatus": "private", "publishAt": when_utc, "selfDeclaredMadeForKids": meta["made_for_kids"],
         "containsSyntheticMedia": meta["altered_content"] == "Yes", "embeddable": True,
         "publicStatsViewable": True}}).execute()
-    if meta.get("playlist"):
-        yt.playlistItems().insert(part="snippet", body={"snippet": {
-            "playlistId": playlist_id(yt, meta["playlist"]),
-            "resourceId": {"kind": "youtube#video", "videoId": video_id}}}).execute()
-    if srt_path and Path(srt_path).exists():
-        yt.captions().insert(part="snippet", body={"snippet": {
-            "videoId": video_id, "language": meta["language"], "name": "English", "isDraft": False}},
-            media_body=MediaFileUpload(str(srt_path), mimetype="application/octet-stream")).execute()
+    _extras(yt, video_id, meta)
 
 
 if __name__ == "__main__":
