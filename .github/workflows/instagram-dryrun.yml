@@ -1,0 +1,25 @@
+name: Instagram dry run
+
+# Run by hand: checks that Instagram accepts a sample image and Reel. Nothing is published.
+on:
+  workflow_dispatch:
+    inputs:
+      ref: { description: "Branch holding preview files", required: true }
+
+jobs:
+  dryrun:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with: { ref: "${{ inputs.ref }}", path: samples }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -q pillow
+      - env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_PAGE_ID: ${{ secrets.IG_PAGE_ID }}
+          IG_PAGE_TOKEN: ${{ secrets.IG_PAGE_TOKEN }}
+        run: |
+          python -c "from PIL import Image; Image.open('samples/previews/2026-11-16-1100.png').convert('RGB').save('sample.jpg', quality=95)"
+          python -m publish.instagram dryrun sample.jpg samples/previews/2026-11-16-1900.mp4

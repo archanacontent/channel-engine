@@ -64,13 +64,16 @@ def wait_ready(container, token, tries=60):
     raise RuntimeError("Instagram took too long to process the media")
 
 
-def post_image(path, caption):
+def post_image(path, caption, dry=False):
     ig, page, token = env()
     body, hdr = multipart({"published": "false", "temporary": "true", "access_token": token}, "source", path)
     photo = call("POST", f"{page}/photos", data=body, headers=hdr)["id"]
     src = max(call("GET", photo, {"fields": "images", "access_token": token})["images"], key=lambda i: i["width"])["source"]
     c = call("POST", f"{ig}/media", {"image_url": src, "caption": caption, "access_token": token})["id"]
     wait_ready(c, token)
+    if dry:
+        call("DELETE", photo, {"access_token": token})
+        return f"dry run ok, container {c} (not published)"
     media = call("POST", f"{ig}/media_publish", {"creation_id": c, "access_token": token})["id"]
     try:
         call("DELETE", photo, {"access_token": token})   # the stand-in Page photo is no longer needed
@@ -79,7 +82,7 @@ def post_image(path, caption):
     return media
 
 
-def post_reel(path, caption):
+def post_reel(path, caption, dry=False):
     ig, page, token = env()
     c = call("POST", f"{ig}/media", {"media_type": "REELS", "upload_type": "resumable", "caption": caption,
                                      "share_to_feed": "true", "access_token": token})["id"]
@@ -87,6 +90,8 @@ def post_reel(path, caption):
     call("POST", f"ig-api-upload/{V}/{c}", data=data, base="https://rupload.facebook.com",
          headers={"Authorization": f"OAuth {token}", "offset": "0", "file_size": str(len(data))})
     wait_ready(c, token)
+    if dry:
+        return f"dry run ok, container {c} (not published)"
     return call("POST", f"{ig}/media_publish", {"creation_id": c, "access_token": token})["id"]
 
 
@@ -104,6 +109,10 @@ if __name__ == "__main__":
     if cmd == "whoami":
         ig, _, token = env()
         print(call("GET", ig, {"fields": "username,media_count", "access_token": token}))
+    elif cmd == "dryrun":   # checks Instagram accepts the files without posting anything
+        for f in sys.argv[2:]:
+            fn = post_reel if f.endswith(".mp4") else post_image
+            print(f, fn(f, "test", dry=True))
     elif cmd == "delete":
         for m in sys.argv[2:]:
             print(m, delete(m))
