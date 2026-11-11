@@ -48,7 +48,7 @@ def multipart(fields, file_field, file_path):
         parts.append(f'--{b}\r\nContent-Disposition: form-data; name="{k}"\r\n\r\n{v}\r\n'.encode())
     data = Path(file_path).read_bytes()
     parts.append(f'--{b}\r\nContent-Disposition: form-data; name="{file_field}"; filename="{Path(file_path).name}"\r\n'
-                 f'Content-Type: image/png\r\n\r\n'.encode() + data + b"\r\n")
+                 f'Content-Type: image/jpeg\r\n\r\n'.encode() + data + b"\r\n")
     parts.append(f"--{b}--\r\n".encode())
     return b"".join(parts), {"Content-Type": f"multipart/form-data; boundary={b}"}
 

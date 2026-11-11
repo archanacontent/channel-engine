@@ -134,7 +134,7 @@ def main():
         meta = {"channel": brand["name"], "series": ep.get("series"), "title": ep["title"][:100],
                 "instagram_caption": ep["caption"], "kind": ep["kind"]}
         if ep["kind"] == "image":
-            render_image(ep, out / f"{stem}.png")
+            render_image(ep, out / f"{stem}.jpg")
         else:
             meta["duration_s"] = round(render_reel(ep, brand["voices"], out / f"{stem}.mp4", brand), 2)
         (out / f"{stem}.json").write_text(json.dumps(meta, indent=2))

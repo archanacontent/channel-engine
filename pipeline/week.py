@@ -117,7 +117,7 @@ def main():
             print(f"  script ready in {time.time() - t0:.0f}s", flush=True)
             r = subprocess.run([sys.executable, "-m", "render.build", str(ep_path), "--out", a.out],
                                capture_output=True, text=True)
-            made = next((out / f"{stem}{x}" for x in (".mp4", ".png") if (out / f"{stem}{x}").exists()), None)
+            made = next((out / f"{stem}{x}" for x in (".mp4", ".jpg", ".png") if (out / f"{stem}{x}").exists()), None)
             if r.returncode != 0 or not made:
                 failures.append(f"{stem}: render failed: {r.stderr[-400:]}")
                 continue

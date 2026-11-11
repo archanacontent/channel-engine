@@ -42,7 +42,7 @@ def render_image(spec, out):
     im = im.resize((round(im.width * k), round(im.height * k)), Image.LANCZOS)
     canvas = Image.new("RGB", (1080, 1350), (255, 253, 247))
     canvas.paste(im, ((1080 - im.width) // 2, (1350 - im.height) // 2))
-    canvas.save(out, quality=95)
+    canvas.save(out, "JPEG", quality=95, subsampling=0)
     return out
 
 

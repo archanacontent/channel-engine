@@ -48,7 +48,7 @@ jobs:
           for v in out/*/*.mp4; do b=$(basename "$v" .mp4)
             ffmpeg -loglevel error -i "$v" -vf "fps=1/6,scale=360:-1,tile=5x1" -frames:v 1 "previews/$b.jpg"
             cp "$v" "previews/$b.mp4"; done
-          cp out/*/*.png previews/ 2>/dev/null || true
+          cp out/*/*.png out/*/*.jpg previews/ 2>/dev/null || true
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -q --orphan previews-${{ github.run_id }}
