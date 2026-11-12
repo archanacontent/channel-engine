@@ -14,7 +14,8 @@ import tempfile
 from datetime import datetime, timedelta, timezone
 
 from pipeline.upload import QUEUE, load, update_issues, week_of
-from publish.youtube import add_captions, add_playlist, hold, publish, schedule
+from publish.youtube import add_captions, add_playlist, hold, publish, schedule, set_description
+from render.seo import with_keywords
 from review.approvals import is_held, ticked
 
 
@@ -73,6 +74,12 @@ def main():
             if e["meta"].get("playlist") and not e.get("playlist_done"):
                 add_playlist(e["slug"], e["video_id"], e["meta"])
                 e["playlist_done"] = True
+                changed = True
+            if not e.get("keywords_done"):
+                desc = with_keywords(e["slug"], e["meta"])
+                set_description(e["slug"], e["video_id"], e["meta"], desc)
+                e["meta"]["youtube_description"] = desc
+                e["keywords_done"] = True
                 changed = True
             if e.get("srt") and not e.get("captions_done"):
                 with tempfile.NamedTemporaryFile("w", suffix=".srt", delete=False) as f:

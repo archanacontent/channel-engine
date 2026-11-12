@@ -106,6 +106,13 @@ def add_captions(slug, video_id, meta, srt_path):
         media_body=MediaFileUpload(str(srt_path), mimetype="application/octet-stream")).execute()
 
 
+def set_description(slug, video_id, meta, description):
+    client(slug).videos().update(part="snippet", body={"id": video_id, "snippet": {
+        "title": meta["title"], "description": description, "tags": meta.get("tags", []),
+        "categoryId": meta["category_id"], "defaultLanguage": meta.get("language", "en"),
+        "defaultAudioLanguage": meta.get("language", "en")}}).execute()
+
+
 def hold(slug, video_id, meta):
     """Stops a release: the video stays private with no release time."""
     client(slug).videos().update(part="status", body={"id": video_id, "status": {

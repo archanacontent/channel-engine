@@ -93,7 +93,8 @@ def metadata(brand, ep, use_autocomplete=True):
         "series": series,
         "playlist": brand["seo"]["playlists"].get(series),
         "title": ep["title"][:100],
-        "youtube_description": fill_template(brand["description_template"], fields)[:5000],
+        "youtube_description": (fill_template(brand["description_template"], fields).rstrip()
+                                + seo.keyword_block(brand["slug"], seo.build_tags(brand, ep, False)))[:5000],
         "tags": seo.build_tags(brand, ep, use_autocomplete),
         "category_id": brand["seo"]["category_id"],
         "language": "en",

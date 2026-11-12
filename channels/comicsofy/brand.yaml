@@ -19,4 +19,11 @@ music: { source: generated, gain_db: -20 }
 series:
   - { slot: "13:00", name: Pim and Soot Comic, kind: image }
   - { slot: "18:00", name: Pim and Soot Reel, kind: reel }
-hashtags: ["#comics", "#webcomic", "#pimandsoot"]
+hashtags: ["#pimandsoot"]
+# Caption tail, in this order, under the caption and a dotted spacer.
+caption_tail:
+  - ["#comics", "#cartoon", "#digitalart", "#webcomic", "#comicbooks"]
+  - ["comic", "drawing", "art", "illustration", "artist", "sketch"]     # written without #, joined with |
+  - ["#manga", "#marvel", "#comicbook", "#anime", "#draw", "#artwork", "#fanart", "#comicstrip", "#funny",
+     "#marvelcomics", "#artistsoninstagram", "#comicsofy", "#doodle", "#webtoon", "#viral", "#viralcomics",
+     "#explorepage"]

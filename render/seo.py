@@ -80,3 +80,33 @@ def build_hashtags(brand, ep, limit):
         if len(out) >= limit:
             break
     return out
+
+
+SPACER = "\n.\n.\n.\n.\n"
+
+
+def keyword_block(slug, tags):
+    """Keyword line for the end of a YouTube description, set apart from the main text by
+    dotted spacer lines: the video's tags plus the channel's and series' keyword pools."""
+    import yaml
+    from pathlib import Path
+    brand = yaml.safe_load((Path(__file__).resolve().parent.parent / "channels" / slug / "brand.yaml").read_text())
+    seo = brand.get("seo", {})
+    words = list(tags) + list(seo.get("tag_pool", []))
+    for pool in (seo.get("series_pools") or {}).values():
+        words += pool.get("tags", [])
+    seen, out = set(), []
+    for w in words:
+        k = str(w).strip().lower()
+        if k and k not in seen:
+            seen.add(k)
+            out.append(str(w).strip())
+    return SPACER + " | ".join(out[:40])
+
+
+def with_keywords(slug, meta):
+    """Description with the keyword block appended once."""
+    desc = meta["youtube_description"]
+    if SPACER in desc:
+        return desc
+    return (desc.rstrip() + keyword_block(slug, meta.get("tags", [])))[:5000]

@@ -121,6 +121,9 @@ def upload_pending(queue):
             if r.returncode != 0:
                 print("missing asset", asset(e))
                 continue
+        from render.seo import with_keywords
+        e["meta"]["youtube_description"] = with_keywords(e["slug"], e["meta"])
+        e["keywords_done"] = True
         when = datetime.fromisoformat(e["publish_at"]).astimezone(timezone.utc)
         at = when.strftime("%Y-%m-%dT%H:%M:%SZ") if when > now + timedelta(minutes=15) else None
         try:

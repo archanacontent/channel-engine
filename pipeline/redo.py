@@ -8,11 +8,27 @@ next upload run deletes it and uploads the fixed one with the same release time.
 """
 import json
 import shutil
+from datetime import datetime, time, timedelta, timezone
+from zoneinfo import ZoneInfo
 import subprocess
 import sys
 from pathlib import Path
 
 from pipeline.upload import QUEUE, ROOT, STAGE, asset, load, sh
+
+
+ET = ZoneInfo("America/New_York")
+
+
+def free_extra_slot(queue, slug, hour=11):
+    """Next day from tomorrow (Eastern) where this channel has nothing at the extra hour."""
+    taken = {x["publish_at"] for x in queue if x["slug"] == slug}
+    d = datetime.now(ET).date() + timedelta(days=1)
+    while True:
+        when = datetime.combine(d, time(hour, 0), ET).isoformat()
+        if when not in taken:
+            return when
+        d += timedelta(days=1)
 
 
 def main(items):
@@ -38,10 +54,13 @@ def main(items):
         srt = Path("redo") / slug / f"{stem}.srt"
         if srt.exists():
             e["srt"] = srt.read_text()
-        if e.get("video_id") and e["status"] in ("scheduled", "uploaded", "held"):
+        live = datetime.fromisoformat(e["publish_at"]) <= datetime.now(timezone.utc)
+        if e.get("video_id") and e["status"] in ("scheduled", "uploaded", "held", "published"):
             e["replace"] = e.pop("video_id")
-        if e["status"] != "published":
-            e["status"] = "rendered"
+        if live:   # already out: the fixed copy goes out at an extra 11:00 Eastern slot
+            e["original_slot"] = e["publish_at"]
+            e["publish_at"] = free_extra_slot(queue, slug)
+        e["status"] = "rendered"
         for k in ("playlist_done", "captions_done", "uploaded_at"):
             e.pop(k, None)
         print("re-rendered", item, "(replaces " + e["replace"] + ")" if e.get("replace") else "")

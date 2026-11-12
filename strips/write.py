@@ -99,6 +99,23 @@ def check(spec, n_panels):
     return errs
 
 
+def instagram_caption(brand, text, gag_tags=()):
+    """Caption, dotted spacer, then the account's hashtag block. Instagram allows 30 hashtags."""
+    tail = brand.get("caption_tail") or []
+    lines, used = [], 0
+    for row in tail:
+        if row and not str(row[0]).startswith("#"):
+            lines.append(" | ".join(row))
+        else:
+            lines.append(" ".join(row))
+            used += len(row)
+    extra = [h for h in list(brand.get("hashtags", [])) + list(gag_tags)
+             if h.lower() not in " ".join(lines).lower().split()][:max(0, 30 - used)]
+    if extra:
+        lines[-1] = (lines[-1] + " " + " ".join(extra)).strip()
+    return text.strip() + "\n.\n.\n.\n" + "\n".join(lines)
+
+
 def write_strip(brand, rec):
     kind = rec.get("kind", "image")
     n_panels = (4, 4) if kind == "image" else (3, 4)
@@ -120,12 +137,11 @@ def write_strip(brand, rec):
         for ln in p["lines"]:
             ln["text"] = DASHES.sub(", ", ln["text"]).strip()
     tags = [h if h.startswith("#") else "#" + h for h in spec.get("hashtags", [])][:5]
-    base = brand.get("hashtags", [])
     caption = DASHES.sub(", ", spec["caption"]).strip()
     ep = {
         "format": "strip", "kind": kind, "title": spec["title"], "premise": spec["premise"],
         "panels": spec["panels"],
-        "caption": caption + "\n\n" + " ".join(dict.fromkeys(base + tags)),
+        "caption": instagram_caption(brand, caption, tags),
         "description": {"summary": caption},
     }
     return ep, None

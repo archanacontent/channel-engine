@@ -31,7 +31,14 @@ def post_instagram(e):
     f = STAGE / asset(e)
     if not f.exists():
         subprocess.run(["gh", "release", "download", e["release"], "--pattern", asset(e), "--dir", str(STAGE)], check=True)
-    return ig_publish(f, e["meta"]["instagram_caption"])
+    import yaml
+    from pathlib import Path
+    from strips.write import instagram_caption
+    brand = yaml.safe_load((Path(__file__).resolve().parent.parent / "channels" / e["slug"] / "brand.yaml").read_text())
+    old = e["meta"]["instagram_caption"]
+    text = old.split("\n.\n")[0].split("\n\n#")[0].split("\n\n")[0].strip()
+    gag = [w for w in old.split() if w.startswith("#")][-5:]
+    return ig_publish(f, instagram_caption(brand, text, gag))
 
 
 def main():
