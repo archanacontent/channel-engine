@@ -24,6 +24,6 @@ hashtags: ["#pimandsoot"]
 caption_tail:
   - ["#comics", "#cartoon", "#digitalart", "#webcomic", "#comicbooks"]
   - ["comic", "drawing", "art", "illustration", "artist", "sketch"]     # written without #, joined with |
-  - ["#manga", "#marvel", "#comicbook", "#anime", "#draw", "#artwork", "#fanart", "#comicstrip", "#funny",
-     "#marvelcomics", "#artistsoninstagram", "#comicsofy", "#doodle", "#webtoon", "#viral", "#viralcomics",
+  - ["#cartoonist", "#comicart", "#comicbook", "#funnycomics", "#draw", "#artwork", "#catcomics", "#comicstrip",
+     "#funny", "#relatable", "#artistsoninstagram", "#comicsofy", "#doodle", "#webtoon", "#viral", "#viralcomics",
      "#explorepage"]
