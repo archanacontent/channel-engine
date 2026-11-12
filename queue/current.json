@@ -4914,10 +4914,12 @@
    "duration_s": 21.39
   },
   "srt": "",
-  "status": "ready",
+  "status": "published",
   "file": "2026-11-11-1800.mp4",
   "platform": "instagram",
-  "release": "shorts-43012696543"
+  "release": "shorts-43012696543",
+  "ig_media_id": "18105813392038836",
+  "published_at": "2026-11-12T19:32:17.190058+00:00"
  },
  {
   "slug": "comicsofy",
@@ -4935,10 +4937,12 @@
    "kind": "image"
   },
   "srt": "",
-  "status": "ready",
+  "status": "published",
   "file": "2026-11-12-1300.jpg",
   "platform": "instagram",
-  "release": "shorts-43012696543"
+  "release": "shorts-43012696543",
+  "ig_media_id": "18359852746172188",
+  "published_at": "2026-11-12T19:32:17.190058+00:00"
  },
  {
   "slug": "comicsofy",
