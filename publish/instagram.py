@@ -23,8 +23,22 @@ V = os.environ.get("GRAPH_VERSION", "v27.0")
 G = f"https://graph.facebook.com/{V}"
 
 
+_PAGE_TOKEN = None
+
+
 def env():
-    return os.environ["IG_USER_ID"], os.environ["IG_PAGE_ID"], os.environ["IG_PAGE_TOKEN"]
+    """IG_PAGE_TOKEN may hold either a Page token or the never-expiring User token from the
+    Access Token Debugger. With a User token, the Page token is derived from it on each run,
+    so nothing has to be copied by hand again."""
+    global _PAGE_TOKEN
+    ig, page, token = os.environ["IG_USER_ID"], os.environ["IG_PAGE_ID"], os.environ["IG_PAGE_TOKEN"].strip()
+    if _PAGE_TOKEN is None:
+        try:
+            got = call("GET", page, {"fields": "access_token", "access_token": token})
+            _PAGE_TOKEN = got.get("access_token") or token
+        except RuntimeError:
+            _PAGE_TOKEN = token
+    return ig, page, _PAGE_TOKEN
 
 
 def call(method, path, params=None, data=None, headers=None, base=G):
