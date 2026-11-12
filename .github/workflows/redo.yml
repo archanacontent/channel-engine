@@ -1,0 +1,40 @@
+name: Redo Shorts
+
+# Run by hand: re-render listed Shorts after a fix and swap them in (old YouTube
+# copies are deleted and replaced on the next upload run, same release time).
+on:
+  workflow_dispatch:
+    inputs:
+      items: { description: "slug:stem items, space separated", required: true }
+
+permissions:
+  contents: write
+
+concurrency:
+  group: shorts-state
+  cancel-in-progress: false
+
+jobs:
+  redo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12", cache: pip }
+      - run: |
+          command -v ffmpeg >/dev/null || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
+          pip install -q -r requirements.txt
+      - uses: actions/cache@v4
+        with: { path: ~/.cache/kokoro, key: kokoro-v1.0 }
+      - run: bash scripts/setup_models.sh
+      - env:
+          GH_TOKEN: ${{ github.token }}
+        run: python -m pipeline.redo ${{ inputs.items }}
+      - name: Save queue
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add queue
+          git diff --cached --quiet || git commit -m "Re-rendered Shorts"
+          for i in 1 2 3; do git pull --rebase -q && git push && break; sleep 5; done

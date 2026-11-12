@@ -106,6 +106,9 @@ def normalize(ep):
                 k, v = next(iter(sc.items()))
                 b["scene"] = sc = dict(v if isinstance(v, dict) else {}, type=k)
         t = sc.get("type")
+        if t == "stat" and (not re.search(r"\d", str(sc.get("value", ""))) or len(str(sc.get("value", ""))) > 14):
+            sc.update(type="headline", kicker=sc.get("label", ""), text=str(sc.get("value", "")))
+            t = "headline"
         if t == "card" and not sc.get("rows") and sc.get("value"):
             sc.update(type="stat", label=sc.get("label") or sc.pop("title", ""))
             t = "stat"

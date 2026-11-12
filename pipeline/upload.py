@@ -100,6 +100,19 @@ def upload_pending(queue):
             if r.returncode != 0:
                 print("missing asset", asset(e))
                 continue
+        if e.get("replace"):   # a fixed version replaces a video already on YouTube
+            try:
+                from publish.youtube import client
+                client(e["slug"]).videos().delete(id=e["replace"]).execute()
+                print("deleted old version", e["slug"], e["replace"])
+                e.pop("replace")
+            except Exception as ex:
+                print("could not delete old version", e["replace"], str(ex)[:120])
+                if "quota" in str(ex).lower():
+                    break
+                if "notFound" not in str(ex) and "404" not in str(ex):
+                    continue
+                e.pop("replace")
         when = datetime.fromisoformat(e["publish_at"]).astimezone(timezone.utc)
         at = when.strftime("%Y-%m-%dT%H:%M:%SZ") if when > now + timedelta(minutes=15) else None
         try:

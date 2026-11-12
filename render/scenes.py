@@ -67,7 +67,14 @@ def fit(text, spec, max_size, min_size, maxw, max_lines):
     while size >= min_size:
         f = F(spec, size)
         lines = wrap(text, f, maxw)
-        if len(lines) <= max_lines:
+        if len(lines) <= max_lines and all(tw(f, ln) <= maxw for ln in lines):
+            return f, lines
+        size -= 2
+    # still too wide at the minimum size: keep shrinking until every line fits the frame
+    while size > 20:
+        f = F(spec, size)
+        lines = wrap(text, f, maxw)
+        if len(lines) <= max_lines and all(tw(f, ln) <= maxw for ln in lines):
             return f, lines
         size -= 2
     f = F(spec, min_size)
@@ -136,7 +143,10 @@ class SceneMixin:
 
     def sc_stat(self, img, d, sc, t, dur, beat):
         th = self.scene_theme()
-        value = str(sc.get("value", "")).strip()[:14]
+        value = str(sc.get("value", "")).strip()
+        if not re.search(r"\d", value) or len(value) > 14:
+            # a word, not a number: show it as a headline so it wraps and never runs off screen
+            return self.sc_headline(img, d, {"kicker": sc.get("label", ""), "text": value}, t, dur, beat)
         k = prog(t, 0.0, 1.0)
         m = re.fullmatch(r"([^\d]*)([\d,]+(?:\.\d+)?)(.*)", value)
         shown = value
