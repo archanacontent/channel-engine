@@ -410,7 +410,7 @@
     "seedance api n8n template",
     "n8n workflow",
     "n8n deploy",
-    "n8n node",
+    "n8n chatgpt",
     "auto telegram channel members",
     "auto posting bot telegram",
     "marketing automation",
@@ -431,13 +431,10 @@
    "music": "original: 0-lydian-2-112-030570 @ 112 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,557\nStop wasting hours\n\n2\n00:00:01,557 --> 00:00:03,035\nbuilding trend videos\n\n3\n00:00:03,035 --> 00:00:04,513\nmanually when n8n can\n\n4\n00:00:04,513 --> 00:00:05,934\ndo it from Telegram.\n\n5\n00:00:06,254 --> 00:00:07,288\nSend a prompt in\n\n6\n00:00:07,288 --> 00:00:08,716\nTelegram, let Perplexity\n\n7\n00:00:08,716 --> 00:00:10,095\nfind the latest trends,\n\n8\n00:00:10,095 --> 00:00:11,326\nand let OpenAI write\n\n9\n00:00:11,326 --> 00:00:12,113\nthe script.\n\n10\n00:00:12,433 --> 00:00:13,821\nThen hit the Seedance\n\n11\n00:00:13,821 --> 00:00:15,155\nAPI via Wavespeed to\n\n12\n00:00:15,155 --> 00:00:16,436\ngenerate your final\n\n13\n00:00:16,436 --> 00:00:17,717\nshort-form video ad\n\n14\n00:00:17,717 --> 00:00:18,731\nautomatically.\n\n15\n00:00:19,051 --> 00:00:20,023\nThe free template is\n\n16\n00:00:20,023 --> 00:00:20,723\nlinked in the\n\n17\n00:00:20,723 --> 00:00:21,384\ndescription.\n",
-  "status": "scheduled",
+  "status": "rendered",
   "release": "week-2026-11-11",
-  "video_id": "eAgwKE9Kmc8",
-  "uploaded_at": "2026-11-10T15:13:45.663534-08:00",
   "published_at": "2026-11-12T14:00:00+00:00",
-  "playlist_done": true,
-  "captions_done": true
+  "replace": "eAgwKE9Kmc8"
  },
  {
   "slug": "automation-shelf",
@@ -477,13 +474,10 @@
    "music": "original: 7-major-4-111-227370 @ 111 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,643\nAutomate restaurant\n\n2\n00:00:01,643 --> 00:00:03,210\nmarketing and bookings\n\n3\n00:00:03,210 --> 00:00:04,081\nusing n8n,\n\n4\n00:00:04,081 --> 00:00:05,764\nVAPI, and Google Sheets.\n\n5\n00:00:06,084 --> 00:00:07,384\nThe workflow triggers on\n\n6\n00:00:07,384 --> 00:00:08,056\nnew leads,\n\n7\n00:00:08,056 --> 00:00:08,908\nprepares data,\n\n8\n00:00:08,908 --> 00:00:10,163\nand loops through batch\n\n9\n00:00:10,163 --> 00:00:11,284\nmarketing campaigns.\n\n10\n00:00:11,604 --> 00:00:12,659\nVAPI initiates\n\n11\n00:00:12,659 --> 00:00:14,271\npersonalized voice calls\n\n12\n00:00:14,271 --> 00:00:15,882\nwith tailored offers and\n\n13\n00:00:15,882 --> 00:00:17,271\nbooking invitations.\n\n14\n00:00:17,591 --> 00:00:18,990\nCustomer responses are\n\n15\n00:00:18,990 --> 00:00:20,441\nstored, booking details\n\n16\n00:00:20,441 --> 00:00:21,425\nare extracted,\n\n17\n00:00:21,425 --> 00:00:22,617\nand events land in\n\n18\n00:00:22,617 --> 00:00:23,705\nGoogle Calendar.\n\n19\n00:00:24,025 --> 00:00:24,999\nThis setup suits\n\n20\n00:00:24,999 --> 00:00:26,250\nrestaurants looking to\n\n21\n00:00:26,250 --> 00:00:27,501\nautomate campaigns and\n\n22\n00:00:27,501 --> 00:00:28,567\nstreamline booking\n\n23\n00:00:28,567 --> 00:00:29,262\nprocesses.\n\n24\n00:00:29,262 --> 00:00:30,421\nTemplate link in the\n\n25\n00:00:30,421 --> 00:00:31,209\ndescription.\n",
-  "status": "scheduled",
+  "status": "rendered",
   "release": "week-2026-11-11",
-  "video_id": "w8Ep_xgoK4A",
-  "uploaded_at": "2026-11-10T15:13:50.845238-08:00",
   "published_at": "2026-11-12T18:00:00+00:00",
-  "playlist_done": true,
-  "captions_done": true
+  "replace": "w8Ep_xgoK4A"
  },
  {
   "slug": "automation-shelf",
@@ -528,11 +522,9 @@
    "music": "original: 7-major-3-117-710773 @ 117 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,762\nCan you automate video\n\n2\n00:00:01,762 --> 00:00:03,105\nmarketing ideation?\n\n3\n00:00:03,105 --> 00:00:04,449\nYes, using this n8n\n\n4\n00:00:04,449 --> 00:00:05,233\nworkflow.\n\n5\n00:00:05,553 --> 00:00:06,814\nThe flow tracks daily\n\n6\n00:00:06,814 --> 00:00:07,882\ntrends, generates\n\n7\n00:00:07,882 --> 00:00:08,998\ncreative concepts,\n\n8\n00:00:08,998 --> 00:00:10,162\nand emails them for\n\n9\n00:00:10,162 --> 00:00:10,938\nproduction.\n\n10\n00:00:11,258 --> 00:00:12,814\nIt connects Tavily for\n\n11\n00:00:12,814 --> 00:00:14,197\nresearch, GPT-4 for\n\n12\n00:00:14,197 --> 00:00:15,868\nbrainstorming, and Gmail\n\n13\n00:00:15,868 --> 00:00:16,905\nfor delivery.\n\n14\n00:00:17,225 --> 00:00:18,479\nThis setup saves your\n\n15\n00:00:18,479 --> 00:00:19,782\nteam hours of creative\n\n16\n00:00:19,782 --> 00:00:21,181\nbrainstorming and manual\n\n17\n00:00:21,181 --> 00:00:22,242\ncontent planning.\n\n18\n00:00:22,562 --> 00:00:23,420\nTemplate link in the\n\n19\n00:00:23,420 --> 00:00:24,003\ndescription.\n",
-  "status": "scheduled",
+  "status": "rendered",
   "release": "week-2026-11-11",
-  "video_id": "NLUg_wuB6SU",
-  "uploaded_at": "2026-11-10T15:13:54.127472-08:00",
-  "playlist_done": true
+  "replace": "NLUg_wuB6SU"
  },
  {
   "slug": "automation-shelf",
@@ -579,10 +571,9 @@
    "music": "original: 1-lydian-3-109-560004 @ 109 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,680\nAutomate your video ads\n\n2\n00:00:01,680 --> 00:00:03,110\nby syncing Google Drive\n\n3\n00:00:03,110 --> 00:00:04,438\ndirectly to Facebook.\n\n4\n00:00:04,758 --> 00:00:06,309\nThis n8n workflow scans\n\n5\n00:00:06,309 --> 00:00:07,582\nyour drive for new\n\n6\n00:00:07,582 --> 00:00:09,133\nvideos and uploads them\n\n7\n00:00:09,133 --> 00:00:10,074\nto Facebook.\n\n8\n00:00:10,394 --> 00:00:11,967\nThe process follows four\n\n9\n00:00:11,967 --> 00:00:13,322\nstages to turn files\n\n10\n00:00:13,322 --> 00:00:14,569\ninto ad creatives.\n\n11\n00:00:14,889 --> 00:00:15,875\nIt is built for\n\n12\n00:00:15,875 --> 00:00:17,058\nmarketing teams and\n\n13\n00:00:17,058 --> 00:00:18,389\nagencies needing rapid\n\n14\n00:00:18,389 --> 00:00:19,572\ncontent deployment.\n\n15\n00:00:19,892 --> 00:00:20,750\nTemplate link in the\n\n16\n00:00:20,750 --> 00:00:21,333\ndescription.\n",
-  "status": "uploaded",
+  "status": "rendered",
   "release": "week-2026-11-11",
-  "video_id": "HzOvbDEcQHQ",
-  "uploaded_at": "2026-11-10T15:13:55.972396-08:00"
+  "replace": "HzOvbDEcQHQ"
  },
  {
   "slug": "breach-brief",
@@ -770,13 +761,10 @@
    "music": "original: 7-dorian-5-98-633724 @ 98 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:03,405\nCVE-2026-111793 is under\n\n2\n00:00:03,405 --> 00:00:05,472\nactive attack.\n\n3\n00:00:05,792 --> 00:00:06,934\nOpenwave Messaging\n\n4\n00:00:06,934 --> 00:00:08,175\nLimited Webtop Media\n\n5\n00:00:08,175 --> 00:00:09,516\nTranscoder contains an\n\n6\n00:00:09,516 --> 00:00:10,658\nincorrect resource\n\n7\n00:00:10,658 --> 00:00:12,099\ntransfer between spheres\n\n8\n00:00:12,099 --> 00:00:13,042\nvulnerability.\n\n9\n00:00:13,362 --> 00:00:14,257\nThis allows an\n\n10\n00:00:14,257 --> 00:00:15,482\nauthenticated user to\n\n11\n00:00:15,482 --> 00:00:16,565\nprocess unintended\n\n12\n00:00:16,565 --> 00:00:17,602\ndocument types if\n\n13\n00:00:17,602 --> 00:00:18,826\nbypassing the Webmail\n\n14\n00:00:18,826 --> 00:00:19,580\nexperience.\n\n15\n00:00:19,900 --> 00:00:21,841\nCISA added this flaw\n\n16\n00:00:21,841 --> 00:00:23,549\nto the catalog on\n\n17\n00:00:23,549 --> 00:00:25,335\n2026-11-10, with a\n\n18\n00:00:25,335 --> 00:00:27,509\nremediation due date of\n\n19\n00:00:27,509 --> 00:00:28,752\n2026-11-24.\n\n20\n00:00:29,072 --> 00:00:30,458\nApply vendor mitigations\n\n21\n00:00:30,458 --> 00:00:31,367\nimmediately or\n\n22\n00:00:31,367 --> 00:00:32,658\ndiscontinue use of the\n\n23\n00:00:32,658 --> 00:00:33,280\nproduct.\n",
-  "status": "scheduled",
+  "status": "rendered",
   "release": "week-2026-11-11",
-  "video_id": "poBhu3_htHY",
-  "uploaded_at": "2026-11-10T15:13:47.409476-08:00",
   "published_at": "2026-11-12T14:00:00+00:00",
-  "playlist_done": true,
-  "captions_done": true
+  "replace": "poBhu3_htHY"
  },
  {
   "slug": "breach-brief",
@@ -822,13 +810,10 @@
    "music": "original: 5-dorian-4-91-710656 @ 91 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,393\nCisco BroadWorks is\n\n2\n00:00:01,393 --> 00:00:02,535\nunder active attack\n\n3\n00:00:02,535 --> 00:00:03,678\nright now through a\n\n4\n00:00:03,678 --> 00:00:04,916\ncritical parser flaw.\n\n5\n00:00:05,236 --> 00:00:07,109\nCVE-2026-20320 lets\n\n6\n00:00:07,109 --> 00:00:09,139\nremote attackers read\n\n7\n00:00:09,139 --> 00:00:11,325\nsensitive configuration\n\n8\n00:00:11,325 --> 00:00:12,731\nfiles without\n\n9\n00:00:12,731 --> 00:00:14,292\nauthentication.\n\n10\n00:00:14,612 --> 00:00:16,209\nCISA added this flaw\n\n11\n00:00:16,209 --> 00:00:17,614\nto the catalog on\n\n12\n00:00:17,614 --> 00:00:18,699\nNovember 10,\n\n13\n00:00:18,699 --> 00:00:19,977\n2026, setting a\n\n14\n00:00:19,977 --> 00:00:21,765\nremediation due date of\n\n15\n00:00:21,765 --> 00:00:22,850\nNovember 24,\n\n16\n00:00:22,850 --> 00:00:23,489\n2026.\n\n17\n00:00:23,809 --> 00:00:25,603\nApply vendor mitigations\n\n18\n00:00:25,603 --> 00:00:27,335\nimmediately, follow BOD\n\n19\n00:00:27,335 --> 00:00:28,572\n26-04 guidance,\n\n20\n00:00:28,572 --> 00:00:30,181\nor discontinue use if\n\n21\n00:00:30,181 --> 00:00:31,974\npatches are unavailable.\n",
-  "status": "scheduled",
+  "status": "rendered",
   "release": "week-2026-11-11",
-  "video_id": "8JI3G_0hWq0",
-  "uploaded_at": "2026-11-10T15:13:52.417040-08:00",
   "published_at": "2026-11-12T18:00:00+00:00",
-  "playlist_done": true,
-  "captions_done": true
+  "replace": "8JI3G_0hWq0"
  },
  {
   "slug": "breach-brief",
@@ -876,10 +861,9 @@
    "music": "original: 4-phrygian-2-86-573225 @ 86 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,774\nAttackers are actively\n\n2\n00:00:01,774 --> 00:00:03,242\nexploiting a critical\n\n3\n00:00:03,242 --> 00:00:04,710\nauthorization flaw in\n\n4\n00:00:04,710 --> 00:00:06,008\nIBM Aspera Faspex.\n\n5\n00:00:06,328 --> 00:00:08,044\nThis vulnerability,\n\n6\n00:00:08,044 --> 00:00:10,046\nCVE-2026-123218, allows\n\n7\n00:00:10,046 --> 00:00:12,119\nan authenticated user to\n\n8\n00:00:12,119 --> 00:00:14,192\nbypass authorization and\n\n9\n00:00:14,192 --> 00:00:16,265\ngain full administrative\n\n10\n00:00:16,265 --> 00:00:17,409\nprivileges.\n\n11\n00:00:17,729 --> 00:00:19,353\nCISA added this flaw\n\n12\n00:00:19,353 --> 00:00:20,588\nto its list on\n\n13\n00:00:20,588 --> 00:00:21,627\nNovember 9,\n\n14\n00:00:21,627 --> 00:00:22,277\n2026.\n\n15\n00:00:22,277 --> 00:00:24,160\nThe deadline for federal\n\n16\n00:00:24,160 --> 00:00:25,589\nagencies to apply\n\n17\n00:00:25,589 --> 00:00:27,408\nmitigations is November\n\n18\n00:00:27,408 --> 00:00:28,318\n12, 2026.\n\n19\n00:00:28,638 --> 00:00:29,474\nYou must apply\n\n20\n00:00:29,474 --> 00:00:30,661\nmitigations per vendor\n\n21\n00:00:30,661 --> 00:00:31,409\ninstructions\n\n22\n00:00:31,409 --> 00:00:32,157\nimmediately.\n\n23\n00:00:32,157 --> 00:00:33,257\nIf you cannot patch,\n\n24\n00:00:33,257 --> 00:00:34,445\ndiscontinue use of the\n\n25\n00:00:34,445 --> 00:00:35,017\nproduct.\n\n26\n00:00:35,337 --> 00:00:36,459\nAssess your internet\n\n27\n00:00:36,459 --> 00:00:37,267\nexposure now.\n\n28\n00:00:37,267 --> 00:00:38,299\nSources are in the\n\n29\n00:00:38,299 --> 00:00:39,062\ndescription.\n",
-  "status": "uploaded",
+  "status": "rendered",
   "release": "week-2026-11-11",
-  "video_id": "poeUn0Wow0I",
-  "uploaded_at": "2026-11-10T15:13:58.019823-08:00"
+  "replace": "poeUn0Wow0I"
  },
  {
   "slug": "deep-field",
@@ -1153,6 +1137,7 @@
     "chatgpt marketing campaign",
     "target cpa google ads",
     "target cpa",
+    "targeting on facebook ads",
     "AI search",
     "AEO",
     "GEO",
@@ -1172,12 +1157,10 @@
    "duration_s": 54.44,
    "music": "original: 8-major-0-86-306156 @ 86 bpm"
   },
-  "srt": "1\n00:00:00,250 --> 00:00:02,221\nChatGPT Ads is replacing\n\n2\n00:00:02,221 --> 00:00:03,921\nmanual bid caps with\n\n3\n00:00:03,921 --> 00:00:05,688\naverage cost targets.\n\n4\n00:00:06,008 --> 00:00:07,695\nSearch Engine Journal\n\n5\n00:00:07,695 --> 00:00:09,317\nreported that OpenAI\n\n6\n00:00:09,317 --> 00:00:10,679\nupdated its help\n\n7\n00:00:10,679 --> 00:00:12,560\ndocumentation on bidding\n\n8\n00:00:12,560 --> 00:00:13,598\nstrategies.\n\n9\n00:00:13,598 --> 00:00:14,831\nBeginning Nov.\n\n10\n00:00:14,831 --> 00:00:16,193\n9, new click and\n\n11\n00:00:16,193 --> 00:00:17,815\nconversion campaigns\n\n12\n00:00:17,815 --> 00:00:19,372\nmust use Target CPC\n\n13\n00:00:19,372 --> 00:00:20,605\nor Target CPA.\n\n14\n00:00:20,925 --> 00:00:22,382\nThese new options set\n\n15\n00:00:22,382 --> 00:00:23,670\naverage cost goals\n\n16\n00:00:23,670 --> 00:00:24,959\nrather than strict\n\n17\n00:00:24,959 --> 00:00:26,360\nlimits on individual\n\n18\n00:00:26,360 --> 00:00:26,920\nbids.\n\n19\n00:00:26,920 --> 00:00:28,209\nThe system can bid\n\n20\n00:00:28,209 --> 00:00:29,553\nabove or below your\n\n21\n00:00:29,553 --> 00:00:30,954\ntarget in individual\n\n22\n00:00:30,954 --> 00:00:32,355\nauctions to maximize\n\n23\n00:00:32,355 --> 00:00:33,083\nresults.\n\n24\n00:00:33,403 --> 00:00:35,277\nSetting a target below\n\n25\n00:00:35,277 --> 00:00:37,151\nrecent performance can\n\n26\n00:00:37,151 --> 00:00:38,886\nrestrict delivery or\n\n27\n00:00:38,886 --> 00:00:40,551\ncause spend to fall\n\n28\n00:00:40,551 --> 00:00:42,356\nshort of your budget.\n\n29\n00:00:42,356 --> 00:00:43,744\nMax Bid and Max\n\n30\n00:00:43,744 --> 00:00:45,756\nCPC expire completely on\n\n31\n00:00:45,756 --> 00:00:46,381\nJan.\n\n32\n00:00:46,381 --> 00:00:47,283\n1, 2027.\n\n33\n00:00:47,603 --> 00:00:48,868\nReview your campaign\n\n34\n00:00:48,868 --> 00:00:50,133\ntargets now to avoid\n\n35\n00:00:50,133 --> 00:00:51,348\ndelivery drop-offs.\n\n36\n00:00:51,348 --> 00:00:52,259\nSource in the\n\n37\n00:00:52,259 --> 00:00:53,120\ndescription.\n",
-  "status": "scheduled",
+  "srt": "1\n00:00:00,250 --> 00:00:02,221\nChatGPT Ads is replacing\n\n2\n00:00:02,221 --> 00:00:03,921\nmanual bid caps with\n\n3\n00:00:03,921 --> 00:00:05,688\naverage cost targets.\n\n4\n00:00:06,008 --> 00:00:07,695\nSearch Engine Journal\n\n5\n00:00:07,695 --> 00:00:09,317\nreported that OpenAI\n\n6\n00:00:09,317 --> 00:00:10,679\nupdated its help\n\n7\n00:00:10,679 --> 00:00:12,560\ndocumentation on bidding\n\n8\n00:00:12,560 --> 00:00:13,598\nstrategies.\n\n9\n00:00:13,598 --> 00:00:14,831\nBeginning Nov.\n\n10\n00:00:14,831 --> 00:00:16,193\n9, new click and\n\n11\n00:00:16,193 --> 00:00:17,815\nconversion campaigns\n\n12\n00:00:17,815 --> 00:00:19,372\nmust use Target CPC\n\n13\n00:00:19,372 --> 00:00:20,605\nor Target CPA.\n\n14\n00:00:20,925 --> 00:00:22,382\nThese new options set\n\n15\n00:00:22,382 --> 00:00:23,670\naverage cost goals\n\n16\n00:00:23,670 --> 00:00:24,959\nrather than strict\n\n17\n00:00:24,959 --> 00:00:26,360\nlimits on individual\n\n18\n00:00:26,360 --> 00:00:26,920\nbids.\n\n19\n00:00:26,920 --> 00:00:28,209\nThe system can bid\n\n20\n00:00:28,209 --> 00:00:29,553\nabove or below your\n\n21\n00:00:29,553 --> 00:00:30,954\ntarget in individual\n\n22\n00:00:30,954 --> 00:00:32,355\nauctions to maximize\n\n23\n00:00:32,355 --> 00:00:33,083\nresults.\n\n24\n00:00:33,403 --> 00:00:35,277\nSetting a target below\n\n25\n00:00:35,277 --> 00:00:37,151\nrecent performance can\n\n26\n00:00:37,151 --> 00:00:38,886\nrestrict delivery or\n\n27\n00:00:38,886 --> 00:00:40,551\ncause spend to fall\n\n28\n00:00:40,551 --> 00:00:42,356\nshort of your budget.\n\n29\n00:00:42,356 --> 00:00:43,744\nMax Bid and Max\n\n30\n00:00:43,744 --> 00:00:45,756\nCPC expire completely on\n\n31\n00:00:45,756 --> 00:00:46,381\nJan.\n\n32\n00:00:46,381 --> 00:00:47,283\n1, 2027.\n\n33\n00:00:47,603 --> 00:00:48,868\nReview your campaign\n\n34\n00:00:48,868 --> 00:00:50,134\ntargets now to avoid\n\n35\n00:00:50,134 --> 00:00:51,348\ndelivery drop-offs.\n\n36\n00:00:51,348 --> 00:00:52,259\nSource in the\n\n37\n00:00:52,259 --> 00:00:53,120\ndescription.\n",
+  "status": "rendered",
   "release": "shorts-42921717979",
-  "video_id": "eEFQhk_b3_Y",
-  "uploaded_at": "2026-11-10T15:36:30.894654-08:00",
-  "playlist_done": true
+  "replace": "eEFQhk_b3_Y"
  },
  {
   "slug": "asked-and-answered",
@@ -1253,8 +1236,6 @@
     "google search ai update",
     "google ai new features",
     "google ai in search",
-    "top of funnel content",
-    "funnel visual power bi",
     "AI search",
     "AEO",
     "GEO",
@@ -1274,11 +1255,10 @@
    "duration_s": 31.01,
    "music": "original: 0-mixolydian-6-87-143477 @ 87 bpm"
   },
-  "srt": "1\n00:00:00,250 --> 00:00:01,579\nAI mode queries make\n\n2\n00:00:01,579 --> 00:00:03,015\nGoogle less money than\n\n3\n00:00:03,015 --> 00:00:04,397\ntraditional searches.\n\n4\n00:00:04,717 --> 00:00:05,905\nAccording to Search\n\n5\n00:00:05,905 --> 00:00:06,895\nEngine Journal,\n\n6\n00:00:06,895 --> 00:00:08,281\nusers are asking longer\n\n7\n00:00:08,281 --> 00:00:09,370\nand more detailed\n\n8\n00:00:09,370 --> 00:00:10,113\nquestions.\n\n9\n00:00:10,433 --> 00:00:11,575\nShivani Mohan says\n\n10\n00:00:11,575 --> 00:00:12,866\npeople are asking net\n\n11\n00:00:12,866 --> 00:00:14,107\nnew types of queries\n\n12\n00:00:14,107 --> 00:00:15,398\nthey never thought to\n\n13\n00:00:15,398 --> 00:00:16,192\nask before.\n\n14\n00:00:16,512 --> 00:00:18,030\nThese queries move users\n\n15\n00:00:18,030 --> 00:00:19,338\nup the funnel toward\n\n16\n00:00:19,338 --> 00:00:20,489\nbrainstorming and\n\n17\n00:00:20,489 --> 00:00:21,693\ncategory research.\n\n18\n00:00:22,013 --> 00:00:23,542\nB2B marketers must adapt\n\n19\n00:00:23,542 --> 00:00:24,912\nbecause most accounts\n\n20\n00:00:24,912 --> 00:00:26,178\nare still judged at\n\n21\n00:00:26,178 --> 00:00:27,338\nthe bottom of the\n\n22\n00:00:27,338 --> 00:00:27,970\nfunnel.\n\n23\n00:00:28,290 --> 00:00:29,009\nSource in the\n\n24\n00:00:29,009 --> 00:00:29,688\ndescription.\n",
-  "status": "uploaded",
+  "srt": "1\n00:00:00,250 --> 00:00:01,579\nAI mode queries make\n\n2\n00:00:01,579 --> 00:00:03,015\nGoogle less money than\n\n3\n00:00:03,015 --> 00:00:04,397\ntraditional searches.\n\n4\n00:00:04,717 --> 00:00:05,905\nAccording to Search\n\n5\n00:00:05,905 --> 00:00:06,895\nEngine Journal,\n\n6\n00:00:06,895 --> 00:00:08,281\nusers are asking longer\n\n7\n00:00:08,281 --> 00:00:09,370\nand more detailed\n\n8\n00:00:09,370 --> 00:00:10,113\nquestions.\n\n9\n00:00:10,433 --> 00:00:11,575\nShivani Mohan says\n\n10\n00:00:11,575 --> 00:00:12,866\npeople are asking net\n\n11\n00:00:12,866 --> 00:00:14,107\nnew types of queries\n\n12\n00:00:14,107 --> 00:00:15,398\nthey never thought to\n\n13\n00:00:15,398 --> 00:00:16,192\nask before.\n\n14\n00:00:16,512 --> 00:00:18,030\nThese queries move users\n\n15\n00:00:18,030 --> 00:00:19,338\nup the funnel toward\n\n16\n00:00:19,338 --> 00:00:20,489\nbrainstorming and\n\n17\n00:00:20,489 --> 00:00:21,693\ncategory research.\n\n18\n00:00:22,013 --> 00:00:23,542\nB2B marketers must adapt\n\n19\n00:00:23,542 --> 00:00:24,913\nbecause most accounts\n\n20\n00:00:24,913 --> 00:00:26,178\nare still judged at\n\n21\n00:00:26,178 --> 00:00:27,338\nthe bottom of the\n\n22\n00:00:27,338 --> 00:00:27,970\nfunnel.\n\n23\n00:00:28,290 --> 00:00:29,009\nSource in the\n\n24\n00:00:29,009 --> 00:00:29,688\ndescription.\n",
+  "status": "rendered",
   "release": "shorts-42921717979",
-  "video_id": "gaktfN8Vn6s",
-  "uploaded_at": "2026-11-10T15:36:54.562902-08:00"
+  "replace": "gaktfN8Vn6s"
  },
  {
   "slug": "asked-and-answered",
@@ -1548,8 +1528,6 @@
     "automated video publishing Blotato",
     "n8n AI image to video workflow",
     "n8n workflow automation",
-    "n8n automation",
-    "make youtube automation with ai",
     "automated video interview",
     "automated video",
     "marketing automation",
@@ -1571,10 +1549,9 @@
    "music": "original: 2-lydian-3-116-555500 @ 116 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,389\nYou can turn basic\n\n2\n00:00:01,389 --> 00:00:02,478\ntext prompts into\n\n3\n00:00:02,478 --> 00:00:03,913\npublished product videos\n\n4\n00:00:03,913 --> 00:00:05,151\nwithout manual work.\n\n5\n00:00:05,471 --> 00:00:06,997\nCreating product visuals\n\n6\n00:00:06,997 --> 00:00:08,102\nusually requires\n\n7\n00:00:08,102 --> 00:00:09,155\nmultiple tools,\n\n8\n00:00:09,155 --> 00:00:10,312\nrepetitive prompt\n\n9\n00:00:10,312 --> 00:00:11,681\niteration, and manual\n\n10\n00:00:11,681 --> 00:00:12,996\npublishing to social\n\n11\n00:00:12,996 --> 00:00:13,785\nplatforms.\n\n12\n00:00:14,105 --> 00:00:15,453\nThis n8n workflow\n\n13\n00:00:15,453 --> 00:00:17,229\ngenerates product images\n\n14\n00:00:17,229 --> 00:00:18,638\nin NanoBanana Pro,\n\n15\n00:00:18,638 --> 00:00:20,108\nexplores variations\n\n16\n00:00:20,108 --> 00:00:21,578\nusing contact sheet\n\n17\n00:00:21,578 --> 00:00:23,109\nprompting, and turns\n\n18\n00:00:23,109 --> 00:00:24,702\nthem into videos with\n\n19\n00:00:24,702 --> 00:00:25,498\nVeo 3.1.\n\n20\n00:00:25,818 --> 00:00:27,428\nOpenAI handles prompt\n\n21\n00:00:27,428 --> 00:00:29,100\nanalysis, while Google\n\n22\n00:00:29,100 --> 00:00:30,772\nDrive and HTTP request\n\n23\n00:00:30,772 --> 00:00:32,196\nnodes manage files\n\n24\n00:00:32,196 --> 00:00:33,373\nbefore Blotato\n\n25\n00:00:33,373 --> 00:00:35,107\nautomatically publishes\n\n26\n00:00:35,107 --> 00:00:36,098\nthe videos.\n\n27\n00:00:36,418 --> 00:00:37,390\nThe free template is\n\n28\n00:00:37,390 --> 00:00:38,090\nlinked in the\n\n29\n00:00:38,090 --> 00:00:38,751\ndescription.\n",
-  "status": "uploaded",
+  "status": "rendered",
   "release": "shorts-42921717979",
-  "video_id": "hJQMykP0XVc",
-  "uploaded_at": "2026-11-10T15:36:38.255328-08:00"
+  "replace": "hJQMykP0XVc"
  },
  {
   "slug": "automation-shelf",
@@ -2477,14 +2454,11 @@
    "duration_s": 36.73,
    "music": "original: 7-dorian-1-64-737352 @ 64 bpm"
   },
-  "srt": "1\n00:00:00,250 --> 00:00:01,891\nGravitational waves can\n\n2\n00:00:01,891 --> 00:00:03,180\nreveal new worlds\n\n3\n00:00:03,180 --> 00:00:04,761\norbiting white dwarfs.\n\n4\n00:00:05,081 --> 00:00:06,907\nThe LISA observatory is\n\n5\n00:00:06,907 --> 00:00:08,407\nbeing developed to\n\n6\n00:00:08,407 --> 00:00:09,841\ndetect ripples in\n\n7\n00:00:09,841 --> 00:00:11,471\nspace-time caused by\n\n8\n00:00:11,471 --> 00:00:12,840\norbiting masses.\n\n9\n00:00:13,160 --> 00:00:14,532\nA massive planet can\n\n10\n00:00:14,532 --> 00:00:16,068\nimprint its presence on\n\n11\n00:00:16,068 --> 00:00:17,439\na gravitational wave\n\n12\n00:00:17,439 --> 00:00:18,811\nsignal from a double\n\n13\n00:00:18,811 --> 00:00:20,127\nwhite dwarf system.\n\n14\n00:00:20,447 --> 00:00:22,057\nThis method could detect\n\n15\n00:00:22,057 --> 00:00:23,500\na Jupiter mass planet\n\n16\n00:00:23,500 --> 00:00:25,109\nthousands of light years\n\n17\n00:00:25,109 --> 00:00:25,664\naway.\n\n18\n00:00:25,984 --> 00:00:27,443\nNASA scientists used\n\n19\n00:00:27,443 --> 00:00:29,018\nthese findings to show\n\n20\n00:00:29,018 --> 00:00:30,360\nhow the James Webb\n\n21\n00:00:30,360 --> 00:00:31,876\nSpace Telescope could\n\n22\n00:00:31,876 --> 00:00:33,451\nconfirm these planets.\n\n23\n00:00:33,771 --> 00:00:34,613\nSource in the\n\n24\n00:00:34,613 --> 00:00:35,408\ndescription.\n",
-  "status": "scheduled",
+  "srt": "1\n00:00:00,250 --> 00:00:01,891\nGravitational waves can\n\n2\n00:00:01,891 --> 00:00:03,180\nreveal new worlds\n\n3\n00:00:03,180 --> 00:00:04,761\norbiting white dwarfs.\n\n4\n00:00:05,081 --> 00:00:06,908\nThe LISA observatory is\n\n5\n00:00:06,908 --> 00:00:08,408\nbeing developed to\n\n6\n00:00:08,408 --> 00:00:09,843\ndetect ripples in\n\n7\n00:00:09,843 --> 00:00:11,474\nspace-time caused by\n\n8\n00:00:11,474 --> 00:00:12,843\norbiting masses.\n\n9\n00:00:13,163 --> 00:00:14,535\nA massive planet can\n\n10\n00:00:14,535 --> 00:00:16,071\nimprint its presence on\n\n11\n00:00:16,071 --> 00:00:17,442\na gravitational wave\n\n12\n00:00:17,442 --> 00:00:18,814\nsignal from a double\n\n13\n00:00:18,814 --> 00:00:20,130\nwhite dwarf system.\n\n14\n00:00:20,450 --> 00:00:22,060\nThis method could detect\n\n15\n00:00:22,060 --> 00:00:23,503\na Jupiter mass planet\n\n16\n00:00:23,503 --> 00:00:25,112\nthousands of light years\n\n17\n00:00:25,112 --> 00:00:25,667\naway.\n\n18\n00:00:25,987 --> 00:00:27,446\nNASA scientists used\n\n19\n00:00:27,446 --> 00:00:29,021\nthese findings to show\n\n20\n00:00:29,021 --> 00:00:30,363\nhow the James Webb\n\n21\n00:00:30,363 --> 00:00:31,879\nSpace Telescope could\n\n22\n00:00:31,879 --> 00:00:33,454\nconfirm these planets.\n\n23\n00:00:33,774 --> 00:00:34,616\nSource in the\n\n24\n00:00:34,616 --> 00:00:35,411\ndescription.\n",
+  "status": "rendered",
   "release": "shorts-42921717979",
-  "video_id": "HsqZyUAh8Wg",
-  "uploaded_at": "2026-11-10T15:36:27.128385-08:00",
   "published_at": "2026-11-12T18:00:00+00:00",
-  "playlist_done": true,
-  "captions_done": true
+  "replace": "HsqZyUAh8Wg"
  },
  {
   "slug": "deep-field",
@@ -3951,10 +3925,10 @@
    "made_for_kids": false,
    "altered_content": "No",
    "instagram_caption": "Automatically track job listings on Indeed to find expanding companies without manual searching.\n\n#MarketingAutomationLibrary #MarketingAutomation #MarketingOps #Productivity #n8n",
-   "duration_s": 23.35,
+   "duration_s": 23.34,
    "music": "original: 5-major-6-113-703115 @ 113 bpm"
   },
-  "srt": "1\n00:00:00,250 --> 00:00:01,537\nManually scanning job\n\n2\n00:00:01,537 --> 00:00:02,675\nboards for growing\n\n3\n00:00:02,675 --> 00:00:04,011\ncompanies wastes hours\n\n4\n00:00:04,011 --> 00:00:04,803\nevery week.\n\n5\n00:00:05,123 --> 00:00:06,430\nThis n8n workflow\n\n6\n00:00:06,430 --> 00:00:07,914\nscrapes Indeed using\n\n7\n00:00:07,914 --> 00:00:09,458\nBright Data to bypass\n\n8\n00:00:09,458 --> 00:00:10,170\nblocks.\n\n9\n00:00:10,490 --> 00:00:11,947\nAn OpenAI agent parses\n\n10\n00:00:11,947 --> 00:00:13,295\nthe listings to spot\n\n11\n00:00:13,295 --> 00:00:14,590\nexpanding marketing\n\n12\n00:00:14,590 --> 00:00:15,183\nteams.\n\n13\n00:00:15,503 --> 00:00:16,568\nIt sends structured\n\n14\n00:00:16,568 --> 00:00:17,678\nemail alerts through\n\n15\n00:00:17,678 --> 00:00:18,877\nGmail straight to your\n\n16\n00:00:18,877 --> 00:00:19,365\ninbox.\n\n17\n00:00:19,685 --> 00:00:20,660\nThe free template is\n\n18\n00:00:20,660 --> 00:00:21,363\nlinked in the\n\n19\n00:00:21,363 --> 00:00:22,026\ndescription.\n",
+  "srt": "1\n00:00:00,250 --> 00:00:01,537\nManually scanning job\n\n2\n00:00:01,537 --> 00:00:02,675\nboards for growing\n\n3\n00:00:02,675 --> 00:00:04,011\ncompanies wastes hours\n\n4\n00:00:04,011 --> 00:00:04,803\nevery week.\n\n5\n00:00:05,123 --> 00:00:06,430\nThis n8n workflow\n\n6\n00:00:06,430 --> 00:00:07,914\nscrapes Indeed using\n\n7\n00:00:07,914 --> 00:00:09,458\nBright Data to bypass\n\n8\n00:00:09,458 --> 00:00:10,170\nblocks.\n\n9\n00:00:10,490 --> 00:00:11,947\nAn OpenAI agent parses\n\n10\n00:00:11,947 --> 00:00:13,295\nthe listings to spot\n\n11\n00:00:13,295 --> 00:00:14,590\nexpanding marketing\n\n12\n00:00:14,590 --> 00:00:15,183\nteams.\n\n13\n00:00:15,503 --> 00:00:16,568\nIt sends structured\n\n14\n00:00:16,568 --> 00:00:17,678\nemail alerts through\n\n15\n00:00:17,678 --> 00:00:18,877\nGmail straight to your\n\n16\n00:00:18,877 --> 00:00:19,365\ninbox.\n\n17\n00:00:19,685 --> 00:00:20,657\nThe free template is\n\n18\n00:00:20,657 --> 00:00:21,357\nlinked in the\n\n19\n00:00:21,357 --> 00:00:22,018\ndescription.\n",
   "status": "rendered",
   "file": "2026-11-16-0900.mp4",
   "platform": "youtube",
@@ -4638,7 +4612,6 @@
     "ivanti connect secure",
     "cisa kev",
     "cisa domain 5",
-    "cisa by isaca",
     "cybersecurity",
     "cybersecurity news",
     "cyber security",
@@ -5319,8 +5292,8 @@
     "Hubble Space Telescope images",
     "how galaxies spread heavy elements",
     "Milky Way vs dwarf galaxies",
-    "ngc 1300 galaxy",
     "ngc 6872",
+    "ngc 1300 galaxy",
     "ngc 262 galaxy",
     "hubble space telescope images 4k",
     "hubble space telescope photos",
