@@ -1,0 +1,70 @@
+skip: false
+skip_reason: ''
+title: 'What you''re looking at: SPHEREx observatory'
+beats:
+- say: SPHEREx will map the entire sky using one hundred and two infrared wavelengths.
+  caption: SPHEREx will map the entire sky using 102 infrared wavelengths.
+  highlight:
+  - map the entire sky
+  - 102 infrared wavelengths
+  scene:
+    type: headline
+    text: Mapping the entire sky
+- say: This observatory uses spectroscopy to find the distance and composition of millions of stars and galaxies.
+  caption: This observatory uses spectroscopy to find the distance and composition of millions of stars and galaxies.
+  highlight:
+  - distance and composition
+  - millions of stars and galaxies
+  scene:
+    type: image
+    credit: NASA/JPL
+- say: The mission studies how galaxies formed and the origins of water in our galaxy.
+  caption: The mission studies how galaxies formed and the origins of water in our galaxy.
+  highlight:
+  - how galaxies formed
+  - origins of water
+  scene:
+    type: list
+    title: Science goals
+    items:
+    - Galaxy formation
+    - Origins of water
+    style: bullet
+- say: Scientists will also investigate what happened in the first fraction of a second after the Big Bang.
+  caption: Scientists will also investigate what happened in the first fraction of a second after the Big Bang.
+  highlight:
+  - first fraction of a second
+  - after the Big Bang
+  scene:
+    type: headline
+    value: 1st fraction of a second
+    label: Post Big Bang study
+    kicker: Post Big Bang study
+    text: 1st fraction of a second
+- say: Image credit in the description.
+  caption: Image credit in the description.
+  highlight: []
+  scene:
+    type: cta
+    line: Subscribe to Space Science
+    subline: Discover the cosmos every day
+description:
+  explainer: SPHEREx is a NASA observatory designed to map the cosmos using infrared spectroscopy. It will study galaxy evolution and the origins of water.
+  sources:
+  - 'NASA Image and Video Library: https://images.nasa.gov/details/PIA26539'
+  credit: NASA
+seo:
+  seeds:
+  - NASA SPHEREx mission
+  - infrared spectroscopy space
+  - how galaxies formed
+  hashtags:
+  - '#SpaceScience'
+  - '#NASA'
+series: Look Closer
+record_id: nasa:PIA26539
+auto: true
+instagram_hashtags_rotating: []
+media:
+  image: /home/runner/work/channel-engine/channel-engine/collected/deep-field/media/2026-11-20-0900.jpg
+  credit: NASA

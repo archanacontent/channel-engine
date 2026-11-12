@@ -1,0 +1,56 @@
+skip: false
+title: 'Scam alert: Hidden travel fees'
+beats:
+- say: Travel apps hide extra fees below the confirm button to inflate your final price.
+  caption: Travel apps hide extra fees below the confirm button to inflate your final price.
+  scene:
+    type: headline
+    text: Travel apps hide extra fees below the confirm button to inflate your final price.
+  highlight:
+  - hide extra fees
+  - inflate your final price
+- say: The F T C alleged that Hopper Inc automatically added pre selected charges for things like tips and V I P support.
+  caption: The FTC alleged that Hopper, Inc. automatically added pre-selected charges for things like tips and VIP support.
+  scene:
+    type: stat
+    value: Hopper, Inc. case details from the FTC alert published November 2026.
+    label: The Hopper Allegation
+  highlight:
+  - Hopper, Inc.
+  - pre-selected charges
+- say: Protect your bank account with these three steps. Scroll past the confirm button to find hidden items. Check for auto selected toggles you did not choose. Compare your final total to the original price.
+  caption: Protect your bank account with these three steps. Scroll past the confirm button to find hidden items. Check for auto-selected toggles you did not choose. Compare your final total to the original price.
+  scene:
+    type: list
+    title: Stop Hidden Fees
+    items:
+    - Steps to verify your travel booking totals before finalizing payment on any app or site.
+  highlight:
+  - Scroll past the confirm button
+  - Check for auto-selected toggles
+  - Compare your final total
+- say: Report hidden fees to the F T C at Report Fraud dot F T C dot gov. More in the F T C alert linked in the description.
+  caption: Report hidden fees to the FTC at ReportFraud.ftc.gov. More in the FTC alert linked in the description.
+  scene:
+    type: cta
+    line: Report hidden fees
+    subline: ReportFraud.ftc.gov
+  highlight:
+  - Report hidden fees
+  - ReportFraud.ftc.gov
+description:
+  summary: Travel booking apps may hide pre-selected add-on fees below the payment button. This practice can trick users into paying more than the original price.
+  affected: Travelers booking flights or hotels through third-party travel apps.
+  action: Scroll past payment buttons to verify totals and report unauthorized charges to the FTC.
+  sources:
+  - 'FTC consumer alert: https://consumer.ftc.gov/consumer-alerts/2026/11/booking-holiday-travel-hidden-fees-can-cost-you'
+seo:
+  seeds:
+  - avoid hidden travel fees
+  - FTC travel scam
+  - Hopper hidden fees
+  - how to book travel safely
+series: Scam Alert
+record_id: ftc:/consumer-alerts/2026/11/booking-holiday-travel-hidden-fees-can-cost-you
+auto: true
+instagram_hashtags_rotating: []

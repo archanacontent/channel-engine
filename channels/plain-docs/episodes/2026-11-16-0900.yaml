@@ -1,0 +1,57 @@
+skip: false
+title: Fixing a real README in under a minute
+beats:
+- say: Passive voice hides your actual value.
+  caption: Passive voice hides your actual value.
+  scene:
+    type: headline
+    text: Passive voice hides your actual value.
+  highlight: []
+- say: This README sentence buries the main benefit behind extra words. It makes the reader work too hard to find the point.
+  caption: This README sentence buries the main benefit behind extra words. It makes the reader work too hard to find the point.
+  scene:
+    type: compare
+    left_label: Original
+    left_text: With [Upptime](https://upptime.js.org), you can get your own unlimited and free uptime monitor and status page, powered entirely by a GitHub repository.
+    right_label: Rewritten
+    right_text: Upptime turns a GitHub repository into a free, unlimited uptime monitor and status page.
+  highlight: []
+- say: The original requires the reader to parse three clauses before finding the subject. The rewrite places the tool, Upptime, at the start.
+  caption: The original requires the reader to parse three clauses before finding the subject. The rewrite places the tool, Upptime, at the start.
+  scene:
+    type: list
+    title: Why this works
+    items:
+    - 'Why this works, Direct subject, Clear action, Removes clutter, style: check'
+  highlight: []
+- say: Put the actor at the start of the sentence.
+  caption: Put the actor at the start of the sentence.
+  scene:
+    type: quote
+    text: Put the actor at the start of the sentence.
+    value: Put the actor at the start of the sentence.
+  highlight: []
+- say: Subscribe for more edits that make your documentation readable.
+  caption: Subscribe for more edits that make your documentation readable.
+  scene:
+    type: cta
+    line: Subscribe for more technical writing tips.
+    subline: Get your documentation read.
+  highlight: []
+description:
+  what_was_fixed: I removed redundant clauses and passive phrasing from the README introduction to highlight the tool's core function.
+  rule: Start sentences with the subject or actor to keep technical documentation direct and scannable.
+  sources:
+  - 'HDVinnie/TrackerHub README (MIT): https://github.com/HDVinnie/TrackerHub'
+  source_link: https://github.com/HDVinnie/TrackerHub
+  license: MIT
+seo:
+  seeds:
+  - technical writing tips
+  - how to write a README
+  - documentation best practices
+  - improve technical docs
+series: Rewrite This
+record_id: repo:HDVinnie/TrackerHub
+auto: true
+instagram_hashtags_rotating: []

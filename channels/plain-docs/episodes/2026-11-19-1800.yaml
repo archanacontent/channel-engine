@@ -1,0 +1,71 @@
+skip: false
+skip_reason: ''
+title: What a Docs as Code approach must include
+beats:
+- say: Docs as code means using the same tools as developers to write documentation.
+  caption: Docs as code means using the same tools as developers to write documentation.
+  highlight:
+  - same tools as developers
+  scene:
+    type: headline
+    text: Documentation as Code
+- say: This philosophy integrates writers into product teams to build shared ownership.
+  caption: This philosophy integrates writers into product teams to build shared ownership.
+  highlight:
+  - shared ownership
+  scene:
+    type: card
+    title: The Goal
+    rows:
+    - - Integration
+      - With product teams
+    - - Culture
+      - Shared ownership
+- say: A proper workflow requires specific tools and practices.
+  caption: A proper workflow requires specific tools and practices.
+  highlight:
+  - specific tools
+  scene:
+    type: headline
+    text: Required Workflow Components
+- say: You need issue trackers, version control like Git, plain text markup, code reviews, and automated tests.
+  caption: You need issue trackers, version control like Git, plain text markup, code reviews, and automated tests.
+  highlight:
+  - Git
+  - Plain text markup
+  - Automated tests
+  scene:
+    type: list
+    title: Must-have parts
+    items:
+    - Issue trackers
+    - Version control
+    - Plain text markup
+    - Automated tests
+    style: check
+- say: Treat documentation like code to enable better integration with development teams.
+  caption: Treat documentation like code to enable better integration with development teams.
+  highlight:
+  - Treat documentation like code
+  scene:
+    type: quote
+    text: Treat documentation like code to enable better integration with development teams.
+    highlight:
+    - Treat documentation like code
+description:
+  what_was_fixed: Docs as code is a philosophy for writing documentation using developer tools.
+  rule: Integrate writers into product teams using version control and automated tests.
+  sources:
+  - 'Docs as code guidance: https://www.writethedocs.org/guide/docs-as-code/'
+seo:
+  seeds:
+  - what is docs as code
+  - technical writing workflows
+  - documentation as code tools
+  hashtags:
+  - '#TechnicalWriting'
+  - '#DocsAsCode'
+series: Doc Types
+record_id: doctype:Docs as code
+auto: true
+instagram_hashtags_rotating: []

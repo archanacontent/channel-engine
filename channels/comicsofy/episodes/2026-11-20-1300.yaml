@@ -1,0 +1,88 @@
+format: strip
+kind: image
+title: Productivity
+premise: Pim sets a tiny ten-minute productivity timer on his phone to get things done, but gets entirely consumed by staring at the timer counting down.
+panels:
+- room: living_room
+  cast:
+  - who: Pim
+    mood: determined
+    pos: left
+    size: medium
+    holding: phone
+  - who: Soot
+    mood: flat
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: I set a ten-minute productivity timer!
+  - who: Pim
+    text: Time to be super efficient.
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: nervous
+    pos: left
+    size: medium
+    holding: phone
+  - who: Soot
+    mood: flat
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: Only nine minutes left...
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: determined
+    pos: left
+    size: medium
+    holding: phone
+  - who: Soot
+    mood: flat
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: Four minutes! So much pressure!
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: surprised
+    pos: left
+    size: medium
+    holding: phone
+  - who: Soot
+    mood: smug
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: Timer done! What a rush.
+  - who: Soot
+    text: Peak performance.
+  props: []
+caption: 'Efficiency at its absolute finest.
+
+  .
+
+  .
+
+  .
+
+  #comics #cartoon #digitalart #webcomic #comicbooks
+
+  comic | drawing | art | illustration | artist | sketch
+
+  #cartoonist #comicart #comicbook #funnycomics #draw #artwork #catcomics #comicstrip #funny #relatable #artistsoninstagram #comicsofy #doodle #webtoon #viral #viralcomics #explorepage #pimandsoot #webcomics #ghosts #procrastination #catlife'
+description:
+  summary: Efficiency at its absolute finest.
+series: Pim and Soot Comic
+record_id: strip:image:1794502607778135527:0
+auto: true
+instagram_hashtags_rotating: []

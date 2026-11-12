@@ -1,0 +1,79 @@
+skip: false
+skip_reason: ''
+title: 'Stop doing this by hand: personalized email marketing'
+beats:
+- say: Writing hundreds of personalized marketing emails takes hours of manual drafting.
+  caption: Writing hundreds of personalized marketing emails takes hours of manual drafting.
+  highlight:
+  - hundreds of personalized marketing emails
+  - hours of manual drafting
+  scene:
+    type: headline
+    text: Manual email marketing is labor intensive
+- say: You can transform those hours into minutes using n eight n.
+  caption: You can transform those hours into minutes using n8n.
+  highlight:
+  - transform those hours into minutes
+  scene:
+    type: compare
+    left_label: Manual
+    left_text: Hours of drafting
+    right_label: Automated
+    right_text: Minutes of execution
+- say: This workflow pulls offer details and client data from Google Sheets to generate unique content with Llama A I.
+  caption: This workflow pulls offer details and client data from Google Sheets to generate unique content with Llama AI.
+  highlight:
+  - pulls offer details
+  - generate unique content
+  scene:
+    type: flow
+    steps:
+    - title: googleSheetsTrigger
+      note: Monitor offer updates
+    - title: lmChatOllama
+      note: Generate copy with Llama
+    - title: googleSheets
+      note: Fetch client list
+    - title: gmail
+      note: Send targeted emails
+- say: The system handles hundreds of clients with a single execution.
+  caption: The system handles hundreds of clients with a single execution.
+  highlight:
+  - hundreds of clients
+  - single execution
+  scene:
+    type: card
+    title: Automation Benefits
+    rows:
+    - - Drafting
+      - Zero manual effort
+    - - Scale
+      - Hundreds of clients
+    - - Quality
+      - Consistent AI content
+- say: The free template is linked in the description.
+  caption: The free template is linked in the description.
+  highlight:
+  - free template
+  scene:
+    type: cta
+    line: Get the template
+    subline: Linked in the description
+description:
+  task_line: Automate personalized email marketing using AI and Google Sheets.
+  tools: n8n, Google Sheets, Llama AI, Gmail
+  sources:
+  - 'n8n template: https://n8n.io/workflows/5875'
+  template_link: https://n8n.io/workflows/5875
+seo:
+  seeds:
+  - n8n email automation template
+  - AI personalized marketing emails
+  - automate google sheets to gmail
+  hashtags:
+  - '#MarketingAutomation'
+  - '#n8n'
+series: Stop Doing This
+record_id: n8n:5875
+auto: true
+instagram_hashtags_rotating: []

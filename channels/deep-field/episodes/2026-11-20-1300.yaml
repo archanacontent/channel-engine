@@ -1,0 +1,64 @@
+skip: false
+skip_reason: ''
+title: 'Roman: what just happened'
+beats:
+- say: Gravity from massive galaxies acts like a giant lens in space.
+  caption: Gravity from massive galaxies acts like a giant lens in space.
+  highlight:
+  - giant lens in space
+  scene:
+    type: headline
+    text: Gravity acts as a cosmic lens
+- say: This is gravitational lensing. Massive objects bend and magnify light from distant galaxies behind them.
+  caption: This is gravitational lensing. Massive objects bend and magnify light from distant galaxies behind them.
+  highlight:
+  - gravitational lensing
+  - bend and magnify light
+  scene:
+    type: image
+    credit: NASA, ESA, and X. Huang
+- say: Hubble captures high resolution views of individual lenses in visible and ultraviolet light. The Roman Space Telescope launched in August 2026 to capture more lenses across a wider field of view.
+  caption: Hubble captures high resolution views of individual lenses in visible and ultraviolet light. The Roman Space Telescope launched in August 2026 to capture more lenses across a wider field of view.
+  highlight:
+  - high resolution views
+  - wider field of view
+  scene:
+    type: compare
+    left_label: Hubble
+    left_text: High resolution, individual objects
+    right_label: Roman
+    right_text: Wide field, more lenses
+- say: Researchers use these distortions to map invisible dark matter. Finding small clumps could confirm the cold dark matter theory.
+  caption: Researchers use these distortions to map invisible dark matter. Finding small clumps could confirm the cold dark matter theory.
+  highlight:
+  - map invisible dark matter
+  - confirm the cold dark matter theory
+  scene:
+    type: stat
+    value: 1.3 trillion
+    label: Milky Way dark matter mass (solar masses)
+- say: Hubble images are helping build a tool to search for similar arcs in upcoming Roman data. Source in the description.
+  caption: Hubble images are helping build a tool to search for similar arcs in upcoming Roman data. Source in the description.
+  highlight:
+  - search for similar arcs
+  scene:
+    type: cta
+    line: Follow for more space updates
+    subline: Source in the description
+description:
+  explainer: NASA uses Hubble images to prepare for the Roman Space Telescope's wide field observations. These gravitational lenses help scientists map the distribution of dark matter.
+  sources:
+  - 'NASA: https://science.nasa.gov/missions/hubble/nasas-hubble-offers-cosmic-sampler-of-targets-for-roman/'
+seo:
+  seeds:
+  - gravitational lensing explained
+  - NASA Hubble Roman telescope
+  - how dark matter is detected
+  - space science cosmic lenses
+  hashtags:
+  - '#SpaceScience'
+  - '#NASA'
+series: Mission Log
+record_id: nasanews:https://science.nasa.gov/missions/hubble/nasas-hubble-offers-cosmic-sampler-of-targets-for-roman/
+auto: true
+instagram_hashtags_rotating: []

@@ -1,0 +1,88 @@
+format: strip
+kind: image
+title: Professional Ghosting
+premise: Pim tries to write an official out-of-office email on a laptop despite not having a job.
+panels:
+- room: living_room
+  cast:
+  - who: Pim
+    mood: determined
+    pos: left
+    size: medium
+    holding: laptop
+  - who: Soot
+    mood: flat
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: I am setting an out of office email.
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: nervous
+    pos: left
+    size: medium
+    holding: laptop
+  - who: Soot
+    mood: flat
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: Is 'Currently floating around' too informal?
+  - who: Soot
+    text: You do not have a job.
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: excited
+    pos: left
+    size: medium
+    holding: laptop
+  - who: Soot
+    mood: flat
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: It builds professional credibility!
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: happy
+    pos: left
+    size: medium
+    holding: laptop
+  - who: Soot
+    mood: smug
+    pos: right
+    size: medium
+  lines:
+  - who: Soot
+    text: Zero emails received today.
+  - who: Pim
+    text: It worked!
+  props: []
+caption: 'Pim takes his fake job very seriously.
+
+  .
+
+  .
+
+  .
+
+  #comics #cartoon #digitalart #webcomic #comicbooks
+
+  comic | drawing | art | illustration | artist | sketch
+
+  #cartoonist #comicart #comicbook #funnycomics #draw #artwork #catcomics #comicstrip #funny #relatable #artistsoninstagram #comicsofy #doodle #webtoon #viral #viralcomics #explorepage #pimandsoot #ghost #catlife #workfromhome'
+description:
+  summary: Pim takes his fake job very seriously.
+series: Pim and Soot Comic
+record_id: strip:image:1794502121601045865:0
+auto: true
+instagram_hashtags_rotating: []

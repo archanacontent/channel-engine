@@ -1,0 +1,61 @@
+skip: false
+title: 'Exploited now: Linux Kernel CVE-2026-46300'
+beats:
+- say: Linux kernel vulnerability C V E 2 0 2 6 dash 4 6 3 0 0 allows root access.
+  caption: Linux kernel vulnerability CVE-2026-46300 allows root access.
+  scene:
+    type: headline
+    text: 'Exploited: Linux Kernel CVE-2026-46300'
+  highlight:
+  - CVE-2026-46300
+- say: This flaw involves missing variable initialization in the kernel, putting systems at risk.
+  caption: This flaw involves missing variable initialization in the kernel, putting systems at risk.
+  scene:
+    type: stat
+    value: 7.8 High Severity Score (CVSS Base Score 7.8)
+    label: Vulnerability Details
+  highlight:
+  - missing variable initialization
+- say: C I S A added it to their known exploited list on October 28, 2026, with a remediation deadline of October 31, 2026.
+  caption: CISA added it to their known exploited list on 2026-10-28, with a remediation deadline of 2026-10-31.
+  scene:
+    type: stat
+    value: Remediation deadline passed
+    label: Timeline
+  highlight:
+  - remediation deadline
+- say: Attackers chain this with C V E 2 0 2 6 dash 1 0 9 6 1 8 and C V E 2 0 2 6 dash 1 0 9 6 1 9 to install P H P webshells and execute root commands.
+  caption: Attackers chain this with CVE-2026-109618 and CVE-2026-109619 to install PHP webshells and execute root commands.
+  scene:
+    type: list
+    title: Attack Method
+    items:
+    - Exploit Chain Details
+  highlight:
+  - install PHP webshells
+  - execute root commands
+- say: Apply vendor updates immediately and follow B O D 2 6 dash 0 4 guidance. Sources are in the description.
+  caption: Apply vendor updates immediately and follow BOD 26-04 guidance. Sources are in the description.
+  scene:
+    type: cta
+    line: Patch immediately
+    subline: Follow BOD 26-04
+  highlight:
+  - Apply vendor updates
+description:
+  summary: A missing variable initialization flaw in the Linux kernel is being actively exploited to gain root access. Attackers are chaining this vulnerability with others to install webshells.
+  affected: Linux kernel users.
+  action: Apply vendor-provided mitigations immediately in compliance with BOD 26-04.
+  sources:
+  - 'CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog'
+  - 'NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-46300'
+seo:
+  seeds:
+  - Linux kernel vulnerability
+  - CVE-2026-46300 exploit
+  - CISA KEV catalog
+  - Linux kernel security
+series: Exploited Today
+record_id: kev:CVE-2026-46300
+auto: true
+instagram_hashtags_rotating: []

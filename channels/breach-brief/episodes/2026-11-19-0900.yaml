@@ -1,0 +1,77 @@
+skip: false
+skip_reason: ''
+title: 'Exploited now: GitLab CVE-2026-97229'
+beats:
+- say: Unauthenticated attackers are executing arbitrary code on GitLab servers right now.
+  caption: Unauthenticated attackers are executing arbitrary code on GitLab servers right now.
+  highlight:
+  - executing arbitrary code
+  - GitLab servers
+  scene:
+    type: headline
+    text: Active Code Execution Vulnerability
+- say: C V E 2 0 2 6, 9 7 2 2 9 is a critical integer overflow vulnerability in GitLab Community and Enterprise Editions.
+  caption: CVE-2026-97229 is a critical integer overflow vulnerability in GitLab Community and Enterprise Editions.
+  highlight:
+  - CVE-2026-97229
+  - integer overflow vulnerability
+  scene:
+    type: card
+    title: Vulnerability Details
+    rows:
+    - - CVE ID
+      - CVE-2026-97229
+    - - Product
+      - GitLab CE and EE
+    - - Added
+      - '2026-10-29'
+    - - Due Date
+      - '2026-11-01'
+- say: The flaw allows malicious regular expressions in C I/D configuration to bypass validation.
+  caption: The flaw allows malicious regular expressions in CI/CD configuration to bypass validation.
+  highlight:
+  - malicious regular expressions
+  - bypass validation
+  scene:
+    type: stat
+    value: '10.0'
+    label: CVSS Base Score
+- say: Update to version 19.2.8, 19.3.5, or 19.4.2 immediately to stop this attack.
+  caption: Update to version 19.2.8, 19.3.5, or 19.4.2 immediately to stop this attack.
+  highlight:
+  - stop this attack
+  scene:
+    type: list
+    title: Required Action
+    items:
+    - Apply vendor mitigations
+    - Update to patched versions
+    - Verify cloud service compliance
+    style: check
+- say: Sources are in the description.
+  caption: Sources are in the description.
+  highlight: []
+  scene:
+    type: cta
+    line: Stay Protected
+    subline: Check the description for sources
+description:
+  summary: An integer overflow vulnerability in GitLab allows unauthenticated code execution via CI/CD configurations.
+  affected: GitLab Community Edition and Enterprise Edition versions prior to 19.2.8, 19.3.5, and 19.4.2.
+  action: Apply vendor mitigations or update to the latest patched versions immediately.
+  sources:
+  - 'CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog'
+  - 'NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-97229'
+seo:
+  seeds:
+  - GitLab CVE-2026-97229 exploit
+  - GitLab integer overflow vulnerability
+  - CISA known exploited vulnerabilities GitLab
+  - how to fix GitLab CVE-2026-97229
+  hashtags:
+  - '#Cybersecurity'
+  - '#GitLab'
+series: Exploited Today
+record_id: kev:CVE-2026-97229
+auto: true
+instagram_hashtags_rotating: []

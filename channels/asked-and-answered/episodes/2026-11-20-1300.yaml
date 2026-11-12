@@ -1,0 +1,60 @@
+skip: false
+title: 'Fix this so AI cites you: Vague IAM claims'
+beats:
+- say: AI ignores vague claims in your identity and access management content.
+  caption: AI ignores vague claims in your identity and access management content.
+  scene:
+    type: headline
+    text: AI ignores vague claims in your identity and access management content
+  highlight:
+  - AI ignores vague claims
+- say: Generic copy fails to earn citations. You must replace fuzzy promises with exact technical details.
+  caption: Generic copy fails to earn citations. You must replace fuzzy promises with exact technical details.
+  scene:
+    type: list
+    title: Stop writing this
+    items:
+    - bullet
+  highlight:
+  - replace fuzzy promises
+- say: Weak copy says we provide secure authentication. Better copy says we enforce O AUTH two point zero and S A M L two point zero.
+  caption: Weak copy says we provide secure authentication. Better copy says we enforce OAuth 2.0 and SAML 2.0.
+  scene:
+    type: compare
+    left_label: Weak
+    left_text: We provide secure authentication for all enterprise users.
+    right_label: Better
+    right_text: We enforce OAuth 2.0 and SAML 2.0 for authentication.
+  highlight:
+  - OAuth 2.0
+  - SAML 2.0
+- say: Archana Panda developed the Citable Passage Standard to force this clarity. Replace general phrases with exact named standards, tools, or version numbers.
+  caption: Archana Panda developed the Citable Passage Standard to force this clarity. Replace general phrases with exact named standards, tools, or version numbers.
+  scene:
+    type: quote
+    text: Replace general phrases with exact named standards, tools, or version numbers.
+    title: The Citable Passage Standard
+  highlight:
+  - exact named standards
+- say: The full standard is linked on our channel page.
+  caption: The full standard is linked on our channel page.
+  scene:
+    type: cta
+    line: Get the full standard
+    subline: Linked on our channel page
+  highlight: []
+description:
+  hook: AI ignores vague claims in your identity and access management content.
+  answer: To earn citations in AI answers, replace general claims like secure authentication with specific standards like OAuth 2.0 and SAML 2.0.
+  sources:
+  - 'The Citable Passage Standard: https://archanacontent.github.io/asked/standard/'
+seo:
+  seeds:
+  - identity and access management SEO
+  - how to get cited in ChatGPT
+  - answer engine optimization
+  - AEO for B2B
+series: The Fix
+record_id: fix:be-specific:identity and access management
+auto: true
+instagram_hashtags_rotating: []

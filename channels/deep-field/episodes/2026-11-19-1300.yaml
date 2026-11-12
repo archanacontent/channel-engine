@@ -1,0 +1,82 @@
+skip: false
+skip_reason: ''
+title: 'NASA Ames Stars of the Month: what just happened'
+beats:
+- say: NASA Ames has recognized three scientists for their contributions to space exploration.
+  caption: NASA Ames has recognized three scientists for their contributions to space exploration.
+  highlight:
+  - recognized three scientists
+  - contributions to space exploration
+  scene:
+    type: headline
+    text: NASA Ames Stars of the Month
+- say: Alyssa Villanueva is an engineer for the L E I A team at Blue Marble. She provides essential support for engineering validation testing in the Space Biosciences Division.
+  caption: Alyssa Villanueva is an engineer for the LEIA team at Blue Marble. She provides essential support for engineering validation testing in the Space Biosciences Division.
+  highlight:
+  - Alyssa Villanueva
+  - LEIA team
+  - engineering validation testing
+  scene:
+    type: card
+    title: Space Biosciences Star
+    rows:
+    - - Name
+      - Alyssa Villanueva
+    - - Team
+      - LEIA
+    - - Focus
+      - Engineering validation
+- say: Astrophysics Star Steve Howell leads scientific teams for international space missions. His work in astronomical instrumentation advanced telescope imaging.
+  caption: Astrophysics Star Steve Howell leads scientific teams for international space missions. His work in astronomical instrumentation advanced telescope imaging.
+  highlight:
+  - Steve Howell
+  - astronomical instrumentation
+  - telescope imaging
+  scene:
+    type: headline
+    value: Catherine Wolfe Bruce Gold Medal
+    label: Award received by Steve Howell
+    source: Astronomical Society of the Pacific
+    kicker: Award received by Steve Howell
+    text: Catherine Wolfe Bruce Gold Medal
+- say: Samuel LeBlanc advances flight planning for NASA airborne science missions. His leadership helps maximize scientific returns for the Earth Science Division.
+  caption: Samuel LeBlanc advances flight planning for NASA airborne science missions. His leadership helps maximize scientific returns for the Earth Science Division.
+  highlight:
+  - Samuel LeBlanc
+  - flight planning
+  - Earth Science Division
+  scene:
+    type: list
+    title: Earth Science Star
+    items:
+    - Samuel LeBlanc
+    - Flight planning innovation
+    - Airborne science missions
+    style: bullet
+- say: Source in the description.
+  caption: Source in the description.
+  highlight:
+  - Source in the description
+  scene:
+    type: cta
+    line: NASA Ames Recognition
+    subline: Source in the description.
+description:
+  explainer:
+  - NASA Ames has named its Stars of the Month for November 2026.
+  - The honors recognize Alyssa Villanueva, Steve Howell, and Samuel LeBlanc for their work in space biosciences, astrophysics, and earth science.
+  sources:
+  - 'NASA: https://www.nasa.gov/general/nasa-ames-stars-of-the-month-november-2026/'
+seo:
+  seeds:
+  - NASA Ames Stars of the Month
+  - NASA space biosciences
+  - astronomical instrumentation advances
+  - NASA airborne science missions
+  hashtags:
+  - '#NASA'
+  - '#SpaceScience'
+series: Mission Log
+record_id: nasanews:https://www.nasa.gov/general/nasa-ames-stars-of-the-month-november-2026/
+auto: true
+instagram_hashtags_rotating: []

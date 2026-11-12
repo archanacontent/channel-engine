@@ -1,0 +1,77 @@
+skip: false
+skip_reason: ''
+title: Can you automate marketing intelligence gathering?
+beats:
+- say: Can you automate marketing intelligence gathering? Yes. You can extract trends and customer pain points from sales calls without manual transcript review.
+  caption: Can you automate marketing intelligence gathering? Yes. You can extract trends and customer pain points from sales calls without manual transcript review.
+  highlight:
+  - automate marketing intelligence gathering
+  - extract trends and customer pain points
+  scene:
+    type: headline
+    text: Automate marketing intelligence gathering
+- say: Manually reviewing sales call transcripts is time consuming and inconsistent. Marketing teams lose hours looking for competitor mentions and recurring topics.
+  caption: Manually reviewing sales call transcripts is time consuming and inconsistent. Marketing teams lose hours looking for competitor mentions and recurring topics.
+  highlight:
+  - time consuming and inconsistent
+  - lose hours looking for competitor mentions
+  scene:
+    type: compare
+    left_label: Manual Review
+    left_text: Time consuming and inconsistent
+    right_label: CallForge
+    right_text: Automated and structured
+- say: This n eight n workflow triggers when AI sales call data is received. It identifies marketing related data like customer pain points and competitor mentions.
+  caption: This n8n workflow triggers when AI sales call data is received. It identifies marketing related data like customer pain points and competitor mentions.
+  highlight:
+  - identifies marketing related data
+  - customer pain points
+  scene:
+    type: flow
+    steps:
+    - title: AI Data Trigger
+      note: Receives sales call insights
+    - title: Identify Insights
+      note: Finds pain points and competitors
+    - title: Log Trends
+      note: Tracks recurring themes
+- say: The system extracts key insights and logs trends across multiple calls. It then processes actionable recommendations for your marketing strategy.
+  caption: The system extracts key insights and logs trends across multiple calls. It then processes actionable recommendations for your marketing strategy.
+  highlight:
+  - logs trends across multiple calls
+  - actionable recommendations
+  scene:
+    type: list
+    title: Automated Outputs
+    items:
+    - Marketing Insights
+    - Recurring Topics
+    - Actionable Recommendations
+    style: check
+- say: Everything is stored in Notion databases for seamless access. Template link in the description.
+  caption: Everything is stored in Notion databases for seamless access. Template link in the description.
+  highlight:
+  - stored in Notion databases
+  scene:
+    type: cta
+    line: Get the n8n template
+    subline: Template link in the description.
+description:
+  task_line: You can automate the extraction of marketing intelligence from AI-analyzed sales calls.
+  tools: n8n, Notion, Gong
+  sources:
+  - 'n8n template: https://n8n.io/workflows/3037'
+  template_link: https://n8n.io/workflows/3037
+seo:
+  seeds:
+  - automate marketing intelligence
+  - n8n sales call automation
+  - extract customer pain points from calls
+  - notion marketing insights workflow
+  hashtags:
+  - '#MarketingAutomation'
+  - '#n8n'
+series: Can It Be Automated?
+record_id: n8n:3037
+auto: true
+instagram_hashtags_rotating: []

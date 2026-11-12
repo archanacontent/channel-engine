@@ -1,0 +1,79 @@
+format: strip
+kind: reel
+title: The Voicemail
+premise: Pim tries to practice a smooth, professional greeting on his phone but keeps apologizing to the hypothetical caller.
+panels:
+- room: living_room
+  cast:
+  - who: Pim
+    mood: excited
+    pos: left
+    size: medium
+    flip: false
+    holding: phone
+  lines:
+  - who: Pim
+    text: I am recording my new voicemail greeting!
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: nervous
+    pos: left
+    size: medium
+    flip: false
+    holding: phone
+  lines:
+  - who: Pim
+    text: Hi! You reached Pim! Leave a message...
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: sad
+    pos: left
+    size: medium
+    flip: false
+    holding: phone
+  lines:
+  - who: Pim
+    text: Unless you are busy! Or called by accident!
+  - who: Pim
+    text: I am so sorry!
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: nervous
+    pos: left
+    size: medium
+    flip: false
+    holding: phone
+  - who: Soot
+    mood: flat
+    pos: right
+    size: medium
+    flip: false
+  lines:
+  - who: Soot
+    text: The phone hung up on you.
+  props: []
+caption: 'First impressions are hard, even for voicemails.
+
+  .
+
+  .
+
+  .
+
+  #comics #cartoon #digitalart #webcomic #comicbooks
+
+  comic | drawing | art | illustration | artist | sketch
+
+  #cartoonist #comicart #comicbook #funnycomics #draw #artwork #catcomics #comicstrip #funny #relatable #artistsoninstagram #comicsofy #doodle #webtoon #viral #viralcomics #explorepage #pimandsoot #webcomics'
+description:
+  summary: First impressions are hard, even for voicemails.
+series: Pim and Soot Reel
+record_id: strip:reel:1794502772408960896:0
+auto: true
+instagram_hashtags_rotating: []

@@ -1,0 +1,87 @@
+skip: false
+skip_reason: ''
+title: 'Writing rule: Use common contractions'
+beats:
+- say: Common contractions make your technical documentation easier to scan.
+  caption: Common contractions make your technical documentation easier to scan.
+  highlight:
+  - Common contractions
+  - easier to scan
+  scene:
+    type: headline
+    text: Write documentation people actually finish
+- say: Readers often miss the word not when they are scanning text.
+  caption: Readers often miss the word not when they are scanning text.
+  highlight:
+  - miss the word not
+  - scanning text
+  scene:
+    type: headline
+    value: High
+    label: Risk of missing negation
+    source: Google developer documentation
+    kicker: Risk of missing negation
+    text: High
+- say: It is not recommended to use the full phrase.
+  caption: It is not recommended to use the full phrase.
+  highlight:
+  - not recommended
+  scene:
+    type: compare
+    left_label: Weak
+    left_text: It is not recommended.
+    right_label: Better
+    right_text: It isn't recommended.
+- say: Use established two word contractions like you are or do not.
+  caption: Use established two word contractions like you're or don't.
+  highlight:
+  - two word contractions
+  - you're
+  - don't
+  scene:
+    type: list
+    title: Use these
+    items:
+    - you're
+    - don't
+    - there's
+    - can't
+    style: check
+- say: Avoid nonstandard forms like guides are or three word contractions.
+  caption: Avoid nonstandard forms like guides're or three word contractions.
+  highlight:
+  - Avoid nonstandard forms
+  scene:
+    type: card
+    title: Contractions to avoid
+    rows:
+    - - Nonstandard
+      - guides're
+    - - Three word
+      - mightn't've
+- say: Google developer documentation recommends using common two word contractions.
+  caption: Google developer documentation recommends using common two word contractions.
+  highlight:
+  - common two word contractions
+  scene:
+    type: quote
+    text: We recommend using common two-word contractions such as you're, don't, and there's.
+    highlight:
+    - common two-word contractions
+description:
+  what_was_fixed: Negation was converted from 'is not' to 'isn't' to prevent readers from missing the negative intent during scanning.
+  rule: Use common two-word contractions to improve readability and scanning.
+  sources:
+  - 'Google developer documentation: https://developers.google.com/style/contractions'
+seo:
+  seeds:
+  - technical writing tips
+  - how to write documentation
+  - Google developer style guide
+  hashtags:
+  - '#TechnicalWriting'
+  - '#Documentation'
+series: One Rule
+record_id: style:https://developers.google.com/style/contractions
+auto: true
+instagram_hashtags_rotating: []

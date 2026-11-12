@@ -1,0 +1,88 @@
+format: strip
+kind: reel
+title: Fine Dining
+premise: Pim tries to host a formal dinner party for two with one tiny pizza slice.
+panels:
+- room: dining_room
+  cast:
+  - who: Pim
+    mood: proud
+    pos: left
+    size: medium
+    holding: pizza
+  - who: Soot
+    mood: flat
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: Welcome to our five star dining experience tonight, Soot!
+  props: []
+- room: dining_room
+  cast:
+  - who: Pim
+    mood: excited
+    pos: left
+    size: medium
+    holding: pizza
+  - who: Soot
+    mood: flat
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: 'Chef recommendation: leftover pizza served warm.'
+  props: []
+- room: dining_room
+  cast:
+  - who: Pim
+    mood: nervous
+    pos: left
+    size: medium
+    holding: pizza
+  - who: Soot
+    mood: smug
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: Would monsieur care for a sparkling water pairings?
+  - who: Soot
+    text: Put the pizza down, Pim.
+  props: []
+- room: dining_room
+  cast:
+  - who: Pim
+    mood: sad
+    pos: left
+    size: medium
+  - who: Soot
+    mood: eating
+    pos: right
+    size: medium
+    holding: pizza
+  lines:
+  - who: Pim
+    text: Compliments to the chef?
+  - who: Soot
+    text: Needs salt.
+  props: []
+caption: 'Reservations required. Dress code: cozy.
+
+  .
+
+  .
+
+  .
+
+  #comics #cartoon #digitalart #webcomic #comicbooks
+
+  comic | drawing | art | illustration | artist | sketch
+
+  #cartoonist #comicart #comicbook #funnycomics #draw #artwork #catcomics #comicstrip #funny #relatable #artistsoninstagram #comicsofy #doodle #webtoon #viral #viralcomics #explorepage #pimandsoot #webcomics #instacomics #ghosts #cats #cozyvibes'
+description:
+  summary: 'Reservations required. Dress code: cozy.'
+series: Pim and Soot Reel
+record_id: strip:reel:1794502251270569244:0
+auto: true
+instagram_hashtags_rotating: []

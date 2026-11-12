@@ -1,0 +1,59 @@
+skip: false
+title: How big is Venus, really?
+beats:
+- say: Venus is more than twice as wide as Mercury.
+  caption: Venus is more than twice as wide as Mercury.
+  scene:
+    type: headline
+    text: Venus is twice as wide as Mercury
+  highlight:
+  - twice as wide
+- say: Mercury spans four thousand eight hundred seventy nine kilometers in diameter.
+  caption: Mercury spans 4879 km in diameter.
+  scene:
+    type: stat
+    label: Mercury Diameter
+    value: 4879 km
+  highlight:
+  - 4879 km
+- say: Venus is much larger, measuring twelve thousand one hundred four kilometers across.
+  caption: Venus is much larger, measuring 12104 km across.
+  scene:
+    type: stat
+    label: Venus Diameter
+    value: 12104 km
+  highlight:
+  - 12104 km
+- say: If you placed them side by side, Venus is two point four eight times the size of Mercury.
+  caption: If you placed them side by side, Venus is 2.48 times the size of Mercury.
+  scene:
+    type: sizes
+    a_label: Venus
+    a_value: 12104.0
+    b_label: Mercury
+    b_value: 4879.0
+    unit: km
+  highlight:
+  - 2.48 times the size
+- say: Figures from NASA's Planetary Fact Sheet.
+  caption: Figures from NASA's Planetary Fact Sheet.
+  scene:
+    type: cta
+    line: Subscribe for more space science.
+    subline: Figures from NASA's Planetary Fact Sheet
+  highlight: []
+description:
+  explainer: Venus is significantly larger than Mercury, measuring over 12,000 kilometers in diameter. This comparison highlights the physical scale difference between these two inner planets.
+  sources:
+  - 'NASA Planetary Fact Sheet: https://nssdc.gsfc.nasa.gov/planetary/factsheet/'
+seo:
+  seeds:
+  - Venus size comparison
+  - how big is Venus
+  - Mercury vs Venus diameter
+  - inner planets size comparison
+skip_reason: ''
+series: Scale It
+record_id: scale:VENUS:MERCURY
+auto: true
+instagram_hashtags_rotating: []

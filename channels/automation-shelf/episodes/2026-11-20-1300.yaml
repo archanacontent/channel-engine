@@ -1,0 +1,67 @@
+skip: false
+title: 'Free workflow: Testimonial extraction on autopilot'
+beats:
+- say: Turn messy customer feedback into ready to use marketing testimonials automatically.
+  caption: Turn messy customer feedback into ready to use marketing testimonials automatically.
+  scene:
+    type: headline
+    kicker: Library Pick
+    text: Automate Testimonial Extraction
+  highlight: []
+- say: Raw feedback is often long or messy. This n eight n workflow uses Google Gemini to clean it up.
+  caption: Raw feedback is often long or messy. This n8n workflow uses Google Gemini to clean it up.
+  scene:
+    type: stat
+    value: Google Gemini Flash
+    label: Workflow Logic
+  highlight:
+  - clean it up
+- say: The automation watches your spreadsheet for new entries, extracts the emotional core using an L L M chain, saves the result, and alerts your team via G mail.
+  caption: The automation watches your spreadsheet for new entries, extracts the emotional core using an LLM chain, saves the result, and alerts your team via Gmail.
+  scene:
+    type: flow
+    steps:
+    - title: Trigger
+      note: Watches Google Sheets
+    - title: Gemini
+      note: Extracts testimonial
+    - title: Database
+      note: Saves to sheet
+    - title: Notify
+      note: Sends Gmail alert
+  highlight:
+  - extracts the emotional core
+- say: Use this if you want to stop manual copy pasting from forms to your marketing dashboard. It is for teams that need high quality quotes without the grunt work.
+  caption: Use this if you want to stop manual copy pasting from forms to your marketing dashboard. It is for teams that need high quality quotes without the grunt work.
+  scene:
+    type: list
+    title: Why use this
+    items:
+    - check
+  highlight:
+  - stop manual copy pasting
+- say: Template link in the description.
+  caption: Template link in the description.
+  scene:
+    type: cta
+    line: Get the Template
+    subline: Automate your testimonials today
+  highlight:
+  - Template link
+description:
+  task_line: This workflow automatically converts raw customer feedback into polished marketing testimonials using Google Gemini.
+  tools: n8n, Google Sheets, Google Gemini, Gmail
+  sources:
+  - 'n8n template: https://n8n.io/workflows/4449'
+  template_link: https://n8n.io/workflows/4449
+seo:
+  seeds:
+  - n8n testimonial automation
+  - automated testimonial extraction
+  - Google Gemini marketing workflow
+  - Google Sheets feedback automation
+skip_reason: ''
+series: Library Pick
+record_id: n8n:4449
+auto: true
+instagram_hashtags_rotating: []

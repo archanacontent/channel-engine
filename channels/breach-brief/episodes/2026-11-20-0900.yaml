@@ -1,0 +1,75 @@
+skip: false
+skip_reason: ''
+title: 'Exploited now: Broadcom VMware ESX CVE-2026-41709'
+beats:
+- say: Administrators can hide their actions in Broadcom VMware E S X.
+  caption: Administrators can hide their actions in Broadcom VMware ESX.
+  highlight:
+  - hide their actions
+  scene:
+    type: headline
+    text: Undetected admin actions
+- say: The insufficient logging vulnerability C V E 2 0 2 6 4 1 7 0 9 lets malicious actors bypass audit trails.
+  caption: The insufficient logging vulnerability CVE-2026-41709 lets malicious actors bypass audit trails.
+  highlight:
+  - bypass audit trails
+  scene:
+    type: card
+    title: Vulnerability Details
+    rows:
+    - - CVE ID
+      - CVE-2026-41709
+    - - Product
+      - VMware ESX
+    - - Added
+      - '2026-10-28'
+    - - Due Date
+      - '2026-11-11'
+- say: This flaw was added to the C I S A catalog on October 28, 2026.
+  caption: This flaw was added to the CISA catalog on October 28, 2026.
+  highlight:
+  - CISA catalog
+  scene:
+    type: stat
+    value: '2026-10-28'
+    label: KEV Added Date
+- say: Apply vendor mitigations immediately or discontinue use if patches are unavailable.
+  caption: Apply vendor mitigations immediately or discontinue use if patches are unavailable.
+  highlight:
+  - Apply vendor mitigations
+  scene:
+    type: list
+    title: Required Actions
+    items:
+    - Apply vendor mitigations
+    - Follow BOD 26-04
+    - Evaluate internet exposure
+    - Discontinue if unpatched
+    style: check
+- say: Sources are in the description.
+  caption: Sources are in the description.
+  highlight: []
+  scene:
+    type: cta
+    line: Stay protected
+    subline: Sources are in the description.
+description:
+  summary: Broadcom VMware ESX has an insufficient logging vulnerability being exploited in the wild.
+  affected: Broadcom VMware ESX
+  action: Apply vendor mitigations or discontinue use if mitigations are unavailable.
+  sources:
+  - 'CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog'
+  - 'NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-41709'
+seo:
+  seeds:
+  - CVE-2026-41709 exploit
+  - VMware ESX vulnerability
+  - CISA KEV Broadcom
+  - VMware ESX logging flaw
+  hashtags:
+  - '#Cybersecurity'
+  - '#VMware'
+series: Exploited Today
+record_id: kev:CVE-2026-41709
+auto: true
+instagram_hashtags_rotating: []

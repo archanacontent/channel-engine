@@ -1,0 +1,79 @@
+skip: false
+skip_reason: ''
+title: 'Stop doing this by hand: voice-powered content creation'
+beats:
+- say: Writing blog posts and generating visuals takes hours of manual effort.
+  caption: Writing blog posts and generating visuals takes hours of manual effort.
+  highlight:
+  - Writing blog posts
+  - manual effort
+  scene:
+    type: headline
+    text: Manual content creation wastes hours
+- say: Gwen is an AI voice marketing agent that handles research, writing, and image generation through a single interface.
+  caption: Gwen is an AI voice marketing agent that handles research, writing, and image generation through a single interface.
+  highlight:
+  - AI voice marketing agent
+  - single interface
+  scene:
+    type: card
+    title: Gwen Capabilities
+    rows:
+    - - Research
+      - Real-time
+    - - Writing
+      - Voice-optimized
+    - - Visuals
+      - AI-generated
+    - - Audio
+      - ElevenLabs
+- say: The n eight n workflow connects an agent to specialized subworkflows for every task.
+  caption: The n8n workflow connects an agent to specialized subworkflows for every task.
+  highlight:
+  - n8n workflow
+  - specialized subworkflows
+  scene:
+    type: flow
+    steps:
+    - title: Agent
+      note: Langchain AI Agent
+    - title: Tool Workflows
+      note: Modular subworkflows
+    - title: ElevenLabs
+      note: Voice delivery
+- say: Stop manually drafting posts and searching for assets.
+  caption: Stop manually drafting posts and searching for assets.
+  highlight:
+  - Stop manually drafting
+  scene:
+    type: compare
+    left_label: Manual
+    left_text: Drafting, researching, and prompting assets individually
+    right_label: Automated
+    right_text: Single voice command triggers full production
+- say: The free template is linked in the description.
+  caption: The free template is linked in the description.
+  highlight:
+  - free template
+  scene:
+    type: cta
+    line: Automate your content engine
+    subline: The free template is linked in the description.
+description:
+  task_line: This template automates voice-powered blog writing and image generation using Gwen.
+  tools: n8n, OpenAI, ElevenLabs, Tavily, Telegram, Google Sheets
+  sources:
+  - 'n8n template: https://n8n.io/workflows/4888'
+  template_link: https://n8n.io/workflows/4888
+seo:
+  seeds:
+  - n8n AI agent template
+  - voice powered marketing automation
+  - automate blog post creation
+  hashtags:
+  - '#MarketingAutomation'
+  - '#n8n'
+series: Stop Doing This
+record_id: n8n:4888
+auto: true
+instagram_hashtags_rotating: []

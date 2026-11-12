@@ -1,0 +1,65 @@
+skip: false
+skip_reason: ''
+title: How big is Mars, really?
+beats:
+- say: Mars is nearly half the size of Earth.
+  caption: Mars is nearly half the size of Earth.
+  highlight:
+  - nearly half the size
+  scene:
+    type: headline
+    text: Mars vs Earth
+- say: The diameter of Earth is 12,756 kilometers. Mars has a diameter of 6,792 kilometers.
+  caption: The diameter of Earth is 12,756 km. Mars has a diameter of 6,792 km.
+  highlight: []
+  scene:
+    type: sizes
+    a_label: Earth
+    a_value: 12756.0
+    b_label: Mars
+    b_value: 6792.0
+    unit: km
+- say: This means Earth is 1.88 times wider than the Red Planet.
+  caption: This means Earth is 1.88 times wider than the Red Planet.
+  highlight:
+  - 1.88 times wider
+  scene:
+    type: stat
+    value: '1.88'
+    label: Size Ratio
+- say: Earth orbits at 149.6 million kilometers from the Sun. Mars sits further out at 228.0 million kilometers.
+  caption: Earth orbits at 149.6 million km from the Sun. Mars sits further out at 228.0 million km.
+  highlight:
+  - 149.6 million km
+  - 228.0 million km
+  scene:
+    type: compare
+    left_label: Earth Distance
+    left_text: 149.6 million km
+    right_label: Mars Distance
+    right_text: 228.0 million km
+- say: Figures from NASA's Planetary Fact Sheet.
+  caption: Figures from NASA's Planetary Fact Sheet.
+  highlight:
+  - NASA's Planetary Fact Sheet
+  scene:
+    type: quote
+    text: Figures from NASA's Planetary Fact Sheet.
+    highlight:
+    - NASA's Planetary Fact Sheet
+description:
+  explainer: Mars is significantly smaller than Earth. This video compares the diameter and distance from the Sun for both planets.
+  sources:
+  - 'NASA Planetary Fact Sheet: https://nssdc.gsfc.nasa.gov/planetary/factsheet/'
+seo:
+  seeds:
+  - size of Mars vs Earth
+  - Mars diameter in km
+  - distance of Mars from Sun
+  hashtags:
+  - '#Space'
+  - '#Mars'
+series: Scale It
+record_id: scale:EARTH:MARS
+auto: true
+instagram_hashtags_rotating: []

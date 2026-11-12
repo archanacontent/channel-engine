@@ -1,0 +1,59 @@
+skip: false
+title: 'Scam alert: Fake FTC websites'
+beats:
+- say: Scammers are cloning the Federal Trade Commission website to steal your personal information.
+  caption: Scammers are cloning the Federal Trade Commission website to steal your personal information.
+  scene:
+    type: headline
+    text: Scammers are cloning the Federal Trade Commission website to steal your personal information.
+  highlight:
+  - cloning the Federal Trade Commission website
+- say: Last year, the agency received over one million imposter reports totaling three point five billion dollars in losses.
+  caption: Last year, the agency received over one million imposter reports totaling $3.5 billion in losses.
+  scene:
+    type: headline
+    value: $3.5 billion in losses
+    kicker: ''
+    text: $3.5 billion in losses
+  highlight: []
+- say: 'Warning signs: Fake sites often use dot c o m, dot o r g, dot u s, or dot o n l i n e endings.'
+  caption: 'Warning signs: Fake sites often use .com, .org, .us, or .online endings.'
+  scene:
+    type: list
+    title: Fake site addresses
+    items:
+    - 'Check the domain extension carefully for these common fake indicators: .com, .org, .us, .online'
+  highlight:
+  - Fake sites often use .com, .org, .us, or .online endings
+- say: A real F T C employee will never ask you to transfer money or give cash to protect it.
+  caption: A real FTC employee will never ask you to transfer money or give cash to protect it.
+  scene:
+    type: quote
+    text: A real FTC employee will never ask you to transfer money or give cash to protect it.
+    title: Impersonator red flag
+  highlight:
+  - never ask you to transfer money
+- say: Always verify the site ends in dot g o v and report scams at Report Fraud dot f t c dot g o v. More in the F T C alert linked in the description.
+  caption: Always verify the site ends in .gov and report scams at ReportFraud.ftc.gov. More in the FTC alert linked in the description.
+  scene:
+    type: cta
+    line: Report scams at ReportFraud.ftc.gov
+    subline: Always verify official sites end in .gov
+  highlight:
+  - ReportFraud.ftc.gov
+description:
+  summary: Scammers are impersonating the Federal Trade Commission by cloning their website to steal personal information and money. Real FTC websites always end in .gov.
+  affected: Individuals targeted by fake FTC websites, text messages, emails, and social media impersonators.
+  action: Always verify the website ends in .gov and report any imposter scams to the official site at ReportFraud.ftc.gov.
+  sources:
+  - 'FTC consumer alert: https://consumer.ftc.gov/consumer-alerts/2026/11/how-spot-fake-ftc-websites-and-ftc-impersonators'
+seo:
+  seeds:
+  - fake FTC website
+  - FTC imposter scam
+  - how to spot government impersonator
+  - report fraud FTC
+series: Scam Alert
+record_id: ftc:/consumer-alerts/2026/11/how-spot-fake-ftc-websites-and-ftc-impersonators
+auto: true
+instagram_hashtags_rotating: []

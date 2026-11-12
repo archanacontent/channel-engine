@@ -1,0 +1,59 @@
+skip: false
+title: Can you automate Customer.io operations?
+beats:
+- say: Can you automate Customer.io tool operations? Yes.
+  caption: Can you automate Customer.io tool operations? Yes.
+  scene:
+    type: headline
+    text: Can you automate Customer.io tool operations?
+  highlight: []
+- say: Manual API connections for segments, campaigns, and customer data waste time. This n eight n workflow exposes nine Customer.io operations as an M C P server for any A I agent.
+  caption: Manual API connections for segments, campaigns, and customer data waste time. This n8n workflow exposes nine Customer.io operations as an MCP server for any AI agent.
+  scene:
+    type: stat
+    value: Manual API connections waste time. This n8n workflow exposes nine Customer.io operations as an MCP server for any AI agent.
+    label: Manual vs Automated
+  highlight: []
+- say: The flow uses an M C P trigger node to act as the server endpoint. It leverages from A I placeholders to map resource I D s and data payloads automatically.
+  caption: The flow uses an MCP trigger node to act as the server endpoint. It leverages fromAI placeholders to map resource IDs and data payloads automatically.
+  scene:
+    type: flow
+    steps:
+    - title: MCP Trigger
+      note: Acts as the server endpoint
+    - title: Tool Nodes
+      note: Nine operations pre-configured
+    - title: AI Expressions
+      note: Auto-populate parameters
+  highlight: []
+- say: Import the template into your n eight n instance. Activate the workflow, copy the webhook U R L, and connect your A I agent to start executing tasks.
+  caption: Import the template into your n8n instance. Activate the workflow, copy the webhook URL, and connect your AI agent to start executing tasks.
+  scene:
+    type: list
+    title: Quick Setup
+    items:
+    - Import the template into your n8n instance. Activate the workflow, copy the webhook URL, and connect your AI agent to start executing tasks.
+  highlight: []
+- say: Template link in the description.
+  caption: Template link in the description.
+  scene:
+    type: cta
+    line: Ready to deploy?
+    subline: Template link in the description.
+  highlight: []
+description:
+  task_line: This n8n template exposes nine Customer.io operations as an MCP server for AI agents.
+  tools: n8n, Customer.io, MCP
+  sources:
+  - 'n8n template: https://n8n.io/workflows/5314'
+  template_link: https://n8n.io/workflows/5314
+seo:
+  seeds:
+  - n8n customer.io integration
+  - automate customer.io
+  - n8n mcp server
+  - ai agent customer.io
+series: Can It Be Automated?
+record_id: n8n:5314
+auto: true
+instagram_hashtags_rotating: []

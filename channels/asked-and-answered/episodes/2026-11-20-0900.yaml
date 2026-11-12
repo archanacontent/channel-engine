@@ -1,0 +1,74 @@
+skip: false
+skip_reason: ''
+title: 'Buyers ask AI: what is email deliverability score'
+beats:
+- say: What is an email deliverability score?
+  caption: What is an email deliverability score?
+  highlight:
+  - email deliverability score
+  scene:
+    type: headline
+    text: Email Deliverability Score
+- say: AI engines search for definitions that connect a metric to a specific business outcome.
+  caption: AI engines search for definitions that connect a metric to a specific business outcome.
+  highlight:
+  - connect a metric
+  - specific business outcome
+  scene:
+    type: compare
+    left_label: Weak definition
+    left_text: A number showing if emails arrive.
+    right_label: AI optimized
+    right_text: A percentage metric measuring successful inbox placement.
+- say: To earn a citation, your page must define the score and list its components.
+  caption: To earn a citation, your page must define the score and list its components.
+  highlight:
+  - define the score
+  - list its components
+  scene:
+    type: flow
+    steps:
+    - title: Define
+      note: State the metric clearly
+    - title: Contextualize
+      note: Connect to sender reputation
+    - title: Breakdown
+      note: List key variables
+- say: Effective pages use structured lists to explain what makes up the score.
+  caption: Effective pages use structured lists to explain what makes up the score.
+  highlight:
+  - structured lists
+  scene:
+    type: list
+    title: Score Components
+    items:
+    - Inbox placement rate
+    - Bounce rate
+    - Spam complaint rate
+    - Sender reputation
+    style: bullet
+- say: Find your buyers' questions with Asked, link on our channel page.
+  caption: Find your buyers' questions with Asked, link on our channel page.
+  highlight:
+  - Asked
+  scene:
+    type: cta
+    line: Master AI visibility
+    subline: Find your buyers' questions with Asked, link on our channel page.
+description:
+  hook: An email deliverability score measures how successfully your messages reach the inbox.
+  answer: To be cited by AI, your content must define the metric and provide a structured breakdown of its components.
+  sources:
+  - 'Asked, free AEO and GEO question finder: https://archanacontent.github.io/asked/'
+seo:
+  seeds:
+  - email deliverability score definition
+  - what affects email deliverability
+  - AEO for B2B email marketing
+  hashtags:
+  - '#EmailMarketing'
+  - '#AEO'
+series: Buyers Asked
+record_id: asked:email deliverability
+auto: true
+instagram_hashtags_rotating: []

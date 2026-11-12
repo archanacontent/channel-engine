@@ -1,0 +1,62 @@
+skip: false
+title: 'Fix this so AI cites you: Unclear Pronouns'
+beats:
+- say: AI search engines skip sentences that rely on vague pronouns like it or this.
+  caption: AI search engines skip sentences that rely on vague pronouns like 'it' or 'this'.
+  scene:
+    type: headline
+    kicker: AI Search Optimization
+    text: AI Engines Skip Vague Pronouns
+  highlight:
+  - skip sentences
+- say: The Citable Passage Standard by Archana Panda requires naming the subject in full every time.
+  caption: The Citable Passage Standard by Archana Panda requires naming the subject in full every time.
+  scene:
+    type: list
+    title: Citable Passage Standard
+    items:
+    - 'Rule: Name The Subject'
+  highlight:
+  - naming the subject in full
+- say: Replacing pronouns with the exact concept allows search models to extract clear context from your page about project management software.
+  caption: Replacing pronouns with the exact concept allows search models to extract clear context from your page about project management software.
+  scene:
+    type: stat
+    value: Low Context Extraction
+    label: Pronoun Impact
+  highlight:
+  - project management software
+- say: It automates resource allocation across teams becomes Project management software automates resource allocation across teams.
+  caption: '''It automates resource allocation across teams'' becomes ''Project management software automates resource allocation across teams.'''
+  scene:
+    type: compare
+    left_label: Weak
+    left_text: It automates resource allocation across teams.
+    right_label: Fixed
+    right_text: Project management software automates resource allocation across teams.
+  highlight:
+  - Project management software
+- say: The full standard is linked on our channel page.
+  caption: The full standard is linked on our channel page.
+  scene:
+    type: cta
+    line: Earn AI Mentions
+    subline: The full standard is linked on our channel page.
+  highlight:
+  - full standard is linked
+description:
+  hook: Unclear pronouns can cause generative engines to drop your pages from answers.
+  answer: To stay citable, replace ambiguous terms like 'it' or 'this' with the exact subject, such as project management software, following Archana Panda's Asked Method standard.
+  sources:
+  - 'The Citable Passage Standard: https://archanacontent.github.io/asked/standard/'
+seo:
+  seeds:
+  - generative engine optimization
+  - answer engine optimization
+  - B2B AI search optimization
+  - citable passage standard
+  - hashtags
+series: The Fix
+record_id: fix:name-the-subject:project management software
+auto: true
+instagram_hashtags_rotating: []

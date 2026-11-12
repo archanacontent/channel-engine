@@ -1,0 +1,74 @@
+skip: false
+skip_reason: ''
+title: Fixing a real README in under a minute
+beats:
+- say: Vague instructions create confusion for new contributors.
+  caption: Vague instructions create confusion for new contributors.
+  highlight:
+  - Vague instructions
+  - confusion
+  scene:
+    type: headline
+    text: Stop confusing your contributors
+- say: The current text says, "The file name should be the name of your package without any file extensions, and should contain at least these properties:"
+  caption: The current text says, "The file name should be the name of your package without any file extensions, and should contain at least these properties:"
+  highlight:
+  - The file name should be
+  scene:
+    type: compare
+    left_label: Original
+    left_text: 'The file name should be the name of your package without any file extensions, and should contain at least these properties:'
+    right_label: Improved
+    right_text: 'Name the file after your package without an extension. Include these properties:'
+- say: I removed the wordy phrase "the name of your package" and replaced "should contain at least these properties" with a direct command.
+  caption: I removed the wordy phrase "the name of your package" and replaced "should contain at least these properties" with a direct command.
+  highlight:
+  - removed the wordy phrase
+  - direct command
+  scene:
+    type: list
+    title: Edits made
+    items:
+    - Removed redundant words
+    - Used imperative verbs
+    - Shortened sentence length
+    style: check
+- say: Specific instructions reduce the time developers spend guessing your requirements.
+  caption: Specific instructions reduce the time developers spend guessing your requirements.
+  highlight:
+  - reduce the time
+  - guessing your requirements
+  scene:
+    type: headline
+    value: Less
+    label: Time spent guessing
+    kicker: Time spent guessing
+    text: Less
+- say: Use direct commands to guide your users.
+  caption: Use direct commands to guide your users.
+  highlight:
+  - Use direct commands
+  scene:
+    type: quote
+    text: Use direct commands to guide your users.
+    highlight:
+    - direct commands
+description:
+  what_was_fixed: I simplified wordy instructions in the oh-my-fish/packages-main README to make package submission clearer.
+  rule: Use imperative verbs to provide clear directions.
+  sources:
+  - 'oh-my-fish/packages-main README (MIT): https://github.com/oh-my-fish/packages-main'
+  source_link: https://github.com/oh-my-fish/packages-main
+  license: MIT
+seo:
+  seeds:
+  - technical writing tips
+  - how to write README files
+  - improving documentation
+  hashtags:
+  - '#TechnicalWriting'
+  - '#OpenSource'
+series: Rewrite This
+record_id: repo:oh-my-fish/packages-main
+auto: true
+instagram_hashtags_rotating: []

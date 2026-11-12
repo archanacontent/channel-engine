@@ -1,0 +1,64 @@
+skip: false
+title: 'Free workflow: eBay API on autopilot'
+beats:
+- say: Connect your AI agent to the eBay Buy Marketing API instantly.
+  caption: Connect your AI agent to the eBay Buy Marketing API instantly.
+  scene:
+    type: headline
+    text: Connect your AI agent to the eBay Buy Marketing API instantly
+  highlight:
+  - eBay Buy Marketing API
+- say: This n eight n template turns the eBay Buy Marketing API into a ready to use M C P server.
+  caption: This n8n template turns the eBay Buy Marketing API into a ready-to-use MCP server.
+  scene:
+    type: stat
+    value: n8n Template Details
+    label: Workflow Capability
+  highlight:
+  - ready-to-use MCP server
+- say: The workflow uses an M C P trigger node to receive requests and an H T T P request node to fetch Merchandised Products.
+  caption: The workflow uses an MCP trigger node to receive requests and an HTTP request node to fetch Merchandised Products.
+  scene:
+    type: flow
+    steps:
+    - title: MCP Trigger
+      note: Receives agent requests
+    - title: HTTP Request
+      note: Fetches product data
+  highlight:
+  - MCP trigger node
+  - HTTP request node
+- say: AI agents automatically handle path parameters and headers using built in expressions, so you avoid manual mapping.
+  caption: AI agents automatically handle path parameters and headers using built-in expressions, so you avoid manual mapping.
+  scene:
+    type: list
+    title: Key Features
+    items:
+    - Automation Benefits
+  highlight:
+  - automatically handle path parameters
+  - avoid manual mapping
+- say: Template link in the description.
+  caption: Template link in the description.
+  scene:
+    type: cta
+    line: 'Free workflow: eBay API on autopilot'
+    subline: Import the template via the link below
+  highlight:
+  - Template link
+description:
+  task_line: This n8n template connects AI agents to the eBay Buy Marketing API via MCP.
+  tools: n8n, MCP, eBay Buy Marketing API
+  sources:
+  - 'n8n template: https://n8n.io/workflows/5567'
+  template_link: https://n8n.io/workflows/5567
+seo:
+  seeds:
+  - n8n eBay integration
+  - MCP server template
+  - AI agent eBay API
+  - automate eBay marketing
+series: Library Pick
+record_id: n8n:5567
+auto: true
+instagram_hashtags_rotating: []
