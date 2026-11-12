@@ -76,9 +76,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add queue state channels/*/episodes
+          git add queue state channels/*/episodes channels/*/music
           git diff --cached --quiet || git commit -m "Queue new Shorts"
-          git pull --rebase -q && git push
+          git pull --rebase --autostash -q && git push
       - name: Report problems
         if: always()
         run: cat collected/*/failures.txt 2>/dev/null || true
