@@ -109,8 +109,13 @@ def instagram_caption(brand, text, gag_tags=()):
         else:
             lines.append(" ".join(row))
             used += len(row)
-    extra = [h for h in list(brand.get("hashtags", [])) + list(gag_tags)
-             if h.lower() not in " ".join(lines).lower().split()][:max(0, 30 - used)]
+    have = set(" ".join(lines).lower().split())
+    extra = []
+    for h in list(brand.get("hashtags", [])) + list(gag_tags):
+        if h.lower() not in have:
+            have.add(h.lower())
+            extra.append(h)
+    extra = extra[:max(0, 30 - used)]
     if extra:
         lines[-1] = (lines[-1] + " " + " ".join(extra)).strip()
     return text.strip() + "\n.\n.\n.\n" + "\n".join(lines)

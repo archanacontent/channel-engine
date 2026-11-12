@@ -140,7 +140,13 @@ def publish(path, caption):
     if dup:
         print(f"skipped: already on Instagram as {dup}")
         return dup
-    mid = post_reel(path, caption) if str(path).endswith(".mp4") else post_image(path, caption)
+    post = post_reel if str(path).endswith(".mp4") else post_image
+    try:
+        mid = post(path, caption)
+    except RuntimeError as ex:   # Meta sometimes rejects an upload once and accepts it on a fresh try
+        print("first attempt failed, retrying in 45s:", str(ex)[:160])
+        time.sleep(45)
+        mid = post(path, caption)
     led = json.loads(LEDGER.read_text()) if LEDGER.exists() else {}
     led[fingerprint(path)] = mid
     LEDGER.parent.mkdir(exist_ok=True)
