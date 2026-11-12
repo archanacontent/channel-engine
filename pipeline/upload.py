@@ -76,7 +76,28 @@ def collect(src, release, queue):
     print(f"collected {len(files)} new Shorts into {release}")
 
 
+def remove_replaced(queue):
+    """Old copies of re-rendered Shorts come off YouTube first, before any upload, so a
+    broken version can never go live even if the fixed one has to wait for upload room."""
+    from publish.youtube import client
+    for e in sorted(queue, key=lambda x: x["publish_at"]):
+        if not e.get("replace"):
+            continue
+        try:
+            client(e["slug"]).videos().delete(id=e["replace"]).execute()
+            print("deleted old version", e["slug"], e["replace"])
+            e.pop("replace")
+        except Exception as ex:
+            if "notFound" in str(ex) or "404" in str(ex):
+                e.pop("replace")
+                continue
+            print("could not delete old version", e["replace"], str(ex)[:120])
+            if "quota" in str(ex).lower():
+                break
+
+
 def upload_pending(queue):
+    remove_replaced(queue)
     today = datetime.now(PT).date().isoformat()
     done_today = sum(1 for e in queue if (e.get("uploaded_at") or "")[:10] == today)
     budget = CAP - done_today
@@ -100,19 +121,6 @@ def upload_pending(queue):
             if r.returncode != 0:
                 print("missing asset", asset(e))
                 continue
-        if e.get("replace"):   # a fixed version replaces a video already on YouTube
-            try:
-                from publish.youtube import client
-                client(e["slug"]).videos().delete(id=e["replace"]).execute()
-                print("deleted old version", e["slug"], e["replace"])
-                e.pop("replace")
-            except Exception as ex:
-                print("could not delete old version", e["replace"], str(ex)[:120])
-                if "quota" in str(ex).lower():
-                    break
-                if "notFound" not in str(ex) and "404" not in str(ex):
-                    continue
-                e.pop("replace")
         when = datetime.fromisoformat(e["publish_at"]).astimezone(timezone.utc)
         at = when.strftime("%Y-%m-%dT%H:%M:%SZ") if when > now + timedelta(minutes=15) else None
         try:
