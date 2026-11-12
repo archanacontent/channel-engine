@@ -35,11 +35,15 @@
    "music": "original: 6-dorian-2-91-550371 @ 91 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,676\nBuyers ask AI what\n\n2\n00:00:01,676 --> 00:00:03,227\nis CRM software used\n\n3\n00:00:03,227 --> 00:00:03,785\nfor.\n\n4\n00:00:03,785 --> 00:00:05,025\nTo get cited by\n\n5\n00:00:05,025 --> 00:00:06,265\nanswer engines,\n\n6\n00:00:06,265 --> 00:00:08,064\nyour pages must directly\n\n7\n00:00:08,064 --> 00:00:09,118\ndefine this.\n\n8\n00:00:09,438 --> 00:00:10,773\nAnswer engines pull\n\n9\n00:00:10,773 --> 00:00:12,163\nresults from content\n\n10\n00:00:12,163 --> 00:00:13,163\nthat explains\n\n11\n00:00:13,163 --> 00:00:14,665\nfunctionality clearly.\n\n12\n00:00:14,665 --> 00:00:16,277\nYour page needs explicit\n\n13\n00:00:16,277 --> 00:00:17,111\nuse cases.\n\n14\n00:00:17,431 --> 00:00:18,874\nStructure your content\n\n15\n00:00:18,874 --> 00:00:20,157\nto address specific\n\n16\n00:00:20,157 --> 00:00:21,654\nbuyer queries about how\n\n17\n00:00:21,654 --> 00:00:23,044\nsystems work and what\n\n18\n00:00:23,044 --> 00:00:24,113\nexamples exist.\n\n19\n00:00:24,433 --> 00:00:25,450\nFind your buyers\n\n20\n00:00:25,450 --> 00:00:26,710\nquestions with Asked,\n\n21\n00:00:26,710 --> 00:00:27,873\nlink on our channel\n\n22\n00:00:27,873 --> 00:00:28,357\npage.\n",
-  "status": "rendered",
+  "status": "scheduled",
   "release": "week-2026-11-11",
   "published_at": "2026-11-11T14:00:00+00:00",
-  "replace": "Ehaq6VvxEhc",
-  "original_slot": "2026-11-11T09:00:00-05:00"
+  "original_slot": "2026-11-11T09:00:00-05:00",
+  "keywords_done": true,
+  "video_id": "TJJzY5N4FFU",
+  "uploaded_at": "2026-11-12T00:10:08.615247-08:00",
+  "playlist_done": true,
+  "captions_done": true
  },
  {
   "slug": "asked-and-answered",
@@ -87,10 +91,12 @@
    "music": "original: 11-dorian-7-84-136051 @ 84 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,531\nAnswer first when\n\n2\n00:00:01,531 --> 00:00:02,813\nwriting about CRM\n\n3\n00:00:02,813 --> 00:00:04,385\nsoftware so generative\n\n4\n00:00:04,385 --> 00:00:06,074\nengines can extract your\n\n5\n00:00:06,074 --> 00:00:07,763\ndirect statement easily.\n\n6\n00:00:08,083 --> 00:00:09,339\nThe citable passage\n\n7\n00:00:09,339 --> 00:00:10,751\nstandard requires your\n\n8\n00:00:10,751 --> 00:00:12,007\nopening sentence to\n\n9\n00:00:12,007 --> 00:00:13,524\nanswer the user question\n\n10\n00:00:13,524 --> 00:00:14,780\noutright before any\n\n11\n00:00:14,780 --> 00:00:15,983\nbackground details\n\n12\n00:00:15,983 --> 00:00:16,610\nfollow.\n\n13\n00:00:16,931 --> 00:00:18,032\nHere is how you\n\n14\n00:00:18,032 --> 00:00:19,298\napply this rule to\n\n15\n00:00:19,298 --> 00:00:20,454\na page about CRM\n\n16\n00:00:20,454 --> 00:00:21,225\nsoftware.\n\n17\n00:00:21,225 --> 00:00:22,711\nCompare this weak line\n\n18\n00:00:22,711 --> 00:00:24,197\nto the correct format.\n\n19\n00:00:24,517 --> 00:00:25,835\nThis rule comes from\n\n20\n00:00:25,835 --> 00:00:27,364\nthe Asked Method created\n\n21\n00:00:27,364 --> 00:00:28,524\nby Archana Panda.\n\n22\n00:00:28,524 --> 00:00:29,842\nThe full standard is\n\n23\n00:00:29,842 --> 00:00:31,213\nlinked on our channel\n\n24\n00:00:31,213 --> 00:00:31,740\npage.\n",
-  "status": "rendered",
+  "status": "scheduled",
   "release": "week-2026-11-11",
-  "replace": "23A0GKekOi8",
-  "original_slot": "2026-11-11T13:00:00-05:00"
+  "original_slot": "2026-11-11T13:00:00-05:00",
+  "keywords_done": true,
+  "video_id": "vuOXhb0ypk8",
+  "uploaded_at": "2026-11-12T00:10:44.731645-08:00"
  },
  {
   "slug": "asked-and-answered",
@@ -136,10 +142,12 @@
    "music": "original: 5-dorian-7-79-146177 @ 79 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,799\nGoogle is expanding ads\n\n2\n00:00:01,799 --> 00:00:02,795\nin AI Mode to\n\n3\n00:00:02,795 --> 00:00:04,012\nmore than ten new\n\n4\n00:00:04,012 --> 00:00:05,450\ncountries in English.\n\n5\n00:00:05,770 --> 00:00:07,271\nMultiturn ads are also\n\n6\n00:00:07,271 --> 00:00:08,828\nlaunching in the United\n\n7\n00:00:08,828 --> 00:00:10,217\nStates for follow up\n\n8\n00:00:10,217 --> 00:00:10,940\nqueries.\n\n9\n00:00:11,260 --> 00:00:12,899\nAds can match directly\n\n10\n00:00:12,899 --> 00:00:13,993\nto a query or\n\n11\n00:00:13,993 --> 00:00:15,511\ndraw on context from\n\n12\n00:00:15,511 --> 00:00:16,786\nthe AI response.\n\n13\n00:00:17,106 --> 00:00:18,697\nAdvertisers still cannot\n\n14\n00:00:18,697 --> 00:00:20,232\nsee AI Mode performance\n\n15\n00:00:20,232 --> 00:00:21,823\nseparately in Google Ads\n\n16\n00:00:21,823 --> 00:00:22,645\nreporting.\n\n17\n00:00:22,965 --> 00:00:24,165\nSearch Engine Journal\n\n18\n00:00:24,165 --> 00:00:25,180\nbroke the update.\n\n19\n00:00:25,180 --> 00:00:26,011\nSource in the\n\n20\n00:00:26,011 --> 00:00:26,795\ndescription.\n",
-  "status": "rendered",
+  "status": "scheduled",
   "release": "week-2026-11-11",
-  "replace": "0Oy7TgA-YHc",
-  "original_slot": "2026-11-11T18:00:00-05:00"
+  "original_slot": "2026-11-11T18:00:00-05:00",
+  "keywords_done": true,
+  "video_id": "s2qT6JqIC7g",
+  "uploaded_at": "2026-11-12T00:11:12.107925-08:00"
  },
  {
   "slug": "asked-and-answered",
@@ -155,7 +163,7 @@
    "series": "Buyers Asked",
    "playlist": "Buyers Asked: What B2B Buyers Ask AI",
    "title": "Buyers ask AI: what is marketing automation software",
-   "youtube_description": "Buyers ask AI what is marketing automation software to research platforms before talking to sales teams.\nYour web pages must provide direct software definitions and comparison points to earn citations in generative search results.\n\nSources:\n- Asked, free AEO and GEO question finder: https://archanacontent.github.io/asked/\n\nFind your buyers' questions: https://archanacontent.github.io/asked/\nMore from Archana Panda: https://archanacontent.github.io\n\n#AISearchMarketing #AEO #B2BMarketing #ContentStrategy #GEO #AISearch",
+   "youtube_description": "Buyers ask AI what is marketing automation software to research platforms before talking to sales teams.\nYour web pages must provide direct software definitions and comparison points to earn citations in generative search results.\n\nSources:\n- Asked, free AEO and GEO question finder: https://archanacontent.github.io/asked/\n\nFind your buyers' questions: https://archanacontent.github.io/asked/\nMore from Archana Panda: https://archanacontent.github.io\n\n#AISearchMarketing #AEO #B2BMarketing #ContentStrategy #GEO #AISearch\n.\n.\n.\n.\nmarketing automation software | answer engine optimization | AI search marketing | generative engine optimization B2B SEO | how to rank in Perplexity Google AI Mode | B2B vendor discovery in AI engines | marketing automation tools definition | AEO strategy for software companies | best marketing automation platform for small business | software comparison for AI search engines | how AI citations work for SaaS companies | optimizing B2B content for ChatGPT search | AI search | AEO | GEO | generative engine optimization | AI search optimization | B2B marketing | buyer research | content strategy | SaaS marketing | AI Overviews | ChatGPT SEO | LLM SEO | content optimization | Google AI Mode | SEO 2026 | search trends",
    "tags": [
     "marketing automation software",
     "answer engine optimization",
@@ -185,7 +193,8 @@
   "uploaded_at": "2026-11-10T15:13:43.437590-08:00",
   "published_at": "2026-11-12T14:00:00+00:00",
   "playlist_done": true,
-  "captions_done": true
+  "captions_done": true,
+  "keywords_done": true
  },
  {
   "slug": "asked-and-answered",
@@ -201,7 +210,7 @@
    "series": "The Fix",
    "playlist": "The Fix: Get Cited by AI Search",
    "title": "Fix this so AI cites you: stand alone passages",
-   "youtube_description": "AI engines ignore content that requires context from the rest of your page.\nApply the stand alone rule by removing referential phrases like as mentioned above to ensure your intent data content is eligible for citation.\n\nSources:\n- The Citable Passage Standard: https://archanacontent.github.io/asked/standard/\n\nFind your buyers' questions: https://archanacontent.github.io/asked/\nMore from Archana Panda: https://archanacontent.github.io\n\n#AISearchMarketing #AEO #ContentMarketing #SEO #GEO #AISearch",
+   "youtube_description": "AI engines ignore content that requires context from the rest of your page.\nApply the stand alone rule by removing referential phrases like as mentioned above to ensure your intent data content is eligible for citation.\n\nSources:\n- The Citable Passage Standard: https://archanacontent.github.io/asked/standard/\n\nFind your buyers' questions: https://archanacontent.github.io/asked/\nMore from Archana Panda: https://archanacontent.github.io\n\n#AISearchMarketing #AEO #ContentMarketing #SEO #GEO #AISearch\n.\n.\n.\n.\nAI search optimization | generative engine optimization | how to get cited by AI | content strategy for AI | ai search optimization 2026 | ai search optimization services | generative engine optimization (geo) | generative engine optimization tutorial | how to get mentioned in google's ai search results | how to catch ai generated essays | content strategy ai | content marketing with ai | how to create content by ai | AI search | AEO | GEO | AI Overviews | ChatGPT SEO | answer engine optimization | B2B marketing | buyer research | content strategy | SaaS marketing | LLM SEO | content optimization | Google AI Mode | SEO 2026 | search trends",
    "tags": [
     "AI search optimization",
     "generative engine optimization",
@@ -237,7 +246,8 @@
   "uploaded_at": "2026-11-10T15:13:49.046964-08:00",
   "published_at": "2026-11-12T18:00:00+00:00",
   "playlist_done": true,
-  "captions_done": true
+  "captions_done": true,
+  "keywords_done": true
  },
  {
   "slug": "automation-shelf",
@@ -284,10 +294,14 @@
    "music": "original: 11-major-1-115-335541 @ 115 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,390\nStop wasting hours\n\n2\n00:00:01,390 --> 00:00:02,481\nmanually tracking\n\n3\n00:00:02,481 --> 00:00:03,720\ncompetitor moves and\n\n4\n00:00:03,720 --> 00:00:04,712\nkeyword trends.\n\n5\n00:00:05,032 --> 00:00:06,319\nThis n8n workflow\n\n6\n00:00:06,319 --> 00:00:07,724\nmonitors competitor\n\n7\n00:00:07,724 --> 00:00:09,422\ncontent and generates AI\n\n8\n00:00:09,422 --> 00:00:10,592\nrecommendations\n\n9\n00:00:10,592 --> 00:00:11,704\nautomatically.\n\n10\n00:00:12,024 --> 00:00:13,029\nThe flow uses a\n\n11\n00:00:13,029 --> 00:00:14,183\ntrigger to monitor\n\n12\n00:00:14,183 --> 00:00:15,288\ndomains and query\n\n13\n00:00:15,288 --> 00:00:16,643\nmultiple data sources.\n\n14\n00:00:16,963 --> 00:00:18,368\nYou get instant updates\n\n15\n00:00:18,368 --> 00:00:19,220\nin Airtable,\n\n16\n00:00:19,220 --> 00:00:20,323\nNotion, and Slack\n\n17\n00:00:20,323 --> 00:00:21,627\nwithout manual input.\n\n18\n00:00:21,947 --> 00:00:22,919\nThe free template is\n\n19\n00:00:22,919 --> 00:00:23,619\nlinked in the\n\n20\n00:00:23,619 --> 00:00:24,280\ndescription.\n",
-  "status": "rendered",
+  "status": "scheduled",
   "release": "week-2026-11-11",
-  "replace": "KWunCfi5NOU",
-  "original_slot": "2026-11-11T09:00:00-05:00"
+  "original_slot": "2026-11-11T09:00:00-05:00",
+  "keywords_done": true,
+  "video_id": "cLhMvwuHLpI",
+  "uploaded_at": "2026-11-12T00:10:11.403463-08:00",
+  "playlist_done": true,
+  "captions_done": true
  },
  {
   "slug": "automation-shelf",
@@ -332,10 +346,12 @@
    "music": "original: 5-lydian-2-108-411507 @ 108 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,567\nStop manually creating\n\n2\n00:00:01,567 --> 00:00:02,932\nFacebook posts for your\n\n3\n00:00:02,932 --> 00:00:03,956\nAmazon affiliate\n\n4\n00:00:03,956 --> 00:00:05,224\nproducts every single\n\n5\n00:00:05,224 --> 00:00:05,662\nday.\n\n6\n00:00:05,982 --> 00:00:07,158\nThis n8n workflow\n\n7\n00:00:07,158 --> 00:00:08,439\nwatches your Google\n\n8\n00:00:08,439 --> 00:00:09,828\nSheet for new product\n\n9\n00:00:09,828 --> 00:00:11,057\nlinks and triggers\n\n10\n00:00:11,057 --> 00:00:12,071\nautomatically.\n\n11\n00:00:12,071 --> 00:00:13,567\nIt fetches details from\n\n12\n00:00:13,567 --> 00:00:14,635\nAmazon and uses\n\n13\n00:00:14,635 --> 00:00:16,184\nOpenRouter to write your\n\n14\n00:00:16,184 --> 00:00:17,626\nsocial media captions.\n\n15\n00:00:17,946 --> 00:00:19,184\nThe system generates\n\n16\n00:00:19,184 --> 00:00:20,422\nhigh quality product\n\n17\n00:00:20,422 --> 00:00:21,561\nimages with Google\n\n18\n00:00:21,561 --> 00:00:22,948\nGemini and uploads them\n\n19\n00:00:22,948 --> 00:00:23,988\ndirectly to your\n\n20\n00:00:23,988 --> 00:00:24,929\nFacebook page.\n\n21\n00:00:24,929 --> 00:00:26,068\nIt then marks your\n\n22\n00:00:26,068 --> 00:00:27,454\nspreadsheet row as done\n\n23\n00:00:27,454 --> 00:00:28,791\nso you stay organized.\n\n24\n00:00:29,111 --> 00:00:30,508\nYou can customize the\n\n25\n00:00:30,508 --> 00:00:32,011\ncaption prompt to match\n\n26\n00:00:32,011 --> 00:00:33,246\nyour brand tone or\n\n27\n00:00:33,246 --> 00:00:34,481\nswap the final API\n\n28\n00:00:34,481 --> 00:00:35,555\ncall to post on\n\n29\n00:00:35,555 --> 00:00:36,791\nInstagram instead.\n\n30\n00:00:36,791 --> 00:00:38,187\nThis automation saves\n\n31\n00:00:38,187 --> 00:00:39,422\ntime for affiliate\n\n32\n00:00:39,422 --> 00:00:40,764\nmarketers and social\n\n33\n00:00:40,764 --> 00:00:41,838\nmedia managers.\n\n34\n00:00:42,158 --> 00:00:43,016\nTemplate link in the\n\n35\n00:00:43,016 --> 00:00:43,599\ndescription.\n",
-  "status": "rendered",
+  "status": "scheduled",
   "release": "week-2026-11-11",
-  "replace": "wWF1Un4HgM4",
-  "original_slot": "2026-11-11T13:00:00-05:00"
+  "original_slot": "2026-11-11T13:00:00-05:00",
+  "keywords_done": true,
+  "video_id": "FpBMlkjkgm8",
+  "uploaded_at": "2026-11-12T00:10:47.572376-08:00"
  },
  {
   "slug": "automation-shelf",
@@ -378,11 +394,13 @@
    "music": "original: 4-major-6-118-667247 @ 118 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,486\nCan you automate ad\n\n2\n00:00:01,486 --> 00:00:02,567\nbanner creation?\n\n3\n00:00:02,567 --> 00:00:03,906\nYes, you can generate\n\n4\n00:00:03,906 --> 00:00:05,194\nhigh quality banners\n\n5\n00:00:05,194 --> 00:00:06,430\nfrom LINE messages.\n\n6\n00:00:06,750 --> 00:00:08,284\nThis n8n workflow uses\n\n7\n00:00:08,284 --> 00:00:09,478\nGoogle Gemini to\n\n8\n00:00:09,478 --> 00:00:10,785\nengineer marketing\n\n9\n00:00:10,785 --> 00:00:12,376\nprompts for your banner\n\n10\n00:00:12,376 --> 00:00:13,171\nconcepts.\n\n11\n00:00:13,491 --> 00:00:14,964\nThe workflow submits a\n\n12\n00:00:14,964 --> 00:00:16,219\njob to Nano Banana\n\n13\n00:00:16,219 --> 00:00:17,528\nPro and handles the\n\n14\n00:00:17,528 --> 00:00:18,674\nasynchronous API\n\n15\n00:00:18,674 --> 00:00:19,383\npolling.\n\n16\n00:00:19,703 --> 00:00:20,933\nFinal images are\n\n17\n00:00:20,933 --> 00:00:22,279\nuploaded to AWS S3\n\n18\n00:00:22,279 --> 00:00:23,860\nand sent directly back\n\n19\n00:00:23,860 --> 00:00:25,383\nto your LINE account.\n\n20\n00:00:25,703 --> 00:00:26,560\nTemplate link in the\n\n21\n00:00:26,560 --> 00:00:27,144\ndescription.\n",
-  "status": "rendered",
+  "status": "scheduled",
   "release": "week-2026-11-11",
   "published_at": "2026-11-11T23:00:00+00:00",
-  "replace": "nyaf4kQaYRs",
-  "original_slot": "2026-11-11T18:00:00-05:00"
+  "original_slot": "2026-11-11T18:00:00-05:00",
+  "keywords_done": true,
+  "video_id": "eKXS8A3RKnI",
+  "uploaded_at": "2026-11-12T00:11:14.305373-08:00"
  },
  {
   "slug": "automation-shelf",
@@ -398,7 +416,7 @@
    "series": "Stop Doing This",
    "playlist": "Stop Doing This: Marketing Tasks to Automate",
    "title": "Stop doing this by hand: trend video generation",
-   "youtube_description": "This workflow takes a user prompt, researches trending topics, generates a video prompt, and sends it to the Seedance API via Wavespeed to create a video ad from a single Telegram message.\nTools: Telegram, Perplexity AI, OpenAI, Seedance API, Wavespeed, n8n\nTemplate: https://n8n.io/workflows/5674\n\nSources:\n- n8n template: https://n8n.io/workflows/5674\n\n#MarketingAutomationLibrary #MarketingAutomation #MarketingOps #Productivity #n8n #NoCode",
+   "youtube_description": "This workflow takes a user prompt, researches trending topics, generates a video prompt, and sends it to the Seedance API via Wavespeed to create a video ad from a single Telegram message.\nTools: Telegram, Perplexity AI, OpenAI, Seedance API, Wavespeed, n8n\nTemplate: https://n8n.io/workflows/5674\n\nSources:\n- n8n template: https://n8n.io/workflows/5674\n\n#MarketingAutomationLibrary #MarketingAutomation #MarketingOps #Productivity #n8n #NoCode\n.\n.\n.\n.\nn8n video generation workflow | automate video ads telegram | seedance api n8n template | n8n workflow | n8n deploy | n8n chatgpt | auto telegram channel members | auto posting bot telegram | marketing automation | n8n | marketing ops | automation for small business | productivity | n8n templates | no code automation | workflow automation | n8n tutorial | free automation templates | marketing automation tools | marketing automation ideas",
    "tags": [
     "n8n video generation workflow",
     "automate video ads telegram",
@@ -426,10 +444,14 @@
    "music": "original: 0-lydian-2-112-030570 @ 112 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,557\nStop wasting hours\n\n2\n00:00:01,557 --> 00:00:03,035\nbuilding trend videos\n\n3\n00:00:03,035 --> 00:00:04,513\nmanually when n8n can\n\n4\n00:00:04,513 --> 00:00:05,934\ndo it from Telegram.\n\n5\n00:00:06,254 --> 00:00:07,288\nSend a prompt in\n\n6\n00:00:07,288 --> 00:00:08,716\nTelegram, let Perplexity\n\n7\n00:00:08,716 --> 00:00:10,095\nfind the latest trends,\n\n8\n00:00:10,095 --> 00:00:11,326\nand let OpenAI write\n\n9\n00:00:11,326 --> 00:00:12,113\nthe script.\n\n10\n00:00:12,433 --> 00:00:13,821\nThen hit the Seedance\n\n11\n00:00:13,821 --> 00:00:15,155\nAPI via Wavespeed to\n\n12\n00:00:15,155 --> 00:00:16,436\ngenerate your final\n\n13\n00:00:16,436 --> 00:00:17,717\nshort-form video ad\n\n14\n00:00:17,717 --> 00:00:18,731\nautomatically.\n\n15\n00:00:19,051 --> 00:00:20,023\nThe free template is\n\n16\n00:00:20,023 --> 00:00:20,723\nlinked in the\n\n17\n00:00:20,723 --> 00:00:21,384\ndescription.\n",
-  "status": "rendered",
+  "status": "scheduled",
   "release": "week-2026-11-11",
   "published_at": "2026-11-12T14:00:00+00:00",
-  "replace": "eAgwKE9Kmc8"
+  "keywords_done": true,
+  "video_id": "3i6sw0KG1ME",
+  "uploaded_at": "2026-11-12T00:10:02.046811-08:00",
+  "playlist_done": true,
+  "captions_done": true
  },
  {
   "slug": "automation-shelf",
@@ -445,7 +467,7 @@
    "series": "Library Pick",
    "playlist": "Library Picks: Free n8n Templates",
    "title": "Free workflow: restaurant booking on autopilot",
-   "youtube_description": "Automate restaurant marketing campaigns and customer bookings using n8n, VAPI, and Google Sheets.\nTools: n8n, VAPI, Google Sheets, Google Calendar\nTemplate: https://n8n.io/workflows/5890\n\nSources:\n- n8n template: https://n8n.io/workflows/5890\n\n#MarketingAutomationLibrary #MarketingAutomation #Automation #n8nTemplates #n8n #NoCode",
+   "youtube_description": "Automate restaurant marketing campaigns and customer bookings using n8n, VAPI, and Google Sheets.\nTools: n8n, VAPI, Google Sheets, Google Calendar\nTemplate: https://n8n.io/workflows/5890\n\nSources:\n- n8n template: https://n8n.io/workflows/5890\n\n#MarketingAutomationLibrary #MarketingAutomation #Automation #n8nTemplates #n8n #NoCode\n.\n.\n.\n.\nrestaurant marketing automation n8n | VAPI voice agent workflow | automated restaurant booking n8n template | marketing automation | n8n | n8n workflow | n8n tutorial | free automation templates | marketing automation tools | n8n templates | no code automation | workflow automation | marketing ops | automation for small business | productivity | marketing automation ideas",
    "tags": [
     "restaurant marketing automation n8n",
     "VAPI voice agent workflow",
@@ -469,10 +491,14 @@
    "music": "original: 7-major-4-111-227370 @ 111 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,643\nAutomate restaurant\n\n2\n00:00:01,643 --> 00:00:03,210\nmarketing and bookings\n\n3\n00:00:03,210 --> 00:00:04,081\nusing n8n,\n\n4\n00:00:04,081 --> 00:00:05,764\nVAPI, and Google Sheets.\n\n5\n00:00:06,084 --> 00:00:07,384\nThe workflow triggers on\n\n6\n00:00:07,384 --> 00:00:08,056\nnew leads,\n\n7\n00:00:08,056 --> 00:00:08,908\nprepares data,\n\n8\n00:00:08,908 --> 00:00:10,163\nand loops through batch\n\n9\n00:00:10,163 --> 00:00:11,284\nmarketing campaigns.\n\n10\n00:00:11,604 --> 00:00:12,659\nVAPI initiates\n\n11\n00:00:12,659 --> 00:00:14,271\npersonalized voice calls\n\n12\n00:00:14,271 --> 00:00:15,882\nwith tailored offers and\n\n13\n00:00:15,882 --> 00:00:17,271\nbooking invitations.\n\n14\n00:00:17,591 --> 00:00:18,990\nCustomer responses are\n\n15\n00:00:18,990 --> 00:00:20,441\nstored, booking details\n\n16\n00:00:20,441 --> 00:00:21,425\nare extracted,\n\n17\n00:00:21,425 --> 00:00:22,617\nand events land in\n\n18\n00:00:22,617 --> 00:00:23,705\nGoogle Calendar.\n\n19\n00:00:24,025 --> 00:00:24,999\nThis setup suits\n\n20\n00:00:24,999 --> 00:00:26,250\nrestaurants looking to\n\n21\n00:00:26,250 --> 00:00:27,501\nautomate campaigns and\n\n22\n00:00:27,501 --> 00:00:28,567\nstreamline booking\n\n23\n00:00:28,567 --> 00:00:29,262\nprocesses.\n\n24\n00:00:29,262 --> 00:00:30,421\nTemplate link in the\n\n25\n00:00:30,421 --> 00:00:31,209\ndescription.\n",
-  "status": "rendered",
+  "status": "scheduled",
   "release": "week-2026-11-11",
   "published_at": "2026-11-12T18:00:00+00:00",
-  "replace": "w8Ep_xgoK4A"
+  "keywords_done": true,
+  "video_id": "xwKvOJDV5tY",
+  "uploaded_at": "2026-11-12T00:10:24.478285-08:00",
+  "playlist_done": true,
+  "captions_done": true
  },
  {
   "slug": "automation-shelf",
@@ -488,7 +514,7 @@
    "series": "Can It Be Automated?",
    "playlist": "Can It Be Automated?",
    "title": "Can you automate video marketing ideation?",
-   "youtube_description": "This workflow automates your video content ideation by researching trends and emailing ready-to-use prompts.\nTools: Built with n8n, Tavily, OpenAI GPT-4, and Gmail.\nTemplate: https://n8n.io/workflows/4921\n\nSources:\n- n8n template: https://n8n.io/workflows/4921\n\n#MarketingAutomationLibrary #MarketingAutomation #Automation #MarketingOps #n8n #NoCode",
+   "youtube_description": "This workflow automates your video content ideation by researching trends and emailing ready-to-use prompts.\nTools: Built with n8n, Tavily, OpenAI GPT-4, and Gmail.\nTemplate: https://n8n.io/workflows/4921\n\nSources:\n- n8n template: https://n8n.io/workflows/4921\n\n#MarketingAutomationLibrary #MarketingAutomation #Automation #MarketingOps #n8n #NoCode\n.\n.\n.\n.\nn8n workflow | automated video marketing | GPT-4 video ideas | marketing automation template | n8n workflow automation | n8n workflow tutorial | automated video creation | automated video editing ai | marketing automation strategies | marketing automation with ai | marketing automation | n8n | marketing automation ideas | automation for small business | n8n templates | no code automation | workflow automation | marketing ops | productivity | n8n tutorial | free automation templates | marketing automation tools",
    "tags": [
     "n8n workflow",
     "automated video marketing",
@@ -517,9 +543,13 @@
    "music": "original: 7-major-3-117-710773 @ 117 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,762\nCan you automate video\n\n2\n00:00:01,762 --> 00:00:03,105\nmarketing ideation?\n\n3\n00:00:03,105 --> 00:00:04,449\nYes, using this n8n\n\n4\n00:00:04,449 --> 00:00:05,233\nworkflow.\n\n5\n00:00:05,553 --> 00:00:06,814\nThe flow tracks daily\n\n6\n00:00:06,814 --> 00:00:07,882\ntrends, generates\n\n7\n00:00:07,882 --> 00:00:08,998\ncreative concepts,\n\n8\n00:00:08,998 --> 00:00:10,162\nand emails them for\n\n9\n00:00:10,162 --> 00:00:10,938\nproduction.\n\n10\n00:00:11,258 --> 00:00:12,814\nIt connects Tavily for\n\n11\n00:00:12,814 --> 00:00:14,197\nresearch, GPT-4 for\n\n12\n00:00:14,197 --> 00:00:15,868\nbrainstorming, and Gmail\n\n13\n00:00:15,868 --> 00:00:16,905\nfor delivery.\n\n14\n00:00:17,225 --> 00:00:18,479\nThis setup saves your\n\n15\n00:00:18,479 --> 00:00:19,782\nteam hours of creative\n\n16\n00:00:19,782 --> 00:00:21,181\nbrainstorming and manual\n\n17\n00:00:21,181 --> 00:00:22,242\ncontent planning.\n\n18\n00:00:22,562 --> 00:00:23,420\nTemplate link in the\n\n19\n00:00:23,420 --> 00:00:24,003\ndescription.\n",
-  "status": "rendered",
+  "status": "scheduled",
   "release": "week-2026-11-11",
-  "replace": "NLUg_wuB6SU"
+  "keywords_done": true,
+  "video_id": "YJUHOEtWYdQ",
+  "uploaded_at": "2026-11-12T00:10:33.480183-08:00",
+  "playlist_done": true,
+  "captions_done": true
  },
  {
   "slug": "automation-shelf",
@@ -535,7 +565,7 @@
    "series": "Library Pick",
    "playlist": "Library Picks: Free n8n Templates",
    "title": "Free workflow: Google Drive to Facebook Ads on autopilot",
-   "youtube_description": "This workflow automatically identifies video files in Google Drive and uploads them to Facebook for ad creation.\nTools: n8n, Google Drive, Facebook Ads\nTemplate: https://n8n.io/workflows/4620\n\nSources:\n- n8n template: https://n8n.io/workflows/4620\n\n#MarketingAutomationLibrary #MarketingAutomation #Automation #n8nTemplates #n8n #NoCode",
+   "youtube_description": "This workflow automatically identifies video files in Google Drive and uploads them to Facebook for ad creation.\nTools: n8n, Google Drive, Facebook Ads\nTemplate: https://n8n.io/workflows/4620\n\nSources:\n- n8n template: https://n8n.io/workflows/4620\n\n#MarketingAutomationLibrary #MarketingAutomation #Automation #n8nTemplates #n8n #NoCode\n.\n.\n.\n.\nn8n automation | Google Drive Facebook Ads integration | marketing workflow automation | automated video marketing tool | n8n template for marketing teams | n8n automation tutorial | n8n automation ideas | marketing automation zoho | automated video creation | using ai to automate marketing | automate marketing with ai | marketing automation | n8n | n8n workflow | n8n tutorial | free automation templates | marketing automation tools | n8n templates | no code automation | workflow automation | marketing ops | automation for small business | productivity | marketing automation ideas",
    "tags": [
     "n8n automation",
     "Google Drive Facebook Ads integration",
@@ -566,9 +596,11 @@
    "music": "original: 1-lydian-3-109-560004 @ 109 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,680\nAutomate your video ads\n\n2\n00:00:01,680 --> 00:00:03,110\nby syncing Google Drive\n\n3\n00:00:03,110 --> 00:00:04,438\ndirectly to Facebook.\n\n4\n00:00:04,758 --> 00:00:06,309\nThis n8n workflow scans\n\n5\n00:00:06,309 --> 00:00:07,582\nyour drive for new\n\n6\n00:00:07,582 --> 00:00:09,133\nvideos and uploads them\n\n7\n00:00:09,133 --> 00:00:10,074\nto Facebook.\n\n8\n00:00:10,394 --> 00:00:11,967\nThe process follows four\n\n9\n00:00:11,967 --> 00:00:13,322\nstages to turn files\n\n10\n00:00:13,322 --> 00:00:14,569\ninto ad creatives.\n\n11\n00:00:14,889 --> 00:00:15,875\nIt is built for\n\n12\n00:00:15,875 --> 00:00:17,058\nmarketing teams and\n\n13\n00:00:17,058 --> 00:00:18,389\nagencies needing rapid\n\n14\n00:00:18,389 --> 00:00:19,572\ncontent deployment.\n\n15\n00:00:19,892 --> 00:00:20,750\nTemplate link in the\n\n16\n00:00:20,750 --> 00:00:21,333\ndescription.\n",
-  "status": "rendered",
+  "status": "scheduled",
   "release": "week-2026-11-11",
-  "replace": "HzOvbDEcQHQ"
+  "keywords_done": true,
+  "video_id": "nDHfbsiuVa0",
+  "uploaded_at": "2026-11-12T00:11:20.635304-08:00"
  },
  {
   "slug": "breach-brief",
@@ -612,10 +644,14 @@
    "music": "original: 11-dorian-5-84-544313 @ 84 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,724\nMicrosoft Office Outlook\n\n2\n00:00:01,724 --> 00:00:02,690\nhas a new flaw\n\n3\n00:00:02,690 --> 00:00:04,165\nactively exploited right\n\n4\n00:00:04,165 --> 00:00:04,622\nnow.\n\n5\n00:00:04,942 --> 00:00:07,205\nCVE-2026-124194 allows\n\n6\n00:00:07,205 --> 00:00:09,467\nan attacker to perform\n\n7\n00:00:09,467 --> 00:00:11,897\nspoofing over a network.\n\n8\n00:00:12,217 --> 00:00:13,743\nCISA added this\n\n9\n00:00:13,743 --> 00:00:15,650\nvulnerability to the\n\n10\n00:00:15,650 --> 00:00:17,634\ncatalog on 2026-11-10\n\n11\n00:00:17,634 --> 00:00:19,160\nwith a due date\n\n12\n00:00:19,160 --> 00:00:20,609\nof 2026-11-24.\n\n13\n00:00:20,929 --> 00:00:22,262\nApply mitigations from\n\n14\n00:00:22,262 --> 00:00:23,644\nvendor instructions and\n\n15\n00:00:23,644 --> 00:00:25,027\nfollow CISA guidance or\n\n16\n00:00:25,027 --> 00:00:26,063\ndiscontinue use.\n",
-  "status": "rendered",
+  "status": "scheduled",
   "release": "week-2026-11-11",
-  "replace": "PcHnbL6A0MA",
-  "original_slot": "2026-11-11T09:00:00-05:00"
+  "original_slot": "2026-11-11T09:00:00-05:00",
+  "keywords_done": true,
+  "video_id": "rLFStg4EQa4",
+  "uploaded_at": "2026-11-12T00:10:14.709178-08:00",
+  "playlist_done": true,
+  "captions_done": true
  },
  {
   "slug": "breach-brief",
@@ -659,11 +695,13 @@
    "music": "original: 11-dorian-4-92-703024 @ 92 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,767\nPark Dental Partners\n\n2\n00:00:01,767 --> 00:00:03,466\nidentified unauthorized\n\n3\n00:00:03,466 --> 00:00:05,104\naccess to its computer\n\n4\n00:00:05,104 --> 00:00:06,681\nnetwork on August 28,\n\n5\n00:00:06,681 --> 00:00:07,288\n2026.\n\n6\n00:00:07,608 --> 00:00:08,675\nThe investigation\n\n7\n00:00:08,675 --> 00:00:10,082\ndetermined that data was\n\n8\n00:00:10,082 --> 00:00:11,441\nsubject to unauthorized\n\n9\n00:00:11,441 --> 00:00:12,265\nacquisition.\n\n10\n00:00:12,265 --> 00:00:13,284\nProtected health\n\n11\n00:00:13,284 --> 00:00:14,643\ninformation of impacted\n\n12\n00:00:14,643 --> 00:00:15,953\npatients was involved.\n\n13\n00:00:16,273 --> 00:00:17,450\nThe company engaged\n\n14\n00:00:17,450 --> 00:00:18,529\nexternal experts,\n\n15\n00:00:18,529 --> 00:00:19,362\nnotified law\n\n16\n00:00:19,362 --> 00:00:20,539\nenforcement, and is\n\n17\n00:00:20,539 --> 00:00:21,962\ncompleting notifications\n\n18\n00:00:21,962 --> 00:00:23,286\nfor impacted patients.\n\n19\n00:00:23,606 --> 00:00:24,529\nFour state court\n\n20\n00:00:24,529 --> 00:00:25,717\nlawsuits were filed in\n\n21\n00:00:25,717 --> 00:00:26,948\nMinnesota regarding the\n\n22\n00:00:26,948 --> 00:00:27,696\ndata breach.\n\n23\n00:00:27,696 --> 00:00:28,795\nThe filing is linked\n\n24\n00:00:28,795 --> 00:00:29,851\nin the description.\n",
-  "status": "rendered",
+  "status": "scheduled",
   "release": "week-2026-11-11",
   "published_at": "2026-11-11T18:00:00+00:00",
-  "replace": "q8ic7zPx-1g",
-  "original_slot": "2026-11-11T13:00:00-05:00"
+  "original_slot": "2026-11-11T13:00:00-05:00",
+  "keywords_done": true,
+  "video_id": "fY624VVS5W8",
+  "uploaded_at": "2026-11-12T00:10:50.799620-08:00"
  },
  {
   "slug": "breach-brief",
@@ -705,10 +743,12 @@
    "music": "original: 8-phrygian-3-92-321350 @ 92 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,311\nDishonest companies\n\n2\n00:00:01,311 --> 00:00:02,593\npromise to eliminate tax\n\n3\n00:00:02,593 --> 00:00:03,654\ndebt for pennies on\n\n4\n00:00:03,654 --> 00:00:04,626\nthe dollar before\n\n5\n00:00:04,626 --> 00:00:05,510\nlooking at your\n\n6\n00:00:05,510 --> 00:00:06,173\nsituation.\n\n7\n00:00:06,493 --> 00:00:07,663\nAmerican Tax Service\n\n8\n00:00:07,663 --> 00:00:08,553\nmailed letters\n\n9\n00:00:08,553 --> 00:00:09,582\nimpersonating the\n\n10\n00:00:09,582 --> 00:00:10,892\ngovernment and demanded\n\n11\n00:00:10,892 --> 00:00:12,203\ncalls to avoid property\n\n12\n00:00:12,203 --> 00:00:12,811\nseizure.\n\n13\n00:00:13,131 --> 00:00:14,179\nIgnore businesses\n\n14\n00:00:14,179 --> 00:00:15,559\nclaiming you qualify for\n\n15\n00:00:15,559 --> 00:00:16,797\nprograms or demanding\n\n16\n00:00:16,797 --> 00:00:17,797\ntheir entire fee\n\n17\n00:00:17,797 --> 00:00:18,416\nupfront.\n\n18\n00:00:18,736 --> 00:00:19,803\nOnly the IRS or\n\n19\n00:00:19,803 --> 00:00:20,763\nstate revenue\n\n20\n00:00:20,763 --> 00:00:22,204\ndepartments decide tax\n\n21\n00:00:22,204 --> 00:00:23,271\nqualifications.\n\n22\n00:00:23,591 --> 00:00:24,559\nMore in the FTC\n\n23\n00:00:24,559 --> 00:00:25,722\nalert linked in the\n\n24\n00:00:25,722 --> 00:00:26,545\ndescription.\n",
-  "status": "rendered",
+  "status": "scheduled",
   "release": "week-2026-11-11",
-  "replace": "7MILEQ70K_s",
-  "original_slot": "2026-11-11T18:00:00-05:00"
+  "original_slot": "2026-11-11T18:00:00-05:00",
+  "keywords_done": true,
+  "video_id": "Teo3N_BzyWQ",
+  "uploaded_at": "2026-11-12T00:11:17.380708-08:00"
  },
  {
   "slug": "breach-brief",
@@ -724,7 +764,7 @@
    "series": "Exploited Today",
    "playlist": "Exploited Today: Actively Exploited Vulnerabilities",
    "title": "Exploited now: Openwave Webtop Media Transcoder CVE-2026-111793",
-   "youtube_description": "CISA added CVE-2026-111793 to the Known Exploited Vulnerabilities catalog on November tenth, 2026.\nAffected: Openwave Messaging Limited Webtop Media Transcoder.\nWhat to do: Apply mitigations in accordance with vendor instructions or discontinue use of the product.\n\nSources:\n- CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog\n- NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-111793\n\nQuery the NVD yourself: https://github.com/archanacontent/nvd-cve-api-docs\n\n#CybersecurityDaily #CyberSecurity #CVE #PatchNow #InfoSec",
+   "youtube_description": "CISA added CVE-2026-111793 to the Known Exploited Vulnerabilities catalog on November tenth, 2026.\nAffected: Openwave Messaging Limited Webtop Media Transcoder.\nWhat to do: Apply mitigations in accordance with vendor instructions or discontinue use of the product.\n\nSources:\n- CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog\n- NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-111793\n\nQuery the NVD yourself: https://github.com/archanacontent/nvd-cve-api-docs\n\n#CybersecurityDaily #CyberSecurity #CVE #PatchNow #InfoSec\n.\n.\n.\n.\nCVE-2026-111793 | Openwave Webtop Media Transcoder | CISA KEV catalog 2026 | Webmail vulnerability patch | BOD 26-04 guidance updates | cisa kev | cisa certified | webmail not working | webmail client | cybersecurity | cybersecurity news | cyber security | known exploited vulnerabilities | CVE | vulnerability | patch now | security update | infosec | data breach | data breach news | SEC 8-K | cyber incident | scam alert | online scams | phishing | fraud prevention | online safety",
    "tags": [
     "CVE-2026-111793",
     "Openwave Webtop Media Transcoder",
@@ -754,10 +794,14 @@
    "music": "original: 7-dorian-5-98-633724 @ 98 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:03,405\nCVE-2026-111793 is under\n\n2\n00:00:03,405 --> 00:00:05,472\nactive attack.\n\n3\n00:00:05,792 --> 00:00:06,934\nOpenwave Messaging\n\n4\n00:00:06,934 --> 00:00:08,175\nLimited Webtop Media\n\n5\n00:00:08,175 --> 00:00:09,516\nTranscoder contains an\n\n6\n00:00:09,516 --> 00:00:10,658\nincorrect resource\n\n7\n00:00:10,658 --> 00:00:12,099\ntransfer between spheres\n\n8\n00:00:12,099 --> 00:00:13,042\nvulnerability.\n\n9\n00:00:13,362 --> 00:00:14,257\nThis allows an\n\n10\n00:00:14,257 --> 00:00:15,482\nauthenticated user to\n\n11\n00:00:15,482 --> 00:00:16,565\nprocess unintended\n\n12\n00:00:16,565 --> 00:00:17,602\ndocument types if\n\n13\n00:00:17,602 --> 00:00:18,826\nbypassing the Webmail\n\n14\n00:00:18,826 --> 00:00:19,580\nexperience.\n\n15\n00:00:19,900 --> 00:00:21,841\nCISA added this flaw\n\n16\n00:00:21,841 --> 00:00:23,549\nto the catalog on\n\n17\n00:00:23,549 --> 00:00:25,335\n2026-11-10, with a\n\n18\n00:00:25,335 --> 00:00:27,509\nremediation due date of\n\n19\n00:00:27,509 --> 00:00:28,752\n2026-11-24.\n\n20\n00:00:29,072 --> 00:00:30,458\nApply vendor mitigations\n\n21\n00:00:30,458 --> 00:00:31,367\nimmediately or\n\n22\n00:00:31,367 --> 00:00:32,658\ndiscontinue use of the\n\n23\n00:00:32,658 --> 00:00:33,280\nproduct.\n",
-  "status": "rendered",
+  "status": "scheduled",
   "release": "week-2026-11-11",
   "published_at": "2026-11-12T14:00:00+00:00",
-  "replace": "poBhu3_htHY"
+  "keywords_done": true,
+  "video_id": "vob7UGl-74g",
+  "uploaded_at": "2026-11-12T00:10:05.252415-08:00",
+  "playlist_done": true,
+  "captions_done": true
  },
  {
   "slug": "breach-brief",
@@ -773,7 +817,7 @@
    "series": "Exploited Today",
    "playlist": "Exploited Today: Actively Exploited Vulnerabilities",
    "title": "Exploited now: Cisco BroadWorks CVE-2026-20320",
-   "youtube_description": "Cisco BroadWorks contains an XML external entity vulnerability tracked as CVE-2026-20320 that allows unauthenticated remote file reading.\nAffected: Cisco BroadWorks Open Client Interface OCI P service.\nWhat to do: Apply vendor instructions and comply with CISA BOD 26-04 guidance by November 24, 2026.\n\nSources:\n- CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog\n- NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-20320\n\nQuery the NVD yourself: https://github.com/archanacontent/nvd-cve-api-docs\n\n#CybersecurityDaily #CyberSecurity #CVE #PatchNow #InfoSec",
+   "youtube_description": "Cisco BroadWorks contains an XML external entity vulnerability tracked as CVE-2026-20320 that allows unauthenticated remote file reading.\nAffected: Cisco BroadWorks Open Client Interface OCI P service.\nWhat to do: Apply vendor instructions and comply with CISA BOD 26-04 guidance by November 24, 2026.\n\nSources:\n- CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog\n- NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-20320\n\nQuery the NVD yourself: https://github.com/archanacontent/nvd-cve-api-docs\n\n#CybersecurityDaily #CyberSecurity #CVE #PatchNow #InfoSec\n.\n.\n.\n.\nCisco BroadWorks vulnerability | CVE-2026-20320 | CISA KEV catalog | Cisco BroadWorks security update | cisco vulnerability management | cisco broadworks | cisa kev | cisa certified | cisa tutorial | cybersecurity | cybersecurity news | cyber security | known exploited vulnerabilities | CVE | vulnerability | patch now | security update | infosec | data breach | data breach news | SEC 8-K | cyber incident | scam alert | online scams | phishing | fraud prevention | online safety",
    "tags": [
     "Cisco BroadWorks vulnerability",
     "CVE-2026-20320",
@@ -803,10 +847,14 @@
    "music": "original: 5-dorian-4-91-710656 @ 91 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,393\nCisco BroadWorks is\n\n2\n00:00:01,393 --> 00:00:02,535\nunder active attack\n\n3\n00:00:02,535 --> 00:00:03,678\nright now through a\n\n4\n00:00:03,678 --> 00:00:04,916\ncritical parser flaw.\n\n5\n00:00:05,236 --> 00:00:07,109\nCVE-2026-20320 lets\n\n6\n00:00:07,109 --> 00:00:09,139\nremote attackers read\n\n7\n00:00:09,139 --> 00:00:11,325\nsensitive configuration\n\n8\n00:00:11,325 --> 00:00:12,731\nfiles without\n\n9\n00:00:12,731 --> 00:00:14,292\nauthentication.\n\n10\n00:00:14,612 --> 00:00:16,209\nCISA added this flaw\n\n11\n00:00:16,209 --> 00:00:17,614\nto the catalog on\n\n12\n00:00:17,614 --> 00:00:18,699\nNovember 10,\n\n13\n00:00:18,699 --> 00:00:19,977\n2026, setting a\n\n14\n00:00:19,977 --> 00:00:21,765\nremediation due date of\n\n15\n00:00:21,765 --> 00:00:22,850\nNovember 24,\n\n16\n00:00:22,850 --> 00:00:23,489\n2026.\n\n17\n00:00:23,809 --> 00:00:25,603\nApply vendor mitigations\n\n18\n00:00:25,603 --> 00:00:27,335\nimmediately, follow BOD\n\n19\n00:00:27,335 --> 00:00:28,572\n26-04 guidance,\n\n20\n00:00:28,572 --> 00:00:30,181\nor discontinue use if\n\n21\n00:00:30,181 --> 00:00:31,974\npatches are unavailable.\n",
-  "status": "rendered",
+  "status": "scheduled",
   "release": "week-2026-11-11",
   "published_at": "2026-11-12T18:00:00+00:00",
-  "replace": "8JI3G_0hWq0"
+  "keywords_done": true,
+  "video_id": "6WkIl4qtVzg",
+  "uploaded_at": "2026-11-12T00:10:27.567253-08:00",
+  "playlist_done": true,
+  "captions_done": true
  },
  {
   "slug": "breach-brief",
@@ -822,7 +870,7 @@
    "series": "Exploited Today",
    "playlist": "Exploited Today: Actively Exploited Vulnerabilities",
    "title": "Exploited now: IBM Aspera Faspex CVE-2026-123218",
-   "youtube_description": "IBM Aspera Faspex contains a critical authorization vulnerability that allows privilege escalation. CISA added this flaw to its known exploited list on November 9, 2026.\nAffected: IBM Aspera Faspex versions 5.0.0 through 5.0.19.\nWhat to do: Apply vendor mitigations immediately or discontinue use of the product if patches are unavailable.\n\nSources:\n- CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog\n- NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-123218\n\nQuery the NVD yourself: https://github.com/archanacontent/nvd-cve-api-docs\n\n#CybersecurityDaily #CyberSecurity #CVE #PatchNow #InfoSec",
+   "youtube_description": "IBM Aspera Faspex contains a critical authorization vulnerability that allows privilege escalation. CISA added this flaw to its known exploited list on November 9, 2026.\nAffected: IBM Aspera Faspex versions 5.0.0 through 5.0.19.\nWhat to do: Apply vendor mitigations immediately or discontinue use of the product if patches are unavailable.\n\nSources:\n- CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog\n- NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-123218\n\nQuery the NVD yourself: https://github.com/archanacontent/nvd-cve-api-docs\n\n#CybersecurityDaily #CyberSecurity #CVE #PatchNow #InfoSec\n.\n.\n.\n.\nIBM Aspera Faspex vulnerability | CVE-2026-123218 | CISA KEV catalog | privilege escalation exploit | ibm aspera demo | ibm aspera | ibm aspera tutorial | cisa kev | cisa certified | cisa tutorial | privilege escalation vulnerability | privilege escalation explained | privilege escalation | cybersecurity | cybersecurity news | cyber security | known exploited vulnerabilities | CVE | vulnerability | patch now | infosec | security update | data breach | data breach news | SEC 8-K | cyber incident | scam alert | online scams | phishing | fraud prevention | online safety",
    "tags": [
     "IBM Aspera Faspex vulnerability",
     "CVE-2026-123218",
@@ -854,9 +902,11 @@
    "music": "original: 4-phrygian-2-86-573225 @ 86 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,774\nAttackers are actively\n\n2\n00:00:01,774 --> 00:00:03,242\nexploiting a critical\n\n3\n00:00:03,242 --> 00:00:04,710\nauthorization flaw in\n\n4\n00:00:04,710 --> 00:00:06,008\nIBM Aspera Faspex.\n\n5\n00:00:06,328 --> 00:00:08,044\nThis vulnerability,\n\n6\n00:00:08,044 --> 00:00:10,046\nCVE-2026-123218, allows\n\n7\n00:00:10,046 --> 00:00:12,119\nan authenticated user to\n\n8\n00:00:12,119 --> 00:00:14,192\nbypass authorization and\n\n9\n00:00:14,192 --> 00:00:16,265\ngain full administrative\n\n10\n00:00:16,265 --> 00:00:17,409\nprivileges.\n\n11\n00:00:17,729 --> 00:00:19,353\nCISA added this flaw\n\n12\n00:00:19,353 --> 00:00:20,588\nto its list on\n\n13\n00:00:20,588 --> 00:00:21,627\nNovember 9,\n\n14\n00:00:21,627 --> 00:00:22,277\n2026.\n\n15\n00:00:22,277 --> 00:00:24,160\nThe deadline for federal\n\n16\n00:00:24,160 --> 00:00:25,589\nagencies to apply\n\n17\n00:00:25,589 --> 00:00:27,408\nmitigations is November\n\n18\n00:00:27,408 --> 00:00:28,318\n12, 2026.\n\n19\n00:00:28,638 --> 00:00:29,474\nYou must apply\n\n20\n00:00:29,474 --> 00:00:30,661\nmitigations per vendor\n\n21\n00:00:30,661 --> 00:00:31,409\ninstructions\n\n22\n00:00:31,409 --> 00:00:32,157\nimmediately.\n\n23\n00:00:32,157 --> 00:00:33,257\nIf you cannot patch,\n\n24\n00:00:33,257 --> 00:00:34,445\ndiscontinue use of the\n\n25\n00:00:34,445 --> 00:00:35,017\nproduct.\n\n26\n00:00:35,337 --> 00:00:36,459\nAssess your internet\n\n27\n00:00:36,459 --> 00:00:37,267\nexposure now.\n\n28\n00:00:37,267 --> 00:00:38,299\nSources are in the\n\n29\n00:00:38,299 --> 00:00:39,062\ndescription.\n",
-  "status": "rendered",
+  "status": "scheduled",
   "release": "week-2026-11-11",
-  "replace": "poeUn0Wow0I"
+  "keywords_done": true,
+  "video_id": "QOSLFJoIBsI",
+  "uploaded_at": "2026-11-12T00:11:23.747554-08:00"
  },
  {
   "slug": "deep-field",
@@ -872,7 +922,7 @@
    "series": "Look Closer",
    "playlist": "Look Closer: Real Space Images Explained",
    "title": "What you're looking at: SPHEREx in Orbit",
-   "youtube_description": "This artist concept shows the SPHEREx spacecraft in low Earth orbit with its distinctive conical photon shields, designed to create the first all-sky spectroscopic survey in the near-infrared.\nCredit: NASA\n\nSources:\n- NASA Image and Video Library: https://images.nasa.gov/details/PIA26531\n\n#SpaceScience #Space #JamesWebb #Hubble #Astronomy #NASA",
+   "youtube_description": "This artist concept shows the SPHEREx spacecraft in low Earth orbit with its distinctive conical photon shields, designed to create the first all-sky spectroscopic survey in the near-infrared.\nCredit: NASA\n\nSources:\n- NASA Image and Video Library: https://images.nasa.gov/details/PIA26531\n\n#SpaceScience #Space #JamesWebb #Hubble #Astronomy #NASA\n.\n.\n.\n.\nSPHEREx NASA mission | infrared space telescope | spectroscopic sky survey | origin of water in space id PIA26531 | space | space science | astronomy | space images | James Webb | Hubble | galaxy | nebula | NASA | space facts | space news | NASA mission | space exploration | solar system | planets | size comparison | scale of the universe",
    "tags": [
     "SPHEREx NASA mission",
     "infrared space telescope",
@@ -904,7 +954,8 @@
   "uploaded_at": "2026-11-10T15:13:22.243678-08:00",
   "published_at": "2026-11-11T14:00:00+00:00",
   "playlist_done": true,
-  "captions_done": true
+  "captions_done": true,
+  "keywords_done": true
  },
  {
   "slug": "deep-field",
@@ -951,11 +1002,15 @@
    "music": "original: 9-lydian-5-58-722643 @ 58 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,780\nVoyager 1 will reach\n\n2\n00:00:01,780 --> 00:00:03,126\na distance of one\n\n3\n00:00:03,126 --> 00:00:04,840\nlight-day from Earth on\n\n4\n00:00:04,840 --> 00:00:06,553\nWednesday, November 18.\n\n5\n00:00:06,873 --> 00:00:08,858\nThat milestone equals\n\n6\n00:00:08,858 --> 00:00:10,766\nmore than 16 billion\n\n7\n00:00:10,766 --> 00:00:12,598\nmiles (25.9 billion\n\n8\n00:00:12,598 --> 00:00:13,896\nkilometers).\n\n9\n00:00:14,216 --> 00:00:15,977\nLaunched in 1977,\n\n10\n00:00:15,977 --> 00:00:17,658\nVoyager 1 is the\n\n11\n00:00:17,658 --> 00:00:19,900\nmost distant human-made\n\n12\n00:00:19,900 --> 00:00:21,581\nobject in space.\n\n13\n00:00:21,901 --> 00:00:24,089\nThe spacecraft entered\n\n14\n00:00:24,089 --> 00:00:26,196\ninterstellar space in\n\n15\n00:00:26,196 --> 00:00:28,221\n2012 while Voyager 2\n\n16\n00:00:28,221 --> 00:00:30,004\nfollowed in 2018.\n\n17\n00:00:30,324 --> 00:00:31,165\nSource in the\n\n18\n00:00:31,165 --> 00:00:31,960\ndescription.\n",
-  "status": "rendered",
+  "status": "scheduled",
   "release": "week-2026-11-11",
   "published_at": "2026-11-11T18:00:00+00:00",
-  "replace": "G5mC7Fh5rS4",
-  "original_slot": "2026-11-11T13:00:00-05:00"
+  "original_slot": "2026-11-11T13:00:00-05:00",
+  "keywords_done": true,
+  "video_id": "JaH9s4_g-yo",
+  "uploaded_at": "2026-11-12T00:10:18.328194-08:00",
+  "playlist_done": true,
+  "captions_done": true
  },
  {
   "slug": "plain-docs",
@@ -971,7 +1026,7 @@
    "series": "Rewrite This",
    "playlist": "Rewrite This: Real Docs Fixed",
    "title": "Fixing a real README in under a minute",
-   "youtube_description": "We rewrote a wordy feature introduction in the Web Check-OSINT README to state server analysis capabilities directly.\nOriginal: https://github.com/mwakidenis/WebCheck-OSINT (MIT)\nThe rule: Put the main action in the first five words of every feature description.\n\nSources:\n- mwakidenis/WebCheck-OSINT README (MIT): https://github.com/mwakidenis/WebCheck-OSINT\nWorked examples and guides: https://archanacontent.github.io/work/\n\n#TechnicalWritingForBeginners #TechnicalWriting #WritingTips #UXWriting #Documentation #TechWriter",
+   "youtube_description": "We rewrote a wordy feature introduction in the Web Check-OSINT README to state server analysis capabilities directly.\nOriginal: https://github.com/mwakidenis/WebCheck-OSINT (MIT)\nThe rule: Put the main action in the first five words of every feature description.\n\nSources:\n- mwakidenis/WebCheck-OSINT README (MIT): https://github.com/mwakidenis/WebCheck-OSINT\nWorked examples and guides: https://archanacontent.github.io/work/\n\n#TechnicalWritingForBeginners #TechnicalWriting #WritingTips #UXWriting #Documentation #TechWriter\n.\n.\n.\n.\ntechnical writing tutorial | readme documentation guide | how to write documentation | open source readme examples | technical writing for beginners | rewrite this readme | web check osint doc analysis | fix confusing readme prose | b2b technical content guide | documentation best practices 2026 | software readme structure tips | clean up code documentation | improve open source docs | developer onboarding guides | api documentation editing | clear technical communication | technical writing | technical writer | documentation | writing tips | UX writing | before and after | editing | style guide | clear writing | README | API documentation | release notes | docs as code",
    "tags": [
     "technical writing tutorial",
     "readme documentation guide",
@@ -1005,7 +1060,8 @@
   "uploaded_at": "2026-11-10T15:13:24.342410-08:00",
   "published_at": "2026-11-11T14:00:00+00:00",
   "playlist_done": true,
-  "captions_done": true
+  "captions_done": true,
+  "keywords_done": true
  },
  {
   "slug": "plain-docs",
@@ -1049,10 +1105,14 @@
    "music": "original: 0-lydian-3-80-522026 @ 80 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,711\nPrioritize active voice\n\n2\n00:00:01,711 --> 00:00:03,068\nto ensure clarity and\n\n3\n00:00:03,068 --> 00:00:04,269\ndirectness in your\n\n4\n00:00:04,269 --> 00:00:05,782\ntechnical documentation.\n\n5\n00:00:06,102 --> 00:00:07,372\nPassive voice hides who\n\n6\n00:00:07,372 --> 00:00:08,370\nis performing the\n\n7\n00:00:08,370 --> 00:00:09,640\naction, leaving readers\n\n8\n00:00:09,640 --> 00:00:10,547\nto guess who is\n\n9\n00:00:10,547 --> 00:00:11,318\nresponsible.\n\n10\n00:00:11,638 --> 00:00:12,795\nAccording to Google\n\n11\n00:00:12,795 --> 00:00:14,193\ndeveloper documentation,\n\n12\n00:00:14,193 --> 00:00:15,254\nmake the doer the\n\n13\n00:00:15,254 --> 00:00:16,604\nsubject of the sentence\n\n14\n00:00:16,604 --> 00:00:17,713\nwhenever possible.\n\n15\n00:00:18,033 --> 00:00:19,197\nInstead of writing the\n\n16\n00:00:19,197 --> 00:00:20,232\nservice is queried,\n\n17\n00:00:20,232 --> 00:00:21,224\nwrite send a query\n\n18\n00:00:21,224 --> 00:00:22,086\nto the service.\n\n19\n00:00:22,406 --> 00:00:23,556\nUse active voice by\n\n20\n00:00:23,556 --> 00:00:24,706\nmaking the doer the\n\n21\n00:00:24,706 --> 00:00:26,096\nsubject of the sentence,\n\n22\n00:00:26,096 --> 00:00:27,246\nwhich clarifies who\n\n23\n00:00:27,246 --> 00:00:28,444\nperforms the action.\n",
-  "status": "rendered",
+  "status": "scheduled",
   "release": "week-2026-11-11",
-  "replace": "Hdgp2ohPPeA",
-  "original_slot": "2026-11-11T13:00:00-05:00"
+  "original_slot": "2026-11-11T13:00:00-05:00",
+  "keywords_done": true,
+  "video_id": "YN8Od--EZLc",
+  "uploaded_at": "2026-11-12T00:10:21.378952-08:00",
+  "playlist_done": true,
+  "captions_done": true
  },
  {
   "slug": "plain-docs",
@@ -1098,10 +1158,12 @@
    "music": "original: 2-major-6-80-306412 @ 80 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,153\nA README is a\n\n2\n00:00:01,153 --> 00:00:02,107\ntext file that\n\n3\n00:00:02,107 --> 00:00:03,512\nintroduces and explains\n\n4\n00:00:03,512 --> 00:00:04,416\nyour project.\n\n5\n00:00:04,736 --> 00:00:05,764\nPlace this file in\n\n6\n00:00:05,764 --> 00:00:07,017\nthe top level directory\n\n7\n00:00:07,017 --> 00:00:07,956\nof your project.\n\n8\n00:00:08,276 --> 00:00:09,768\nEssential sections for a\n\n9\n00:00:09,768 --> 00:00:11,157\nREADME include project\n\n10\n00:00:11,157 --> 00:00:12,341\nname, description,\n\n11\n00:00:12,341 --> 00:00:13,627\ninstallation, usage,\n\n12\n00:00:13,627 --> 00:00:14,759\ncontributing, and\n\n13\n00:00:14,759 --> 00:00:15,428\nlicense.\n\n14\n00:00:15,748 --> 00:00:16,756\nUse Markdown to add\n\n15\n00:00:16,756 --> 00:00:17,891\nlightweight formatting\n\n16\n00:00:17,891 --> 00:00:18,647\nto your file.\n\n17\n00:00:18,967 --> 00:00:19,682\nWhen in doubt,\n\n18\n00:00:19,682 --> 00:00:20,699\nremember that too long\n\n19\n00:00:20,699 --> 00:00:21,564\nis better than too\n\n20\n00:00:21,564 --> 00:00:21,979\nshort.\n",
-  "status": "rendered",
+  "status": "scheduled",
   "release": "week-2026-11-11",
-  "replace": "dLJhhzFnxck",
-  "original_slot": "2026-11-11T18:00:00-05:00"
+  "original_slot": "2026-11-11T18:00:00-05:00",
+  "keywords_done": true,
+  "video_id": "jB3zfeWk0PQ",
+  "uploaded_at": "2026-11-12T00:10:53.908551-08:00"
  },
  {
   "slug": "asked-and-answered",
@@ -1117,7 +1179,7 @@
    "series": "Trend Check",
    "playlist": "AI Search Trends 2026",
    "title": "AI search in 2026: ChatGPT Ads Replaces Manual Bid Caps",
-   "youtube_description": "ChatGPT Ads is replacing manual bid caps with average cost targets.\nSearch Engine Journal reports OpenAI updated its bidding rules, introducing Target CPA and Target CPC while removing legacy Max Bid caps by January 1, 2027.\n\nSources:\n- ChatGPT Ads Is Replacing Max Bid & Max CPC With Cost Targets via @sejournal, @MattGSouthern: https://www.searchenginejournal.com/chatgpt-ads-is-replacing-max-bid-max-cpc-with-cost-targets/596491/\n\nFind your buyers' questions: https://archanacontent.github.io/asked/\nMore from Archana Panda: https://archanacontent.github.io\n\n#AISearchMarketing #AEO #AIMode #SEO #GEO #AISearch",
+   "youtube_description": "ChatGPT Ads is replacing manual bid caps with average cost targets.\nSearch Engine Journal reports OpenAI updated its bidding rules, introducing Target CPA and Target CPC while removing legacy Max Bid caps by January 1, 2027.\n\nSources:\n- ChatGPT Ads Is Replacing Max Bid & Max CPC With Cost Targets via @sejournal, @MattGSouthern: https://www.searchenginejournal.com/chatgpt-ads-is-replacing-max-bid-max-cpc-with-cost-targets/596491/\n\nFind your buyers' questions: https://archanacontent.github.io/asked/\nMore from Archana Panda: https://archanacontent.github.io\n\n#AISearchMarketing #AEO #AIMode #SEO #GEO #AISearch\n.\n.\n.\n.\nchatgpt ads bidding | target cpa chatgpt | target cpc chatgpt ads | openai ad campaigns 2026 | chatgpt facebook ads strategy | chatgpt facebook ads prompt | chatgpt marketing campaign | target cpa google ads | target cpa | targeting on facebook ads | AI search | AEO | GEO | Google AI Mode | AI Overviews | SEO 2026 | search trends | answer engine optimization | generative engine optimization | AI search optimization | B2B marketing | buyer research | content strategy | SaaS marketing | ChatGPT SEO | LLM SEO | content optimization",
    "tags": [
     "chatgpt ads bidding",
     "target cpa chatgpt",
@@ -1149,9 +1211,13 @@
    "music": "original: 8-major-0-86-306156 @ 86 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:02,221\nChatGPT Ads is replacing\n\n2\n00:00:02,221 --> 00:00:03,921\nmanual bid caps with\n\n3\n00:00:03,921 --> 00:00:05,688\naverage cost targets.\n\n4\n00:00:06,008 --> 00:00:07,695\nSearch Engine Journal\n\n5\n00:00:07,695 --> 00:00:09,317\nreported that OpenAI\n\n6\n00:00:09,317 --> 00:00:10,679\nupdated its help\n\n7\n00:00:10,679 --> 00:00:12,560\ndocumentation on bidding\n\n8\n00:00:12,560 --> 00:00:13,598\nstrategies.\n\n9\n00:00:13,598 --> 00:00:14,831\nBeginning Nov.\n\n10\n00:00:14,831 --> 00:00:16,193\n9, new click and\n\n11\n00:00:16,193 --> 00:00:17,815\nconversion campaigns\n\n12\n00:00:17,815 --> 00:00:19,372\nmust use Target CPC\n\n13\n00:00:19,372 --> 00:00:20,605\nor Target CPA.\n\n14\n00:00:20,925 --> 00:00:22,382\nThese new options set\n\n15\n00:00:22,382 --> 00:00:23,670\naverage cost goals\n\n16\n00:00:23,670 --> 00:00:24,959\nrather than strict\n\n17\n00:00:24,959 --> 00:00:26,360\nlimits on individual\n\n18\n00:00:26,360 --> 00:00:26,920\nbids.\n\n19\n00:00:26,920 --> 00:00:28,209\nThe system can bid\n\n20\n00:00:28,209 --> 00:00:29,553\nabove or below your\n\n21\n00:00:29,553 --> 00:00:30,954\ntarget in individual\n\n22\n00:00:30,954 --> 00:00:32,355\nauctions to maximize\n\n23\n00:00:32,355 --> 00:00:33,083\nresults.\n\n24\n00:00:33,403 --> 00:00:35,277\nSetting a target below\n\n25\n00:00:35,277 --> 00:00:37,151\nrecent performance can\n\n26\n00:00:37,151 --> 00:00:38,886\nrestrict delivery or\n\n27\n00:00:38,886 --> 00:00:40,551\ncause spend to fall\n\n28\n00:00:40,551 --> 00:00:42,356\nshort of your budget.\n\n29\n00:00:42,356 --> 00:00:43,744\nMax Bid and Max\n\n30\n00:00:43,744 --> 00:00:45,756\nCPC expire completely on\n\n31\n00:00:45,756 --> 00:00:46,381\nJan.\n\n32\n00:00:46,381 --> 00:00:47,283\n1, 2027.\n\n33\n00:00:47,603 --> 00:00:48,868\nReview your campaign\n\n34\n00:00:48,868 --> 00:00:50,134\ntargets now to avoid\n\n35\n00:00:50,134 --> 00:00:51,348\ndelivery drop-offs.\n\n36\n00:00:51,348 --> 00:00:52,259\nSource in the\n\n37\n00:00:52,259 --> 00:00:53,120\ndescription.\n",
-  "status": "rendered",
+  "status": "scheduled",
   "release": "shorts-42921717979",
-  "replace": "eEFQhk_b3_Y"
+  "keywords_done": true,
+  "video_id": "vK-ZNYa4KdE",
+  "uploaded_at": "2026-11-12T00:10:36.105917-08:00",
+  "playlist_done": true,
+  "captions_done": true
  },
  {
   "slug": "asked-and-answered",
@@ -1199,10 +1265,11 @@
    "music": "original: 1-major-5-84-674746 @ 84 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,625\nAnswer engines often\n\n2\n00:00:01,625 --> 00:00:03,111\nskip content that uses\n\n3\n00:00:03,111 --> 00:00:04,596\nvague pronouns like it\n\n4\n00:00:04,596 --> 00:00:05,311\nor this.\n\n5\n00:00:05,631 --> 00:00:06,818\nThe Citable Passage\n\n6\n00:00:06,818 --> 00:00:08,253\nStandard requires you to\n\n7\n00:00:08,253 --> 00:00:09,292\nname the subject\n\n8\n00:00:09,292 --> 00:00:09,985\ndirectly.\n\n9\n00:00:10,305 --> 00:00:11,270\nThis is part of\n\n10\n00:00:11,270 --> 00:00:12,429\nthe Asked Method by\n\n11\n00:00:12,429 --> 00:00:13,346\nArchana Panda.\n\n12\n00:00:13,666 --> 00:00:15,017\nOn an HR software\n\n13\n00:00:15,017 --> 00:00:16,490\npage, do not write:\n\n14\n00:00:16,490 --> 00:00:18,087\nIt automates payroll.\n\n15\n00:00:18,087 --> 00:00:19,315\nInstead, write:\n\n16\n00:00:19,315 --> 00:00:20,911\nHR software automates\n\n17\n00:00:20,911 --> 00:00:21,709\npayroll.\n\n18\n00:00:22,029 --> 00:00:23,206\nThe full standard is\n\n19\n00:00:23,206 --> 00:00:24,430\nlinked on our channel\n\n20\n00:00:24,430 --> 00:00:24,901\npage.\n",
-  "status": "uploaded",
+  "status": "scheduled",
   "release": "shorts-42921717979",
   "video_id": "t32uM-f3wxM",
-  "uploaded_at": "2026-11-10T15:36:44.932667-08:00"
+  "uploaded_at": "2026-11-10T15:36:44.932667-08:00",
+  "published_at": "2026-11-13T18:00:00+00:00"
  },
  {
   "slug": "asked-and-answered",
@@ -1218,7 +1285,7 @@
    "series": "Trend Check",
    "playlist": "AI Search Trends 2026",
    "title": "AI search in 2026: top of funnel shift",
-   "youtube_description": "Google's AI mode is driving users higher up the funnel with less revenue per query.\nAlphabet's chief business officer and Google's VP of Data Science report that users are using AI for detailed, exploratory questions that differ from traditional keyword searches.\n\nSources:\n- Paid Search Is Moving Up The Funnel – Google Admits AI Mode Pays Less via @sejournal, @gregjarboe: https://www.searchenginejournal.com/paid-search-is-moving-up-the-funnel-google-admits-ai-mode-pays-less/595875/\n\nFind your buyers' questions: https://archanacontent.github.io/asked/\nMore from Archana Panda: https://archanacontent.github.io\n\n#AISearchMarketing #AISearch #B2BMarketing #AEO #AIMode #SEO",
+   "youtube_description": "Google's AI mode is driving users higher up the funnel with less revenue per query.\nAlphabet's chief business officer and Google's VP of Data Science report that users are using AI for detailed, exploratory questions that differ from traditional keyword searches.\n\nSources:\n- Paid Search Is Moving Up The Funnel – Google Admits AI Mode Pays Less via @sejournal, @gregjarboe: https://www.searchenginejournal.com/paid-search-is-moving-up-the-funnel-google-admits-ai-mode-pays-less/595875/\n\nFind your buyers' questions: https://archanacontent.github.io/asked/\nMore from Archana Panda: https://archanacontent.github.io\n\n#AISearchMarketing #AISearch #B2BMarketing #AEO #AIMode #SEO\n.\n.\n.\n.\nGoogle AI mode search trends | top of funnel AI queries | generative engine optimization strategy | B2B search marketing 2027 | google search ai update | google ai new features | google ai in search | AI search | AEO | GEO | Google AI Mode | AI Overviews | SEO 2026 | search trends | answer engine optimization | generative engine optimization | AI search optimization | B2B marketing | buyer research | content strategy | SaaS marketing | ChatGPT SEO | LLM SEO | content optimization",
    "tags": [
     "Google AI mode search trends",
     "top of funnel AI queries",
@@ -1247,9 +1314,11 @@
    "music": "original: 0-mixolydian-6-87-143477 @ 87 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,579\nAI mode queries make\n\n2\n00:00:01,579 --> 00:00:03,015\nGoogle less money than\n\n3\n00:00:03,015 --> 00:00:04,397\ntraditional searches.\n\n4\n00:00:04,717 --> 00:00:05,905\nAccording to Search\n\n5\n00:00:05,905 --> 00:00:06,895\nEngine Journal,\n\n6\n00:00:06,895 --> 00:00:08,281\nusers are asking longer\n\n7\n00:00:08,281 --> 00:00:09,370\nand more detailed\n\n8\n00:00:09,370 --> 00:00:10,113\nquestions.\n\n9\n00:00:10,433 --> 00:00:11,575\nShivani Mohan says\n\n10\n00:00:11,575 --> 00:00:12,866\npeople are asking net\n\n11\n00:00:12,866 --> 00:00:14,107\nnew types of queries\n\n12\n00:00:14,107 --> 00:00:15,398\nthey never thought to\n\n13\n00:00:15,398 --> 00:00:16,192\nask before.\n\n14\n00:00:16,512 --> 00:00:18,030\nThese queries move users\n\n15\n00:00:18,030 --> 00:00:19,338\nup the funnel toward\n\n16\n00:00:19,338 --> 00:00:20,489\nbrainstorming and\n\n17\n00:00:20,489 --> 00:00:21,693\ncategory research.\n\n18\n00:00:22,013 --> 00:00:23,542\nB2B marketers must adapt\n\n19\n00:00:23,542 --> 00:00:24,913\nbecause most accounts\n\n20\n00:00:24,913 --> 00:00:26,178\nare still judged at\n\n21\n00:00:26,178 --> 00:00:27,338\nthe bottom of the\n\n22\n00:00:27,338 --> 00:00:27,970\nfunnel.\n\n23\n00:00:28,290 --> 00:00:29,009\nSource in the\n\n24\n00:00:29,009 --> 00:00:29,688\ndescription.\n",
-  "status": "rendered",
+  "status": "scheduled",
   "release": "shorts-42921717979",
-  "replace": "gaktfN8Vn6s"
+  "keywords_done": true,
+  "video_id": "mc3vl0dORNQ",
+  "uploaded_at": "2026-11-12T00:10:57.042645-08:00"
  },
  {
   "slug": "asked-and-answered",
@@ -1297,10 +1366,11 @@
    "music": "original: 1-mixolydian-6-86-166401 @ 86 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,294\nAnswer engines\n\n2\n00:00:01,294 --> 00:00:02,612\nprioritize specific\n\n3\n00:00:02,612 --> 00:00:03,985\ndetails over general\n\n4\n00:00:03,985 --> 00:00:04,645\nclaims.\n\n5\n00:00:04,965 --> 00:00:06,293\nThe Citable Passage\n\n6\n00:00:06,293 --> 00:00:07,842\nStandard from the Asked\n\n7\n00:00:07,842 --> 00:00:09,392\nMethod by Archana Panda\n\n8\n00:00:09,392 --> 00:00:10,775\nsays to be specific.\n\n9\n00:00:11,095 --> 00:00:12,213\nWhen writing about\n\n10\n00:00:12,213 --> 00:00:13,331\nexpense management\n\n11\n00:00:13,331 --> 00:00:14,596\nsoftware, avoid vague\n\n12\n00:00:14,596 --> 00:00:15,373\nstatements.\n\n13\n00:00:15,693 --> 00:00:17,026\nInstead of saying our\n\n14\n00:00:17,026 --> 00:00:18,102\ntool saves time,\n\n15\n00:00:18,102 --> 00:00:18,973\nuse numbers,\n\n16\n00:00:18,973 --> 00:00:20,357\ndates, named standards\n\n17\n00:00:20,357 --> 00:00:21,433\nand named tools.\n\n18\n00:00:21,753 --> 00:00:22,930\nThe full standard is\n\n19\n00:00:22,930 --> 00:00:24,154\nlinked on our channel\n\n20\n00:00:24,154 --> 00:00:24,624\npage.\n",
-  "status": "uploaded",
+  "status": "scheduled",
   "release": "shorts-42921717979",
   "video_id": "tHFKxKyFTbg",
-  "uploaded_at": "2026-11-10T15:38:16.442976-08:00"
+  "uploaded_at": "2026-11-10T15:38:16.442976-08:00",
+  "published_at": "2026-11-14T18:00:00+00:00"
  },
  {
   "slug": "asked-and-answered",
@@ -1347,10 +1417,11 @@
    "music": "original: 3-mixolydian-0-82-276474 @ 82 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:02,035\nAI assistants reached 76\n\n2\n00:00:02,035 --> 00:00:03,820\nbillion monthly sessions\n\n3\n00:00:03,820 --> 00:00:05,544\nworldwide in September.\n\n4\n00:00:05,864 --> 00:00:06,971\nGraphite stopped\n\n5\n00:00:06,971 --> 00:00:08,341\ncomparing AI usage to\n\n6\n00:00:08,341 --> 00:00:09,816\nsearch engines in their\n\n7\n00:00:09,816 --> 00:00:10,923\nNovember report.\n\n8\n00:00:10,923 --> 00:00:12,135\nThey can no longer\n\n9\n00:00:12,135 --> 00:00:13,452\nreliably compare the\n\n10\n00:00:13,452 --> 00:00:13,926\ntwo.\n\n11\n00:00:14,246 --> 00:00:15,938\nThe March report likely\n\n12\n00:00:15,938 --> 00:00:17,388\nundercounted Google\n\n13\n00:00:17,388 --> 00:00:18,839\nsearch use from the\n\n14\n00:00:18,839 --> 00:00:19,866\nAndroid app.\n\n15\n00:00:19,866 --> 00:00:21,376\nThe app accounts for\n\n16\n00:00:21,376 --> 00:00:22,706\nan estimated 11.8\n\n17\n00:00:22,706 --> 00:00:24,458\nbillion monthly sessions\n\n18\n00:00:24,458 --> 00:00:25,425\nin the U.S.\n\n19\n00:00:25,745 --> 00:00:27,628\nAI referral traffic is\n\n20\n00:00:27,628 --> 00:00:28,883\ngrowing fast.\n\n21\n00:00:28,883 --> 00:00:30,697\nWorldwide AI referral\n\n22\n00:00:30,697 --> 00:00:32,510\ntraffic rose 92% year\n\n23\n00:00:32,510 --> 00:00:33,905\nover year as of\n\n24\n00:00:33,905 --> 00:00:34,602\nJuly.\n\n25\n00:00:34,922 --> 00:00:35,855\nIn July,\n\n26\n00:00:35,855 --> 00:00:37,650\nChatGPT drove 60% of\n\n27\n00:00:37,650 --> 00:00:39,372\nAI referral traffic\n\n28\n00:00:39,372 --> 00:00:40,449\nworldwide.\n\n29\n00:00:40,449 --> 00:00:42,028\nGemini and Claude\n\n30\n00:00:42,028 --> 00:00:43,751\nfollowed at 14% and\n\n31\n00:00:43,751 --> 00:00:44,397\n10%.\n\n32\n00:00:44,717 --> 00:00:46,260\nB2B teams must optimize\n\n33\n00:00:46,260 --> 00:00:47,473\nfor these growing\n\n34\n00:00:47,473 --> 00:00:48,741\nreferral channels.\n\n35\n00:00:48,741 --> 00:00:49,734\nSource in the\n\n36\n00:00:49,734 --> 00:00:50,671\ndescription.\n",
-  "status": "uploaded",
+  "status": "scheduled",
   "release": "shorts-42921717979",
   "video_id": "GjcTMIk7BV4",
-  "uploaded_at": "2026-11-10T15:38:23.809174-08:00"
+  "uploaded_at": "2026-11-10T15:38:23.809174-08:00",
+  "published_at": "2026-11-14T23:00:00+00:00"
  },
  {
   "slug": "asked-and-answered",
@@ -1398,10 +1469,11 @@
    "music": "original: 3-major-5-92-105505 @ 92 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,260\nWhat is an ABM\n\n2\n00:00:01,260 --> 00:00:02,004\nplatform?\n\n3\n00:00:02,324 --> 00:00:03,825\nAnswer engines look for\n\n4\n00:00:03,825 --> 00:00:05,326\nspecific definitions to\n\n5\n00:00:05,326 --> 00:00:06,880\ncite in their responses.\n\n6\n00:00:07,200 --> 00:00:08,209\nTo be the cited\n\n7\n00:00:08,209 --> 00:00:09,571\nsource, your page must\n\n8\n00:00:09,571 --> 00:00:10,984\ndefine the term clearly\n\n9\n00:00:10,984 --> 00:00:11,892\nand list core\n\n10\n00:00:11,892 --> 00:00:12,749\ncapabilities\n\n11\n00:00:12,749 --> 00:00:13,607\nimmediately.\n\n12\n00:00:13,927 --> 00:00:15,324\nStructure your content\n\n13\n00:00:15,324 --> 00:00:16,308\nwith a concise\n\n14\n00:00:16,308 --> 00:00:17,809\ndefinition followed by a\n\n15\n00:00:17,809 --> 00:00:19,206\nlist of key functions.\n\n16\n00:00:19,526 --> 00:00:20,579\nFind your buyers'\n\n17\n00:00:20,579 --> 00:00:21,823\nquestions with Asked,\n\n18\n00:00:21,823 --> 00:00:22,972\nlink on our channel\n\n19\n00:00:22,972 --> 00:00:23,451\npage.\n",
-  "status": "uploaded",
+  "status": "scheduled",
   "release": "shorts-42921717979",
   "video_id": "8jbLW14yatY",
-  "uploaded_at": "2026-11-10T15:38:32.013798-08:00"
+  "uploaded_at": "2026-11-10T15:38:32.013798-08:00",
+  "published_at": "2026-11-15T14:00:00+00:00"
  },
  {
   "slug": "asked-and-answered",
@@ -1446,10 +1518,11 @@
    "music": "original: 7-dorian-7-79-154334 @ 79 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,617\nAI engines struggle to\n\n2\n00:00:01,617 --> 00:00:02,984\ncite sections that try\n\n3\n00:00:02,984 --> 00:00:04,148\nto answer too many\n\n4\n00:00:04,148 --> 00:00:05,161\nthings at once.\n\n5\n00:00:05,481 --> 00:00:06,791\nThe Citable Passage\n\n6\n00:00:06,791 --> 00:00:08,210\nStandard requires one\n\n7\n00:00:08,210 --> 00:00:09,738\nquestion per section to\n\n8\n00:00:09,738 --> 00:00:10,830\nensure clarity.\n\n9\n00:00:11,150 --> 00:00:12,273\nWhen writing about\n\n10\n00:00:12,273 --> 00:00:13,494\npartner relationship\n\n11\n00:00:13,494 --> 00:00:14,812\nmanagement, do not mix\n\n12\n00:00:14,812 --> 00:00:16,180\ndifferent topics in one\n\n13\n00:00:16,180 --> 00:00:16,717\nblock.\n\n14\n00:00:17,037 --> 00:00:18,292\nInstead of a messy\n\n15\n00:00:18,292 --> 00:00:19,820\nparagraph, use a single\n\n16\n00:00:19,820 --> 00:00:20,584\nquestion.\n\n17\n00:00:20,584 --> 00:00:22,058\nThis allows the engine\n\n18\n00:00:22,058 --> 00:00:23,368\nto cite your answer\n\n19\n00:00:23,368 --> 00:00:24,842\nfully without dragging\n\n20\n00:00:24,842 --> 00:00:26,097\nin unrelated info.\n\n21\n00:00:26,417 --> 00:00:27,594\nThe full standard is\n\n22\n00:00:27,594 --> 00:00:28,818\nlinked on our channel\n\n23\n00:00:28,818 --> 00:00:29,288\npage.\n",
-  "status": "uploaded",
+  "status": "scheduled",
   "release": "shorts-42921717979",
   "video_id": "KvgkuVmgEvE",
-  "uploaded_at": "2026-11-10T15:38:37.633030-08:00"
+  "uploaded_at": "2026-11-10T15:38:37.633030-08:00",
+  "published_at": "2026-11-15T18:00:00+00:00"
  },
  {
   "slug": "asked-and-answered",
@@ -1493,10 +1566,11 @@
    "music": "original: 0-major-6-81-203373 @ 81 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:02,213\nGoogle AI features drove\n\n2\n00:00:02,213 --> 00:00:03,837\nan estimated 21% of\n\n3\n00:00:03,837 --> 00:00:05,394\none site's clicks.\n\n4\n00:00:05,714 --> 00:00:07,333\nSEO consultant Cyrus\n\n5\n00:00:07,333 --> 00:00:08,952\nShepard conducted an\n\n6\n00:00:08,952 --> 00:00:10,700\nexperiment using Zyppy\n\n7\n00:00:10,700 --> 00:00:11,283\nSEO.\n\n8\n00:00:11,283 --> 00:00:12,708\nHe opted the site\n\n9\n00:00:12,708 --> 00:00:14,068\nout of Google AI\n\n10\n00:00:14,068 --> 00:00:15,751\nfeatures for 28 days.\n\n11\n00:00:16,071 --> 00:00:17,471\nAI Overviews and AI\n\n12\n00:00:17,471 --> 00:00:19,045\nMode accounted for 10%\n\n13\n00:00:19,045 --> 00:00:20,560\nof total impressions.\n\n14\n00:00:20,560 --> 00:00:22,251\nHowever, they produced a\n\n15\n00:00:22,251 --> 00:00:23,183\nmuch higher\n\n16\n00:00:23,183 --> 00:00:24,816\nclick-through rate than\n\n17\n00:00:24,816 --> 00:00:26,098\nstandard results.\n\n18\n00:00:26,418 --> 00:00:27,786\nShepard noted a halo\n\n19\n00:00:27,786 --> 00:00:29,155\neffect where regular\n\n20\n00:00:29,155 --> 00:00:30,468\norganic results saw\n\n21\n00:00:30,468 --> 00:00:31,836\nhigher click through\n\n22\n00:00:31,836 --> 00:00:33,150\nrates when the site\n\n23\n00:00:33,150 --> 00:00:34,737\nappeared in AI sections.\n\n24\n00:00:34,737 --> 00:00:36,105\nThis was reported in\n\n25\n00:00:36,105 --> 00:00:37,583\nSearch Engine Journal.\n\n26\n00:00:37,903 --> 00:00:39,584\nB2B teams must optimize\n\n27\n00:00:39,584 --> 00:00:41,024\nfor AI citations to\n\n28\n00:00:41,024 --> 00:00:42,585\ncapture this traffic.\n\n29\n00:00:42,585 --> 00:00:43,666\nSource in the\n\n30\n00:00:43,666 --> 00:00:44,686\ndescription.\n",
-  "status": "uploaded",
+  "status": "scheduled",
   "release": "shorts-42921717979",
   "video_id": "NG3gNAUo9sE",
-  "uploaded_at": "2026-11-10T15:38:41.494963-08:00"
+  "uploaded_at": "2026-11-10T15:38:41.494963-08:00",
+  "published_at": "2026-11-15T23:00:00+00:00"
  },
  {
   "slug": "automation-shelf",
@@ -1512,7 +1586,7 @@
    "series": "Stop Doing This",
    "playlist": "Stop Doing This: Marketing Tasks to Automate",
    "title": "Stop doing this by hand: AI product video creation",
-   "youtube_description": "Automate your product image generation and video publishing pipeline using AI.\nTools: Built with n8n, OpenAI, NanoBanana Pro, Veo 3.1, Google Drive, and Blotato.\nTemplate: https://n8n.io/workflows/12462\n\nSources:\n- n8n template: https://n8n.io/workflows/12462\n\n#MarketingAutomationLibrary #MarketingAutomation #MarketingOps #Productivity #n8n #NoCode",
+   "youtube_description": "Automate your product image generation and video publishing pipeline using AI.\nTools: Built with n8n, OpenAI, NanoBanana Pro, Veo 3.1, Google Drive, and Blotato.\nTemplate: https://n8n.io/workflows/12462\n\nSources:\n- n8n template: https://n8n.io/workflows/12462\n\n#MarketingAutomationLibrary #MarketingAutomation #MarketingOps #Productivity #n8n #NoCode\n.\n.\n.\n.\nn8n product video automation | NanoBanana Pro Veo 3.1 n8n | automated video publishing Blotato | n8n AI image to video workflow | n8n workflow automation | automated video interview | automated video | marketing automation | n8n | n8n workflow | marketing ops | automation for small business | productivity | n8n templates | no code automation | workflow automation | n8n tutorial | free automation templates | marketing automation tools | marketing automation ideas",
    "tags": [
     "n8n product video automation",
     "NanoBanana Pro Veo 3.1 n8n",
@@ -1540,9 +1614,13 @@
    "music": "original: 2-lydian-3-116-555500 @ 116 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,389\nYou can turn basic\n\n2\n00:00:01,389 --> 00:00:02,478\ntext prompts into\n\n3\n00:00:02,478 --> 00:00:03,913\npublished product videos\n\n4\n00:00:03,913 --> 00:00:05,151\nwithout manual work.\n\n5\n00:00:05,471 --> 00:00:06,997\nCreating product visuals\n\n6\n00:00:06,997 --> 00:00:08,102\nusually requires\n\n7\n00:00:08,102 --> 00:00:09,155\nmultiple tools,\n\n8\n00:00:09,155 --> 00:00:10,312\nrepetitive prompt\n\n9\n00:00:10,312 --> 00:00:11,681\niteration, and manual\n\n10\n00:00:11,681 --> 00:00:12,996\npublishing to social\n\n11\n00:00:12,996 --> 00:00:13,785\nplatforms.\n\n12\n00:00:14,105 --> 00:00:15,453\nThis n8n workflow\n\n13\n00:00:15,453 --> 00:00:17,229\ngenerates product images\n\n14\n00:00:17,229 --> 00:00:18,638\nin NanoBanana Pro,\n\n15\n00:00:18,638 --> 00:00:20,108\nexplores variations\n\n16\n00:00:20,108 --> 00:00:21,578\nusing contact sheet\n\n17\n00:00:21,578 --> 00:00:23,109\nprompting, and turns\n\n18\n00:00:23,109 --> 00:00:24,702\nthem into videos with\n\n19\n00:00:24,702 --> 00:00:25,498\nVeo 3.1.\n\n20\n00:00:25,818 --> 00:00:27,428\nOpenAI handles prompt\n\n21\n00:00:27,428 --> 00:00:29,100\nanalysis, while Google\n\n22\n00:00:29,100 --> 00:00:30,772\nDrive and HTTP request\n\n23\n00:00:30,772 --> 00:00:32,196\nnodes manage files\n\n24\n00:00:32,196 --> 00:00:33,373\nbefore Blotato\n\n25\n00:00:33,373 --> 00:00:35,107\nautomatically publishes\n\n26\n00:00:35,107 --> 00:00:36,098\nthe videos.\n\n27\n00:00:36,418 --> 00:00:37,390\nThe free template is\n\n28\n00:00:37,390 --> 00:00:38,090\nlinked in the\n\n29\n00:00:38,090 --> 00:00:38,751\ndescription.\n",
-  "status": "rendered",
+  "status": "scheduled",
   "release": "shorts-42921717979",
-  "replace": "hJQMykP0XVc"
+  "keywords_done": true,
+  "video_id": "1HBIVWaeFR0",
+  "uploaded_at": "2026-11-12T00:10:39.092987-08:00",
+  "playlist_done": true,
+  "captions_done": true
  },
  {
   "slug": "automation-shelf",
@@ -1590,10 +1668,11 @@
    "music": "original: 5-major-7-110-233631 @ 110 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,704\nTurn one product image\n\n2\n00:00:01,704 --> 00:00:03,266\ninto multiple influencer\n\n3\n00:00:03,266 --> 00:00:04,343\nstyle video ads\n\n4\n00:00:04,343 --> 00:00:05,367\nautomatically.\n\n5\n00:00:05,687 --> 00:00:07,399\nThis n8n template uses\n\n6\n00:00:07,399 --> 00:00:08,795\nSora 2 and Gemini\n\n7\n00:00:08,795 --> 00:00:10,508\nto scale video content\n\n8\n00:00:10,508 --> 00:00:11,777\nfor e-commerce.\n\n9\n00:00:12,097 --> 00:00:13,378\nThe flow analyzes your\n\n10\n00:00:13,378 --> 00:00:14,754\nimage, creates personas,\n\n11\n00:00:14,754 --> 00:00:15,704\nwrites scripts,\n\n12\n00:00:15,704 --> 00:00:16,748\nand generates the\n\n13\n00:00:16,748 --> 00:00:17,317\nvideos.\n\n14\n00:00:17,637 --> 00:00:18,838\nEach 12 second video\n\n15\n00:00:18,838 --> 00:00:19,846\ntakes about 2 to\n\n16\n00:00:19,846 --> 00:00:21,143\n3 minutes to generate.\n\n17\n00:00:21,463 --> 00:00:22,934\nStop hiring creators for\n\n18\n00:00:22,934 --> 00:00:24,152\nevery single social\n\n19\n00:00:24,152 --> 00:00:24,963\nmedia post.\n\n20\n00:00:24,963 --> 00:00:26,232\nTemplate link in the\n\n21\n00:00:26,232 --> 00:00:27,094\ndescription.\n",
-  "status": "uploaded",
+  "status": "scheduled",
   "release": "shorts-42921717979",
   "video_id": "WM43IKftpUI",
-  "uploaded_at": "2026-11-10T15:36:47.233389-08:00"
+  "uploaded_at": "2026-11-10T15:36:47.233389-08:00",
+  "published_at": "2026-11-13T18:00:00+00:00"
  },
  {
   "slug": "automation-shelf",
@@ -1640,10 +1719,11 @@
    "music": "original: 1-lydian-4-111-003533 @ 111 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,207\nCan you automate\n\n2\n00:00:01,207 --> 00:00:02,210\nmarketing content\n\n3\n00:00:02,210 --> 00:00:02,939\ngeneration?\n\n4\n00:00:02,939 --> 00:00:03,350\nYes.\n\n5\n00:00:03,670 --> 00:00:05,114\nStop manually writing\n\n6\n00:00:05,114 --> 00:00:06,059\nevery draft.\n\n7\n00:00:06,059 --> 00:00:07,171\nUse an n8n form\n\n8\n00:00:07,171 --> 00:00:08,393\nto submit a topic\n\n9\n00:00:08,393 --> 00:00:09,616\nand content type.\n\n10\n00:00:09,936 --> 00:00:11,539\nThe workflow sends that\n\n11\n00:00:11,539 --> 00:00:13,028\nprompt to CometAPI to\n\n12\n00:00:13,028 --> 00:00:14,115\ngenerate three\n\n13\n00:00:14,115 --> 00:00:15,661\nvariations in parallel\n\n14\n00:00:15,661 --> 00:00:16,520\nusing GPT,\n\n15\n00:00:16,520 --> 00:00:17,894\nClaude, and Gemini.\n\n16\n00:00:18,214 --> 00:00:19,529\nAll three outputs are\n\n17\n00:00:19,529 --> 00:00:20,944\nlogged with a timestamp\n\n18\n00:00:20,944 --> 00:00:22,309\ninto Google Sheets for\n\n19\n00:00:22,309 --> 00:00:23,371\neasy comparison.\n\n20\n00:00:23,691 --> 00:00:24,549\nTemplate link in the\n\n21\n00:00:24,549 --> 00:00:25,132\ndescription.\n",
-  "status": "uploaded",
+  "status": "scheduled",
   "release": "shorts-42921717979",
   "video_id": "SqyDfnxP3JM",
-  "uploaded_at": "2026-11-10T15:36:56.730658-08:00"
+  "uploaded_at": "2026-11-10T15:36:56.730658-08:00",
+  "published_at": "2026-11-13T23:00:00+00:00"
  },
  {
   "slug": "automation-shelf",
@@ -1659,7 +1739,7 @@
    "series": "Stop Doing This",
    "playlist": "Stop Doing This: Marketing Tasks to Automate",
    "title": "Stop doing this by hand: marketing report pulls",
-   "youtube_description": "This workflow automates marketing report pulls for Google Analytics, Google Ads, and Meta Ads.\nTools: n8n, Google Analytics, Google Ads, Meta Ads, OpenAI, Telegram\nTemplate: https://n8n.io/workflows/2783\n\nSources:\n- n8n template: https://n8n.io/workflows/2783\n\n#MarketingAutomationLibrary #MarketingAutomation #n8n #MarketingOps #Productivity #NoCode",
+   "youtube_description": "This workflow automates marketing report pulls for Google Analytics, Google Ads, and Meta Ads.\nTools: n8n, Google Analytics, Google Ads, Meta Ads, OpenAI, Telegram\nTemplate: https://n8n.io/workflows/2783\n\nSources:\n- n8n template: https://n8n.io/workflows/2783\n\n#MarketingAutomationLibrary #MarketingAutomation #n8n #MarketingOps #Productivity #NoCode\n.\n.\n.\n.\nautomate marketing reports | n8n marketing automation | Google Analytics automation template | Meta Ads reporting workflow | automate report generation | automate marketing with ai | n8n email automation | n8n email automation workflow | google analytics automation | meta ads reporting | facebook ads reporting tool | facebook ads analytics report | marketing automation | n8n | n8n workflow | marketing ops | automation for small business | productivity | n8n templates | no code automation | workflow automation | n8n tutorial | free automation templates | marketing automation tools | marketing automation ideas",
    "tags": [
     "automate marketing reports",
     "n8n marketing automation",
@@ -1690,8 +1770,11 @@
    "music": "original: 6-major-1-118-777722 @ 118 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,415\nStop pulling Google\n\n2\n00:00:01,415 --> 00:00:02,725\nAnalytics and Meta Ads\n\n3\n00:00:02,725 --> 00:00:03,889\ndata manually every\n\n4\n00:00:03,889 --> 00:00:04,374\nweek.\n\n5\n00:00:04,694 --> 00:00:05,914\nComparing this week to\n\n6\n00:00:05,914 --> 00:00:07,044\nthe same period last\n\n7\n00:00:07,044 --> 00:00:08,038\nyear takes hours.\n\n8\n00:00:08,358 --> 00:00:09,621\nThis n8n workflow\n\n9\n00:00:09,621 --> 00:00:10,999\nretrieves data from\n\n10\n00:00:10,999 --> 00:00:12,262\nGoogle Analytics,\n\n11\n00:00:12,262 --> 00:00:13,180\nGoogle Ads,\n\n12\n00:00:13,180 --> 00:00:14,213\nand Meta Ads.\n\n13\n00:00:14,533 --> 00:00:15,808\nAI prepares the data\n\n14\n00:00:15,808 --> 00:00:16,777\nas a table and\n\n15\n00:00:16,777 --> 00:00:18,052\nwrites a summary for\n\n16\n00:00:18,052 --> 00:00:19,225\nemail or Telegram.\n\n17\n00:00:19,545 --> 00:00:20,517\nThe free template is\n\n18\n00:00:20,517 --> 00:00:21,217\nlinked in the\n\n19\n00:00:21,217 --> 00:00:21,878\ndescription.\n",
-  "status": "rendered",
-  "release": "shorts-42921717979"
+  "status": "scheduled",
+  "release": "shorts-42921717979",
+  "keywords_done": true,
+  "video_id": "Ik2BIUG7QqI",
+  "uploaded_at": "2026-11-12T00:11:03.463420-08:00"
  },
  {
   "slug": "automation-shelf",
@@ -1707,7 +1790,7 @@
    "series": "Can It Be Automated?",
    "playlist": "Can It Be Automated?",
    "title": "Can you automate monthly marketing reports?",
-   "youtube_description": "You can automate your monthly marketing reports using this n8n workflow.\nTools: Google Search Console, Google Analytics 4, HighLevel, Anthropic Claude, and Slack.\nTemplate: https://n8n.io/workflows/21894\n\nSources:\n- n8n template: https://n8n.io/workflows/21894\n\n#MarketingAutomationLibrary #MarketingAutomation #n8n #Automation #MarketingOps #NoCode",
+   "youtube_description": "You can automate your monthly marketing reports using this n8n workflow.\nTools: Google Search Console, Google Analytics 4, HighLevel, Anthropic Claude, and Slack.\nTemplate: https://n8n.io/workflows/21894\n\nSources:\n- n8n template: https://n8n.io/workflows/21894\n\n#MarketingAutomationLibrary #MarketingAutomation #n8n #Automation #MarketingOps #NoCode\n.\n.\n.\n.\nautomate marketing reports n8n | GA4 reporting automation | n8n marketing workflow template | automate report generation | email automation in power automate | automate reports in power bi | ga4 reporting | n8n workflow automation | n8n workflow | n8n hubspot | marketing automation | n8n | marketing automation ideas | automation for small business | n8n templates | no code automation | workflow automation | marketing ops | productivity | n8n tutorial | free automation templates | marketing automation tools",
    "tags": [
     "automate marketing reports n8n",
     "GA4 reporting automation",
@@ -1736,8 +1819,11 @@
    "music": "original: 2-mixolydian-6-116-354551 @ 116 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,571\nCan you automate monthly\n\n2\n00:00:01,571 --> 00:00:02,619\nmarketing reports?\n\n3\n00:00:02,619 --> 00:00:03,029\nYes.\n\n4\n00:00:03,349 --> 00:00:04,908\nThis n8n workflow pulls\n\n5\n00:00:04,908 --> 00:00:06,466\ndata from Google Search\n\n6\n00:00:06,466 --> 00:00:07,580\nConsole, Google\n\n7\n00:00:07,580 --> 00:00:08,526\nAnalytics 4,\n\n8\n00:00:08,526 --> 00:00:09,584\nand HighLevel.\n\n9\n00:00:09,904 --> 00:00:10,818\nIt aggregates\n\n10\n00:00:10,818 --> 00:00:12,036\nperformance totals,\n\n11\n00:00:12,036 --> 00:00:13,406\nsessions, and pipeline\n\n12\n00:00:13,406 --> 00:00:14,675\nvalues into a single\n\n13\n00:00:14,675 --> 00:00:15,334\nsummary.\n\n14\n00:00:15,654 --> 00:00:16,769\nAnthropic Claude\n\n15\n00:00:16,769 --> 00:00:18,255\nanalyzes the metrics to\n\n16\n00:00:18,255 --> 00:00:19,635\ngenerate an executive\n\n17\n00:00:19,635 --> 00:00:20,643\nsummary, wins,\n\n18\n00:00:20,643 --> 00:00:22,076\nrisks, and recommended\n\n19\n00:00:22,076 --> 00:00:22,766\nactions.\n\n20\n00:00:23,086 --> 00:00:24,519\nThe final HTML report\n\n21\n00:00:24,519 --> 00:00:26,118\nand video script outline\n\n22\n00:00:26,118 --> 00:00:27,442\nare posted to Slack\n\n23\n00:00:27,442 --> 00:00:28,600\nfor your review.\n",
-  "status": "rendered",
-  "release": "shorts-42921717979"
+  "status": "scheduled",
+  "release": "shorts-42921717979",
+  "keywords_done": true,
+  "video_id": "M1dkbldyvrY",
+  "uploaded_at": "2026-11-12T00:11:26.755801-08:00"
  },
  {
   "slug": "automation-shelf",
@@ -1753,7 +1839,7 @@
    "series": "Stop Doing This",
    "playlist": "Stop Doing This: Marketing Tasks to Automate",
    "title": "Stop doing this by hand: importing leads from Google Sheets to Airtable",
-   "youtube_description": "This workflow automates importing leads from Google Sheets into an Airtable CRM.\nTools: n8n, Google Sheets, Airtable\nTemplate: https://n8n.io/workflows/11046\n\nSources:\n- n8n template: https://n8n.io/workflows/11046\n\n#MarketingAutomationLibrary #MarketingAutomation #n8n #MarketingOps #Productivity #NoCode",
+   "youtube_description": "This workflow automates importing leads from Google Sheets into an Airtable CRM.\nTools: n8n, Google Sheets, Airtable\nTemplate: https://n8n.io/workflows/11046\n\nSources:\n- n8n template: https://n8n.io/workflows/11046\n\n#MarketingAutomationLibrary #MarketingAutomation #n8n #MarketingOps #Productivity #NoCode\n.\n.\n.\n.\nautomate lead import google sheets to airtable | n8n marketing automation templates | crm lead management automation | google sheet to airtable | airtable sync with google sheets | crm lead management | crm for lead generation | crm lead generation process | marketing automation | n8n | n8n workflow | marketing ops | automation for small business | productivity | n8n templates | no code automation | workflow automation | n8n tutorial | free automation templates | marketing automation tools | marketing automation ideas",
    "tags": [
     "automate lead import google sheets to airtable",
     "n8n marketing automation templates",
@@ -1783,7 +1869,8 @@
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,793\nStop manually importing\n\n2\n00:00:01,793 --> 00:00:03,171\nvalidated leads from\n\n3\n00:00:03,171 --> 00:00:04,604\nGoogle Sheets to your\n\n4\n00:00:04,604 --> 00:00:05,100\nCRM.\n\n5\n00:00:05,420 --> 00:00:07,008\nThis n8n workflow reads\n\n6\n00:00:07,008 --> 00:00:08,255\nGoogle Sheets and\n\n7\n00:00:08,255 --> 00:00:09,730\nmanages your Airtable\n\n8\n00:00:09,730 --> 00:00:10,750\nCompany table\n\n9\n00:00:10,750 --> 00:00:11,828\nautomatically.\n\n10\n00:00:12,148 --> 00:00:13,127\nThe flow uses a\n\n11\n00:00:13,127 --> 00:00:14,302\nGoogle Sheets node,\n\n12\n00:00:14,302 --> 00:00:15,379\nan Airtable node,\n\n13\n00:00:15,379 --> 00:00:16,407\nand a Code node.\n\n14\n00:00:16,727 --> 00:00:17,905\nIt even uses an\n\n15\n00:00:17,905 --> 00:00:19,554\ninternal n8n Data Table\n\n16\n00:00:19,554 --> 00:00:20,731\nto build a full\n\n17\n00:00:20,731 --> 00:00:22,026\nexecution report.\n\n18\n00:00:22,346 --> 00:00:23,319\nThe free template is\n\n19\n00:00:23,319 --> 00:00:24,018\nlinked in the\n\n20\n00:00:24,018 --> 00:00:24,679\ndescription.\n",
   "status": "rendered",
-  "release": "shorts-42921717979"
+  "release": "shorts-42921717979",
+  "keywords_done": true
  },
  {
   "slug": "automation-shelf",
@@ -1886,7 +1973,7 @@
    "series": "Scam Alert",
    "playlist": "Scam Alert: Scams Going Around Now",
    "title": "Scam alert: charity and sweepstakes impersonation",
-   "youtube_description": "Scammers are impersonating well known charities and sweepstakes to steal money and personal data.\nAffected: Donors and individuals receiving calls or social media ads about prize winnings.\nWhat to do: Never pay to claim a prize and research organizations before sharing information.\n\nSources:\n- FTC consumer alert: https://consumer.ftc.gov/consumer-alerts/2026/10/spot-scammers-impersonating-well-known-charities-and-sweepstakes\n\nQuery the NVD yourself: https://github.com/archanacontent/nvd-cve-api-docs\n\n#CybersecurityDaily #ScamAlert #CharityScams #CyberSecurity #Phishing #InfoSec",
+   "youtube_description": "Scammers are impersonating well known charities and sweepstakes to steal money and personal data.\nAffected: Donors and individuals receiving calls or social media ads about prize winnings.\nWhat to do: Never pay to claim a prize and research organizations before sharing information.\n\nSources:\n- FTC consumer alert: https://consumer.ftc.gov/consumer-alerts/2026/10/spot-scammers-impersonating-well-known-charities-and-sweepstakes\n\nQuery the NVD yourself: https://github.com/archanacontent/nvd-cve-api-docs\n\n#CybersecurityDaily #ScamAlert #CharityScams #CyberSecurity #Phishing #InfoSec\n.\n.\n.\n.\ncharity sweepstakes scam | fake charity prize | how to spot sweepstakes scams | charity sweepstakes | charity scams | fake charities | sweepstakes scams phone calls | how to spot online scams | how to spot phishing scams | cybersecurity | cybersecurity news | cyber security | scam alert | online scams | phishing | fraud prevention | online safety | infosec | CISA KEV | known exploited vulnerabilities | CVE | vulnerability | patch now | security update | data breach | data breach news | SEC 8-K | cyber incident",
    "tags": [
     "charity sweepstakes scam",
     "fake charity prize",
@@ -1919,7 +2006,10 @@
   "status": "scheduled",
   "release": "shorts-42921717979",
   "video_id": "lmrNOubdH9U",
-  "uploaded_at": "2026-11-10T15:36:32.916282-08:00"
+  "uploaded_at": "2026-11-10T15:36:32.916282-08:00",
+  "playlist_done": true,
+  "keywords_done": true,
+  "captions_done": true
  },
  {
   "slug": "breach-brief",
@@ -1966,10 +2056,12 @@
    "music": "original: 6-minor-4-91-534262 @ 91 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,602\nAttackers are using an\n\n2\n00:00:01,602 --> 00:00:02,853\nOS command injection\n\n3\n00:00:02,853 --> 00:00:03,904\nflaw in multiple\n\n4\n00:00:03,904 --> 00:00:05,056\nBarracuda Networks\n\n5\n00:00:05,056 --> 00:00:05,756\nproducts.\n\n6\n00:00:06,076 --> 00:00:06,973\nThe flaw,\n\n7\n00:00:06,973 --> 00:00:08,768\nCVE-2026-111560, allows\n\n8\n00:00:08,768 --> 00:00:10,113\nan authenticated\n\n9\n00:00:10,113 --> 00:00:11,971\nadministrator to execute\n\n10\n00:00:11,971 --> 00:00:13,445\ncommands with root\n\n11\n00:00:13,445 --> 00:00:14,919\nprivileges via the\n\n12\n00:00:14,919 --> 00:00:16,649\ntimezone configuration\n\n13\n00:00:16,649 --> 00:00:17,354\nfield.\n\n14\n00:00:17,674 --> 00:00:19,085\nAffected devices include\n\n15\n00:00:19,085 --> 00:00:20,205\nthe Email Security\n\n16\n00:00:20,205 --> 00:00:21,568\nGateway, Load Balancer,\n\n17\n00:00:21,568 --> 00:00:22,784\nApplication Delivery\n\n18\n00:00:22,784 --> 00:00:23,953\nController, and Web\n\n19\n00:00:23,953 --> 00:00:25,218\nApplication Firewall.\n\n20\n00:00:25,538 --> 00:00:26,486\nTo protect your\n\n21\n00:00:26,486 --> 00:00:27,577\nenvironment, apply\n\n22\n00:00:27,577 --> 00:00:28,809\nmitigations following\n\n23\n00:00:28,809 --> 00:00:30,137\nvendor instructions and\n\n24\n00:00:30,137 --> 00:00:30,990\nCISA guidance\n\n25\n00:00:30,990 --> 00:00:31,796\nimmediately.\n\n26\n00:00:32,116 --> 00:00:33,463\nSources are in the\n\n27\n00:00:33,463 --> 00:00:34,459\ndescription.\n",
-  "status": "uploaded",
+  "status": "scheduled",
   "release": "shorts-42921717979",
   "video_id": "ClPFoHFF8wI",
-  "uploaded_at": "2026-11-10T15:36:40.293946-08:00"
+  "uploaded_at": "2026-11-10T15:36:40.293946-08:00",
+  "published_at": "2026-11-13T14:00:00+00:00",
+  "playlist_done": true
  },
  {
   "slug": "breach-brief",
@@ -2013,10 +2105,11 @@
    "music": "original: 8-dorian-5-96-766576 @ 96 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,729\nAttackers are bypassing\n\n2\n00:00:01,729 --> 00:00:02,890\nauthentication on\n\n3\n00:00:02,890 --> 00:00:04,422\nBarracuda Email Security\n\n4\n00:00:04,422 --> 00:00:05,161\nGateways.\n\n5\n00:00:05,481 --> 00:00:06,479\nThe flaw,\n\n6\n00:00:06,479 --> 00:00:08,333\nCVE-2026-116606, lets\n\n7\n00:00:08,333 --> 00:00:10,258\nremote attackers use a\n\n8\n00:00:10,258 --> 00:00:12,041\nconfiguration import\n\n9\n00:00:12,041 --> 00:00:13,681\nfunction to modify\n\n10\n00:00:13,681 --> 00:00:15,178\nglobal settings.\n\n11\n00:00:15,498 --> 00:00:16,763\nThis critical\n\n12\n00:00:16,763 --> 00:00:18,591\nvulnerability affects\n\n13\n00:00:18,591 --> 00:00:20,418\nversions earlier than\n\n14\n00:00:20,418 --> 00:00:21,473\n9.4.0.030.\n\n15\n00:00:21,793 --> 00:00:23,074\nTo protect your system,\n\n16\n00:00:23,074 --> 00:00:24,400\napply vendor mitigations\n\n17\n00:00:24,400 --> 00:00:25,178\nimmediately.\n\n18\n00:00:25,498 --> 00:00:26,845\nSources are in the\n\n19\n00:00:26,845 --> 00:00:27,841\ndescription.\n",
-  "status": "uploaded",
+  "status": "scheduled",
   "release": "shorts-42921717979",
   "video_id": "xWjoTJTQhE0",
-  "uploaded_at": "2026-11-10T15:36:49.359702-08:00"
+  "uploaded_at": "2026-11-10T15:36:49.359702-08:00",
+  "published_at": "2026-11-13T18:00:00+00:00"
  },
  {
   "slug": "breach-brief",
@@ -2064,10 +2157,11 @@
    "music": "original: 6-dorian-1-97-324721 @ 97 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,613\nFranchisors must provide\n\n2\n00:00:01,613 --> 00:00:02,976\nhonest information about\n\n3\n00:00:02,976 --> 00:00:04,104\ncosts and potential\n\n4\n00:00:04,104 --> 00:00:04,762\nearnings.\n\n5\n00:00:05,082 --> 00:00:06,419\nThe FTC charged Premier\n\n6\n00:00:06,419 --> 00:00:07,422\nMartial Arts for\n\n7\n00:00:07,422 --> 00:00:08,377\nmisrepresenting\n\n8\n00:00:08,377 --> 00:00:09,523\npotential earnings.\n\n9\n00:00:09,523 --> 00:00:10,907\nThey claimed non-martial\n\n10\n00:00:10,907 --> 00:00:12,292\nartists could profitably\n\n11\n00:00:12,292 --> 00:00:13,581\nrun franchises working\n\n12\n00:00:13,581 --> 00:00:14,679\nless than 15 hours\n\n13\n00:00:14,679 --> 00:00:15,252\na week.\n\n14\n00:00:15,572 --> 00:00:16,922\nProtect your savings by\n\n15\n00:00:16,922 --> 00:00:17,983\nlooking for these\n\n16\n00:00:17,983 --> 00:00:18,899\nwarning signs.\n\n17\n00:00:19,219 --> 00:00:20,693\nCheck if earnings claims\n\n18\n00:00:20,693 --> 00:00:21,659\nare in Item 19\n\n19\n00:00:21,659 --> 00:00:22,473\nof the FDD.\n\n20\n00:00:22,473 --> 00:00:23,490\nAsk for written\n\n21\n00:00:23,490 --> 00:00:24,812\nsubstantiation of all\n\n22\n00:00:24,812 --> 00:00:25,422\nclaims.\n\n23\n00:00:25,422 --> 00:00:26,642\nContact current and\n\n24\n00:00:26,642 --> 00:00:27,964\nformer franchisees to\n\n25\n00:00:27,964 --> 00:00:29,083\nverify the facts.\n\n26\n00:00:29,403 --> 00:00:30,526\nMore in the FTC\n\n27\n00:00:30,526 --> 00:00:31,873\nalert linked in the\n\n28\n00:00:31,873 --> 00:00:32,828\ndescription.\n",
-  "status": "uploaded",
+  "status": "scheduled",
   "release": "shorts-42921717979",
   "video_id": "ZsswyWL_DyI",
-  "uploaded_at": "2026-11-10T15:36:59.044546-08:00"
+  "uploaded_at": "2026-11-10T15:36:59.044546-08:00",
+  "published_at": "2026-11-13T23:00:00+00:00"
  },
  {
   "slug": "breach-brief",
@@ -2083,7 +2177,7 @@
    "series": "Exploited Today",
    "playlist": "Exploited Today: Actively Exploited Vulnerabilities",
    "title": "Exploited now: Chromium CVE-2026-125350",
-   "youtube_description": "Attackers are exploiting a use after free vulnerability in Google Chromium via crafted webpages.\nAffected: The flaw affects Chromium-based browsers including Google Chrome, Microsoft Edge, and Opera.\nWhat to do: Apply vendor mitigations immediately and ensure compliance with CISA BOD 26-04 guidance.\n\nSources:\n- CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog\n- NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-125350\n\nQuery the NVD yourself: https://github.com/archanacontent/nvd-cve-api-docs\n\n#CybersecurityDaily #Cybersecurity #Chromium #CVE #PatchNow #InfoSec",
+   "youtube_description": "Attackers are exploiting a use after free vulnerability in Google Chromium via crafted webpages.\nAffected: The flaw affects Chromium-based browsers including Google Chrome, Microsoft Edge, and Opera.\nWhat to do: Apply vendor mitigations immediately and ensure compliance with CISA BOD 26-04 guidance.\n\nSources:\n- CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog\n- NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-125350\n\nQuery the NVD yourself: https://github.com/archanacontent/nvd-cve-api-docs\n\n#CybersecurityDaily #Cybersecurity #Chromium #CVE #PatchNow #InfoSec\n.\n.\n.\n.\nChromium CVE-2026-125350 exploit | Google Chrome vulnerability fix | CISA known exploited vulnerabilities | cyber-attacks and vulnerabilities | cisa vs cia | cybersecurity | cybersecurity news | cyber security | CISA KEV | known exploited vulnerabilities | CVE | vulnerability | patch now | security update | infosec | data breach | data breach news | SEC 8-K | cyber incident | scam alert | online scams | phishing | fraud prevention | online safety",
    "tags": [
     "Chromium CVE-2026-125350 exploit",
     "Google Chrome vulnerability fix",
@@ -2110,8 +2204,11 @@
    "music": "original: 5-dorian-2-97-312736 @ 97 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,535\nAttackers are using a\n\n2\n00:00:01,535 --> 00:00:02,968\nnew Google Chromium flaw\n\n3\n00:00:02,968 --> 00:00:04,203\nto execute arbitrary\n\n4\n00:00:04,203 --> 00:00:04,697\ncode.\n\n5\n00:00:05,017 --> 00:00:06,868\nThe use after free\n\n6\n00:00:06,868 --> 00:00:09,201\nvulnerability in the XML\n\n7\n00:00:09,201 --> 00:00:11,455\ncomponent is documented\n\n8\n00:00:11,455 --> 00:00:13,386\nas CVE-2026-125350.\n\n9\n00:00:13,706 --> 00:00:14,756\nThis flaw affects\n\n10\n00:00:14,756 --> 00:00:16,045\nmultiple browsers like\n\n11\n00:00:16,045 --> 00:00:16,952\nGoogle Chrome,\n\n12\n00:00:16,952 --> 00:00:17,907\nMicrosoft Edge,\n\n13\n00:00:17,907 --> 00:00:18,623\nand Opera.\n\n14\n00:00:18,943 --> 00:00:20,862\nTo protect your systems,\n\n15\n00:00:20,862 --> 00:00:22,782\napply vendor mitigations\n\n16\n00:00:22,782 --> 00:00:24,568\nimmediately and follow\n\n17\n00:00:24,568 --> 00:00:26,488\nCISA BOD 26-04 guidance.\n\n18\n00:00:26,808 --> 00:00:28,155\nSources are in the\n\n19\n00:00:28,155 --> 00:00:29,151\ndescription.\n",
-  "status": "rendered",
-  "release": "shorts-42921717979"
+  "status": "scheduled",
+  "release": "shorts-42921717979",
+  "keywords_done": true,
+  "video_id": "Tdo9_PLMDsk",
+  "uploaded_at": "2026-11-12T00:11:06.089871-08:00"
  },
  {
   "slug": "breach-brief",
@@ -2127,7 +2224,7 @@
    "series": "Scam Alert",
    "playlist": "Scam Alert: Scams Going Around Now",
    "title": "Scam alert: Jury duty arrest threats",
-   "youtube_description": "Scammers are impersonating law enforcement to demand money for missed jury duty.\nAffected: Individuals receiving suspicious calls, texts, or emails.\nWhat to do: Report fraudulent activity to the FTC at ReportFraud.ftc.gov.\n\nSources:\n- FTC consumer alert: https://consumer.ftc.gov/consumer-alerts/2026/06/ignore-calls-texts-and-emails-threatening-arrest-you-missing-jury-duty\n\nQuery the NVD yourself: https://github.com/archanacontent/nvd-cve-api-docs\n\n#CybersecurityDaily #ScamAlert #Cybersecurity #Phishing #InfoSec",
+   "youtube_description": "Scammers are impersonating law enforcement to demand money for missed jury duty.\nAffected: Individuals receiving suspicious calls, texts, or emails.\nWhat to do: Report fraudulent activity to the FTC at ReportFraud.ftc.gov.\n\nSources:\n- FTC consumer alert: https://consumer.ftc.gov/consumer-alerts/2026/06/ignore-calls-texts-and-emails-threatening-arrest-you-missing-jury-duty\n\nQuery the NVD yourself: https://github.com/archanacontent/nvd-cve-api-docs\n\n#CybersecurityDaily #ScamAlert #Cybersecurity #Phishing #InfoSec\n.\n.\n.\n.\njury duty scam | fake arrest warrant text | government impersonation scam | FTC jury duty alert | jury duty scam call | jury duty scam phone call | government impersonation scams | government fraud | jury duty excuse | cybersecurity | cybersecurity news | cyber security | scam alert | online scams | phishing | fraud prevention | online safety | infosec | CISA KEV | known exploited vulnerabilities | CVE | vulnerability | patch now | security update | data breach | data breach news | SEC 8-K | cyber incident",
    "tags": [
     "jury duty scam",
     "fake arrest warrant text",
@@ -2157,8 +2254,11 @@
    "music": "original: 8-dorian-3-90-305075 @ 90 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,629\nScammers are using fake\n\n2\n00:00:01,629 --> 00:00:03,057\narrest warrants to steal\n\n3\n00:00:03,057 --> 00:00:03,845\nyour money.\n\n4\n00:00:04,165 --> 00:00:05,104\nYou might get an\n\n5\n00:00:05,104 --> 00:00:06,400\nurgent call from someone\n\n6\n00:00:06,400 --> 00:00:07,339\nclaiming to be a\n\n7\n00:00:07,339 --> 00:00:07,741\nU.S.\n\n8\n00:00:07,741 --> 00:00:09,037\nMarshal or local police.\n\n9\n00:00:09,037 --> 00:00:10,199\nThey claim you missed\n\n10\n00:00:10,199 --> 00:00:11,317\njury duty and demand\n\n11\n00:00:11,317 --> 00:00:12,032\npayment via\n\n12\n00:00:12,032 --> 00:00:13,105\ncryptocurrency or a\n\n13\n00:00:13,105 --> 00:00:13,865\npayment app.\n\n14\n00:00:14,185 --> 00:00:15,602\nScammers also send texts\n\n15\n00:00:15,602 --> 00:00:17,020\nor emails with documents\n\n16\n00:00:17,020 --> 00:00:18,388\nthat look like official\n\n17\n00:00:18,388 --> 00:00:19,414\narrest warrants.\n\n18\n00:00:19,414 --> 00:00:20,832\nThese are entirely fake.\n\n19\n00:00:21,152 --> 00:00:22,477\nWatch for these warning\n\n20\n00:00:22,477 --> 00:00:22,997\nsigns.\n\n21\n00:00:22,997 --> 00:00:24,180\nReal law enforcement\n\n22\n00:00:24,180 --> 00:00:25,268\nwill never text or\n\n23\n00:00:25,268 --> 00:00:26,640\nemail an arrest warrant.\n\n24\n00:00:26,640 --> 00:00:27,776\nCourts never demand\n\n25\n00:00:27,776 --> 00:00:29,100\npayment over the phone.\n\n26\n00:00:29,100 --> 00:00:30,283\nNo government agency\n\n27\n00:00:30,283 --> 00:00:31,324\nwill ask for gift\n\n28\n00:00:31,324 --> 00:00:32,696\ncards or wire transfers.\n\n29\n00:00:33,016 --> 00:00:33,962\nIf you get a\n\n30\n00:00:33,962 --> 00:00:35,075\ncall like this,\n\n31\n00:00:35,075 --> 00:00:36,188\ntell the FTC at\n\n32\n00:00:36,188 --> 00:00:37,579\nReportFraud.ftc.gov.\n\n33\n00:00:37,579 --> 00:00:38,693\nMore in the FTC\n\n34\n00:00:38,693 --> 00:00:40,028\nalert linked in the\n\n35\n00:00:40,028 --> 00:00:40,974\ndescription.\n",
-  "status": "rendered",
-  "release": "shorts-42921717979"
+  "status": "scheduled",
+  "release": "shorts-42921717979",
+  "keywords_done": true,
+  "video_id": "PQei2_5nN3s",
+  "uploaded_at": "2026-11-12T00:11:30.709592-08:00"
  },
  {
   "slug": "breach-brief",
@@ -2174,7 +2274,7 @@
    "series": "Exploited Today",
    "playlist": "Exploited Today: Actively Exploited Vulnerabilities",
    "title": "Exploited now: GPUStack CVE-2026-102895",
-   "youtube_description": "Attackers are exploiting an improper authentication vulnerability in GPUStack to gain administrative control.\nAffected: GPUStack versions prior to 2.2.0.\nWhat to do: Update to version 2.2.0 or apply vendor mitigations immediately.\n\nSources:\n- CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog\n- NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-102895\n\nQuery the NVD yourself: https://github.com/archanacontent/nvd-cve-api-docs\n\n#CybersecurityDaily #Cybersecurity #GPUStack #CVE #PatchNow #InfoSec",
+   "youtube_description": "Attackers are exploiting an improper authentication vulnerability in GPUStack to gain administrative control.\nAffected: GPUStack versions prior to 2.2.0.\nWhat to do: Update to version 2.2.0 or apply vendor mitigations immediately.\n\nSources:\n- CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog\n- NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-102895\n\nQuery the NVD yourself: https://github.com/archanacontent/nvd-cve-api-docs\n\n#CybersecurityDaily #Cybersecurity #GPUStack #CVE #PatchNow #InfoSec\n.\n.\n.\n.\nGPUStack vulnerability CVE-2026-102895 | GPUStack authentication bypass | CISA known exploited vulnerabilities GPUStack | authentication bypass | authentication bypass vulnerability | cisa vs cia | cybersecurity | cybersecurity news | cyber security | CISA KEV | known exploited vulnerabilities | CVE | vulnerability | patch now | security update | infosec | data breach | data breach news | SEC 8-K | cyber incident | scam alert | online scams | phishing | fraud prevention | online safety",
    "tags": [
     "GPUStack vulnerability CVE-2026-102895",
     "GPUStack authentication bypass",
@@ -2202,8 +2302,11 @@
    "music": "original: 4-minor-2-92-415667 @ 92 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,671\nAttackers are using an\n\n2\n00:00:01,671 --> 00:00:03,091\nauthentication flaw in\n\n3\n00:00:03,091 --> 00:00:04,459\nGPUStack to gain full\n\n4\n00:00:04,459 --> 00:00:05,880\nadministrative access.\n\n5\n00:00:06,200 --> 00:00:07,862\nThis vulnerability,\n\n6\n00:00:07,862 --> 00:00:09,801\nCVE-2026-102895, allows\n\n7\n00:00:09,801 --> 00:00:11,809\nunauthenticated users to\n\n8\n00:00:11,809 --> 00:00:13,125\nchange models,\n\n9\n00:00:13,125 --> 00:00:14,925\ncreate persistent API\n\n10\n00:00:14,925 --> 00:00:16,864\nkeys, and execute code.\n\n11\n00:00:17,184 --> 00:00:18,510\nThe flaw exists in\n\n12\n00:00:18,510 --> 00:00:20,124\nversions prior to 2.2.0\n\n13\n00:00:20,124 --> 00:00:21,623\nand has been observed\n\n14\n00:00:21,623 --> 00:00:22,603\nin the wild.\n\n15\n00:00:22,923 --> 00:00:24,050\nTo protect your\n\n16\n00:00:24,050 --> 00:00:25,571\nenvironment, update to\n\n17\n00:00:25,571 --> 00:00:26,586\nversion 2.2.0\n\n18\n00:00:26,586 --> 00:00:27,544\nimmediately.\n\n19\n00:00:27,864 --> 00:00:29,211\nSources are in the\n\n20\n00:00:29,211 --> 00:00:30,207\ndescription.\n",
-  "status": "rendered",
-  "release": "shorts-42921717979"
+  "status": "scheduled",
+  "release": "shorts-42921717979",
+  "keywords_done": true,
+  "video_id": "0Y-I3n4ohzE",
+  "uploaded_at": "2026-11-12T00:11:37.463953-08:00"
  },
  {
   "slug": "breach-brief",
@@ -2219,7 +2322,7 @@
    "series": "Exploited Today",
    "playlist": "Exploited Today: Actively Exploited Vulnerabilities",
    "title": "Exploited now: OpenSSH CVE-2026-123158",
-   "youtube_description": "OpenSSH contains a vulnerability that allows for authentication bypass on certain Linux systems.\nAffected: OpenSSH versions before 10.6p2 using musl libc without PAM.\nWhat to do: Apply vendor mitigations or discontinue use if mitigations are unavailable.\n\nSources:\n- CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog\n- NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-123158\n\nQuery the NVD yourself: https://github.com/archanacontent/nvd-cve-api-docs\n\n#CybersecurityDaily #Cybersecurity #OpenSSH #CVE #PatchNow #InfoSec",
+   "youtube_description": "OpenSSH contains a vulnerability that allows for authentication bypass on certain Linux systems.\nAffected: OpenSSH versions before 10.6p2 using musl libc without PAM.\nWhat to do: Apply vendor mitigations or discontinue use if mitigations are unavailable.\n\nSources:\n- CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog\n- NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-123158\n\nQuery the NVD yourself: https://github.com/archanacontent/nvd-cve-api-docs\n\n#CybersecurityDaily #Cybersecurity #OpenSSH #CVE #PatchNow #InfoSec\n.\n.\n.\n.\nOpenSSH authentication bypass | CVE-2026-123158 exploit | OpenSSH musl libc vulnerability | openssh private key | cybersecurity | cybersecurity news | cyber security | CISA KEV | known exploited vulnerabilities | CVE | vulnerability | patch now | security update | infosec | data breach | data breach news | SEC 8-K | cyber incident | scam alert | online scams | phishing | fraud prevention | online safety",
    "tags": [
     "OpenSSH authentication bypass",
     "CVE-2026-123158 exploit",
@@ -2245,8 +2348,11 @@
    "music": "original: 4-phrygian-5-86-360020 @ 86 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,713\nAttackers are using a\n\n2\n00:00:01,713 --> 00:00:03,007\nflaw in OpenSSH to\n\n3\n00:00:03,007 --> 00:00:04,639\nbypass authentication on\n\n4\n00:00:04,639 --> 00:00:05,709\nLinux systems.\n\n5\n00:00:06,028 --> 00:00:08,232\nThe vulnerability,\n\n6\n00:00:08,232 --> 00:00:11,011\nCVE-2026-123158, affects\n\n7\n00:00:11,011 --> 00:00:13,502\nOpenSSH before 10.6p2\n\n8\n00:00:13,502 --> 00:00:15,898\nwhen using musl libc\n\n9\n00:00:15,898 --> 00:00:17,526\nwithout PAM.\n\n10\n00:00:17,846 --> 00:00:18,744\nIn certain\n\n11\n00:00:18,744 --> 00:00:20,181\nconfigurations, any\n\n12\n00:00:20,181 --> 00:00:21,917\npassword between 256 and\n\n13\n00:00:21,917 --> 00:00:23,114\n1024 characters\n\n14\n00:00:23,114 --> 00:00:23,952\nsucceeds.\n\n15\n00:00:24,272 --> 00:00:25,712\nTo protect your systems,\n\n16\n00:00:25,712 --> 00:00:27,152\napply vendor mitigations\n\n17\n00:00:27,152 --> 00:00:27,996\nimmediately.\n\n18\n00:00:27,996 --> 00:00:29,139\nIf mitigations are\n\n19\n00:00:29,139 --> 00:00:30,579\nunavailable, discontinue\n\n20\n00:00:30,579 --> 00:00:31,771\nuse of the product.\n\n21\n00:00:32,091 --> 00:00:33,438\nSources are in the\n\n22\n00:00:33,438 --> 00:00:34,434\ndescription.\n",
-  "status": "rendered",
-  "release": "shorts-42921717979"
+  "status": "scheduled",
+  "release": "shorts-42921717979",
+  "keywords_done": true,
+  "video_id": "K1jPBlRb7h8",
+  "uploaded_at": "2026-11-12T00:11:43.244225-08:00"
  },
  {
   "slug": "breach-brief",
@@ -2262,7 +2368,7 @@
    "series": "Scam Alert",
    "playlist": "Scam Alert: Scams Going Around Now",
    "title": "Scam alert: Veteran grant and investment scams",
-   "youtube_description": "Scammers are using social media profiles to impersonate the VA and promote fake investments.\nAffected: Veterans using platforms like Facebook, Instagram, and TikTok.\nWhat to do: Verify all benefit offers through VA.gov and restrict your social media privacy settings.\n\nSources:\n- FTC consumer alert: https://consumer.ftc.gov/consumer-alerts/2026/11/veterans-day-reminder-how-spot-scams-social-media\n\nQuery the NVD yourself: https://github.com/archanacontent/nvd-cve-api-docs\n\n#CybersecurityDaily #Veterans #ScamAlert #CyberSecurity #Phishing #InfoSec",
+   "youtube_description": "Scammers are using social media profiles to impersonate the VA and promote fake investments.\nAffected: Veterans using platforms like Facebook, Instagram, and TikTok.\nWhat to do: Verify all benefit offers through VA.gov and restrict your social media privacy settings.\n\nSources:\n- FTC consumer alert: https://consumer.ftc.gov/consumer-alerts/2026/11/veterans-day-reminder-how-spot-scams-social-media\n\nQuery the NVD yourself: https://github.com/archanacontent/nvd-cve-api-docs\n\n#CybersecurityDaily #Veterans #ScamAlert #CyberSecurity #Phishing #InfoSec\n.\n.\n.\n.\nveteran social media scams | VA grant scams | how to spot veteran scams | FTC veteran alert | veteran fraud | grant scams | va accredited claims agent | how to spot a fraud | how to spot scams | how to spot scammer | ftc fraud | cybersecurity | cybersecurity news | cyber security | scam alert | online scams | phishing | fraud prevention | online safety | infosec | CISA KEV | known exploited vulnerabilities | CVE | vulnerability | patch now | security update | data breach | data breach news | SEC 8-K | cyber incident",
    "tags": [
     "veteran social media scams",
     "VA grant scams",
@@ -2295,7 +2401,8 @@
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,308\nScammers use your\n\n2\n00:00:01,308 --> 00:00:02,461\nmilitary history on\n\n3\n00:00:02,461 --> 00:00:03,711\nsocial media to steal\n\n4\n00:00:03,711 --> 00:00:04,624\nyour identity.\n\n5\n00:00:04,945 --> 00:00:06,358\nThey impersonate the VA\n\n6\n00:00:06,358 --> 00:00:07,570\nto offer fake grant\n\n7\n00:00:07,570 --> 00:00:08,277\nprograms.\n\n8\n00:00:08,277 --> 00:00:09,590\nThese messages direct\n\n9\n00:00:09,590 --> 00:00:10,700\nyou to fraudulent\n\n10\n00:00:10,700 --> 00:00:12,165\nwebsites to collect your\n\n11\n00:00:12,165 --> 00:00:13,528\nSocial Security number\n\n12\n00:00:13,528 --> 00:00:14,538\nor VA.gov login\n\n13\n00:00:14,538 --> 00:00:15,396\ncredentials.\n\n14\n00:00:15,716 --> 00:00:16,765\nYou might also see\n\n15\n00:00:16,765 --> 00:00:18,088\nads promising guaranteed\n\n16\n00:00:18,088 --> 00:00:19,046\nways to beat the\n\n17\n00:00:19,046 --> 00:00:19,868\nstock market.\n\n18\n00:00:19,868 --> 00:00:20,689\nRemember that\n\n19\n00:00:20,689 --> 00:00:21,966\ninvestments always come\n\n20\n00:00:21,966 --> 00:00:22,650\nwith risk.\n\n21\n00:00:22,970 --> 00:00:24,393\nProtect yourself with\n\n22\n00:00:24,393 --> 00:00:25,323\nthese steps.\n\n23\n00:00:25,643 --> 00:00:26,921\nLimit who sees your\n\n24\n00:00:26,921 --> 00:00:28,146\nprofile and posts.\n\n25\n00:00:28,146 --> 00:00:29,371\nVerify all benefit\n\n26\n00:00:29,371 --> 00:00:30,542\noffers at VA.gov.\n\n27\n00:00:30,542 --> 00:00:32,087\nUse the VA Accreditation\n\n28\n00:00:32,087 --> 00:00:33,418\nSearch Tool to check\n\n29\n00:00:33,418 --> 00:00:34,537\nrepresentatives.\n\n30\n00:00:34,857 --> 00:00:35,825\nMore in the FTC\n\n31\n00:00:35,825 --> 00:00:36,988\nalert linked in the\n\n32\n00:00:36,988 --> 00:00:37,811\ndescription.\n",
   "status": "rendered",
-  "release": "shorts-42921717979"
+  "release": "shorts-42921717979",
+  "keywords_done": true
  },
  {
   "slug": "deep-field",
@@ -2311,7 +2418,7 @@
    "series": "Scale It",
    "playlist": "Scale It: How Big Is It Really?",
    "title": "How big is Mercury, really?",
-   "youtube_description": "Mercury is more than twice the diameter of Pluto. This video compares the sizes and distances of these two worlds.\n\nSources:\n- NASA Planetary Fact Sheet: https://nssdc.gsfc.nasa.gov/planetary/factsheet/\n\n#SpaceScience #Space #Mercury #SolarSystem #Planets #Astronomy",
+   "youtube_description": "Mercury is more than twice the diameter of Pluto. This video compares the sizes and distances of these two worlds.\n\nSources:\n- NASA Planetary Fact Sheet: https://nssdc.gsfc.nasa.gov/planetary/factsheet/\n\n#SpaceScience #Space #Mercury #SolarSystem #Planets #Astronomy\n.\n.\n.\n.\nMercury vs Pluto size comparison | how big is mercury | mercury diameter vs pluto diameter | mercury distance from sun | mercury vs pluto | mercury size comparison | how big is the sun from mercury | mercury distance from the sun | mercury transits the sun | space | space science | astronomy | solar system | planets | size comparison | scale of the universe | NASA | space facts | space images | James Webb | Hubble | galaxy | nebula | space news | NASA mission | space exploration",
    "tags": [
     "Mercury vs Pluto size comparison",
     "how big is mercury",
@@ -2344,7 +2451,10 @@
   "status": "scheduled",
   "release": "shorts-42921717979",
   "video_id": "I-voVe_T71A",
-  "uploaded_at": "2026-11-10T15:36:19.853921-08:00"
+  "uploaded_at": "2026-11-10T15:36:19.853921-08:00",
+  "playlist_done": true,
+  "keywords_done": true,
+  "captions_done": true
  },
  {
   "slug": "deep-field",
@@ -2360,7 +2470,7 @@
    "series": "Look Closer",
    "playlist": "Look Closer: Real Space Images Explained",
    "title": "What you're looking at: SPHEREx",
-   "youtube_description": "SPHEREx is a NASA observatory designed to map the entire sky. It will help scientists study the origins of the universe, galaxy evolution, and the presence of water in our galaxy.\nCredit: NASA\n\nSources:\n- NASA Image and Video Library: https://images.nasa.gov/details/PIA26533\n\n#SpaceScience #NASA #Space #JamesWebb #Hubble #Astronomy",
+   "youtube_description": "SPHEREx is a NASA observatory designed to map the entire sky. It will help scientists study the origins of the universe, galaxy evolution, and the presence of water in our galaxy.\nCredit: NASA\n\nSources:\n- NASA Image and Video Library: https://images.nasa.gov/details/PIA26533\n\n#SpaceScience #NASA #Space #JamesWebb #Hubble #Astronomy\n.\n.\n.\n.\nNASA SPHEREx mission | how galaxies form | all sky map telescope | origins of water in space | how galaxies formed | how does galaxy form | how did galaxies form | all sky map locations | telescope of the moon | all planets through my telescope | did water come from space | space | space science | astronomy | space images | James Webb | Hubble | galaxy | nebula | NASA | space facts | space news | NASA mission | space exploration | solar system | planets | size comparison | scale of the universe",
    "tags": [
     "NASA SPHEREx mission",
     "how galaxies form",
@@ -2398,7 +2508,8 @@
   "uploaded_at": "2026-11-10T15:36:21.945235-08:00",
   "published_at": "2026-11-12T14:00:00+00:00",
   "playlist_done": true,
-  "captions_done": true
+  "captions_done": true,
+  "keywords_done": true
  },
  {
   "slug": "deep-field",
@@ -2414,7 +2525,7 @@
    "series": "Mission Log",
    "playlist": "Mission Log: Space Missions Explained",
    "title": "LISA: what just happened",
-   "youtube_description": "NASA scientists have shown how the LISA observatory could detect exoplanets through gravitational waves. The mission uses ripples in space-time to find worlds orbiting white dwarf systems.\n\nSources:\n- NASA: https://science.nasa.gov/missions/lisa/gravitational-waves-can-reveal-new-worlds/\n\n#SpaceScience #NASA #Space #SpaceNews #Astronomy",
+   "youtube_description": "NASA scientists have shown how the LISA observatory could detect exoplanets through gravitational waves. The mission uses ripples in space-time to find worlds orbiting white dwarf systems.\n\nSources:\n- NASA: https://science.nasa.gov/missions/lisa/gravitational-waves-can-reveal-new-worlds/\n\n#SpaceScience #NASA #Space #SpaceNews #Astronomy\n.\n.\n.\n.\nLISA mission gravitational waves | detecting exoplanets with LISA | NASA gravitational wave research | white dwarf exoplanets | lisa gravitational wave detector | lisa gravitational waves | lisa mission | detecting exoplanets | detecting exoplanets with the transit method | exoplanets with life | white dwarf sun | white dwarf habitable zone | white dwarf star | space | space science | astronomy | space news | NASA mission | space exploration | NASA | space facts | space images | James Webb | Hubble | galaxy | nebula | solar system | planets | size comparison | scale of the universe",
    "tags": [
     "LISA mission gravitational waves",
     "detecting exoplanets with LISA",
@@ -2446,10 +2557,14 @@
    "music": "original: 7-dorian-1-64-737352 @ 64 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,891\nGravitational waves can\n\n2\n00:00:01,891 --> 00:00:03,180\nreveal new worlds\n\n3\n00:00:03,180 --> 00:00:04,761\norbiting white dwarfs.\n\n4\n00:00:05,081 --> 00:00:06,908\nThe LISA observatory is\n\n5\n00:00:06,908 --> 00:00:08,408\nbeing developed to\n\n6\n00:00:08,408 --> 00:00:09,843\ndetect ripples in\n\n7\n00:00:09,843 --> 00:00:11,474\nspace-time caused by\n\n8\n00:00:11,474 --> 00:00:12,843\norbiting masses.\n\n9\n00:00:13,163 --> 00:00:14,535\nA massive planet can\n\n10\n00:00:14,535 --> 00:00:16,071\nimprint its presence on\n\n11\n00:00:16,071 --> 00:00:17,442\na gravitational wave\n\n12\n00:00:17,442 --> 00:00:18,814\nsignal from a double\n\n13\n00:00:18,814 --> 00:00:20,130\nwhite dwarf system.\n\n14\n00:00:20,450 --> 00:00:22,060\nThis method could detect\n\n15\n00:00:22,060 --> 00:00:23,503\na Jupiter mass planet\n\n16\n00:00:23,503 --> 00:00:25,112\nthousands of light years\n\n17\n00:00:25,112 --> 00:00:25,667\naway.\n\n18\n00:00:25,987 --> 00:00:27,446\nNASA scientists used\n\n19\n00:00:27,446 --> 00:00:29,021\nthese findings to show\n\n20\n00:00:29,021 --> 00:00:30,363\nhow the James Webb\n\n21\n00:00:30,363 --> 00:00:31,879\nSpace Telescope could\n\n22\n00:00:31,879 --> 00:00:33,454\nconfirm these planets.\n\n23\n00:00:33,774 --> 00:00:34,616\nSource in the\n\n24\n00:00:34,616 --> 00:00:35,411\ndescription.\n",
-  "status": "rendered",
+  "status": "scheduled",
   "release": "shorts-42921717979",
   "published_at": "2026-11-12T18:00:00+00:00",
-  "replace": "HsqZyUAh8Wg"
+  "keywords_done": true,
+  "video_id": "5T6xiGTSVCQ",
+  "uploaded_at": "2026-11-12T00:10:30.470383-08:00",
+  "playlist_done": true,
+  "captions_done": true
  },
  {
   "slug": "deep-field",
@@ -2465,7 +2580,7 @@
    "series": "Scale It",
    "playlist": "Scale It: How Big Is It Really?",
    "title": "How big is Venus, really?",
-   "youtube_description": "Venus is 3.48 times larger in diameter than the Moon. This comparison uses data from the NASA Planetary Fact Sheet.\n\nSources:\n- NASA Planetary Fact Sheet: https://nssdc.gsfc.nasa.gov/planetary/factsheet/\n\n#SpaceScience #Space #Venus #SolarSystem #Planets #Astronomy",
+   "youtube_description": "Venus is 3.48 times larger in diameter than the Moon. This comparison uses data from the NASA Planetary Fact Sheet.\n\nSources:\n- NASA Planetary Fact Sheet: https://nssdc.gsfc.nasa.gov/planetary/factsheet/\n\n#SpaceScience #Space #Venus #SolarSystem #Planets #Astronomy\n.\n.\n.\n.\nsize of venus vs moon | venus diameter km | how big is venus | venus distance from sun | size of moon compared to earth | size of planets and sun | venus 175 | venus 175 movement | venus orbit pattern | how big venus fly trap grow | how big do venus flytraps get | venus distance from the sun | venus passing the sun | space | space science | astronomy | solar system | planets | size comparison | scale of the universe | NASA | space facts | space images | James Webb | Hubble | galaxy | nebula | space news | NASA mission | space exploration",
    "tags": [
     "size of venus vs moon",
     "venus diameter km",
@@ -2501,7 +2616,9 @@
   "release": "shorts-42921717979",
   "video_id": "MVb-zGBxTS0",
   "uploaded_at": "2026-11-10T15:36:34.635293-08:00",
-  "playlist_done": true
+  "playlist_done": true,
+  "keywords_done": true,
+  "captions_done": true
  },
  {
   "slug": "deep-field",
@@ -2548,10 +2665,11 @@
    "music": "original: 1-dorian-0-60-321264 @ 60 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,317\nSaturn recently\n\n2\n00:00:01,317 --> 00:00:02,704\ndisappeared from view\n\n3\n00:00:02,704 --> 00:00:04,144\nbecause the Moon moved\n\n4\n00:00:04,144 --> 00:00:05,211\nin front of it.\n\n5\n00:00:05,531 --> 00:00:07,191\nThis event is called\n\n6\n00:00:07,191 --> 00:00:08,520\nan occultation.\n\n7\n00:00:08,520 --> 00:00:09,981\nIt was visible in\n\n8\n00:00:09,981 --> 00:00:11,442\nearly 2025 across\n\n9\n00:00:11,442 --> 00:00:12,970\nGreenland, central\n\n10\n00:00:12,970 --> 00:00:14,630\nEurope, and northern\n\n11\n00:00:14,630 --> 00:00:15,427\nAfrica.\n\n12\n00:00:15,747 --> 00:00:17,224\nThe bright dot near\n\n13\n00:00:17,224 --> 00:00:18,455\nSaturn is not a\n\n14\n00:00:18,455 --> 00:00:19,071\nmoon.\n\n15\n00:00:19,071 --> 00:00:20,240\nIt is the star\n\n16\n00:00:20,240 --> 00:00:21,225\n85 Aquarii,\n\n17\n00:00:21,225 --> 00:00:22,825\nwhich is much further\n\n18\n00:00:22,825 --> 00:00:23,441\naway.\n\n19\n00:00:23,761 --> 00:00:25,075\nThe next time the\n\n20\n00:00:25,075 --> 00:00:26,509\nMoon moves in front\n\n21\n00:00:26,509 --> 00:00:27,405\nof Saturn,\n\n22\n00:00:27,405 --> 00:00:28,720\nthe event will be\n\n23\n00:00:28,720 --> 00:00:30,273\nvisible from Earth in\n\n24\n00:00:30,273 --> 00:00:30,871\n2031.\n\n25\n00:00:31,191 --> 00:00:32,033\nSource in the\n\n26\n00:00:32,033 --> 00:00:32,828\ndescription.\n",
-  "status": "uploaded",
+  "status": "scheduled",
   "release": "shorts-42921717979",
   "video_id": "AnHi7wFdpBs",
-  "uploaded_at": "2026-11-10T15:36:51.185173-08:00"
+  "uploaded_at": "2026-11-10T15:36:51.185173-08:00",
+  "published_at": "2026-11-13T18:00:00+00:00"
  },
  {
   "slug": "deep-field",
@@ -2599,10 +2717,11 @@
    "music": "original: 9-dorian-0-65-063514 @ 65 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,980\nThick fog filled the\n\n2\n00:00:01,980 --> 00:00:03,294\nvalleys of the\n\n3\n00:00:03,294 --> 00:00:05,163\nAppalachian Plateau on\n\n4\n00:00:05,163 --> 00:00:06,270\nNovember 8,\n\n5\n00:00:06,270 --> 00:00:06,962\n2026.\n\n6\n00:00:07,282 --> 00:00:08,388\nIn the morning,\n\n7\n00:00:08,388 --> 00:00:09,605\nlow clouds traced\n\n8\n00:00:09,605 --> 00:00:11,154\nbranching river valleys\n\n9\n00:00:11,154 --> 00:00:12,370\nin natural color.\n\n10\n00:00:12,370 --> 00:00:13,587\nBy the afternoon,\n\n11\n00:00:13,587 --> 00:00:14,860\nthe fog burned off\n\n12\n00:00:14,860 --> 00:00:16,298\nto reveal clear skies\n\n13\n00:00:16,298 --> 00:00:17,736\nand autumn landscape.\n\n14\n00:00:18,056 --> 00:00:19,388\nCold air is denser\n\n15\n00:00:19,388 --> 00:00:20,488\nthan warm air.\n\n16\n00:00:20,488 --> 00:00:22,052\nIt flows downslope and\n\n17\n00:00:22,052 --> 00:00:23,615\npools in valleys where\n\n18\n00:00:23,615 --> 00:00:24,773\nit cools to the\n\n19\n00:00:24,773 --> 00:00:25,642\ndew point.\n\n20\n00:00:25,962 --> 00:00:27,573\nThe MODIS instrument on\n\n21\n00:00:27,573 --> 00:00:29,126\nNASA's Terra satellite\n\n22\n00:00:29,126 --> 00:00:30,564\ncaptured the morning\n\n23\n00:00:30,564 --> 00:00:31,140\nview.\n\n24\n00:00:31,140 --> 00:00:32,750\nThe VIIRS instrument on\n\n25\n00:00:32,750 --> 00:00:34,189\nNOAA-21 captured the\n\n26\n00:00:34,189 --> 00:00:35,339\nafternoon view.\n\n27\n00:00:35,659 --> 00:00:36,501\nSource in the\n\n28\n00:00:36,501 --> 00:00:37,296\ndescription.\n",
-  "status": "uploaded",
+  "status": "scheduled",
   "release": "shorts-42921717979",
   "video_id": "bmgaUIWKRYM",
-  "uploaded_at": "2026-11-10T15:38:19.205787-08:00"
+  "uploaded_at": "2026-11-10T15:38:19.205787-08:00",
+  "published_at": "2026-11-14T18:00:00+00:00"
  },
  {
   "slug": "deep-field",
@@ -2650,10 +2769,11 @@
    "music": "original: 10-lydian-4-60-466771 @ 60 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,887\nEarth is only slightly\n\n2\n00:00:01,887 --> 00:00:03,282\nlarger than Venus.\n\n3\n00:00:03,602 --> 00:00:06,121\nEarth has a diameter\n\n4\n00:00:06,121 --> 00:00:07,934\nof 12,756 km.\n\n5\n00:00:08,254 --> 00:00:11,265\nVenus measures 12,104 km\n\n6\n00:00:11,265 --> 00:00:12,511\nacross.\n\n7\n00:00:12,831 --> 00:00:14,180\nThe two planets are\n\n8\n00:00:14,180 --> 00:00:15,642\nnearly the same size.\n\n9\n00:00:15,962 --> 00:00:18,676\nEarth sits 149.6 million\n\n10\n00:00:18,676 --> 00:00:20,642\nkm from the Sun,\n\n11\n00:00:20,642 --> 00:00:23,076\nwhile Venus is closer\n\n12\n00:00:23,076 --> 00:00:25,416\nat 108.2 million km.\n\n13\n00:00:25,736 --> 00:00:26,992\nFigures from NASA's\n\n14\n00:00:26,992 --> 00:00:28,352\nPlanetary Fact Sheet.\n",
-  "status": "uploaded",
+  "status": "scheduled",
   "release": "shorts-42921717979",
   "video_id": "jNMjE6MCGwQ",
-  "uploaded_at": "2026-11-10T15:38:26.852810-08:00"
+  "uploaded_at": "2026-11-10T15:38:26.852810-08:00",
+  "published_at": "2026-11-14T23:00:00+00:00"
  },
  {
   "slug": "deep-field",
@@ -2701,10 +2821,11 @@
    "music": "original: 7-lydian-0-63-204673 @ 63 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:02,208\nThis map shows invisible\n\n2\n00:00:02,208 --> 00:00:04,166\ndark matter using nearly\n\n3\n00:00:04,166 --> 00:00:05,651\n800,000 galaxies.\n\n4\n00:00:05,971 --> 00:00:07,700\nThe blue areas represent\n\n5\n00:00:07,700 --> 00:00:09,428\nhigh density dark matter\n\n6\n00:00:09,428 --> 00:00:10,918\nin the constellation\n\n7\n00:00:10,918 --> 00:00:11,693\nSextans.\n\n8\n00:00:12,013 --> 00:00:13,459\nDark matter does not\n\n9\n00:00:13,459 --> 00:00:15,021\nemit or reflect light.\n\n10\n00:00:15,021 --> 00:00:16,583\nScientists found it by\n\n11\n00:00:16,583 --> 00:00:18,145\nseeing how its gravity\n\n12\n00:00:18,145 --> 00:00:19,418\ncurves spacetime.\n\n13\n00:00:19,738 --> 00:00:21,307\nThis Webb map has\n\n14\n00:00:21,307 --> 00:00:23,233\ntwice as many galaxies\n\n15\n00:00:23,233 --> 00:00:24,874\nas the 2007 Hubble\n\n16\n00:00:24,874 --> 00:00:25,516\nmap.\n\n17\n00:00:25,836 --> 00:00:27,578\nBy studying these subtle\n\n18\n00:00:27,578 --> 00:00:29,320\ndistortions, researchers\n\n19\n00:00:29,320 --> 00:00:30,762\nunderstand how dark\n\n20\n00:00:30,762 --> 00:00:32,504\nmatter influences galaxy\n\n21\n00:00:32,504 --> 00:00:33,405\nevolution.\n\n22\n00:00:33,725 --> 00:00:35,044\nImage credit in the\n\n23\n00:00:35,044 --> 00:00:35,978\ndescription.\n",
-  "status": "uploaded",
+  "status": "scheduled",
   "release": "shorts-42921717979",
   "video_id": "ri4574HxiFg",
-  "uploaded_at": "2026-11-10T15:38:34.862977-08:00"
+  "uploaded_at": "2026-11-10T15:38:34.862977-08:00",
+  "published_at": "2026-11-15T14:00:00+00:00"
  },
  {
   "slug": "deep-field",
@@ -2720,7 +2841,7 @@
    "series": "Mission Log",
    "playlist": "Mission Log: Space Missions Explained",
    "title": "Curiosity: what just happened",
-   "youtube_description": "NASA's Curiosity rover is taking recharging sols to prepare for the final stages of its Nazca drilling campaign. This pause allows the rover to regain power for energy intensive tasks like drilling cleanup and sample analysis.\n\nSources:\n- NASA: https://science.nasa.gov/blog/curiosity-blog-sols-5056-5062-charging-back-up/\n\n#SpaceScience #Mars #NASA #Space #SpaceNews #Astronomy",
+   "youtube_description": "NASA's Curiosity rover is taking recharging sols to prepare for the final stages of its Nazca drilling campaign. This pause allows the rover to regain power for energy intensive tasks like drilling cleanup and sample analysis.\n\nSources:\n- NASA: https://science.nasa.gov/blog/curiosity-blog-sols-5056-5062-charging-back-up/\n\n#SpaceScience #Mars #NASA #Space #SpaceNews #Astronomy\n.\n.\n.\n.\nNASA Curiosity Mars rover | Curiosity Nazca drilling | Mars rover power management | NASA Mars mission updates | nasa mars curiosity rover | nasa mars rover curiosity launch video | nasa curiosity rover video | curiosity rover discoveries | curiosity space rover | mars rover landing mission control | nasa mars mission update | nasa mars mission latest update | nasa mars mission 2030 | space | space science | astronomy | space news | NASA mission | space exploration | NASA | space facts | space images | James Webb | Hubble | galaxy | nebula | solar system | planets | size comparison | scale of the universe",
    "tags": [
     "NASA Curiosity Mars rover",
     "Curiosity Nazca drilling",
@@ -2752,8 +2873,11 @@
    "music": "original: 0-dorian-6-59-211011 @ 59 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:02,006\nCuriosity is pausing its\n\n2\n00:00:02,006 --> 00:00:03,521\ndrilling campaign to\n\n3\n00:00:03,521 --> 00:00:04,914\nrecharge its power\n\n4\n00:00:04,914 --> 00:00:05,640\nsupply.\n\n5\n00:00:05,960 --> 00:00:07,598\nThe rover is currently\n\n6\n00:00:07,598 --> 00:00:09,356\ndrilling a target called\n\n7\n00:00:09,356 --> 00:00:10,023\nNazca.\n\n8\n00:00:10,023 --> 00:00:11,600\nThis process requires\n\n9\n00:00:11,600 --> 00:00:13,237\nhigh energy for sample\n\n10\n00:00:13,237 --> 00:00:14,693\ndropoffs to the SAM\n\n11\n00:00:14,693 --> 00:00:16,391\nand CheMin instruments.\n\n12\n00:00:16,711 --> 00:00:18,081\nTo save energy as\n\n13\n00:00:18,081 --> 00:00:19,326\nthe rover ages,\n\n14\n00:00:19,326 --> 00:00:20,945\nengineers are testing\n\n15\n00:00:20,945 --> 00:00:22,004\nparallelism.\n\n16\n00:00:22,004 --> 00:00:23,686\nThis means running two\n\n17\n00:00:23,686 --> 00:00:25,305\nactivities at once to\n\n18\n00:00:25,305 --> 00:00:26,799\nreduce the time the\n\n19\n00:00:26,799 --> 00:00:28,232\nrover stays awake.\n\n20\n00:00:28,552 --> 00:00:30,098\nOne upcoming task is\n\n21\n00:00:30,098 --> 00:00:31,769\nRAGE, which stands for\n\n22\n00:00:31,769 --> 00:00:33,377\nRotate to Agitate for\n\n23\n00:00:33,377 --> 00:00:34,800\nGranule Expulsion.\n\n24\n00:00:34,800 --> 00:00:36,409\nThis shakes the drill\n\n25\n00:00:36,409 --> 00:00:37,832\nto clear remaining\n\n26\n00:00:37,832 --> 00:00:38,636\nsamples.\n\n27\n00:00:38,956 --> 00:00:39,798\nSource in the\n\n28\n00:00:39,798 --> 00:00:40,593\ndescription.\n",
-  "status": "rendered",
-  "release": "shorts-42921717979"
+  "status": "scheduled",
+  "release": "shorts-42921717979",
+  "keywords_done": true,
+  "video_id": "DJiSO7s4nhM",
+  "uploaded_at": "2026-11-12T00:11:45.927006-08:00"
  },
  {
   "slug": "deep-field",
@@ -2769,7 +2893,7 @@
    "series": "Scale It",
    "playlist": "Scale It: How Big Is It Really?",
    "title": "How big is the Moon, really?",
-   "youtube_description": "The Moon is much smaller than Earth. This video compares their diameters and distances from the Sun.\n\nSources:\n- NASA Planetary Fact Sheet: https://nssdc.gsfc.nasa.gov/planetary/factsheet/\n\n#SpaceScience #Moon #Earth #Space #SolarSystem #Planets",
+   "youtube_description": "The Moon is much smaller than Earth. This video compares their diameters and distances from the Sun.\n\nSources:\n- NASA Planetary Fact Sheet: https://nssdc.gsfc.nasa.gov/planetary/factsheet/\n\n#SpaceScience #Moon #Earth #Space #SolarSystem #Planets\n.\n.\n.\n.\nsize of the moon vs earth | moon diameter in km | earth moon distance from sun | size of the moon compared to earth | size of the sun moon and earth compared | size of moon and earth comparison | sun between earth and moon | sun moon distance from earth | space | space science | astronomy | solar system | planets | size comparison | scale of the universe | NASA | space facts | space images | James Webb | Hubble | galaxy | nebula | space news | NASA mission | space exploration",
    "tags": [
     "size of the moon vs earth",
     "moon diameter in km",
@@ -2798,8 +2922,11 @@
    "music": "original: 6-minor-7-66-542505 @ 66 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,539\nThe Moon is about\n\n2\n00:00:01,539 --> 00:00:03,120\none third the diameter\n\n3\n00:00:03,120 --> 00:00:03,940\nof Earth.\n\n4\n00:00:04,260 --> 00:00:06,779\nEarth has a diameter\n\n5\n00:00:06,779 --> 00:00:08,593\nof 12,756 km.\n\n6\n00:00:08,913 --> 00:00:10,774\nThe Moon has a\n\n7\n00:00:10,774 --> 00:00:13,322\ndiameter of 3,475 km.\n\n8\n00:00:13,642 --> 00:00:15,743\nEarth orbits at 149.6\n\n9\n00:00:15,743 --> 00:00:17,682\nmillion km from the\n\n10\n00:00:17,682 --> 00:00:19,621\nSun, while the Moon\n\n11\n00:00:19,621 --> 00:00:21,965\nstays just 0.384 million\n\n12\n00:00:21,965 --> 00:00:23,015\nkm away.\n\n13\n00:00:23,335 --> 00:00:25,517\nThe ratio between their\n\n14\n00:00:25,517 --> 00:00:26,998\nsizes is 3.67.\n\n15\n00:00:27,318 --> 00:00:28,574\nFigures from NASA's\n\n16\n00:00:28,574 --> 00:00:29,934\nPlanetary Fact Sheet.\n",
-  "status": "rendered",
-  "release": "shorts-42921717979"
+  "status": "scheduled",
+  "release": "shorts-42921717979",
+  "keywords_done": true,
+  "video_id": "bdzEF24wv4Q",
+  "uploaded_at": "2026-11-12T00:11:53.313123-08:00"
  },
  {
   "slug": "plain-docs",
@@ -2815,7 +2942,7 @@
    "series": "Rewrite This",
    "playlist": "Rewrite This: Real Docs Fixed",
    "title": "Fixing a real README in under a minute",
-   "youtube_description": "I simplified a wordy sentence in the Claude Craft README to make the installation value clear.\nOriginal: https://github.com/TheBeardedBearSAS/claude-craft (MIT)\nThe rule: Remove redundant adjectives and simplify complex phrases to improve readability.\n\nSources:\n- TheBeardedBearSAS/claude-craft README (MIT): https://github.com/TheBeardedBearSAS/claude-craft\nWorked examples and guides: https://archanacontent.github.io/work/\n\n#TechnicalWritingForBeginners #TechnicalWriting #Documentation #WritingTips #UXWriting #TechWriter",
+   "youtube_description": "I simplified a wordy sentence in the Claude Craft README to make the installation value clear.\nOriginal: https://github.com/TheBeardedBearSAS/claude-craft (MIT)\nThe rule: Remove redundant adjectives and simplify complex phrases to improve readability.\n\nSources:\n- TheBeardedBearSAS/claude-craft README (MIT): https://github.com/TheBeardedBearSAS/claude-craft\nWorked examples and guides: https://archanacontent.github.io/work/\n\n#TechnicalWritingForBeginners #TechnicalWriting #Documentation #WritingTips #UXWriting #TechWriter\n.\n.\n.\n.\ntechnical writing tips | how to write READMEs | improving documentation | technical writing skills | technical writing skills in english | how to write readme file in github | how to write readme.md in vs code | how to write readme.md file | improving prose | improving ftp | technical writing | technical writing for beginners | technical writer | writing tips | UX writing | before and after | editing | documentation | how to write documentation | style guide | clear writing | README | API documentation | release notes | docs as code",
    "tags": [
     "technical writing tips",
     "how to write READMEs",
@@ -2852,7 +2979,8 @@
   "uploaded_at": "2026-11-10T15:36:24.213891-08:00",
   "published_at": "2026-11-12T14:00:00+00:00",
   "playlist_done": true,
-  "captions_done": true
+  "captions_done": true,
+  "keywords_done": true
  },
  {
   "slug": "plain-docs",
@@ -2868,7 +2996,7 @@
    "series": "One Rule",
    "playlist": "One Rule: Technical Writing Rules",
    "title": "Writing rule: Use present tense for general behavior",
-   "youtube_description": "This video explains how to use the correct tense to describe software behavior.\nThe rule: Use present tense for general behavior and future tense only for delayed actions.\n\nSources:\n- Google developer documentation: https://developers.google.com/style/tense\nWorked examples and guides: https://archanacontent.github.io/work/\n\n#TechnicalWritingForBeginners #TechnicalWriting #Documentation #WritingTips #StyleGuide #TechWriter",
+   "youtube_description": "This video explains how to use the correct tense to describe software behavior.\nThe rule: Use present tense for general behavior and future tense only for delayed actions.\n\nSources:\n- Google developer documentation: https://developers.google.com/style/tense\nWorked examples and guides: https://archanacontent.github.io/work/\n\n#TechnicalWritingForBeginners #TechnicalWriting #Documentation #WritingTips #StyleGuide #TechWriter\n.\n.\n.\n.\ntechnical writing tense rules | how to write documentation | Google developer style guide | how to write documentation for a software project | how to write documentation on github | technical writing | technical writing for beginners | technical writer | writing tips | style guide | clear writing | documentation | UX writing | before and after | editing | README | API documentation | release notes | docs as code",
    "tags": [
     "technical writing tense rules",
     "how to write documentation",
@@ -2898,7 +3026,8 @@
   "uploaded_at": "2026-11-10T15:36:29.198116-08:00",
   "published_at": "2026-11-12T18:00:00+00:00",
   "playlist_done": true,
-  "captions_done": true
+  "captions_done": true,
+  "keywords_done": true
  },
  {
   "slug": "plain-docs",
@@ -2914,7 +3043,7 @@
    "series": "Doc Types",
    "playlist": "Doc Types: What Every Doc Needs",
    "title": "What a changelog must include",
-   "youtube_description": "A changelog documents all notable changes to a project using specific categories like Added or Fixed.\nThe rule: Avoid dumping raw git logs into your documentation.\n\nSources:\n- Changelog guidance: https://keepachangelog.com/en/1.1.0/\nWorked examples and guides: https://archanacontent.github.io/work/\n\n#TechnicalWritingForBeginners #TechnicalWriting #Documentation #DevDocs #README #TechWriter",
+   "youtube_description": "A changelog documents all notable changes to a project using specific categories like Added or Fixed.\nThe rule: Avoid dumping raw git logs into your documentation.\n\nSources:\n- Changelog guidance: https://keepachangelog.com/en/1.1.0/\nWorked examples and guides: https://archanacontent.github.io/work/\n\n#TechnicalWritingForBeginners #TechnicalWriting #Documentation #DevDocs #README #TechWriter\n.\n.\n.\n.\nhow to write a changelog | technical writing changelog rules | semantic versioning documentation | keep a changelog guide | how to make a changelog in roblox studio | technical writing roadmap | semantic versioning | semantic versioning explained | keep a changelog | technical writing | technical writing for beginners | technical writer | README | API documentation | release notes | docs as code | documentation | how to write documentation | writing tips | UX writing | before and after | editing | style guide | clear writing",
    "tags": [
     "how to write a changelog",
     "technical writing changelog rules",
@@ -2944,10 +3073,14 @@
    "music": "original: 5-major-5-69-101437 @ 69 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,359\nNever dump raw git\n\n2\n00:00:01,359 --> 00:00:02,757\nlogs into your changelog\n\n3\n00:00:02,757 --> 00:00:03,287\nfiles.\n\n4\n00:00:03,607 --> 00:00:04,940\nA changelog documents\n\n5\n00:00:04,940 --> 00:00:06,324\nall notable changes to\n\n6\n00:00:06,324 --> 00:00:07,093\na project.\n\n7\n00:00:07,093 --> 00:00:08,169\nIt should follow\n\n8\n00:00:08,169 --> 00:00:09,553\nSemantic Versioning to\n\n9\n00:00:09,553 --> 00:00:10,784\nmaintain structure.\n\n10\n00:00:11,104 --> 00:00:12,246\nEvery entry needs\n\n11\n00:00:12,246 --> 00:00:13,545\nspecific categories.\n\n12\n00:00:13,545 --> 00:00:14,688\nUse Added for new\n\n13\n00:00:14,688 --> 00:00:16,143\nfeatures, Fixed for bug\n\n14\n00:00:16,143 --> 00:00:17,442\nrepairs, Changed for\n\n15\n00:00:17,442 --> 00:00:18,949\nupdates, and Removed for\n\n16\n00:00:18,949 --> 00:00:19,728\ndeletions.\n\n17\n00:00:20,048 --> 00:00:21,019\nFor example,\n\n18\n00:00:21,019 --> 00:00:22,390\nversion 1.1.1 added\n\n19\n00:00:22,390 --> 00:00:23,532\nArabic, French,\n\n20\n00:00:23,532 --> 00:00:24,446\nand Russian\n\n21\n00:00:24,446 --> 00:00:25,474\ntranslations.\n\n22\n00:00:25,474 --> 00:00:26,960\nIt also fixed missing\n\n23\n00:00:26,960 --> 00:00:28,273\nperiods and broken\n\n24\n00:00:28,273 --> 00:00:28,902\nlinks.\n\n25\n00:00:29,222 --> 00:00:30,436\nDon't let your friends\n\n26\n00:00:30,436 --> 00:00:31,471\ndump git logs into\n\n27\n00:00:31,471 --> 00:00:32,190\nchangelogs.\n",
-  "status": "uploaded",
+  "status": "scheduled",
   "release": "shorts-42921717979",
   "video_id": "K48LRDpfI3I",
-  "uploaded_at": "2026-11-10T15:36:36.471254-08:00"
+  "uploaded_at": "2026-11-10T15:36:36.471254-08:00",
+  "published_at": "2026-11-12T23:00:00+00:00",
+  "playlist_done": true,
+  "keywords_done": true,
+  "captions_done": true
  },
  {
   "slug": "plain-docs",
@@ -2990,10 +3123,11 @@
    "music": "original: 6-major-3-77-203553 @ 77 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,633\nThis README uses vague\n\n2\n00:00:01,633 --> 00:00:03,067\nphrasing to explain how\n\n3\n00:00:03,067 --> 00:00:04,143\nto use the data.\n\n4\n00:00:04,463 --> 00:00:05,779\nThe original text says,\n\n5\n00:00:05,779 --> 00:00:07,095\nUse whichever fits your\n\n6\n00:00:07,095 --> 00:00:07,754\nworkflow.\n\n7\n00:00:07,754 --> 00:00:08,741\nThis provides no\n\n8\n00:00:08,741 --> 00:00:09,869\ndirection for a new\n\n9\n00:00:09,869 --> 00:00:10,339\nuser.\n\n10\n00:00:10,659 --> 00:00:12,059\nThe API updates every\n\n11\n00:00:12,059 --> 00:00:13,244\nminute while this\n\n12\n00:00:13,244 --> 00:00:14,590\nrepository refreshes\n\n13\n00:00:14,590 --> 00:00:15,883\nevery five minutes.\n\n14\n00:00:15,883 --> 00:00:17,391\nSpecificity helps users\n\n15\n00:00:17,391 --> 00:00:18,845\nchoose the right tool.\n\n16\n00:00:19,165 --> 00:00:20,255\nInstead of telling them\n\n17\n00:00:20,255 --> 00:00:20,840\nto choose,\n\n18\n00:00:20,840 --> 00:00:21,697\ntell them why the\n\n19\n00:00:21,697 --> 00:00:22,476\nchoice matters.\n\n20\n00:00:22,796 --> 00:00:23,803\nWrite for the user's\n\n21\n00:00:23,803 --> 00:00:24,608\nspecific needs.\n",
-  "status": "uploaded",
+  "status": "scheduled",
   "release": "shorts-42921717979",
   "video_id": "jEk88pcGnuY",
-  "uploaded_at": "2026-11-10T15:36:42.407662-08:00"
+  "uploaded_at": "2026-11-10T15:36:42.407662-08:00",
+  "published_at": "2026-11-13T14:00:00+00:00"
  },
  {
   "slug": "plain-docs",
@@ -3035,10 +3169,11 @@
    "music": "original: 1-lydian-6-71-636136 @ 71 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,311\nAddress your reader\n\n2\n00:00:01,311 --> 00:00:02,460\ndirectly using you or\n\n3\n00:00:02,460 --> 00:00:03,476\nyour instead of we\n\n4\n00:00:03,476 --> 00:00:04,006\nor our.\n\n5\n00:00:04,326 --> 00:00:05,638\nVague instructions like\n\n6\n00:00:05,638 --> 00:00:06,481\n\"Let us add a\n\n7\n00:00:06,481 --> 00:00:07,558\ndescription to our\n\n8\n00:00:07,558 --> 00:00:08,869\ntable\" create distance.\n\n9\n00:00:09,189 --> 00:00:10,340\nAssume the reader is\n\n10\n00:00:10,340 --> 00:00:11,538\nthe person performing\n\n11\n00:00:11,538 --> 00:00:12,643\nthe tasks or making\n\n12\n00:00:12,643 --> 00:00:13,334\ndecisions.\n\n13\n00:00:13,654 --> 00:00:14,668\nGoogle developer\n\n14\n00:00:14,668 --> 00:00:16,070\ndocumentation recommends\n\n15\n00:00:16,070 --> 00:00:17,423\nusing the second person\n\n16\n00:00:17,423 --> 00:00:18,245\nfor clarity.\n\n17\n00:00:18,565 --> 00:00:19,382\nUse you or your\n\n18\n00:00:19,382 --> 00:00:20,159\ninstead of we,\n\n19\n00:00:20,159 --> 00:00:20,813\nour, or us.\n",
-  "status": "uploaded",
+  "status": "scheduled",
   "release": "shorts-42921717979",
   "video_id": "GC9JY7pUxYs",
-  "uploaded_at": "2026-11-10T15:36:52.919238-08:00"
+  "uploaded_at": "2026-11-10T15:36:52.919238-08:00",
+  "published_at": "2026-11-13T18:00:00+00:00"
  },
  {
   "slug": "plain-docs",
@@ -3081,10 +3216,11 @@
    "music": "original: 11-lydian-2-69-603552 @ 69 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,168\nA tutorial is a\n\n2\n00:00:01,168 --> 00:00:02,271\nlesson designed for\n\n3\n00:00:02,271 --> 00:00:03,419\nlearning rather than\n\n4\n00:00:03,419 --> 00:00:04,567\ngetting a task done.\n\n5\n00:00:04,887 --> 00:00:06,056\nThe student acquires\n\n6\n00:00:06,056 --> 00:00:07,319\ntheoretical knowledge,\n\n7\n00:00:07,319 --> 00:00:08,395\nunderstanding, and\n\n8\n00:00:08,395 --> 00:00:09,564\nfamiliarity by doing\n\n9\n00:00:09,564 --> 00:00:10,780\nsomething meaningful.\n\n10\n00:00:11,100 --> 00:00:12,128\nTo be effective,\n\n11\n00:00:12,128 --> 00:00:13,546\nevery exercise must meet\n\n12\n00:00:13,546 --> 00:00:14,965\nfour specific standards.\n\n13\n00:00:15,285 --> 00:00:16,409\nExercises must be\n\n14\n00:00:16,409 --> 00:00:17,839\nmeaningful, successful,\n\n15\n00:00:17,839 --> 00:00:19,166\nlogical, and usefully\n\n16\n00:00:19,166 --> 00:00:19,881\ncomplete.\n\n17\n00:00:20,201 --> 00:00:21,481\nThe teacher holds nearly\n\n18\n00:00:21,481 --> 00:00:22,672\nall the responsibility\n\n19\n00:00:22,672 --> 00:00:23,952\nfor the pupil's success.\n",
-  "status": "uploaded",
+  "status": "scheduled",
   "release": "shorts-42921717979",
   "video_id": "8nkohD1Rp4Y",
-  "uploaded_at": "2026-11-10T15:37:00.470614-08:00"
+  "uploaded_at": "2026-11-10T15:37:00.470614-08:00",
+  "published_at": "2026-11-13T23:00:00+00:00"
  },
  {
   "slug": "plain-docs",
@@ -3127,10 +3263,11 @@
    "music": "original: 5-lydian-4-74-060620 @ 74 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,093\nEvery link you add\n\n2\n00:00:01,093 --> 00:00:02,083\ncreates a decision for\n\n3\n00:00:02,083 --> 00:00:02,706\nyour reader.\n\n4\n00:00:03,026 --> 00:00:04,299\nVague links increase\n\n5\n00:00:04,299 --> 00:00:05,725\ncognitive load and make\n\n6\n00:00:05,725 --> 00:00:07,100\nyour content harder to\n\n7\n00:00:07,100 --> 00:00:07,609\nscan.\n\n8\n00:00:07,609 --> 00:00:08,678\nGoogle developer\n\n9\n00:00:08,678 --> 00:00:10,053\ndocumentation suggests\n\n10\n00:00:10,053 --> 00:00:10,919\nusing short,\n\n11\n00:00:10,919 --> 00:00:12,345\nunique, and descriptive\n\n12\n00:00:12,345 --> 00:00:13,516\nphrases to provide\n\n13\n00:00:13,516 --> 00:00:14,178\ncontext.\n\n14\n00:00:14,498 --> 00:00:15,523\nLook at this weak\n\n15\n00:00:15,523 --> 00:00:16,129\nexample.\n\n16\n00:00:16,129 --> 00:00:16,874\nClick here.\n\n17\n00:00:16,874 --> 00:00:17,807\nNow look at the\n\n18\n00:00:17,807 --> 00:00:18,739\nbetter version.\n\n19\n00:00:18,739 --> 00:00:19,997\nRead the API reference\n\n20\n00:00:19,997 --> 00:00:20,509\nguide.\n\n21\n00:00:20,829 --> 00:00:21,843\nDescriptive text\n\n22\n00:00:21,843 --> 00:00:23,146\nimproves accessibility\n\n23\n00:00:23,146 --> 00:00:24,207\nand scannability.\n\n24\n00:00:24,207 --> 00:00:25,365\nIt tells the reader\n\n25\n00:00:25,365 --> 00:00:26,668\nexactly what they will\n\n26\n00:00:26,668 --> 00:00:28,019\nfind at the destination\n\n27\n00:00:28,019 --> 00:00:29,322\nbefore they leave your\n\n28\n00:00:29,322 --> 00:00:29,804\npage.\n\n29\n00:00:30,124 --> 00:00:30,758\nUse short,\n\n30\n00:00:30,758 --> 00:00:31,773\nunique, descriptive\n\n31\n00:00:31,773 --> 00:00:32,872\nphrases for your link\n\n32\n00:00:32,872 --> 00:00:33,295\ntext.\n",
-  "status": "uploaded",
+  "status": "scheduled",
   "release": "shorts-42921717979",
   "video_id": "gn-aCuVk5qs",
-  "uploaded_at": "2026-11-10T15:38:21.644193-08:00"
+  "uploaded_at": "2026-11-10T15:38:21.644193-08:00",
+  "published_at": "2026-11-14T18:00:00+00:00"
  },
  {
   "slug": "plain-docs",
@@ -3146,7 +3283,7 @@
    "series": "Doc Types",
    "playlist": "Doc Types: What Every Doc Needs",
    "title": "What a how-to guide must include",
-   "youtube_description": "How-to guides are designed to help users achieve specific goals rather than just explaining tool functions.\nThe rule: Always write from the perspective of the user's needs instead of the machinery's operations.\n\nSources:\n- How-to guide guidance: https://diataxis.fr/how-to-guides/\nWorked examples and guides: https://archanacontent.github.io/work/\n\n#TechnicalWritingForBeginners #TechnicalWriting #Documentation #DevDocs #README #TechWriter",
+   "youtube_description": "How-to guides are designed to help users achieve specific goals rather than just explaining tool functions.\nThe rule: Always write from the perspective of the user's needs instead of the machinery's operations.\n\nSources:\n- How-to guide guidance: https://diataxis.fr/how-to-guides/\nWorked examples and guides: https://archanacontent.github.io/work/\n\n#TechnicalWritingForBeginners #TechnicalWriting #Documentation #DevDocs #README #TechWriter\n.\n.\n.\n.\nhow to write technical documentation | diataxis how-to guides | technical writing for beginners | user centric documentation | how to write technical documentation for a project | how to make technical documentation | technical writing jobs for beginners | technical writing for dummies | user centric design | user centred design | technical writing | technical writer | README | API documentation | release notes | docs as code | documentation | how to write documentation | writing tips | UX writing | before and after | editing | style guide | clear writing",
    "tags": [
     "how to write technical documentation",
     "diataxis how-to guides",
@@ -3176,8 +3313,11 @@
    "music": "original: 2-major-3-79-477313 @ 79 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,295\nHow-to guides guide\n\n2\n00:00:01,295 --> 00:00:02,254\nreaders through a\n\n3\n00:00:02,254 --> 00:00:03,168\nproblem toward a\n\n4\n00:00:03,168 --> 00:00:04,083\nspecific result.\n\n5\n00:00:04,403 --> 00:00:05,449\nThese guides are\n\n6\n00:00:05,449 --> 00:00:06,844\ngoal-oriented and focus\n\n7\n00:00:06,844 --> 00:00:07,741\non the work a\n\n8\n00:00:07,741 --> 00:00:09,135\nuser needs to complete.\n\n9\n00:00:09,455 --> 00:00:10,425\nA good guide must\n\n10\n00:00:10,425 --> 00:00:11,658\ninclude these elements.\n\n11\n00:00:11,978 --> 00:00:12,996\nIt needs a human\n\n12\n00:00:12,996 --> 00:00:14,401\nproject, specific tools,\n\n13\n00:00:14,401 --> 00:00:15,516\nand clear steps to\n\n14\n00:00:15,516 --> 00:00:16,485\nreach a result.\n\n15\n00:00:16,805 --> 00:00:17,560\nWrite from the\n\n16\n00:00:17,560 --> 00:00:18,711\nperspective of the user,\n\n17\n00:00:18,711 --> 00:00:19,624\nnot the machinery.\n",
-  "status": "rendered",
-  "release": "shorts-42921717979"
+  "status": "scheduled",
+  "release": "shorts-42921717979",
+  "keywords_done": true,
+  "video_id": "cxsxCza0OqA",
+  "uploaded_at": "2026-11-12T00:11:33.686355-08:00"
  },
  {
   "slug": "plain-docs",
@@ -3193,7 +3333,7 @@
    "series": "Rewrite This",
    "playlist": "Rewrite This: Real Docs Fixed",
    "title": "Fixing a real README in under a minute",
-   "youtube_description": "I removed redundant phrasing from the Proxy README to make the collection process clear.\nOriginal: https://github.com/ALIILAPRO/Proxy (MIT)\nThe rule: Eliminate wordy repetition to improve readability.\n\nSources:\n- ALIILAPRO/Proxy README (MIT): https://github.com/ALIILAPRO/Proxy\nWorked examples and guides: https://archanacontent.github.io/work/\n\n#TechnicalWritingForBeginners #TechnicalWriting #DeveloperDocs #WritingTips #UXWriting #Documentation",
+   "youtube_description": "I removed redundant phrasing from the Proxy README to make the collection process clear.\nOriginal: https://github.com/ALIILAPRO/Proxy (MIT)\nThe rule: Eliminate wordy repetition to improve readability.\n\nSources:\n- ALIILAPRO/Proxy README (MIT): https://github.com/ALIILAPRO/Proxy\nWorked examples and guides: https://archanacontent.github.io/work/\n\n#TechnicalWritingForBeginners #TechnicalWriting #DeveloperDocs #WritingTips #UXWriting #Documentation\n.\n.\n.\n.\nhow to write technical documentation | README best practices | technical writing for beginners | how to write technical documentation for a project | how to make technical documentation | technical writing jobs for beginners | technical writing for dummies | technical writing | technical writer | writing tips | UX writing | before and after | editing | documentation | how to write documentation | style guide | clear writing | README | API documentation | release notes | docs as code",
    "tags": [
     "how to write technical documentation",
     "README best practices",
@@ -3220,8 +3360,11 @@
    "music": "original: 1-major-6-71-640062 @ 71 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,215\nVague READMEs cause\n\n2\n00:00:01,215 --> 00:00:02,181\nusers to doubt your\n\n3\n00:00:02,181 --> 00:00:02,583\ntool.\n\n4\n00:00:02,903 --> 00:00:04,126\nLook at this sentence\n\n5\n00:00:04,126 --> 00:00:05,395\nfrom the Proxy README.\n\n6\n00:00:05,395 --> 00:00:06,477\nThis proxy list is\n\n7\n00:00:06,477 --> 00:00:07,793\ncollected from the list\n\n8\n00:00:07,793 --> 00:00:09,110\nof proxies available on\n\n9\n00:00:09,110 --> 00:00:09,956\nthe Internet.\n\n10\n00:00:10,276 --> 00:00:11,396\nThe original uses\n\n11\n00:00:11,396 --> 00:00:12,771\nunnecessary words like\n\n12\n00:00:12,771 --> 00:00:13,993\nlist of proxies and\n\n13\n00:00:13,993 --> 00:00:15,062\navailable on the\n\n14\n00:00:15,062 --> 00:00:15,775\nInternet.\n\n15\n00:00:15,775 --> 00:00:16,742\nWe removed the\n\n16\n00:00:16,742 --> 00:00:18,168\nrepetition and made the\n\n17\n00:00:18,168 --> 00:00:19,135\naction direct.\n\n18\n00:00:19,455 --> 00:00:20,456\nClearer prose builds\n\n19\n00:00:20,456 --> 00:00:21,537\ntrust with your users.\n\n20\n00:00:21,857 --> 00:00:22,824\nWrite for the reader,\n\n21\n00:00:22,824 --> 00:00:23,605\nnot for the word\n\n22\n00:00:23,605 --> 00:00:24,014\ncount.\n",
-  "status": "rendered",
-  "release": "shorts-42921717979"
+  "status": "scheduled",
+  "release": "shorts-42921717979",
+  "keywords_done": true,
+  "video_id": "mpoEGKJ-WLg",
+  "uploaded_at": "2026-11-12T00:11:40.718603-08:00"
  },
  {
   "slug": "plain-docs",
@@ -3237,7 +3380,7 @@
    "series": "One Rule",
    "playlist": "One Rule: Technical Writing Rules",
    "title": "Writing rule: Use numbered steps for procedures",
-   "youtube_description": "This video explains how to properly introduce numbered procedures without using partial sentences.\nThe rule: Use numbered steps with clear, concise language that focuses on the action.\n\nSources:\n- Google developer documentation: https://developers.google.com/style/procedures\nWorked examples and guides: https://archanacontent.github.io/work/\n\n#TechnicalWritingForBeginners #TechnicalWriting #Documentation #WritingTips #StyleGuide #TechWriter",
+   "youtube_description": "This video explains how to properly introduce numbered procedures without using partial sentences.\nThe rule: Use numbered steps with clear, concise language that focuses on the action.\n\nSources:\n- Google developer documentation: https://developers.google.com/style/procedures\nWorked examples and guides: https://archanacontent.github.io/work/\n\n#TechnicalWritingForBeginners #TechnicalWriting #Documentation #WritingTips #StyleGuide #TechWriter\n.\n.\n.\n.\nhow to write technical procedures | technical writing style guide | Google developer documentation style | google docs script writing | google developer | google docs script format | technical writing | technical writing for beginners | technical writer | writing tips | style guide | clear writing | documentation | how to write documentation | UX writing | before and after | editing | README | API documentation | release notes | docs as code",
    "tags": [
     "how to write technical procedures",
     "technical writing style guide",
@@ -3263,8 +3406,11 @@
    "music": "original: 9-major-7-70-157110 @ 70 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,279\nProcedures must be\n\n2\n00:00:01,279 --> 00:00:02,352\nwritten as numbered\n\n3\n00:00:02,352 --> 00:00:03,470\nsteps with clear and\n\n4\n00:00:03,470 --> 00:00:04,454\nconcise language.\n\n5\n00:00:04,774 --> 00:00:05,971\nAvoid using partial\n\n6\n00:00:05,971 --> 00:00:07,418\nsentences to introduce a\n\n7\n00:00:07,418 --> 00:00:08,366\nlist of steps.\n\n8\n00:00:08,366 --> 00:00:09,713\nThis creates confusion\n\n9\n00:00:09,713 --> 00:00:10,711\nfor the reader.\n\n10\n00:00:11,031 --> 00:00:12,104\nGoogle developer\n\n11\n00:00:12,104 --> 00:00:13,586\ndocumentation recommends\n\n12\n00:00:13,586 --> 00:00:14,812\nusing an imperative\n\n13\n00:00:14,812 --> 00:00:16,039\nstatement or a full\n\n14\n00:00:16,039 --> 00:00:16,754\nsentence.\n\n15\n00:00:16,754 --> 00:00:17,776\nYou can end the\n\n16\n00:00:17,776 --> 00:00:19,002\nintroduction with a\n\n17\n00:00:19,002 --> 00:00:20,178\ncolon or a period.\n\n18\n00:00:20,498 --> 00:00:21,677\nIf a procedure has\n\n19\n00:00:21,677 --> 00:00:22,651\nonly one step,\n\n20\n00:00:22,651 --> 00:00:23,574\nwrite it as a\n\n21\n00:00:23,574 --> 00:00:24,651\nnormal sentence.\n\n22\n00:00:24,651 --> 00:00:25,523\nFor example,\n\n23\n00:00:25,523 --> 00:00:26,856\nclick Clear logcat to\n\n24\n00:00:26,856 --> 00:00:28,190\nflush the entire log.\n\n25\n00:00:28,510 --> 00:00:29,617\nWrite procedures as\n\n26\n00:00:29,617 --> 00:00:30,908\nnumbered steps focusing\n\n27\n00:00:30,908 --> 00:00:31,877\non the action to\n\n28\n00:00:31,877 --> 00:00:32,707\nbe performed.\n",
-  "status": "rendered",
-  "release": "shorts-42921717979"
+  "status": "scheduled",
+  "release": "shorts-42921717979",
+  "keywords_done": true,
+  "video_id": "8ff-eFyXXy0",
+  "uploaded_at": "2026-11-12T00:11:49.076934-08:00"
  },
  {
   "slug": "plain-docs",
@@ -3280,7 +3426,7 @@
    "series": "Doc Types",
    "playlist": "Doc Types: What Every Doc Needs",
    "title": "What a reference documentation must include",
-   "youtube_description": "Reference documentation provides technical descriptions of machinery and how to operate it.\nThe rule: Keep descriptions neutral to ensure accuracy and precision.\n\nSources:\n- Reference documentation guidance: https://diataxis.fr/reference/\nWorked examples and guides: https://archanacontent.github.io/work/\n\n#TechnicalWritingForBeginners #TechnicalWriting #Documentation #DevDocs #README #TechWriter",
+   "youtube_description": "Reference documentation provides technical descriptions of machinery and how to operate it.\nThe rule: Keep descriptions neutral to ensure accuracy and precision.\n\nSources:\n- Reference documentation guidance: https://diataxis.fr/reference/\nWorked examples and guides: https://archanacontent.github.io/work/\n\n#TechnicalWritingForBeginners #TechnicalWriting #Documentation #DevDocs #README #TechWriter\n.\n.\n.\n.\nwhat is reference documentation | technical writing diataxis | how to write API reference | what is the reference id | technical writing google | technical writing and presentation | how to write api documentation | how to write api documentation using swagger | how to write api documentation in postman | technical writing | technical writing for beginners | technical writer | README | API documentation | release notes | docs as code | documentation | how to write documentation | writing tips | UX writing | before and after | editing | style guide | clear writing",
    "tags": [
     "what is reference documentation",
     "technical writing diataxis",
@@ -3309,8 +3455,11 @@
    "music": "original: 10-lydian-7-76-526516 @ 76 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,318\nReference guides are\n\n2\n00:00:01,318 --> 00:00:02,472\ntechnical descriptions\n\n3\n00:00:02,472 --> 00:00:03,540\nof the machinery and\n\n4\n00:00:03,540 --> 00:00:04,522\nhow to operate it.\n\n5\n00:00:04,842 --> 00:00:05,911\nUsers consult this\n\n6\n00:00:05,911 --> 00:00:07,165\nmaterial for truth and\n\n7\n00:00:07,165 --> 00:00:07,862\ncertainty.\n\n8\n00:00:07,862 --> 00:00:08,930\nIt provides a firm\n\n9\n00:00:08,930 --> 00:00:10,092\nplatform to stand on\n\n10\n00:00:10,092 --> 00:00:11,067\nwhile they work.\n\n11\n00:00:11,387 --> 00:00:12,278\nTo be effective,\n\n12\n00:00:12,278 --> 00:00:13,423\nreference must contain\n\n13\n00:00:13,423 --> 00:00:14,144\nthese parts.\n\n14\n00:00:14,464 --> 00:00:15,405\nIt needs neutral\n\n15\n00:00:15,405 --> 00:00:16,569\ndescription, standard\n\n16\n00:00:16,569 --> 00:00:17,465\npatterns, and a\n\n17\n00:00:17,465 --> 00:00:18,675\nstructure that mirrors\n\n18\n00:00:18,675 --> 00:00:19,436\nthe product.\n\n19\n00:00:19,756 --> 00:00:20,881\nThe only purpose of\n\n20\n00:00:20,881 --> 00:00:22,053\na reference guide is\n\n21\n00:00:22,053 --> 00:00:22,849\nto describe,\n\n22\n00:00:22,849 --> 00:00:23,834\nas succinctly as\n\n23\n00:00:23,834 --> 00:00:24,958\npossible, and in an\n\n24\n00:00:24,958 --> 00:00:25,755\norderly way.\n",
-  "status": "rendered",
-  "release": "shorts-42921717979"
+  "status": "scheduled",
+  "release": "shorts-42921717979",
+  "keywords_done": true,
+  "video_id": "7dF8YLfzPP4",
+  "uploaded_at": "2026-11-12T00:11:56.609666-08:00"
  },
  {
   "slug": "asked-and-answered",
@@ -5085,7 +5234,7 @@
    "series": "Look Closer",
    "playlist": "Look Closer: Real Space Images Explained",
    "title": "What you're looking at: SPHEREx spacecraft",
-   "youtube_description": "SPHEREx is a NASA observatory designed to create an unprecedented map of the cosmos. It uses spectroscopy to study the history of the universe and the origins of water.\nCredit: NASA\n\nSources:\n- NASA Image and Video Library: https://images.nasa.gov/details/PIA26538\n\n#SpaceScience #NASA #Space #JamesWebb #Hubble #Astronomy",
+   "youtube_description": "SPHEREx is a NASA observatory designed to create an unprecedented map of the cosmos. It uses spectroscopy to study the history of the universe and the origins of water.\nCredit: NASA\n\nSources:\n- NASA Image and Video Library: https://images.nasa.gov/details/PIA26538\n\n#SpaceScience #NASA #Space #JamesWebb #Hubble #Astronomy\n.\n.\n.\n.\nNASA SPHEREx mission | what is spectroscopy in space | infrared sky map | SPHEREx spacecraft testing | how does spectroscopy work | what is spectroscopy | what is spectroscopy in physics | infrared camera night sky | infrared sky | infrared camera sky | spacecraft testing | space engine spacecraft | space | space science | astronomy | space images | James Webb | Hubble | galaxy | nebula | NASA | space facts | space news | NASA mission | space exploration | solar system | planets | size comparison | scale of the universe",
    "tags": [
     "NASA SPHEREx mission",
     "what is spectroscopy in space",
@@ -5117,10 +5266,13 @@
    "music": "original: 11-minor-0-59-271030 @ 59 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:02,073\nThis is the SPHEREx\n\n2\n00:00:02,073 --> 00:00:04,124\nobservatory undergoing\n\n3\n00:00:04,124 --> 00:00:06,326\nintegration and testing.\n\n4\n00:00:06,646 --> 00:00:08,331\nThe mission name stands\n\n5\n00:00:08,331 --> 00:00:09,955\nfor Spectro-Photometer\n\n6\n00:00:09,955 --> 00:00:11,339\nfor the History of\n\n7\n00:00:11,339 --> 00:00:12,422\nthe Universe,\n\n8\n00:00:12,422 --> 00:00:13,986\nEpoch of Reionization\n\n9\n00:00:13,986 --> 00:00:15,370\nand Ices Explorer.\n\n10\n00:00:15,690 --> 00:00:17,049\nIt will map the\n\n11\n00:00:17,049 --> 00:00:18,477\nentire sky using\n\n12\n00:00:18,477 --> 00:00:20,380\nspectroscopy across 102\n\n13\n00:00:20,380 --> 00:00:22,147\ninfrared wavelengths.\n\n14\n00:00:22,467 --> 00:00:23,993\nThis data reveals the\n\n15\n00:00:23,993 --> 00:00:25,696\ncomposition and distance\n\n16\n00:00:25,696 --> 00:00:27,164\nof millions of stars\n\n17\n00:00:27,164 --> 00:00:28,220\nand galaxies.\n\n18\n00:00:28,540 --> 00:00:29,859\nImage credit in the\n\n19\n00:00:29,859 --> 00:00:30,792\ndescription.\n",
-  "status": "rendered",
+  "status": "scheduled",
   "file": "2026-11-13-0900.mp4",
   "platform": "youtube",
-  "release": "shorts-43012696543"
+  "release": "shorts-43012696543",
+  "keywords_done": true,
+  "video_id": "5uGyjIl5bwc",
+  "uploaded_at": "2026-11-12T00:10:41.914004-08:00"
  },
  {
   "slug": "deep-field",
@@ -5136,7 +5288,7 @@
    "series": "Scale It",
    "playlist": "Scale It: How Big Is It Really?",
    "title": "How big is Mercury, really?",
-   "youtube_description": "Mercury is significantly larger than the Moon. This video compares their diameters and distances from the Sun.\n\nSources:\n- NASA Planetary Fact Sheet: https://nssdc.gsfc.nasa.gov/planetary/factsheet/\n\n#SpaceScience #Space #Mercury #SolarSystem #Planets #Astronomy",
+   "youtube_description": "Mercury is significantly larger than the Moon. This video compares their diameters and distances from the Sun.\n\nSources:\n- NASA Planetary Fact Sheet: https://nssdc.gsfc.nasa.gov/planetary/factsheet/\n\n#SpaceScience #Space #Mercury #SolarSystem #Planets #Astronomy\n.\n.\n.\n.\nsize of mercury vs moon | mercury diameter km | mercury distance from sun | mercury density | mercury 1750 | mercury distance from the sun | mercury transits the sun | space | space science | astronomy | solar system | planets | size comparison | scale of the universe | NASA | space facts | space images | James Webb | Hubble | galaxy | nebula | space news | NASA mission | space exploration",
    "tags": [
     "size of mercury vs moon",
     "mercury diameter km",
@@ -5164,10 +5316,13 @@
    "music": "original: 10-minor-3-58-303462 @ 58 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,681\nMercury is nearly one\n\n2\n00:00:01,681 --> 00:00:02,836\nand a half times\n\n3\n00:00:02,836 --> 00:00:04,212\nwider than our Moon.\n\n4\n00:00:04,532 --> 00:00:07,206\nThe diameter of Mercury\n\n5\n00:00:07,206 --> 00:00:08,830\nis 4,879 km.\n\n6\n00:00:09,150 --> 00:00:10,745\nIn comparison,\n\n7\n00:00:10,745 --> 00:00:12,340\nthe Moon has a\n\n8\n00:00:12,340 --> 00:00:14,522\ndiameter of 3,475 km.\n\n9\n00:00:14,842 --> 00:00:16,710\nMercury sits 57.9\n\n10\n00:00:16,710 --> 00:00:18,748\nmillion km from the\n\n11\n00:00:18,748 --> 00:00:20,786\nSun, while the Moon\n\n12\n00:00:20,786 --> 00:00:22,994\nis only 0.384 million\n\n13\n00:00:22,994 --> 00:00:24,098\nkm away.\n\n14\n00:00:24,418 --> 00:00:26,418\nThe size ratio between\n\n15\n00:00:26,418 --> 00:00:28,195\nthese two bodies is\n\n16\n00:00:28,195 --> 00:00:28,936\n1.40.\n\n17\n00:00:29,256 --> 00:00:30,512\nFigures from NASA's\n\n18\n00:00:30,512 --> 00:00:31,872\nPlanetary Fact Sheet.\n",
-  "status": "rendered",
+  "status": "scheduled",
   "file": "2026-11-13-1800.mp4",
   "platform": "youtube",
-  "release": "shorts-43012696543"
+  "release": "shorts-43012696543",
+  "keywords_done": true,
+  "video_id": "KIBVaVEmFsE",
+  "uploaded_at": "2026-11-12T00:11:00.229479-08:00"
  },
  {
   "slug": "deep-field",
@@ -5183,7 +5338,7 @@
    "series": "Look Closer",
    "playlist": "Look Closer: Real Space Images Explained",
    "title": "What you're looking at: SPHEREx observatory",
-   "youtube_description": "SPHEREx is a NASA observatory designed to create a massive map of the cosmos. It uses infrared spectroscopy to study the composition and distance of millions of stars and galaxies.\nCredit: NASA\n\nSources:\n- NASA Image and Video Library: https://images.nasa.gov/details/PIA26542\n\n#SpaceScience #NASA #Space #JamesWebb #Hubble #Astronomy",
+   "youtube_description": "SPHEREx is a NASA observatory designed to create a massive map of the cosmos. It uses infrared spectroscopy to study the composition and distance of millions of stars and galaxies.\nCredit: NASA\n\nSources:\n- NASA Image and Video Library: https://images.nasa.gov/details/PIA26542\n\n#SpaceScience #NASA #Space #JamesWebb #Hubble #Astronomy\n.\n.\n.\n.\nNASA SPHEREx observatory | infrared spectroscopy space | how SPHEREx maps the universe | space | space science | astronomy | space images | James Webb | Hubble | galaxy | nebula | NASA | space facts | space news | NASA mission | space exploration | solar system | planets | size comparison | scale of the universe",
    "tags": [
     "NASA SPHEREx observatory",
     "infrared spectroscopy space",
@@ -5208,10 +5363,13 @@
    "music": "original: 8-lydian-1-62-427030 @ 62 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,996\nSPHEREx will map the\n\n2\n00:00:01,996 --> 00:00:03,741\nentire sky using 102\n\n3\n00:00:03,741 --> 00:00:05,696\nwavelengths of infrared\n\n4\n00:00:05,696 --> 00:00:06,464\nlight.\n\n5\n00:00:06,784 --> 00:00:08,152\nThis view shows the\n\n6\n00:00:08,152 --> 00:00:09,519\ntelescope and three\n\n7\n00:00:09,519 --> 00:00:11,171\nlayers of photon shields\n\n8\n00:00:11,171 --> 00:00:12,310\nin a horizontal\n\n9\n00:00:12,310 --> 00:00:13,279\norientation.\n\n10\n00:00:13,599 --> 00:00:15,087\nThe observatory uses\n\n11\n00:00:15,087 --> 00:00:16,753\nspectroscopy to measure\n\n12\n00:00:16,753 --> 00:00:18,182\nthe composition and\n\n13\n00:00:18,182 --> 00:00:19,848\ndistance of millions of\n\n14\n00:00:19,848 --> 00:00:21,276\ngalaxies and stars.\n\n15\n00:00:21,597 --> 00:00:23,334\nScientists will use this\n\n16\n00:00:23,334 --> 00:00:24,832\ndata to study galaxy\n\n17\n00:00:24,832 --> 00:00:26,150\nformation and the\n\n18\n00:00:26,150 --> 00:00:27,588\norigins of water in\n\n19\n00:00:27,588 --> 00:00:28,547\nour galaxy.\n\n20\n00:00:28,867 --> 00:00:30,186\nImage credit in the\n\n21\n00:00:30,186 --> 00:00:31,119\ndescription.\n",
-  "status": "rendered",
+  "status": "scheduled",
   "file": "2026-11-14-0900.mp4",
   "platform": "youtube",
-  "release": "shorts-43012696543"
+  "release": "shorts-43012696543",
+  "keywords_done": true,
+  "video_id": "XzjnKl88c40",
+  "uploaded_at": "2026-11-12T00:11:09.155501-08:00"
  },
  {
   "slug": "deep-field",
@@ -5227,7 +5385,7 @@
    "series": "Look Closer",
    "playlist": "Look Closer: Real Space Images Explained",
    "title": "What you're looking at: SPHEREx Observatory",
-   "youtube_description": "The SPHEREx observatory is designed to map the cosmos using infrared spectroscopy. This mission will investigate the early universe and the origins of water in our galaxy.\nCredit: NASA\n\nSources:\n- NASA Image and Video Library: https://images.nasa.gov/details/PIA26543\n\n#SpaceScience #NASA #Space #JamesWebb #Hubble #Astronomy",
+   "youtube_description": "The SPHEREx observatory is designed to map the cosmos using infrared spectroscopy. This mission will investigate the early universe and the origins of water in our galaxy.\nCredit: NASA\n\nSources:\n- NASA Image and Video Library: https://images.nasa.gov/details/PIA26543\n\n#SpaceScience #NASA #Space #JamesWebb #Hubble #Astronomy\n.\n.\n.\n.\nNASA SPHEREx mission | infrared spectroscopy space | how galaxies form | origins of water in space | how galaxies formed | how does galaxy form | how did galaxies form | origins of water on earth | did water come from space | space | space science | astronomy | space images | James Webb | Hubble | galaxy | nebula | NASA | space facts | space news | NASA mission | space exploration | solar system | planets | size comparison | scale of the universe",
    "tags": [
     "NASA SPHEREx mission",
     "infrared spectroscopy space",
@@ -5258,10 +5416,13 @@
    "music": "original: 10-dorian-2-61-414762 @ 61 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,937\nThis is the final\n\n2\n00:00:01,937 --> 00:00:04,085\nassembly of the SPHEREx\n\n3\n00:00:04,085 --> 00:00:05,312\nspacecraft.\n\n4\n00:00:05,632 --> 00:00:06,483\nShort for\n\n5\n00:00:06,483 --> 00:00:08,125\nSpectro-Photometer for\n\n6\n00:00:08,125 --> 00:00:09,524\nthe History of the\n\n7\n00:00:09,524 --> 00:00:10,923\nUniverse, Epoch of\n\n8\n00:00:10,923 --> 00:00:12,504\nReionization and Ices\n\n9\n00:00:12,504 --> 00:00:14,086\nExplorer, it maps the\n\n10\n00:00:14,086 --> 00:00:15,667\ncosmos using infrared\n\n11\n00:00:15,667 --> 00:00:16,336\nlight.\n\n12\n00:00:16,656 --> 00:00:18,365\nThe observatory uses\n\n13\n00:00:18,365 --> 00:00:20,143\nspectroscopy to image\n\n14\n00:00:20,143 --> 00:00:21,648\nthe entire sky in\n\n15\n00:00:21,648 --> 00:00:22,879\n102 different\n\n16\n00:00:22,879 --> 00:00:24,041\nwavelengths.\n\n17\n00:00:24,361 --> 00:00:25,926\nThis data reveals the\n\n18\n00:00:25,926 --> 00:00:27,672\ncomposition and distance\n\n19\n00:00:27,672 --> 00:00:29,357\nof millions of galaxies\n\n20\n00:00:29,357 --> 00:00:30,260\nand stars.\n\n21\n00:00:30,580 --> 00:00:31,988\nScientists use these\n\n22\n00:00:31,988 --> 00:00:33,226\nmaps to study the\n\n23\n00:00:33,226 --> 00:00:34,577\nfirst fraction of a\n\n24\n00:00:34,577 --> 00:00:35,984\nsecond after the big\n\n25\n00:00:35,984 --> 00:00:37,392\nbang and the origins\n\n26\n00:00:37,392 --> 00:00:38,517\nof water in our\n\n27\n00:00:38,517 --> 00:00:39,193\ngalaxy.\n\n28\n00:00:39,513 --> 00:00:40,831\nImage credit in the\n\n29\n00:00:40,831 --> 00:00:41,765\ndescription.\n",
-  "status": "rendered",
+  "status": "scheduled",
   "file": "2026-11-16-0900.mp4",
   "platform": "youtube",
-  "release": "shorts-43012696543"
+  "release": "shorts-43012696543",
+  "keywords_done": true,
+  "video_id": "FGVOmzFjS9o",
+  "uploaded_at": "2026-11-12T00:12:00.206511-08:00"
  },
  {
   "slug": "deep-field",
@@ -5277,7 +5438,7 @@
    "series": "Mission Log",
    "playlist": "Mission Log: Space Missions Explained",
    "title": "NGC 4449: what just happened",
-   "youtube_description": "NGC 4449 is a dwarf galaxy that helps spread the building blocks of life throughout the universe. This Hubble Space Telescope image shows how stellar winds move heavy elements into space.\n\nSources:\n- NASA: https://science.nasa.gov/image-article/apod-2026-november-11-ngc-4449-small-galaxy-big-impact/\n\n#SpaceScience #Astronomy #Space #SpaceNews #NASA",
+   "youtube_description": "NGC 4449 is a dwarf galaxy that helps spread the building blocks of life throughout the universe. This Hubble Space Telescope image shows how stellar winds move heavy elements into space.\n\nSources:\n- NASA: https://science.nasa.gov/image-article/apod-2026-november-11-ngc-4449-small-galaxy-big-impact/\n\n#SpaceScience #Astronomy #Space #SpaceNews #NASA\n.\n.\n.\n.\nNGC 4449 dwarf galaxy | Hubble Space Telescope images | how galaxies spread heavy elements | Milky Way vs dwarf galaxies | ngc 6872 | ngc 1300 galaxy | ngc 262 galaxy | hubble space telescope images 4k | hubble space telescope photos | how are heavy elements formed in the universe | milky way dwarf galaxies | milky way galactic center | milky way galaxy outside | space | space science | astronomy | space news | NASA mission | space exploration | NASA | space facts | space images | James Webb | Hubble | galaxy | nebula | solar system | planets | size comparison | scale of the universe",
    "tags": [
     "NGC 4449 dwarf galaxy",
     "Hubble Space Telescope images",
@@ -5309,10 +5470,13 @@
    "music": "original: 4-dorian-5-58-605640 @ 58 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:02,705\nDwarf galaxies like NGC\n\n2\n00:00:02,705 --> 00:00:04,634\n4449 are the most\n\n3\n00:00:04,634 --> 00:00:06,914\ncommon type of galaxy\n\n4\n00:00:06,914 --> 00:00:08,755\nin the universe.\n\n5\n00:00:09,075 --> 00:00:10,370\nThe Milky Way is\n\n6\n00:00:10,370 --> 00:00:11,849\nabout 100,000 light\n\n7\n00:00:11,849 --> 00:00:13,513\nyears across and holds\n\n8\n00:00:13,513 --> 00:00:15,239\nhundreds of billions of\n\n9\n00:00:15,239 --> 00:00:15,917\nstars.\n\n10\n00:00:16,237 --> 00:00:17,885\nNGC 4449 is a\n\n11\n00:00:17,885 --> 00:00:20,541\ndwarf galaxy captured by\n\n12\n00:00:20,541 --> 00:00:22,464\nthe Hubble Space\n\n13\n00:00:22,464 --> 00:00:23,838\nTelescope.\n\n14\n00:00:24,158 --> 00:00:25,458\nThese galaxies are\n\n15\n00:00:25,458 --> 00:00:27,097\nmissing more oxygen than\n\n16\n00:00:27,097 --> 00:00:28,227\nmodels predict.\n\n17\n00:00:28,547 --> 00:00:29,693\nStellar winds and\n\n18\n00:00:29,693 --> 00:00:30,996\nsupernovae blow away\n\n19\n00:00:30,996 --> 00:00:32,090\noxygen and heavy\n\n20\n00:00:32,090 --> 00:00:32,820\nelements.\n\n21\n00:00:32,820 --> 00:00:34,174\nThis helps spread the\n\n22\n00:00:34,174 --> 00:00:35,685\nbuilding blocks of stars\n\n23\n00:00:35,685 --> 00:00:37,092\nand planets throughout\n\n24\n00:00:37,092 --> 00:00:38,030\nthe universe.\n\n25\n00:00:38,350 --> 00:00:39,192\nSource in the\n\n26\n00:00:39,192 --> 00:00:39,987\ndescription.\n",
-  "status": "rendered",
+  "status": "scheduled",
   "file": "2026-11-16-1300.mp4",
   "platform": "youtube",
-  "release": "shorts-43012696543"
+  "release": "shorts-43012696543",
+  "keywords_done": true,
+  "video_id": "UsAR5SWCf48",
+  "uploaded_at": "2026-11-12T00:12:03.836188-08:00"
  },
  {
   "slug": "deep-field",
@@ -5328,7 +5492,7 @@
    "series": "Scale It",
    "playlist": "Scale It: How Big Is It Really?",
    "title": "How big is Venus, really?",
-   "youtube_description": "Venus is 12,104 km in diameter, making it significantly larger than Mars. This comparison uses data from the NASA Planetary Fact Sheet.\n\nSources:\n- NASA Planetary Fact Sheet: https://nssdc.gsfc.nasa.gov/planetary/factsheet/\n\n#SpaceScience #Space #Astronomy #SolarSystem #Planets #NASA",
+   "youtube_description": "Venus is 12,104 km in diameter, making it significantly larger than Mars. This comparison uses data from the NASA Planetary Fact Sheet.\n\nSources:\n- NASA Planetary Fact Sheet: https://nssdc.gsfc.nasa.gov/planetary/factsheet/\n\n#SpaceScience #Space #Astronomy #SolarSystem #Planets #NASA\n.\n.\n.\n.\nsize of Venus vs Mars | Venus diameter km | Mars distance from sun | planetary scale comparison | venus 175 movement | venus 175 | venus orbit pattern | mars distance from earth | planet scale comparison | planet size comparison klt | planet size comparison 2025 | space | space science | astronomy | solar system | planets | size comparison | scale of the universe | NASA | space facts | space images | James Webb | Hubble | galaxy | nebula | space news | NASA mission | space exploration",
    "tags": [
     "size of Venus vs Mars",
     "Venus diameter km",
@@ -5360,10 +5524,13 @@
    "music": "original: 3-minor-5-63-711315 @ 63 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,988\nVenus is nearly twice\n\n2\n00:00:01,988 --> 00:00:03,393\nas wide as Mars.\n\n3\n00:00:03,713 --> 00:00:06,767\nThe diameter of Venus\n\n4\n00:00:06,767 --> 00:00:08,881\nis 12,104 km.\n\n5\n00:00:09,201 --> 00:00:11,468\nMars has a diameter\n\n6\n00:00:11,468 --> 00:00:13,074\nof 6,792 km.\n\n7\n00:00:13,074 --> 00:00:15,530\nThat makes Venus 1.78\n\n8\n00:00:15,530 --> 00:00:17,986\ntimes larger than the\n\n9\n00:00:17,986 --> 00:00:19,498\nRed Planet.\n\n10\n00:00:19,818 --> 00:00:22,663\nVenus sits 108.2 million\n\n11\n00:00:22,663 --> 00:00:24,723\nkm from the Sun.\n\n12\n00:00:24,723 --> 00:00:27,569\nMars orbits much further\n\n13\n00:00:27,569 --> 00:00:30,022\nout at 228.0 million\n\n14\n00:00:30,022 --> 00:00:30,807\nkm.\n\n15\n00:00:31,127 --> 00:00:32,382\nFigures from NASA's\n\n16\n00:00:32,382 --> 00:00:33,743\nPlanetary Fact Sheet.\n",
-  "status": "rendered",
+  "status": "scheduled",
   "file": "2026-11-16-1800.mp4",
   "platform": "youtube",
-  "release": "shorts-43012696543"
+  "release": "shorts-43012696543",
+  "keywords_done": true,
+  "video_id": "EL_G3h0Uxv4",
+  "uploaded_at": "2026-11-12T00:12:09.652252-08:00"
  },
  {
   "slug": "deep-field",
@@ -5379,7 +5546,7 @@
    "series": "Look Closer",
    "playlist": "Look Closer: Real Space Images Explained",
    "title": "What you're looking at: SPHEREx mission team",
-   "youtube_description": "SPHEREx is a NASA mission designed to create a unique map of the cosmos. It uses spectroscopy to study the history of the universe and the origins of water.\nCredit: NASA\n\nSources:\n- NASA Image and Video Library: https://images.nasa.gov/details/PIA26534\n\n#SpaceScience #NASA #Space #JamesWebb #Hubble #Astronomy",
+   "youtube_description": "SPHEREx is a NASA mission designed to create a unique map of the cosmos. It uses spectroscopy to study the history of the universe and the origins of water.\nCredit: NASA\n\nSources:\n- NASA Image and Video Library: https://images.nasa.gov/details/PIA26534\n\n#SpaceScience #NASA #Space #JamesWebb #Hubble #Astronomy\n.\n.\n.\n.\nNASA SPHEREx mission | infrared spectroscopy space | how galaxies form | how galaxies formed | how does galaxy form | how did galaxies form | space | space science | astronomy | space images | James Webb | Hubble | galaxy | nebula | NASA | space facts | space news | NASA mission | space exploration | solar system | planets | size comparison | scale of the universe",
    "tags": [
     "NASA SPHEREx mission",
     "infrared spectroscopy space",
@@ -5410,7 +5577,8 @@
   "status": "rendered",
   "file": "2026-11-17-0900.mp4",
   "platform": "youtube",
-  "release": "shorts-43012696543"
+  "release": "shorts-43012696543",
+  "keywords_done": true
  },
  {
   "slug": "deep-field",
@@ -5674,7 +5842,7 @@
    "series": "One Rule",
    "playlist": "One Rule: Technical Writing Rules",
    "title": "Writing rule: Use lists for sequential information",
-   "youtube_description": "This video explains how to choose between lists and tables and why single items should not be formatted as lists.\nThe rule: Use lists for sequential information or simple collections of items.\n\nSources:\n- Google developer documentation: https://developers.google.com/style/lists\nWorked examples and guides: https://archanacontent.github.io/work/\n\n#TechnicalWritingForBeginners #TechnicalWriting #Documentation #WritingTips #StyleGuide #TechWriter",
+   "youtube_description": "This video explains how to choose between lists and tables and why single items should not be formatted as lists.\nThe rule: Use lists for sequential information or simple collections of items.\n\nSources:\n- Google developer documentation: https://developers.google.com/style/lists\nWorked examples and guides: https://archanacontent.github.io/work/\n\n#TechnicalWritingForBeginners #TechnicalWriting #Documentation #WritingTips #StyleGuide #TechWriter\n.\n.\n.\n.\ntechnical writing list rules | how to use numbered lists | technical documentation style guide | technical writing | technical writing and presentation | technical writing college class | how to use bulleted list | how to use numbered list in google docs | how to use bulleted list in google docs | technical documentation best practices | how to write good technical documentation | how to create a technical documentation | technical writing for beginners | technical writer | documentation | how to write documentation | writing tips | UX writing | before and after | editing | style guide | clear writing | README | API documentation | release notes | docs as code",
    "tags": [
     "technical writing list rules",
     "how to use numbered lists",
@@ -5700,10 +5868,13 @@
    "music": "original: 2-lydian-7-78-274506 @ 78 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,669\nUse lists for sequential\n\n2\n00:00:01,669 --> 00:00:02,941\ninformation or simple\n\n3\n00:00:02,941 --> 00:00:04,213\ncollections of items.\n\n4\n00:00:04,533 --> 00:00:05,583\nGoogle developer\n\n5\n00:00:05,583 --> 00:00:06,934\ndocumentation suggests\n\n6\n00:00:06,934 --> 00:00:07,985\nusing tables for\n\n7\n00:00:07,985 --> 00:00:09,236\nstructured data with\n\n8\n00:00:09,236 --> 00:00:10,487\nmultiple properties.\n\n9\n00:00:10,807 --> 00:00:11,943\nA single list item\n\n10\n00:00:11,943 --> 00:00:12,882\nis not a list.\n\n11\n00:00:12,882 --> 00:00:13,721\nDo not use a\n\n12\n00:00:13,721 --> 00:00:14,808\nlist to show only\n\n13\n00:00:14,808 --> 00:00:15,500\none item.\n\n14\n00:00:15,820 --> 00:00:17,230\nNumbered lists are for\n\n15\n00:00:17,230 --> 00:00:18,692\nitems where sequence is\n\n16\n00:00:18,692 --> 00:00:20,102\nsignificant like steps\n\n17\n00:00:20,102 --> 00:00:21,094\nor priorities.\n\n18\n00:00:21,094 --> 00:00:22,504\nBulleted lists are for\n\n19\n00:00:22,504 --> 00:00:24,018\nnonsequential options or\n\n20\n00:00:24,018 --> 00:00:24,749\nexamples.\n\n21\n00:00:25,069 --> 00:00:26,179\nMaintain parallel\n\n22\n00:00:26,179 --> 00:00:27,440\nstructure across all\n\n23\n00:00:27,440 --> 00:00:28,853\nlist items for clarity.\n",
-  "status": "rendered",
+  "status": "scheduled",
   "file": "2026-11-16-1300.mp4",
   "platform": "youtube",
-  "release": "shorts-43012696543"
+  "release": "shorts-43012696543",
+  "keywords_done": true,
+  "video_id": "UJvYeHQaGOM",
+  "uploaded_at": "2026-11-12T00:12:06.884209-08:00"
  },
  {
   "slug": "plain-docs",
@@ -5719,7 +5890,7 @@
    "series": "Doc Types",
    "playlist": "Doc Types: What Every Doc Needs",
    "title": "What an explanation must include",
-   "youtube_description": "Explanation documentation provides the context and clarity needed to connect fragmented knowledge.\nThe rule: Use a why question to define the scope of your explanation.\n\nSources:\n- Explanation guidance: https://diataxis.fr/explanation/\nWorked examples and guides: https://archanacontent.github.io/work/\n\n#TechnicalWritingForBeginners #TechnicalWriting #Documentation #DevDocs #README #TechWriter",
+   "youtube_description": "Explanation documentation provides the context and clarity needed to connect fragmented knowledge.\nThe rule: Use a why question to define the scope of your explanation.\n\nSources:\n- Explanation guidance: https://diataxis.fr/explanation/\nWorked examples and guides: https://archanacontent.github.io/work/\n\n#TechnicalWritingForBeginners #TechnicalWriting #Documentation #DevDocs #README #TechWriter\n.\n.\n.\n.\nwhat is technical explanation | diataxis framework explanation | writing technical documentation | what is technical analysis | what is technical analysis in trading | what is technical analysis in forex trading | diataxis framework | framework explanation in interview | framework explanation in selenium | writing technical documentation in confluence | technical writing documentation on software projects | technical writing | technical writing for beginners | technical writer | documentation | how to write documentation | writing tips | UX writing | before and after | editing | style guide | clear writing | README | API documentation | release notes | docs as code",
    "tags": [
     "what is technical explanation",
     "diataxis framework explanation",
@@ -5744,10 +5915,13 @@
    "music": "original: 2-lydian-7-76-202517 @ 76 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,504\nExplanations deepen\n\n2\n00:00:01,504 --> 00:00:02,600\nunderstanding by\n\n3\n00:00:02,600 --> 00:00:03,958\nproviding context and\n\n4\n00:00:03,958 --> 00:00:05,369\nclarity for a subject.\n\n5\n00:00:05,689 --> 00:00:06,920\nThis documentation type\n\n6\n00:00:06,920 --> 00:00:08,064\nanswers the question,\n\n7\n00:00:08,064 --> 00:00:08,944\ncan you tell me\n\n8\n00:00:08,944 --> 00:00:09,647\nabout this?\n\n9\n00:00:09,967 --> 00:00:11,251\nA good explanation must\n\n10\n00:00:11,251 --> 00:00:12,534\ncontain these elements.\n\n11\n00:00:12,854 --> 00:00:14,182\nIt is documentation that\n\n12\n00:00:14,182 --> 00:00:15,281\nmakes sense to read\n\n13\n00:00:15,281 --> 00:00:16,381\nwhile away from the\n\n14\n00:00:16,381 --> 00:00:16,976\nproduct.\n\n15\n00:00:17,296 --> 00:00:18,348\nUse a why question\n\n16\n00:00:18,348 --> 00:00:19,217\nas a prompt to\n\n17\n00:00:19,217 --> 00:00:20,407\nmark out a reasonable\n\n18\n00:00:20,407 --> 00:00:21,459\narea of knowledge.\n",
-  "status": "rendered",
+  "status": "scheduled",
   "file": "2026-11-16-1800.mp4",
   "platform": "youtube",
-  "release": "shorts-43012696543"
+  "release": "shorts-43012696543",
+  "keywords_done": true,
+  "video_id": "1CE0U8CEBlg",
+  "uploaded_at": "2026-11-12T00:12:12.644847-08:00"
  },
  {
   "slug": "plain-docs",
@@ -5763,7 +5937,7 @@
    "series": "Rewrite This",
    "playlist": "Rewrite This: Real Docs Fixed",
    "title": "Fixing a real README in under a minute",
-   "youtube_description": "I clarified the Python version requirement in the ReMCTS README by replacing the plus symbol with explicit text.\nOriginal: https://github.com/MUSE-AI-Lab/ReMCTS (MIT)\nThe rule: Use words instead of symbols to define technical requirements.\n\nSources:\n- MUSE-AI-Lab/ReMCTS README (MIT): https://github.com/MUSE-AI-Lab/ReMCTS\nWorked examples and guides: https://archanacontent.github.io/work/\n\n#TechnicalWritingForBeginners #TechnicalWriting #DeveloperDocs #WritingTips #UXWriting #Documentation",
+   "youtube_description": "I clarified the Python version requirement in the ReMCTS README by replacing the plus symbol with explicit text.\nOriginal: https://github.com/MUSE-AI-Lab/ReMCTS (MIT)\nThe rule: Use words instead of symbols to define technical requirements.\n\nSources:\n- MUSE-AI-Lab/ReMCTS README (MIT): https://github.com/MUSE-AI-Lab/ReMCTS\nWorked examples and guides: https://archanacontent.github.io/work/\n\n#TechnicalWritingForBeginners #TechnicalWriting #DeveloperDocs #WritingTips #UXWriting #Documentation\n.\n.\n.\n.\ntechnical writing tips | how to write README documentation | improving developer experience | technical writing skills | technical writing skills in english | how to write a readme file | how to write a readme.md | how to write a readme | how to improve as a developer | technical writing | technical writing for beginners | technical writer | writing tips | UX writing | before and after | editing | documentation | how to write documentation | style guide | clear writing | README | API documentation | release notes | docs as code",
    "tags": [
     "technical writing tips",
     "how to write README documentation",
@@ -5793,10 +5967,13 @@
    "music": "original: 10-major-5-70-560415 @ 70 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,306\nVague installation\n\n2\n00:00:01,306 --> 00:00:02,361\ninstructions stall\n\n3\n00:00:02,361 --> 00:00:03,555\nonboarding and create\n\n4\n00:00:03,555 --> 00:00:04,518\nsupport tickets.\n\n5\n00:00:04,839 --> 00:00:07,254\nThe ReMCTS README says\n\n6\n00:00:07,254 --> 00:00:09,760\nPython 3.10+ is enough.\n\n7\n00:00:10,080 --> 00:00:11,398\nThe original is passive\n\n8\n00:00:11,398 --> 00:00:12,434\nand uses a symbol\n\n9\n00:00:12,434 --> 00:00:13,705\nthat might be misread.\n\n10\n00:00:14,025 --> 00:00:15,360\nReplacing the plus sign\n\n11\n00:00:15,360 --> 00:00:16,551\nwith words makes the\n\n12\n00:00:16,551 --> 00:00:17,933\nrequirement explicit and\n\n13\n00:00:17,933 --> 00:00:18,648\nconfident.\n\n14\n00:00:18,968 --> 00:00:20,230\nWrite requirements as\n\n15\n00:00:20,230 --> 00:00:21,298\nexplicit facts to\n\n16\n00:00:21,298 --> 00:00:22,463\nprevent user error.\n",
-  "status": "rendered",
+  "status": "scheduled",
   "file": "2026-11-17-0900.mp4",
   "platform": "youtube",
-  "release": "shorts-43012696543"
+  "release": "shorts-43012696543",
+  "keywords_done": true,
+  "video_id": "9ajo_n6k8HM",
+  "uploaded_at": "2026-11-12T00:12:17.602362-08:00"
  },
  {
   "slug": "plain-docs",
@@ -5812,7 +5989,7 @@
    "series": "One Rule",
    "playlist": "One Rule: Technical Writing Rules",
    "title": "Writing rule: Avoid -ing verbs in headings",
-   "youtube_description": "The heading was changed from a gerund to a bare infinitive to improve clarity and translation.\nThe rule: Avoid using -ing verbs as the first word in headings or titles.\n\nSources:\n- Google developer documentation: https://developers.google.com/style/headings\nWorked examples and guides: https://archanacontent.github.io/work/\n\n#TechnicalWritingForBeginners #TechnicalWriting #Documentation #WritingTips #StyleGuide #TechWriter",
+   "youtube_description": "The heading was changed from a gerund to a bare infinitive to improve clarity and translation.\nThe rule: Avoid using -ing verbs as the first word in headings or titles.\n\nSources:\n- Google developer documentation: https://developers.google.com/style/headings\nWorked examples and guides: https://archanacontent.github.io/work/\n\n#TechnicalWritingForBeginners #TechnicalWriting #Documentation #WritingTips #StyleGuide #TechWriter\n.\n.\n.\n.\ntechnical writing heading rules | how to write documentation headings | Google developer documentation style guide | how to write documentation for code | how to write documentation | google developer tools tutorial | google docs script format | technical writing | technical writing for beginners | technical writer | writing tips | style guide | clear writing | documentation | UX writing | before and after | editing | README | API documentation | release notes | docs as code",
    "tags": [
     "technical writing heading rules",
     "how to write documentation headings",
@@ -5838,10 +6015,13 @@
    "music": "original: 7-major-2-72-536130 @ 72 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,458\nStarting headings with\n\n2\n00:00:01,458 --> 00:00:02,621\n-ing verbs makes them\n\n3\n00:00:02,621 --> 00:00:03,874\nharder to translate and\n\n4\n00:00:03,874 --> 00:00:04,769\nharder to read.\n\n5\n00:00:05,089 --> 00:00:06,194\nGoogle developer\n\n6\n00:00:06,194 --> 00:00:07,719\ndocumentation recommends\n\n7\n00:00:07,719 --> 00:00:09,139\nusing bare infinitives\n\n8\n00:00:09,139 --> 00:00:10,349\nfor tasks and noun\n\n9\n00:00:10,349 --> 00:00:11,717\nphrases for concepts.\n\n10\n00:00:12,037 --> 00:00:13,290\nTransferring data sets\n\n11\n00:00:13,290 --> 00:00:14,172\nis a weak task\n\n12\n00:00:14,172 --> 00:00:14,775\nheading.\n\n13\n00:00:14,775 --> 00:00:15,982\nTransfer data sets is\n\n14\n00:00:15,982 --> 00:00:16,539\nbetter.\n\n15\n00:00:16,859 --> 00:00:18,077\nPresent participles\n\n16\n00:00:18,077 --> 00:00:19,549\nincrease character count\n\n17\n00:00:19,549 --> 00:00:20,868\nin limited spaces and\n\n18\n00:00:20,868 --> 00:00:22,035\ncause inconsistent\n\n19\n00:00:22,035 --> 00:00:22,949\ntranslations.\n\n20\n00:00:23,269 --> 00:00:24,684\nUse bare infinitives for\n\n21\n00:00:24,684 --> 00:00:26,001\ntasks and noun phrases\n\n22\n00:00:26,001 --> 00:00:26,879\nfor concepts.\n",
-  "status": "rendered",
+  "status": "scheduled",
   "file": "2026-11-17-1300.mp4",
   "platform": "youtube",
-  "release": "shorts-43012696543"
+  "release": "shorts-43012696543",
+  "keywords_done": true,
+  "video_id": "yqG1JQXeNvE",
+  "uploaded_at": "2026-11-12T00:12:21.694162-08:00"
  },
  {
   "slug": "plain-docs",
@@ -5857,7 +6037,7 @@
    "series": "Doc Types",
    "playlist": "Doc Types: What Every Doc Needs",
    "title": "What an error message must include",
-   "youtube_description": "An error message must clearly communicate the problem and the solution.\nThe rule: Always include both the cause and the actionable next step.\n\nSources:\n- Error message guidance: https://developers.google.com/tech-writing/error-messages\nWorked examples and guides: https://archanacontent.github.io/work/\n\n#TechnicalWritingForBeginners #TechnicalWriting #DeveloperExperience #DevDocs #README #Documentation",
+   "youtube_description": "An error message must clearly communicate the problem and the solution.\nThe rule: Always include both the cause and the actionable next step.\n\nSources:\n- Error message guidance: https://developers.google.com/tech-writing/error-messages\nWorked examples and guides: https://archanacontent.github.io/work/\n\n#TechnicalWritingForBeginners #TechnicalWriting #DeveloperExperience #DevDocs #README #Documentation\n.\n.\n.\n.\nhow to write error messages | technical writing error messages | developer documentation tips | how to make error message in notepad | how to make error message | how to make error code in roblox | technical writing report | developer documentation | documentation tips and tricks | documentation tips | technical writing | technical writing for beginners | technical writer | README | API documentation | release notes | docs as code | documentation | how to write documentation | writing tips | UX writing | before and after | editing | style guide | clear writing",
    "tags": [
     "how to write error messages",
     "technical writing error messages",
@@ -5891,7 +6071,8 @@
   "status": "rendered",
   "file": "2026-11-17-1800.mp4",
   "platform": "youtube",
-  "release": "shorts-43012696543"
+  "release": "shorts-43012696543",
+  "keywords_done": true
  },
  {
   "slug": "plain-docs",
