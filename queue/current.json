@@ -96,7 +96,9 @@
   "original_slot": "2026-11-11T13:00:00-05:00",
   "keywords_done": true,
   "video_id": "vuOXhb0ypk8",
-  "uploaded_at": "2026-11-12T00:10:44.731645-08:00"
+  "uploaded_at": "2026-11-12T00:10:44.731645-08:00",
+  "playlist_done": true,
+  "captions_done": true
  },
  {
   "slug": "asked-and-answered",
@@ -351,7 +353,9 @@
   "original_slot": "2026-11-11T13:00:00-05:00",
   "keywords_done": true,
   "video_id": "FpBMlkjkgm8",
-  "uploaded_at": "2026-11-12T00:10:47.572376-08:00"
+  "uploaded_at": "2026-11-12T00:10:47.572376-08:00",
+  "playlist_done": true,
+  "captions_done": true
  },
  {
   "slug": "automation-shelf",
@@ -701,7 +705,9 @@
   "original_slot": "2026-11-11T13:00:00-05:00",
   "keywords_done": true,
   "video_id": "fY624VVS5W8",
-  "uploaded_at": "2026-11-12T00:10:50.799620-08:00"
+  "uploaded_at": "2026-11-12T00:10:50.799620-08:00",
+  "playlist_done": true,
+  "captions_done": true
  },
  {
   "slug": "breach-brief",
@@ -1163,7 +1169,9 @@
   "original_slot": "2026-11-11T18:00:00-05:00",
   "keywords_done": true,
   "video_id": "jB3zfeWk0PQ",
-  "uploaded_at": "2026-11-12T00:10:53.908551-08:00"
+  "uploaded_at": "2026-11-12T00:10:53.908551-08:00",
+  "playlist_done": true,
+  "captions_done": true
  },
  {
   "slug": "asked-and-answered",
@@ -1233,7 +1241,7 @@
    "series": "The Fix",
    "playlist": "The Fix: Get Cited by AI Search",
    "title": "Fix this so AI cites you: Vague pronouns",
-   "youtube_description": "Answer engines skip content that uses vague pronouns like it or this.\nTo earn citations, follow the Citable Passage Standard by naming the subject in full instead of using pronouns.\n\nSources:\n- The Citable Passage Standard: https://archanacontent.github.io/asked/standard/\n\nFind your buyers' questions: https://archanacontent.github.io/asked/\nMore from Archana Panda: https://archanacontent.github.io\n\n#AISearchMarketing #AEO #B2BMarketing #ContentMarketing #SEO #GEO",
+   "youtube_description": "Answer engines skip content that uses vague pronouns like it or this.\nTo earn citations, follow the Citable Passage Standard by naming the subject in full instead of using pronouns.\n\nSources:\n- The Citable Passage Standard: https://archanacontent.github.io/asked/standard/\n\nFind your buyers' questions: https://archanacontent.github.io/asked/\nMore from Archana Panda: https://archanacontent.github.io\n\n#AISearchMarketing #AEO #B2BMarketing #ContentMarketing #SEO #GEO\n.\n.\n.\n.\nanswer engine optimization | generative engine optimization | how to get cited by AI | AEO for B2B | answer engine optimization (aeo) | answer engine optimization tutorial | generative engine optimization (geo) | generative engine optimization tutorial | how to get mentioned in google's ai search results | how to catch ai generated essays | seo for b2b | seo for b2b saas | ai for b2b | AI search | AEO | GEO | AI Overviews | ChatGPT SEO | LLM SEO | content optimization | AI search optimization | B2B marketing | buyer research | content strategy | SaaS marketing | Google AI Mode | SEO 2026 | search trends",
    "tags": [
     "answer engine optimization",
     "generative engine optimization",
@@ -1269,7 +1277,10 @@
   "release": "shorts-42921717979",
   "video_id": "t32uM-f3wxM",
   "uploaded_at": "2026-11-10T15:36:44.932667-08:00",
-  "published_at": "2026-11-13T18:00:00+00:00"
+  "published_at": "2026-11-13T18:00:00+00:00",
+  "playlist_done": true,
+  "keywords_done": true,
+  "captions_done": true
  },
  {
   "slug": "asked-and-answered",
@@ -1318,7 +1329,9 @@
   "release": "shorts-42921717979",
   "keywords_done": true,
   "video_id": "mc3vl0dORNQ",
-  "uploaded_at": "2026-11-12T00:10:57.042645-08:00"
+  "uploaded_at": "2026-11-12T00:10:57.042645-08:00",
+  "playlist_done": true,
+  "captions_done": true
  },
  {
   "slug": "asked-and-answered",
@@ -1636,7 +1649,7 @@
    "series": "Library Pick",
    "playlist": "Library Picks: Free n8n Templates",
    "title": "Free workflow: UGC marketing videos on autopilot",
-   "youtube_description": "Generate authentic UGC style marketing videos for eCommerce products using AI.\nTools: n8n, OpenAI, Sora 2, Gemini 2.5 Pro, Google Drive\nTemplate: https://n8n.io/workflows/9432\n\nSources:\n- n8n template: https://n8n.io/workflows/9432\n\n#MarketingAutomationLibrary #n8n #MarketingAutomation #Automation #n8nTemplates #NoCode",
+   "youtube_description": "Generate authentic UGC style marketing videos for eCommerce products using AI.\nTools: n8n, OpenAI, Sora 2, Gemini 2.5 Pro, Google Drive\nTemplate: https://n8n.io/workflows/9432\n\nSources:\n- n8n template: https://n8n.io/workflows/9432\n\n#MarketingAutomationLibrary #n8n #MarketingAutomation #Automation #n8nTemplates #NoCode\n.\n.\n.\n.\nn8n UGC video automation | Sora 2 marketing workflow | eCommerce video generation AI | automate influencer style videos | youtube automation with zapier | n8n chatgpt | ecommerce video ads maker | ecommerce video ads example | ecommerce video ads | automate content | automate blogger | marketing automation | n8n | n8n workflow | n8n tutorial | free automation templates | marketing automation tools | n8n templates | no code automation | workflow automation | marketing ops | automation for small business | productivity | marketing automation ideas",
    "tags": [
     "n8n UGC video automation",
     "Sora 2 marketing workflow",
@@ -1672,7 +1685,10 @@
   "release": "shorts-42921717979",
   "video_id": "WM43IKftpUI",
   "uploaded_at": "2026-11-10T15:36:47.233389-08:00",
-  "published_at": "2026-11-13T18:00:00+00:00"
+  "published_at": "2026-11-13T18:00:00+00:00",
+  "playlist_done": true,
+  "keywords_done": true,
+  "captions_done": true
  },
  {
   "slug": "automation-shelf",
@@ -1688,7 +1704,7 @@
    "series": "Can It Be Automated?",
    "playlist": "Can It Be Automated?",
    "title": "Can you automate marketing content generation?",
-   "youtube_description": "You can automate the generation and comparison of marketing content using multiple AI models.\nTools: n8n, CometAPI, Google Sheets, GPT, Claude, Gemini\nTemplate: https://n8n.io/workflows/17283\n\nSources:\n- n8n template: https://n8n.io/workflows/17283\n\n#MarketingAutomationLibrary #n8n #MarketingAutomation #Automation #MarketingOps #NoCode",
+   "youtube_description": "You can automate the generation and comparison of marketing content using multiple AI models.\nTools: n8n, CometAPI, Google Sheets, GPT, Claude, Gemini\nTemplate: https://n8n.io/workflows/17283\n\nSources:\n- n8n template: https://n8n.io/workflows/17283\n\n#MarketingAutomationLibrary #n8n #MarketingAutomation #Automation #MarketingOps #NoCode\n.\n.\n.\n.\nn8n marketing automation | AI content generation workflow | automate content creation with n8n | CometAPI n8n template | n8n email automation | n8n email automation workflow | ai content creation workflow | content generation using ai | n8n chatwoot | n8n google sheets | n8n chatbot whatsapp | marketing automation | n8n | n8n workflow | marketing automation ideas | automation for small business | n8n templates | no code automation | workflow automation | marketing ops | productivity | n8n tutorial | free automation templates | marketing automation tools",
    "tags": [
     "n8n marketing automation",
     "AI content generation workflow",
@@ -1723,7 +1739,10 @@
   "release": "shorts-42921717979",
   "video_id": "SqyDfnxP3JM",
   "uploaded_at": "2026-11-10T15:36:56.730658-08:00",
-  "published_at": "2026-11-13T23:00:00+00:00"
+  "published_at": "2026-11-13T23:00:00+00:00",
+  "playlist_done": true,
+  "keywords_done": true,
+  "captions_done": true
  },
  {
   "slug": "automation-shelf",
@@ -1774,7 +1793,9 @@
   "release": "shorts-42921717979",
   "keywords_done": true,
   "video_id": "Ik2BIUG7QqI",
-  "uploaded_at": "2026-11-12T00:11:03.463420-08:00"
+  "uploaded_at": "2026-11-12T00:11:03.463420-08:00",
+  "playlist_done": true,
+  "captions_done": true
  },
  {
   "slug": "automation-shelf",
@@ -2025,7 +2046,7 @@
    "series": "Exploited Today",
    "playlist": "Exploited Today: Actively Exploited Vulnerabilities",
    "title": "Exploited now: Barracuda Networks CVE-2026-111560",
-   "youtube_description": "Barracuda Networks multiple products are being exploited via an OS command injection vulnerability.\nAffected: Affected products include Email Security Gateway, Load Balancer, ADC, Message Archiver, WCC, WAF, and WSG.\nWhat to do: Apply vendor mitigations and follow CISA BOD 26-04 guidance immediately.\n\nSources:\n- CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog\n- NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-111560\n\nQuery the NVD yourself: https://github.com/archanacontent/nvd-cve-api-docs\n\n#CybersecurityDaily #Cybersecurity #BarracudaNetworks #CVE #PatchNow #InfoSec",
+   "youtube_description": "Barracuda Networks multiple products are being exploited via an OS command injection vulnerability.\nAffected: Affected products include Email Security Gateway, Load Balancer, ADC, Message Archiver, WCC, WAF, and WSG.\nWhat to do: Apply vendor mitigations and follow CISA BOD 26-04 guidance immediately.\n\nSources:\n- CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog\n- NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-111560\n\nQuery the NVD yourself: https://github.com/archanacontent/nvd-cve-api-docs\n\n#CybersecurityDaily #Cybersecurity #BarracudaNetworks #CVE #PatchNow #InfoSec\n.\n.\n.\n.\nBarracuda Networks CVE-2026-111560 | CISA KEV Barracuda | Barracuda OS command injection | barracuda email security gateway | barracuda networks | barracuda web security gateway | cisa safe | cisa elettrika 1a731 | cisa kev | os command injection | cybersecurity | cybersecurity news | cyber security | known exploited vulnerabilities | CVE | vulnerability | patch now | security update | infosec | data breach | data breach news | SEC 8-K | cyber incident | scam alert | online scams | phishing | fraud prevention | online safety",
    "tags": [
     "Barracuda Networks CVE-2026-111560",
     "CISA KEV Barracuda",
@@ -2061,7 +2082,9 @@
   "video_id": "ClPFoHFF8wI",
   "uploaded_at": "2026-11-10T15:36:40.293946-08:00",
   "published_at": "2026-11-13T14:00:00+00:00",
-  "playlist_done": true
+  "playlist_done": true,
+  "keywords_done": true,
+  "captions_done": true
  },
  {
   "slug": "breach-brief",
@@ -2077,7 +2100,7 @@
    "series": "Exploited Today",
    "playlist": "Exploited Today: Actively Exploited Vulnerabilities",
    "title": "Exploited now: Barracuda Email Security Gateway CVE-2026-116606",
-   "youtube_description": "Attackers are exploiting an authentication bypass in Barracuda Email Security Gateway.\nAffected: Barracuda Email Security Gateway versions earlier than 9.4.0.030.\nWhat to do: Apply vendor mitigations and follow CISA BOD 26-04 guidance.\n\nSources:\n- CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog\n- NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-116606\n\nQuery the NVD yourself: https://github.com/archanacontent/nvd-cve-api-docs\n\n#CybersecurityDaily #Cybersecurity #Barracuda #CVE #PatchNow #InfoSec",
+   "youtube_description": "Attackers are exploiting an authentication bypass in Barracuda Email Security Gateway.\nAffected: Barracuda Email Security Gateway versions earlier than 9.4.0.030.\nWhat to do: Apply vendor mitigations and follow CISA BOD 26-04 guidance.\n\nSources:\n- CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog\n- NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-116606\n\nQuery the NVD yourself: https://github.com/archanacontent/nvd-cve-api-docs\n\n#CybersecurityDaily #Cybersecurity #Barracuda #CVE #PatchNow #InfoSec\n.\n.\n.\n.\nBarracuda ESG vulnerability | CVE-2026-116606 exploit | Barracuda authentication bypass | CISA KEV updates | cisa kev | cisa certified | cisa tutorials | cybersecurity | cybersecurity news | cyber security | known exploited vulnerabilities | CVE | vulnerability | patch now | security update | infosec | data breach | data breach news | SEC 8-K | cyber incident | scam alert | online scams | phishing | fraud prevention | online safety",
    "tags": [
     "Barracuda ESG vulnerability",
     "CVE-2026-116606 exploit",
@@ -2109,7 +2132,10 @@
   "release": "shorts-42921717979",
   "video_id": "xWjoTJTQhE0",
   "uploaded_at": "2026-11-10T15:36:49.359702-08:00",
-  "published_at": "2026-11-13T18:00:00+00:00"
+  "published_at": "2026-11-13T18:00:00+00:00",
+  "playlist_done": true,
+  "keywords_done": true,
+  "captions_done": true
  },
  {
   "slug": "breach-brief",
@@ -2125,7 +2151,7 @@
    "series": "Scam Alert",
    "playlist": "Scam Alert: Scams Going Around Now",
    "title": "Scam alert: franchise misrepresentation",
-   "youtube_description": "This video explains how franchisors can misrepresent earnings and how to protect your investment.\nAffected: Prospective franchise buyers and small business owners.\nWhat to do: Review the Franchise Disclosure Document and verify all claims with former franchisees.\n\nSources:\n- FTC consumer alert: https://consumer.ftc.gov/consumer-alerts/2026/10/some-franchising-basics-ftcs-case-against-premier-martial-arts-franchisor\n\nQuery the NVD yourself: https://github.com/archanacontent/nvd-cve-api-docs\n\n#CybersecurityDaily #FranchiseScams #SmallBusiness #CyberSecurity #ScamAlert #Phishing",
+   "youtube_description": "This video explains how franchisors can misrepresent earnings and how to protect your investment.\nAffected: Prospective franchise buyers and small business owners.\nWhat to do: Review the Franchise Disclosure Document and verify all claims with former franchisees.\n\nSources:\n- FTC consumer alert: https://consumer.ftc.gov/consumer-alerts/2026/10/some-franchising-basics-ftcs-case-against-premier-martial-arts-franchisor\n\nQuery the NVD yourself: https://github.com/archanacontent/nvd-cve-api-docs\n\n#CybersecurityDaily #FranchiseScams #SmallBusiness #CyberSecurity #ScamAlert #Phishing\n.\n.\n.\n.\nfranchise investment scams | how to read FDD | Premier Martial Arts FTC case | franchise due diligence | franchise business scam | franchise business explained | franchise business usa | how to read an fdd | how to read floppy disk | how to read an ofp | premier martial arts kama form | cybersecurity | cybersecurity news | cyber security | scam alert | online scams | phishing | fraud prevention | online safety | infosec | CISA KEV | known exploited vulnerabilities | CVE | vulnerability | patch now | security update | data breach | data breach news | SEC 8-K | cyber incident",
    "tags": [
     "franchise investment scams",
     "how to read FDD",
@@ -2161,7 +2187,10 @@
   "release": "shorts-42921717979",
   "video_id": "ZsswyWL_DyI",
   "uploaded_at": "2026-11-10T15:36:59.044546-08:00",
-  "published_at": "2026-11-13T23:00:00+00:00"
+  "published_at": "2026-11-13T23:00:00+00:00",
+  "playlist_done": true,
+  "keywords_done": true,
+  "captions_done": true
  },
  {
   "slug": "breach-brief",
@@ -2208,7 +2237,9 @@
   "release": "shorts-42921717979",
   "keywords_done": true,
   "video_id": "Tdo9_PLMDsk",
-  "uploaded_at": "2026-11-12T00:11:06.089871-08:00"
+  "uploaded_at": "2026-11-12T00:11:06.089871-08:00",
+  "playlist_done": true,
+  "captions_done": true
  },
  {
   "slug": "breach-brief",
@@ -2634,7 +2665,7 @@
    "series": "Mission Log",
    "playlist": "Mission Log: Space Missions Explained",
    "title": "Saturn Behind the Moon: what just happened",
-   "youtube_description": "The Moon recently blocked our view of Saturn in an event called an occultation. This phenomenon occurs when the Moon moves directly in front of a planet.\n\nSources:\n- NASA: https://science.nasa.gov/image-article/apod-2026-november-10-saturn-behind-the-moon/\n\n#SpaceScience #Saturn #Astronomy #Space #SpaceNews #NASA",
+   "youtube_description": "The Moon recently blocked our view of Saturn in an event called an occultation. This phenomenon occurs when the Moon moves directly in front of a planet.\n\nSources:\n- NASA: https://science.nasa.gov/image-article/apod-2026-november-10-saturn-behind-the-moon/\n\n#SpaceScience #Saturn #Astronomy #Space #SpaceNews #NASA\n.\n.\n.\n.\nSaturn occultation Moon | Saturn behind the Moon | 85 Aquarii star Saturn | NASA APOD Saturn | saturn instead of moon | saturn occultation | saturn with moon | saturn 8 inch dobsonian | nasa in saturn | nasa video of saturn | nasa apod | space | space science | astronomy | space news | NASA mission | space exploration | NASA | space facts | space images | James Webb | Hubble | galaxy | nebula | solar system | planets | size comparison | scale of the universe",
    "tags": [
     "Saturn occultation Moon",
     "Saturn behind the Moon",
@@ -2669,7 +2700,10 @@
   "release": "shorts-42921717979",
   "video_id": "AnHi7wFdpBs",
   "uploaded_at": "2026-11-10T15:36:51.185173-08:00",
-  "published_at": "2026-11-13T18:00:00+00:00"
+  "published_at": "2026-11-13T18:00:00+00:00",
+  "playlist_done": true,
+  "keywords_done": true,
+  "captions_done": true
  },
  {
   "slug": "deep-field",
@@ -3096,7 +3130,7 @@
    "series": "Rewrite This",
    "playlist": "Rewrite This: Real Docs Fixed",
    "title": "Fixing a real README in under a minute",
-   "youtube_description": "I replaced a vague instruction about choosing a workflow with specific refresh rate details.\nOriginal: https://github.com/ProxyScrape/free-proxy-list (MIT)\nThe rule: Always provide concrete details instead of telling users to choose for themselves.\n\nSources:\n- ProxyScrape/free-proxy-list README (MIT): https://github.com/ProxyScrape/free-proxy-list\nWorked examples and guides: https://archanacontent.github.io/work/\n\n#TechnicalWritingForBeginners #TechnicalWriting #Documentation #WritingTips #UXWriting #TechWriter",
+   "youtube_description": "I replaced a vague instruction about choosing a workflow with specific refresh rate details.\nOriginal: https://github.com/ProxyScrape/free-proxy-list (MIT)\nThe rule: Always provide concrete details instead of telling users to choose for themselves.\n\nSources:\n- ProxyScrape/free-proxy-list README (MIT): https://github.com/ProxyScrape/free-proxy-list\nWorked examples and guides: https://archanacontent.github.io/work/\n\n#TechnicalWritingForBeginners #TechnicalWriting #Documentation #WritingTips #UXWriting #TechWriter\n.\n.\n.\n.\ntechnical writing tips | how to write documentation | improving README files | technical writing skills | technical writing skills in english | how to write documentation for a software project | how to write documentation on github | technical writing | technical writing for beginners | technical writer | writing tips | UX writing | before and after | editing | documentation | style guide | clear writing | README | API documentation | release notes | docs as code",
    "tags": [
     "technical writing tips",
     "how to write documentation",
@@ -3127,7 +3161,10 @@
   "release": "shorts-42921717979",
   "video_id": "jEk88pcGnuY",
   "uploaded_at": "2026-11-10T15:36:42.407662-08:00",
-  "published_at": "2026-11-13T14:00:00+00:00"
+  "published_at": "2026-11-13T14:00:00+00:00",
+  "playlist_done": true,
+  "keywords_done": true,
+  "captions_done": true
  },
  {
   "slug": "plain-docs",
@@ -3143,7 +3180,7 @@
    "series": "One Rule",
    "playlist": "One Rule: Technical Writing Rules",
    "title": "Writing rule: Use the second person",
-   "youtube_description": "This video explains how to use the second person to improve documentation clarity.\nThe rule: Address the reader directly with you or your instead of first person pronouns.\n\nSources:\n- Google developer documentation: https://developers.google.com/style/person\nWorked examples and guides: https://archanacontent.github.io/work/\n\n#TechnicalWritingForBeginners #TechnicalWriting #Documentation #WritingTips #StyleGuide #TechWriter",
+   "youtube_description": "This video explains how to use the second person to improve documentation clarity.\nThe rule: Address the reader directly with you or your instead of first person pronouns.\n\nSources:\n- Google developer documentation: https://developers.google.com/style/person\nWorked examples and guides: https://archanacontent.github.io/work/\n\n#TechnicalWritingForBeginners #TechnicalWriting #Documentation #WritingTips #StyleGuide #TechWriter\n.\n.\n.\n.\ntechnical writing tips | how to write documentation | second person in technical writing | technical writing skills | technical writing skills in english | how to write documentation for a software project | how to write documentation on github | technical writing | technical writing for beginners | technical writer | writing tips | style guide | clear writing | documentation | UX writing | before and after | editing | README | API documentation | release notes | docs as code",
    "tags": [
     "technical writing tips",
     "how to write documentation",
@@ -3173,7 +3210,10 @@
   "release": "shorts-42921717979",
   "video_id": "GC9JY7pUxYs",
   "uploaded_at": "2026-11-10T15:36:52.919238-08:00",
-  "published_at": "2026-11-13T18:00:00+00:00"
+  "published_at": "2026-11-13T18:00:00+00:00",
+  "playlist_done": true,
+  "keywords_done": true,
+  "captions_done": true
  },
  {
   "slug": "plain-docs",
@@ -3189,7 +3229,7 @@
    "series": "Doc Types",
    "playlist": "Doc Types: What Every Doc Needs",
    "title": "What a tutorial must include",
-   "youtube_description": "A tutorial is a learning-oriented lesson meant to build skills through meaningful activity.\nThe rule: Ensure the exercise is logical and usefully complete so the student learns the tools and workflows.\n\nSources:\n- Tutorial guidance: https://diataxis.fr/tutorials/\nWorked examples and guides: https://archanacontent.github.io/work/\n\n#TechnicalWritingForBeginners #TechnicalWriting #Documentation #DevDocs #README #TechWriter",
+   "youtube_description": "A tutorial is a learning-oriented lesson meant to build skills through meaningful activity.\nThe rule: Ensure the exercise is logical and usefully complete so the student learns the tools and workflows.\n\nSources:\n- Tutorial guidance: https://diataxis.fr/tutorials/\nWorked examples and guides: https://archanacontent.github.io/work/\n\n#TechnicalWritingForBeginners #TechnicalWriting #Documentation #DevDocs #README #TechWriter\n.\n.\n.\n.\ntechnical writing tutorial vs how-to | diataxis tutorial framework | writing learning oriented documentation | wdio framework | writing narratives | writing skills for writers | technical writing | technical writing for beginners | technical writer | README | API documentation | release notes | docs as code | documentation | how to write documentation | writing tips | UX writing | before and after | editing | style guide | clear writing",
    "tags": [
     "technical writing tutorial vs how-to",
     "diataxis tutorial framework",
@@ -3220,7 +3260,10 @@
   "release": "shorts-42921717979",
   "video_id": "8nkohD1Rp4Y",
   "uploaded_at": "2026-11-10T15:37:00.470614-08:00",
-  "published_at": "2026-11-13T23:00:00+00:00"
+  "published_at": "2026-11-13T23:00:00+00:00",
+  "playlist_done": true,
+  "keywords_done": true,
+  "captions_done": true
  },
  {
   "slug": "plain-docs",
@@ -3475,7 +3518,7 @@
    "series": "Buyers Asked",
    "playlist": "Buyers Asked: What B2B Buyers Ask AI",
    "title": "Buyers ask AI: CDP vs Data Warehouse",
-   "youtube_description": "B2B buyers ask AI search engines to evaluate a customer data platform versus a data warehouse.\nStructure your pages with explicit comparisons between a CDP, data warehouse, DMP, and CRM to win AI citations.\n\nSources:\n- Asked, free AEO and GEO question finder: https://archanacontent.github.io/asked/\n\nFind your buyers' questions: https://archanacontent.github.io/asked/\nMore from Archana Panda: https://archanacontent.github.io\n\n#AISearchMarketing #AEO #B2BMarketing #ContentStrategy #GEO #AISearch",
+   "youtube_description": "B2B buyers ask AI search engines to evaluate a customer data platform versus a data warehouse.\nStructure your pages with explicit comparisons between a CDP, data warehouse, DMP, and CRM to win AI citations.\n\nSources:\n- Asked, free AEO and GEO question finder: https://archanacontent.github.io/asked/\n\nFind your buyers' questions: https://archanacontent.github.io/asked/\nMore from Archana Panda: https://archanacontent.github.io\n\n#AISearchMarketing #AEO #B2BMarketing #ContentStrategy #GEO #AISearch\n.\n.\n.\n.\ncustomer data platform vs data warehouse | what is customer data platform | cdp vs crm vs dmp | data center vs data warehouse | cdp vs crm | AI search | AEO | GEO | B2B marketing | buyer research | content strategy | SaaS marketing | answer engine optimization | generative engine optimization | AI search optimization | AI Overviews | ChatGPT SEO | LLM SEO | content optimization | Google AI Mode | SEO 2026 | search trends",
    "tags": [
     "customer data platform vs data warehouse",
     "what is customer data platform",
@@ -3507,7 +3550,10 @@
   "platform": "youtube",
   "release": "shorts-43012696543",
   "video_id": "H82ENCIP-q4",
-  "uploaded_at": "2026-11-11T04:49:48.443876-08:00"
+  "uploaded_at": "2026-11-11T04:49:48.443876-08:00",
+  "playlist_done": true,
+  "keywords_done": true,
+  "captions_done": true
  },
  {
   "slug": "asked-and-answered",
@@ -3523,7 +3569,7 @@
    "series": "Buyers Asked",
    "playlist": "Buyers Asked: What B2B Buyers Ask AI",
    "title": "Buyers ask AI: what is sales engagement platform",
-   "youtube_description": "Learn how to define a sales engagement platform so AI engines cite your site.\nTo be cited, your content must clearly define the category and differentiate it from a CRM.\n\nSources:\n- Asked, free AEO and GEO question finder: https://archanacontent.github.io/asked/\n\nFind your buyers' questions: https://archanacontent.github.io/asked/\nMore from Archana Panda: https://archanacontent.github.io\n\n#AISearchMarketing #AEO #B2BMarketing #ContentStrategy #GEO #AISearch",
+   "youtube_description": "Learn how to define a sales engagement platform so AI engines cite your site.\nTo be cited, your content must clearly define the category and differentiate it from a CRM.\n\nSources:\n- Asked, free AEO and GEO question finder: https://archanacontent.github.io/asked/\n\nFind your buyers' questions: https://archanacontent.github.io/asked/\nMore from Archana Panda: https://archanacontent.github.io\n\n#AISearchMarketing #AEO #B2BMarketing #ContentStrategy #GEO #AISearch\n.\n.\n.\n.\nwhat is sales engagement platform | sales engagement platform vs crm | sales engagement software definition | what is sales enablement | salesforce and crm | sales engagement demo salesforce | sales and marketing applications salesforce | salesforce sales tutorial | AI search | AEO | GEO | B2B marketing | buyer research | content strategy | SaaS marketing | answer engine optimization | generative engine optimization | AI search optimization | AI Overviews | ChatGPT SEO | LLM SEO | content optimization | Google AI Mode | SEO 2026 | search trends",
    "tags": [
     "what is sales engagement platform",
     "sales engagement platform vs crm",
@@ -3558,7 +3604,9 @@
   "platform": "youtube",
   "release": "shorts-43012696543",
   "video_id": "fdCYV-RLsA0",
-  "uploaded_at": "2026-11-11T04:49:53.347413-08:00"
+  "uploaded_at": "2026-11-11T04:49:53.347413-08:00",
+  "playlist_done": true,
+  "keywords_done": true
  },
  {
   "slug": "asked-and-answered",
@@ -5278,7 +5326,9 @@
   "release": "shorts-43012696543",
   "keywords_done": true,
   "video_id": "5uGyjIl5bwc",
-  "uploaded_at": "2026-11-12T00:10:41.914004-08:00"
+  "uploaded_at": "2026-11-12T00:10:41.914004-08:00",
+  "playlist_done": true,
+  "captions_done": true
  },
  {
   "slug": "deep-field",
@@ -5328,7 +5378,9 @@
   "release": "shorts-43012696543",
   "keywords_done": true,
   "video_id": "KIBVaVEmFsE",
-  "uploaded_at": "2026-11-12T00:11:00.229479-08:00"
+  "uploaded_at": "2026-11-12T00:11:00.229479-08:00",
+  "playlist_done": true,
+  "captions_done": true
  },
  {
   "slug": "deep-field",
