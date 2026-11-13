@@ -5091,10 +5091,12 @@
    "kind": "image"
   },
   "srt": "",
-  "status": "ready",
+  "status": "published",
   "file": "2026-11-13-1300.jpg",
   "platform": "instagram",
-  "release": "shorts-43012696543"
+  "release": "shorts-43012696543",
+  "ig_media_id": "18037158428896091",
+  "published_at": "2026-11-13T18:02:19.704968+00:00"
  },
  {
   "slug": "comicsofy",
