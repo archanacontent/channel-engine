@@ -1,0 +1,85 @@
+skip: false
+skip_reason: ''
+title: 'Stop doing this by hand: sustainability news curation'
+beats:
+- say: Manual news curation for sustainability newsletters takes hours every single morning.
+  caption: Manual news curation for sustainability newsletters takes hours every single morning.
+  highlight:
+  - Manual news curation
+  - takes hours
+  scene:
+    type: headline
+    text: Stop manual news curation
+- say: You scrape the EU Commission News Portal, filter for relevance, and format an email.
+  caption: You scrape the EU Commission News Portal, filter for relevance, and format an email.
+  highlight:
+  - scrape
+  - filter
+  - format
+  scene:
+    type: list
+    title: The manual loop
+    items:
+    - Scrape EU news portal
+    - Filter for relevance
+    - Format HTML email
+    - Send via Gmail
+    style: bullet
+- say: This n eight n workflow automates the entire process using G P T four o.
+  caption: This n8n workflow automates the entire process using GPT-4o.
+  highlight:
+  - automates the entire process
+  - GPT-4o
+  scene:
+    type: flow
+    steps:
+    - title: Schedule Trigger
+      note: Runs every morning
+    - title: HTTP Request
+      note: Scrapes EU news
+    - title: AI Agent
+      note: Classifies relevance
+    - title: Gmail
+      note: Sends HTML digest
+- say: It stores every relevant article in Google Sheets before sending a professional HTML digest.
+  caption: It stores every relevant article in Google Sheets before sending a professional HTML digest.
+  highlight:
+  - stores every relevant article
+  - professional HTML digest
+  scene:
+    type: card
+    title: Workflow output
+    rows:
+    - - Data Storage
+      - Google Sheets
+    - - Content Type
+      - HTML Digest
+    - - Delivery
+      - Gmail
+- say: The free template is linked in the description.
+  caption: The free template is linked in the description.
+  highlight:
+  - free template
+  scene:
+    type: cta
+    line: Automate your newsletter
+    subline: The free template is linked in the description.
+description:
+  task_line: This workflow automates the curation of sustainability news from the EU Commission News Portal.
+  tools: n8n, OpenAI, Google Sheets, Gmail
+  sources:
+  - 'n8n template: https://n8n.io/workflows/3684'
+  template_link: https://n8n.io/workflows/3684
+seo:
+  seeds:
+  - automated sustainability newsletter
+  - n8n news scraper workflow
+  - AI news curation automation
+  - marketing newsletter automation
+  hashtags:
+  - '#MarketingAutomation'
+  - '#n8n'
+series: Stop Doing This
+record_id: n8n:3684
+auto: true
+instagram_hashtags_rotating: []

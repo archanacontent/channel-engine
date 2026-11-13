@@ -1,0 +1,69 @@
+skip: false
+skip_reason: ''
+title: 'Exploited now: Adobe Commerce and Magento CVE-2026-48356'
+beats:
+- say: Attackers are using an unrestricted file upload flaw in Adobe Commerce and Magento to execute arbitrary code.
+  caption: Attackers are using an unrestricted file upload flaw in Adobe Commerce and Magento to execute arbitrary code.
+  highlight:
+  - unrestricted file upload flaw
+  - execute arbitrary code
+  scene:
+    type: headline
+    text: 'Active Exploit: Adobe Commerce and Magento'
+- say: C V E 2 0 2 6, 4 8 3 5 6 allows a user to gain elevated access or control over a victim session.
+  caption: CVE-2026-48356 allows a user to gain elevated access or control over a victim session.
+  highlight:
+  - elevated access
+  - control over a victim session
+  scene:
+    type: card
+    title: Vulnerability Details
+    rows:
+    - - CVE ID
+      - CVE-2026-48356
+    - - Product
+      - Adobe Commerce/Magento
+    - - Added to KEV
+      - '2026-10-27'
+    - - Due Date
+      - '2026-11-10'
+- say: Protect your environment by applying vendor mitigations immediately.
+  caption: Protect your environment by applying vendor mitigations immediately.
+  highlight:
+  - applying vendor mitigations
+  scene:
+    type: list
+    title: Required Actions
+    items:
+    - Apply vendor mitigations
+    - Follow BOD 26-04 guidance
+    - Assess internet exposure
+    - Discontinue use if unpatched
+    style: check
+- say: Sources are in the description.
+  caption: Sources are in the description.
+  highlight:
+  - Sources are in the description
+  scene:
+    type: cta
+    line: Stay Secure
+    subline: Sources are in the description.
+description:
+  summary: Attackers are exploiting an unrestricted file upload vulnerability in Adobe Commerce and Magento.
+  affected: The flaw impacts Adobe Commerce and Magento users, potentially allowing arbitrary code execution.
+  action: Apply vendor mitigations immediately and follow CISA BOD 26-04 guidance.
+  sources:
+  - 'CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog'
+  - 'NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-48356'
+seo:
+  seeds:
+  - Adobe Commerce vulnerability CVE-2026-48356
+  - Magento unrestricted file upload exploit
+  - CISA KEV Adobe Commerce
+  hashtags:
+  - '#Cybersecurity'
+  - '#AdobeCommerce'
+series: Exploited Today
+record_id: kev:CVE-2026-48356
+auto: true
+instagram_hashtags_rotating: []

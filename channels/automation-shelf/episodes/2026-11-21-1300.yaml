@@ -1,0 +1,82 @@
+skip: false
+skip_reason: ''
+title: 'Free workflow: personalized email campaigns on autopilot'
+beats:
+- say: Scaling personalized email campaigns manually wastes hours of marketing time.
+  caption: Scaling personalized email campaigns manually wastes hours of marketing time.
+  highlight:
+  - Scaling personalized email campaigns manually
+  - wastes hours
+  scene:
+    type: headline
+    text: Stop manual email campaigns
+- say: This Library Pick from the n eight n public library automates the entire process using artificial intelligence.
+  caption: This Library Pick from the n8n public library automates the entire process using artificial intelligence.
+  highlight:
+  - automates the entire process
+  - using artificial intelligence
+  scene:
+    type: card
+    title: Workflow Capability
+    rows:
+    - - Core Tech
+      - GPT 3.5
+    - - Scale
+      - Large-scale
+- say: The flow pulls recipient data from Google Sheets and uses a code node to introduce random delays to avoid spam filters.
+  caption: The flow pulls recipient data from Google Sheets and uses a code node to introduce random delays to avoid spam filters.
+  highlight:
+  - pulls recipient data
+  - random delays to avoid spam filters
+  scene:
+    type: flow
+    steps:
+    - title: Google Sheets
+      note: Fetch recipient data
+    - title: Code Node
+      note: Add random delays
+    - title: OpenAI
+      note: Generate unique content
+    - title: SMTP
+      note: Send personalized email
+- say: The AI agent generates a unique product introduction and exclusive offer for every single recipient.
+  caption: The AI agent generates a unique product introduction and exclusive offer for every single recipient.
+  highlight:
+  - generates a unique product introduction
+  - exclusive offer
+  scene:
+    type: list
+    title: AI Content Includes
+    items:
+    - Recipient name
+    - Product introduction
+    - Exclusive offer
+    - Unique promotional link
+    style: check
+- say: Template link in the description.
+  caption: Template link in the description.
+  highlight:
+  - Template link in the description
+  scene:
+    type: cta
+    line: Get the workflow
+    subline: Template link in the description.
+description:
+  task_line: Automate large-scale personalized email campaigns using AI and Google Sheets.
+  tools: n8n, Google Sheets, OpenAI, SMTP
+  sources:
+  - 'n8n template: https://n8n.io/workflows/2452'
+  template_link: https://n8n.io/workflows/2452
+seo:
+  seeds:
+  - n8n email automation workflow
+  - AI personalized email marketing
+  - automate email campaigns with n8n
+  - n8n google sheets openai workflow
+  hashtags:
+  - '#MarketingAutomation'
+  - '#n8n'
+series: Library Pick
+record_id: n8n:2452
+auto: true
+instagram_hashtags_rotating: []

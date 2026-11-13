@@ -1,0 +1,66 @@
+skip: false
+title: Can you automate AI budget guardrails?
+beats:
+- say: Can you automate AI marketing email runs with a budget guardrail using n eight n and FirstHelm?
+  caption: Can you automate AI marketing email runs with a budget guardrail using n8n and FirstHelm?
+  scene:
+    type: headline
+    text: Automate AI budget guardrails
+  highlight:
+  - budget guardrail
+- say: This workflow monitors Gmail emails labeled MARKETING and uses FirstHelm to enforce a budget guardrail.
+  caption: This workflow monitors Gmail emails labeled MARKETING and uses FirstHelm to enforce a budget guardrail.
+  scene:
+    type: flow
+    steps:
+    - title: Gmail Trigger
+      note: Monitors MARKETING label
+    - title: FirstHelm
+      note: Enforces budget guardrail
+  highlight:
+  - enforce a budget guardrail
+- say: It evaluates estimated costs to return an allowed, needs approval, or blocked verdict before calling OpenAI.
+  caption: It evaluates estimated costs to return an allowed, needs_approval, or blocked verdict before calling OpenAI.
+  scene:
+    type: stat
+    value: Allowed or Blocked
+    label: Verdict Types
+  highlight: []
+- say: Approved runs generate copy via OpenAI, log spend to Google Sheets, and email results.
+  caption: Approved runs generate copy via OpenAI, log spend to Google Sheets, and email results.
+  scene:
+    type: list
+    items:
+    - Generate copy
+    - Log spend
+    - Email results
+    style: check
+    title: Key points
+  highlight:
+  - generate copy
+  - log spend
+- say: Template link in the description.
+  caption: Template link in the description.
+  scene:
+    type: cta
+    line: Get the n8n template
+    subline: Link in the description
+  highlight:
+  - Template link
+description:
+  task_line: Block expensive AI agent runs with a budget guardrail using FirstHelm, OpenAI, Gmail, and Google Sheets.
+  tools: n8n, FirstHelm, OpenAI, Gmail, Google Sheets, Slack
+  sources:
+  - 'n8n template: https://n8n.io/workflows/21810'
+  template_link: https://n8n.io/workflows/21810
+seo:
+  seeds:
+  - n8n FirstHelm template
+  - AI budget guardrail workflow
+  - automate OpenAI spend n8n
+  - FirstHelm OpenAI integration guideintonisourcethisisgoodyestothestarsandbeyondthatsallformeokaycoolthanksbyeletsgotothemoonandbacknowyayforjsonandvalidparsingforallthingsbrightandbeautifulthatsallrightyomgwowzerslalalalaokaysoundsgoodtobetruegreatjobtodaymyfriendyourockitoutloudnowandforevermoreyeahbuddyrocknrollahoymateyhohohocanyouhearmeechoechoecho... wait no keep it clean and simple.
+skip_reason: ''
+series: Can It Be Automated?
+record_id: n8n:21810
+auto: true
+instagram_hashtags_rotating: []

@@ -1,0 +1,65 @@
+skip: false
+title: 'What you''re looking at: NASA''s SPHEREx Observatory'
+beats:
+- say: This foil wrapped chamber test prepared NASA's S P H E R E x observatory to map the entire sky.
+  caption: This foil-wrapped chamber test prepared NASA's SPHEREx observatory to map the entire sky.
+  scene:
+    type: headline
+    kicker: NASA SPHEREx
+    text: Testing the SPHEREx Observatory
+  highlight:
+  - foil-wrapped chamber test
+  - SPHEREx observatory
+- say: Inside a thermal vacuum chamber in Colorado, engineers covered the spacecraft and photon shield in multilayer insulation.
+  caption: Inside a thermal vacuum chamber in Colorado, engineers covered the spacecraft and photon shield in multilayer insulation.
+  scene:
+    type: image
+    credit: NASA/JPL-Caltech/BAE Systems
+  highlight:
+  - thermal vacuum chamber
+  - multilayer insulation
+- say: S P H E R E x stands for Spectro Photometer for the History of the Universe, Epoch of Reionization and Ices Explorer.
+  caption: SPHEREx stands for Spectro-Photometer for the History of the Universe, Epoch of Reionization and Ices Explorer.
+  scene:
+    type: stat
+    value: Infrared Sky Survey
+    label: SPHEREx Observatory
+  highlight:
+  - Spectro-Photometer
+  - Epoch of Reionization
+- say: Using spectroscopy across one hundred two wavelengths of infrared light, it measures the composition of millions of galaxies.
+  caption: Using spectroscopy across 102 wavelengths of infrared light, it measures the composition of millions of galaxies.
+  scene:
+    type: headline
+    value: 102 Light Wavelengths
+    kicker: ''
+    text: 102 Light Wavelengths
+  highlight:
+  - spectroscopy
+  - 102 wavelengths
+- say: Scientists use this map to trace water origins and cosmic history back to the big bang. Image credit in the description.
+  caption: Scientists use this map to trace water origins and cosmic history back to the big bang. Image credit in the description.
+  scene:
+    type: cta
+    line: Space Science
+    subline: Real images explained daily
+  highlight:
+  - water origins
+  - big bang
+description:
+  explainer: This image shows NASA's SPHEREx observatory installed inside a thermal vacuum test chamber in Colorado. Using 102 wavelengths of infrared light, SPHEREx maps the composition and distances of millions of galaxies and stars.
+  sources:
+  - 'NASA Image and Video Library: https://images.nasa.gov/details/PIA26541'
+  credit: NASA
+seo:
+  seeds:
+  - NASA SPHEREx observatory
+  - SPHEREx thermal vacuum test
+  - infrared spectroscopy space map
+series: Look Closer
+record_id: nasa:PIA26541
+auto: true
+instagram_hashtags_rotating: []
+media:
+  image: /home/runner/work/channel-engine/channel-engine/collected/deep-field/media/2026-11-21-0900.jpg
+  credit: NASA

@@ -1,0 +1,58 @@
+skip: false
+title: Fixing a real README in under a minute
+beats:
+- say: Vague sentences in setup docs hide what your code actually does.
+  caption: Vague sentences in setup docs hide what your code actually does.
+  scene:
+    type: headline
+    text: Vague sentences hide what your code does.
+    title: README Edit
+  highlight:
+  - setup docs
+- say: 'This README opens with: This is a public feed based on Public Threat Feeds and CRITICAL PATH SECURITY gathered data.'
+  caption: 'This README opens with: This is a public feed based on Public Threat Feeds and CRITICAL PATH SECURITY gathered data.'
+  scene:
+    type: compare
+    left_label: Original
+    left_text: This is a public feed based on Public Threat Feeds and CRITICAL PATH SECURITY gathered data.
+    right_label: Clearer
+    right_text: Public Zeek intelligence feed aggregated from public threat feeds and Critical Path Security data.
+  highlight:
+  - public feed
+- say: We state the precise project name, remove passive phrasing, and name the sources directly.
+  caption: We state the precise project name, remove passive phrasing, and name the sources directly.
+  scene:
+    type: list
+    title: Why rewrite it
+    unit: ''
+    items:
+    - 3 edits made to first line
+  highlight:
+  - passive phrasing
+- say: Name the specific tool and dataset in your first line.
+  caption: Name the specific tool and dataset in your first line.
+  scene:
+    type: quote
+    text: Name the specific tool and dataset in your first line.
+    title: Documentation Rule
+  highlight:
+  - specific tool
+description:
+  what_was_fixed: Reworded the introductory sentence of the Zeek Intelligence Feeds README to clearly state what data the feed aggregates.
+  rule: Name the specific tool and dataset in your first line.
+  sources:
+  - 'CriticalPathSecurity/Zeek-Intelligence-Feeds README (MIT): https://github.com/CriticalPathSecurity/Zeek-Intelligence-Feeds'
+  source_link: https://github.com/CriticalPathSecurity/Zeek-Intelligence-Feeds
+  license: MIT
+seo:
+  hashtags:
+  - '#TechnicalWriting'
+  - '#OpenSource'
+  seeds:
+  - Zeek Intelligence Feeds documentation edit
+  - how to write open source README
+  - technical writing README rewrite
+series: Rewrite This
+record_id: repo:CriticalPathSecurity/Zeek-Intelligence-Feeds
+auto: true
+instagram_hashtags_rotating: []

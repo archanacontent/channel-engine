@@ -1,0 +1,68 @@
+skip: false
+skip_reason: ''
+title: 'Writing rule: Avoid jargon'
+beats:
+- say: Jargon can hinder clear communication for global audiences.
+  caption: Jargon can hinder clear communication for global audiences.
+  highlight:
+  - hinder clear communication
+  scene:
+    type: headline
+    text: Jargon hinders clear communication
+- say: Google developer documentation suggests replacing specialized terms with plain language.
+  caption: Google developer documentation suggests replacing specialized terms with plain language.
+  highlight:
+  - replacing specialized terms
+  - plain language
+  scene:
+    type: image
+    credit: Google developer documentation
+- say: Hold a post mortem sounds confusing. When the project is finished, review what processes worked or did not work is better.
+  caption: Hold a post mortem sounds confusing. When the project is finished, review what processes worked or did not work is better.
+  highlight:
+  - Hold a post mortem
+  - review what processes worked
+  scene:
+    type: compare
+    left_label: Jargon
+    left_text: Hold a post mortem
+    right_label: Plain language
+    right_text: Review what processes worked or did not work
+- say: Instead of using off the shelf, use ready made or pre built.
+  caption: Instead of using off-the-shelf, use ready-made or pre-built.
+  highlight:
+  - off-the-shelf
+  - ready-made or pre-built
+  scene:
+    type: list
+    title: Jargon replacements
+    items:
+    - ready-made
+    - pre-built
+    style: check
+- say: Prioritize clear communication over using specialized terminology.
+  caption: Prioritize clear communication over using specialized terminology.
+  highlight:
+  - Prioritize clear communication
+  scene:
+    type: quote
+    text: Prioritize clear communication over using specialized terminology.
+    highlight:
+    - clear communication
+description:
+  what_was_fixed: We replaced specialized jargon like post mortem with descriptive plain language to improve clarity.
+  rule: Avoid jargon to ensure documentation is inclusive and accessible to global audiences.
+  sources:
+  - 'Google developer documentation: https://developers.google.com/style/jargon'
+seo:
+  seeds:
+  - how to avoid jargon in technical writing
+  - technical writing tips for beginners
+  - improving documentation clarity
+  hashtags:
+  - '#TechnicalWriting'
+  - '#Documentation'
+series: One Rule
+record_id: style:https://developers.google.com/style/jargon
+auto: true
+instagram_hashtags_rotating: []

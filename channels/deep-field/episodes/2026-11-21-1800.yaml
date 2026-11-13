@@ -1,0 +1,75 @@
+skip: false
+skip_reason: ''
+title: How big is Pluto, really?
+beats:
+- say: Pluto is only about one fifth the width of Earth.
+  caption: Pluto is only about one fifth the width of Earth.
+  highlight:
+  - one fifth the width
+  scene:
+    type: headline
+    text: Pluto vs Earth
+- say: Earth spans twelve thousand seven hundred fifty six kilometers across.
+  caption: Earth spans 12,756 km across.
+  highlight:
+  - 12,756 km
+  scene:
+    type: stat
+    value: 12,756
+    label: Earth Diameter
+    source: NASA
+- say: Pluto has a diameter of only two thousand three hundred seventy six kilometers.
+  caption: Pluto has a diameter of only 2,376 km.
+  highlight:
+  - 2,376 km
+  scene:
+    type: stat
+    value: 2,376
+    label: Pluto Diameter
+    source: NASA
+- say: The distance from the Sun also differs greatly between these two worlds.
+  caption: The distance from the Sun also differs greatly between these two worlds.
+  highlight:
+  - distance from the Sun
+  scene:
+    type: compare
+    left_label: Earth
+    left_text: 149.6 million km
+    right_label: Pluto
+    right_text: 5,906.4 million km
+- say: Earth sits one hundred forty nine point six million kilometers from the Sun.
+  caption: Earth sits 149.6 million km from the Sun.
+  highlight:
+  - 149.6 million km
+  scene:
+    type: card
+    title: Solar Distance
+    rows:
+    - - Earth
+      - 149.6M km
+    - - Pluto
+      - 5,906.4M km
+- say: Figures from NASA's Planetary Fact Sheet.
+  caption: Figures from NASA's Planetary Fact Sheet.
+  highlight:
+  - NASA's Planetary Fact Sheet
+  scene:
+    type: cta
+    line: Discover more space facts.
+    subline: Subscribe to Space Science
+description:
+  explainer: Pluto is much smaller than Earth and sits much further from the Sun. This video compares their diameters and distances from the Sun.
+  sources:
+  - 'NASA Planetary Fact Sheet: https://nssdc.gsfc.nasa.gov/planetary/factsheet/'
+seo:
+  seeds:
+  - size of Pluto vs Earth
+  - Pluto diameter
+  - how far is Pluto from sun
+  hashtags:
+  - '#Space'
+  - '#Pluto'
+series: Scale It
+record_id: scale:EARTH:PLUTO
+auto: true
+instagram_hashtags_rotating: []

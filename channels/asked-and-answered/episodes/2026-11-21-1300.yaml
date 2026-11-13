@@ -1,0 +1,69 @@
+skip: false
+title: 'Fix this so AI cites you: Source The Facts'
+beats:
+- say: Answer engines skip unverified figures when summarizing feature flag tools.
+  caption: Answer engines skip unverified figures when summarizing feature flag tools.
+  scene:
+    type: headline
+    kicker: AI Search Marketing
+    text: Answer engines skip unverified figures
+  highlight:
+  - skip unverified figures
+- say: If a page lacks proof, AI models cannot verify the claims and will cite a competitor instead.
+  caption: If a page lacks proof, AI models cannot verify the claims and will cite a competitor instead.
+  scene:
+    type: stat
+    value: Skipped by AI
+    label: Unverified Claims
+  highlight:
+  - cannot verify the claims
+- say: Unlinked statements get dropped. Link every claim directly to its original source so search engines can validate it instantly.
+  caption: Unlinked statements get dropped. Link every claim directly to its original source so search engines can validate it instantly.
+  scene:
+    type: list
+    title: Source The Facts
+    items:
+    - Direct Linking Required
+  highlight:
+  - Link every claim directly
+- say: Replace standalone claims with verified links. Readers and answer engines both need clickable proof to trust your page.
+  caption: Replace standalone claims with verified links. Readers and answer engines both need clickable proof to trust your page.
+  scene:
+    type: compare
+    left_label: Weak Line
+    left_text: Feature flags streamline deployment risk.
+    right_label: Fixed Line
+    right_text: Feature flags streamline deployment risk (Source Report).
+  highlight:
+  - clickable proof
+- say: Archana Panda established this in the Citable Passage Standard under the Asked Method.
+  caption: Archana Panda established this in the Citable Passage Standard under the Asked Method.
+  scene:
+    type: quote
+    text: Every figure links to where it came from.
+    value: The Citable Passage Standard
+  highlight:
+  - The Citable Passage Standard
+- say: The full standard is linked on our channel page.
+  caption: The full standard is linked on our channel page.
+  scene:
+    type: cta
+    line: Earn the Mention
+    subline: The full standard is linked on our channel page.
+  highlight:
+  - linked on our channel page
+description:
+  hook: Unverified claims on feature flag tool pages get ignored by AI answer engines.
+  answer: To get cited, link every figure and statement directly to its primary source so answer engines can verify your data.
+  sources:
+  - 'The Citable Passage Standard: https://archanacontent.github.io/asked/standard/'
+seo:
+  seeds:
+  - feature flag tools AEO
+  - The Citable Passage Standard
+  - Source The Facts GEO
+  - generative engine optimization
+series: The Fix
+record_id: fix:source-the-facts:feature flag tools
+auto: true
+instagram_hashtags_rotating: []

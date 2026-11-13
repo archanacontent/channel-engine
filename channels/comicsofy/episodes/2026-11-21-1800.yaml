@@ -1,0 +1,82 @@
+format: strip
+kind: reel
+title: The Friday the 13th Myth
+premise: Pim worries about black cat superstitions on Friday the 13th, only for Soot to reveal he started the rumor for privacy.
+panels:
+- room: living_room
+  cast:
+  - who: Pim
+    mood: nervous
+    pos: left
+    size: medium
+  - who: Soot
+    mood: flat
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: Today is Friday the 13th!
+  - who: Pim
+    text: People say black cats bring bad luck!
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: sad
+    pos: left
+    size: medium
+  - who: Soot
+    mood: flat
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: Are you sad everyone avoids you today?
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: surprised
+    pos: left
+    size: medium
+  - who: Soot
+    mood: smug
+    pos: right
+    size: medium
+  lines:
+  - who: Soot
+    text: I started that rumor.
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: nervous
+    pos: left
+    size: medium
+  - who: Soot
+    mood: flat
+    pos: right
+    size: medium
+  lines:
+  - who: Soot
+    text: Best personal space trick ever.
+  props: []
+caption: 'Soot playing the long game for personal space.
+
+  .
+
+  .
+
+  .
+
+  #comics #cartoon #digitalart #webcomic #comicbooks
+
+  comic | drawing | art | illustration | artist | sketch
+
+  #cartoonist #comicart #comicbook #funnycomics #draw #artwork #catcomics #comicstrip #funny #relatable #artistsoninstagram #comicsofy #doodle #webtoon #viral #viralcomics #explorepage #pimandsoot #fridaythe13th #blackcat #catlife'
+description:
+  summary: Soot playing the long game for personal space.
+series: Pim and Soot Reel
+record_id: strip:reel:1794587144029595603:0
+auto: true
+instagram_hashtags_rotating: []

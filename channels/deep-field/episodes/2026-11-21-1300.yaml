@@ -1,0 +1,55 @@
+skip: false
+title: 'AT 2016blu: what just happened'
+beats:
+- say: Astronomers discovered what triggers repeated outbursts from a giant unstable star named A T twenty sixteen b l u.
+  caption: Astronomers discovered what triggers repeated outbursts from a giant unstable star named AT 2016blu.
+  scene:
+    type: headline
+    text: Outbursts from a Massive Star
+  highlight:
+  - giant unstable star
+- say: The volatile star sits in the spiral galaxy N G C forty five fifty nine, located thirty million light years from Earth.
+  caption: The volatile star sits in the spiral galaxy NGC 4559, located 30 million light years from Earth.
+  scene:
+    type: stat
+    value: 30 million light years
+    label: Star Details
+  highlight:
+  - spiral galaxy NGC 4559
+- say: Researchers estimate the mass of this star is at least thirty three times that of the Sun.
+  caption: Researchers estimate the mass of this star is at least 33 times that of the Sun.
+  scene:
+    type: stat
+    label: Solar Masses
+    value: 33x
+  highlight:
+  - at least 33 times
+- say: Data from NASA Chandra X ray Observatory revealed the mechanism behind these powerful cosmic eruptions.
+  caption: Data from NASA Chandra X-ray Observatory revealed the mechanism behind these powerful cosmic eruptions.
+  scene:
+    type: image
+    credit: NASA/CXC/Univ. of Virginia/M. Aghakhanloo et al.
+  highlight:
+  - Chandra X-ray Observatory
+- say: Source in the description.
+  caption: Source in the description.
+  scene:
+    type: cta
+    line: Discover more space science
+    subline: Source in the description
+  highlight:
+  - Source in the description
+description:
+  explainer: Astronomers using NASA Chandra X-ray Observatory discovered what triggers repeated outbursts from AT 2016blu, a massive star located 30 million light-years away in galaxy NGC 4559.
+  sources:
+  - 'NASA: https://www.nasa.gov/image-article/outbursts-from-a-massive-star/'
+seo:
+  seeds:
+  - AT 2016blu star outbursts
+  - NASA Chandra X ray Observatory massive star
+  - NGC 4559 galaxy star mass
+skip_reason: ''
+series: Mission Log
+record_id: nasanews:https://www.nasa.gov/image-article/outbursts-from-a-massive-star/
+auto: true
+instagram_hashtags_rotating: []

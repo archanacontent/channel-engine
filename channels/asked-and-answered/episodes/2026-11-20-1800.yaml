@@ -1,0 +1,66 @@
+skip: false
+title: 'AI search in 2026: Gemini 4 Hydrogen default'
+beats:
+- say: Google just made Gemini 4 Hydrogen the global default model in A I Mode.
+  caption: Google just made Gemini 4 Hydrogen the global default model in AI Mode.
+  scene:
+    type: headline
+    kicker: AI SEARCH UPDATE
+    text: Google Makes Gemini 4 Hydrogen Default in AI Mode
+  highlight:
+  - Gemini 4 Hydrogen
+  - AI Mode
+- say: Search Engine Journal reports the model improves query fan out to execute subtopic searches simultaneously.
+  caption: Search Engine Journal reports the model improves query fan-out to execute subtopic searches simultaneously.
+  scene:
+    type: flow
+    steps:
+    - title: User Prompt
+      note: Multi-part inquiry
+    - title: Query Fan-Out
+      note: Simultaneous subtopic queries
+    - title: Broader Links
+      note: Uncovered websites
+  highlight:
+  - Search Engine Journal
+  - query fan-out
+- say: Google states this connects users to a broader range of links they might never find otherwise.
+  caption: Google states this connects users to a broader range of links they might never find otherwise.
+  scene:
+    type: quote
+    text: Connecting you to a broader range of helpful links than before.
+    title: Google Search Announcement
+  highlight:
+  - broader range of links
+- say: Robby Stein noted Hydrogen is also handling your hardest questions in A I Overviews.
+  caption: Robby Stein noted Hydrogen is also handling your hardest questions in AI Overviews.
+  scene:
+    type: stat
+    value: Hydrogen Default
+    label: Gemini 4 Models
+  highlight:
+  - hardest questions
+  - AI Overviews
+- say: Source in the description.
+  caption: Source in the description.
+  scene:
+    type: cta
+    line: Master AI Visibility
+    subline: Source in the description.
+  highlight:
+  - Source in the description
+description:
+  hook: Google has made Gemini 4 Hydrogen the global default model in AI Mode.
+  answer: The change improves query fan-out across subtopics, showing a broader range of web links to users.
+  sources:
+  - 'Google Makes Gemini 4 Hydrogen The Default Model In AI Mode via @sejournal, @MattGSouthern: https://www.searchenginejournal.com/google-gemini-4-hydrogen-default-ai-mode/597096/'
+seo:
+  seeds:
+  - Google Gemini 4 Hydrogen
+  - AI Mode default model
+  - query fan out AI search
+  - 'AI Overviews update 2026cluster navigation logic implementation overview:'
+series: Trend Check
+record_id: news:https://www.searchenginejournal.com/google-gemini-4-hydrogen-default-ai-mode/597096/
+auto: true
+instagram_hashtags_rotating: []

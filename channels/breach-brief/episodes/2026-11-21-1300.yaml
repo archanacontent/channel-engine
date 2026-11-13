@@ -1,0 +1,63 @@
+skip: false
+title: 'Exploited now: Google Brotli CVE-2026-111497'
+beats:
+- say: Critical vulnerability in Google Brotli allows remote code execution right now.
+  caption: Critical vulnerability in Google Brotli allows remote code execution right now.
+  scene:
+    type: headline
+    text: Critical vulnerability in Google Brotli allows remote code execution
+  highlight:
+  - Google Brotli
+  - remote code execution
+- say: The vulnerability is C V E two thousand twenty six one one one four nine seven. It was added to the C I S A catalog on October twenty seventh.
+  caption: The vulnerability is CVE-2026-111497. It was added to the CISA catalog on October 27.
+  scene:
+    type: stat
+    value: CVE-2026-111497
+    label: Vulnerability Details
+  highlight:
+  - CVE-2026-111497
+- say: This buffer overflow affects versions one point zero point three through one point two point zero. It carries a critical C V S S score of nine point two.
+  caption: This buffer overflow affects versions 1.0.3 through 1.2.0. It carries a critical CVSS score of 9.2.
+  scene:
+    type: headline
+    value: 9.2 / 10.0 Base Score
+    kicker: ''
+    text: 9.2 / 10.0 Base Score
+  highlight:
+  - '9.2'
+  - buffer overflow
+- say: Attackers can corrupt decoder memory or execute arbitrary code. Update your Brotli libraries to version one point zero point ten, one point one point one, or one point two point one immediately.
+  caption: Attackers can corrupt decoder memory or execute arbitrary code. Update your Brotli libraries to version 1.0.10, 1.1.1, or 1.2.1 immediately.
+  scene:
+    type: list
+    title: Required Actions
+    items:
+    - Update Brotli Libraries
+  highlight:
+  - Update your Brotli libraries
+- say: Discontinue use of the product if mitigations remain unavailable. Sources are in the description.
+  caption: Discontinue use of the product if mitigations remain unavailable. Sources are in the description.
+  scene:
+    type: cta
+    line: Sources in description
+    subline: Patch or discontinue use immediately
+  highlight:
+  - Discontinue use
+description:
+  summary: A critical buffer overflow in Google Brotli allows remote code execution and memory corruption. This flaw impacts the decoder state memory.
+  affected: Google Brotli versions 1.0.3 through 1.2.0.
+  action: Update to version 1.0.10, 1.1.1, or 1.2.1 immediately.
+  sources:
+  - 'CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog'
+  - 'NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-111497'
+seo:
+  seeds:
+  - Google Brotli vulnerability
+  - CVE-2026-111497 fix
+  - Brotli buffer overflow
+  - CISA KEV update
+series: Exploited Today
+record_id: kev:CVE-2026-111497
+auto: true
+instagram_hashtags_rotating: []

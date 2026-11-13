@@ -1,0 +1,82 @@
+format: strip
+kind: image
+title: Unlucky Day
+premise: Pim panics about bad luck on Friday the 13th, so he tries to avoid all potential jinxes with absurd logic.
+panels:
+- room: living_room
+  cast:
+  - who: Pim
+    mood: nervous
+    pos: left
+    size: medium
+  - who: Soot
+    mood: flat
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: It is Friday the 13th, Soot!
+  - who: Pim
+    text: We must be extra careful today.
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: determined
+    pos: left
+    size: medium
+  - who: Soot
+    mood: flat
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: I am avoiding bad luck at all costs!
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: nervous
+    pos: left
+    size: medium
+  - who: Soot
+    mood: flat
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: I skipped three floorboards and spoke in whispers!
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: surprised
+    pos: left
+    size: medium
+  - who: Soot
+    mood: smug
+    pos: right
+    size: medium
+  lines:
+  - who: Soot
+    text: You are floating.
+  props: []
+caption: 'Friday the 13th is only scary if you let the floorboards win.
+
+  .
+
+  .
+
+  .
+
+  #comics #cartoon #digitalart #webcomic #comicbooks
+
+  comic | drawing | art | illustration | artist | sketch
+
+  #cartoonist #comicart #comicbook #funnycomics #draw #artwork #catcomics #comicstrip #funny #relatable #artistsoninstagram #comicsofy #doodle #webtoon #viral #viralcomics #explorepage #pimandsoot #friday13th #ghosts #cutecomics #relatablehumor'
+description:
+  summary: Friday the 13th is only scary if you let the floorboards win.
+series: Pim and Soot Comic
+record_id: strip:image:1794586853756423505:0
+auto: true
+instagram_hashtags_rotating: []

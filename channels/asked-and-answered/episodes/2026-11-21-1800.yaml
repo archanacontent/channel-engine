@@ -1,0 +1,81 @@
+skip: false
+skip_reason: ''
+title: 'AI search in 2026: checkout inside AI Mode'
+beats:
+- say: Google's Universal Commerce Protocol allows shoppers to buy products directly inside Gemini and AI Mode.
+  caption: Google's Universal Commerce Protocol allows shoppers to buy products directly inside Gemini and AI Mode.
+  highlight:
+  - buy products directly inside Gemini
+  scene:
+    type: headline
+    text: Checkout inside AI Mode
+- say: Search Engine Journal reports that users can now research and purchase without ever visiting a merchant website.
+  caption: Search Engine Journal reports that users can now research and purchase without ever visiting a merchant website.
+  highlight:
+  - research and purchase without ever visiting
+  scene:
+    type: quote
+    text: Users can research and buy without visiting the merchant's site.
+    highlight:
+    - research and buy without visiting
+- say: This shift threatens the traditional affiliate model that relies on link clicks to set cookies.
+  caption: This shift threatens the traditional affiliate model that relies on link clicks to set cookies.
+  highlight:
+  - threatens the traditional affiliate model
+  scene:
+    type: compare
+    left_label: Traditional Affiliate
+    left_text: User clicks link to set cookie
+    right_label: AI Mode Checkout
+    right_text: User buys without clicking link
+- say: Affiliate links still matter because they add levels of tracking security.
+  caption: Affiliate links still matter because they add levels of tracking security.
+  highlight:
+  - links still matter
+  - tracking security
+  scene:
+    type: card
+    title: Why links still matter
+    rows:
+    - - Tracking Security
+      - Provides extra layer
+    - - Method
+      - IP hashing and vanity codes
+- say: B2B marketers should use multiple ways to monetize and work with brands that focus on more than just links.
+  caption: B2B marketers should use multiple ways to monetize and work with brands that focus on more than just links.
+  highlight:
+  - multiple ways to monetize
+  scene:
+    type: list
+    title: Affiliate Strategy
+    items:
+    - Use multiple monetization ways
+    - Protect vanity codes
+    - Work with brand partners
+    style: check
+- say: Source in the description.
+  caption: Source in the description.
+  highlight:
+  - Source in the description
+  scene:
+    type: cta
+    line: Master AI visibility
+    subline: Source in the description.
+description:
+  hook: Google's Universal Commerce Protocol allows direct checkout inside Gemini and AI Mode.
+  answer: Affiliate marketing survives through increased tracking security and diversified monetization strategies.
+  sources:
+  - 'Does The Affiliate Model Survive Checkout Inside AI Mode And Gemini? – Ask An SEO via @sejournal, @rollerblader: https://www.searchenginejournal.com/does-the-affiliate-model-survive-checkout-inside-ai-mode-and-gemini-ask-an-seo/585080/'
+seo:
+  seeds:
+  - Google Universal Commerce Protocol
+  - Gemini AI Mode checkout
+  - affiliate marketing AI search
+  - AEO for affiliate marketers
+  hashtags:
+  - '#AISearch'
+  - '#AffiliateMarketing'
+series: Trend Check
+record_id: news:https://www.searchenginejournal.com/does-the-affiliate-model-survive-checkout-inside-ai-mode-and-gemini-ask-an-seo/585080/
+auto: true
+instagram_hashtags_rotating: []

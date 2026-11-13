@@ -1,0 +1,76 @@
+skip: false
+skip_reason: ''
+title: 'Scam alert: imposter ads'
+beats:
+- say: Scammers pay for ads that impersonate well known businesses or government agencies.
+  caption: Scammers pay for ads that impersonate well known businesses or government agencies.
+  highlight:
+  - impersonate well known businesses
+  - government agencies
+  scene:
+    type: headline
+    text: Imposter Ads are Rising
+- say: These fake ads appear in your social media feed, search results, and shopping platforms.
+  caption: These fake ads appear in your social media feed, search results, and shopping platforms.
+  highlight:
+  - social media feed
+  - search results
+  - shopping platforms
+  scene:
+    type: list
+    title: Where they appear
+    items:
+    - Social media feeds
+    - Search engine results
+    - Shopping platforms
+    style: bullet
+- say: They use search optimization tools to target you based on age and browsing history.
+  caption: They use search optimization tools to target you based on age and browsing history.
+  highlight:
+  - search optimization tools
+  - target you
+  scene:
+    type: card
+    title: Targeting Methods
+    rows:
+    - - Criteria
+      - Age and browsing history
+    - - Mechanism
+      - Search optimization tools
+- say: Verify that federal government websites end in dot gov or dot mil and use h t t p s to ensure encryption.
+  caption: Verify that federal government websites end in .gov or .mil and use https to ensure encryption.
+  highlight:
+  - end in .gov or .mil
+  - use https
+  scene:
+    type: compare
+    left_label: Official Government
+    left_text: Ends in .gov or .mil
+    right_label: Secure Connection
+    right_text: Uses https
+- say: More in the FTC alert linked in the description.
+  caption: More in the FTC alert linked in the description.
+  highlight:
+  - FTC alert
+  scene:
+    type: cta
+    line: Stay Alert
+    subline: Check the FTC link below
+description:
+  summary: Scammers are using paid ads to impersonate legitimate businesses and government agencies.
+  affected: Users on social media, search engines, and shopping platforms.
+  action: Verify websites end in .gov or .mil and use https before sharing sensitive information.
+  sources:
+  - 'FTC consumer alert: https://consumer.ftc.gov/consumer-alerts/2026/11/tell-ftc-about-imposter-ads-online'
+seo:
+  seeds:
+  - FTC imposter ad scam
+  - how to spot fake ads
+  - government website verification
+  hashtags:
+  - '#ScamAlert'
+  - '#Cybersecurity'
+series: Scam Alert
+record_id: ftc:/consumer-alerts/2026/11/tell-ftc-about-imposter-ads-online
+auto: true
+instagram_hashtags_rotating: []
