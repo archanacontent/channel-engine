@@ -23,7 +23,7 @@ import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
 CATALOG = yaml.safe_load((ROOT / "sources" / "catalog.yaml").read_text())
-UA = "ChannelEngine/1.0 (creativecontent707@gmail.com)"
+UA = "ChannelEngine/1.0 (103558334+archanacontent@users.noreply.github.com)"
 
 
 def get(url, headers=None, timeout=25):

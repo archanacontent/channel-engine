@@ -66,7 +66,7 @@ def fetch_image(rec):
     name = re.sub(r"[^A-Za-z0-9._-]+", "_", rec["id"].split(":", 1)[1])
     path = CACHE / (Path(name).stem + ".jpg")
     if not path.exists():
-        req = urllib.request.Request(rec["image_url"], headers={"User-Agent": "ChannelEngine/1.0 (creativecontent707@gmail.com)"})
+        req = urllib.request.Request(rec["image_url"], headers={"User-Agent": "ChannelEngine/1.0 (103558334+archanacontent@users.noreply.github.com)"})
         img = Image.open(io.BytesIO(urllib.request.urlopen(req, timeout=120).read())).convert("RGB")
         img.save(path, quality=92)
     return path

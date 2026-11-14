@@ -1,5 +1,5 @@
 import json, urllib.request, urllib.parse
-UA = {"User-Agent": "ChannelEngine/1.0 (creativecontent707@gmail.com)"}
+UA = {"User-Agent": "ChannelEngine/1.0 (103558334+archanacontent@users.noreply.github.com)"}
 API = "https://commons.wikimedia.org/w/api.php?"
 def q(**p):
     p.update(format="json", action="query")

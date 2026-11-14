@@ -10,7 +10,7 @@ import re
 import urllib.parse
 import urllib.request
 
-UA = "ChannelEngine/1.0 (creativecontent707@gmail.com)"
+UA = "ChannelEngine/1.0 (103558334+archanacontent@users.noreply.github.com)"
 API = "https://commons.wikimedia.org/w/api.php?"
 DATE = re.compile(r"(1[89]\d\d)[-_ .](\d\d)[-_ .](\d\d)")
 
