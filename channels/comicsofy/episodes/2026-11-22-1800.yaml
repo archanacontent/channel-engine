@@ -1,0 +1,82 @@
+format: strip
+kind: reel
+title: Strict Relaxation
+premise: Pim tries to write a weekend schedule that consists entirely of relaxing activities, but gets anxious about staying on track.
+panels:
+- room: living_room
+  cast:
+  - who: Pim
+    mood: excited
+    pos: left
+    size: medium
+  - who: Soot
+    mood: flat
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: I made a strict weekend schedule!
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: determined
+    pos: left
+    size: medium
+  - who: Soot
+    mood: flat
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: '1:00 PM: Cozy nap.'
+  - who: Pim
+    text: '2:00 PM: Deep rest.'
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: nervous
+    pos: left
+    size: medium
+  - who: Soot
+    mood: sleeping
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: Oh no. We are behind on napping!
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: surprised
+    pos: left
+    size: medium
+  - who: Soot
+    mood: pleased
+    pos: right
+    size: medium
+  lines:
+  - who: Soot
+    text: I am ahead.
+  props: []
+caption: 'Saturday schedules are non-negotiable.
+
+  .
+
+  .
+
+  .
+
+  #comics #cartoon #digitalart #webcomic #comicbooks
+
+  comic | drawing | art | illustration | artist | sketch
+
+  #cartoonist #comicart #comicbook #funnycomics #draw #artwork #catcomics #comicstrip #funny #relatable #artistsoninstagram #comicsofy #doodle #webtoon #viral #viralcomics #explorepage #pimandsoot #ghost'
+description:
+  summary: Saturday schedules are non-negotiable.
+series: Pim and Soot Reel
+record_id: strip:reel:1794669036582229481:0
+auto: true
+instagram_hashtags_rotating: []

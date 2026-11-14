@@ -1,0 +1,67 @@
+skip: false
+title: 'AI search in 2026: ChatGPT Business Hub Analytics'
+beats:
+- say: Open AI opened ChatGPT Business Hub in beta to show your brand mentions and website clicks.
+  caption: OpenAI opened ChatGPT Business Hub in beta to show your brand mentions and website clicks.
+  scene:
+    type: headline
+    kicker: New Data
+    text: ChatGPT Business Hub opens in beta
+  highlight:
+  - ChatGPT Business Hub
+  - ' brand mentions'
+  - website clicks
+- say: Search Engine Journal reported on Open AI's update, which provides insights aggregated over the past twenty eight days.
+  caption: Search Engine Journal reported on OpenAI's update, which provides insights aggregated over the past 28 days.
+  scene:
+    type: stat
+    value: 28 Days Data Analytics
+    label: Business Hub Insights
+  highlight:
+  - Search Engine Journal
+  - past 28 days
+- say: A mention only counts when ChatGPT references your website URL, not just your brand name.
+  caption: A mention only counts when ChatGPT references your website URL, not just your brand name.
+  scene:
+    type: compare
+    left_label: Brand Name Only
+    left_text: Does not count
+    right_label: Website URL Cited
+    right_text: Counts as mention
+  highlight:
+  - references your website URL
+  - not just your brand name
+- say: Search Engine Journal logged three hundred fifty three thousand mentions and two thousand six hundred sixty three clicks.
+  caption: Search Engine Journal logged 353,356 mentions and 2,663 clicks.
+  scene:
+    type: headline
+    value: 353,356 Mentions & 2,663 Clicks
+    kicker: ''
+    text: 353,356 Mentions & 2,663 Clicks
+  highlight:
+  - 353,356 mentions
+  - 2,663 clicks
+- say: Claiming your business profile will not guarantee increased visibility in ChatGPT answers. Source in the description.
+  caption: Claiming your business profile will not guarantee increased visibility in ChatGPT answers. Source in the description.
+  scene:
+    type: cta
+    line: Source in the description.
+    subline: Claiming profile does not guarantee visibility
+  highlight:
+  - will not guarantee increased visibility
+description:
+  hook: OpenAI released ChatGPT Business Hub in beta to show businesses how often ChatGPT mentions their websites and sends clicks.
+  answer: Search Engine Journal reported that mentions only count when ChatGPT references a business website, and claiming a business profile does not guarantee increased visibility.
+  sources:
+  - 'Core Update, ChatGPT Business Hub & AI Mode’s New Model – SEO Pulse via @sejournal, @MattGSouthern: https://www.searchenginejournal.com/seo-pulse-core-update-chatgpt-business-hub-ai-modes-new-model/597135/'
+seo:
+  seeds:
+  - ChatGPT Business Hub analytics
+  - how to see ChatGPT website clicks
+  - Search Engine Journal AI search news
+  - 'ChatGPT brand mentions tracking 2026 '
+skip_reason: ''
+series: Trend Check
+record_id: news:https://www.searchenginejournal.com/seo-pulse-core-update-chatgpt-business-hub-ai-modes-new-model/597135/
+auto: true
+instagram_hashtags_rotating: []

@@ -1,0 +1,68 @@
+skip: false
+title: 'Buyers ask AI: Data warehouse vs data lake'
+beats:
+- say: Buyers ask AI to explain data warehouse versus data lake before selecting enterprise architecture.
+  caption: Buyers ask AI to explain data warehouse versus data lake before selecting enterprise architecture.
+  scene:
+    type: headline
+    kicker: Buyers Ask AI
+    text: Data Warehouse vs Data Lake
+  highlight: []
+- say: Answer engines look for crisp structural definitions when generating comparisons.
+  caption: Answer engines look for crisp structural definitions when generating comparisons.
+  scene:
+    type: compare
+    left_label: Structured
+    left_text: Data Warehouse for analytical queries.
+    right_label: Raw
+    right_text: Data Lake for unstructured storage.
+  highlight:
+  - crisp structural definitions
+- say: Your architecture page must explicitly state why a warehouse handles structured analytics while a lake holds raw data.
+  caption: Your architecture page must explicitly state why a warehouse handles structured analytics while a lake holds raw data.
+  scene:
+    type: list
+    items:
+    - Define relational query structure
+    - Define raw storage capabilities
+    - Explain unified lakehouse architecture
+    style: check
+    title: Page Requirements
+  highlight:
+  - handles structured analytics
+  - holds raw data
+- say: Without explicit side-by-side criteria, generative search engines cite competing documentation instead.
+  caption: Without explicit side-by-side criteria, generative search engines cite competing documentation instead.
+  scene:
+    type: quote
+    highlight:
+    - explicit side-by-side criteria
+    text: Answer engines require explicit structural differences to quote a vendor page.
+  highlight:
+  - side-by-side criteria
+- say: Find your buyers' questions with Asked, link on our channel page.
+  caption: Find your buyers' questions with Asked, link on our channel page.
+  scene:
+    type: cta
+    line: Find your buyers' questions
+    subline: Link on our channel page
+  highlight:
+  - Find your buyers' questions
+description:
+  hook: Buyers frequently ask AI search engines to compare a data warehouse versus a data lake.
+  answer: To earn the AI citation, pages must directly define structured analytical processing versus raw data storage capabilities.
+  sources:
+  - 'Asked, free AEO and GEO question finder: https://archanacontent.github.io/asked/'
+seo:
+  hashtags:
+  - '#DataWarehouse'
+  - '#DataLake'
+  seeds:
+  - data warehouse vs data lake
+  - what is data warehouse
+  - how to choose data warehouse
+  - best data warehouse for ai
+series: Buyers Asked
+record_id: asked:data warehouse
+auto: true
+instagram_hashtags_rotating: []

@@ -1,0 +1,91 @@
+format: strip
+kind: image
+title: Early Holiday Prep
+premise: Pim tries to get a head start on holiday gift shopping in mid-November and gets overwhelmed.
+panels:
+- room: living_room
+  cast:
+  - who: Pim
+    mood: determined
+    pos: left
+    size: medium
+    flip: false
+    holding: laptop
+  - who: Soot
+    mood: flat
+    pos: right
+    size: small
+    flip: false
+  lines:
+  - who: Pim
+    text: It is November fourteenth! Time for early holiday shopping!
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: nervous
+    pos: left
+    size: medium
+    flip: false
+    holding: laptop
+  - who: Soot
+    mood: flat
+    pos: right
+    size: small
+    flip: false
+  lines:
+  - who: Pim
+    text: There are so many choices. What if I pick wrong?
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: surprised
+    pos: left
+    size: medium
+    flip: false
+    holding: laptop
+  - who: Soot
+    mood: annoyed
+    pos: right
+    size: small
+    flip: false
+  lines:
+  - who: Pim
+    text: What do you want this year, Soot?
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: sad
+    pos: left
+    size: medium
+    flip: false
+  - who: Soot
+    mood: smug
+    pos: right
+    size: small
+    flip: false
+  lines:
+  - who: Soot
+    text: Close the laptop.
+  props: []
+caption: 'It is never too early to panic about buying gifts.
+
+  .
+
+  .
+
+  .
+
+  #comics #cartoon #digitalart #webcomic #comicbooks
+
+  comic | drawing | art | illustration | artist | sketch
+
+  #cartoonist #comicart #comicbook #funnycomics #draw #artwork #catcomics #comicstrip #funny #relatable #artistsoninstagram #comicsofy #doodle #webtoon #viral #viralcomics #explorepage #pimandsoot #webcomics #ghost'
+description:
+  summary: It is never too early to panic about buying gifts.
+series: Pim and Soot Comic
+record_id: strip:image:1794668635286298065:0
+auto: true
+instagram_hashtags_rotating: []

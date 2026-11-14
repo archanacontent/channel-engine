@@ -1,0 +1,69 @@
+skip: false
+skip_reason: ''
+title: 'Writing rule: Avoid figurative language'
+beats:
+- say: Figurative language makes technical documentation harder to translate and understand.
+  caption: Figurative language makes technical documentation harder to translate and understand.
+  highlight:
+  - harder to translate and understand
+  scene:
+    type: headline
+    text: Why figurative language fails
+- say: Metaphors can distract readers or lead to misinterpretation. Google developer documentation recommends using words in their primary sense to ensure precision.
+  caption: Metaphors can distract readers or lead to misinterpretation. Google developer documentation recommends using words in their primary sense to ensure precision.
+  highlight:
+  - distract readers
+  scene:
+    type: image
+    credit: Google developer documentation
+- say: The service is crippled until the queue clears. The service slows down until the queue clears.
+  caption: The service is crippled until the queue clears. The service slows down until the queue clears.
+  highlight:
+  - crippled
+  - slows down
+  scene:
+    type: compare
+    left_label: Not recommended
+    left_text: The service is crippled until the queue clears.
+    right_label: Recommended
+    right_text: The service slows down until the queue clears.
+- say: Avoid metaphors like pets versus cattle when comparing on-premises systems with stateless cloud systems. Stick to simple, precise terminology.
+  caption: Avoid metaphors like pets versus cattle when comparing on-premises systems with stateless cloud systems. Stick to simple, precise terminology.
+  highlight:
+  - Avoid metaphors
+  - Stick to simple, precise terminology
+  scene:
+    type: list
+    title: Precision over metaphor
+    items:
+    - Use primary word meanings
+    - Avoid confusing idioms
+    - Prioritize clear translation
+    - Use industry standards
+    style: bullet
+- say: Use simple language and terminology that is precise and clear for all of your audiences.
+  caption: Use simple language and terminology that is precise and clear for all of your audiences.
+  highlight:
+  - precise and clear
+  scene:
+    type: quote
+    text: Use simple language and terminology that is precise and clear for all of your audiences.
+    highlight:
+    - precise and clear
+description:
+  what_was_fixed: Metaphorical language like 'crippled' was replaced with precise descriptions of service performance.
+  rule: Avoid figurative language and metaphors to ensure documentation is clear and easy to translate.
+  sources:
+  - 'Google developer documentation: https://developers.google.com/style/inclusive-documentation'
+seo:
+  seeds:
+  - technical writing best practices
+  - how to write inclusive documentation
+  - avoiding metaphors in technical writing
+  hashtags:
+  - '#TechnicalWriting'
+  - '#Documentation'
+series: One Rule
+record_id: style:https://developers.google.com/style/inclusive-documentation
+auto: true
+instagram_hashtags_rotating: []

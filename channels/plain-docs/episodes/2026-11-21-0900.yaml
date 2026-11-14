@@ -1,0 +1,75 @@
+skip: false
+skip_reason: ''
+title: Fixing a real README in under a minute
+beats:
+- say: Manual adlist management creates messy, outdated DNS configurations.
+  caption: Manual adlist management creates messy, outdated DNS configurations.
+  highlight:
+  - Manual adlist management
+  - messy, outdated DNS configurations
+  scene:
+    type: headline
+    text: Stop manual adlist management
+- say: This README sentence is wordy and repetitive.
+  caption: This README sentence is wordy and repetitive.
+  highlight:
+  - wordy and repetitive
+  scene:
+    type: card
+    title: The Problem
+    rows:
+    - - Issue
+      - Wordy prose
+- say: Instead of manually collecting and maintaining multiple upstream blocklists, this project offers a single, easy to use source that can be added directly to your Pi hole deployment.
+  caption: Instead of manually collecting and maintaining multiple upstream blocklists, this project offers a single, easy-to-use source that can be added directly to your Pi-hole deployment.
+  highlight:
+  - Instead of manually collecting
+  - multiple upstream blocklists
+  scene:
+    type: compare
+    left_label: Original
+    left_text: Instead of manually collecting and maintaining multiple upstream blocklists, this project offers a single, easy-to-use source that can be added directly to your Pi-hole deployment.
+    right_label: Rewrite
+    right_text: Add this single source directly to your Pi-hole to avoid maintaining multiple upstream blocklists.
+- say: I removed the filler intro and focused on the action. The new version tells you exactly what to do.
+  caption: I removed the filler intro and focused on the action. The new version tells you exactly what to do.
+  highlight:
+  - removed the filler intro
+  - focused on the action
+  scene:
+    type: list
+    title: The Fix
+    items:
+    - Cut filler phrases
+    - Lead with action
+    - Reduce word count
+    style: check
+- say: Write for the user, not for the sentence.
+  caption: Write for the user, not for the sentence.
+  highlight:
+  - Write for the user
+  scene:
+    type: quote
+    text: Write for the user, not for the sentence.
+    highlight:
+    - Write for the user
+description:
+  what_was_fixed: This video fixes wordy prose in the pihole-adblock-lists README to make the value proposition clearer.
+  rule: Lead with the action to reduce cognitive load.
+  sources:
+  - 'r0xd4n3t/pihole-adblock-lists README (MIT): https://github.com/r0xd4n3t/pihole-adblock-lists'
+  source_link: https://github.com/r0xd4n3t/pihole-adblock-lists
+  license: MIT
+seo:
+  seeds:
+  - technical writing tips
+  - how to write better documentation
+  - README optimization
+  - technical writing for beginners
+  hashtags:
+  - '#TechWriting'
+  - '#Documentation'
+series: Rewrite This
+record_id: repo:r0xd4n3t/pihole-adblock-lists
+auto: true
+instagram_hashtags_rotating: []

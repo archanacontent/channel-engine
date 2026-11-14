@@ -1,0 +1,72 @@
+skip: false
+skip_reason: ''
+title: 'What you''re looking at: SPHEREx wide field view'
+beats:
+- say: This image shows a rectangular area of sky twenty times wider than the full Moon.
+  caption: This image shows a rectangular area of sky 20 times wider than the full Moon.
+  highlight: []
+  scene:
+    type: image
+    credit: NASA/JPL
+- say: The S P H E R E x observatory captures light that is invisible to the human eye.
+  caption: The SPHEREx observatory captures light that is invisible to the human eye.
+  highlight:
+  - invisible to the human eye
+  scene:
+    type: headline
+    text: Detecting invisible infrared light
+- say: Each detector uses special filters to capture seventeen unique infrared wavelength bands.
+  caption: Each detector uses special filters to capture 17 unique infrared wavelength bands.
+  highlight: []
+  scene:
+    type: card
+    title: Detector Capabilities
+    rows:
+    - - Wavelength bands
+      - '17'
+    - - Total hues
+      - '102'
+    - - Sources per image
+      - 100,000+
+- say: By breaking down these colors, scientists can reveal the composition of an object or the distance to a galaxy.
+  caption: By breaking down these colors, scientists can reveal the composition of an object or the distance to a galaxy.
+  highlight:
+  - reveal the composition
+  - distance to a galaxy
+  scene:
+    type: flow
+    steps:
+    - title: Capture
+      note: Infrared wavelengths
+    - title: Analyze
+      note: Color breakdown
+    - title: Discover
+      note: Composition and distance
+- say: Image credit in the description.
+  caption: Image credit in the description.
+  highlight: []
+  scene:
+    type: cta
+    line: Follow Space Science
+    subline: For daily cosmic discoveries
+description:
+  explainer: This is a wide field view of the sky captured by NASA's SPHEREx mission. The observatory uses infrared light to study the history of the universe and the origins of water.
+  sources:
+  - 'NASA Image and Video Library: https://images.nasa.gov/details/PIA26280'
+  credit: NASA
+seo:
+  seeds:
+  - NASA SPHEREx mission
+  - infrared sky images
+  - SPHEREx wide field view
+  - how infrared telescopes work
+  hashtags:
+  - '#SpaceScience'
+  - '#NASA'
+series: Look Closer
+record_id: nasa:PIA26280
+auto: true
+instagram_hashtags_rotating: []
+media:
+  image: /home/runner/work/channel-engine/channel-engine/collected/deep-field/media/2026-11-22-0900.jpg
+  credit: NASA

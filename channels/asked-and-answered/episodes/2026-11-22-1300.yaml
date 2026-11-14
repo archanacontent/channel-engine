@@ -1,0 +1,71 @@
+skip: false
+title: 'Fix this so AI cites you: One Question Per Section'
+beats:
+- say: AI search engines ignore pages when a single section attempts to answer multiple buyer questions at once.
+  caption: AI search engines ignore pages when a single section attempts to answer multiple buyer questions at once.
+  scene:
+    type: headline
+    kicker: AEO Structure
+    text: Answer Engines Ignore Bundled Sections
+  highlight:
+  - ignore pages
+  - multiple buyer questions
+- say: Under the Citable Passage Standard by Archana Panda, each section must answer a single question fully without dragging in unrelated details.
+  caption: Under the Citable Passage Standard by Archana Panda, each section must answer a single question fully without dragging in unrelated details.
+  scene:
+    type: list
+    title: Citable Passage Standard
+    items:
+    - Rule breakdown context structure for AI citations and clean extractions from B2B vendor content pages for buyer search engines and AI assistants looking for concise answers.
+  highlight:
+  - Citable Passage Standard
+  - Archana Panda
+  - answer a single question fully
+- say: 'Weak line: Our contract management software handles drafting, e-signatures, and auto-renewals. Fix: Our contract management software tracks auto-renewal deadlines automatically.'
+  caption: 'Weak line: Our contract management software handles drafting, e-signatures, and auto-renewals. Fix: Our contract management software tracks auto-renewal deadlines automatically.'
+  scene:
+    type: compare
+    left_label: Weak Structure
+    left_text: Our contract management software handles drafting, e-signatures, and auto-renewals.
+    right_label: Citable Fix
+    right_text: Our contract management software tracks auto-renewal deadlines automatically.
+  highlight:
+  - Weak line
+  - Fix
+- say: A single focused answer gives generative engines a clear quote to cite directly.
+  caption: A single focused answer gives generative engines a clear quote to cite directly.
+  scene:
+    type: flow
+    steps:
+    - title: Single Topic
+      note: One focused question
+    - title: Clear Answer
+      note: No extra clutter
+    - title: AI Citation
+      note: Extracted cleanly
+  highlight:
+  - single focused answer
+  - clear quote to cite
+- say: The full standard is linked on our channel page.
+  caption: The full standard is linked on our channel page.
+  scene:
+    type: cta
+    line: Master AI Visibility
+    subline: The full standard is linked on our channel page.
+  highlight:
+  - linked on our channel page
+description:
+  hook: AI search engines skip web sections that try to answer multiple questions at once.
+  answer: Structuring contract management software pages with one question per section ensures AI models can extract clean citations.
+  sources:
+  - 'The Citable Passage Standard: https://archanacontent.github.io/asked/standard/'
+seo:
+  seeds:
+  - contract management software AEO
+  - citable passage standard
+  - generative engine optimization B2B
+  - answer engine optimization
+series: The Fix
+record_id: fix:one-question:contract management software
+auto: true
+instagram_hashtags_rotating: []

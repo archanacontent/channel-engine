@@ -1,0 +1,76 @@
+skip: false
+skip_reason: ''
+title: Can you automate competitor email analysis?
+beats:
+- say: Can you automate competitor email analysis? Yes.
+  caption: Can you automate competitor email analysis? Yes.
+  highlight:
+  - automate competitor email analysis
+  scene:
+    type: headline
+    text: Automate Competitor Email Analysis
+- say: Manually reading newsletters and logging insights into sheets takes hours every week. Instead, an n eight n workflow runs daily at nine A M to fetch competitor newsletters from Gmail.
+  caption: Manually reading newsletters and logging insights into sheets takes hours every week. Instead, an n8n workflow runs daily at 9:00 AM to fetch competitor newsletters from Gmail.
+  highlight:
+  - takes hours every week
+  - runs daily at 9:00 AM
+  scene:
+    type: compare
+    left_label: Manual
+    left_text: Hours spent reading and logging
+    right_label: Automated
+    right_text: Runs daily at 9:00 AM
+- say: The system checks your Google Sheets to skip already processed Message I Ds. It then sends the cleaned email text to Anthropic Claude to extract structured insights and response ideas based on your specific brand context.
+  caption: The system checks your Google Sheets to skip already processed Message IDs. It then sends the cleaned email text to Anthropic Claude to extract structured insights and response ideas based on your specific brand context.
+  highlight:
+  - skip already processed Message IDs
+  - extract structured insights
+  scene:
+    type: flow
+    steps:
+    - title: Filter
+      note: Skip processed Message IDs
+    - title: Analyze
+      note: Claude extracts insights
+    - title: Log
+      note: Append to Google Sheets
+- say: The workflow appends the data to Google Sheets and marks the Gmail message as read with an Analyzed label. This ensures no email is analyzed twice.
+  caption: The workflow appends the data to Google Sheets and marks the Gmail message as read with an Analyzed label. This ensures no email is analyzed twice.
+  highlight:
+  - appends the data
+  - marks the Gmail message as read
+  scene:
+    type: list
+    title: Final Steps
+    items:
+    - Append to Google Sheets
+    - Mark as read
+    - Apply Analyzed label
+    style: check
+- say: Template link in the description.
+  caption: Template link in the description.
+  highlight:
+  - Template link
+  scene:
+    type: cta
+    line: Get the workflow
+    subline: Template link in the description.
+description:
+  task_line: You can automate the process of tracking and analyzing competitor marketing emails.
+  tools: n8n, Gmail, Google Sheets, Anthropic Claude
+  sources:
+  - 'n8n template: https://n8n.io/workflows/20616'
+  template_link: https://n8n.io/workflows/20616
+seo:
+  seeds:
+  - automate competitor research
+  - n8n marketing automation
+  - competitor email analysis workflow
+  - Claude AI marketing automation
+  hashtags:
+  - '#MarketingAutomation'
+  - '#n8n'
+series: Can It Be Automated?
+record_id: n8n:20616
+auto: true
+instagram_hashtags_rotating: []

@@ -1,0 +1,79 @@
+skip: false
+skip_reason: ''
+title: 'Free workflow: Marketing data collection on autopilot'
+beats:
+- say: Manual data collection from RSS feeds and datasets wastes hours every week.
+  caption: Manual data collection from RSS feeds and datasets wastes hours every week.
+  highlight:
+  - Manual data collection
+  - wastes hours
+  scene:
+    type: headline
+    text: Stop manual data collection
+- say: This n eight n library pick pulls from four RSS feeds and two Hugging Face datasets.
+  caption: This n8n library pick pulls from four RSS feeds and two Hugging Face datasets.
+  highlight:
+  - four RSS feeds
+  - two Hugging Face datasets
+  scene:
+    type: card
+    title: Data Sources
+    rows:
+    - - RSS Feeds
+      - '4'
+    - - Hugging Face Datasets
+      - '2'
+- say: The workflow fetches ad copy and campaign performance data, strips HTML from RSS summaries, and maps everything to one schema.
+  caption: The workflow fetches ad copy and campaign performance data, strips HTML from RSS summaries, and maps everything to one schema.
+  highlight:
+  - strips HTML
+  - maps everything to one schema
+  scene:
+    type: flow
+    steps:
+    - title: Fetch Sources
+      note: RSS and Hugging Face
+    - title: Normalize
+      note: Strip HTML and map schema
+    - title: Quality Check
+      note: Remove duplicates and empty records
+- say: It outputs a clean CSV and a JSON report showing per-source health and completeness metrics.
+  caption: It outputs a clean CSV and a JSON report showing per-source health and completeness metrics.
+  highlight:
+  - clean CSV
+  - JSON report
+  scene:
+    type: list
+    title: Automated Outputs
+    items:
+    - Cleaned CSV file
+    - JSON quality report
+    - Per-source health metrics
+    style: check
+- say: Template link in the description.
+  caption: Template link in the description.
+  highlight:
+  - Template link
+  scene:
+    type: cta
+    line: Get the template
+    subline: Link in description
+description:
+  task_line: Automate the collection and cleaning of marketing data from RSS feeds and Hugging Face datasets.
+  tools: n8n, Hugging Face, RSS
+  sources:
+  - 'n8n template: https://n8n.io/workflows/20828'
+  template_link: https://n8n.io/workflows/20828
+seo:
+  seeds:
+  - n8n marketing automation
+  - automate RSS feed collection
+  - marketing data cleaning workflow
+  - Hugging Face data automation
+  hashtags:
+  - '#n8n'
+  - '#MarketingAutomation'
+series: Library Pick
+record_id: n8n:20828
+auto: true
+instagram_hashtags_rotating: []

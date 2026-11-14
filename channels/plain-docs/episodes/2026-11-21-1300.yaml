@@ -1,0 +1,69 @@
+skip: false
+skip_reason: ''
+title: 'Writing rule: Preface instructions with context'
+beats:
+- say: Put the goal before the instruction to help readers skip irrelevant steps.
+  caption: Put the goal before the instruction to help readers skip irrelevant steps.
+  highlight:
+  - goal before the instruction
+  - skip irrelevant steps
+  scene:
+    type: headline
+    text: Stop making readers read every step
+- say: Click Delete if you want to delete the entire document.
+  caption: Click Delete if you want to delete the entire document.
+  highlight:
+  - Click Delete
+  scene:
+    type: compare
+    left_label: Weak
+    left_text: Click Delete if you want to delete the entire document.
+    right_label: Better
+    right_text: To delete the entire document, click Delete.
+- say: Mentioning the circumstance first lets the reader determine if the instruction applies to them.
+  caption: Mentioning the circumstance first lets the reader determine if the instruction applies to them.
+  highlight:
+  - circumstance first
+  - determine if the instruction applies
+  scene:
+    type: card
+    title: Why it works
+    rows:
+    - - User intent
+      - Identified first
+    - - Cognitive load
+      - Reduced
+- say: Google developer documentation recommends this structure for procedural instructions.
+  caption: Google developer documentation recommends this structure for procedural instructions.
+  highlight:
+  - Google developer documentation
+  scene:
+    type: image
+    credit: Google developer documentation
+- say: To guide readers, preface instructions with the relevant circumstance, condition, or goal.
+  caption: To guide readers, preface instructions with the relevant circumstance, condition, or goal.
+  highlight:
+  - preface instructions
+  - circumstance, condition, or goal
+  scene:
+    type: quote
+    text: To guide readers, preface instructions with the relevant circumstance, condition, or goal.
+    highlight:
+    - preface instructions with the relevant circumstance
+description:
+  what_was_fixed: The instruction order was flipped to place the goal before the action.
+  rule: Preface instructions with the relevant circumstance, condition, or goal.
+  sources:
+  - 'Google developer documentation: https://developers.google.com/style/sentence-structure'
+seo:
+  seeds:
+  - technical writing tips
+  - how to write documentation
+  - Google developer documentation style guide
+  hashtags:
+  - '#TechnicalWriting'
+  - '#Documentation'
+series: One Rule
+record_id: style:https://developers.google.com/style/sentence-structure
+auto: true
+instagram_hashtags_rotating: []

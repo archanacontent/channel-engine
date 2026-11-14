@@ -1,0 +1,72 @@
+skip: false
+skip_reason: ''
+title: 'Andromeda: what just happened'
+beats:
+- say: NGC 2 0 6 is a massive stellar association inside the Andromeda galaxy.
+  caption: NGC 206 is a massive stellar association inside the Andromeda galaxy.
+  highlight:
+  - NGC 206
+  - massive stellar association
+  scene:
+    type: headline
+    text: NGC 206 in Andromeda
+- say: This cluster spans 4,000 light-years across the southwestern disk of M 3 1.
+  caption: This cluster spans 4,000 light-years across the southwestern disk of M31.
+  highlight:
+  - 4,000 light-years
+  - M31
+  scene:
+    type: stat
+    value: 4,000
+    label: light-years across
+- say: The bright blue stars show that its youngest massive stars are less than 10 million years old.
+  caption: The bright blue stars show that its youngest massive stars are less than 10 million years old.
+  highlight:
+  - bright blue stars
+  - less than 10 million years old
+  scene:
+    type: card
+    title: NGC 206 Profile
+    rows:
+    - - Location
+      - Andromeda
+    - - Distance
+      - 2.5 million light-years
+    - - Max Age
+      - 10 million years
+- say: Its scale is comparable to the Tarantula Nebula in the Large Magellanic Cloud.
+  caption: Its scale is comparable to the Tarantula Nebula in the Large Magellanic Cloud.
+  highlight:
+  - comparable to
+  - Tarantula Nebula
+  scene:
+    type: compare
+    left_label: NGC 206
+    left_text: 4,000 light-years
+    right_label: Tarantula Nebula
+    right_text: Similar scale
+- say: Source in the description.
+  caption: Source in the description.
+  highlight:
+  - Source in the description
+  scene:
+    type: cta
+    line: Learn more
+    subline: Source in the description.
+description:
+  explainer: NASA's Astronomy Picture of the Day features NGC 206, a massive stellar association within the Andromeda galaxy. This image shows the bright blue stars located in the southwestern extent of the M31 disk.
+  sources:
+  - 'NASA: https://science.nasa.gov/image-article/apod-2026-november-13-ngc-206-and-the-star-clouds-of-andromeda/'
+seo:
+  seeds:
+  - NGC 206 Andromeda galaxy
+  - M31 stellar association
+  - Andromeda galaxy star clouds
+  - NASA Astronomy Picture of the Day
+  hashtags:
+  - '#Andromeda'
+  - '#SpaceScience'
+series: Mission Log
+record_id: nasanews:https://science.nasa.gov/image-article/apod-2026-november-13-ngc-206-and-the-star-clouds-of-andromeda/
+auto: true
+instagram_hashtags_rotating: []

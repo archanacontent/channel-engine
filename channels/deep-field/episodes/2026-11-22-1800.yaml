@@ -1,0 +1,64 @@
+skip: false
+skip_reason: ''
+title: How big is Pluto, really?
+beats:
+- say: Pluto is smaller than the Moon.
+  caption: Pluto is smaller than the Moon.
+  highlight:
+  - Pluto is smaller than the Moon
+  scene:
+    type: headline
+    text: Pluto vs. The Moon
+- say: The Moon has a diameter of 3,475 kilometers. Pluto measures only 2,376 kilometers across.
+  caption: The Moon has a diameter of 3,475 km. Pluto measures only 2,376 km across.
+  highlight: []
+  scene:
+    type: sizes
+    a_label: Moon
+    a_value: 3475.0
+    b_label: Pluto
+    b_value: 2376.0
+    unit: km
+- say: The Moon is 1.46 times wider than Pluto. While the Moon sits just 0.384 million kilometers from the Sun, Pluto orbits much further out at 5,906.4 million kilometers.
+  caption: The Moon is 1.46 times wider than Pluto. While the Moon sits just 0.384 million km from the Sun, Pluto orbits much further out at 5,906.4 million km.
+  highlight:
+  - 1.46 times wider
+  scene:
+    type: compare
+    left_label: Moon Distance
+    left_text: 0.384 million km
+    right_label: Pluto Distance
+    right_text: 5,906.4 million km
+- say: These measurements show the massive scale difference between our closest neighbor and the dwarf planet.
+  caption: These measurements show the massive scale difference between our closest neighbor and the dwarf planet.
+  highlight:
+  - massive scale difference
+  scene:
+    type: image
+    credit: NASA
+- say: Figures from NASA's Planetary Fact Sheet.
+  caption: Figures from NASA's Planetary Fact Sheet.
+  highlight:
+  - NASA's Planetary Fact Sheet
+  scene:
+    type: quote
+    text: Figures from NASA's Planetary Fact Sheet.
+    highlight:
+    - NASA's Planetary Fact Sheet
+description:
+  explainer: Pluto is smaller than Earth's Moon. This video compares their diameters and distances from the Sun.
+  sources:
+  - 'NASA Planetary Fact Sheet: https://nssdc.gsfc.nasa.gov/planetary/factsheet/'
+seo:
+  seeds:
+  - how big is pluto
+  - moon vs pluto size
+  - pluto diameter
+  - space scale comparison
+  hashtags:
+  - '#Space'
+  - '#Pluto'
+series: Scale It
+record_id: scale:MOON:PLUTO
+auto: true
+instagram_hashtags_rotating: []

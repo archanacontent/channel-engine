@@ -1,0 +1,55 @@
+skip: false
+title: Fixing a real README in under a minute
+beats:
+- say: Vague sentences in setup guides cause confusion. Let us rewrite a real line from the TP-Link Deco Home Assistant integration README.
+  caption: Vague sentences in setup guides cause confusion. Let us rewrite a real line from the TP-Link Deco Home Assistant integration README.
+  scene:
+    type: headline
+    kicker: Rewrite This
+    text: Fixing a vague README line
+  highlight:
+  - real line
+- say: Here is the original text. For installation, configuration, troubleshooting, diagnostics, and firmware notes, see the TP-Link Deco Wiki.
+  caption: For installation, configuration, troubleshooting, diagnostics, and firmware notes, see the [TP-Link Deco Wiki](https://github.com/amosyuen/ha-tplink-deco/wiki).
+  scene:
+    type: compare
+    left_label: Original
+    left_text: For installation, configuration, troubleshooting, diagnostics, and firmware notes, see the [TP-Link Deco Wiki](https://github.com/amosyuen/ha-tplink-deco/wiki).
+    right_label: Revised
+    right_text: See the TP-Link Deco Wiki for installation, configuration, troubleshooting, diagnostics, and firmware notes.
+  highlight:
+  - see the
+- say: The edit moves the core action to the front. Readers instantly know where to click without parsing a long introductory clause.
+  caption: The edit moves the core action to the front. Readers instantly know where to click without parsing a long introductory clause.
+  scene:
+    type: list
+    title: Why this works
+    items:
+    - Clarity First
+  highlight:
+  - core action to the front
+- say: Lead with the action, not the category list.
+  caption: Lead with the action, not the category list.
+  scene:
+    type: quote
+    text: Lead with the action, not the category list.
+    value: Rule
+  highlight:
+  - Lead with the action
+description:
+  what_was_fixed: A cluttered introductory sentence in the TP-Link Deco Home Assistant integration README was rewritten to put the primary action first.
+  rule: Lead with the action rather than a long list of categories.
+  sources:
+  - 'amosyuen/ha-tplink-deco README (MIT): https://github.com/amosyuen/ha-tplink-deco'
+  source_link: https://github.com/amosyuen/ha-tplink-deco
+  license: MIT
+seo:
+  seeds:
+  - technical writing tutorial
+  - readme documentation guide
+  - home assistant integration docs
+skip_reason: ''
+series: Rewrite This
+record_id: repo:amosyuen/ha-tplink-deco
+auto: true
+instagram_hashtags_rotating: []

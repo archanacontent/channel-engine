@@ -1,0 +1,65 @@
+skip: false
+skip_reason: ''
+title: Fixing a real README in under a minute
+beats:
+- say: Scores help shortlist candidates. They do not establish security, maintenance quality or suitability for your use case.
+  caption: Scores help shortlist candidates. They do not establish security, maintenance quality or suitability for your use case.
+  highlight:
+  - Scores help shortlist candidates
+  - do not establish security
+  scene:
+    type: headline
+    text: A common documentation pitfall
+- say: Scores help shortlist candidates. They do not establish security, maintenance quality or suitability for your use case.
+  caption: Scores help shortlist candidates. They do not establish security, maintenance quality or suitability for your use case.
+  highlight:
+  - shortlist candidates
+  - suitability
+  scene:
+    type: compare
+    left_label: Original
+    left_text: Scores help shortlist candidates. They do not establish security, maintenance quality or suitability for your use case.
+    right_label: Rewritten
+    right_text: Scores aid shortlisting but do not guarantee security, quality, or suitability.
+- say: The original sentence is wordy. Removing unnecessary words like establish and maintenance quality makes the warning punchier.
+  caption: The original sentence is wordy. Removing unnecessary words like establish and maintenance quality makes the warning punchier.
+  highlight:
+  - wordy
+  - punchier
+  scene:
+    type: list
+    title: Why it changed
+    items:
+    - Removed filler verbs
+    - Tightened the warning
+    - Improved readability
+    style: check
+- say: Always tell users what a feature does not guarantee.
+  caption: Always tell users what a feature does not guarantee.
+  highlight:
+  - what a feature
+  - does not guarantee
+  scene:
+    type: quote
+    text: Always tell users what a feature does not guarantee.
+    highlight:
+    - does not guarantee
+description:
+  what_was_fixed: I tightened a vague warning about what project scores actually mean in the AtlasRepo README.
+  rule: Remove filler verbs to make warnings punchy and clear.
+  sources:
+  - 'Arnon-hs/open-source README (MIT): https://github.com/Arnon-hs/open-source'
+  source_link: https://github.com/Arnon-hs/open-source
+  license: MIT
+seo:
+  seeds:
+  - technical writing tips
+  - how to write documentation
+  - improving README files
+  hashtags:
+  - '#TechnicalWriting'
+  - '#Documentation'
+series: Rewrite This
+record_id: repo:Arnon-hs/open-source
+auto: true
+instagram_hashtags_rotating: []

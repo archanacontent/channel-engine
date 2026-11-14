@@ -1,0 +1,72 @@
+skip: false
+title: 'Exploited now: Check Point Multiple Products CVE-2026-123039'
+beats:
+- say: Check Point firewalls and security management servers are under active attack right now.
+  caption: Check Point firewalls and security management servers are under active attack right now.
+  scene:
+    type: headline
+    kicker: Exploited Today
+    text: Check Point products under active attack
+  highlight:
+  - active attack
+- say: The vulnerability, tracked as C V E dash 2 0 2 6 dash 1 2 3 0 3 9, involves the Gaia O S Dynamic C L I daemon. It listens on a world writable local socket without authenticating connecting processes.
+  caption: The vulnerability, tracked as CVE-2026-123039, involves the Gaia OS DynamicCLI daemon. It listens on a world-writable local socket without authenticating connecting processes.
+  scene:
+    type: stat
+    value: CVE-2026-123039
+    label: Vulnerability Details
+  highlight:
+  - CVE-2026-123039
+  - world-writable local socket
+- say: This allows an authenticated local user to send commands that execute with root privileges.
+  caption: This allows an authenticated local user to send commands that execute with root privileges.
+  scene:
+    type: stat
+    label: CVSS Base Score
+    value: 7.8 High
+  highlight:
+  - execute with root privileges
+- say: C I S A added this to their known exploited list on November 13, 2026. Federal agencies must patch or mitigate by November 16, 2026.
+  caption: CISA added this to their known exploited list on November 13, 2026. Federal agencies must patch or mitigate by November 16, 2026.
+  scene:
+    type: stat
+    value: November 2026
+    label: Timeline
+  highlight:
+  - November 13, 2026
+  - November 16, 2026
+- say: Apply vendor mitigations immediately. Evaluate your internet exposure for every affected asset.
+  caption: Apply vendor mitigations immediately. Evaluate your internet exposure for every affected asset.
+  scene:
+    type: list
+    title: Required Actions
+    items:
+    - Immediate Action Required
+  highlight:
+  - Apply vendor mitigations
+  - Evaluate your internet exposure
+- say: Sources are in the description.
+  caption: Sources are in the description.
+  scene:
+    type: cta
+    line: Stay secure.
+    subline: Sources are in the description.
+  highlight:
+  - Sources
+description:
+  summary: Check Point products are being exploited via a critical vulnerability in the Gaia OS DynamicCLI daemon. This flaw allows authenticated local users to execute commands with root privileges.
+  affected: Check Point Firewall, Multi-Domain Security Management Server, Scalable Platforms, Security Gateway, and Security Management Server.
+  action: Apply vendor mitigations immediately and evaluate internet exposure for all affected assets.
+  sources:
+  - 'CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog'
+  - 'NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-123039'
+seo:
+  seeds:
+  - Check Point vulnerability CVE-2026-123039
+  - Gaia OS DynamicCLI exploit
+  - CISA KEV catalog update
+  - Check Point security patch
+series: Exploited Today
+record_id: kev:CVE-2026-123039
+auto: true
+instagram_hashtags_rotating: []

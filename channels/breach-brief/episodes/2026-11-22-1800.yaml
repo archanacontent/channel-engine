@@ -1,0 +1,75 @@
+skip: false
+skip_reason: ''
+title: 'Scam alert: misleading health insurance ads'
+beats:
+- say: Misleading health insurance ads surge during the open enrollment period.
+  caption: Misleading health insurance ads surge during the open enrollment period.
+  highlight:
+  - Misleading health insurance ads
+  scene:
+    type: headline
+    text: Health Insurance Ad Scams
+- say: Scammers use ads or phone pitches to promise comprehensive coverage while offering limited benefits or medical discount cards instead.
+  caption: Scammers use ads or phone pitches to promise comprehensive coverage while offering limited benefits or medical discount cards instead.
+  highlight:
+  - promise comprehensive coverage
+  - offering limited benefits
+  scene:
+    type: compare
+    left_label: The Promise
+    left_text: Comprehensive coverage
+    right_label: The Reality
+    right_text: Limited benefits or discount cards
+- say: Watch for these warning signs.
+  caption: Watch for these warning signs.
+  highlight:
+  - warning signs
+  scene:
+    type: list
+    title: Warning Signs
+    items:
+    - Ads impersonating government agencies
+    - Illegal prerecorded robocalls
+    - Social media or search scams
+    - Plans with limited benefits
+    style: bullet
+- say: Verify official sites end in dot gov and use H T T P S for encryption.
+  caption: Verify official sites end in .gov and use HTTPS for encryption.
+  highlight:
+  - end in .gov
+  - use HTTPS
+  scene:
+    type: card
+    title: Verification Steps
+    rows:
+    - - Domain
+      - .gov or .mil
+    - - Security
+      - HTTPS protocol
+- say: Use HealthCare.gov or call the Marketplace Call Center at 1 800 318 2596 to find real plans. More in the FTC alert linked in the description.
+  caption: Use HealthCare.gov or call the Marketplace Call Center at 1-800-318-2596 to find real plans. More in the FTC alert linked in the description.
+  highlight:
+  - HealthCare.gov
+  - Marketplace Call Center
+  scene:
+    type: cta
+    line: Use official sources
+    subline: HealthCare.gov
+description:
+  summary: Misleading advertisements and phone pitches are targeting people during health insurance open enrollment.
+  affected: Consumers looking for health insurance plans via social media, search results, or phone calls.
+  action: Only use HealthCare.gov or call 1-800-318-2596 to ensure you are accessing official Marketplace services.
+  sources:
+  - 'FTC consumer alert: https://consumer.ftc.gov/consumer-alerts/2026/10/seeing-lots-ads-health-insurance-plans-during-open-enrollment-read'
+seo:
+  seeds:
+  - health insurance enrollment scams
+  - fake health insurance ads
+  - FTC health insurance warning
+  hashtags:
+  - '#ScamAlert'
+  - '#HealthInsurance'
+series: Scam Alert
+record_id: ftc:/consumer-alerts/2026/10/seeing-lots-ads-health-insurance-plans-during-open-enrollment-read
+auto: true
+instagram_hashtags_rotating: []

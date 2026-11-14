@@ -1,0 +1,81 @@
+skip: false
+skip_reason: ''
+title: 'Exploited now: UnrealIRCd CVE-2026-114713'
+beats:
+- say: Attackers are using a flaw in Unreal I R C d to inject commands with server authority.
+  caption: Attackers are using a flaw in UnrealIRCd to inject commands with server authority.
+  highlight:
+  - inject commands
+  - server authority
+  scene:
+    type: headline
+    text: Command Injection in UnrealIRCd
+- say: The C V E 2 0 2 6 1 1 4 7 1 3 vulnerability lets users on linked networks execute unauthorized server commands.
+  caption: The CVE-2026-114713 vulnerability lets users on linked networks execute unauthorized server commands.
+  highlight:
+  - unauthorized server commands
+  scene:
+    type: card
+    title: Vulnerability Details
+    rows:
+    - - CVE ID
+      - CVE-2026-114713
+    - - Product
+      - UnrealIRCd
+    - - Added
+      - '2026-11-13'
+    - - Due Date
+      - '2026-11-16'
+- say: This improper neutralization of delimiters occurs when two or more servers are linked.
+  caption: This improper neutralization of delimiters occurs when two or more servers are linked.
+  highlight:
+  - improper neutralization of delimiters
+  scene:
+    type: flow
+    steps:
+    - title: Linked Servers
+      note: Two or more servers connected
+    - title: Injection
+      note: User injects server commands
+    - title: Execution
+      note: Commands run with server authority
+- say: Apply vendor mitigations immediately. If mitigations are unavailable, discontinue use of the product.
+  caption: Apply vendor mitigations immediately. If mitigations are unavailable, discontinue use of the product.
+  highlight:
+  - Apply vendor mitigations
+  - discontinue use
+  scene:
+    type: list
+    title: Required Actions
+    items:
+    - Apply vendor mitigations
+    - Follow BOD 26-04
+    - Evaluate internet exposure
+    - Discontinue if unpatched
+    style: check
+- say: Sources are in the description.
+  caption: Sources are in the description.
+  highlight: []
+  scene:
+    type: cta
+    line: Stay protected
+    subline: Check the description for sources
+description:
+  summary: Attackers are exploiting a command injection vulnerability in UnrealIRCd.
+  affected: UnrealIRCd servers with two or more linked servers.
+  action: Apply vendor mitigations or discontinue use of the product if patches are unavailable.
+  sources:
+  - 'CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog'
+  - 'NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-114713'
+seo:
+  seeds:
+  - UnrealIRCd CVE-2026-114713 exploit
+  - CISA KEV UnrealIRCd
+  - UnrealIRCd command injection fix
+  hashtags:
+  - '#Cybersecurity'
+  - '#UnrealIRCd'
+series: Exploited Today
+record_id: kev:CVE-2026-114713
+auto: true
+instagram_hashtags_rotating: []

@@ -1,0 +1,77 @@
+skip: false
+title: 'Stop doing this by hand: Brand mention routing'
+beats:
+- say: Manual brand mention monitoring wastes hours when social posts flood your team.
+  caption: Manual brand mention monitoring wastes hours when social posts flood your team.
+  scene:
+    type: headline
+    kicker: Manual Task
+    text: Stop routing social brand mentions manually
+  highlight:
+  - wastes hours
+  - brand mention monitoring
+- say: An n eight n workflow routes Juicer feed posts automatically.
+  caption: An n8n workflow routes Juicer feed posts automatically.
+  scene:
+    type: compare
+    left_label: Manual
+    left_text: Check feeds and copy posts to chats
+    right_label: Automated
+    right_text: Parse sentiment and route instantly
+  highlight:
+  - routes Juicer feed posts
+- say: Juicer triggers on post created events, adding telegram chat IDs and capping batch sizes.
+  caption: Juicer triggers on post.created events, adding Telegram chat IDs and capping batch sizes.
+  scene:
+    type: flow
+    steps:
+    - title: Juicer Trigger
+      note: Listens for post.created
+    - title: Configuration
+      note: Set chat IDs and batch cap
+    - title: Sort & Trim
+      note: Prioritizes negative sentiment
+    - title: Telegram Route
+      note: Sends to support or marketing
+  highlight:
+  - post.created events
+  - capping batch sizes
+- say: It checks sentiment values to send negative posts to support and all other mentions to marketing.
+  caption: It checks sentiment values to send negative posts to support and all other mentions to marketing.
+  scene:
+    type: list
+    items:
+    - Negative posts to Telegram support
+    - Other mentions to Telegram marketing
+    - Caps large initial sync batches
+    style: check
+    title: Automated Actions
+  highlight:
+  - negative posts to support
+  - mentions to marketing
+- say: The free template is linked in the description.
+  caption: The free template is linked in the description.
+  scene:
+    type: cta
+    line: Get the Free Template
+    subline: Link in description
+  highlight:
+  - free template is linked
+description:
+  task_line: Automatically route Juicer social brand mentions to Telegram support or marketing chats based on post sentiment.
+  tools: Built using n8n with Juicer and Telegram nodes.
+  sources:
+  - 'n8n template: https://n8n.io/workflows/21799'
+  template_link: https://n8n.io/workflows/21799
+seo:
+  hashtags:
+  - '#n8n'
+  - '#MarketingAutomation'
+  seeds:
+  - n8n juicer telegram automation
+  - route brand mentions n8n
+  - n8n sentiment routing template
+series: Stop Doing This
+record_id: n8n:21799
+auto: true
+instagram_hashtags_rotating: []
