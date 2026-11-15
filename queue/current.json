@@ -5274,10 +5274,12 @@
    "kind": "image"
   },
   "srt": "",
-  "status": "ready",
+  "status": "published",
   "file": "2026-11-15-1300.jpg",
   "platform": "instagram",
-  "release": "shorts-43012696543"
+  "release": "shorts-43012696543",
+  "ig_media_id": "17893902549454606",
+  "published_at": "2026-11-15T18:02:06.455095+00:00"
  },
  {
   "slug": "comicsofy",
