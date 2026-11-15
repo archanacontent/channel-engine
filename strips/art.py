@@ -117,9 +117,20 @@ def cat(x, y, s=1.0, mood="flat", flip=False, talking=False, prop=None):
 
 
 CHARACTERS = {
-    "Pim": {"draw": ghost, "moods": GHOST_MOODS, "head": -125, "float": 46, "base": 0},
-    "Soot": {"draw": cat, "moods": CAT_MOODS, "head": -140, "float": 0, "base": 124},
+    "Pim": {"draw": ghost, "moods": GHOST_MOODS, "head": -125, "float": 46, "base": 0, "behind": 80},
+    "Soot": {"draw": cat, "moods": CAT_MOODS, "head": -140, "float": 0, "base": 124, "behind": 94},
 }
+# Shared moods map onto Pim's and Soot's own faces, so one mood list fits the whole cast.
+TO_GHOST = {"neutral": "happy", "laughing": "excited", "angry": "determined", "shocked": "surprised", "smug": "proud",
+            "tired": "sleepy", "panic": "nervous", "deadpan": "happy", "scheming": "determined", "sleeping": "sleepy",
+            "crying": "sad"}
+TO_CAT = {"neutral": "flat", "happy": "pleased", "laughing": "pleased", "angry": "annoyed", "shocked": "surprised",
+          "sad": "flat", "tired": "flat", "panic": "surprised", "deadpan": "flat", "scheming": "smug", "love": "pleased",
+          "proud": "smug", "crying": "flat"}
+_ghost, _cat = ghost, cat
+ghost = lambda x, y, s=1.0, mood="happy", *a, **k: _ghost(x, y, s, mood if mood in GHOST_MOODS else TO_GHOST.get(mood, "happy"), *a, **k)
+cat = lambda x, y, s=1.0, mood="flat", *a, **k: _cat(x, y, s, mood if mood in CAT_MOODS else TO_CAT.get(mood, "flat"), *a, **k)
+CHARACTERS["Pim"]["draw"], CHARACTERS["Soot"]["draw"] = ghost, cat
 
 # ---------------------------------------------------------------- props
 
@@ -158,12 +169,14 @@ def prop_svg(name, x, y, s=1.0):
   <path d="M-40,60 L-60,90 M40,60 L60,90" {k}/>''',
         "sheet": f'''<path d="M-90,-60 Q0,-80 90,-60 L100,70 Q50,56 0,70 Q-50,56 -100,70 Z" fill="#fbfbff" {k}/>''',
         "sock": f'''<path d="M-30,-70 L30,-70 L30,20 Q30,60 -10,60 L-60,60 Q-80,40 -60,20 L-30,20 Z" fill="#e84a5f" {k}/>''',
-    }[name]
+    }.get(name) or _sets.PROPS[name][0]
     return f'<g transform="translate({x},{y}) scale({s})">{body}</g>'
 
 
+from strips import sets as _sets  # noqa: E402
+
 PROPS = ["turkey", "pie", "mug", "laptop", "phone", "book", "pumpkin", "gift", "plant", "pizza", "candle",
-         "umbrella", "snowman", "tv", "sheet", "sock"]
+         "umbrella", "snowman", "tv", "sheet", "sock"] + list(_sets.PROPS)
 
 # ---------------------------------------------------------------- rooms
 
@@ -236,3 +249,13 @@ FRONT = {  # drawn in front of the characters, so they sit behind the table or c
 FLOOR = {"dining_room": 545, "living_room": 520, "kitchen": 545, "bedroom_night": 530, "outdoors_autumn": 520,
          "outdoors_snow": 520, "plain_warm": 600, "plain_cool": 600, "plain_pink": 600}
 SURFACE = {"dining_room": 500, "kitchen": 500}     # props sit on this line in rooms with a table or counter
+
+ROOMS.update(_sets.ROOMS)
+FRONT.update(_sets.FRONT)
+FLOOR.update(_sets.FLOOR)
+SURFACE.update(_sets.SURFACE)
+
+from strips.cast import MOODS, drawers  # noqa: E402
+
+for _n, (_d, _head, _behind, _scale) in drawers().items():
+    CHARACTERS[_n] = {"draw": _d, "moods": MOODS, "head": _head, "float": 0, "base": 124, "behind": _behind, "scale": _scale}

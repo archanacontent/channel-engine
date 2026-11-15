@@ -4,8 +4,8 @@ format: strip
 platform: instagram
 auto_approve: true   # posts without a checklist tick
 handle: "@comicsofy"
-series_title: Pim & Soot
-end_line: A new Pim & Soot every day. Follow @comicsofy
+series_title: Comicsofy
+end_line: A new comic every day. Follow @comicsofy
 palette:
   background: "#2b2440"
   accent: "#f4d03f"
@@ -15,15 +15,22 @@ palette:
 voices:
   Pim: { voice: af_sky, speed: 1.12, lang: en-us, pitch: 1.18 }
   Soot: { voice: am_onyx, speed: 0.9, lang: en-us, pitch: 0.94 }
+  Dev: { voice: am_michael, speed: 0.98, lang: en-us, pitch: 0.97 }
+  Mira: { voice: af_nova, speed: 1.15, lang: en-us, pitch: 1.04 }
+  Nana June: { voice: bf_lily, speed: 0.92, lang: en-gb, pitch: 1.03 }
+  Brenda: { voice: af_jessica, speed: 1.08, lang: en-us }
+  Biscuit: { voice: am_puck, speed: 1.18, lang: en-us, pitch: 1.12 }
+  Gus: { voice: am_fenrir, speed: 1.06, lang: en-us, pitch: 0.9 }
+  Narrator: { voice: bm_george, speed: 1.0, lang: en-gb }
 music: { source: generated, gain_db: -20 }
 series:
   - { slot: "13:00", name: Pim and Soot Comic, kind: image }
   - { slot: "18:00", name: Pim and Soot Reel, kind: reel }
-hashtags: ["#pimandsoot"]
+hashtags: ["#comicsofy"]
 # Caption tail, in this order, under the caption and a dotted spacer.
 caption_tail:
   - ["#comics", "#cartoon", "#digitalart", "#webcomic", "#comicbooks"]
   - ["comic", "drawing", "art", "illustration", "artist", "sketch"]     # written without #, joined with |
-  - ["#cartoonist", "#comicart", "#comicbook", "#funnycomics", "#draw", "#artwork", "#catcomics", "#comicstrip",
+  - ["#cartoonist", "#comicart", "#comicbook", "#funnycomics", "#draw", "#artwork", "#officehumor", "#comicstrip",
      "#funny", "#relatable", "#artistsoninstagram", "#comicsofy", "#doodle", "#webtoon", "#viral", "#viralcomics",
      "#explorepage"]
