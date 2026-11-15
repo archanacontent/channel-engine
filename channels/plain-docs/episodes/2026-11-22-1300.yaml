@@ -5,64 +5,65 @@ beats:
 - say: Figurative language makes technical documentation harder to translate and understand.
   caption: Figurative language makes technical documentation harder to translate and understand.
   highlight:
-  - harder to translate and understand
+  - harder to translate
+  - understand
   scene:
     type: headline
-    text: Why figurative language fails
-- say: Metaphors can distract readers or lead to misinterpretation. Google developer documentation recommends using words in their primary sense to ensure precision.
-  caption: Metaphors can distract readers or lead to misinterpretation. Google developer documentation recommends using words in their primary sense to ensure precision.
+    text: Why figurative language fails documentation
+- say: Google developer documentation recommends using precise terms instead of metaphors.
+  caption: Google developer documentation recommends using precise terms instead of metaphors.
   highlight:
-  - distract readers
+  - precise terms
+  - instead of metaphors
   scene:
     type: image
     credit: Google developer documentation
-- say: The service is crippled until the queue clears. The service slows down until the queue clears.
-  caption: The service is crippled until the queue clears. The service slows down until the queue clears.
+- say: Compare this. The service is crippled by the high traffic. To this. The service slows down until the queue clears.
+  caption: Compare this. The service is crippled by the high traffic. To this. The service slows down until the queue clears.
   highlight:
-  - crippled
-  - slows down
+  - service is crippled
+  - service slows down
   scene:
     type: compare
     left_label: Not recommended
-    left_text: The service is crippled until the queue clears.
+    left_text: The service is crippled by the high traffic.
     right_label: Recommended
     right_text: The service slows down until the queue clears.
-- say: Avoid metaphors like pets versus cattle when comparing on-premises systems with stateless cloud systems. Stick to simple, precise terminology.
-  caption: Avoid metaphors like pets versus cattle when comparing on-premises systems with stateless cloud systems. Stick to simple, precise terminology.
+- say: Metaphors and idioms can be distracting or misinterpreted by a global audience.
+  caption: Metaphors and idioms can be distracting or misinterpreted by a global audience.
   highlight:
-  - Avoid metaphors
-  - Stick to simple, precise terminology
+  - distracting
+  - misinterpreted
   scene:
     type: list
-    title: Precision over metaphor
+    title: Risks of figurative language
     items:
-    - Use primary word meanings
-    - Avoid confusing idioms
-    - Prioritize clear translation
-    - Use industry standards
+    - Difficult to translate
+    - Misinterpreted meaning
+    - Distracting for readers
     style: bullet
-- say: Use simple language and terminology that is precise and clear for all of your audiences.
-  caption: Use simple language and terminology that is precise and clear for all of your audiences.
+- say: Use simple language and terminology that is precise and clear.
+  caption: Use simple language and terminology that is precise and clear.
   highlight:
   - precise and clear
   scene:
     type: quote
-    text: Use simple language and terminology that is precise and clear for all of your audiences.
+    text: Use simple language and terminology that's precise and clear for all of your audiences.
     highlight:
     - precise and clear
 description:
-  what_was_fixed: Metaphorical language like 'crippled' was replaced with precise descriptions of service performance.
-  rule: Avoid figurative language and metaphors to ensure documentation is clear and easy to translate.
+  what_was_fixed: The word crippled was replaced with slows down to ensure clarity and avoid ableist metaphors.
+  rule: Avoid using figurative language or metaphors in technical documentation.
   sources:
   - 'Google developer documentation: https://developers.google.com/style/inclusive-documentation'
 seo:
   seeds:
   - technical writing best practices
-  - how to write inclusive documentation
-  - avoiding metaphors in technical writing
+  - inclusive documentation guide
+  - how to write developer docs
   hashtags:
   - '#TechnicalWriting'
-  - '#Documentation'
+  - '#DeveloperExperience'
 series: One Rule
 record_id: style:https://developers.google.com/style/inclusive-documentation
 auto: true

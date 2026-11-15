@@ -1,0 +1,83 @@
+skip: false
+title: 'AI search in 2026: Claiming Your Profile in ChatGPT Business Hub'
+beats:
+- say: OpenAI launched Businesses in ChatGPT in beta on November 10, 2026.
+  caption: OpenAI launched Businesses in ChatGPT in beta on November 10, 2026.
+  scene:
+    type: headline
+    kicker: New Feature
+    text: OpenAI Launches Businesses in ChatGPT Beta
+  highlight:
+  - Businesses in ChatGPT
+  - November 10, 2026
+- say: Search Engine Journal tested the new ChatGPT Business Hub feature.
+  caption: Search Engine Journal tested the new ChatGPT Business Hub feature.
+  scene:
+    type: headline
+    label: Platform Tested
+    source: Search Engine Journal
+    value: ChatGPT Hub
+    kicker: Platform Tested
+    text: ChatGPT Hub
+  highlight:
+  - Search Engine Journal
+  - ChatGPT Business Hub
+- say: Unlike Google Business Profile, ChatGPT allows eligible online-only businesses to submit details.
+  caption: Unlike Google Business Profile, ChatGPT allows eligible online-only businesses to submit details.
+  scene:
+    type: compare
+    left_label: Google Profile
+    left_text: Excludes online-only brands
+    right_label: ChatGPT Hub
+    right_text: Accepts online-only businesses
+  highlight:
+  - online-only businesses
+- say: You need government identification, domain D N S access, tax identifiers, and official business details to submit.
+  caption: You need government identification, domain DNS access, tax identifiers, and official business details to submit.
+  scene:
+    type: list
+    items:
+    - Government ID
+    - Domain DNS access
+    - Tax identifier
+    - Business address
+    style: check
+    title: Submission Requirements
+  highlight:
+  - government identification
+  - DNS access
+- say: OpenAI notes claiming a business profile does not guarantee higher placement in AI answers.
+  caption: OpenAI notes claiming a business profile does not guarantee higher placement in AI answers.
+  scene:
+    type: quote
+    highlight:
+    - does not guarantee higher placement
+    text: Claiming a business does not guarantee higher placement.
+  highlight:
+  - does not guarantee higher placement
+- say: Source in the description.
+  caption: Source in the description.
+  scene:
+    type: cta
+    line: AI Search Marketing
+    subline: Source in the description.
+  highlight:
+  - Source in the description
+description:
+  hook: OpenAI introduced the Businesses in ChatGPT feature in beta on November 10, 2026, allowing companies to submit profile details via Business Hub.
+  answer: Search Engine Journal reported on the submission process, noting that online-only businesses are eligible, though OpenAI states claiming a profile does not guarantee higher placement.
+  sources:
+  - 'How to Submit Your Website to ChatGPT Business Hub via @sejournal, @vahandev: https://www.searchenginejournal.com/submit-website-chatgpt/596785/'
+seo:
+  hashtags:
+  - '#ChatGPT'
+  - '#AISearch'
+  seeds:
+  - chatgpt business hub
+  - businesses in chatgpt
+  - chatgpt business profile
+  - chatgpt seo
+series: Trend Check
+record_id: news:https://www.searchenginejournal.com/submit-website-chatgpt/596785/
+auto: true
+instagram_hashtags_rotating: []

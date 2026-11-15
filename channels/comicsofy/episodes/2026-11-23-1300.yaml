@@ -1,0 +1,86 @@
+format: strip
+kind: image
+title: Gratitude Journal
+premise: Pim starts a November gratitude list, only to realize every single thing he is thankful for is actually just Soot's daily lifestyle.
+panels:
+- room: living_room
+  cast:
+  - who: Pim
+    mood: excited
+    pos: left
+    size: medium
+    holding: book
+  - who: Soot
+    mood: flat
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: I am starting my November gratitude journal!
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: proud
+    pos: left
+    size: medium
+    holding: book
+  - who: Soot
+    mood: flat
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: 'Item one: endless naps. Item two: ignoring responsibilities.'
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: determined
+    pos: left
+    size: medium
+    holding: book
+  - who: Soot
+    mood: smug
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: 'Item three: screaming at midnight for snacks.'
+  props: []
+- room: living_room
+  cast:
+  - who: Pim
+    mood: surprised
+    pos: left
+    size: medium
+    holding: book
+  - who: Soot
+    mood: pleased
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: Wait, am I describing myself or you?
+  - who: Soot
+    text: You are welcome.
+  props: []
+caption: 'Gratitude is easy when your role model is a cat.
+
+  .
+
+  .
+
+  .
+
+  #comics #cartoon #digitalart #webcomic #comicbooks
+
+  comic | drawing | art | illustration | artist | sketch
+
+  #cartoonist #comicart #comicbook #funnycomics #draw #artwork #catcomics #comicstrip #funny #relatable #artistsoninstagram #comicsofy #doodle #webtoon #viral #viralcomics #explorepage #pimandsoot #webcomics #catcartoons #ghostcomic #cozycomics'
+description:
+  summary: Gratitude is easy when your role model is a cat.
+series: Pim and Soot Comic
+record_id: strip:image:1794757174884356459:0
+auto: true
+instagram_hashtags_rotating: []

@@ -1,0 +1,77 @@
+skip: false
+skip_reason: ''
+title: 'Exploited now: PHP CVE-2026-109619'
+beats:
+- say: Attackers are using a critical PHP flaw to run remote code without authentication.
+  caption: Attackers are using a critical PHP flaw to run remote code without authentication.
+  highlight:
+  - run remote code
+  - without authentication
+  scene:
+    type: headline
+    text: Critical PHP RCE Vulnerability
+- say: The flaw, C V E 2 0 2 6 1 0 9 6 1 9, allows stale internal request state to expose memory.
+  caption: The flaw, CVE-2026-109619, allows stale internal request state to expose memory.
+  highlight:
+  - stale internal request state
+  - expose memory
+  scene:
+    type: card
+    title: Vulnerability Details
+    rows:
+    - - CVE ID
+      - CVE-2026-109619
+    - - Product
+      - PHP
+    - - Added to KEV
+      - '2026-10-26'
+    - - Due Date
+      - '2026-10-29'
+- say: This vulnerability has a critical score of nine point two.
+  caption: This vulnerability has a critical score of 9.2.
+  highlight:
+  - critical score
+  - '9.2'
+  scene:
+    type: stat
+    value: '9.2'
+    label: CVSS Base Score
+- say: Protect your servers by applying vendor mitigations immediately.
+  caption: Protect your servers by applying vendor mitigations immediately.
+  highlight:
+  - applying vendor mitigations
+  scene:
+    type: list
+    title: Required Actions
+    items:
+    - Apply vendor mitigations
+    - Follow BOD 26-04
+    - Check cloud service compliance
+    - Discontinue use if unpatched
+    style: check
+- say: Sources are in the description.
+  caption: Sources are in the description.
+  highlight: []
+  scene:
+    type: cta
+    line: Stay Protected
+    subline: Sources in description
+description:
+  summary: Attackers are exploiting CVE-2026-109619 in PHP to achieve unauthenticated remote code execution.
+  affected: This vulnerability affects PHP systems and allows for memory exposure through stale request states.
+  action: Apply vendor mitigations immediately and follow CISA BOD 26-04 guidelines.
+  sources:
+  - 'CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog'
+  - 'NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-109619'
+seo:
+  seeds:
+  - PHP CVE-2026-109619 exploit
+  - CISA known exploited vulnerabilities PHP
+  - PHP remote code execution fix
+  hashtags:
+  - '#Cybersecurity'
+  - '#PHP'
+series: Exploited Today
+record_id: kev:CVE-2026-109619
+auto: true
+instagram_hashtags_rotating: []

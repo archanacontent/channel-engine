@@ -1,0 +1,77 @@
+skip: false
+skip_reason: ''
+title: Fixing a real README in under a minute
+beats:
+- say: Vague descriptions make users doubt your tool works.
+  caption: Vague descriptions make users doubt your tool works.
+  highlight:
+  - Vague descriptions
+  scene:
+    type: headline
+    text: Vague descriptions kill trust
+- say: The anti-vibe-writing README says it is an agent writing skill that removes the A I-generated feel from documents.
+  caption: The anti-vibe-writing README says it is an agent writing skill that removes the AI-generated feel from documents.
+  highlight:
+  - agent writing skill
+  - removes the AI-generated feel
+  scene:
+    type: compare
+    left_label: Original
+    left_text: An agent writing skill that removes the AI-generated feel from documents.
+    right_label: Rewrite
+    right_text: A tool that removes AI artifacts like templated phrasing and vague abstraction.
+- say: The original is too abstract. The rewrite names the specific problems the tool solves.
+  caption: The original is too abstract. The rewrite names the specific problems the tool solves.
+  highlight:
+  - too abstract
+  - names the specific problems
+  scene:
+    type: list
+    title: Why it is better
+    items:
+    - Uses concrete nouns
+    - Defines the value
+    - Removes fluff
+    style: check
+- say: Specific details turn a vague claim into a useful feature.
+  caption: Specific details turn a vague claim into a useful feature.
+  highlight:
+  - Specific details
+  - useful feature
+  scene:
+    type: card
+    title: Writing Impact
+    rows:
+    - - Vague
+      - Low trust
+    - - Specific
+      - High utility
+- say: Replace vague abstractions with concrete examples.
+  caption: Replace vague abstractions with concrete examples.
+  highlight:
+  - Replace vague abstractions
+  - concrete examples
+  scene:
+    type: quote
+    text: Replace vague abstractions with concrete examples.
+    highlight:
+    - concrete examples
+description:
+  what_was_fixed: I turned a vague description of an AI writing tool into a specific explanation of what it actually removes from text.
+  rule: Replace vague abstractions with concrete examples.
+  sources:
+  - 'weijt606/anti-vibe-writing README (MIT): https://github.com/weijt606/anti-vibe-writing'
+  source_link: https://github.com/weijt606/anti-vibe-writing
+  license: MIT
+seo:
+  seeds:
+  - technical writing tips
+  - how to write README files
+  - improving documentation clarity
+  hashtags:
+  - '#TechnicalWriting'
+  - '#Documentation'
+series: Rewrite This
+record_id: repo:weijt606/anti-vibe-writing
+auto: true
+instagram_hashtags_rotating: []

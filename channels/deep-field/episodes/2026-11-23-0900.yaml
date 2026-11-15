@@ -1,0 +1,79 @@
+skip: false
+skip_reason: ''
+title: 'What you''re looking at: SPHEREx mission concept'
+beats:
+- say: SPHEREx will map the entire sky in near infrared light.
+  caption: SPHEREx will map the entire sky in near infrared light.
+  highlight:
+  - map the entire sky
+  scene:
+    type: headline
+    text: Mapping the entire sky
+- say: The spacecraft circles Earth along the day night terminator line.
+  caption: The spacecraft circles Earth along the day-night terminator line.
+  highlight:
+  - circles Earth
+  - day-night terminator line
+  scene:
+    type: image
+    credit: NASA/JPL
+- say: The orange line shows the orbital plane while the green area shows the field of view.
+  caption: The orange line shows the orbital plane while the green area shows the field of view.
+  highlight:
+  - orbital plane
+  - field of view
+  scene:
+    type: compare
+    left_label: Orbital Plane
+    left_text: Orange line
+    right_label: Field of View
+    right_text: Green area
+- say: Each orbit creates a 360 degree strip of the celestial sky.
+  caption: Each orbit creates a 360-degree strip of the celestial sky.
+  highlight:
+  - 360-degree strip
+  scene:
+    type: stat
+    value: '360'
+    label: degree strip per orbit
+- say: This technique allows the mission to complete four all sky maps in two years.
+  caption: This technique allows the mission to complete four all-sky maps in two years.
+  highlight:
+  - four all-sky maps
+  - two years
+  scene:
+    type: list
+    title: Mission Goals
+    items:
+    - Study the Big Bang
+    - Galaxy evolution
+    - Origins of water
+    style: bullet
+- say: Image credit in the description.
+  caption: Image credit in the description.
+  highlight: []
+  scene:
+    type: cta
+    line: Explore the cosmos
+    subline: Follow Space Science
+description:
+  explainer: SPHEREx is a NASA mission designed to create an all-sky spectroscopic survey in the near-infrared. It will map hundreds of millions of stars and galaxies to study the early universe.
+  sources:
+  - 'NASA Image and Video Library: https://images.nasa.gov/details/PIA26532'
+  credit: NASA
+seo:
+  seeds:
+  - NASA SPHEREx mission
+  - near infrared sky survey
+  - spectroscopy in space
+  - how SPHEREx maps the universe
+  hashtags:
+  - '#SpaceScience'
+  - '#NASA'
+series: Look Closer
+record_id: nasa:PIA26532
+auto: true
+instagram_hashtags_rotating: []
+media:
+  image: /home/runner/work/channel-engine/channel-engine/collected/deep-field/media/2026-11-23-0900.jpg
+  credit: NASA

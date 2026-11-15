@@ -1,0 +1,84 @@
+format: strip
+kind: reel
+title: The Sunday Slice
+premise: Pim tries to bake a pie for Sunday afternoon but gets anxious about slicing it evenly.
+panels:
+- room: dining_room
+  cast:
+  - who: Pim
+    mood: proud
+    pos: left
+    size: medium
+    holding: pie
+  - who: Soot
+    mood: flat
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: I baked a Sunday pie! Now for the crucial cut.
+  props: []
+- room: dining_room
+  cast:
+  - who: Pim
+    mood: nervous
+    pos: left
+    size: medium
+    holding: pie
+  - who: Soot
+    mood: flat
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: If I cut it wrong, the integrity is ruined!
+  props: []
+- room: dining_room
+  cast:
+  - who: Pim
+    mood: sad
+    pos: left
+    size: medium
+  - who: Soot
+    mood: eating
+    pos: right
+    size: medium
+  lines:
+  - who: Pim
+    text: I cannot handle the pressure...
+  props:
+  - name: pie
+    spot: right
+- room: dining_room
+  cast:
+  - who: Pim
+    mood: surprised
+    pos: left
+    size: medium
+  - who: Soot
+    mood: smug
+    pos: right
+    size: medium
+  lines:
+  - who: Soot
+    text: Problem solved.
+  props: []
+caption: 'Slicer''s remorse is real. 🥧
+
+  .
+
+  .
+
+  .
+
+  #comics #cartoon #digitalart #webcomic #comicbooks
+
+  comic | drawing | art | illustration | artist | sketch
+
+  #cartoonist #comicart #comicbook #funnycomics #draw #artwork #catcomics #comicstrip #funny #relatable #artistsoninstagram #comicsofy #doodle #webtoon #viral #viralcomics #explorepage #pimandsoot #catcomic #ghost #cozyvibes #sunday'
+description:
+  summary: Slicer's remorse is real. 🥧
+series: Pim and Soot Reel
+record_id: strip:reel:1794757900568786777:0
+auto: true
+instagram_hashtags_rotating: []

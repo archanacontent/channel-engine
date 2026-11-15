@@ -1,0 +1,71 @@
+skip: false
+title: 'Free workflow: Weekly marketing performance briefs on autopilot'
+beats:
+- say: Stop pulling weekly performance stats across four tools manually every Monday morning.
+  caption: Stop pulling weekly performance stats across four tools manually every Monday morning.
+  scene:
+    type: headline
+    kicker: Automation Pick
+    text: Stop manual Monday reporting
+  highlight:
+  - manually every Monday morning
+- say: This n eight n template fetches data from G A 4, Search Console, SegMetrics, and Open A I.
+  caption: This n8n template fetches data from GA4, Search Console, SegMetrics, and OpenAI.
+  scene:
+    type: stat
+    value: GA4, GSC, SegMetrics, OpenAI
+    label: Data Sources
+  highlight:
+  - fetches data
+- say: It checks U T M tagging health, calculates week over week changes, and drafts an executive brief.
+  caption: It checks UTM tagging health, calculates week-over-week changes, and drafts an executive brief.
+  scene:
+    type: flow
+    steps:
+    - title: Fetch Data
+      note: GA4, GSC, SegMetrics
+    - title: UTM Health
+      note: Tagging check
+    - title: AI Brief
+      note: OpenAI JSON
+    - title: Slack Audio
+      note: MP3 upload
+  highlight:
+  - UTM tagging health
+  - week-over-week changes
+- say: Open A I generates an audio script, converts it to an M P three, and uploads it to Slack.
+  caption: OpenAI generates an audio script, converts it to an MP3, and uploads it to Slack.
+  scene:
+    type: list
+    style: check
+    title: Slack Delivery
+    items:
+    - slack_output
+  highlight:
+  - audio script
+  - MP3
+  - uploads it to Slack
+- say: Template link in the description.
+  caption: Template link in the description.
+  scene:
+    type: cta
+    line: Get the Free n8n Template
+    subline: Link in description
+  highlight:
+  - description
+description:
+  task_line: Automate your weekly marketing performance briefs and audio summaries every Monday morning.
+  tools: Built for n8n using GA4, Google Search Console, SegMetrics, OpenAI, and Slack.
+  sources:
+  - 'n8n template: https://n8n.io/workflows/18821'
+  template_link: https://n8n.io/workflows/18821
+seo:
+  seeds:
+  - n8n weekly marketing brief
+  - n8n GA4 Slack automation
+  - automated executive report n8n
+  - 'n8n segmetrics workflow template '
+series: Library Pick
+record_id: n8n:18821
+auto: true
+instagram_hashtags_rotating: []

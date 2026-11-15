@@ -1,0 +1,57 @@
+skip: false
+title: 'Writing rule: Wrap code lines at eighty characters'
+beats:
+- say: Wrap your technical documentation code lines at eighty characters for better readability.
+  caption: Wrap your technical documentation code lines at 80 characters for better readability.
+  scene:
+    type: headline
+    text: Wrap code lines at 80 characters
+  highlight:
+  - Wrap your technical documentation
+- say: Use spaces instead of tabs with two spaces per indentation level.
+  caption: Use spaces instead of tabs with two spaces per indentation level.
+  scene:
+    type: list
+    items:
+    - Use spaces instead of tabs
+    - Two spaces per indentation level
+    - Mark code blocks as preformatted
+    style: check
+    title: Key points
+  highlight:
+  - spaces instead of tabs
+  - two spaces per indentation level
+- say: Google developer documentation advises indicating omitted code with a comment in the syntax of the language instead of using an ellipsis.
+  caption: Google developer documentation advises indicating omitted code with a comment in the syntax of the language instead of using an ellipsis.
+  scene:
+    type: compare
+    left_label: Weak
+    left_text: '...'
+    right_label: Better
+    right_text: '# Code omitted here'
+  highlight:
+  - omitted code with a comment
+  - instead of using an ellipsis
+- say: 'Rule: Wrap code lines at eighty characters and use proper indentation.'
+  caption: 'Rule: Wrap code lines at 80 characters and use proper indentation.'
+  scene:
+    type: quote
+    text: Wrap lines at 80 characters.
+    title: Google Style Guide
+  highlight: []
+description:
+  what_was_fixed: Code samples with incorrect indentation, missing line wraps, and improper omission markers were fixed according to style guidelines.
+  rule: Wrap code lines at eighty characters and format code blocks properly.
+  sources:
+  - 'Google developer documentation: https://developers.google.com/style/code-samples'
+seo:
+  seeds:
+  - technical writing code samples
+  - documentation style guide code blocks
+  - google developer style guide indentation
+  - how to format code in docs
+skip_reason: ''
+series: One Rule
+record_id: style:https://developers.google.com/style/code-samples
+auto: true
+instagram_hashtags_rotating: []

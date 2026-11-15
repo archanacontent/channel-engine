@@ -1,61 +1,73 @@
 skip: false
+skip_reason: ''
 title: What a code sample must include
 beats:
-- say: Programmers prefer good code over clear text. Text and code are different languages.
-  caption: Programmers prefer good code over clear text. Text and code are different languages.
+- say: Programmers prefer good code over clear text.
+  caption: Programmers prefer good code over clear text.
+  highlight:
+  - Programmers prefer good code
   scene:
     type: headline
     text: Programmers prefer good code over clear text
+- say: A code sample is an educational tool that must be correct, concise, and reusable.
+  caption: A code sample is an educational tool that must be correct, concise, and reusable.
   highlight:
-  - good code
-  - clear text
-- say: Treat samples like production code. They must build without errors, be secure, and follow language conventions.
-  caption: Treat samples like production code. They must build without errors, be secure, and follow language conventions.
+  - correct, concise, and reusable
   scene:
-    type: stat
-    value: Production Ready criteria for samples include no errors, security, and conventions adherence.
-    label: Sample Code Standards
-  highlight:
-  - production code
-  - build without errors
-- say: Good documentation explains how to run the code. Include setup instructions, dependencies, and expected outputs.
-  caption: Good documentation explains how to run the code. Include setup instructions, dependencies, and expected outputs.
-  scene:
-    type: list
-    title: What to include
-    items:
-    - The essential elements for running sample code documentation include setup, dependencies, and outputs.
+    type: card
+    title: Sample Code Goals
+    rows:
+    - - Quality
+      - Correct
+    - - Length
+      - Concise
+    - - Utility
+      - Reusable
+- say: To work effectively, it needs setup instructions, dependencies, and expected outputs.
+  caption: To work effectively, it needs setup instructions, dependencies, and expected outputs.
   highlight:
   - setup instructions
   - dependencies
   - expected outputs
-- say: Do not reuse unit tests as sample programs. Unit tests aim to test, while sample code aims to educate.
-  caption: Do not reuse unit tests as sample programs. Unit tests aim to test, while sample code aims to educate.
   scene:
-    type: headline
-    text: Separate unit tests from sample code
+    type: list
+    title: Must-have parts
+    items:
+    - Setup instructions
+    - Dependencies
+    - Expected outputs
+    style: check
+- say: Treat sample code like production code. Build it without errors and follow language specific conventions.
+  caption: Treat sample code like production code. Build it without errors and follow language-specific conventions.
   highlight:
-  - reuse unit tests
-  - aims to educate
-- say: Sample code should be short.
-  caption: Sample code should be short.
+  - Treat sample code like production code
+  scene:
+    type: compare
+    left_label: Bad
+    left_text: Untested snippets
+    right_label: Good
+    right_text: Tested programs
+- say: The only goal of a sample program is to educate.
+  caption: The only goal of a sample program is to educate.
+  highlight: []
   scene:
     type: quote
-    text: Sample code should be short.
-    value: Conciseness is the final rule for effective sample code.
-  highlight:
-  - short
+    text: The only goal of a sample program is to educate.
+    highlight:
+    - goal is to educate
 description:
-  what_was_fixed: Code samples require the same rigor as production code, including setup steps and expected results. Separating these from unit tests ensures the focus remains on user education.
-  rule: Keep sample code concise and explicitly define how to run it.
+  what_was_fixed: Code samples must be treated as educational tools rather than just snippets.
+  rule: Always test your sample code to ensure it builds without errors.
   sources:
   - 'Code sample guidance: https://developers.google.com/tech-writing/two/sample-code'
 seo:
   seeds:
   - how to write code samples
   - technical writing for developers
-  - documentation best practices
-  - sample code guidelines
+  - coding documentation best practices
+  hashtags:
+  - '#TechnicalWriting'
+  - '#CodeSamples'
 series: Doc Types
 record_id: doctype:Code sample
 auto: true

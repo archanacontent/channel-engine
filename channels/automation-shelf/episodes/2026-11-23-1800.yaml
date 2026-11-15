@@ -1,0 +1,75 @@
+skip: false
+title: Can you automate generating marketing images with Google Gemini?
+beats:
+- say: Can you automate generating marketing images with Google Gemini? Yes.
+  caption: Can you automate generating marketing images with Google Gemini? Yes.
+  scene:
+    type: headline
+    text: Can you automate marketing image generation?
+    title: Image Studio Workflow
+  highlight:
+  - Can you automate
+  - Google Gemini
+- say: This n eight n workflow serves a self hosted HTML studio and routes requests directly to Google Gemini.
+  caption: This n8n workflow serves a self-hosted HTML studio and routes requests directly to Google Gemini.
+  scene:
+    type: flow
+    steps:
+    - title: Webhook GET
+      note: Serves HTML UI
+    - title: Parse POST
+      note: Validates base64 data
+    - title: Google Gemini
+      note: Generates image
+    - title: Return JSON
+      note: Data URL output
+  highlight:
+  - n8n workflow
+  - Google Gemini
+- say: It supports text to image, single image edits, and two image composites across six preset modes.
+  caption: It supports text-to-image, single-image edits, and two-image composites across six preset modes.
+  scene:
+    type: list
+    title: Preset Image Modes
+    unit: ''
+    items:
+    - 6 modes total
+  highlight:
+  - text-to-image
+  - preset modes
+- say: The workflow packages Gemini's returned image binary into a JSON response with a downloadable data URL.
+  caption: The workflow packages Gemini's returned image binary into a JSON response with a downloadable data URL.
+  scene:
+    type: stat
+    value: Data URL, Filename, Size, Prompt
+    label: Output JSON Package
+  highlight:
+  - JSON response
+  - downloadable data URL
+- say: Template link in the description.
+  caption: Template link in the description.
+  scene:
+    type: cta
+    line: Get the n8n template
+    subline: Link in description
+  highlight:
+  - Template link
+description:
+  task_line: Automate generating and editing marketing images via a self-hosted HTML studio powered by Google Gemini.
+  tools: Built using n8n and Google Gemini API.
+  sources:
+  - 'n8n template: https://n8n.io/workflows/18664'
+  template_link: https://n8n.io/workflows/18664
+seo:
+  hashtags:
+  - '#MarketingAutomation'
+  - '#n8n'
+  seeds:
+  - n8n google gemini image studio
+  - automate marketing image generation
+  - n8n workflow gemini API
+  - ai image generator n8n
+series: Can It Be Automated?
+record_id: n8n:18664
+auto: true
+instagram_hashtags_rotating: []

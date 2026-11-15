@@ -1,0 +1,73 @@
+skip: false
+skip_reason: ''
+title: 'Mangroves: what just happened'
+beats:
+- say: Mangrove forests are making a global comeback.
+  caption: Mangrove forests are making a global comeback.
+  highlight:
+  - global comeback
+  scene:
+    type: headline
+    text: Global Mangrove Rebound
+- say: Between 19 84 and 20 10, the world lost nearly 3,000 square kilometers of mangroves.
+  caption: Between 1984 and 2010, the world lost nearly 3,000 square kilometers of mangroves.
+  highlight:
+  - lost nearly 3,000 square kilometers
+  scene:
+    type: stat
+    value: 3,000
+    label: sq km lost (1984-2010)
+    source: NASA Earth Observatory
+- say: Since 2010, researchers have tracked an unexpected increase of nearly 2,000 square kilometers.
+  caption: Since 2010, researchers have tracked an unexpected increase of nearly 2,000 square kilometers.
+  highlight:
+  - unexpected increase
+  - 2,000 square kilometers
+  scene:
+    type: card
+    title: Mangrove Trends
+    rows:
+    - - Loss (1984-2010)
+      - 3,000 sq km
+    - - Gain (Post-2010)
+      - 2,000 sq km
+- say: In Burma, mangroves are even replacing abandoned rice fields.
+  caption: In Burma, mangroves are even replacing abandoned rice fields.
+  highlight:
+  - replacing abandoned rice fields
+  scene:
+    type: image
+    credit: NASA Earth Observatory/Michala Garrison
+- say: These ecosystems store up to four times as much carbon as taller inland tropical forests.
+  caption: These ecosystems store up to four times as much carbon as taller inland tropical forests.
+  highlight:
+  - four times as much carbon
+  scene:
+    type: compare
+    left_label: Mangroves
+    left_text: High carbon storage
+    right_label: Inland Tropical Forests
+    right_text: Lower carbon storage
+- say: Source in the description.
+  caption: Source in the description.
+  highlight: []
+  scene:
+    type: cta
+    line: Learn more
+    subline: Source in the description.
+description:
+  explainer: Mangrove forests are experiencing a global rebound following decades of decline. NASA Earth Observatory imagery shows expansion in Asia, Australia, and South America.
+  sources:
+  - 'NASA: https://science.nasa.gov/earth/earth-observatory/a-global-rebound-for-mangroves/'
+seo:
+  seeds:
+  - mangrove forest expansion
+  - NASA Landsat mangrove imagery
+  - global mangrove rebound
+  hashtags:
+  - '#SpaceScience'
+  - '#Mangroves'
+series: Mission Log
+record_id: nasanews:https://science.nasa.gov/earth/earth-observatory/a-global-rebound-for-mangroves/
+auto: true
+instagram_hashtags_rotating: []

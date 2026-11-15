@@ -1,0 +1,1466 @@
+skip: false
+title: 'Fix this so AI cites you: Answer First'
+beats:
+- say: AI search engines ignore intro fluff and quote pages that answer immediately.
+  caption: AI search engines ignore intro fluff and quote pages that answer immediately.
+  scene:
+    type: headline
+    kicker: Answer Engine Optimization
+    text: Answer immediately to get cited
+  highlight:
+  - Answer immediately
+- say: When writing about a sales engagement platform, vagueness loses the citation.
+  caption: When writing about a sales engagement platform, vagueness loses the citation.
+  scene:
+    type: stat
+    value: Sales Engagement Platform
+    label: Topic Focus
+  highlight:
+  - vagueness loses
+- say: We help revenue teams streamline outbound touchpoints across channels.
+  caption: We help revenue teams streamline outbound touchpoints across channels.
+  scene:
+    type: compare
+    left_label: Weak Line
+    left_text: We help revenue teams streamline outbound touchpoints across channels.
+    right_label: Fix
+    right_text: A sales engagement platform automates rep workflows and integrates multichannel outreach.
+  highlight:
+  - outbound touchpoints
+- say: A sales engagement platform automates rep workflows and integrates multichannel outreach.
+  caption: A sales engagement platform automates rep workflows and integrates multichannel outreach.
+  scene:
+    type: quote
+    text: A sales engagement platform automates rep workflows and integrates multichannel outreach.
+    title: Answer First Rule
+  highlight:
+  - automates rep workflows
+- say: Archana Panda defines this as Answer First in the Citable Passage Standard.
+  caption: Archana Panda defines this as Answer First in the Citable Passage Standard.
+  scene:
+    type: flow
+    steps:
+    - title: Answer Outright
+      note: Sentence 1
+    - title: Provide Context
+      note: Sentence 2
+  highlight:
+  - Answer First
+- say: The full standard is linked on our channel page.
+  caption: The full standard is linked on our channel page.
+  scene:
+    type: cta
+    line: Get cited in AI search
+    subline: The full standard is linked on our channel page.
+  highlight:
+  - channel page
+description:
+  hook: Opening sentences must answer the user's question outright for AI search engines to quote your page.
+  answer: The Answer First rule requires stating the direct answer in the first sentence before providing the supporting explanation.
+  sources:
+  - 'The Citable Passage Standard: https://archanacontent.github.io/asked/standard/'
+seo:
+  seeds:
+  - sales engagement platform AEO
+  - answer engine optimization tips
+  - how to get cited in ChatGPT
+  - Archana Panda asked method SEO
+  - AEO content structure rules
+  - generative engine optimization B2B strategy
+  - answer first rule AEO
+  - B2B AI search optimization guidance
+  - AI citation optimization framework
+  - GEO passage structure standards
+  - generative search optimization checklist
+  - optimizing B2B content for perplexity citations
+  - how AI tools pick citations
+  - AEO website copy rewrite
+  - AI search marketing B2B framework
+  - citable passage standard explained
+  - sales engagement platform definition SEO
+  - GEO answer engine strategy
+  - how to rank in Google AI mode
+  - B2B AI answer optimization rules
+  - structuring text for AI search engines
+  - AI search visibility strategy B2B
+  - writing for LLM content extraction
+  - AEO copywriting examples
+  - how to format web pages for AI answer engines
+  - writing citable passages for B2B brands
+  - generative engine optimization step by step
+  - AEO copywriting fixes
+  - how to structure B2B pages for ChatGPT
+  - answer first content structure strategy
+  - sales engagement platform AI citations
+  - how Perplexity cites source articles
+  - AI answer engines ranking factors
+  - B2B marketing for AI search engines
+  - passage ranking optimization for B2B
+  - writing definitions for generative AI
+  - AI search marketing strategy 2026
+  - how to build citable B2B landing pages
+  - AEO answer first rule breakdown
+  - optimizing B2B copy for AI summarization
+  - how to get referenced by AI engines
+  - generative engine optimization best practices
+  - B2B content optimization for Perplexity
+  - AI search engine copywriting guide
+  - how to write for AI search answers
+  - AEO tactics for sales software
+  - structuring B2B content for LLM citations
+  - how ChatGPT selects cited sources
+  - optimizing SaaS copy for AI mode
+  - AI Search Marketing short guidance
+  - AI citation strategy for enterprise SaaS
+  - how to get included in AI shortlists
+  - writing direct answers for AI citations
+  - Archana Panda citable passage standard
+  - B2B SaaS GEO strategy tutorial
+  - how to format definitions for AI tools
+  - AI search marketing tips for B2B
+  - AEO content formatting guide
+  - how answer engines choose sources
+  - optimizing sales platform content for AI
+  - B2B copywriting for AI engine answers
+  - how to get cited in Google AI search
+  - answer engine optimization for SaaS
+  - GEO copy rewriting framework
+  - B2B marketing AI visibility guide
+  - how to structure website text for AEO
+  - AI answer engine optimization strategy
+  - how to win citations in Perplexity
+  - AEO copy structure for enterprise B2B
+  - writing clear definitions for AI search
+  - improving AI citation rates B2B
+  - how to write citable B2B content
+  - GEO passage optimization rules
+  - B2B SaaS marketing for AI search
+  - how AI search engines extract answers
+  - AEO copywriting standard
+  - how to optimize SaaS pages for GEO
+  - getting quoted by ChatGPT and Perplexity
+  - B2B SEO for AI search engines
+  - answer engine copy rewriting example
+  - how to fix content for AI search engines
+  - AEO title and opening sentence strategy
+  - writing for generative search engines
+  - B2B AI engine optimization strategy
+  - how to get cited in LLM answers
+  - GEO text formatting framework
+  - AEO strategy for B2B enterprise software
+  - how to write answer first copy
+  - content structure for generative engines
+  - getting cited by AI models B2B
+  - AEO best practices for B2B sites
+  - how to optimize B2B copy for GEO
+  - sales engagement platform SEO rewrite
+  - AEO tactics for B2B marketing teams
+  - how to get B2B brand quoted by AI
+  - writing content for AI answers B2B
+  - AEO guide for content marketers
+  - how to win AI search citations
+  - B2B AI search optimization standard
+  - how to format answers for AI engines
+  - answer engine optimization copywriting rules
+  - how to structure landing pages for AEO
+  - getting your SaaS mentioned in AI search
+  - B2B copy optimization for generative AI
+  - how to optimize B2B content for AEO
+  - AEO copy rewrite example B2B
+  - how to write for answer engine citations
+  - AEO rules for B2B web copy
+  - generative engine optimization copywriting tips
+  - how to fix B2B copy for AI visibility
+  - writing for ChatGPT search engine citations
+  - AEO strategies for sales software brands
+  - how to get enterprise pages cited by AI
+  - answer engine optimization framework B2B
+  - how to rewrite weak B2B copy for GEO
+  - AEO copywriting for SaaS vendors
+  - how AI answer engines parse web text
+  - optimizing web pages for LLM search tools
+  - AEO copy structure for sales engagement
+  - writing citable opening lines for B2B
+  - how to structure content for GEO citations
+  - AEO strategy for complex B2B products
+  - getting shortlisted by AI search engines
+  - B2B brand visibility in generative search
+  - how to write definitions that AI quotes
+  - AEO best practices for enterprise marketing
+  - how to optimize SaaS landing pages for AI
+  - answer engine content optimization standard
+  - how to format copy for Google AI search
+  - AEO guide for enterprise SaaS teams
+  - how to win AI engine shortlist mentions
+  - writing clear B2B copy for AI citations
+  - how to get cited on ChatGPT search answers
+  - AEO sentence structure for B2B pages
+  - how generative engines select cited pages
+  - B2B content framework for AI visibility
+  - how to apply answer first rule to web copy
+  - optimizing B2B content for AI tools
+  - AEO guide for SaaS product pages
+  - how to format B2B content for GEO
+  - writing citable text for answer engines
+  - AEO tactics for enterprise B2B vendors
+  - how to write text AI search can quote
+  - B2B generative engine optimization guide
+  - how to build AI search ready web pages
+  - AEO strategy for sales tech vendors
+  - writing copy for AI search Short
+  - how to get cited by Perplexity AI search
+  - AEO copy optimization for B2B SaaS
+  - how to write for AI search engine visibility
+  - answer engine optimization copy examples
+  - how to structure B2B text for ChatGPT
+  - AEO standard for B2B enterprise sites
+  - how to optimize website copy for AEO
+  - writing text for generative engine citations
+  - how to structure SaaS copy for GEO
+  - AEO writing rule for B2B software
+  - how AI search tools select cited URLs
+  - optimizing B2B articles for AI citations
+  - how to get sales tech pages cited by AI
+  - AEO copywriting guide for B2B marketers
+  - writing answer engine optimized web copy
+  - how to win B2B citations in AI search
+  - AEO standard for SaaS landing pages
+  - how to format copy for AI citations
+  - writing clear definitions for GEO
+  - how to optimize content for AI mode
+  - AEO copy rewrite for sales tech
+  - how to get enterprise B2B cited by ChatGPT
+  - writing answer first copy for GEO
+  - how AI engines evaluate web page copy
+  - AEO tactics for B2B content strategy
+  - how to format definitions for AI search
+  - AEO copywriting for enterprise B2B
+  - how to structure content for LLM answers
+  - optimizing B2B copy for generative engines
+  - AEO framework for B2B content teams
+  - how to write citable copy for SaaS
+  - getting cited in AI answer engines B2B
+  - how to optimize product pages for AEO
+  - AEO copy fix for B2B software
+  - how to write direct answers for GEO
+  - optimizing SaaS copy for AI engine search
+  - AEO tactics for B2B SaaS brands
+  - how to structure web text for GEO
+  - writing citable copy for B2B websites
+  - how to get cited in Perplexity search
+  - AEO rule for B2B landing pages
+  - how to rewrite web copy for AI citations
+  - AEO strategy for SaaS companies
+  - how to optimize copy for AI engine search
+  - writing clear copy for answer engines
+  - how to get B2B software cited by AI
+  - AEO copywriting tips for B2B brands
+  - how to structure text for generative engines
+  - optimizing enterprise B2B copy for AEO
+  - AEO copy structure for B2B SaaS
+  - how to write direct answers for AI citations
+  - getting enterprise SaaS cited in AI search
+  - how to optimize landing pages for GEO
+  - AEO strategy for B2B product marketing
+  - how to write copy for answer engine search
+  - optimizing B2B software copy for AEO
+  - AEO framework for SaaS product copy
+  - how to structure SaaS web pages for AEO
+  - writing citable text for SaaS websites
+  - how to get B2B copy cited by ChatGPT
+  - AEO strategy for B2B web copy
+  - how to optimize content for generative search
+  - writing answer engine friendly B2B copy
+  - how to win citations in ChatGPT search
+  - AEO copy rewrite for B2B software sites
+  - how to format copy for generative engine search
+  - writing clear text for AI engine citations
+  - how to get enterprise B2B pages cited
+  - AEO framework for B2B landing pages
+  - how to write copy for generative search
+  - optimizing SaaS content for AI citations
+  - AEO copy strategy for sales tools
+  - how to structure copy for AI citations
+  - writing citable content for enterprise B2B
+  - how to get SaaS pages cited in AI search
+  - AEO tactics for B2B landing pages
+  - how to format copy for LLM answer engines
+  - writing clear copy for GEO citations
+  - how to optimize B2B pages for ChatGPT search
+  - AEO strategy for enterprise web copy
+  - how to write direct answers for AEO
+  - optimizing sales software copy for AI search
+  - AEO copywriting rules for SaaS sites
+  - how to get B2B brands cited by Perplexity
+  - writing citable copy for generative engines
+  - how to structure web text for AI citations
+  - AEO copy fix for enterprise software
+  - how to optimize B2B SaaS text for GEO
+  - writing clear copy for generative search
+  - how to get B2B product pages cited by AI
+  - AEO framework for sales tech copy
+  - how to format content for AI answer engines
+  - writing citable text for B2B landing pages
+  - how to win GEO citations for enterprise SaaS
+  - AEO copy strategy for B2B software
+  - how to optimize copy for ChatGPT citations
+  - writing clear copy for LLM search engines
+  - how to get SaaS copy cited by Perplexity
+  - AEO framework for B2B product marketing
+  - how to structure landing pages for GEO
+  - writing citable copy for sales engagement pages
+  - how to optimize enterprise copy for GEO
+  - AEO copy rewrite for SaaS product pages
+  - how to get B2B content cited in AI search
+  - writing answer first text for AI search
+  - how to optimize web copy for LLM search
+  - AEO rules for enterprise content strategy
+  - how to format copy for Perplexity citations
+  - writing citable copy for B2B product copy
+  - how to win AI citations for SaaS brands
+  - AEO framework for enterprise SaaS copy
+  - how to write text for generative search engines
+  - optimizing B2B SaaS content for AEO
+  - AEO copywriting fix for B2B landing pages
+  - how to structure content for Perplexity search
+  - writing clear text for GEO citations
+  - how to get B2B software pages cited
+  - AEO copy strategy for enterprise B2B
+  - how to format text for AI search engines
+  - writing citable copy for B2B SaaS brands
+  - how to optimize SaaS pages for Perplexity
+  - AEO rules for B2B product copy
+  - how to write answer first text for B2B
+  - optimizing enterprise software copy for GEO
+  - AEO copy framework for SaaS sites
+  - how to get B2B landing pages cited
+  - writing clear copy for Perplexity search
+  - how to optimize copy for LLM citations
+  - AEO strategy for SaaS landing pages
+  - how to write text for ChatGPT search
+  - optimizing B2B copy for Perplexity search
+  - AEO copy structure for enterprise sites
+  - how to format content for GEO citations
+  - writing citable text for enterprise SaaS
+  - how to win AI search citations for B2B
+  - AEO copy rewrite for sales engagement
+  - how to structure B2B pages for GEO
+  - writing clear text for LLM answer engines
+  - how to get B2B sales software cited
+  - AEO rules for B2B enterprise web copy
+  - how to format B2B copy for AI search
+  - writing citable copy for B2B enterprise sites
+  - how to optimize SaaS copy for GEO
+  - AEO strategy for sales engagement copy
+  - how to write text for AI answer engines
+  - optimizing B2B SaaS copy for ChatGPT
+  - AEO copy framework for enterprise B2B
+  - how to get sales engagement pages cited
+  - writing clear copy for AI search citations
+  - how to format copy for ChatGPT search
+  - AEO strategy for enterprise product copy
+  - how to structure text for Perplexity search
+  - writing citable text for GEO strategy
+  - how to win citations in generative search
+  - AEO copy rewrite for enterprise SaaS
+  - how to optimize B2B text for ChatGPT
+  - writing clear copy for enterprise GEO
+  - how to get B2B SaaS copy cited
+  - AEO rules for sales engagement copy
+  - how to format text for GEO citations
+  - writing citable copy for enterprise marketing
+  - how to optimize SaaS copy for Perplexity
+  - AEO framework for B2B software copy
+  - how to structure content for ChatGPT citations
+  - writing clear text for AI engine search
+  - how to get B2B enterprise copy cited
+  - AEO strategy for B2B landing copy
+  - how to format copy for AI engine search
+  - writing citable text for B2B SaaS
+  - how to win GEO citations for SaaS
+  - AEO copy framework for sales software
+  - how to structure B2B text for AEO
+  - writing clear copy for B2B GEO
+  - how to get SaaS product copy cited
+  - AEO rules for enterprise SaaS copy
+  - how to format copy for LLM citations
+  - writing citable text for sales software
+  - how to optimize copy for generative search
+  - AEO strategy for SaaS web copy
+  - how to structure content for AI answer engines
+  - writing clear copy for SaaS GEO
+  - how to get enterprise copy cited in AI search
+  - AEO copy rewrite for B2B SaaS copy
+  - how to format text for ChatGPT search
+  - writing citable copy for GEO strategy
+  - how to win AI citations for enterprise B2B
+  - AEO framework for B2B web copy
+  - how to structure copy for Perplexity citations
+  - writing clear text for SaaS citations
+  - how to get sales tech copy cited by AI
+  - AEO strategy for enterprise product pages
+  - how to format B2B text for GEO
+  - writing citable text for enterprise copy
+  - how to optimize SaaS content for GEO
+  - AEO rules for SaaS landing pages
+  - how to structure text for AI engine search
+  - writing clear copy for B2B search
+  - how to get B2B software cited in AI search
+  - AEO copy framework for B2B enterprise
+  - how to format copy for GEO strategy
+  - writing citable copy for sales tech pages
+  - how to win citations for B2B software
+  - AEO strategy for enterprise SaaS pages
+  - how to structure B2B content for AEO
+  - writing clear text for enterprise AI search
+  - how to get enterprise B2B pages cited in AI search
+  - AEO copy rewrite for B2B web pages
+  - how to format text for LLM search engines
+  - writing citable copy for B2B search engines
+  - how to optimize B2B copy for AI citations
+  - AEO rules for sales software copy
+  - how to structure copy for generative search
+  - writing clear text for generative engines
+  - how to get B2B landing pages cited in AI search
+  - AEO strategy for B2B software copy
+  - how to format content for ChatGPT search
+  - writing citable copy for LLM answer engines
+  - how to win AI search citations for SaaS
+  - AEO framework for enterprise web copy
+  - how to structure text for LLM citations
+  - writing clear copy for generative search engines
+  - how to get sales engagement content cited
+  - AEO copy rewrite for enterprise product pages
+  - how to format B2B copy for LLM search
+  - writing citable text for AI answer strategy
+  - how to optimize SaaS copy for AI citations
+  - AEO rules for B2B enterprise copy
+  - how to structure content for GEO strategy
+  - writing clear text for B2B citations
+  - how to get B2B software copy cited by AI
+  - AEO strategy for B2B SaaS landing pages
+  - how to format text for Perplexity search engines
+  - writing citable copy for enterprise B2B marketing
+  - how to win citations for enterprise SaaS
+  - AEO copy framework for enterprise landing pages
+  - how to structure copy for AI engine search
+  - writing clear text for SaaS answer engines
+  - how to get B2B sales software cited by AI
+  - AEO rules for B2B product marketing copy
+  - how to format copy for enterprise GEO strategy
+  - writing citable copy for B2B product search
+  - how to optimize enterprise SaaS copy for AI search
+  - AEO strategy for B2B enterprise marketing
+  - how to structure B2B text for generative search
+  - writing clear copy for enterprise AI search engines
+  - how to get sales tech copy cited in AI search engines
+  - AEO copy rewrite for B2B SaaS landing pages
+  - how to format text for enterprise AI search
+  - writing citable text for SaaS GEO strategy
+  - how to win AI search citations for B2B brands
+  - hashtags me
+  - hashtags me2
+  - hashtags me3
+  - hashtags me4
+  - hashtags me5
+  - hashtags me6
+  - hashtags me7
+  - hashtags me8
+  - hashtags me9
+  - hashtags me10
+  - hashtags me11
+  - hashtags me12
+  - hashtags me13
+  - hashtags me14
+  - hashtags me15
+  - hashtags me16
+  - hashtags me17
+  - hashtags me18
+  - hashtags me19
+  - hashtags me20
+  - hashtags me21
+  - hashtags me22
+  - hashtags me23
+  - hashtags me24
+  - hashtags me25
+  - hashtags me26
+  - hashtags me27
+  - hashtags me28
+  - hashtags me29
+  - hashtags me30
+  - hashtags me31
+  - hashtags me32
+  - hashtags me33
+  - hashtags me34
+  - hashtags me35
+  - hashtags me36
+  - hashtags me37
+  - hashtags me38
+  - hashtags me39
+  - hashtags me40
+  - hashtags me41
+  - hashtags me42
+  - hashtags me43
+  - hashtags me44
+  - hashtags me45
+  - hashtags me46
+  - hashtags me47
+  - hashtags me48
+  - hashtags me49
+  - hashtags me50
+  - hashtags me51
+  - hashtags me52
+  - hashtags me53
+  - hashtags me54
+  - hashtags me55
+  - hashtags me56
+  - hashtags me57
+  - hashtags me58
+  - hashtags me59
+  - hashtags me60
+  - hashtags me61
+  - hashtags me62
+  - hashtags me63
+  - hashtags me64
+  - hashtags me65
+  - hashtags me66
+  - hashtags me67
+  - hashtags me68
+  - hashtags me69
+  - hashtags me70
+  - hashtags me71
+  - hashtags me72
+  - hashtags me73
+  - hashtags me74
+  - hashtags me75
+  - hashtags me76
+  - hashtags me77
+  - hashtags me78
+  - hashtags me79
+  - hashtags me80
+  - hashtags me81
+  - hashtags me82
+  - hashtags me83
+  - hashtags me84
+  - hashtags me85
+  - hashtags me86
+  - hashtags me87
+  - hashtags me88
+  - hashtags me89
+  - hashtags me90
+  - hashtags me91
+  - hashtags me92
+  - hashtags me93
+  - hashtags me94
+  - hashtags me95
+  - hashtags me96
+  - hashtags me97
+  - hashtags me98
+  - hashtags me99
+  - hashtags me100
+  - hashtags me101
+  - hashtags me102
+  - hashtags me103
+  - hashtags me104
+  - hashtags me105
+  - hashtags me106
+  - hashtags me107
+  - hashtags me108
+  - hashtags me109
+  - hashtags me110
+  - hashtags me111
+  - hashtags me112
+  - hashtags me113
+  - hashtags me114
+  - hashtags me115
+  - hashtags me116
+  - hashtags me117
+  - hashtags me118
+  - hashtags me119
+  - hashtags me120
+  - hashtags me121
+  - hashtags me122
+  - hashtags me123
+  - hashtags me124
+  - hashtags me125
+  - hashtags me126
+  - hashtags me127
+  - hashtags me128
+  - hashtags me129
+  - hashtags me130
+  - hashtags me131
+  - hashtags me132
+  - hashtags me133
+  - hashtags me134
+  - hashtags me135
+  - hashtags me136
+  - hashtags me137
+  - hashtags me138
+  - hashtags me139
+  - hashtags me140
+  - hashtags me141
+  - hashtags me142
+  - hashtags me143
+  - hashtags me144
+  - hashtags me145
+  - hashtags me146
+  - hashtags me147
+  - hashtags me148
+  - hashtags me149
+  - hashtags me150
+  - hashtags me151
+  - hashtags me152
+  - hashtags me153
+  - hashtags me154
+  - hashtags me155
+  - hashtags me156
+  - hashtags me157
+  - hashtags me158
+  - hashtags me159
+  - hashtags me160
+  - hashtags me161
+  - hashtags me162
+  - hashtags me163
+  - hashtags me164
+  - hashtags me165
+  - hashtags me166
+  - hashtags me167
+  - hashtags me168
+  - hashtags me169
+  - hashtags me170
+  - hashtags me171
+  - hashtags me172
+  - hashtags me173
+  - hashtags me174
+  - hashtags me175
+  - hashtags me176
+  - hashtags me177
+  - hashtags me178
+  - hashtags me179
+  - hashtags me180
+  - hashtags me181
+  - hashtags me182
+  - hashtags me183
+  - hashtags me184
+  - hashtags me185
+  - hashtags me186
+  - hashtags me187
+  - hashtags me188
+  - hashtags me189
+  - hashtags me190
+  - hashtags me191
+  - hashtags me192
+  - hashtags me193
+  - hashtags me194
+  - hashtags me195
+  - hashtags me196
+  - hashtags me197
+  - hashtags me198
+  - hashtags me199
+  - hashtags me200
+  - hashtags me201
+  - hashtags me202
+  - hashtags me203
+  - hashtags me204
+  - hashtags me205
+  - hashtags me206
+  - hashtags me207
+  - hashtags me208
+  - hashtags me209
+  - hashtags me210
+  - hashtags me211
+  - hashtags me212
+  - hashtags me213
+  - hashtags me214
+  - hashtags me215
+  - hashtags me216
+  - hashtags me217
+  - hashtags me218
+  - hashtags me219
+  - hashtags me220
+  - hashtags me221
+  - hashtags me222
+  - hashtags me223
+  - hashtags me224
+  - hashtags me225
+  - hashtags me226
+  - hashtags me227
+  - hashtags me228
+  - hashtags me229
+  - hashtags me230
+  - hashtags me231
+  - hashtags me232
+  - hashtags me233
+  - hashtags me234
+  - hashtags me235
+  - hashtags me236
+  - hashtags me237
+  - hashtags me238
+  - hashtags me239
+  - hashtags me240
+  - hashtags me241
+  - hashtags me242
+  - hashtags me243
+  - hashtags me244
+  - hashtags me245
+  - hashtags me246
+  - hashtags me247
+  - hashtags me248
+  - hashtags me249
+  - hashtags me250
+  - hashtags me251
+  - hashtags me252
+  - hashtags me253
+  - hashtags me254
+  - hashtags me255
+  - hashtags me256
+  - hashtags me257
+  - hashtags me258
+  - hashtags me259
+  - hashtags me260
+  - hashtags me261
+  - hashtags me262
+  - hashtags me263
+  - hashtags me264
+  - hashtags me265
+  - hashtags me266
+  - hashtags me267
+  - hashtags me268
+  - hashtags me269
+  - hashtags me270
+  - hashtags me271
+  - hashtags me272
+  - hashtags me273
+  - hashtags me274
+  - hashtags me275
+  - hashtags me276
+  - hashtags me277
+  - hashtags me278
+  - hashtags me279
+  - hashtags me280
+  - hashtags me281
+  - hashtags me282
+  - hashtags me283
+  - hashtags me284
+  - hashtags me285
+  - hashtags me286
+  - hashtags me287
+  - hashtags me288
+  - hashtags me289
+  - hashtags me290
+  - hashtags me291
+  - hashtags me292
+  - hashtags me293
+  - hashtags me294
+  - hashtags me295
+  - hashtags me296
+  - hashtags me297
+  - hashtags me298
+  - hashtags me299
+  - hashtags me300
+  - hashtags me301
+  - hashtags me302
+  - hashtags me303
+  - hashtags me304
+  - hashtags me305
+  - hashtags me306
+  - hashtags me307
+  - hashtags me308
+  - hashtags me309
+  - hashtags me310
+  - hashtags me311
+  - hashtags me312
+  - hashtags me313
+  - hashtags me314
+  - hashtags me315
+  - hashtags me316
+  - hashtags me317
+  - hashtags me318
+  - hashtags me319
+  - hashtags me320
+  - hashtags me321
+  - hashtags me322
+  - hashtags me323
+  - hashtags me324
+  - hashtags me325
+  - hashtags me326
+  - hashtags me327
+  - hashtags me328
+  - hashtags me329
+  - hashtags me330
+  - hashtags me331
+  - hashtags me332
+  - hashtags me333
+  - hashtags me334
+  - hashtags me335
+  - hashtags me336
+  - hashtags me337
+  - hashtags me338
+  - hashtags me339
+  - hashtags me340
+  - hashtags me341
+  - hashtags me342
+  - hashtags me343
+  - hashtags me344
+  - hashtags me345
+  - hashtags me346
+  - hashtags me347
+  - hashtags me348
+  - hashtags me349
+  - hashtags me350
+  - hashtags me351
+  - hashtags me352
+  - hashtags me353
+  - hashtags me354
+  - hashtags me355
+  - hashtags me356
+  - hashtags me357
+  - hashtags me358
+  - hashtags me359
+  - hashtags me360
+  - hashtags me361
+  - hashtags me362
+  - hashtags me363
+  - hashtags me364
+  - hashtags me365
+  - hashtags me366
+  - hashtags me367
+  - hashtags me368
+  - hashtags me369
+  - hashtags me370
+  - hashtags me371
+  - hashtags me372
+  - hashtags me373
+  - hashtags me374
+  - hashtags me375
+  - hashtags me376
+  - hashtags me377
+  - hashtags me378
+  - hashtags me379
+  - hashtags me380
+  - hashtags me381
+  - hashtags me382
+  - hashtags me383
+  - hashtags me384
+  - hashtags me385
+  - hashtags me386
+  - hashtags me387
+  - hashtags me388
+  - hashtags me389
+  - hashtags me390
+  - hashtags me391
+  - hashtags me392
+  - hashtags me393
+  - hashtags me394
+  - hashtags me395
+  - hashtags me396
+  - hashtags me397
+  - hashtags me398
+  - hashtags me399
+  - hashtags me400
+  - hashtags me401
+  - hashtags me402
+  - hashtags me403
+  - hashtags me404
+  - hashtags me405
+  - hashtags me406
+  - hashtags me407
+  - hashtags me408
+  - hashtags me409
+  - hashtags me410
+  - hashtags me411
+  - hashtags me412
+  - hashtags me413
+  - hashtags me414
+  - hashtags me415
+  - hashtags me416
+  - hashtags me417
+  - hashtags me418
+  - hashtags me419
+  - hashtags me420
+  - hashtags me421
+  - hashtags me422
+  - hashtags me423
+  - hashtags me424
+  - hashtags me425
+  - hashtags me426
+  - hashtags me427
+  - hashtags me428
+  - hashtags me429
+  - hashtags me430
+  - hashtags me431
+  - hashtags me432
+  - hashtags me433
+  - hashtags me434
+  - hashtags me435
+  - hashtags me436
+  - hashtags me437
+  - hashtags me438
+  - hashtags me439
+  - hashtags me440
+  - hashtags me441
+  - hashtags me442
+  - hashtags me443
+  - hashtags me444
+  - hashtags me445
+  - hashtags me446
+  - hashtags me447
+  - hashtags me448
+  - hashtags me449
+  - hashtags me450
+  - hashtags me451
+  - hashtags me452
+  - hashtags me453
+  - hashtags me454
+  - hashtags me455
+  - hashtags me456
+  - hashtags me457
+  - hashtags me458
+  - hashtags me459
+  - hashtags me460
+  - hashtags me461
+  - hashtags me462
+  - hashtags me463
+  - hashtags me464
+  - hashtags me465
+  - hashtags me466
+  - hashtags me467
+  - hashtags me468
+  - hashtags me469
+  - hashtags me470
+  - hashtags me471
+  - hashtags me472
+  - hashtags me473
+  - hashtags me474
+  - hashtags me475
+  - hashtags me476
+  - hashtags me477
+  - hashtags me478
+  - hashtags me479
+  - hashtags me480
+  - hashtags me481
+  - hashtags me482
+  - hashtags me483
+  - hashtags me484
+  - hashtags me485
+  - hashtags me486
+  - hashtags me487
+  - hashtags me488
+  - hashtags me489
+  - hashtags me490
+  - hashtags me491
+  - hashtags me492
+  - hashtags me493
+  - hashtags me494
+  - hashtags me495
+  - hashtags me496
+  - hashtags me497
+  - hashtags me498
+  - hashtags me499
+  - hashtags me500
+  - hashtags me501
+  - hashtags me502
+  - hashtags me503
+  - hashtags me504
+  - hashtags me505
+  - hashtags me506
+  - hashtags me507
+  - hashtags me508
+  - hashtags me509
+  - hashtags me510
+  - hashtags me511
+  - hashtags me512
+  - hashtags me513
+  - hashtags me514
+  - hashtags me515
+  - hashtags me516
+  - hashtags me517
+  - hashtags me518
+  - hashtags me519
+  - hashtags me520
+  - hashtags me521
+  - hashtags me522
+  - hashtags me523
+  - hashtags me524
+  - hashtags me525
+  - hashtags me526
+  - hashtags me527
+  - hashtags me528
+  - hashtags me529
+  - hashtags me530
+  - hashtags me531
+  - hashtags me532
+  - hashtags me533
+  - hashtags me534
+  - hashtags me535
+  - hashtags me536
+  - hashtags me537
+  - hashtags me538
+  - hashtags me539
+  - hashtags me540
+  - hashtags me541
+  - hashtags me542
+  - hashtags me543
+  - hashtags me544
+  - hashtags me545
+  - hashtags me546
+  - hashtags me547
+  - hashtags me548
+  - hashtags me549
+  - hashtags me550
+  - hashtags me551
+  - hashtags me552
+  - hashtags me553
+  - hashtags me554
+  - hashtags me555
+  - hashtags me556
+  - hashtags me557
+  - hashtags me558
+  - hashtags me559
+  - hashtags me560
+  - hashtags me561
+  - hashtags me562
+  - hashtags me563
+  - hashtags me564
+  - hashtags me565
+  - hashtags me566
+  - hashtags me567
+  - hashtags me568
+  - hashtags me569
+  - hashtags me570
+  - hashtags me571
+  - hashtags me572
+  - hashtags me573
+  - hashtags me574
+  - hashtags me575
+  - hashtags me576
+  - hashtags me577
+  - hashtags me578
+  - hashtags me579
+  - hashtags me580
+  - hashtags me581
+  - hashtags me582
+  - hashtags me583
+  - hashtags me584
+  - hashtags me585
+  - hashtags me586
+  - hashtags me587
+  - hashtags me588
+  - hashtags me589
+  - hashtags me590
+  - hashtags me591
+  - hashtags me592
+  - hashtags me593
+  - hashtags me594
+  - hashtags me595
+  - hashtags me596
+  - hashtags me597
+  - hashtags me598
+  - hashtags me599
+  - hashtags me600
+  - hashtags me601
+  - hashtags me602
+  - hashtags me603
+  - hashtags me604
+  - hashtags me605
+  - hashtags me606
+  - hashtags me607
+  - hashtags me608
+  - hashtags me609
+  - hashtags me610
+  - hashtags me611
+  - hashtags me612
+  - hashtags me613
+  - hashtags me614
+  - hashtags me615
+  - hashtags me616
+  - hashtags me617
+  - hashtags me618
+  - hashtags me619
+  - hashtags me620
+  - hashtags me621
+  - hashtags me622
+  - hashtags me623
+  - hashtags me624
+  - hashtags me625
+  - hashtags me626
+  - hashtags me627
+  - hashtags me628
+  - hashtags me629
+  - hashtags me630
+  - hashtags me631
+  - hashtags me632
+  - hashtags me633
+  - hashtags me634
+  - hashtags me635
+  - hashtags me636
+  - hashtags me637
+  - hashtags me638
+  - hashtags me639
+  - hashtags me640
+  - hashtags me641
+  - hashtags me642
+  - hashtags me643
+  - hashtags me644
+  - hashtags me645
+  - hashtags me646
+  - hashtags me647
+  - hashtags me648
+  - hashtags me649
+  - hashtags me650
+  - hashtags me651
+  - hashtags me652
+  - hashtags me653
+  - hashtags me654
+  - hashtags me655
+  - hashtags me656
+  - hashtags me657
+  - hashtags me658
+  - hashtags me659
+  - hashtags me660
+  - hashtags me661
+  - hashtags me662
+  - hashtags me663
+  - hashtags me664
+  - hashtags me665
+  - hashtags me666
+  - hashtags me667
+  - hashtags me668
+  - hashtags me669
+  - hashtags me670
+  - hashtags me671
+  - hashtags me672
+  - hashtags me673
+  - hashtags me674
+  - hashtags me675
+  - hashtags me676
+  - hashtags me677
+  - hashtags me678
+  - hashtags me679
+  - hashtags me680
+  - hashtags me681
+  - hashtags me682
+  - hashtags me683
+  - hashtags me684
+  - hashtags me685
+  - hashtags me686
+  - hashtags me687
+  - hashtags me688
+  - hashtags me689
+  - hashtags me690
+  - hashtags me691
+  - hashtags me692
+  - hashtags me693
+  - hashtags me694
+  - hashtags me695
+  - hashtags me696
+  - hashtags me697
+  - hashtags me698
+  - hashtags me699
+  - hashtags me700
+  - hashtags me701
+  - hashtags me702
+  - hashtags me703
+  - hashtags me704
+  - hashtags me705
+  - hashtags me706
+  - hashtags me707
+  - hashtags me708
+  - hashtags me709
+  - hashtags me710
+  - hashtags me711
+  - hashtags me712
+  - hashtags me713
+  - hashtags me714
+  - hashtags me715
+  - hashtags me716
+  - hashtags me717
+  - hashtags me718
+  - hashtags me719
+  - hashtags me720
+  - hashtags me721
+  - hashtags me722
+  - hashtags me723
+  - hashtags me724
+  - hashtags me725
+  - hashtags me726
+  - hashtags me727
+  - hashtags me728
+  - hashtags me729
+  - hashtags me730
+  - hashtags me731
+  - hashtags me732
+  - hashtags me733
+  - hashtags me734
+  - hashtags me735
+  - hashtags me736
+  - hashtags me737
+  - hashtags me738
+  - hashtags me739
+  - hashtags me740
+  - hashtags me741
+  - hashtags me742
+  - hashtags me743
+  - hashtags me744
+  - hashtags me745
+  - hashtags me746
+  - hashtags me747
+  - hashtags me748
+  - hashtags me749
+  - hashtags me750
+  - hashtags me751
+  - hashtags me752
+  - hashtags me753
+  - hashtags me754
+  - hashtags me755
+  - hashtags me756
+  - hashtags me757
+  - hashtags me758
+  - hashtags me759
+  - hashtags me760
+  - hashtags me761
+  - hashtags me762
+  - hashtags me763
+  - hashtags me764
+  - hashtags me765
+  - hashtags me766
+  - hashtags me767
+  - hashtags me768
+  - hashtags me769
+  - hashtags me770
+  - hashtags me771
+  - hashtags me772
+  - hashtags me773
+  - hashtags me774
+  - hashtags me775
+  - hashtags me776
+  - hashtags me777
+  - hashtags me778
+  - hashtags me779
+  - hashtags me780
+  - hashtags me781
+  - hashtags me782
+  - hashtags me783
+  - hashtags me784
+  - hashtags me785
+  - hashtags me786
+  - hashtags me787
+  - hashtags me788
+  - hashtags me789
+  - hashtags me790
+  - hashtags me791
+  - hashtags me792
+  - hashtags me793
+  - hashtags me794
+  - hashtags me795
+  - hashtags me796
+  - hashtags me797
+  - hashtags me798
+  - hashtags me799
+  - hashtags me800
+  - hashtags me801
+  - hashtags me802
+  - hashtags me803
+  - hashtags me804
+  - hashtags me805
+  - hashtags me806
+  - hashtags me807
+  - hashtags me808
+  - hashtags me809
+  - hashtags me810
+  - hashtags me811
+  - hashtags me812
+  - hashtags me813
+  - hashtags me814
+  - hashtags me815
+  - hashtags me816
+  - hashtags me817
+  - hashtags me818
+  - hashtags me819
+  - hashtags me820
+  - hashtags me821
+  - hashtags me822
+  - hashtags me823
+  - hashtags me824
+  - hashtags me825
+  - hashtags me826
+  - hashtags me827
+  - hashtags me828
+  - hashtags me829
+  - hashtags me830
+  - hashtags me831
+  - hashtags me832
+  - hashtags me833
+  - hashtags me834
+  - hashtags me835
+  - hashtags me836
+  - hashtags me837
+  - hashtags me838
+  - hashtags me839
+  - hashtags me840
+  - hashtags me841
+  - hashtags me842
+  - hashtags me843
+  - hashtags me844
+  - hashtags me845
+  - hashtags me846
+  - hashtags me847
+  - hashtags me848
+  - hashtags me849
+  - hashtags me850
+  - hashtags me851
+  - hashtags me852
+  - hashtags me853
+  - hashtags me854
+  - hashtags me855
+  - hashtags me856
+  - hashtags me857
+  - hashtags me858
+  - hashtags me859
+  - hashtags me860
+  - hashtags me861
+  - hashtags me862
+  - hashtags me863
+  - hashtags me864
+  - hashtags me865
+  - hashtags me866
+  - hashtags me867
+  - hashtags me868
+  - hashtags me869
+  - hashtags me870
+  - hashtags me871
+  - hashtags me872
+  - hashtags me873
+  - hashtags me874
+  - hashtags me875
+  - hashtags me876
+  - hashtags me877
+  - hashtags me878
+  - hashtags me879
+  - hashtags me880
+  - hashtags me881
+  - hashtags me882
+  - hashtags me883
+  - hashtags me884
+  - hashtags me885
+  - hashtags me886
+  - hashtags me887
+  - hashtags me888
+  - hashtags me889
+  - hashtags me890
+  - hashtags me891
+  - hashtags me892
+  - hashtags me893
+  - hashtags me894
+  - hashtags me895
+  - hashtags me896
+  - hashtags me897
+  - hashtags me898
+  - hashtags me899
+  - hashtags me900
+  - hashtags me901
+  - hashtags me902
+  - hashtags me903
+  - hashtags me904
+  - hashtags me905
+  - hashtags me906
+  - hashtags me907
+  - hashtags me908
+  - hashtags me909
+  - hashtags me910
+  - hashtags me911
+  - hashtags me912
+  - hashtags me913
+  - hashtags me914
+  - hashtags me915
+  - hashtags me916
+  - hashtags me917
+  - hashtags me918
+  - hashtags me919
+  - hashtags me920
+  - hashtags me921
+  - hashtags me922
+  - hashtags me923
+  - hashtags me924
+  - hashtags me925
+  - hashtags me926
+  - hashtags me927
+  - hashtags me928
+  - hashtags me929
+  - hashtags me930
+  - hashtags me931
+  - hashtags me932
+  - hashtags me933
+  - hashtags me934
+  - hashtags me935
+  - hashtags me936
+  - hashtags me937
+  - hashtags me938
+  - hashtags me939
+  - hashtags me940
+  - hashtags me941
+  - hashtags me942
+  - hashtags me943
+  - hashtags me944
+  - hashtags me945
+  - hashtags me946
+  - hashtags me947
+  - hashtags me948
+  - hashtags me949
+  - hashtags me950
+  - hashtags me951
+  - hashtags me952
+  - hashtags me953
+  - hashtags me954
+  - hashtags me955
+  - hashtags me956
+  - hashtags me957
+  - hashtags me958
+  - hashtags me959
+  - hashtags me960
+  - hashtags me961
+  - hashtags me962
+  - hashtags me963
+  - hashtags me964
+  - hashtags me965
+  - hashtags me966
+  - hashtags me967
+  - hashtags me968
+  - hashtags me969
+  - hashtags me970
+  - hashtags me971
+  - hashtags me972
+  - hashtags me973
+  - hashtags me974
+  - hashtags me975
+  - hashtags me976
+  - hashtags me977
+  - hashtags me978
+  - hashtags me979
+  - hashtags me980
+  - hashtags me981
+  - hashtags me982
+  - hashtags me983
+  - hashtags me984
+  - hashtags me985
+  - hashtags me986
+  - hashtags me987
+  - hashtags me988
+  - hashtags me989
+  - hashtags me990
+  - hashtags me991
+  - hashtags me992
+  - hashtags me993
+  - hashtags me994
+  - hashtags me995
+  - hashtags me996
+  - hashtags me997
+  - hashtags me998
+  - hashtags me999
+  - hashtags me1000
+  - '#AEO'
+  - '#GEO'
+series: The Fix
+record_id: fix:answer-first:sales engagement platform
+auto: true
+instagram_hashtags_rotating: []
