@@ -1,0 +1,71 @@
+skip: false
+skip_reason: ''
+title: 'Stennis Space Center: what just happened'
+beats:
+- say: NASA is converting veteran contractors into civil servants to strengthen technical expertise.
+  caption: NASA is converting veteran contractors into civil servants to strengthen technical expertise.
+  highlight:
+  - converting veteran contractors
+  - strengthen technical expertise
+  scene:
+    type: headline
+    text: Strengthening NASA's technical core
+- say: Jim Mirandy is now a quality assurance specialist at Stennis Space Center after thirty years as a contractor.
+  caption: Jim Mirandy is now a quality assurance specialist at Stennis Space Center after 30 years as a contractor.
+  highlight:
+  - quality assurance specialist
+  scene:
+    type: card
+    title: Jim Mirandy
+    rows:
+    - - Role
+      - Quality Assurance Specialist
+    - - Experience
+      - 30 years
+    - - Location
+      - Stennis Space Center
+- say: His work supports the Artemis program by ensuring critical propulsion testing is executed with safety and quality.
+  caption: His work supports the Artemis program by ensuring critical propulsion testing is executed with safety and quality.
+  highlight:
+  - supports the Artemis program
+  - propulsion testing
+  scene:
+    type: headline
+    value: Artemis Program
+    label: Mission Support
+    kicker: Mission Support
+    text: Artemis Program
+- say: Mirandy previously worked as a mechanic on the Space Shuttle External Tank.
+  caption: Mirandy previously worked as a mechanic on the Space Shuttle External Tank.
+  highlight:
+  - mechanic
+  - Space Shuttle External Tank
+  scene:
+    type: image
+    credit: NASA/Danny Nowlin
+- say: Retaining this expertise helps NASA lead the world in space exploration. Source in the description.
+  caption: Retaining this expertise helps NASA lead the world in space exploration. Source in the description.
+  highlight:
+  - lead the world
+  - space exploration
+  scene:
+    type: cta
+    line: NASA workforce update
+    subline: Source in the description.
+description:
+  explainer: NASA is transitioning experienced contractors like Jim Mirandy to civil servant roles at Stennis Space Center. This move aims to restore core technical competencies for missions like the Artemis program.
+  sources:
+  - 'NASA: https://www.nasa.gov/centers-and-facilities/stennis/contractor-to-civil-servant-jim-mirandy/'
+seo:
+  seeds:
+  - NASA Stennis Space Center
+  - Artemis program updates
+  - NASA civil service workforce
+  - rocket propulsion testing
+  hashtags:
+  - '#NASA'
+  - '#Artemis'
+series: Mission Log
+record_id: nasanews:https://www.nasa.gov/centers-and-facilities/stennis/contractor-to-civil-servant-jim-mirandy/
+auto: true
+instagram_hashtags_rotating: []

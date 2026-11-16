@@ -1,0 +1,73 @@
+skip: false
+skip_reason: ''
+title: 'Writing rule: code font for verbatim text'
+beats:
+- say: Code font signals to readers that text must be entered verbatim.
+  caption: Code font signals to readers that text must be entered verbatim.
+  highlight:
+  - Code font signals
+  - entered verbatim
+  scene:
+    type: headline
+    text: Code font signals verbatim text
+- say: Google developer documentation uses code font to separate entities from surrounding text.
+  caption: Google developer documentation uses code font to separate entities from surrounding text.
+  highlight:
+  - separate entities
+  - surrounding text
+  scene:
+    type: image
+    credit: Google developer documentation
+- say: Use the gcloud command to manage resources. The output shows the status.
+  caption: Use the gcloud command to manage resources. The output shows the status.
+  highlight:
+  - gcloud command
+  - The output
+  scene:
+    type: compare
+    left_label: Weak
+    left_text: Use the gcloud command to manage resources. The output shows the status.
+    right_label: Better
+    right_text: Use the `gcloud` command to manage resources. The `output` shows the status.
+- say: This style clarifies boundaries for attribute names, class names, and command output.
+  caption: This style clarifies boundaries for attribute names, class names, and command output.
+  highlight:
+  - clarifies boundaries
+  - attribute names
+  scene:
+    type: list
+    title: Use code font for
+    items:
+    - Attribute names
+    - Class names
+    - Command output
+    - Data types
+    style: bullet
+- say: Use code font for any text meant to be entered exactly as written.
+  caption: Use code font for any text meant to be entered exactly as written.
+  highlight:
+  - entered exactly
+  - as written
+  scene:
+    type: quote
+    text: Use code font to mark up most things that have anything to do with code.
+    highlight:
+    - mark up most things
+    - anything to do with code
+description:
+  what_was_fixed: This video shows how to use code font to distinguish verbatim commands and attributes from regular text.
+  rule: Use code font for attribute names, class names, command output, and data types to clarify boundaries.
+  sources:
+  - 'Google developer documentation: https://developers.google.com/style/code-in-text'
+seo:
+  seeds:
+  - technical writing tips
+  - how to write documentation
+  - Google developer documentation style
+  hashtags:
+  - '#TechnicalWriting'
+  - '#Documentation'
+series: One Rule
+record_id: style:https://developers.google.com/style/code-in-text
+auto: true
+instagram_hashtags_rotating: []

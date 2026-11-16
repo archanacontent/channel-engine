@@ -1,0 +1,83 @@
+skip: false
+skip_reason: ''
+title: 'What you''re looking at: SPHEREx mission'
+beats:
+- say: S P H E R E x will survey the entire sky in one hundred and two colors.
+  caption: SPHEREx will survey the entire sky in 102 colors.
+  highlight:
+  - entire sky
+  - 102 colors
+  scene:
+    type: headline
+    text: A new way to see the sky
+- say: This mission uses spectroscopy to detect hundreds of millions of stars and galaxies.
+  caption: This mission uses spectroscopy to detect hundreds of millions of stars and galaxies.
+  highlight:
+  - hundreds of millions
+  - stars and galaxies
+  scene:
+    type: image
+    credit: NASA/JPL
+- say: It helps scientists answer big-picture questions about the origins of our universe and galaxies.
+  caption: It helps scientists answer big-picture questions about the origins of our universe and galaxies.
+  highlight:
+  - origins of our universe
+  scene:
+    type: list
+    title: Research goals
+    items:
+    - Universe origins
+    - Galaxy formation
+    - Ingredients for life
+    style: bullet
+- say: The data set will complement other NASA observatories like Hubble and James Webb.
+  caption: The data set will complement other NASA observatories like Hubble and James Webb.
+  highlight:
+  - complement other NASA observatories
+  scene:
+    type: compare
+    left_label: Previous
+    left_text: Hubble and Spitzer
+    right_label: Next
+    right_text: SPHEREx and Roman
+- say: SPHEREx looks for key ingredients for life, such as water.
+  caption: SPHEREx looks for key ingredients for life, such as water.
+  highlight:
+  - ingredients for life
+  - water
+  scene:
+    type: card
+    title: Mission Focus
+    rows:
+    - - Key search
+      - Water
+    - - Method
+      - Spectroscopy
+- say: Image credit in the description.
+  caption: Image credit in the description.
+  highlight: []
+  scene:
+    type: cta
+    line: Explore more space science
+    subline: Subscribe for daily images
+description:
+  explainer: SPHEREx is a NASA mission designed to survey the entire sky using spectroscopy. It will detect hundreds of millions of stars and galaxies across one hundred and two different colors.
+  sources:
+  - 'NASA Image and Video Library: https://images.nasa.gov/details/PIA26535'
+  credit: NASA
+seo:
+  seeds:
+  - NASA SPHEREx mission explained
+  - how space telescopes work
+  - spectroscopy in space
+  - NASA sky survey
+  hashtags:
+  - '#SpaceScience'
+  - '#NASA'
+series: Look Closer
+record_id: nasa:PIA26535
+auto: true
+instagram_hashtags_rotating: []
+media:
+  image: /home/runner/work/channel-engine/channel-engine/collected/deep-field/media/2026-11-24-0900.jpg
+  credit: NASA

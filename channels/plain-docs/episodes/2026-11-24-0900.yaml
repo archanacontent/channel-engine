@@ -1,0 +1,64 @@
+skip: false
+skip_reason: ''
+title: Fixing a real README in under a minute
+beats:
+- say: Vague instructions lead to support tickets and stalled onboarding.
+  caption: Vague instructions lead to support tickets and stalled onboarding.
+  highlight:
+  - Vague instructions
+  - stalled onboarding
+  scene:
+    type: headline
+    text: Bad docs kill adoption
+- say: The Phosphene README says, Turn a prompt or a picture into a clip whose picture and sound are generated together, using the M L X port of Lightricks' L T X 2.5.
+  caption: The Phosphene README says, "Turn a prompt or a picture into a clip whose picture and sound are generated together, using the MLX port of Lightricks' LTX-2.5."
+  highlight:
+  - Turn a prompt or a picture into a clip
+  scene:
+    type: compare
+    left_label: Original
+    left_text: Turn a prompt or a picture into a clip whose picture and sound are generated together, using the MLX port of Lightricks' LTX-2.5.
+    right_label: Rewrite
+    right_text: Use the MLX port of LTX-2.5 to generate video clips with synchronized sound from text or images.
+- say: The original uses a wordy relative clause. The rewrite uses active verbs.
+  caption: The original uses a wordy relative clause. The rewrite uses active verbs.
+  highlight:
+  - wordy relative clause
+  - active verbs
+  scene:
+    type: list
+    title: Why it is better
+    items:
+    - Uses active verbs
+    - Removes wordy clauses
+    - States the method first
+    style: check
+- say: Specific verbs move the reader faster than descriptive filler.
+  caption: Specific verbs move the reader faster than descriptive filler.
+  highlight:
+  - Specific verbs
+  - descriptive filler
+  scene:
+    type: quote
+    text: Use specific verbs to drive action.
+    highlight:
+    - specific verbs
+description:
+  what_was_fixed: I clarified the Phosphene README by replacing a wordy description of the LTX-2.5 engine with an active, direct sentence.
+  rule: Use active verbs and remove relative clauses to make instructions more direct.
+  sources:
+  - 'mrbizarro/Phosphene README (MIT): https://github.com/mrbizarro/Phosphene'
+  source_link: https://github.com/mrbizarro/Phosphene
+  license: MIT
+seo:
+  seeds:
+  - technical writing tips
+  - how to write better READMEs
+  - improving documentation
+  hashtags:
+  - '#TechnicalWriting'
+  - '#DeveloperExperience'
+series: Rewrite This
+record_id: repo:mrbizarro/Phosphene
+auto: true
+instagram_hashtags_rotating: []

@@ -1,0 +1,80 @@
+skip: false
+title: 'Stop doing this by hand: Short-video production'
+beats:
+- say: Stop manually writing scripts, generating AI videos, and uploading them across multiple social channels.
+  caption: Stop manually writing scripts, generating AI videos, and uploading them across multiple social channels.
+  scene:
+    type: headline
+    text: Automate Short-Video Production
+    title: Manual Video Workflow
+  highlight:
+  - Stop manually writing scripts
+- say: A single n eight n webhook receives your Feishu bot messages and checks your user session state in Bitable.
+  caption: A single n8n webhook receives your Feishu bot messages and checks your user session state in Bitable.
+  scene:
+    type: flow
+    steps:
+    - title: Webhook Trigger
+      note: Receives Feishu message
+    - title: State Lookup
+      note: Checks Bitable state
+  highlight:
+  - n8n webhook
+  - Feishu bot messages
+- say: DeepSeek generates your script after a Tavily web search, then Jimeng handles text to video generation.
+  caption: DeepSeek generates your script after a Tavily web search, then Jimeng handles text to video generation.
+  scene:
+    type: list
+    style: check
+    title: Automation Engine
+    items:
+    - AI Processing Pipeline
+  highlight:
+  - DeepSeek generates your script
+  - Jimeng handles text to video
+- say: Once you approve the preview card, Blotato automatically publishes your video directly to TikTok, Instagram, and YouTube.
+  caption: Once you approve the preview card, Blotato automatically publishes your video directly to TikTok, Instagram, and YouTube.
+  scene:
+    type: card
+    rows:
+    - - Search
+      - Tavily
+    - - Scripting
+      - DeepSeek
+    - - Video
+      - Jimeng AI
+    - - Publishing
+      - Blotato
+    title: Integrated Tools
+  highlight:
+  - Blotato automatically publishes
+  - TikTok, Instagram, and YouTube
+- say: The free template is linked in the description.
+  caption: The free template is linked in the description.
+  scene:
+    type: cta
+    line: Get the n8n template
+    subline: Link in description
+  highlight:
+  - linked in the description
+description:
+  task_line: This workflow automates short-video script generation, AI video creation, and multi-platform publishing straight from Feishu bot commands.
+  tools: Built using n8n, Feishu, DeepSeek, Tavily, Jimeng AI, and Blotato.
+  sources:
+  - 'n8n template: https://n8n.io/workflows/18117'
+  template_link: https://n8n.io/workflows/18117
+seo:
+  hashtags:
+  - '#n8n'
+  - '#MarketingAutomation'
+  - '#VideoProduction'
+  - '#AIWorkflow'
+  seeds:
+  - n8n video production automation
+  - DeepSeek video script workflow
+  - Blotato video publishing n8n
+  - n8n Feishu bot template
+series: Stop Doing This
+record_id: n8n:18117
+auto: true
+instagram_hashtags_rotating: []

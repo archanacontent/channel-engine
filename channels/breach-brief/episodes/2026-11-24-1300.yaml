@@ -1,0 +1,74 @@
+skip: false
+skip_reason: ''
+title: 'Exploited now: SiteGuard Server Edition CVE-2026-106931'
+beats:
+- say: Attackers are using an OS command injection flaw to take full control of SiteGuard Server Edition.
+  caption: Attackers are using an OS command injection flaw to take full control of SiteGuard Server Edition.
+  highlight:
+  - OS command injection flaw
+  - take full control
+  scene:
+    type: headline
+    text: SiteGuard Server Edition Exploited
+- say: C V E 2 0 2 6, 1 0 6 9 3 1 allows root or S Y S T E M level access.
+  caption: CVE-2026-106931 allows root or SYSTEM level access.
+  highlight:
+  - root or SYSTEM level access
+  scene:
+    type: card
+    title: Vulnerability Details
+    rows:
+    - - CVE ID
+      - CVE-2026-106931
+    - - Product
+      - SiteGuard Server Edition
+    - - Added
+      - '2026-10-20'
+    - - Due Date
+      - '2026-10-23'
+- say: This vulnerability has a C V S S base score of 8.5.
+  caption: This vulnerability has a CVSS base score of 8.5.
+  highlight:
+  - CVSS base score of 8.5
+  scene:
+    type: stat
+    value: '8.5'
+    label: CVSS Base Score
+- say: Apply mitigations following vendor instructions immediately.
+  caption: Apply mitigations following vendor instructions immediately.
+  highlight:
+  - Apply mitigations
+  scene:
+    type: list
+    title: Required Action
+    items:
+    - Follow vendor instructions
+    - Apply BOD 26-04 guidance
+    - Discontinue use if unpatched
+    style: check
+- say: Sources are in the description.
+  caption: Sources are in the description.
+  highlight: []
+  scene:
+    type: cta
+    line: Stay protected.
+    subline: Sources are in the description.
+description:
+  summary: Attackers are exploiting an OS command injection vulnerability in EG Secure Solutions SiteGuard Server Edition.
+  affected: SiteGuard Server Edition is affected by CVE-2026-106931.
+  action: Apply vendor mitigations or discontinue use if patches are unavailable.
+  sources:
+  - 'CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog'
+  - 'NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-106931'
+seo:
+  seeds:
+  - SiteGuard Server Edition vulnerability
+  - CVE-2026-106931 exploit
+  - CISA KEV SiteGuard
+  hashtags:
+  - '#Cybersecurity'
+  - '#Infosec'
+series: Exploited Today
+record_id: kev:CVE-2026-106931
+auto: true
+instagram_hashtags_rotating: []

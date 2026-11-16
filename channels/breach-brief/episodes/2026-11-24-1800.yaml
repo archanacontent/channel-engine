@@ -1,0 +1,75 @@
+skip: false
+skip_reason: ''
+title: 'Exploited now: Plex Media Server CVE-2026-96656'
+beats:
+- say: Attackers are using a flaw in Plex Media Server to write and execute arbitrary files.
+  caption: Attackers are using a flaw in Plex Media Server to write and execute arbitrary files.
+  highlight:
+  - write and execute arbitrary files
+  scene:
+    type: headline
+    text: Arbitrary File Execution in Plex
+- say: The vulnerability, C V E 2026, 9 6 6 5 6, lets an admin user append text to a transcoding option string to create malicious files.
+  caption: The vulnerability, CVE-2026-96656, lets an admin user append text to a transcoding option string to create malicious files.
+  highlight:
+  - append text to a transcoding option string
+  - create malicious files
+  scene:
+    type: card
+    title: Vulnerability Details
+    rows:
+    - - CVE ID
+      - CVE-2026-96656
+    - - Product
+      - Plex Media Server
+    - - Added Date
+      - '2026-10-20'
+    - - Due Date
+      - '2026-10-23'
+- say: This flaw has a high CVSS base score of 8.6.
+  caption: This flaw has a high CVSS base score of 8.6.
+  highlight:
+  - CVSS base score of 8.6
+  scene:
+    type: stat
+    value: '8.6'
+    label: CVSS Base Score
+- say: To protect your system, update to version 1.43.3.10861 or later immediately.
+  caption: To protect your system, update to version 1.43.3.10861 or later immediately.
+  highlight:
+  - update to version 1.43.3.10861
+  scene:
+    type: list
+    title: Required Action
+    items:
+    - Update to 1.43.3.10861 or later
+    - Follow vendor mitigation instructions
+    - Evaluate internet exposure
+    style: check
+- say: Sources are in the description.
+  caption: Sources are in the description.
+  highlight: []
+  scene:
+    type: cta
+    line: Stay Protected
+    subline: Sources are in the description.
+description:
+  summary: Attackers are exploiting CVE-2026-96656 in Plex Media Server to execute arbitrary files.
+  affected: Plex Media Server versions prior to 1.43.3.10861 are vulnerable.
+  action: Update Plex Media Server to version 1.43.3.10861 or later immediately.
+  sources:
+  - 'CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog'
+  - 'NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-96656'
+seo:
+  seeds:
+  - Plex Media Server vulnerability
+  - CVE-2026-96656 exploit
+  - Plex security update
+  - CISA KEV Plex
+  hashtags:
+  - '#Cybersecurity'
+  - '#Plex'
+series: Exploited Today
+record_id: kev:CVE-2026-96656
+auto: true
+instagram_hashtags_rotating: []

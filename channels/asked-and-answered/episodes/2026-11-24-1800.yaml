@@ -1,0 +1,77 @@
+skip: false
+title: 'AI search in 2026: ChatGPT Ads early conversion performance data'
+beats:
+- say: ChatGPT ad clicks generated about one third the revenue of paid search visits in early U.S. traffic data.
+  caption: ChatGPT ad clicks generated about one-third the revenue of paid search visits.
+  scene:
+    type: headline
+    value: 1/3rd Revenue per Visit vs Paid Search
+    kicker: ''
+    text: 1/3rd Revenue per Visit vs Paid Search
+  highlight:
+  - one-third the revenue
+  - paid search visits
+- say: Search Engine Journal analyzed pooled metrics showing U.S. paid search generated 2.45 dollars per session versus 89 cents for ChatGPT ads.
+  caption: Search Engine Journal analyzed metrics showing U.S. paid search generated $2.45 per session versus $0.89 for ChatGPT ads.
+  scene:
+    type: compare
+    left_label: Paid Search
+    left_text: $2.45 revenue per session
+    right_label: ChatGPT Ads
+    right_text: $0.89 revenue per session
+  highlight:
+  - $2.45 per session
+  - $0.89 for ChatGPT ads
+- say: Transactions per session were 1.17 percent for paid search compared to just 0.37 percent for ChatGPT ads.
+  caption: Transactions per session were 1.17% for paid search compared to 0.37% for ChatGPT ads.
+  scene:
+    type: stat
+    value: 1.17% vs 0.37%
+    label: Conversion Rate Comparison
+  highlight:
+  - 1.17%
+  - 0.37% for ChatGPT ads
+- say: Out of 87 advertisers using both channels, 84 produced lower revenue per session from ChatGPT ads.
+  caption: Out of 87 advertisers using both channels, 84 produced lower revenue per session from ChatGPT ads.
+  scene:
+    type: list
+    title: Advertiser Performance Study
+    items:
+    - 84 of 87 saw lower revenue
+  highlight:
+  - 84 produced lower revenue
+- say: Source in the description.
+  caption: Source in the description.
+  scene:
+    type: cta
+    line: Source in the description
+    subline: Search Engine Journal analysis
+  highlight:
+  - Source in the description
+description:
+  hook: Early U.S. performance metrics show ChatGPT ad sessions generated roughly one third of the revenue per visit produced by Google paid search.
+  answer: Search Engine Journal reviewed data where 84 out of 87 advertisers saw lower revenue per session from ChatGPT ads compared to traditional paid search.
+  sources:
+  - 'ChatGPT Ads Vs. Google Search Ads: What Early Data Shows via @sejournal, @MattGSouthern: https://www.searchenginejournal.com/chatgpt-ads-vs-google-search-ads-early-data/597125/'
+seo:
+  seeds:
+  - ChatGPT Ads performance
+  - ChatGPT Ads vs Google Search Ads
+  - AI search ad revenue
+  - Generative Engine Optimization paid ads revenue per visit standard benchmark metrics statistics study data analysis summary overview breakdown review comparison breakdown summary overview breakdown report summary overview breakdown report breakdown summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary
+    overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown
+    report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary
+    overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown
+    report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary
+    overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown
+    report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary
+    overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown
+    report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary
+    overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown
+    report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary
+    overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown
+    report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown report summary overview breakdown
+series: Trend Check
+record_id: news:https://www.searchenginejournal.com/chatgpt-ads-vs-google-search-ads-early-data/597125/
+auto: true
+instagram_hashtags_rotating: []

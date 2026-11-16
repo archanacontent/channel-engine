@@ -1,0 +1,76 @@
+skip: false
+title: 'Free workflow: Revenue attribution on autopilot'
+beats:
+- say: Stop paying your team to manually attribute revenue to marketing channels.
+  caption: Stop paying your team to manually attribute revenue to marketing channels.
+  scene:
+    type: headline
+    kicker: Automation
+    text: Stop manual revenue attribution
+  highlight:
+  - manually attribute revenue
+- say: This n eight n workflow captures leads with U T M parameters and logs them into Google Sheets.
+  caption: This n8n workflow captures leads with UTM parameters and logs them into Google Sheets.
+  scene:
+    type: stat
+    value: Google Sheets Logging
+    label: Lead Capture
+  highlight:
+  - UTM parameters
+- say: When a deal closes, it matches the customer email to attribute revenue to the original channel.
+  caption: When a deal closes, it matches the customer email to attribute revenue to the original channel.
+  scene:
+    type: flow
+    steps:
+    - title: Webhook Lead
+      note: Normalize UTMs
+    - title: Deal Won
+      note: Match Email
+    - title: Attribute Revenue
+      note: Log to Sheets
+  highlight:
+  - matches the customer email
+- say: Every month, Anthropic Claude generates an executive summary and emails it via Gmail.
+  caption: Every month, Anthropic Claude generates an executive summary and emails it via Gmail.
+  scene:
+    type: list
+    title: Monthly Reporting
+    unit: ''
+    items:
+    - Monthly Summary Node
+  highlight:
+  - Anthropic Claude
+- say: It suits marketing teams using Google Sheets, Gmail, and Anthropic API keys.
+  caption: It suits marketing teams using Google Sheets, Gmail, and Anthropic API keys.
+  scene:
+    type: compare
+    left_label: Inputs
+    left_text: Webhooks & UTMs
+    right_label: Outputs
+    right_text: Claude Summary via Gmail
+  highlight:
+  - Google Sheets, Gmail
+- say: Template link in the description.
+  caption: Template link in the description.
+  scene:
+    type: cta
+    line: Free Workflow Template
+    subline: Link in description
+  highlight:
+  - Template link
+description:
+  task_line: Automate marketing revenue attribution and monthly Claude reporting.
+  tools: Built for n8n with Google Sheets, Anthropic Claude, and Gmail.
+  sources:
+  - 'n8n template: https://n8n.io/workflows/17854'
+  template_link: https://n8n.io/workflows/17854
+seo:
+  seeds:
+  - n8n revenue attribution workflow
+  - google sheets marketing attribution
+  - claude executive summary automation
+  - n8n utm tracking template
+series: Library Pick
+record_id: n8n:17854
+auto: true
+instagram_hashtags_rotating: []

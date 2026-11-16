@@ -1,0 +1,74 @@
+skip: false
+skip_reason: ''
+title: Fixing a real README in under a minute
+beats:
+- say: Vague mission instructions stall player progress in multiplayer mods.
+  caption: Vague mission instructions stall player progress in multiplayer mods.
+  highlight:
+  - Vague mission instructions
+  scene:
+    type: headline
+    text: Vague instructions stall players
+- say: The S A COOP README says, "The host starts a mission, but it only begins once all players stand in the marker."
+  caption: The SA:COOP README says, "The host starts a mission, but it only begins once all players stand in the marker."
+  highlight:
+  - only begins once all players stand in the marker
+  scene:
+    type: compare
+    left_label: Original
+    left_text: The host starts a mission, but it only begins once all players stand in the marker.
+    right_label: Fixed
+    right_text: Missions start only when all players reach the marker.
+- say: The original uses passive phrasing and unnecessary words. The fix uses an active subject and removes the filler "but it only begins once."
+  caption: The original uses passive phrasing and unnecessary words. The fix uses an active subject and removes the filler "but it only begins once."
+  highlight:
+  - passive phrasing
+  - removes the filler
+  scene:
+    type: list
+    title: Why it works
+    items:
+    - Active voice
+    - Fewer words
+    - Direct meaning
+    style: check
+- say: Clearer documentation prevents support tickets and helps players start playing immediately.
+  caption: Clearer documentation prevents support tickets and helps players start playing immediately.
+  highlight:
+  - prevents support tickets
+  scene:
+    type: headline
+    value: Immediate
+    label: Player onboarding
+    source: SA:COOP README
+    kicker: Player onboarding
+    text: Immediate
+- say: Write for the user, not for the word count.
+  caption: Write for the user, not for the word count.
+  highlight:
+  - Write for the user
+  scene:
+    type: quote
+    text: Write for the user, not for the word count.
+    highlight:
+    - Write for the user
+description:
+  what_was_fixed: I simplified a wordy mission instruction from the SA:COOP README to make the requirement clear.
+  rule: Use active voice and remove filler phrases to improve clarity.
+  sources:
+  - 'Karimov-Akbar/sa-coop README (MIT): https://github.com/Karimov-Akbar/sa-coop'
+  source_link: https://github.com/Karimov-Akbar/sa-coop
+  license: MIT
+seo:
+  seeds:
+  - technical writing tips
+  - how to write documentation
+  - improving README files
+  - active voice in technical writing
+  hashtags:
+  - '#TechnicalWriting'
+  - '#Documentation'
+series: Rewrite This
+record_id: repo:Karimov-Akbar/sa-coop
+auto: true
+instagram_hashtags_rotating: []

@@ -1,0 +1,61 @@
+skip: false
+title: 'Fix this so AI cites you: Lead scoring context'
+beats:
+- say: AI engines skip passages that rely on context from earlier in the page.
+  caption: AI engines skip passages that rely on context from earlier in the page.
+  scene:
+    type: headline
+    kicker: Stand Alone Rule
+    text: AI engines skip passages dependent on outside context.
+  highlight:
+  - passages that rely
+- say: To get cited on lead scoring, every single passage must make complete sense on its own.
+  caption: To get cited on lead scoring, every single passage must make complete sense on its own.
+  scene:
+    type: list
+    title: Stand Alone Requirements
+    items:
+    - Checklist for citations
+  highlight:
+  - make complete sense
+- say: Phrases like as mentioned above break passage independence instantly.
+  caption: Phrases like "as mentioned above" break passage independence instantly.
+  scene:
+    type: compare
+    left_label: Weak Line
+    left_text: As mentioned above, lead scoring ranks buyer intent.
+    right_label: Fix
+    right_text: Lead scoring ranks buyer intent using activity data.
+  highlight:
+  - as mentioned above
+- say: This rule comes from Archana Panda's Citable Passage Standard.
+  caption: This rule comes from Archana Panda's Citable Passage Standard.
+  scene:
+    type: stat
+    value: Archana Panda Standard
+    label: The Asked Method
+  highlight:
+  - Citable Passage Standard
+- say: The full standard is linked on our channel page.
+  caption: The full standard is linked on our channel page.
+  scene:
+    type: cta
+    line: Master AI Visibility
+    subline: The full standard is linked on our channel page.
+  highlight:
+  - linked on our channel page
+description:
+  hook: AI search engines refuse to cite text that relies on rest-of-page context.
+  answer: Make every passage stand alone on your lead scoring pages by eliminating phrases like as mentioned above.
+  sources:
+  - 'The Citable Passage Standard: https://archanacontent.github.io/asked/standard/'
+seo:
+  seeds:
+  - lead scoring AEO
+  - generative engine optimization
+  - citable passage standard
+  - AI search marketing
+series: The Fix
+record_id: fix:stand-alone:lead scoring
+auto: true
+instagram_hashtags_rotating: []

@@ -1,0 +1,74 @@
+skip: false
+skip_reason: ''
+title: How big is Mars, really?
+beats:
+- say: Mars is nearly twice as wide as our Moon.
+  caption: Mars is nearly twice as wide as our Moon.
+  highlight:
+  - nearly twice as wide
+  scene:
+    type: headline
+    text: Mars vs. the Moon
+- say: The diameter of Mars measures 6,792 kilometers.
+  caption: The diameter of Mars measures 6,792 kilometers.
+  highlight:
+  - 6,792 kilometers
+  scene:
+    type: stat
+    value: 6,792
+    label: Mars diameter (km)
+- say: The Moon has a diameter of 3,475 kilometers.
+  caption: The Moon has a diameter of 3,475 kilometers.
+  highlight:
+  - 3,475 kilometers
+  scene:
+    type: stat
+    value: 3,475
+    label: Moon diameter (km)
+- say: While Mars sits 228 million kilometers from the Sun, the Moon is only 0.384 million kilometers away.
+  caption: While Mars sits 228 million kilometers from the Sun, the Moon is only 0.384 million kilometers away.
+  highlight:
+  - 228 million kilometers
+  - 0.384 million kilometers
+  scene:
+    type: compare
+    left_label: Mars Distance
+    left_text: 228 million km
+    right_label: Moon Distance
+    right_text: 0.384 million km
+- say: Mars is 1.95 times larger in diameter than the Moon.
+  caption: Mars is 1.95 times larger in diameter than the Moon.
+  highlight:
+  - 1.95 times larger
+  scene:
+    type: sizes
+    a_label: Mars
+    a_value: 6792.0
+    b_label: Moon
+    b_value: 3475.0
+    unit: km
+- say: Figures from NASA's Planetary Fact Sheet.
+  caption: Figures from NASA's Planetary Fact Sheet.
+  highlight:
+  - NASA's Planetary Fact Sheet
+  scene:
+    type: quote
+    text: Figures from NASA's Planetary Fact Sheet.
+    highlight:
+    - NASA's Planetary Fact Sheet
+description:
+  explainer: Mars is nearly twice the size of the Moon. This comparison shows the scale difference between the two bodies.
+  sources:
+  - 'NASA Planetary Fact Sheet: https://nssdc.gsfc.nasa.gov/planetary/factsheet/'
+seo:
+  seeds:
+  - Mars diameter vs Moon diameter
+  - how big is Mars
+  - Mars and Moon size comparison
+  hashtags:
+  - '#Space'
+  - '#Mars'
+series: Scale It
+record_id: scale:MARS:MOON
+auto: true
+instagram_hashtags_rotating: []

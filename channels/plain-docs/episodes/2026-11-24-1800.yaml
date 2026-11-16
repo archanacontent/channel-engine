@@ -1,0 +1,77 @@
+skip: false
+skip_reason: ''
+title: Fixing a real README in under a minute
+beats:
+- say: Vague installation instructions create support tickets and stall user onboarding.
+  caption: Vague installation instructions create support tickets and stall user onboarding.
+  highlight:
+  - Vague installation instructions
+  scene:
+    type: headline
+    text: Vague instructions stall onboarding
+- say: The H A S S Agent dot N E T 1 0 R E A D M E says the classic client is a separate program. It then adds that if you want to stay with it, it is still available from its own project.
+  caption: The HASS.Agent.NET10 README says the classic client is a separate program. It then adds that if you want to stay with it, it is still available from its own project.
+  highlight:
+  - classic client is a separate program
+  - still available
+  scene:
+    type: compare
+    left_label: Original
+    left_text: 'The classic client is a separate program: if you want to stay with it, it is still available from its own project'
+    right_label: Rewrite
+    right_text: The classic client is available in a separate project.
+- say: The original uses filler words like "if you want to" and "it is still." The rewrite is direct and confident.
+  caption: The original uses filler words like "if you want to" and "it is still." The rewrite is direct and confident.
+  highlight:
+  - filler words
+  - direct and confident
+  scene:
+    type: list
+    title: Why rewrite?
+    items:
+    - Remove filler phrases
+    - Cut redundant words
+    - State facts directly
+    style: check
+- say: Clearer prose helps developers move from the classic client to dot N E T 1 0 without confusion.
+  caption: Clearer prose helps developers move from the classic client to .NET10 without confusion.
+  highlight:
+  - Clearer prose
+  - without confusion
+  scene:
+    type: card
+    title: Documentation Impact
+    rows:
+    - - Clarity
+      - Higher
+    - - Support Tickets
+      - Lower
+- say: Write documentation people actually finish reading.
+  caption: Write documentation people actually finish reading.
+  highlight:
+  - actually finish reading
+  scene:
+    type: quote
+    text: Write documentation people actually finish reading.
+    highlight:
+    - actually finish reading
+description:
+  what_was_fixed: I fixed wordy, indirect sentences in the HASS.Agent.NET10 README regarding the classic client availability.
+  rule: Remove filler phrases like "if you want to" to make instructions more direct.
+  sources:
+  - 'v1k70rk4/HASS.Agent.NET10 README (MIT): https://github.com/v1k70rk4/HASS.Agent.NET10'
+  source_link: https://github.com/v1k70rk4/HASS.Agent.NET10
+  license: MIT
+seo:
+  seeds:
+  - technical writing tips
+  - how to write documentation
+  - README optimization
+  - technical writing for beginners
+  hashtags:
+  - '#TechnicalWriting'
+  - '#Documentation'
+series: Rewrite This
+record_id: repo:v1k70rk4/HASS.Agent.NET10
+auto: true
+instagram_hashtags_rotating: []

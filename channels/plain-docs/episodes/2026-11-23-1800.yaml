@@ -1,0 +1,52 @@
+skip: false
+title: Fixing a real README in under a minute
+beats:
+- say: Vague README text causes confusion. Let us rewrite a cluttered sentence from the Free-Telegram-Proxy repository.
+  caption: Vague README text causes confusion. Let us rewrite a cluttered sentence from the Free-Telegram-Proxy repository.
+  scene:
+    type: headline
+    text: Rewriting a Free-Telegram-Proxy sentence
+  highlight:
+  - Vague README text
+- say: Here is the exact unedited text from the README prose. Every non-empty tier is published every run.
+  caption: Here is the exact unedited text from the README prose. Every non-empty tier is published every run.
+  scene:
+    type: compare
+    left_label: Original
+    left_text: Every non-empty tier is published every run.
+    right_label: Better
+    right_text: The system publishes every non-empty tier on each run.
+  highlight:
+  - Every non-empty tier is published every run.
+- say: We make the actor explicit. The system publishes every non-empty tier on each run.
+  caption: We make the actor explicit. The system publishes every non-empty tier on each run.
+  scene:
+    type: stat
+    value: Active voice
+    label: Edit Breakdown
+  highlight:
+  - actor explicit
+- say: Clear documentation uses active voice to state clearly what performs each action.
+  caption: Clear documentation uses active voice to state clearly what performs each action.
+  scene:
+    type: quote
+    text: State the actor clearly for every system action.
+    value: Rule
+  highlight: []
+description:
+  what_was_fixed: Fixed a passive sentence in the Free-Telegram-Proxy README by adding an explicit subject.
+  rule: Always name the actor performing the action to make documentation unambiguous.
+  sources:
+  - '0xRadikal/Free-Telegram-Proxy README (MIT): https://github.com/0xRadikal/Free-Telegram-Proxy'
+  source_link: https://github.com/0xRadikal/Free-Telegram-Proxy
+  license: MIT
+seo:
+  seeds:
+  - technical writing
+  - readme tutorial
+  - active voice docs
+  - 'open source documentation guide '
+series: Rewrite This
+record_id: repo:0xRadikal/Free-Telegram-Proxy
+auto: true
+instagram_hashtags_rotating: []

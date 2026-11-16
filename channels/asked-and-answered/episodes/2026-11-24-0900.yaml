@@ -1,0 +1,71 @@
+skip: false
+skip_reason: ''
+title: 'Buyers ask AI: what is conversation intelligence software'
+beats:
+- say: What is conversation intelligence software?
+  caption: What is conversation intelligence software?
+  highlight:
+  - conversation intelligence software
+  scene:
+    type: headline
+    text: What is conversation intelligence software?
+- say: AI search engines look for direct definitions that explain how the technology analyzes sales calls.
+  caption: AI search engines look for direct definitions that explain how the technology analyzes sales calls.
+  highlight:
+  - direct definitions
+  - analyzes sales calls
+  scene:
+    type: flow
+    steps:
+    - title: Identify
+      note: Direct definition
+    - title: Explain
+      note: Call analysis
+- say: A page that only says it helps sales teams is too vague for a citation.
+  caption: A page that only says it helps sales teams is too vague for a citation.
+  highlight:
+  - too vague
+  scene:
+    type: compare
+    left_label: Weak
+    left_text: Helps sales teams
+    right_label: Strong
+    right_text: Analyzes sales call data
+- say: To earn the mention, structure your content to define the software and its core functions clearly.
+  caption: To earn the mention, structure your content to define the software and its core functions clearly.
+  highlight:
+  - structure your content
+  - define the software
+  scene:
+    type: list
+    title: Citation Requirements
+    items:
+    - Clear software definition
+    - Core function breakdown
+    - Specific use cases
+    style: check
+- say: Find your buyers' questions with Asked, link on our channel page.
+  caption: Find your buyers' questions with Asked, link on our channel page.
+  highlight:
+  - Find your buyers' questions
+  scene:
+    type: cta
+    line: Find your buyers' questions with Asked
+    subline: Link on our channel page
+description:
+  hook: Conversation intelligence software uses AI to analyze sales conversations.
+  answer: To be cited by AI, your pages must provide direct definitions and clear functional breakdowns of conversation intelligence.
+  sources:
+  - 'Asked, free AEO and GEO question finder: https://archanacontent.github.io/asked/'
+seo:
+  seeds:
+  - what is conversation intelligence software
+  - conversation intelligence definition
+  - AI search optimization for B2B
+  hashtags:
+  - '#AEO'
+  - '#B2BMarketing'
+series: Buyers Asked
+record_id: asked:conversation intelligence
+auto: true
+instagram_hashtags_rotating: []

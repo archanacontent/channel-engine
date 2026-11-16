@@ -1,0 +1,67 @@
+skip: false
+title: Can you automate flagging Meta Audience Network wasted spend?
+beats:
+- say: Can you automate flagging Meta Audience Network wasted spend? Yes.
+  caption: Can you automate flagging Meta Audience Network wasted spend? Yes.
+  scene:
+    type: headline
+    kicker: Can It Be Automated?
+    text: Flag Meta Audience Network Wasted Spend
+  highlight:
+  - flagging Meta Audience Network wasted spend
+- say: The n eight n workflow pulls thirty days of Meta insights by platform position.
+  caption: The n8n workflow pulls 30 days of Meta insights by platform position.
+  scene:
+    type: stat
+    value: 30 Days Insights
+    label: Data Pull
+  highlight:
+  - pulls 30 days
+- say: It calculates a non Audience Network C P A benchmark, flags zero result placements, and uses Claude to rank actions.
+  caption: It calculates a non-Audience Network CPA benchmark, flags zero result placements, and uses Claude to rank actions.
+  scene:
+    type: flow
+    steps:
+    - title: Calculate Benchmark
+      note: Non-Audience Network CPA
+    - title: Flag Placements
+      note: Zero results or high CPA
+    - title: Claude Ranking
+      note: Prioritized action plan
+  highlight:
+  - CPA benchmark
+  - Claude to rank actions
+- say: A plain text leak report and action plan are then sent automatically through Gmail.
+  caption: A plain text leak report and action plan are then sent automatically through Gmail.
+  scene:
+    type: compare
+    left_label: Analysis
+    left_text: Claude ranks exclude, keep, or investigate
+    right_label: Delivery
+    right_text: Plain text leak report via Gmail
+  highlight:
+  - leak report
+  - sent automatically through Gmail
+- say: Template link in the description.
+  caption: Template link in the description.
+  scene:
+    type: cta
+    line: Free n8n Template Available
+    subline: Link in description
+  highlight:
+  - Template link
+description:
+  task_line: Yes, you can automate flagging Meta Audience Network wasted spend using an n8n template.
+  tools: This setup connects the Meta Marketing API, Anthropic Claude, and Gmail.
+  sources:
+  - 'n8n template: https://n8n.io/workflows/17606'
+  template_link: https://n8n.io/workflows/17606
+seo:
+  seeds:
+  - flag meta audience network wasted spend n8n
+  - meta marketing api claude automation
+  - meta ad placement waste n8n template
+series: Can It Be Automated?
+record_id: n8n:17606
+auto: true
+instagram_hashtags_rotating: []
