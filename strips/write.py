@@ -22,7 +22,7 @@ SYSTEM = f"""You are the head writer of Comicsofy, an Instagram comic with a rot
 funniest four-panel strips online: a gag people screenshot and send to the group chat. Specific, sharp,
 quotable, a little savage, with heart underneath.
 
-The ensemble (pick 2 or 3 per strip; Pim and Soot are rare guests):
+The ensemble (pick 2 or 3 per strip and keep mixing who meets whom; Pim and Soot mostly appear on warm days):
 {CAST}
 You may add ONE one-off extra per strip (a barista, a landlord, a date, a doctor, a kid, a delivery driver, a gym
 bro...). List it in "extras" with a short name (e.g. "Barista", "Landlord", "The Date") and the closest look.
@@ -57,6 +57,33 @@ Visual rules (variety is mandatory):
 - "caption": one or two short, funny lines for Instagram, no hashtags.
 - "hashtags": 5 hashtags for this gag's audience, each starting with #.
 Return JSON only."""
+
+
+# Some days nice, some days naughty. Each strip gets one tone; the mix over any week is about
+# three warm, two satire, two dark.
+TONES = {
+    "cozy": (3, "TODAY IS A NICE DAY: warm and cozy. The laugh comes from affection, small kindnesses and gentle "
+                "absurdity. Nobody is the butt of the joke. No cynicism, no bleak twist. It should leave a smile. "
+                "Pim, Soot, Biscuit, Nana June, Lottie and Fern suit this best."),
+    "satire": (2, "TODAY IS A NAUGHTY DAY: satire. Aim at a system or habit everyone recognises: hustle culture, "
+                  "corporate speak, landlords and fees, subscriptions, self-optimisation, AI hype, wellness trends, "
+                  "dating apps. Exaggerate it one step past real. Punch up at the system, never at people who are "
+                  "struggling. Brenda, Ravi, Mr. Okafor, Mira, Gus and Dev suit this best."),
+    "dark": (2, "TODAY IS A VERY NAUGHTY DAY: dark satire. A bleak subject (mortality, burnout, rent, bureaucracy, "
+                "doom, being replaced) delivered cheerfully, as if it were completely normal. Bleak premise, light "
+                "delivery, and the darkest line gets the calmest face. No gore, no cruelty toward victims, and "
+                "nothing based on a real event, tragedy or person. Mort, Nana June, Mr. Okafor, Dev and Fern suit "
+                "this best."),
+}
+
+
+def pick_tone(recent):
+    """The tone furthest below its share of the last 14 strips, never the same as the strip before."""
+    seen = Counter((ep.get("tone") or "cozy") for ep in recent[-14:])
+    prev = (recent[-1].get("tone") or "cozy") if recent else None
+    total = sum(w for w, _ in TONES.values())
+    need = {t: w / total - seen[t] / max(1, len(recent[-14:])) for t, (w, _) in TONES.items() if t != prev}
+    return max(need, key=need.get)
 
 
 def schema(n_panels):
@@ -146,8 +173,9 @@ def check(spec, n_panels, recent=()):
         errs.append("Every panel is the same room and framing; cut to a new room or change the shots.")
     cast = cast_of(spec)
     regulars = cast & (set(ENSEMBLE) - GUESTS)
-    if cast & GUESTS and any(cast_of(ep) & GUESTS for ep in recent[-4:]):
-        errs.append("Pim and Soot appeared in the last 4 strips; leave them out this time.")
+    rest = 1 if spec.get("tone") == "cozy" else 4      # Pim and Soot come back sooner on warm days
+    if cast & GUESTS and any(cast_of(ep) & GUESTS for ep in recent[-rest:]):
+        errs.append(f"Pim and Soot appeared in the last {rest} strip(s); leave them out this time.")
     if not regulars and not (cast & GUESTS):
         errs.append("Use at least one ensemble character.")
     for ep in recent[-2:]:
@@ -197,7 +225,8 @@ def write_strip(brand, rec):
     n_panels = (4, 4) if kind == "image" else (3, 5)
     recent = history(brand["slug"])
     used = used_premises(brand["slug"]) + list(rec.get("avoid", []))
-    user = (f"Today is {date.today():%A %d %B %Y}. Write today's "
+    tone = rec.get("tone") if rec.get("tone") in TONES else pick_tone(recent)
+    user = (f"{TONES[tone][1]}\n\nToday is {date.today():%A %d %B %Y}. Write today's "
             f"{'four-panel comic' if kind == 'image' else 'animated Reel episode (3 to 5 panels, it plays with voices)'}.\n"
             f"{brief(recent)}\n"
             f"Already used premises (do not repeat or echo):\n- " + "\n- ".join(used[-80:] or ["none yet"]))
@@ -205,6 +234,7 @@ def write_strip(brand, rec):
     for attempt in range(4):
         prompt = user + ("\n\nYour last answer had these problems, fix them:\n- " + "\n- ".join(errs) if errs else "")
         spec = generate(SYSTEM, prompt, schema(n_panels))
+        spec["tone"] = tone
         errs = check(spec, n_panels, recent)
         if not errs:
             break
@@ -227,7 +257,7 @@ def write_strip(brand, rec):
     tags = [h if h.startswith("#") else "#" + h for h in spec.get("hashtags", [])][:5]
     caption = DASHES.sub(", ", spec["caption"]).strip()
     ep = {
-        "format": "strip", "kind": kind, "title": spec["title"], "premise": spec["premise"],
+        "format": "strip", "kind": kind, "tone": tone, "title": spec["title"], "premise": spec["premise"],
         "extras": [{"name": e["name"], "look": e["look"]} for e in spec.get("extras") or []],
         "panels": spec["panels"],
         "caption": instagram_caption(brand, caption, tags),

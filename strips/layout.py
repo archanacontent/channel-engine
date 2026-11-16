@@ -95,9 +95,9 @@ def panel_html(i, p, extras=None):
         heads.setdefault(c["who"], head)
         info = who_info(c["who"], extras)
         draw = info["draw"]
-        for talk in (False, True):
-            chars.append(f'<g class="layer char c{j}{" talk" if talk else " quiet"}" data-who="{html.escape(c["who"])}">'
-                         f'{draw(x, y, s, c.get("mood", "neutral"), c.get("flip", False), talking=talk, prop=c.get("holding"))}</g>')
+        for cls, talk, blink in (("quiet", False, False), ("talk", True, False), ("half", 1, False), ("blink", False, True)):
+            chars.append(f'<g class="layer char c{j} {cls}" data-who="{html.escape(c["who"])}">'
+                         f'{draw(x, y, s, c.get("mood", "neutral"), c.get("flip", False), talking=talk, prop=c.get("holding"), blink=blink)}</g>')
     front = [FRONT[room]()] if room in FRONT else []
     line = SURFACE.get(room, floor)
     taken = {X.get(c.get("pos", "center"), 256) for c in p.get("cast", [])}
@@ -113,7 +113,8 @@ def panel_html(i, p, extras=None):
     k, tx, ty = camera(p, heads, p.get("cast", []))
     cam = f'<g transform="translate({tx:.1f},{ty:.1f}) scale({k})">'
     art = [f'<g class="layer bg">{cam}{bg}</g></g>', *[f"{cam}{c}</g>" for c in chars],
-           f'<g class="layer fg">{cam}{"".join(front)}</g>{sfx(p["sfx"], p.get("sfx_spot", "right")) if p.get("sfx") else ""}</g>']
+           f'<g class="layer fg">{cam}{"".join(front)}</g></g>',
+           f'<g class="layer fg sfxl">{sfx(p["sfx"], p.get("sfx_spot", "right")) if p.get("sfx") else ""}</g>']
     heads = {w: (k * h[0] + tx, k * h[1] + ty) for w, h in heads.items()}
     bubbles = []
     lines = p.get("lines", [])
@@ -164,7 +165,7 @@ function only(sel) {  // show just the matching layers (for Reel compositing)
   document.body.style.background = 'transparent'; document.documentElement.style.background = 'transparent';
   document.querySelectorAll('.p, .sheet').forEach(e => { e.style.background = 'transparent'; e.style.outlineColor = 'transparent'; });
 }
-function still() { document.querySelectorAll('.talk').forEach(e => e.style.display = 'none'); }
+function still() { document.querySelectorAll('.talk, .half, .blink').forEach(e => e.style.display = 'none'); }
 """
 
 

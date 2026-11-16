@@ -15,7 +15,7 @@ STROKE = f'stroke="{INK}" stroke-width="6" stroke-linejoin="round"'
 
 # ---------------------------------------------------------------- faces
 
-def face(mood, talking, ex=21, ey=-96, my=-64, white="#fff", iris=INK, lid=None):
+def face(mood, talking, ex=21, ey=-96, my=-64, white="#fff", iris=INK, lid=None, blink=False):
     """Eyes, brows and mouth for any front-facing head. ex = half the eye spacing."""
     L, R = -ex, ex
     dot = lambda cx, r=6.5: f'<ellipse cx="{cx}" cy="{ey}" rx="{r}" ry="{r * 1.25}" fill="{iris}"/><circle cx="{cx + 2}" cy="{ey - 3}" r="2.2" fill="#fff"/>'
@@ -66,6 +66,10 @@ def face(mood, talking, ex=21, ey=-96, my=-64, white="#fff", iris=INK, lid=None)
         "crying": f'<path d="M-16,{my + 10} Q0,{my - 12} 16,{my + 10} Z" fill="#7a2232" stroke="{INK}" stroke-width="4"/>',
     }
     mouth = open_mouth if talking and mood not in ("laughing", "shocked", "crying") else mouths[mood]
+    if talking == 1 and mouth is open_mouth:   # half-open, for quiet syllables in the Reels
+        mouth = f'<g transform="translate(0,{my + 3}) scale(0.8,0.5) translate(0,{-my - 3})">{open_mouth}</g>'
+    if blink and mood not in ("happy", "laughing", "love", "proud", "sleeping", "crying", "deadpan"):
+        eyes = arc_dn(L) + arc_dn(R)
     extra = ""
     if mood in ("panic", "shocked"):
         extra += f'<path d="M{R + 30},{ey - 26} Q{R + 40},{ey - 8} {R + 30},{ey} Q{R + 20},{ey - 8} {R + 30},{ey - 26} Z" fill="#9fd3ff" stroke="{INK}" stroke-width="3"/>'
@@ -101,7 +105,7 @@ HAIR = {
 }
 
 
-def person(x, y, s=1.0, mood="neutral", flip=False, talking=False, prop=None, look=None):
+def person(x, y, s=1.0, mood="neutral", flip=False, talking=False, prop=None, look=None, blink=False):
     from strips.art import prop_svg
     lk = {"skin": "#e9b48c", "hair": "short", "hair_color": "#3a2a20", "top": "#6b8fd6", "legs": "#3b4158",
           "body": "slim", "glasses": False, "eyebags": False, "tie": None, "lipstick": None, "beard": None,
@@ -169,14 +173,14 @@ def person(x, y, s=1.0, mood="neutral", flip=False, talking=False, prop=None, lo
   <circle cx="0" cy="-98" r="56" fill="{skin}" {STROKE}/>
   <ellipse cx="-36" cy="-72" rx="10" ry="6" fill="#ff8a9a" opacity="0.45"/><ellipse cx="36" cy="-72" rx="10" ry="6" fill="#ff8a9a" opacity="0.45"/>
   {beard}{hair_front}{bags}
-  {face(mood, talking)}{lips}{glasses}
+  {face(mood, talking, blink=blink)}{lips}{glasses}
   {arm_svg}{held}
 </g>'''
 
 
 # ---------------------------------------------------------------- animals
 
-def dog(x, y, s=1.0, mood="happy", flip=False, talking=False, prop=None):
+def dog(x, y, s=1.0, mood="happy", flip=False, talking=False, prop=None, blink=False):
     from strips.art import prop_svg
     sx = -s if flip else s
     fur, dark, snout = "#e8b04a", "#c98a2e", "#f6d9a0"
@@ -201,12 +205,12 @@ def dog(x, y, s=1.0, mood="happy", flip=False, talking=False, prop=None):
   <ellipse cx="0" cy="-38" rx="32" ry="24" fill="{snout}" stroke="{INK}" stroke-width="4"/>
   <ellipse cx="0" cy="-52" rx="11" ry="8" fill="{INK}"/>
   {tongue}
-  {face(mood, talking, ex=24, ey=-78, my=-30)}
+  {face(mood, talking, ex=24, ey=-78, my=-30, blink=blink)}
   {held}
 </g>'''
 
 
-def pigeon(x, y, s=1.0, mood="neutral", flip=False, talking=False, prop=None):
+def pigeon(x, y, s=1.0, mood="neutral", flip=False, talking=False, prop=None, blink=False):
     from strips.art import prop_svg
     sx = -s if flip else s
     body, head, wing = "#a3abbd", "#8b93a8", "#7c8499"
@@ -225,8 +229,66 @@ def pigeon(x, y, s=1.0, mood="neutral", flip=False, talking=False, prop=None):
   <path d="M-30,-10 Q0,8 30,-10" stroke="#8e6bbf" stroke-width="5" fill="none"/>
   <circle cx="0" cy="-58" r="44" fill="{head}" {STROKE}/>
   <path d="M-46,-74 C-46,-118 46,-118 46,-74 Q0,-90 -46,-74 Z" fill="#4b4f5c" {STROKE}/><path d="M36,-80 Q66,-80 70,-70 L34,-72 Z" fill="#4b4f5c" stroke="{INK}" stroke-width="4"/>
-  {face(mood, talking, ex=18, ey=-62, my=-14, white="#f2a33a")}
+  {face(mood, talking, ex=18, ey=-62, my=-14, white="#f2a33a", blink=blink)}
   {beak}{held}
+</g>'''
+
+
+def reaper(x, y, s=1.0, mood="neutral", flip=False, talking=False, prop=None, blink=False):
+    """Mort: a small, polite grim reaper on a temp contract. Robe, hood, staff badge, a scythe a size too big."""
+    from strips.art import prop_svg
+    sx = -s if flip else s
+    robe, shade, bone = "#3a3350", "#2a2540", "#f4f1e8"
+    up = mood in ("happy", "laughing", "proud", "love", "panic", "shocked")
+    arm = "M38,-20 Q70,-40 74,-70" if up else "M38,-20 Q66,-6 70,22"
+    hx, hy = (74, -70) if up else (70, 22)
+    held = prop_svg(prop, 80, 10, 0.4) if prop else ""
+    return f'''<g transform="translate({x},{y}) scale({sx},{s})">
+  <ellipse cx="0" cy="126" rx="72" ry="11" fill="#000" opacity="0.12"/>
+  <path d="M-78,118 L-78,-150" stroke="{INK}" stroke-width="13" stroke-linecap="round"/><path d="M-78,118 L-78,-150" stroke="#8a6a4a" stroke-width="6" stroke-linecap="round"/>
+  <path d="M-80,-150 C-40,-176 10,-166 34,-128 C4,-150 -40,-150 -78,-134 Z" fill="#dfe6f2" {STROKE}/>
+  <path d="M-50,-30 Q-56,60 -70,122 Q-36,112 -18,124 Q0,112 18,124 Q36,112 70,122 Q56,60 50,-30 Z" fill="{robe}" {STROKE}/>
+  <path d="M-12,-20 Q-16,60 -18,118 M14,-20 Q20,60 22,116" stroke="{shade}" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M-38,-20 Q-70,-6 -74,24" stroke="{INK}" stroke-width="26" fill="none" stroke-linecap="round"/><path d="M-38,-20 Q-70,-6 -74,24" stroke="{robe}" stroke-width="15" fill="none" stroke-linecap="round"/>
+  <circle cx="-76" cy="26" r="10" fill="{bone}" stroke="{INK}" stroke-width="4.5"/>
+  <path d="{arm}" stroke="{INK}" stroke-width="26" fill="none" stroke-linecap="round"/><path d="{arm}" stroke="{robe}" stroke-width="15" fill="none" stroke-linecap="round"/>
+  <circle cx="{hx}" cy="{hy}" r="10" fill="{bone}" stroke="{INK}" stroke-width="4.5"/>
+  <path d="M-6,-34 L10,20" stroke="#e84a5f" stroke-width="4"/><rect x="0" y="16" width="30" height="38" rx="4" fill="#fffdf2" stroke="{INK}" stroke-width="3.5"/>
+  <circle cx="15" cy="29" r="6" fill="{robe}"/><path d="M6,42 L24,42 M6,48 L20,48" stroke="{INK}" stroke-width="2.5"/>
+  <path d="M-66,-76 C-74,-150 -30,-178 4,-176 C44,-174 76,-140 64,-74 C56,-34 -56,-34 -66,-76 Z" fill="{robe}" {STROKE}/>
+  <path d="M4,-176 Q30,-196 40,-170" fill="{robe}" {STROKE}/>
+  <ellipse cx="0" cy="-92" rx="46" ry="48" fill="{shade}"/>
+  <ellipse cx="0" cy="-88" rx="40" ry="42" fill="{bone}" stroke="{INK}" stroke-width="4.5"/>
+  <ellipse cx="-26" cy="-70" rx="8" ry="5" fill="#b9a7d6" opacity="0.6"/><ellipse cx="26" cy="-70" rx="8" ry="5" fill="#b9a7d6" opacity="0.6"/>
+  {face(mood, talking, ex=16, ey=-94, my=-66, blink=blink)}
+  {held}
+</g>'''
+
+
+def plant(x, y, s=1.0, mood="neutral", flip=False, talking=False, prop=None, blink=False):
+    """Fern: a houseplant with a face on its pot. Leaves stand up when things go well and droop when they do not."""
+    from strips.art import prop_svg
+    sx = -s if flip else s
+    droop = mood in ("sad", "crying", "tired", "sleeping", "deadpan", "panic")
+    green, dark = ("#7fae5a", "#5d8a3f") if droop else ("#5fc26b", "#3f9a52")
+    if droop:
+        leaves = ("M0,26 C-20,-20 -70,-30 -96,10 C-70,0 -40,6 0,26 Z", "M0,26 C20,-20 70,-30 96,10 C70,0 40,6 0,26 Z",
+                  "M0,26 C-30,-50 -70,-70 -100,-50 C-70,-44 -34,-20 0,26 Z", "M0,26 C30,-50 70,-70 100,-50 C70,-44 34,-20 0,26 Z",
+                  "M0,26 C-12,-30 -10,-70 14,-84 C16,-50 12,-10 0,26 Z")
+    else:
+        leaves = ("M0,26 C-50,0 -90,-40 -92,-88 C-56,-70 -18,-30 0,26 Z", "M0,26 C50,0 90,-40 92,-88 C56,-70 18,-30 0,26 Z",
+                  "M0,26 C-40,-40 -50,-100 -34,-138 C-10,-100 -2,-40 0,26 Z", "M0,26 C40,-40 50,-100 34,-138 C10,-100 2,-40 0,26 Z",
+                  "M0,26 C-16,-50 -12,-120 0,-156 C12,-120 16,-50 0,26 Z")
+    lv = "".join(f'<path d="{d}" fill="{dark if i < 2 else green}" {STROKE}/>' for i, d in enumerate(leaves))
+    held = prop_svg(prop, 86, 80, 0.36) if prop else ""
+    return f'''<g transform="translate({x},{y}) scale({sx},{s})">
+  <ellipse cx="0" cy="126" rx="70" ry="11" fill="#000" opacity="0.12"/>
+  {lv}
+  <path d="M-56,36 L56,36 L42,118 Q0,128 -42,118 Z" fill="#d9825b" {STROKE}/>
+  <rect x="-64" y="18" width="128" height="24" rx="8" fill="#e89a72" {STROKE}/>
+  <ellipse cx="-32" cy="88" rx="9" ry="5" fill="#ff8a9a" opacity="0.5"/><ellipse cx="32" cy="88" rx="9" ry="5" fill="#ff8a9a" opacity="0.5"/>
+  {face(mood, talking, ex=18, ey=70, my=96, blink=blink)}
+  {held}
 </g>'''
 
 
@@ -239,6 +301,11 @@ LOOKS = {
                   "outfit": "cardigan", "legs": "#6b5a7a", "scale": 0.92},
     "Brenda": {"skin": "#e0a77e", "hair": "big", "hair_color": "#8a4b2a", "top": "#2f3e66", "outfit": "blazer", "body": "round",
                "lipstick": "#c43a5a"},
+    "Ravi": {"skin": "#b97a56", "hair": "curly", "hair_color": "#1f1a17", "top": "#2f2f38", "outfit": "hoodie", "glasses": True,
+             "legs": "#5a6078"},
+    "Lottie": {"skin": "#e2b08a", "hair": "ponytail", "hair_color": "#5a3825", "top": "#ff7aa8", "legs": "#6b8fd6", "scale": 0.7},
+    "Mr. Okafor": {"skin": "#7a4a2e", "hair": "bald", "hair_color": "#ddd", "top": "#8a6d3b", "outfit": "blazer", "tie": "#2e8b57",
+                   "body": "round", "beard": "#8f8f96", "legs": "#3a3226"},
 }
 EXTRA_LOOKS = {
     "young_man": {"skin": "#d9a27a", "hair": "short", "hair_color": "#1f1a17", "top": "#4caf7d", "outfit": "hoodie"},
@@ -267,8 +334,18 @@ ENSEMBLE = {
                "every word literally. The wholesome punchline, or the accidental savage one.",
     "Gus": "Gus: a city pigeon in a flat cap. A small-time hustler running schemes on the sidewalk and in the park. "
            "Talks like a con artist, sells things that are clearly bread.",
-    "Pim": "Pim: a small, timid, endlessly optimistic ghost, bad at being scary. Guest only.",
-    "Soot": "Soot: Pim's deadpan black cat. Says two words, wins. Guest only.",
+    "Ravi": "Ravi: a startup founder in a hoodie. Has pivoted nine times, calls every setback a learning, and is "
+            "always one funding round from changing the world. Pitches at funerals. Believes his own deck.",
+    "Lottie": "Lottie: Dev's 7-year-old niece. Asks the question no adult wants asked, then waits. Brutally honest, "
+              "completely sincere, and unbeatable at negotiating bedtime.",
+    "Mr. Okafor": "Mr. Okafor: the landlord. Warm, fatherly, delighted to see you. Delivers rent increases, new fees "
+                  "and 'improvements' as if handing out gifts. Never raises his voice. Never fixes the boiler.",
+    "Mort": "Mort: a small grim reaper on a temp contract, staff badge and all. Polite, overworked, behind on his "
+            "quota, hates the paperwork. Treats death as a customer service job and makes awkward small talk.",
+    "Fern": "Fern: the office houseplant, a face on a terracotta pot. Has watched everything. Passive-aggressive "
+            "about being watered. Dry one-liners, long memory. Cannot move, so it sits wherever the scene is.",
+    "Pim": "Pim: a small, timid, endlessly optimistic ghost, bad at being scary. Best on warm days.",
+    "Soot": "Soot: Pim's deadpan black cat. Says two words, wins. Best on warm days.",
 }
 GUESTS = {"Pim", "Soot"}
 
@@ -278,6 +355,8 @@ def drawers():
     d = {n: (partial(person, look=lk), -158, 34, lk.get("scale", 1.0)) for n, lk in LOOKS.items()}
     d["Biscuit"] = (dog, -124, 60, 0.9)
     d["Gus"] = (pigeon, -112, 124, 0.8)
+    d["Mort"] = (reaper, -178, 40, 0.86)
+    d["Fern"] = (plant, -150, 124, 0.82)
     return d
 
 

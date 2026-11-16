@@ -15,7 +15,7 @@ GHOST_MOODS = ["happy", "excited", "nervous", "sad", "surprised", "proud", "slee
 CAT_MOODS = ["flat", "annoyed", "smug", "surprised", "sleeping", "eating", "pleased"]
 
 
-def ghost(x, y, s=1.0, mood="happy", flip=False, talking=False, prop=None):
+def ghost(x, y, s=1.0, mood="happy", flip=False, talking=False, prop=None, blink=False):
     sx = -s if flip else s
     E = lambda cx: f'<ellipse cx="{cx}" cy="-48" rx="10" ry="15" fill="{INK}"/><circle cx="{cx + 3}" cy="-53" r="4" fill="#fff"/>'
     eyes = {
@@ -51,6 +51,10 @@ def ghost(x, y, s=1.0, mood="happy", flip=False, talking=False, prop=None):
     }[mood]
     mouth = (f'<ellipse cx="0" cy="-10" rx="13" ry="12" fill="{INK}"/><ellipse cx="0" cy="-4" rx="7" ry="4" fill="#ff8a9a"/>'
              if talking and mood not in ("excited",) else closed)
+    if talking == 1 and mood != "excited":
+        mouth = f'<ellipse cx="0" cy="-10" rx="10" ry="6" fill="{INK}"/>'
+    if blink and mood not in ("proud", "excited", "sleepy", "love"):
+        eyes = f'<path d="M-38,-46 Q-26,-40 -14,-46 M14,-46 Q26,-40 38,-46" stroke="{INK}" stroke-width="7" fill="none" stroke-linecap="round"/>'
     arms = ('<path d="M-80,10 Q-112,2 -116,-24" /><path d="M80,10 Q110,0 118,-26" />' if mood in ("excited", "proud", "happy", "love", "determined")
             else '<path d="M-80,6 Q-104,24 -100,44" /><path d="M80,6 Q104,24 100,44" />' if mood in ("sad", "sleepy")
             else '<path d="M-78,-4 Q-96,-30 -70,-46" /><path d="M78,-4 Q96,-30 70,-46" />' if mood in ("nervous", "surprised")
@@ -67,7 +71,7 @@ def ghost(x, y, s=1.0, mood="happy", flip=False, talking=False, prop=None):
 </g>'''
 
 
-def cat(x, y, s=1.0, mood="flat", flip=False, talking=False, prop=None):
+def cat(x, y, s=1.0, mood="flat", flip=False, talking=False, prop=None, blink=False):
     sx = -s if flip else s
     fur = "#2c2a36"
     eye_y = -58
@@ -88,8 +92,10 @@ def cat(x, y, s=1.0, mood="flat", flip=False, talking=False, prop=None):
             eyes += f'<path d="M-44,-86 L-12,-78 M44,-86 L12,-78" stroke="#e8e6f0" stroke-width="4" stroke-linecap="round"/>'
         if mood == "pleased":
             eyes = (f'<path d="M-38,-56 Q-24,-70 -10,-56 M10,-56 Q24,-70 38,-56" stroke="#f4d03f" stroke-width="6" fill="none" stroke-linecap="round"/>')
+    if blink and mood not in ("sleeping", "pleased"):
+        eyes = f'<path d="M-38,-58 Q-24,-50 -10,-58 M10,-58 Q24,-50 38,-58" stroke="#e8e6f0" stroke-width="4.5" fill="none" stroke-linecap="round"/>'
     if talking:
-        mouth = f'<ellipse cx="0" cy="-19" rx="9" ry="8" fill="#e98a9c" stroke="{INK}" stroke-width="3"/>'
+        mouth = f'<ellipse cx="0" cy="-19" rx="{9 if talking != 1 else 7}" ry="{8 if talking != 1 else 4}" fill="#e98a9c" stroke="{INK}" stroke-width="3"/>'
     else:
         mouth = {"smug": '<path d="M-10,-22 Q4,-14 12,-26" stroke="#e8e6f0" stroke-width="4" fill="none" stroke-linecap="round"/>',
                  "eating": f'<ellipse cx="0" cy="-18" rx="11" ry="8" fill="#e98a9c" stroke="{INK}" stroke-width="3"/>',
