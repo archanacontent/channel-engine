@@ -10582,5 +10582,50 @@
   "keywords_done": true,
   "video_id": "sry1jNUiKJM",
   "uploaded_at": "2026-11-15T08:35:46.779252-08:00"
+ },
+ {
+  "slug": "comicsofy",
+  "channel": "Comicsofy",
+  "series": "Pim and Soot Comic",
+  "title": "Peak Hours",
+  "stem": "2026-11-24-1300",
+  "record_id": "strip:image:1794812756620664941:0",
+  "publish_at": "2026-11-24T13:00:00-05:00",
+  "meta": {
+   "channel": "Comicsofy",
+   "series": "Pim and Soot Comic",
+   "title": "Peak Hours",
+   "instagram_caption": "Your morning commute now includes a convenience fee for gravity.\n.\n.\n.\n#comics #cartoon #digitalart #webcomic #comicbooks\ncomic | drawing | art | illustration | artist | sketch\n#cartoonist #comicart #comicbook #funnycomics #draw #artwork #officehumor #comicstrip #funny #relatable #artistsoninstagram #comicsofy #doodle #webtoon #viral #viralcomics #explorepage #landlordlife #adulting #relatablehumor #corporatebs #cityliving",
+   "kind": "image"
+  },
+  "srt": "",
+  "status": "ready",
+  "file": "2026-11-24-1300.jpg",
+  "platform": "instagram",
+  "auto_approve": true,
+  "release": "shorts-43821273938"
+ },
+ {
+  "slug": "comicsofy",
+  "channel": "Comicsofy",
+  "series": "Pim and Soot Reel",
+  "title": "The Audit",
+  "stem": "2026-11-24-1800",
+  "record_id": "strip:reel:1794812875339625117:0",
+  "publish_at": "2026-11-24T18:00:00-05:00",
+  "meta": {
+   "channel": "Comicsofy",
+   "series": "Pim and Soot Reel",
+   "title": "The Audit",
+   "instagram_caption": "Quarterly reviews are getting intense.\n.\n.\n.\n#comics #cartoon #digitalart #webcomic #comicbooks\ncomic | drawing | art | illustration | artist | sketch\n#cartoonist #comicart #comicbook #funnycomics #draw #artwork #officehumor #comicstrip #funny #relatable #artistsoninstagram #comicsofy #doodle #webtoon #viral #viralcomics #explorepage #corporate #grimreaper #burnout #monday",
+   "kind": "reel",
+   "duration_s": 22.55
+  },
+  "srt": "",
+  "status": "ready",
+  "file": "2026-11-24-1800.mp4",
+  "platform": "instagram",
+  "auto_approve": true,
+  "release": "shorts-43821273938"
  }
 ]

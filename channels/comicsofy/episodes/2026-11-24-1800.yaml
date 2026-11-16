@@ -1,0 +1,90 @@
+format: strip
+kind: reel
+tone: dark
+title: The Audit
+premise: Mort drops by Dev's desk to review his productivity versus his remaining life expectancy.
+panels:
+- room: office
+  shot: medium
+  cast:
+  - who: Dev
+    mood: tired
+    pos: left
+    size: medium
+    holding: laptop
+  - who: Mort
+    mood: neutral
+    pos: right
+    size: medium
+    holding: clipboard
+  lines:
+  - who: Mort
+    text: Your burnout metrics are exceeding company projections.
+  - who: Dev
+    text: I can push harder if needed.
+  props:
+  - name: laptop
+    spot: left
+  - name: clipboard
+    spot: right
+- room: office
+  shot: close
+  cast:
+  - who: Mort
+    mood: neutral
+    pos: center
+    size: large
+    holding: clipboard
+  lines:
+  - who: Mort
+    text: That is enthusiasm. Misplaced, but impressive.
+  props:
+  - name: clipboard
+    spot: center
+  sfx: TAP
+- room: office
+  shot: wide
+  cast:
+  - who: Fern
+    mood: deadpan
+    pos: left
+    size: small
+    holding: plant
+  - who: Dev
+    mood: deadpan
+    pos: center
+    size: medium
+    holding: mug
+  - who: Mort
+    mood: neutral
+    pos: right
+    size: medium
+  lines:
+  - who: Dev
+    text: Do I get a pizza party when I collapse?
+  - who: Mort
+    text: You get a laminated certificate in the breakroom.
+  props:
+  - name: plant
+    spot: left
+  - name: mug
+    spot: center
+caption: 'Quarterly reviews are getting intense.
+
+  .
+
+  .
+
+  .
+
+  #comics #cartoon #digitalart #webcomic #comicbooks
+
+  comic | drawing | art | illustration | artist | sketch
+
+  #cartoonist #comicart #comicbook #funnycomics #draw #artwork #officehumor #comicstrip #funny #relatable #artistsoninstagram #comicsofy #doodle #webtoon #viral #viralcomics #explorepage #corporate #grimreaper #burnout #monday'
+description:
+  summary: Quarterly reviews are getting intense.
+series: Pim and Soot Reel
+record_id: strip:reel:1794812875339625117:0
+auto: true
+instagram_hashtags_rotating: []

@@ -1,0 +1,99 @@
+format: strip
+kind: image
+tone: satire
+title: Peak Hours
+premise: Mr. Okafor introduces dynamic surge pricing for using the stairs in the apartment building during peak morning hours.
+panels:
+- room: city_street
+  shot: medium
+  cast:
+  - who: Dev
+    mood: tired
+    pos: left
+    size: medium
+    flip: false
+    holding: coffee
+  - who: Mr. Okafor
+    mood: happy
+    pos: right
+    size: medium
+    flip: true
+  lines:
+  - who: Mr. Okafor
+    text: Morning Dev! Quick update on the building staircase.
+  - who: Dev
+    text: Did you fix the handrail?
+  focus: Mr. Okafor talking to Dev
+  props: []
+- room: city_street
+  shot: close
+  cast:
+  - who: Mr. Okafor
+    mood: proud
+    pos: center
+    size: large
+    flip: false
+    holding: clipboard
+  lines:
+  - who: Mr. Okafor
+    text: Better! We added dynamic surge pricing for stairs.
+  focus: Mr. Okafor explaining the fee
+  props: []
+- room: city_street
+  shot: medium
+  cast:
+  - who: Dev
+    mood: deadpan
+    pos: left
+    size: medium
+    flip: false
+    holding: coffee
+  - who: Mr. Okafor
+    mood: smug
+    pos: right
+    size: medium
+    flip: true
+    holding: clipboard
+  lines:
+  - who: Dev
+    text: It costs four dollars to walk down to work?
+  - who: Mr. Okafor
+    text: High demand! Taking two steps at once is premium.
+  focus: Dev questioning the cost
+  props: []
+- room: city_street
+  shot: extreme_close
+  cast:
+  - who: Dev
+    mood: deadpan
+    pos: center
+    size: large
+    flip: false
+    holding: coffee
+  lines:
+  - who: Dev
+    text: I will be sliding down the drainpipe for free.
+  fx:
+  - gloom
+  narration: 8:15 AM
+  sfx: BZZT
+  props: []
+caption: 'Your morning commute now includes a convenience fee for gravity.
+
+  .
+
+  .
+
+  .
+
+  #comics #cartoon #digitalart #webcomic #comicbooks
+
+  comic | drawing | art | illustration | artist | sketch
+
+  #cartoonist #comicart #comicbook #funnycomics #draw #artwork #officehumor #comicstrip #funny #relatable #artistsoninstagram #comicsofy #doodle #webtoon #viral #viralcomics #explorepage #landlordlife #adulting #relatablehumor #corporatebs #cityliving'
+description:
+  summary: Your morning commute now includes a convenience fee for gravity.
+series: Pim and Soot Comic
+record_id: strip:image:1794812756620664941:0
+auto: true
+instagram_hashtags_rotating: []
