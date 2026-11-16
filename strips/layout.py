@@ -42,6 +42,52 @@ def place(c, room, extras=None):
     return x, y, s, (x, y + info["head"] * s)
 
 
+# Where the face sits on each kind of character, in its own units from the point it stands on:
+# (centre y, half width, half height). Anything not listed has a person-shaped head.
+FACE = {"Pim": (-30, 66, 62), "Soot": (-40, 62, 52), "Biscuit": (-55, 64, 56), "Gus": (-40, 50, 46),
+        "Mort": (-80, 48, 50), "Fern": (83, 60, 42)}
+
+
+def face_boxes(who, x, y, s, k=1.0, tx=0.0, ty=0.0):
+    """(whole face, eyes and mouth) as rectangles; in scene units unless a camera is given."""
+    cy, hw, hh = FACE.get(who, (-80, 72, 78))
+    cx, cy = x, y + cy * s
+    box = lambda w, h: [round(k * (cx - w * s) + tx, 1), round(k * (cy - h * s) + ty, 1),
+                        round(k * (cx + w * s) + tx, 1), round(k * (cy + h * s) + ty, 1)]
+    return box(hw, hh) + box(hw * 0.68, hh * 0.55)
+
+
+def sfx_spot(text, faces, wanted):
+    """The sound word goes where it covers the least face, and never eyes or mouth when there is a choice."""
+    t = text.upper()[:12]
+    fs = 92 if len(t) <= 5 else 70 if len(t) <= 8 else 54
+    w, h = len(t) * fs * 0.62, fs
+    pref = {"left": (120, 560), "center": (256, 560), "right": (380, 560)}.get(wanted, (380, 560))
+    best = None
+    for at in [pref, (380, 560), (120, 560), (256, 560), (392, 615), (120, 615), (392, 470), (120, 470), (256, 615)]:
+        r = [at[0] - w / 2, at[1] - h * 0.85, at[0] + w / 2, at[1] + h * 0.15]
+        r = [max(r[0], 8), r[1], min(r[2], PW - 8), r[3]]
+        sc = sum(overlap(r, f[:4]) + 8 * overlap(r, f[4:]) for f in faces)
+        if best is None or sc < best[0] - 1:
+            best = (sc, at)
+    return best[1]
+
+
+def sfx_group(text, wanted, faces):
+    """The sound word, wrapped so the page script can move it off faces and words."""
+    t = text.upper()[:12]
+    fs = 92 if len(t) <= 5 else 70 if len(t) <= 8 else 54
+    at = sfx_spot(text, faces, wanted)
+    pref = {"left": (120, 560), "center": (256, 560), "right": (380, 560)}.get(wanted, (380, 560))
+    return (f'<g class="sfxg" data-w="{len(t) * fs * 0.62:.0f}" data-h="{fs}" data-pref="{json.dumps(list(pref))}" '
+            f'transform="translate({at[0]},{at[1]})">{sfx(text, at=(0, 0))}</g>')
+
+
+def overlap(a, b):
+    w, h = min(a[2], b[2]) - max(a[0], b[0]), min(a[3], b[3]) - max(a[1], b[1])
+    return w * h if w > 0 and h > 0 else 0
+
+
 def spread(cast):
     """Characters in one panel stand apart so they never overlap."""
     if len(cast) == 2:
@@ -89,10 +135,11 @@ def panel_html(i, p, extras=None):
     bg = ROOMS[room]() + "".join(fx_back(f) for f in fxs)
     chars = []
     floor = FLOOR[room]
-    heads = {}
+    heads, spots = {}, []
     for j, c in enumerate(p.get("cast", [])):
         x, y, s, head = place(c, room, extras)
         heads.setdefault(c["who"], head)
+        spots.append((c["who"], x, y, s))
         info = who_info(c["who"], extras)
         draw = info["draw"]
         for cls, talk, blink in (("quiet", False, False), ("talk", True, False), ("half", 1, False), ("blink", False, True)):
@@ -111,38 +158,96 @@ def panel_html(i, p, extras=None):
         front.append(prop_svg(pr["name"], x, line + (34 if room in SURFACE else 10) - rest * sc, sc))
     front += [fx_front(f) for f in fxs]
     k, tx, ty = camera(p, heads, p.get("cast", []))
-    cam = f'<g transform="translate({tx:.1f},{ty:.1f}) scale({k})">'
+    faces = [face_boxes(w, x, y, s) for w, x, y, s in spots]
+    cam = f'<g class="cam" transform="translate({tx:.1f},{ty:.1f}) scale({k})">'
     art = [f'<g class="layer bg">{cam}{bg}</g></g>', *[f"{cam}{c}</g>" for c in chars],
            f'<g class="layer fg">{cam}{"".join(front)}</g></g>',
-           f'<g class="layer fg sfxl">{sfx(p["sfx"], p.get("sfx_spot", "right")) if p.get("sfx") else ""}</g>']
+           f'<g class="layer fg sfxl">{sfx_group(p["sfx"], p.get("sfx_spot", "right"), [face_boxes(w, x, y, s, k, tx, ty) for w, x, y, s in spots]) if p.get("sfx") else ""}</g>']
+    wheads = dict(heads)
     heads = {w: (k * h[0] + tx, k * h[1] + ty) for w, h in heads.items()}
     bubbles = []
     lines = p.get("lines", [])
     for kk, ln in enumerate(lines):
         hx, hy = heads.get(ln["who"], (256, 300))
+        wx, wy = wheads.get(ln["who"], ((256 - tx) / k, (300 - ty) / k))
         words = len(ln["text"].split())
         fs = 38 if words <= 8 else 34 if words <= 14 else 30
         shout = " shout" if ln.get("style") == "shout" else " think" if ln.get("style") == "thought" else ""
-        bubbles.append(f'<div class="b layer bub{kk}{shout}" data-hx="{hx:.1f}" data-hy="{hy:.1f}" style="font-size:{fs + (6 if shout == " shout" else 0)}px">'
+        bubbles.append(f'<div class="b layer bub{kk}{shout}" data-wx="{wx:.1f}" data-wy="{wy:.1f}" style="font-size:{fs + (6 if shout == " shout" else 0)}px">'
                        f'{html.escape(ln["text"])}</div>')
     nar = (f'<div class="nar layer narr">{html.escape(p["narration"])}</div>' if p.get("narration") else "")
-    return (f'<div class="p" id="p{i}"><svg class="art" viewBox="0 0 {PW} {PH}" width="{PW}" height="{PH}">{"".join(art)}</svg>'
+    return (f'<div class="p" id="p{i}" data-faces="{html.escape(json.dumps(faces))}" data-cam="{html.escape(json.dumps([k, round(tx, 1), round(ty, 1)]))}"><svg class="art" viewBox="0 0 {PW} {PH}" width="{PW}" height="{PH}">{"".join(art)}</svg>'
             f'<svg class="tails" viewBox="0 0 {PW} {PH}" width="{PW}" height="{PH}"></svg>{nar}{"".join(bubbles)}</div>')
 
 
 SCRIPT = """
+function ov(a, b) {
+  const w = Math.min(a[2], b[2]) - Math.max(a[0], b[0]), h = Math.min(a[3], b[3]) - Math.max(a[1], b[1]);
+  return w > 0 && h > 0 ? w * h : 0;
+}
+// faces and speaker points arrive in scene units; a camera (k, tx, ty) maps them into the panel
+const viaCam = (r, c) => [c[0] * r[0] + c[1], c[0] * r[1] + c[2], c[0] * r[2] + c[1], c[0] * r[3] + c[2]];
+function cover(r, faces) {   // how much face a rectangle hides; eyes and mouth count eight times over
+  let s = 0, feat = 0;
+  for (const f of faces) { s += ov(r, f.slice(0, 4)); feat += ov(r, f.slice(4, 8)); }
+  return [s + 8 * feat, feat];
+}
+function plan(bs, dims, faces, cam, taken0) {
+  // every bubble in reading order: try each width and position, keep the one that hides the least face,
+  // sits near its speaker and as high as it can
+  const taken = taken0.slice(), out = [];
+  let prev = null, total = 0, feat = 0;
+  bs.forEach((b, k) => {
+    const hx = cam[0] * +b.dataset.wx + cam[1];
+    let best = null;
+    dims[k].forEach(([mw, w, h], wi) => {
+      for (let t = 14; t + h <= PH * 0.66; t += 6) {
+        if (prev && t < prev.t) continue;
+        for (let l = 14; l + w <= PW - 14; l += 8) {
+          if (prev && t < prev.t + prev.h + 10 && l < prev.l + prev.w + 10) continue;
+          const r = [l, t, l + w, t + h];
+          if (taken.some(q => ov(r, q) > 0)) continue;
+          const [c, fe] = cover(r, faces);
+          const s = c + Math.abs(l + w / 2 - hx) * 3 + t * 2 + wi * 500;
+          if (!best || s < best.s) best = {s, c, fe, mw, t, l, w, h};
+        }
+      }
+    });
+    if (!best) {   // nothing fits: stack under the previous bubble
+      const [mw, w, h] = dims[k][0];
+      const t = prev ? prev.t + prev.h + 14 : 22;
+      best = {s: 1e7, c: 1e6, fe: 1e5, mw, t, l: Math.min(Math.max(hx - w / 2, 14), PW - w - 14), w, h};
+    }
+    taken.push([best.l - 6, best.t - 6, best.l + best.w + 6, best.t + best.h + 6]);
+    prev = best; total += best.s; feat += best.fe; out.push(best);
+  });
+  return {out, total, feat, taken};
+}
 function layout() {
   for (const p of document.querySelectorAll('.p')) {
     const tails = p.querySelector('.tails'); tails.innerHTML = '';
-    const nar = p.querySelector('.nar'); let top = nar ? nar.offsetHeight + 34 : 22;
+    const nar = p.querySelector('.nar');
+    const wfaces = JSON.parse(p.dataset.faces || '[]');
+    const cam0 = JSON.parse(p.dataset.cam || '[1,0,0]');
+    const taken0 = nar ? [[0, 0, nar.offsetLeft + nar.offsetWidth + 10, nar.offsetTop + nar.offsetHeight + 12]] : [];
     const bs = [...p.querySelectorAll('.b')];
+    const dims = bs.map(b => [400, 330, 260].map(mw => { b.style.maxWidth = mw + 'px'; return [mw, b.offsetWidth, b.offsetHeight]; }));
+    // a close shot that leaves no clean room for the words pulls back a little, up to the full wide view
+    const cams = REZOOM && cam0[0] > 1 ? [0, 0.35, 0.7, 1].map(u => [cam0[0] + (1 - cam0[0]) * u, cam0[1] * (1 - u), cam0[2] * (1 - u)]) : [cam0];
+    let pick = null;
+    for (const [ci, cam] of cams.entries()) {
+      const faces = wfaces.map(f => viaCam(f.slice(0, 4), cam).concat(viaCam(f.slice(4, 8), cam)));
+      const r = plan(bs, dims, faces, cam, taken0);
+      r.cam = cam; r.faces = faces; r.score = r.total + ci * 2500;
+      if (!pick || r.score < pick.score) pick = r;
+      if (r.feat === 0 && r.out.every(o => o.c < 1800)) break;
+    }
+    if (pick.cam !== cam0)
+      p.querySelectorAll('g.cam').forEach(g => g.setAttribute('transform', `translate(${pick.cam[1].toFixed(1)},${pick.cam[2].toFixed(1)}) scale(${pick.cam[0].toFixed(3)})`));
     bs.forEach((b, k) => {
-      const hx = +b.dataset.hx, hy = +b.dataset.hy;
-      const w = b.offsetWidth, h = b.offsetHeight;
-      let left = Math.min(Math.max(hx - w / 2, 14), PW - w - 14);
-      if (bs.length > 1) left = Math.min(Math.max(hx - w / 2 + (k % 2 ? 30 : -30), 14), PW - w - 14);
-      top = Math.max(top, Math.min(hy - 60 - h, PH * 0.42 - h));   // sit close above the speaker
-      b.style.left = left + 'px'; b.style.top = top + 'px';
+      const o = pick.out[k], left = o.l, top = o.t, w = o.w, h = o.h;
+      const hx = pick.cam[0] * +b.dataset.wx + pick.cam[1], hy = pick.cam[0] * +b.dataset.wy + pick.cam[2];
+      b.style.maxWidth = o.mw + 'px'; b.style.left = left + 'px'; b.style.top = top + 'px';
       const bx = Math.min(Math.max(hx, left + 40), left + w - 40), by = top + h - 8;
       const ty = Math.max(by + 20, Math.min(hy - 10, by + 70));
       const tx = hx + (bx - hx) * 0.15;
@@ -156,8 +261,23 @@ function layout() {
       t.setAttribute('fill', '#fff'); t.setAttribute('stroke', INK); t.setAttribute('stroke-width', '5');
       t.setAttribute('stroke-linejoin', 'round'); t.setAttribute('class', 'layer bub' + k);
       tails.appendChild(t);
-      top += h + 14;
     });
+    // the sound word goes where it hides the least face and stays clear of the words
+    const g = p.querySelector('g.sfxg');
+    if (g) {
+      const w = +g.dataset.w, h = +g.dataset.h, pref = JSON.parse(g.dataset.pref);
+      const spots = [pref, [380, 560], [120, 560], [256, 560], [392, 615], [120, 615], [392, 470], [120, 470], [256, 615],
+                     [392, 140], [120, 140], [256, 140], [392, 300], [120, 300]];
+      const block = REZOOM ? pick.taken : [];
+      let best = null;
+      for (const [i, at] of spots.entries()) {
+        const r = [Math.max(at[0] - w / 2, 8), at[1] - h * 0.85, Math.min(at[0] + w / 2, PW - 8), at[1] + h * 0.15];
+        if (block.some(q => ov(r, q) > 0)) continue;
+        const s = cover(r, pick.faces)[0] + i * 40;
+        if (!best || s < best.s) best = {s, at};
+      }
+      if (best) g.setAttribute('transform', `translate(${best.at[0]},${best.at[1]})`);
+    }
   }
 }
 function only(sel) {  // show just the matching layers (for Reel compositing)
@@ -191,4 +311,4 @@ html, body {{ margin: 0; background: #fffdf7; }}
 .sig {{ font-family: Hand; font-size: 30px; color: #8a7f9c; text-align: right; padding: 6px 4px 10px 0; }}
 </style></head><body><div class="sheet"><div class="grid">{"".join(panels)}</div>
 {"" if single else f'<div class="sig">{sig}</div>'}</div>
-<script>const PW={PW}, PH={PH}, INK="{INK}";{SCRIPT}document.fonts.ready.then(() => {{ layout(); document.body.dataset.ready = 1; }});</script></body></html>'''
+<script>const PW={PW}, PH={PH}, INK="{INK}", REZOOM={"false" if single else "true"};{SCRIPT}document.fonts.ready.then(() => {{ layout(); document.body.dataset.ready = 1; }});</script></body></html>'''

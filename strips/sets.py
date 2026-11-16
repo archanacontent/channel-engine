@@ -190,11 +190,14 @@ def fx_front(name):
     return ""
 
 
-def sfx(text, spot="right"):
+def sfx(text, spot="right", at=None):
     x = {"left": 120, "center": 256, "right": 380}.get(spot, 380)
+    y = 560
+    if at:
+        x, y = at
     t = text.upper()[:12]
     fs = 92 if len(t) <= 5 else 70 if len(t) <= 8 else 54
-    return (f'<g transform="translate({x},560) rotate(-8)"><text text-anchor="middle" font-family="Hand" font-size="{fs}" '
+    return (f'<g transform="translate({x},{y}) rotate(-8)"><text text-anchor="middle" font-family="Hand" font-size="{fs}" '
             f'fill="#ffd166" stroke="{INK}" stroke-width="14" paint-order="stroke" stroke-linejoin="round" letter-spacing="2">{t}</text></g>')
 
 

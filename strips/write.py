@@ -79,10 +79,11 @@ TONES = {
 
 def pick_tone(recent):
     """The tone furthest below its share of the last 14 strips, never the same as the strip before."""
-    seen = Counter((ep.get("tone") or "cozy") for ep in recent[-14:])
-    prev = (recent[-1].get("tone") or "cozy") if recent else None
+    toned = [ep["tone"] for ep in recent if ep.get("tone") in TONES][-14:]   # strips from before the mix don't count
+    seen = Counter(toned)
+    prev = toned[-1] if toned else None
     total = sum(w for w, _ in TONES.values())
-    need = {t: w / total - seen[t] / max(1, len(recent[-14:])) for t, (w, _) in TONES.items() if t != prev}
+    need = {t: w / total - seen[t] / max(1, len(toned)) for t, (w, _) in TONES.items() if t != prev}
     return max(need, key=need.get)
 
 
