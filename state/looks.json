@@ -1,5 +1,11 @@
 [
  {
+  "stem": "2026-11-17-0700",
+  "palette": "blue_on_saffron",
+  "motion": "rings",
+  "hook": "stat_punch"
+ },
+ {
   "stem": "2026-11-18-0700",
   "palette": "green_on_cream",
   "motion": "grid",
