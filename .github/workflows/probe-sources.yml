@@ -15,5 +15,6 @@ jobs:
       - env:
           GITHUB_TOKEN: ${{ github.token }}
         run: python -m pipeline.probe
+      - run: python scripts/vb_probe.py
       - run: python scripts/diag.py
       - run: python scripts/comics_probe.py
