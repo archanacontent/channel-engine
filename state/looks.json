@@ -1,8 +1,8 @@
 [
  {
   "stem": "2026-11-18-0700",
-  "palette": "tricolour",
-  "motion": "sweep",
-  "hook": "stat_ribbon"
+  "palette": "green_on_cream",
+  "motion": "grid",
+  "hook": "myth_stamp"
  }
 ]
