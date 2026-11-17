@@ -1,0 +1,91 @@
+skip: false
+skip_reason: ''
+title: While the world expands investment, India broadens its capex engine
+beats:
+- say: State capital expenditure growth is outpacing the Centre.
+  caption: State capital expenditure growth is outpacing the Centre.
+  highlight:
+  - outpacing the Centre
+  scene:
+    type: stat
+    value: 14%
+    label: State capex growth in FY27
+    source: ICICI Securities
+- say: ICICI Securities report data shows state capex grew 14 per cent in FY27 so far. This is ahead of the 13 per cent growth in central government capex.
+  caption: ICICI Securities report data shows state capex grew 14% in FY27 so far. This is ahead of the 13% growth in central government capex.
+  highlight:
+  - 14% in FY27
+  - 13% growth in central government
+  scene:
+    type: compare
+    left_label: States
+    left_text: 14% growth
+    right_label: Centre
+    right_text: 13% growth
+- say: This momentum is supported by stronger state tax revenue growth. State tax revenue grew 14 per cent in FY27 so far, compared to 6 per cent for the Centre.
+  caption: This momentum is supported by stronger state tax revenue growth. State tax revenue grew 14% in FY27 so far, compared to 6% for the Centre.
+  highlight: []
+  scene:
+    type: card
+    title: Tax Revenue Growth (FY27)
+    rows:
+    - - State
+      - 14%
+    - - Centre
+      - 6%
+- say: States and private corporations are acting as new accelerants in the investment cycle. This broadens the momentum created by central government spending.
+  caption: States and private corporations are acting as new accelerants in the investment cycle. This broadens the momentum created by central government spending.
+  highlight:
+  - new accelerants
+  - investment cycle
+  scene:
+    type: list
+    title: Capex Accelerants
+    items:
+    - Central government
+    - State governments
+    - Private corporations
+    style: check
+- say: Will state spending continue to outpace the Centre in the coming years?
+  caption: Will state spending continue to outpace the Centre in the coming years?
+  highlight:
+  - outpace the Centre
+  scene:
+    type: cta
+    line: Will state spending continue to outpace the Centre?
+    subline: Follow for tomorrow's figure.
+description:
+  summary: State capital expenditure growth reached 14% in FY27, outpacing the Centre's 13% growth.
+  details: An ICICI Securities report shows state governments are emerging as a new engine of capital expenditure. State capex growth for FY27 so far stands at 14%, compared to 13% for the central government. This trend is supported by state tax revenue growth of 14%, significantly higher than the Centre's 6%.
+  key_figures:
+  - 'State capex growth FY27: 14%'
+  - 'Central capex growth FY27: 13%'
+  - 'State tax revenue growth FY27: 14%'
+  - 'Central tax revenue growth FY27: 6%'
+  sources:
+  - 'BusinessLine, 17 Nov 2026: https://www.thehindubusinessline.com/economy/states-capex-growth-outpaces-centre-in-fy26-and-fy27-report/article71710381.ece'
+  released: 17 Nov 2026
+  source_link: https://www.thehindubusinessline.com/economy/states-capex-growth-outpaces-centre-in-fy26-and-fy27-report/article71710381.ece
+seo:
+  seeds:
+  - state capex growth India
+  - ICICI Securities report FY27
+  - India capital expenditure trends
+  - state tax revenue growth
+  hashtags:
+  - '#ViksitBharat'
+  - '#IndianEconomy'
+  - '#Capex'
+  - '#Infrastructure'
+series: While the World
+record_id: vbnews:https://www.thehindubusinessline.com/economy/states-capex-growth-outpaces-centre-in-fy26-and-fy27-report/article71710381.ece
+auto: true
+instagram_hashtags_rotating: []
+released: 17 Nov 2026
+posted: '2026-11-17'
+sector: Energy
+source_label: BusinessLine, 17 Nov 2026
+look:
+  palette: blue_on_saffron
+  motion: rings
+  hook: stat_punch
