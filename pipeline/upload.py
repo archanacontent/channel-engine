@@ -111,7 +111,10 @@ def upload_pending(queue):
     for e in sorted(queue, key=lambda x: x["publish_at"]):
         if e["status"] != "rendered" or budget <= 0 or e["slug"] in capped:
             continue
-        if datetime.fromisoformat(e["publish_at"]) < now - timedelta(hours=6):
+        late = datetime.fromisoformat(e["publish_at"]) < now - timedelta(hours=6)
+        if late and e["slug"] == "viksit-bharat" and datetime.fromisoformat(e["publish_at"]) > now - timedelta(hours=24):
+            e["publish_at"] = now.isoformat()  # one Short a day: a missed slot posts right away instead of being lost
+        elif late:
             e["status"] = "expired"  # its slot passed before it could upload
             continue
         if not os.environ.get("YT_REFRESH_" + e["slug"].upper().replace("-", "_")):

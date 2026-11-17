@@ -61,6 +61,7 @@ SERIES_GUIDE = {
 VB_RULES = """Extra rules for Viksit Bharat On Record:
 - Strong, confident point of view: India's record answers the doubts. Never mock or insult any country or people.
 - Lead with the achievement, not the paperwork. Credit the official body behind the main figure once, in one beat ("Commerce Ministry data shows"). Don't credit every number, and don't name the newspaper in the script; it goes in the description.
+- The title is held to the same standard as the script: nothing in it that SOURCE does not state. No absolute claims such as "India leads", "India is the best" or "the world's largest" unless SOURCE says exactly that. Where India is ahead without being first, write "one of the leading" or "among the top".
 - If SOURCE reports a setback, a decline or a problem rather than progress, return {"skip": true}.
 - Use the release date given in SOURCE when you say when something happened. Never call a figure current if SOURCE dates it earlier.
 - No party names, no election talk, no praise of individual politicians. Name the Prime Minister only when SOURCE quotes him, and then only to attribute the quote.
