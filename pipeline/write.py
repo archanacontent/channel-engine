@@ -63,7 +63,9 @@ VB_RULES = """Extra rules for Viksit Bharat On Record:
 - Every figure is credited to the body that released it ("the Ministry of Railways says", "PIB data shows").
 - Use the release date given in SOURCE when you say when something happened. Never call a figure current if SOURCE dates it earlier.
 - No party names, no election talk, no praise of individual politicians. Name the Prime Minister only when SOURCE quotes him, and then only to attribute the quote.
-- Every number in a caption or scene must appear in SOURCE in the same form."""
+- Every number in a caption or scene must appear in SOURCE in the same form.
+- Description: "summary" is one punchy line under 150 characters that states the headline figure (it shows above the fold). "details" is 3 to 5 plain sentences giving the full context from SOURCE: what was released, the key figures, who released it and what it means. "key_figures" is 2 to 4 lines, each "Label: figure", every figure from SOURCE.
+- seo.seeds: 6 to 8 different search phrases people would type for this topic (the scheme, the ministry, the sector, the figure), plus seo.hashtags: 4 specific hashtags."""
 
 SCHEMA = """Return JSON only, in this shape:
 {"skip": false, "skip_reason": "",

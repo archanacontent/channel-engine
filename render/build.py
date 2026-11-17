@@ -78,7 +78,7 @@ def fill_template(template, fields):
 
 def metadata(brand, ep, use_autocomplete=True):
     series = ep.get("series", "")
-    yt_tags = seo.build_hashtags(brand, ep, seo.MAX_YT_HASHTAGS)
+    yt_tags = seo.build_hashtags(brand, ep, brand["seo"].get("max_hashtags", seo.MAX_YT_HASHTAGS))
     ig_tags = seo.build_hashtags(brand, ep, seo.MAX_IG_HASHTAGS)
     fields = {k: v for k, v in ep["description"].items() if k != "sources"}
     srcs = ep["description"].get("sources", [])

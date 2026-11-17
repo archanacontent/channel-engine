@@ -29,6 +29,17 @@ def stopped_keys(queue):
     return keys
 
 
+def stale(e):
+    """Freshness rule for Viksit Bharat: no release time for a Short whose source is offline or too old."""
+    if e["slug"] != "viksit-bharat":
+        return False
+    from sources.vb import still_fresh
+    fresh, why = still_fresh(e.get("record_id", ""), e.get("posted"))
+    if not fresh:
+        print("not released, source failed the freshness check:", e.get("video_id"), why)
+    return not fresh
+
+
 def quota(ex):
     return "quota" in str(ex).lower()
 
@@ -49,7 +60,7 @@ def main():
                 hold(e["slug"], e["video_id"], e["meta"])
                 e["status"] = "held"
                 print("stopped", e["slug"], e["video_id"], e["title"])
-            elif not held and e["status"] in ("uploaded", "held"):
+            elif not held and e["status"] in ("uploaded", "held") and not stale(e):
                 if when > now + timedelta(minutes=10):
                     schedule(e["slug"], e["video_id"], e["meta"], None, when.strftime("%Y-%m-%dT%H:%M:%SZ"))
                     e["status"] = "scheduled"

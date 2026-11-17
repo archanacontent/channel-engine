@@ -54,7 +54,7 @@ def build_tags(brand, ep, use_autocomplete=True):
         if not c or key in seen:
             continue
         cost = len(c) + (2 if " " in c else 0) + 1  # quotes for multi-word tags, plus the comma
-        if used + cost > MAX_TAG_CHARS or len(out) >= MAX_TAGS:
+        if used + cost > MAX_TAG_CHARS or len(out) >= brand["seo"].get("max_tags", MAX_TAGS):
             break
         out.append(c)
         seen.add(key)
@@ -92,7 +92,7 @@ def keyword_block(slug, tags):
     from pathlib import Path
     brand = yaml.safe_load((Path(__file__).resolve().parent.parent / "channels" / slug / "brand.yaml").read_text())
     seo = brand.get("seo", {})
-    words = list(tags) + list(seo.get("tag_pool", []))
+    words = list(tags) + list(seo.get("tag_pool", [])) + list(seo.get("keywords", []))
     for pool in (seo.get("series_pools") or {}).values():
         words += pool.get("tags", [])
     seen, out = set(), []
@@ -101,7 +101,7 @@ def keyword_block(slug, tags):
         if k and k not in seen:
             seen.add(k)
             out.append(str(w).strip())
-    return SPACER + " | ".join(out[:40])
+    return SPACER + " | ".join(out[:seo.get("max_keywords", 40)])
 
 
 def with_keywords(slug, meta):

@@ -21,14 +21,14 @@ captions:
   text: "#FFFFFF"
   numbers: "#FF751F"
   shadow: false
-# One Short a day. 09:00 New York is 19:30 in India, so it lands in the Indian
-# evening and the American morning.
+# One Short a day at 07:00 India time.
 series:
-  - { slot: "09:00", name: Myth vs Record, source: PIB press releases }
-  - { slot: "09:00", name: While the World, source: PIB press releases with a global comparison }
-  - { slot: "09:00", name: Then vs Now, source: PIB press releases with a 2014 baseline }
+  - { slot: "07:00", name: Myth vs Record, source: PIB press releases }
+  - { slot: "07:00", name: While the World, source: PIB press releases with a global comparison }
+  - { slot: "07:00", name: Then vs Now, source: PIB press releases with a 2014 baseline }
 schedule:
-  slot: "09:00"
+  slot: "07:00"
+  tz: Asia/Kolkata
   # Python weekday numbers: 0 is Monday.
   by_weekday:
     0: Myth vs Record
@@ -47,12 +47,20 @@ titles:
   While the World: "While the world {global_trend}, India {india_result}"
   Then vs Now: "{subject}: 2014 vs today"
 description_template: |
-  {explainer}
+  {summary}
+
+  {details}
+
+  Key figures:
+  {key_figures}
+
   Released: {released}
   Source: {source_link}
 
   Sources:
   {source_links}
+
+  Viksit Bharat On Record tracks India's progress with one verified figure a day, every number named and dated. Subscribe for tomorrow's.
 
   {youtube_hashtags}
 hashtags:
@@ -62,13 +70,17 @@ hashtags:
 handle: "@ViksitBharatOnRecord"
 seo:
   category_id: "25"
-  tag_pool: [Viksit Bharat, India development, India progress, India economy, Indian Government]
-  hashtag_pool: ['#ViksitBharat', '#India', '#IndiaOnRecord', '#NewIndia']
+  max_tags: 40
+  max_hashtags: 10
+  max_keywords: 60
+  tag_pool: [Viksit Bharat, Viksit Bharat 2047, India development, India progress, India economy, Indian Government, Indian Politics, India growth, India news, India facts, new India, developed India, India 2047, Bharat, India data, India achievements, government schemes India, India development news, India 2026, India GDP, India success story, India update]
+  keywords: [Viksit Bharat, Viksit Bharat 2047, Indian Politics, Indian Government, India development, India growth, India progress, India economy, Indian economy 2026, India infrastructure, India vs world, India facts, Make in India, Digital India, UPI, India space, ISRO, India healthcare, India defence, India manufacturing, India startups, India jobs, India sports, India energy, India agriculture, India data, Bharat, PIB, Government of India, India news today, India rising, India 2026]
+  hashtag_pool: ['#ViksitBharat', '#India', '#IndiaOnRecord', '#NewIndia', '#ViksitBharat2047', '#IndianEconomy', '#IndiaGrowth', '#Bharat', '#IndiaNews', '#DevelopedIndia']
   playlists:
     "Myth vs Record": "Myth vs Record: India, Checked Against The Data"
     "While the World": "While the World: India Against The Global Trend"
     "Then vs Now": "Then vs Now: India 2014 vs Today"
   series_pools:
-    "Myth vs Record": {tags: [India facts, India myths, India data, Bharat], hashtags: ['#IndiaFacts', '#MythVsRecord']}
-    "While the World": {tags: [India vs world, India growth, Indian economy 2026, global economy], hashtags: ['#IndiaVsWorld', '#IndiaGrowth']}
-    "Then vs Now": {tags: [India 2014 vs 2026, India then and now, India development, Indian Politics], hashtags: ['#ThenVsNow', '#NewIndia']}
+    "Myth vs Record": {tags: [India facts, India myths, India myth vs reality, India data, is India poor, India truth, India reality, Bharat], hashtags: ['#IndiaFacts', '#MythVsRecord', '#IndiaReality']}
+    "While the World": {tags: [India vs world, India growth, Indian economy 2026, global economy, India fastest growing economy, India rank, India global ranking, world economy 2026], hashtags: ['#IndiaVsWorld', '#IndiaGrowth', '#GlobalEconomy']}
+    "Then vs Now": {tags: [India 2014 vs 2026, India then and now, India development, India transformation, India before and after, India 12 years, India progress since 2014], hashtags: ['#ThenVsNow', '#NewIndia', '#IndiaTransformation']}

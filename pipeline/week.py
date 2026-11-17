@@ -89,7 +89,8 @@ def main():
             hh, mm = map(int, slot["slot"].split(":"))
             if f"{d.isoformat()}-{slot['slot'].replace(':', '')}" in queued or len(manifest) >= a.max or spent:
                 continue
-            when = datetime(d.year, d.month, d.day, hh, mm, tzinfo=ET)
+            tz = ZoneInfo(brand["schedule"]["tz"]) if vb and brand["schedule"].get("tz") else ET
+            when = datetime(d.year, d.month, d.day, hh, mm, tzinfo=tz)
             t0 = time.time()
             rec = fetch(slot["name"])
             print(f"  fetched in {time.time() - t0:.0f}s", flush=True)
