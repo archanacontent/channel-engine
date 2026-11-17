@@ -13,7 +13,12 @@ URLS = [
     "https://api.data.gov.in/lists?format=json&limit=1",
     "https://www.isro.gov.in/rss.xml",
     "https://www.rbi.org.in/pressreleases_rss.xml",
-    "https://www.mea.gov.in/rss.xml",
+    "https://news.google.com/rss/search?q=PIB+India+ministry+crore&hl=en-IN&gl=IN&ceid=IN:en",
+    "https://api.worldbank.org/v2/country/IND/indicator/EG.ELC.ACCS.ZS?format=json&per_page=3",
+    "https://www.thehindubusinessline.com/economy/feeder/default.rss",
+    "https://economictimes.indiatimes.com/news/economy/rssfeeds/1373380680.cms",
+    "https://www.livemint.com/rss/economy",
+    "https://www.business-standard.com/rss/economy-102.rss",
 ]
 for u in URLS:
     try:
