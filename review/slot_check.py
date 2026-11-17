@@ -55,6 +55,13 @@ def main():
             continue
         if early:
             now_slug = ""
+        if e["slug"] == "viksit-bharat":
+            # Freshness rule: the source must still be live and inside the publish window.
+            from sources.vb import still_fresh
+            fresh, why = still_fresh(e.get("record_id", ""), e.get("posted"))
+            if not fresh:
+                print("held, not published:", e["slug"], e.get("video_id") or e["stem"], why)
+                continue
         try:
             if e.get("platform") == "instagram":
                 e["ig_media_id"] = post_instagram(e)

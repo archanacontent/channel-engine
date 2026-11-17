@@ -53,7 +53,7 @@ jobs:
           start="${{ github.event.inputs.start }}"; [ -z "$start" ] && start=$(date -u -d tomorrow +%F)
           days="${{ github.event.inputs.days }}"; [ -z "$days" ] && days=8
           slugs="${{ github.event.inputs.slugs }}"
-          [ -z "$slugs" ] && slugs="comicsofy asked-and-answered automation-shelf breach-brief plain-docs deep-field"
+          [ -z "$slugs" ] && slugs="comicsofy asked-and-answered automation-shelf breach-brief plain-docs deep-field viksit-bharat"
           for s in $slugs; do
             echo "::group::$s"
             timeout 1500 python -u -m pipeline.week --slug $s --start $start --days $days --out collected || echo "$s stopped early"
@@ -70,6 +70,7 @@ jobs:
           YT_REFRESH_BREACH_BRIEF: ${{ secrets.YT_REFRESH_BREACH_BRIEF }}
           YT_REFRESH_PLAIN_DOCS: ${{ secrets.YT_REFRESH_PLAIN_DOCS }}
           YT_REFRESH_DEEP_FIELD: ${{ secrets.YT_REFRESH_DEEP_FIELD }}
+          YT_REFRESH_VIKSIT_BHARAT: ${{ secrets.YT_REFRESH_VIKSIT_BHARAT }}
         run: python -m pipeline.upload --collect collected --release shorts-${{ github.run_id }} && python -m review.schedule
       - name: Save queue and scripts
         if: always()

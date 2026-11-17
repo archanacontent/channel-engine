@@ -40,6 +40,7 @@ jobs:
           YT_REFRESH_BREACH_BRIEF: ${{ secrets.YT_REFRESH_BREACH_BRIEF }}
           YT_REFRESH_PLAIN_DOCS: ${{ secrets.YT_REFRESH_PLAIN_DOCS }}
           YT_REFRESH_DEEP_FIELD: ${{ secrets.YT_REFRESH_DEEP_FIELD }}
+          YT_REFRESH_VIKSIT_BHARAT: ${{ secrets.YT_REFRESH_VIKSIT_BHARAT }}
           YT_REFRESH_DREAM_COMICS: ${{ secrets.YT_REFRESH_DREAM_COMICS }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_PAGE_ID: ${{ secrets.IG_PAGE_ID }}

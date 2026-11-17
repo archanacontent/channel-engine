@@ -1,6 +1,6 @@
 # Channel Engine
 
-Five faceless Shorts channels, rendered and posted from one repo at no cost. Every Short starts from a dated public record, gets a human approval on Sunday, and goes public only at its slot.
+Six faceless Shorts channels, rendered and posted from one repo at no cost. Every Short starts from a dated public record, gets a human approval on Sunday, and goes public only at its slot.
 
 | Channel | Topic | Daily source |
 | :--- | :--- | :--- |
@@ -9,6 +9,7 @@ Five faceless Shorts channels, rendered and posted from one repo at no cost. Eve
 | Breach Brief | Exploited flaws, breaches, scams | CISA KEV, NVD, SEC and FTC |
 | Plain Docs | Technical writing for beginners | Openly licensed public docs |
 | Deep Field | Space science | NASA open media and fact pages |
+| Viksit Bharat On Record | India's progress, one verified figure a day | PIB releases posted in the last 10 days |
 
 ## How A Short Is Made
 
@@ -24,6 +25,14 @@ python -m render.build channels/breach-brief/episodes/2026-11-10-openssh-cve-202
 ```
 
 Add `--stills 3,12.5` to save single frames instead of rendering the whole video. `python -m render.channel_art` redraws every channel's profile image, banner and watermark into `channels/<slug>/art/`.
+
+## Viksit Bharat On Record
+
+One Short a day at 09:00 New York (19:30 in India). The weekday sets the series: Myth vs Record on Monday, Thursday and Saturday, While the World on Tuesday and Friday, Then vs Now on Wednesday and Sunday. `sources/vb.py` rotates 20 sectors on a 21-day cycle and takes only PIB releases posted in the last 10 days.
+
+Every script passes two checks before review: the writer's own check that each figure appears in the release, and `pipeline/factcheck.py`, a second read that rejects any line the release doesn't support. At the slot, `review/slot_check.py` holds a Short if its release is offline or older than 21 days.
+
+`pipeline/looks.py` gives each Short a palette, a background motion and a hook style. No palette or motion repeats within 8 Shorts and no combination repeats within 21 days. The first beat is the hook and doubles as the thumbnail, saved as `<stem>-thumb.jpg` beside the Short.
 
 ## Brand Files
 

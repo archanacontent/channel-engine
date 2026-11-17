@@ -58,6 +58,11 @@ def collect(src, release, queue):
             dst = STAGE / asset(e)
             shutil.copy(mp4, dst)
             files.append(str(dst))
+            thumb = chan_out / f"{e['stem']}-thumb.jpg"
+            if thumb.exists():  # the hook frame, kept beside the Short for a custom thumbnail
+                tdst = STAGE / f"{e['slug']}--{e['stem']}-thumb.jpg"
+                shutil.copy(thumb, tdst)
+                files.append(str(tdst))
             e["release"] = release
             queue.append(e)
             used.add(e["record_id"])

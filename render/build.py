@@ -25,6 +25,7 @@ PAINTERS = {
     "breach-brief": ("render.painters.breach_brief", "BreachPainter"),
     "plain-docs": ("render.painters.plain_docs", "DocsPainter"),
     "deep-field": ("render.painters.deep_field", "FieldPainter"),
+    "viksit-bharat": ("render.painters.viksit_bharat", "VBPainter"),
 }
 MARK_KEYS = {"highlight": "highlight", "threat": "threat", "fix": "fix", "numbers": "numbers"}
 END = 1.0  # seconds of branded end frame
@@ -150,7 +151,9 @@ def main():
     total = timing[-1][0] + timing[-1][2] + END
     mod, cls = PAINTERS[slug]
     base_cls = getattr(importlib.import_module(mod), cls)
-    painter = type("AutoPainter", (SceneMixin, base_cls), {})(brand, ep, timing)
+    # A painter that draws its own first beat (the hook) goes ahead of the shared scenes.
+    bases = (base_cls, SceneMixin) if "scene_beat" in base_cls.__dict__ else (SceneMixin, base_cls)
+    painter = type("AutoPainter", bases, {})(brand, ep, timing)
 
     captions = []
     for b, (s, speech, bd) in zip(ep["beats"], timing):
@@ -188,6 +191,9 @@ def main():
     wav.unlink()
     meta = metadata(brand, ep)
     meta.update({"duration_s": round(total, 2), "music": bed_name})
+    if slug == "viksit-bharat":
+        # The hook frame doubles as the thumbnail: pick it in YouTube or upload this file.
+        frame_at(painter, captions, timing, total, 0.0).save(out / f"{stem}-thumb.jpg", quality=92)
     (out / f"{stem}.json").write_text(json.dumps(meta, indent=2))
     (out / f"{stem}.srt").write_text(srt(captions))
     print("done", out / f"{stem}.mp4", round(total, 1), "s")

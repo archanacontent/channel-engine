@@ -47,6 +47,22 @@ def main():
         from strips.write import write_strip as writer
     else:
         writer = write_episode
+    vb = bool(brand.get("schedule"))
+    if vb:
+        from pipeline.factcheck import verify
+        from pipeline import looks
+        from sources import vb as vbsrc
+        max_age = brand.get("freshness", {}).get("max_age_days_at_write", 10)
+
+        def vb_writer(brand, rec):
+            ep, err = write_episode(brand, rec)
+            if not ep:
+                return None, err
+            ok, problems = verify(rec, ep)
+            if not ok:
+                return None, "fact-check rejected it: " + "; ".join(problems[:3])
+            return ep, None
+        writer = vb_writer
     out = Path(a.out) / a.slug
     (out / "media").mkdir(parents=True, exist_ok=True)
     used = load_used()
@@ -58,13 +74,24 @@ def main():
 
     for day in range(a.days):
         d = start + timedelta(days=day)
-        for slot in brand["series"]:
+        if vb:
+            sch = brand["schedule"]
+            slots = [{"slot": sch["slot"], "name": sch["by_weekday"][d.weekday()]}]
+        else:
+            slots = brand["series"]
+
+        def fetch(series):
+            if vb:
+                return vbsrc.next_record(series, d, used, taken, max_age)
+            return next_record(a.slug, series, used, taken)
+
+        for slot in slots:
             hh, mm = map(int, slot["slot"].split(":"))
             if f"{d.isoformat()}-{slot['slot'].replace(':', '')}" in queued or len(manifest) >= a.max or spent:
                 continue
             when = datetime(d.year, d.month, d.day, hh, mm, tzinfo=ET)
             t0 = time.time()
-            rec = next_record(a.slug, slot["name"], used, taken)
+            rec = fetch(slot["name"])
             print(f"  fetched in {time.time() - t0:.0f}s", flush=True)
             if not rec:
                 failures.append(f"{d} {slot['slot']}: no new source material")
@@ -82,7 +109,7 @@ def main():
             if not ep:
                 failures.append(f"{d} {slot['slot']} {rec['series']} ({rec['id']}): {err}")
                 # One more try with the next record, so the slot isn't left empty.
-                rec = next_record(a.slug, slot["name"], used, taken)
+                rec = fetch(slot["name"])
                 if not rec:
                     continue
                 taken.add(rec["id"])
@@ -108,6 +135,13 @@ def main():
                     ep["media"] = {"image": str(img.resolve()), "credit": rec.get("credit", "NASA")}
                 except Exception as e:
                     failures.append(f"{stem}: image download failed ({e}); image scenes fall back to text")
+            if vb:
+                ep.update({"released": rec["released"], "posted": rec["posted"], "sector": rec["sector"],
+                           "source_label": rec["source_label"]})
+                ep["description"]["released"] = rec["released"]
+                ep["description"]["source_link"] = rec["sources"][0].split(": ", 1)[-1]
+                first = ((ep.get("beats") or [{}])[0].get("scene") or {}).get("type", "headline")
+                ep["look"] = looks.pick(stem, first)
             (chan / "episodes").mkdir(exist_ok=True)
             ep_path = chan / "episodes" / f"{stem}.yaml"
             ep_text = yaml.safe_dump(ep, sort_keys=False, allow_unicode=True, width=1000)
@@ -127,7 +161,7 @@ def main():
                 "stem": stem, "record_id": rec["id"], "publish_at": when.isoformat(),
                 "meta": meta, "srt": (out / f"{stem}.srt").read_text() if (out / f"{stem}.srt").exists() else "",
                 "status": "rendered", "file": made.name, "platform": brand.get("platform", "youtube"),
-                "auto_approve": bool(brand.get("auto_approve")),
+                "auto_approve": bool(brand.get("auto_approve")), "posted": rec.get("posted"),
             })
             (out / "manifest.json").write_text(json.dumps(manifest, indent=1, ensure_ascii=False))
             (out / "failures.txt").write_text("\n".join(failures))

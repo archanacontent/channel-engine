@@ -1,0 +1,74 @@
+name: Viksit Bharat On Record
+slug: viksit-bharat
+positioning: India's progress, on record. One verified number a day.
+description: >-
+  Viksit Bharat On Record follows the India taking shape right now, wherever the change shows up first. Each story looks at what was built and how far it reached, measured against the pace of the wider world. Facts come before the argument. Every claim traces to an official record or an independent global institution, named and dated, so you can check it yourself before you share it.
+# Base palette from the channel logo. Every Short swaps in one of the rotating
+# palettes in render/painters/viksit_bharat.py, so this one is only the default.
+palette:
+  background: "#004AAD"
+  text: "#FFFFFF"
+  accent: "#FF751F"
+  highlight: "#FFB27A"
+  muted_text: "#C9D8F2"
+fonts:
+  headline: { file: "Sora[wght].ttf", weight: 800 }
+  caption: { file: "Inter[opsz,wght].ttf", weight: 700 }
+voice: { model: kokoro-82m, voice: bm_lewis, speed: 1.02, lang: en-gb }
+music: { source: generated, mood: [confident, uplifting], pool_size: 10, gain_db: -23 }
+captions:
+  size: 60
+  text: "#FFFFFF"
+  numbers: "#FF751F"
+  shadow: false
+# One Short a day. 09:00 New York is 19:30 in India, so it lands in the Indian
+# evening and the American morning.
+series:
+  - { slot: "09:00", name: Myth vs Record, source: PIB press releases }
+  - { slot: "09:00", name: While the World, source: PIB press releases with a global comparison }
+  - { slot: "09:00", name: Then vs Now, source: PIB press releases with a 2014 baseline }
+schedule:
+  slot: "09:00"
+  # Python weekday numbers: 0 is Monday.
+  by_weekday:
+    0: Myth vs Record
+    1: While the World
+    2: Then vs Now
+    3: Myth vs Record
+    4: While the World
+    5: Myth vs Record
+    6: Then vs Now
+factcheck: true
+freshness:
+  max_age_days_at_write: 10
+  max_age_days_at_publish: 21
+titles:
+  Myth vs Record: "{claim}. The record says otherwise."
+  While the World: "While the world {global_trend}, India {india_result}"
+  Then vs Now: "{subject}: 2014 vs today"
+description_template: |
+  {explainer}
+  Released: {released}
+  Source: {source_link}
+
+  Sources:
+  {source_links}
+
+  {youtube_hashtags}
+hashtags:
+  youtube: ["#ViksitBharat", "#India", "#IndiaOnRecord"]
+  instagram_anchors: ["#ViksitBharat", "#India"]
+  instagram_rotation: ["#NewIndia", "#IndiaGrowth", "#MakeInIndia", "#DigitalIndia", "#IndianEconomy"]
+handle: "@ViksitBharatOnRecord"
+seo:
+  category_id: "25"
+  tag_pool: [Viksit Bharat, India development, India progress, India economy, Indian Government]
+  hashtag_pool: ['#ViksitBharat', '#India', '#IndiaOnRecord', '#NewIndia']
+  playlists:
+    "Myth vs Record": "Myth vs Record: India, Checked Against The Data"
+    "While the World": "While the World: India Against The Global Trend"
+    "Then vs Now": "Then vs Now: India 2014 vs Today"
+  series_pools:
+    "Myth vs Record": {tags: [India facts, India myths, India data, Bharat], hashtags: ['#IndiaFacts', '#MythVsRecord']}
+    "While the World": {tags: [India vs world, India growth, Indian economy 2026, global economy], hashtags: ['#IndiaVsWorld', '#IndiaGrowth']}
+    "Then vs Now": {tags: [India 2014 vs 2026, India then and now, India development, Indian Politics], hashtags: ['#ThenVsNow', '#NewIndia']}
