@@ -5413,10 +5413,12 @@
    "kind": "image"
   },
   "srt": "",
-  "status": "ready",
+  "status": "published",
   "file": "2026-11-17-1300.jpg",
   "platform": "instagram",
-  "release": "shorts-43012696543"
+  "release": "shorts-43012696543",
+  "ig_media_id": "18125429968948985",
+  "published_at": "2026-11-17T18:01:57.541980+00:00"
  },
  {
   "slug": "comicsofy",
@@ -11863,7 +11865,7 @@
    "music": "original: 8-major-7-97-236227 @ 97 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,211\nState capital\n\n2\n00:00:01,211 --> 00:00:02,600\nexpenditure growth is\n\n3\n00:00:02,600 --> 00:00:03,988\noutpacing the Centre.\n\n4\n00:00:04,308 --> 00:00:06,412\nICICI Securities report\n\n5\n00:00:06,412 --> 00:00:08,441\ndata shows state capex\n\n6\n00:00:08,441 --> 00:00:10,019\ngrew 14% in FY27\n\n7\n00:00:10,019 --> 00:00:10,921\nso far.\n\n8\n00:00:10,921 --> 00:00:12,499\nThis is ahead of\n\n9\n00:00:12,499 --> 00:00:14,152\nthe 13% growth in\n\n10\n00:00:14,152 --> 00:00:15,880\ncentral government\n\n11\n00:00:15,880 --> 00:00:16,707\ncapex.\n\n12\n00:00:17,027 --> 00:00:18,539\nThis momentum is\n\n13\n00:00:18,539 --> 00:00:20,411\nsupported by stronger\n\n14\n00:00:20,411 --> 00:00:21,995\nstate tax revenue\n\n15\n00:00:21,995 --> 00:00:22,859\ngrowth.\n\n16\n00:00:22,859 --> 00:00:24,803\nState tax revenue grew\n\n17\n00:00:24,803 --> 00:00:26,171\n14% in FY27 so\n\n18\n00:00:26,171 --> 00:00:27,899\nfar, compared to 6%\n\n19\n00:00:27,899 --> 00:00:29,339\nfor the Centre.\n\n20\n00:00:29,659 --> 00:00:30,868\nStates and private\n\n21\n00:00:30,868 --> 00:00:32,340\ncorporations are acting\n\n22\n00:00:32,340 --> 00:00:33,707\nas new accelerants in\n\n23\n00:00:33,707 --> 00:00:35,074\nthe investment cycle.\n\n24\n00:00:35,074 --> 00:00:36,231\nThis broadens the\n\n25\n00:00:36,231 --> 00:00:37,492\nmomentum created by\n\n26\n00:00:37,492 --> 00:00:38,701\ncentral government\n\n27\n00:00:38,701 --> 00:00:39,437\nspending.\n\n28\n00:00:39,757 --> 00:00:40,963\nWill state spending\n\n29\n00:00:40,963 --> 00:00:42,370\ncontinue to outpace the\n\n30\n00:00:42,370 --> 00:00:43,627\nCentre in the coming\n\n31\n00:00:43,627 --> 00:00:44,180\nyears?\n",
-  "status": "uploaded",
+  "status": "published",
   "file": "2026-11-17-0700.mp4",
   "platform": "youtube",
   "auto_approve": false,
@@ -11871,6 +11873,7 @@
   "release": "shorts-44100427459",
   "keywords_done": true,
   "video_id": "Q6d-WFSJCuc",
-  "uploaded_at": "2026-11-17T06:18:42.191014-08:00"
+  "uploaded_at": "2026-11-17T06:18:42.191014-08:00",
+  "published_at": "2026-11-17T18:01:57.541980+00:00"
  }
 ]
