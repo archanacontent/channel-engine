@@ -167,7 +167,7 @@ class VBPainter(Painter):
         d.text((144, top + 2), self.brand["name"], font=font(SO, 34, 700), fill=rgb(self.pal["text"]))
         src = self.ep.get("source_label")
         if src:
-            d.text((144, top + 44), "Source: " + src, font=font(IN, 26, 600), fill=rgb(self.pal["muted_text"]))
+            d.text((144, top + 44), src, font=font(IN, 24, 500), fill=rgb(self.pal["muted_text"]))
 
     # ---------- hook: the first beat, also the thumbnail frame ----------
     def scene_beat(self, img, d, i, t, dur):
@@ -196,10 +196,8 @@ class VBPainter(Painter):
                       rgb(self.pal["text"]), 30)
 
     def kicker(self, d, y):
-        """Series chip with the release date right under it: every hook carries its date."""
         self.chip(d, W / 2, y, self.ep.get("series", "").upper(), self.p["accent"],
                   rgb("#FFFFFF") if sum(self.p["accent"]) < 450 else self.p["background"], 34)
-        self.released(d, y + 78)
 
     def pulse(self, t):
         return 1 + 0.035 * math.sin(min(t, 3.0) * 2.2)
@@ -271,7 +269,6 @@ class VBPainter(Painter):
     def h_myth_stamp(self, img, d, sc, t, dur, beat):
         th = self.scene_theme()
         self.chip(d, W / 2, 330 + OY, "MYTH", th["text"], th["bg"], 40)
-        self.released(d, 330 + OY + 84)
         f, lines = fit(sc.get("text") or beat["caption"], th["head"], 116, 64, 920, 3)
         y = 620 + OY
         for j, ln in enumerate(lines):

@@ -10,7 +10,7 @@ import json
 
 from pipeline.write import generate
 
-SYSTEM = """You are a strict fact-checker for a news Shorts channel. You get SOURCE (an official press release)
+SYSTEM = """You are a strict fact-checker for a news Shorts channel. You get SOURCE (an official release, or a news report of official figures)
 and SCRIPT (what the video will say and show). Check every sentence, caption and on-screen text in SCRIPT.
 Report a problem when:
 - a claim, figure, date, rank or comparison is not directly stated in SOURCE, or is stated more strongly than SOURCE does;
