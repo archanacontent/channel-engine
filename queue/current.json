@@ -11664,7 +11664,7 @@
   "channel": "Viksit Bharat On Record",
   "series": "Then vs Now",
   "title": "India's youth: 2014 vs today",
-  "stem": "2026-11-18-0700",
+  "stem": "2026-11-18-0700-dropped",
   "record_id": "vbnews:https://www.thehindubusinessline.com/economy/fm-sitharaman-to-seek-views-from-youth-for-fy28-budget/article71707305.ece",
   "publish_at": "2026-11-18T07:00:00+05:30",
   "meta": {
@@ -11705,15 +11705,15 @@
    "music": "original: 6-major-5-97-470540 @ 97 bpm"
   },
   "srt": "1\n00:00:00,250 --> 00:00:01,991\nIndia is home to\n\n2\n00:00:01,991 --> 00:00:04,395\n371 million young people\n\n3\n00:00:04,395 --> 00:00:05,887\naged 15 to 29\n\n4\n00:00:05,887 --> 00:00:06,799\nyears.\n\n5\n00:00:07,119 --> 00:00:08,217\nThis is the largest\n\n6\n00:00:08,217 --> 00:00:09,498\nyouth population in the\n\n7\n00:00:09,498 --> 00:00:10,002\nworld.\n\n8\n00:00:10,322 --> 00:00:11,661\nTo shape the FY28\n\n9\n00:00:11,661 --> 00:00:13,427\nbudget, Finance Minister\n\n10\n00:00:13,427 --> 00:00:15,131\nNirmala Sitharaman will\n\n11\n00:00:15,131 --> 00:00:16,714\nhold meetings with 14\n\n12\n00:00:16,714 --> 00:00:18,419\ngroups, including a new\n\n13\n00:00:18,419 --> 00:00:19,758\ngroup named Yuva.\n\n14\n00:00:20,078 --> 00:00:21,178\nThe Yuva group will\n\n15\n00:00:21,178 --> 00:00:22,095\ninclude college\n\n16\n00:00:22,095 --> 00:00:23,424\nstudents, youth leaders,\n\n17\n00:00:23,424 --> 00:00:24,753\nand young professionals.\n\n18\n00:00:25,073 --> 00:00:26,169\nFollow for tomorrow's\n\n19\n00:00:26,169 --> 00:00:26,675\nfigure.\n",
-  "status": "scheduled",
+  "status": "dropped",
   "file": "2026-11-18-0700.mp4",
   "platform": "youtube",
   "auto_approve": false,
   "posted": "2026-11-16",
   "release": "shorts-44087631763",
   "keywords_done": true,
-  "video_id": "nADbAiJJLD8",
   "uploaded_at": "2026-11-17T05:08:18.884096-08:00",
-  "playlist_done": true
+  "playlist_done": true,
+  "replace": "nADbAiJJLD8"
  }
 ]

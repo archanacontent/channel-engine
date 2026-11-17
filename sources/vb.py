@@ -22,11 +22,13 @@ NEWS_FEEDS = [
     ("BusinessLine", "https://www.thehindubusinessline.com/economy/feeder/default.rss"),
     ("Economic Times", "https://economictimes.indiatimes.com/news/economy/rssfeeds/1373380680.cms"),
     ("Mint", "https://www.livemint.com/rss/economy"),
-    ("RBI", "https://www.rbi.org.in/pressreleases_rss.xml"),
 ]
 OFFICIAL = re.compile(r"\b(?:PIB|Ministry|Minister|NPCI|RBI|Reserve Bank|NSO|MoSPI|EPFO|ISRO|DPIIT|NITI Aayog|"
                       r"GST Council|CBIC|government data|official data|the Centre|Union government|"
                       r"government said|Department of|Statistics|Railways|NHAI|SEBI|data released)\b")
+POSITIVE = re.compile(r"\b(?:record|highest|all-time|rise[sn]?|rose|grow(?:s|th|n)?|grew|surge[sd]?|jump(?:s|ed)?|"
+                      r"cross(?:es|ed)|milestone|first|largest|biggest|top|up \d|doubl\w*|expan\w*|boost\w*|"
+                      r"increase[sd]?|beat|overtak\w*|fastest|launch(?:es|ed)?|inaugurat\w*|complet\w*)\b", re.I)
 NEGATIVE = re.compile(r"\b(?:slump|plunge|contract(?:s|ed|ion)|decline[sd]?|falls?|fell|drop(?:s|ped)?|"
                       r"slow(?:s|ed|down)|deficit widens|lowest|worst|crisis|shortfall)\b", re.I)
 
@@ -107,13 +109,13 @@ def _releases(max_age):
             title = re.sub(r"<!\[CDATA\[|\]\]>", "", it["title"]).strip()
             if not it["link"] or not posted or posted < cutoff or SKIP.search(title):
                 continue
-            if outlet != "RBI" and NEGATIVE.search(title):
+            if NEGATIVE.search(title) or not POSITIVE.search(title):
                 continue
             body = read_story(outlet, dict(it, title=title))
             blob = title + " " + body
             if len(body) < 300 or len(FIGURE.findall(blob)) < 2 or SKIP.search(body[:600]):
                 continue
-            if outlet != "RBI" and not OFFICIAL.search(blob):
+            if not OFFICIAL.search(blob):
                 continue
             out.append({"posted": posted, "outlet": outlet, "title": title, "body": body[:4500],
                         "link": it["link"], "ministry": outlet if outlet == "RBI" else ""})

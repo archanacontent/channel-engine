@@ -268,6 +268,13 @@ def check(ep, record, desc_fields):
     if spelled.search(written):
         errs.append("Title, description, captions and scenes must use the written form of IDs and numbers "
                     "(CVE-2026-12345), not the spelled-out voice form.")
+    first = (beats[0].get("scene") or {}) if beats else {}
+    need = {"Myth vs Record": "headline", "While the World": "stat", "Then vs Now": "compare"}.get(record["series"])
+    if need and record.get("sector") and first.get("type") != need:
+        errs.append(f"Beat 1 must be a '{need}' scene for {record['series']}.")
+    if record["series"] == "Then vs Now" and record.get("sector") and not re.search(
+            r"\b(?:2014|2013-14|2014-15)\b", json.dumps(first)):
+        errs.append("Beat 1 compare scene must show the 2014 baseline figure from SOURCE next to the latest one.")
     if len(str(ep.get("title", ""))) > 95 or not ep.get("title"):
         errs.append("Title missing or longer than 90 characters.")
     missing = [f for f in desc_fields if not (ep.get("description") or {}).get(f)]
