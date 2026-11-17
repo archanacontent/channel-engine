@@ -107,24 +107,26 @@ def main():
                 continue
             except Exception as e:
                 ep, err = None, str(e)
-            if not ep:
+            tries = 5 if vb else 2   # one Short a day, so Viksit Bharat works harder to fill its slot
+            while not ep and not spent:
                 failures.append(f"{d} {slot['slot']} {rec['series']} ({rec['id']}): {err}")
-                # One more try with the next record, so the slot isn't left empty.
-                rec = fetch(slot["name"])
+                if vb:
+                    vbsrc.remember_failed(rec["id"])
+                tries -= 1
+                rec = fetch(slot["name"]) if tries > 0 else None
                 if not rec:
-                    continue
+                    break
                 taken.add(rec["id"])
+                print(f"retrying with {rec['id']}", flush=True)
                 try:
                     ep, err = writer(brand, rec)
                 except QuotaSpent as e:
                     failures.append(f"Stopped at {d} {slot['slot']}: {e}. The next run picks up from here.")
                     spent = True
-                    continue
                 except Exception as e:
                     ep, err = None, str(e)
-                if not ep:
-                    failures.append(f"{d} {slot['slot']} retry ({rec['id']}): {err}")
-                    continue
+            if not ep:
+                continue
             stem = f"{d.isoformat()}-{slot['slot'].replace(':', '')}"
             ep.update({"series": rec["series"], "record_id": rec["id"], "auto": True,
                        "instagram_hashtags_rotating": []})

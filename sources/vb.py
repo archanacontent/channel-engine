@@ -12,9 +12,11 @@ per cycle and the 21st day goes to whatever is newest. When the day's sector
 has nothing fresh, the next sector in the cycle with a fresh release takes the
 slot. A slot is never filled with an old figure.
 """
+import json
 import re
 from datetime import date, timedelta
 from email.utils import parsedate_to_datetime
+from pathlib import Path
 
 from sources.fetch import get, rss_items, text_of
 
@@ -30,7 +32,8 @@ POSITIVE = re.compile(r"\b(?:record|highest|all-time|rise[sn]?|rose|grow(?:s|th|
                       r"cross(?:es|ed)|milestone|first|largest|biggest|top|up \d|doubl\w*|expan\w*|boost\w*|"
                       r"increase[sd]?|beat|overtak\w*|fastest|launch(?:es|ed)?|inaugurat\w*|complet\w*)\b", re.I)
 NEGATIVE = re.compile(r"\b(?:slump|plunge|contract(?:s|ed|ion)|decline[sd]?|falls?|fell|drop(?:s|ped)?|"
-                      r"slow(?:s|ed|down)|deficit widens|lowest|worst|crisis|shortfall)\b", re.I)
+                      r"slow(?:s|ed|down)|deficit widens|lowest|worst|crisis|shortfall|price rise|stock limits?|curbs?|ban(?:s|ned)?|"
+                      r"inflation|probe|penalty|fine[sd]?)\b", re.I)
 
 # 21-day cycle: three weeks of seven, the last day open for the newest release.
 SECTORS = [
@@ -141,8 +144,20 @@ def fits(series, r):
     return True
 
 
+FAILED = Path(__file__).resolve().parent.parent / "state" / "vb_failed.json"
+
+
+def remember_failed(rid):
+    """A story whose script failed the checks is not tried again on later runs."""
+    ids = set(json.loads(FAILED.read_text())) if FAILED.exists() else set()
+    ids.add(rid)
+    FAILED.write_text(json.dumps(sorted(ids)[-500:], indent=0))
+
+
 def next_record(series, day, used, avoid=(), max_age=10):
     """The freshest unused story for this series, today's sector first."""
+    if FAILED.exists():
+        used = set(used) | set(json.loads(FAILED.read_text()))
     rels = sorted(fresh_releases(max_age), key=lambda r: r["posted"], reverse=True)
     order = [series] + [s for s in ("Myth vs Record", "While the World", "Then vs Now") if s != series]
     for s in order:
