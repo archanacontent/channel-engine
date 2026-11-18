@@ -5460,10 +5460,12 @@
    "kind": "image"
   },
   "srt": "",
-  "status": "ready",
+  "status": "published",
   "file": "2026-11-18-1300.jpg",
   "platform": "instagram",
-  "release": "shorts-43012696543"
+  "release": "shorts-43012696543",
+  "ig_media_id": "18061173974590308",
+  "published_at": "2026-11-18T18:01:59.347624+00:00"
  },
  {
   "slug": "comicsofy",
