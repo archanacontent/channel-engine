@@ -1,0 +1,56 @@
+skip: false
+title: 'Exploited now: Plex Media Server CVE-2026-96652'
+beats:
+- say: Plex Media Server has a critical server-side request forgery vulnerability actively targeted by attackers.
+  caption: Plex Media Server has a critical server-side request forgery vulnerability actively targeted by attackers.
+  scene:
+    type: headline
+    text: Plex Media Server SSRF Vulnerability
+  highlight:
+  - Plex Media Server
+- say: CVE-2026-96652 lets an attacker use any X-Plex-Token value and a full URL in the protocol parameter to force unwanted server posts.
+  caption: CVE-2026-96652 lets an attacker use any X-Plex-Token value and a full URL in the protocol parameter to force unwanted server posts.
+  scene:
+    type: stat
+    value: Plex Media Server
+    label: CVE-2026-96652
+  highlight:
+  - CVE-2026-96652
+- say: CISA added this flaw to the known exploited vulnerabilities catalog on October 20, 2026, with a remediation due date of November 3, 2026.
+  caption: CISA added this flaw to the known exploited vulnerabilities catalog on October 20, 2026, with a remediation due date of November 3, 2026.
+  scene:
+    type: stat
+    value: '2026-10-20'
+    label: KEV Details
+  highlight:
+  - October 20, 2026
+- say: Apply vendor mitigations immediately and follow CISA guidance or discontinue use if updates are unavailable.
+  caption: Apply vendor mitigations immediately and follow CISA guidance or discontinue use if updates are unavailable.
+  scene:
+    type: list
+    items:
+    - Apply vendor mitigations
+    - Follow CISA guidance
+    - Discontinue if unavailable
+    style: check
+    title: Key points
+  highlight:
+  - Apply vendor mitigations
+description:
+  summary: Plex Media Server contains a server-side request forgery vulnerability tracked as CVE-2026-96652.
+  affected: Plex Media Server before version 1.43.3.10861.
+  action: Apply mitigations per vendor instructions and comply with CISA guidance.
+  sources:
+  - 'CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog'
+  - 'NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-96652'
+seo:
+  seeds:
+  - Plex vulnerability CVE-2026-96652
+  - Plex Media Server SSRF CISA KEV
+  - CVE-2026-96652 fix
+  - Plex security update CISA due date 2026-11-03
+skip_reason: ''
+series: Exploited Today
+record_id: kev:CVE-2026-96652
+auto: true
+instagram_hashtags_rotating: []

@@ -1,0 +1,63 @@
+skip: false
+title: 'Exploited now: Plex Media Server CVE-2026-96654'
+beats:
+- say: Plex Media Server is under active attack. A flaw allows attackers to hijack plugin functions.
+  caption: Plex Media Server is under active attack. A flaw allows attackers to hijack plugin functions.
+  scene:
+    type: headline
+    kicker: Active Exploitation
+    text: Plex Media Server vulnerability under attack
+  highlight:
+  - under active attack
+- say: The vulnerability, C V E 2026 96654, lets attackers manipulate encoded U R I schemes. This can be chained with other flaws to gain unauthorized control.
+  caption: The vulnerability, CVE-2026-96654, lets attackers manipulate encoded URI schemes. This can be chained with other flaws to gain unauthorized control.
+  scene:
+    type: stat
+    value: CVE-2026-96654
+    label: Vulnerability Details
+  highlight:
+  - CVE-2026-96654
+- say: CISA added this to their known exploited list on October 20th. Federal agencies were required to patch by October 23rd.
+  caption: CISA added this to their known exploited list on October 20, 2026. Federal agencies were required to patch by October 23, 2026.
+  scene:
+    type: stat
+    value: October 2026
+    label: Timeline
+  highlight:
+  - October 20
+  - October 23
+- say: Update your software to version 1.43.3.10861 or higher immediately. If you cannot patch, you must discontinue use of the product.
+  caption: Update to version 1.43.3.10861 or higher immediately. If you cannot patch, discontinue use of the product.
+  scene:
+    type: list
+    title: Required Actions
+    items:
+    - Mitigation steps
+  highlight:
+  - version 1.43.3.10861
+  - discontinue use
+- say: Assess your internet exposure and follow B O D 26 04 guidance. Sources are in the description.
+  caption: Assess your internet exposure and follow BOD 26-04 guidance. Sources are in the description.
+  scene:
+    type: cta
+    line: Secure your environment now
+    subline: Check official CISA guidance
+  highlight:
+  - BOD 26-04
+description:
+  summary: Plex Media Server is being exploited through a vulnerability that allows unauthorized plugin function execution. This flaw can be chained with others to compromise systems.
+  affected: Plex Media Server installations below version 1.43.3.10861.
+  action: Update to version 1.43.3.10861 or later immediately. If patching is not possible, discontinue use of the product.
+  sources:
+  - 'CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog'
+  - 'NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-96654'
+seo:
+  seeds:
+  - Plex Media Server vulnerability
+  - CVE-2026-96654 fix
+  - CISA KEV update
+  - Plex security patch
+series: Exploited Today
+record_id: kev:CVE-2026-96654
+auto: true
+instagram_hashtags_rotating: []

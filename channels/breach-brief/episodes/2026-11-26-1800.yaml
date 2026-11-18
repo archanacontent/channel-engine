@@ -1,0 +1,56 @@
+skip: false
+title: 'Exploited now: BeyondTrust Remote Support CVE-2026-102764'
+beats:
+- say: BeyondTrust Remote Support has a critical authentication bypass vulnerability actively exploited right now.
+  caption: BeyondTrust Remote Support has a critical authentication bypass vulnerability actively exploited right now.
+  scene:
+    type: headline
+    text: BeyondTrust Remote Support Authentication Bypass
+  highlight:
+  - critical authentication bypass
+- say: C I S A added C V E dash 2 0 2 6 dash 1 0 2 7 6 4 to the known exploited vulnerabilities catalog on October 16, 2026.
+  caption: CISA added CVE-2026-102764 to the known exploited vulnerabilities catalog on October 16, 2026.
+  scene:
+    type: stat
+    value: BeyondTrust Remote Support
+    label: CVE-2026-102764
+  highlight:
+  - CVE-2026-102764
+- say: The flaw allows remote attackers to perform unauthorized file operations on the appliance.
+  caption: The flaw allows remote attackers to perform unauthorized file operations on the appliance.
+  scene:
+    type: list
+    style: bullet
+    title: Impact
+    items:
+    - Remote file operations
+  highlight:
+  - file operations
+- say: Apply vendor mitigations immediately and follow C I S A guidance or discontinue use.
+  caption: Apply vendor mitigations immediately and follow CISA guidance or discontinue use.
+  scene:
+    type: list
+    style: check
+    title: Required Action
+    items:
+    - Apply vendor mitigations
+  highlight:
+  - vendor mitigations
+description:
+  summary: BeyondTrust Remote Support contains an authentication bypass vulnerability allowing file operations on the appliance.
+  affected: BeyondTrust Remote Support Remote Support
+  action: Apply mitigations in accordance with vendor instructions and follow CISA guidance.
+  sources:
+  - 'CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog'
+  - 'NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-102764'
+seo:
+  seeds:
+  - BeyondTrust Remote Support CVE-2026-102764
+  - CISA KEV BeyondTrust vulnerability
+  - authentication bypass spoofing vulnerability
+  - Remote Support file operations flaw
+skip_reason: ''
+series: Exploited Today
+record_id: kev:CVE-2026-102764
+auto: true
+instagram_hashtags_rotating: []

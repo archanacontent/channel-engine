@@ -1,0 +1,55 @@
+skip: false
+title: 'What you''re looking at: Lightning from space'
+beats:
+- say: This nebula like glow is actually a lightning storm seen from two hundred sixty miles up.
+  caption: This nebula-like glow is actually a lightning storm seen from 260 miles up.
+  scene:
+    type: headline
+    text: A lightning storm seen from 260 miles up
+  highlight: []
+- say: Captured on May 15, 2025, the International Space Station looked down at the Atlantic Ocean near the coast of North Carolina.
+  caption: Captured on May 15, 2025, the International Space Station looked down at the Atlantic Ocean near the coast of North Carolina.
+  scene:
+    type: image
+    credit: NASA Image and Video Library
+  highlight: []
+- say: The bright structure is not a distant nebula, but rather electrical energy illuminating dense cloud layers from within the atmosphere.
+  caption: The bright structure is not a distant nebula, but rather electrical energy illuminating dense cloud layers from within the atmosphere.
+  scene:
+    type: stat
+    value: Lightning illumination
+    label: Atmospheric phenomena
+  highlight: []
+- say: Orbiting high above Earth, the station provides this unique perspective on weather systems that usually obscure our view from the ground.
+  caption: Orbiting high above Earth, the station provides this unique perspective on weather systems that usually obscure our view from the ground.
+  scene:
+    type: headline
+    value: 260 miles above Earth
+    kicker: ''
+    text: 260 miles above Earth
+  highlight: []
+- say: Image credit in the description.
+  caption: Image credit in the description.
+  scene:
+    type: cta
+    line: Subscribe for more space discoveries
+    subline: Real images, explained every day
+  highlight: []
+description:
+  explainer: This image shows a lightning storm illuminating clouds off the coast of North Carolina as seen from the International Space Station. The station captured this view while orbiting 260 miles above the Atlantic Ocean.
+  sources:
+  - 'NASA Image and Video Library: https://images.nasa.gov/details/iss073e0080625'
+  credit: NASA
+seo:
+  seeds:
+  - lightning from space
+  - ISS view of Earth
+  - NASA lightning photos
+  - space station storm
+series: Look Closer
+record_id: nasa:iss073e0080625
+auto: true
+instagram_hashtags_rotating: []
+media:
+  image: /home/runner/work/channel-engine/channel-engine/collected/deep-field/media/2026-11-26-0900.jpg
+  credit: NASA

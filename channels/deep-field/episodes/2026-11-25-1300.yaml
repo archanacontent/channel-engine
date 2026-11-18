@@ -1,0 +1,77 @@
+skip: false
+skip_reason: ''
+title: 'AMPERE: what just happened'
+beats:
+- say: Hall effect thrusters use ten times less propellant than equivalent chemical rockets.
+  caption: Hall effect thrusters use 10 times less propellant than equivalent chemical rockets.
+  highlight: []
+  scene:
+    type: headline
+    text: Efficient Electric Propulsion
+- say: NASA launched the AMPERE Challenge to develop mid-power electric rocket prototypes.
+  caption: NASA launched the AMPERE Challenge to develop mid-power electric rocket prototypes.
+  highlight:
+  - AMPERE Challenge
+  - mid-power electric rocket prototypes
+  scene:
+    type: image
+    credit: NASA/Michelle M. Murphy
+- say: These thrusters use an electric field to accelerate propellant gas for long duration missions.
+  caption: These thrusters use an electric field to accelerate propellant gas for long duration missions.
+  highlight:
+  - electric field
+  - accelerate propellant gas
+  scene:
+    type: flow
+    steps:
+    - title: Electric Field
+      note: Applied to propellant
+    - title: Acceleration
+      note: Gas moves at high speed
+    - title: Thrust
+      note: Produces efficient propulsion
+- say: The competition offers five hundred thousand dollars split between two winning companies.
+  caption: The competition offers $500,000 split between two winning companies.
+  highlight: []
+  scene:
+    type: stat
+    value: $500,000
+    label: Prize pool
+- say: Winners can access NASA Hall effect thruster technologies that use krypton as a propellant.
+  caption: Winners can access NASA Hall effect thruster technologies that use krypton as a propellant.
+  highlight:
+  - krypton as a propellant
+  scene:
+    type: card
+    title: Phase 2 Benefits
+    rows:
+    - - Development
+      - Prototypes
+    - - Propellant
+      - Krypton
+    - - Licensing
+      - No cost
+- say: Registration for the AMPERE Challenge is open until January twenty seventh, twenty twenty seven. Source in the description.
+  caption: Registration for the AMPERE Challenge is open until Jan. 27, 2027. Source in the description.
+  highlight: []
+  scene:
+    type: cta
+    line: AMPERE Challenge
+    subline: Open until Jan. 27, 2027
+description:
+  explainer: NASA has launched the AMPERE Challenge to accelerate the development of mid-power Hall effect thrusters. This competition invites U.S. companies to create prototypes for future space exploration.
+  sources:
+  - 'NASA: https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/nasa-announces-mid-power-electric-rocket-challenge-for-us-companies/'
+seo:
+  seeds:
+  - NASA AMPERE Challenge
+  - Hall effect thruster propulsion
+  - electric rocket technology
+  - NASA space prizes
+  hashtags:
+  - '#SpaceScience'
+  - '#NASA'
+series: Mission Log
+record_id: nasanews:https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/nasa-announces-mid-power-electric-rocket-challenge-for-us-companies/
+auto: true
+instagram_hashtags_rotating: []

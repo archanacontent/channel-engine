@@ -1,0 +1,76 @@
+skip: false
+skip_reason: ''
+title: 'Exploited now: Plex Media Server CVE-2026-96655'
+beats:
+- say: Attackers are using a flaw in Plex Media Server to request internal addresses.
+  caption: Attackers are using a flaw in Plex Media Server to request internal addresses.
+  highlight:
+  - request internal addresses
+  scene:
+    type: headline
+    text: Plex Media Server SSRF Vulnerability
+- say: This C V E 2 0 2 6, 9 6 6 5 5 vulnerability allows authenticated users to target arbitrary paths via the transcode universal parameter.
+  caption: CVE-2026-96655 allows authenticated users to target arbitrary paths via the transcode universal parameter.
+  highlight:
+  - CVE-2026-96655
+  - target arbitrary paths
+  scene:
+    type: card
+    title: Vulnerability Details
+    rows:
+    - - CVE ID
+      - CVE-2026-96655
+    - - Product
+      - Plex Media Server
+    - - Added to KEV
+      - '2026-10-20'
+    - - Due Date
+      - '2026-11-03'
+- say: The flaw can be chained with other vulnerabilities to increase impact.
+  caption: The flaw can be chained with other vulnerabilities to increase impact.
+  highlight:
+  - chained with other vulnerabilities
+  scene:
+    type: stat
+    value: '5.3'
+    label: CVSS Base Score
+- say: To protect your system, update to version 1.43.3.10861 or later immediately.
+  caption: To protect your system, update to version 1.43.3.10861 or later immediately.
+  highlight:
+  - update to version 1.43.3.10861
+  scene:
+    type: list
+    title: Required Action
+    items:
+    - Apply vendor mitigations
+    - Update to 1.43.3.10861+
+    - Evaluate internet exposure
+    style: check
+- say: Sources are in the description.
+  caption: Sources are in the description.
+  highlight:
+  - Sources are in the description
+  scene:
+    type: cta
+    line: Stay Secure
+    subline: Sources are in the description.
+description:
+  summary: Attackers are exploiting a server-side request forgery vulnerability in Plex Media Server.
+  affected: Plex Media Server versions before 1.43.3.10861.
+  action: Apply vendor mitigations and update to version 1.43.3.10861 or later.
+  sources:
+  - 'CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog'
+  - 'NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-96655'
+seo:
+  seeds:
+  - Plex Media Server vulnerability
+  - CVE-2026-96655 exploit
+  - Plex SSRF fix
+  - CISA KEV Plex
+  hashtags:
+  - '#Cybersecurity'
+  - '#Plex'
+series: Exploited Today
+record_id: kev:CVE-2026-96655
+auto: true
+instagram_hashtags_rotating: []

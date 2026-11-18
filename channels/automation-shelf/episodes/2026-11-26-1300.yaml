@@ -1,0 +1,80 @@
+skip: false
+skip_reason: ''
+title: 'Free workflow: Real-estate marketing assets on autopilot'
+beats:
+- say: Turn short text ideas into photorealistic real estate images and videos automatically.
+  caption: Turn short text ideas into photorealistic real estate images and videos automatically.
+  highlight:
+  - photorealistic real estate images
+  - videos automatically
+  scene:
+    type: headline
+    text: Automated Real Estate Content Generation
+- say: Manual prompt engineering and file uploading eat hours of production time.
+  caption: Manual prompt engineering and file uploading eat hours of production time.
+  highlight:
+  - Manual prompt engineering
+  - eat hours
+  scene:
+    type: compare
+    left_label: Manual
+    left_text: Write prompts and upload files
+    right_label: Automated
+    right_text: One form submission
+- say: This n eight n library pick uses an AI agent to refine your raw ideas into professional prompts.
+  caption: This n8n library pick uses an AI agent to refine your raw ideas into professional prompts.
+  highlight:
+  - AI agent
+  - refine your raw ideas
+  scene:
+    type: flow
+    steps:
+    - title: Form Submission
+      note: Seeds the prompt board
+    - title: AI Agent
+      note: Refines prompts and captions
+    - title: OpenAI Generation
+      note: Creates images or video
+    - title: Gmail Approval
+      note: Stakeholders accept or reject
+- say: The workflow uploads assets to Google Drive and waits for your approval via Gmail.
+  caption: The workflow uploads assets to Google Drive and waits for your approval via Gmail.
+  highlight:
+  - uploads assets to Google Drive
+  - waits for your approval
+  scene:
+    type: list
+    title: Workflow Features
+    items:
+    - Google Drive storage
+    - Gmail approval loop
+    - Switch node routing
+    - Video generation branch
+    style: check
+- say: Template link in the description.
+  caption: Template link in the description.
+  highlight:
+  - Template link in the description
+  scene:
+    type: cta
+    line: Get the workflow
+    subline: Template link in the description.
+description:
+  task_line: Automate the creation of real estate marketing images and videos from simple text ideas.
+  tools: n8n, OpenAI, Google Drive, Google Sheets, Gmail
+  sources:
+  - 'n8n template: https://n8n.io/workflows/14134'
+  template_link: https://n8n.io/workflows/14134
+seo:
+  seeds:
+  - real estate marketing automation
+  - n8n ai agent workflow
+  - automate real estate content
+  - ai image generation workflow
+  hashtags:
+  - '#MarketingAutomation'
+  - '#n8n'
+series: Library Pick
+record_id: n8n:14134
+auto: true
+instagram_hashtags_rotating: []

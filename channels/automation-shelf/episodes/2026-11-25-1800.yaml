@@ -1,0 +1,76 @@
+skip: false
+skip_reason: ''
+title: Can you automate SMS and RCS marketing campaigns?
+beats:
+- say: Can you automate SMS and R C S marketing campaigns? Yes.
+  caption: Can you automate SMS and RCS marketing campaigns? Yes.
+  highlight:
+  - automate SMS and RCS marketing campaigns
+  scene:
+    type: headline
+    text: Automate SMS and RCS campaigns
+- say: Stop manually sending messages from spreadsheets. Use Google Sheets as a campaign queue to trigger personalized messages through R C S Zilla.
+  caption: Stop manually sending messages from spreadsheets. Use Google Sheets as a campaign queue to trigger personalized messages through RCSZilla.
+  highlight:
+  - Google Sheets as a campaign queue
+  - personalized messages
+  scene:
+    type: compare
+    left_label: Manual
+    left_text: Sending messages one by one from sheets
+    right_label: Automated
+    right_text: Google Sheets triggers n8n workflow
+- say: The n eight n workflow checks for consent, validates the send time, and renders variables like first name into your template.
+  caption: The n8n workflow checks for consent, validates the send time, and renders variables like first name into your template.
+  highlight:
+  - checks for consent
+  - renders variables
+  scene:
+    type: list
+    title: Validation Steps
+    items:
+    - Check for consent
+    - Validate send time
+    - Render variables
+    - Check for opt-outs
+    style: check
+- say: It even handles the aftermath. The system logs skipped contacts for reporting and captures STOP replies into an opt-out sheet automatically.
+  caption: It even handles the aftermath. The system logs skipped contacts for reporting and captures STOP replies into an opt-out sheet automatically.
+  highlight:
+  - logs skipped contacts
+  - captures STOP replies
+  scene:
+    type: card
+    title: Campaign Reporting
+    rows:
+    - - Skipped contacts
+      - Logged in Send Log
+    - - Opt-outs
+      - Saved to opt-out sheet
+- say: You can use an Android phone as a gateway to keep costs low. Template link in the description.
+  caption: You can use an Android phone as a gateway to keep costs low. Template link in the description.
+  highlight:
+  - Android phone as a gateway
+  scene:
+    type: cta
+    line: Get the n8n template
+    subline: Template link in the description.
+description:
+  task_line: You can automate SMS and RCS marketing campaigns using Google Sheets and RCSZilla.
+  tools: n8n, Google Sheets, RCSZilla
+  sources:
+  - 'n8n template: https://n8n.io/workflows/15864'
+  template_link: https://n8n.io/workflows/15864
+seo:
+  seeds:
+  - n8n sms automation
+  - google sheets sms marketing
+  - RCSZilla n8n workflow
+  - automate marketing campaigns
+  hashtags:
+  - '#MarketingAutomation'
+  - '#n8n'
+series: Can It Be Automated?
+record_id: n8n:15864
+auto: true
+instagram_hashtags_rotating: []

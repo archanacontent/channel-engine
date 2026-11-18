@@ -1,0 +1,82 @@
+skip: false
+skip_reason: ''
+title: 'What you''re looking at: SPHEREx dust cloud'
+beats:
+- say: A hidden dust cloud sits inside the Large Magellanic Cloud.
+  caption: A hidden dust cloud sits inside the Large Magellanic Cloud.
+  highlight:
+  - hidden dust cloud
+  - Large Magellanic Cloud
+  scene:
+    type: headline
+    text: Hidden dust in the Large Magellanic Cloud
+- say: NASA's SPHEREx mission revealed this feature using infrared light at 3.2 9 microns.
+  caption: NASA's SPHEREx mission revealed this feature using infrared light at 3.29 microns.
+  highlight:
+  - SPHEREx mission
+  - 3.29 microns
+  scene:
+    type: image
+    credit: NASA/JPL
+- say: Observing specific wavelengths of light is called spectroscopy.
+  caption: Observing specific wavelengths of light is called spectroscopy.
+  highlight:
+  - spectroscopy
+  scene:
+    type: card
+    title: Spectroscopy
+    rows:
+    - - Function
+      - Reveals composition
+    - - Benefit
+      - Measures galaxy distance
+- say: Chemical elements leave unique signatures in the colors they absorb and emit.
+  caption: Chemical elements leave unique signatures in the colors they absorb and emit.
+  highlight:
+  - unique signatures
+  - absorb and emit
+  scene:
+    type: list
+    title: How it works
+    items:
+    - Detects infrared light
+    - Uses 102 wavelengths
+    - Images every object 102 times
+    style: bullet
+- say: This mission will map the entire sky four times over two years.
+  caption: This mission will map the entire sky four times over two years.
+  highlight:
+  - map the entire sky
+  - four times
+  scene:
+    type: stat
+    value: '4'
+    label: Sky maps over two years
+- say: Image credit in the description.
+  caption: Image credit in the description.
+  highlight: []
+  scene:
+    type: cta
+    line: Discover more space science
+    subline: Subscribe for daily images
+description:
+  explainer: The SPHEREx mission revealed a dust cloud inside the Large Magellanic Cloud. This dwarf galaxy is located near the Milky Way.
+  sources:
+  - 'NASA Image and Video Library: https://images.nasa.gov/details/PIA26352'
+  credit: NASA
+seo:
+  seeds:
+  - SPHEREx NASA mission
+  - Large Magellanic Cloud dust
+  - what is spectroscopy space
+  - infrared astronomy explained
+  hashtags:
+  - '#SpaceScience'
+  - '#NASA'
+series: Look Closer
+record_id: nasa:PIA26352
+auto: true
+instagram_hashtags_rotating: []
+media:
+  image: /home/runner/work/channel-engine/channel-engine/collected/deep-field/media/2026-11-25-0900.jpg
+  credit: NASA

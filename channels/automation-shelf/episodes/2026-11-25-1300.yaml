@@ -1,0 +1,76 @@
+skip: false
+skip_reason: ''
+title: 'Free workflow: repurpose law firm field notes on autopilot'
+beats:
+- say: Law firm field notes can become marketing assets without manual writing.
+  caption: Law firm field notes can become marketing assets without manual writing.
+  highlight:
+  - marketing assets
+  - without manual writing
+  scene:
+    type: headline
+    text: Field notes to marketing assets
+- say: Manual repurposing risks leaking privileged language or legal advice.
+  caption: Manual repurposing risks leaking privileged language or legal advice.
+  highlight:
+  - risks leaking privileged language
+  scene:
+    type: compare
+    left_label: Manual
+    left_text: Risks privileged language leaks
+    right_label: Automated
+    right_text: Validates and scans for safety
+- say: This n eight n template uses Anthropic Claude to generate LinkedIn posts, newsletters, Google Business Profile posts, and FAQ entries.
+  caption: This n8n template uses Anthropic Claude to generate LinkedIn posts, newsletters, Google Business Profile posts, and FAQ entries.
+  highlight:
+  - Anthropic Claude
+  scene:
+    type: list
+    title: Generated Assets
+    items:
+    - LinkedIn post
+    - Newsletter blurb
+    - Google Business Profile post
+    - FAQ entry
+    style: bullet
+- say: The flow receives a webhook, validates content, calls Claude, runs a keyword safety scan, and logs the event for compliance.
+  caption: The flow receives a webhook, validates content, calls Claude, runs a keyword safety scan, and logs the event for compliance.
+  highlight:
+  - keyword safety scan
+  scene:
+    type: flow
+    steps:
+    - title: Webhook
+      note: Receive field notes
+    - title: Claude API
+      note: Generate four assets
+    - title: Safety Scan
+      note: Check for legal language
+    - title: Compliance Log
+      note: Audit generation event
+- say: Template link in the description.
+  caption: Template link in the description.
+  highlight:
+  - Template link
+  scene:
+    type: cta
+    line: Get the workflow
+    subline: Template link in the description.
+description:
+  task_line: Turn field notes and case wins into compliant marketing content automatically.
+  tools: n8n, Anthropic Claude, SMTP
+  sources:
+  - 'n8n template: https://n8n.io/workflows/17460'
+  template_link: https://n8n.io/workflows/17460
+seo:
+  seeds:
+  - legal marketing automation
+  - n8n law firm workflow
+  - repurpose case wins with AI
+  hashtags:
+  - '#LegalTech'
+  - '#MarketingAutomation'
+series: Library Pick
+record_id: n8n:17460
+auto: true
+instagram_hashtags_rotating: []

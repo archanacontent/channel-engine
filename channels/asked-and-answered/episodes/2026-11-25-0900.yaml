@@ -1,0 +1,69 @@
+skip: false
+skip_reason: ''
+title: 'Buyers ask AI: what is best payroll software for small business'
+beats:
+- say: What is the best payroll software for small business?
+  caption: What is the best payroll software for small business?
+  highlight:
+  - best payroll software
+  scene:
+    type: headline
+    text: Best Payroll Software for Small Business
+- say: AI engines do not pick a single winner. They look for pages that define specific use cases.
+  caption: AI engines do not pick a single winner. They look for pages that define specific use cases.
+  highlight:
+  - define specific use cases
+  scene:
+    type: compare
+    left_label: Generic Page
+    left_text: We are the best payroll software.
+    right_label: AEO Page
+    right_text: Best payroll software for one employee.
+- say: To get cited, your content must match the specific buyer intent found in autocomplete.
+  caption: To get cited, your content must match the specific buyer intent found in autocomplete.
+  highlight:
+  - match the specific buyer intent
+  scene:
+    type: flow
+    steps:
+    - title: Identify Intent
+      note: Find specific buyer questions
+    - title: Structure Content
+      note: Target niche use cases
+- say: Structure your answers around these three criteria.
+  caption: Structure your answers around these three criteria.
+  highlight:
+  - three criteria
+  scene:
+    type: list
+    title: Citation Requirements
+    items:
+    - Easiest to use
+    - Cheapest for small business
+    - Best for one employee
+    style: check
+- say: Find your buyers' questions with Asked, link on our channel page.
+  caption: Find your buyers' questions with Asked, link on our channel page.
+  highlight:
+  - Asked
+  scene:
+    type: cta
+    line: Master AI Visibility
+    subline: Find your buyers' questions with Asked
+description:
+  hook: AI search engines select payroll software based on specific use case matching rather than generic claims.
+  answer: To be cited, your pages must address niche queries like payroll software for one employee or the easiest software for small businesses.
+  sources:
+  - 'Asked, free AEO and GEO question finder: https://archanacontent.github.io/asked/'
+seo:
+  seeds:
+  - best payroll software for small business
+  - how to choose payroll software
+  - payroll software use cases
+  hashtags:
+  - '#AEO'
+  - '#B2BMarketing'
+series: Buyers Asked
+record_id: asked:payroll software
+auto: true
+instagram_hashtags_rotating: []

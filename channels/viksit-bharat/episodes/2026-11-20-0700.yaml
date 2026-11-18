@@ -1,0 +1,97 @@
+skip: false
+skip_reason: ''
+title: While the world slows, India sustains seven percent growth
+beats:
+- say: Global economic growth is slowing to two point six percent.
+  caption: Global economic growth is slowing to 2.6%.
+  highlight:
+  - slowing to 2.6%
+  scene:
+    type: stat
+    value: 2.6%
+    label: Global economic growth
+    source: Moody's
+- say: Moody's Ratings raised India's FY27 growth forecast to seven percent.
+  caption: Moody's raises India's FY27 growth forecast to 7%.
+  highlight:
+  - FY27 growth forecast to 7%
+  scene:
+    type: headline
+    text: India's growth forecast raised to 7%
+- say: This upward revision follows a similar move by the World Bank.
+  caption: The World Bank also raised its FY27 forecast to 7.1%.
+  highlight: []
+  scene:
+    type: compare
+    left_label: Moody's
+    left_text: 7% growth
+    right_label: World Bank
+    right_text: 7.1% growth
+- say: Net FDI inflows rose to thirteen point eight billion dollars during April to August 2026-27.
+  caption: Net FDI inflows rose to $13.8 billion in April-August 2026-27.
+  highlight:
+  - $13.8 billion
+  scene:
+    type: card
+    title: FDI Inflows (April-August)
+    rows:
+    - - 2026-27
+      - $13.8 billion
+    - - Previous Year
+      - $9.6 billion
+- say: Moody's expects India to sustain growth close to seven percent through 2028.
+  caption: Growth expected to remain at 7% in 2027 and 2028.
+  highlight: []
+  scene:
+    type: list
+    title: Growth Outlook
+    items:
+    - 'FY27: 7%'
+    - '2027: 7%'
+    - '2028: 7%'
+    style: number
+- say: Will private investment drive even faster expansion? Follow for tomorrow's figure.
+  caption: Will private investment drive even faster expansion? Follow for tomorrow's figure.
+  highlight:
+  - private investment
+  scene:
+    type: cta
+    line: Will private investment drive even faster expansion?
+    subline: Follow for tomorrow's figure.
+description:
+  summary: Moody's raises India's FY27 growth forecast to 7%.
+  details: Moody's Ratings has increased its growth forecast for India to 7% for the 2026-27 period. The agency cites resilient consumption and improving investment dynamics. This follows a similar upward revision by the World Bank. The report notes that India is expected to sustain this growth through 2028.
+  key_figures:
+  - 'Moody''s FY27 Forecast: 7%'
+  - 'World Bank FY27 Forecast: 7.1%'
+  - 'April-August 2026-27 FDI: $13.8 billion'
+  - 'Global Growth Forecast: 2.6%'
+  sources:
+  - 'Mint, 11 Nov 2026: https://www.livemint.com/economy/moodys-india-fy27-growth-forecast-7-momentum-through-2028-domestic-demand-economic-resilience-11794406069442.html'
+  released: 11 Nov 2026
+  source_link: https://www.livemint.com/economy/moodys-india-fy27-growth-forecast-7-momentum-through-2028-domestic-demand-economic-resilience-11794406069442.html
+seo:
+  seeds:
+  - India GDP growth forecast 2027
+  - Moody's India growth report
+  - India FDI inflows 2026
+  - India economic resilience
+  - World Bank India growth forecast
+  - India manufacturing and investment
+  hashtags:
+  - '#IndiaEconomy'
+  - '#GDPGrowth'
+  - '#FDI'
+  - '#ViksitBharat'
+series: While the World
+record_id: vbnews:https://www.livemint.com/economy/moodys-india-fy27-growth-forecast-7-momentum-through-2028-domestic-demand-economic-resilience-11794406069442.html
+auto: true
+instagram_hashtags_rotating: []
+released: 11 Nov 2026
+posted: '2026-11-11'
+sector: Electronics and Manufacturing
+source_label: Mint, 11 Nov 2026
+look:
+  palette: cream_on_green
+  motion: tiles
+  hook: stat_ribbon

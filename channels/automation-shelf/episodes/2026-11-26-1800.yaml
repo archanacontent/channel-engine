@@ -1,0 +1,83 @@
+skip: false
+skip_reason: ''
+title: Can you automate marketing graphic generation?
+beats:
+- say: Can you automate marketing graphic generation? Yes.
+  caption: Can you automate marketing graphic generation? Yes.
+  highlight:
+  - automate marketing graphic generation
+  scene:
+    type: headline
+    text: Automate marketing graphic generation
+- say: Marketing teams spend up to forty percent of their time waiting on creative assets.
+  caption: Marketing teams spend up to 40% of their time waiting on creative assets.
+  highlight:
+  - waiting on creative assets
+  scene:
+    type: stat
+    value: 40%
+    label: Time spent waiting on assets
+- say: This n eight n workflow uses Adobe Firefly to generate four production ready variations from a single text prompt.
+  caption: This n8n workflow uses Adobe Firefly to generate 4 production-ready variations from a single text prompt.
+  highlight:
+  - single text prompt
+  scene:
+    type: compare
+    left_label: Traditional
+    left_text: Wait days for designers
+    right_label: Automated
+    right_text: Four assets in 30 seconds
+- say: The flow receives a brief via webhook, builds optimized prompts, calls the Adobe Firefly API, and saves assets to Google Drive and Slack.
+  caption: The flow receives a brief via webhook, builds optimized prompts, calls the Adobe Firefly API, and saves assets to Google Drive and Slack.
+  highlight:
+  - optimized prompts
+  - saves assets to Google Drive
+  scene:
+    type: flow
+    steps:
+    - title: Webhook
+      note: Receive campaign brief
+    - title: Code
+      note: Build 4 optimized prompts
+    - title: HTTP Request
+      note: Call Adobe Firefly API
+    - title: Slack
+      note: Notify creative team
+- say: Every image is commercially safe because it is trained on licensed Adobe Stock content.
+  caption: Every image is commercially safe because it is trained on licensed Adobe Stock content.
+  highlight:
+  - commercially safe
+  scene:
+    type: list
+    title: Why Adobe Firefly
+    items:
+    - Zero copyright risk
+    - Trained on Adobe Stock
+    - Instant variations
+    style: check
+- say: Template link in the description.
+  caption: Template link in the description.
+  highlight:
+  - Template link
+  scene:
+    type: cta
+    line: Get the workflow
+    subline: Template link in the description.
+description:
+  task_line: You can automate the production of branded marketing graphics using this n8n workflow.
+  tools: n8n, Adobe Firefly, Google Drive, Slack
+  sources:
+  - 'n8n template: https://n8n.io/workflows/13810'
+  template_link: https://n8n.io/workflows/13810
+seo:
+  seeds:
+  - automate marketing graphics
+  - n8n Adobe Firefly workflow
+  - AI graphic production automation
+  hashtags:
+  - '#MarketingAutomation'
+  - '#n8n'
+series: Can It Be Automated?
+record_id: n8n:13810
+auto: true
+instagram_hashtags_rotating: []

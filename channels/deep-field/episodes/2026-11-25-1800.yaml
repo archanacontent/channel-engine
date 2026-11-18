@@ -1,0 +1,59 @@
+skip: false
+skip_reason: ''
+title: How big is Mars, really?
+beats:
+- say: Mars is nearly three times wider than Pluto.
+  caption: Mars is nearly three times wider than Pluto.
+  highlight:
+  - nearly three times wider
+  scene:
+    type: headline
+    text: Mars vs Pluto
+- say: The diameter of Mars measures 6 7 9 2 kilometers. Pluto has a diameter of 2 3 7 6 kilometers.
+  caption: The diameter of Mars measures 6,792 km. Pluto has a diameter of 2,376 km.
+  highlight:
+  - 6,792 km
+  - 2,376 km
+  scene:
+    type: sizes
+    a_label: Mars
+    a_value: 6792.0
+    b_label: Pluto
+    b_value: 2376.0
+    unit: km
+- say: Mars sits 228.0 million kilometers from the Sun. Pluto is much further out at 5 9 0 6.4 million kilometers.
+  caption: Mars sits 228.0 million km from the Sun. Pluto is much further out at 5,906.4 million km.
+  highlight:
+  - 228.0 million km
+  - 5,906.4 million km
+  scene:
+    type: compare
+    left_label: Mars Distance
+    left_text: 228.0 million km
+    right_label: Pluto Distance
+    right_text: 5,906.4 million km
+- say: This difference in size and distance defines their place in our solar system. Figures from NASA's Planetary Fact Sheet.
+  caption: This difference in size and distance defines their place in our solar system. Figures from NASA's Planetary Fact Sheet.
+  highlight:
+  - defines their place
+  scene:
+    type: cta
+    line: Space Science
+    subline: Figures from NASA's Planetary Fact Sheet
+description:
+  explainer: Mars is significantly larger and closer to the Sun than Pluto. This video compares their diameters and distances from the Sun.
+  sources:
+  - 'NASA Planetary Fact Sheet: https://nssdc.gsfc.nasa.gov/planetary/factsheet/'
+seo:
+  seeds:
+  - size of Mars vs Pluto
+  - Mars diameter km
+  - Pluto distance from sun
+  - Mars vs Pluto comparison
+  hashtags:
+  - '#Mars'
+  - '#Pluto'
+series: Scale It
+record_id: scale:MARS:PLUTO
+auto: true
+instagram_hashtags_rotating: []

@@ -1,0 +1,66 @@
+skip: false
+title: 'Stop doing this by hand: Multilingual marketing visuals'
+beats:
+- say: Stop generating multilingual marketing visuals manually. Let n 8 n build them automatically.
+  caption: Stop generating multilingual marketing visuals manually. Let n8n build them automatically.
+  scene:
+    type: headline
+    text: Automate multilingual marketing visuals.
+  highlight:
+  - multilingual marketing visuals
+- say: First, an n 8 n form collects your idea and target languages. Then the workflow calls Canvora to create the original design.
+  caption: First, an n8n form collects your idea and target languages. Then the workflow calls Canvora to create the original design.
+  scene:
+    type: flow
+    steps:
+    - title: Form Trigger
+      note: Collects idea and languages
+    - title: HTTP Request
+      note: Calls Canvora API
+  highlight:
+  - n8n form
+  - Canvora
+- say: Next, a loop splits your language list and localizes the asset for every region.
+  caption: Next, a loop splits your language list and localizes the asset for every region.
+  scene:
+    type: flow
+    steps:
+    - title: Split In Batches
+      note: Loops language list
+    - title: HTTP Request
+      note: Localizes asset
+  highlight:
+  - splits your language list
+- say: Finally, all localized outputs post straight to your Slack channel.
+  caption: Finally, all localized outputs post straight to your Slack channel.
+  scene:
+    type: flow
+    steps:
+    - title: Slack
+      note: Posts finished versions
+  highlight:
+  - Slack channel
+- say: The free template is linked in the description.
+  caption: The free template is linked in the description.
+  scene:
+    type: cta
+    line: Get the template
+    subline: Link in description
+  highlight:
+  - free template
+description:
+  task_line: This workflow collects an idea and target languages via an n8n form, generates an original visual with the Canvora API, localizes the design into each language, and posts each finished version to Slack.
+  tools: n8n, Canvora, Slack
+  sources:
+  - 'n8n template: https://n8n.io/workflows/17530'
+  template_link: https://n8n.io/workflows/17530
+seo:
+  seeds:
+  - n8n multilingual visuals
+  - Canvora automation workflow
+  - n8n Slack marketing workflow
+  - automate design localization
+series: Stop Doing This
+record_id: n8n:17530
+auto: true
+instagram_hashtags_rotating: []

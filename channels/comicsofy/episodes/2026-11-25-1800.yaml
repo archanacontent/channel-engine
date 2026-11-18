@@ -1,0 +1,72 @@
+format: strip
+kind: reel
+tone: cozy
+title: The Negotiation
+premise: Nana June helps Lottie negotiate cookie jar access.
+panels:
+- room: kitchen
+  shot: medium
+  cast:
+  - who: Nana June
+    mood: smug
+    pos: left
+    size: medium
+    holding: clipboard
+  - who: Lottie
+    mood: happy
+    pos: right
+    size: medium
+  lines:
+  - who: Nana June
+    text: Per subsection two, pre-dinner sweets are permitted.
+  - who: Lottie
+    text: I knew you had my back.
+  props: []
+- room: kitchen
+  shot: close
+  cast:
+  - who: Nana June
+    mood: neutral
+    pos: center
+    size: large
+  lines:
+  - who: Nana June
+    text: We just need to file the paperwork before your parents arrive.
+  props: []
+- room: kitchen
+  shot: wide
+  cast:
+  - who: Nana June
+    mood: happy
+    pos: left
+    size: medium
+  - who: Lottie
+    mood: smug
+    pos: right
+    size: medium
+    holding: pie
+  lines:
+  - who: Lottie
+    text: Pleasure doing business.
+  - who: Nana June
+    text: That's my girl.
+  props: []
+caption: 'Always read the fine print on Grandma''s cookie policy.
+
+  .
+
+  .
+
+  .
+
+  #comics #cartoon #digitalart #webcomic #comicbooks
+
+  comic | drawing | art | illustration | artist | sketch
+
+  #cartoonist #comicart #comicbook #funnycomics #draw #artwork #officehumor #comicstrip #funny #relatable #artistsoninstagram #comicsofy #doodle #webtoon #viral #viralcomics #explorepage #family #cookies #grandma #humor #comic'
+description:
+  summary: Always read the fine print on Grandma's cookie policy.
+series: Pim and Soot Reel
+record_id: strip:reel:1795023193149080413:0
+auto: true
+instagram_hashtags_rotating: []

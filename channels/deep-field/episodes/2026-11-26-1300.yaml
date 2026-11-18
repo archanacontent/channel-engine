@@ -1,0 +1,71 @@
+skip: false
+skip_reason: ''
+title: 'Voyager: what just happened'
+beats:
+- say: Voyager 1 is now one light day away from Earth.
+  caption: Voyager 1 is now one light day away from Earth.
+  highlight:
+  - one light day away
+  scene:
+    type: headline
+    text: Voyager 1 reaches one light day distance
+- say: No other human made object has reached this distance.
+  caption: No other human made object has reached this distance.
+  highlight:
+  - No other human made object
+  scene:
+    type: stat
+    value: '1'
+    label: light day distance
+    source: NASA
+- say: The Empire State Building was illuminated in gold on November 17, 2026, to celebrate this milestone.
+  caption: The Empire State Building was illuminated in gold on November 17, 2026, to celebrate this milestone.
+  highlight:
+  - illuminated in gold
+  scene:
+    type: image
+    credit: NASA/Bill Ingalls
+- say: This color honors the gold plated copper phonograph record on the spacecraft.
+  caption: This color honors the gold plated copper phonograph record on the spacecraft.
+  highlight:
+  - gold plated copper phonograph record
+  scene:
+    type: card
+    title: The Golden Record
+    rows:
+    - - Material
+      - Gold plated copper
+    - - Content
+      - Sounds and images
+- say: The record contains sounds and images selected to portray the diversity of life and culture on Earth.
+  caption: The record contains sounds and images selected to portray the diversity of life and culture on Earth.
+  highlight:
+  - diversity of life and culture
+  scene:
+    type: quote
+    text: The Golden Record contains sounds and images selected to portray the diversity of life and culture on Earth.
+    highlight:
+    - diversity of life and culture
+- say: Source in the description.
+  caption: Source in the description.
+  highlight: []
+  scene:
+    type: cta
+    line: Voyager 1 milestone
+    subline: Source in the description
+description:
+  explainer: The Empire State Building was lit in gold to celebrate Voyager 1 reaching a distance of one light day from Earth. The color honors the Golden Record carried by the spacecraft.
+  sources:
+  - 'NASA: https://www.nasa.gov/image-article/empire-state-building-goes-gold-for-voyager/'
+seo:
+  seeds:
+  - Voyager 1 distance from Earth
+  - Voyager Golden Record meaning
+  - Empire State Building gold lights
+  hashtags:
+  - '#Voyager1'
+  - '#NASA'
+series: Mission Log
+record_id: nasanews:https://www.nasa.gov/image-article/empire-state-building-goes-gold-for-voyager/
+auto: true
+instagram_hashtags_rotating: []

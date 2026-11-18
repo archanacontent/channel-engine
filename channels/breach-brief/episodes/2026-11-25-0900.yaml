@@ -1,0 +1,77 @@
+skip: false
+skip_reason: ''
+title: 'Exploited now: Perforce Puppet Enterprise CVE-2026-115731'
+beats:
+- say: Attackers are executing arbitrary code on Puppet Enterprise servers via crafted reports.
+  caption: Attackers are executing arbitrary code on Puppet Enterprise servers via crafted reports.
+  highlight:
+  - executing arbitrary code
+  - Puppet Enterprise servers
+  scene:
+    type: headline
+    text: Remote Code Execution in Puppet Enterprise
+- say: The flaw in the report processing code allows any client with a C A signed agent certificate to run commands as the service user.
+  caption: The flaw in the report processing code allows any client with a CA signed agent certificate to run commands as the service user.
+  highlight:
+  - run commands as the service user
+  scene:
+    type: card
+    title: Vulnerability Details
+    rows:
+    - - CVE ID
+      - CVE-2026-115731
+    - - Product
+      - Puppet Enterprise
+    - - Added
+      - '2026-11-17'
+    - - Due Date
+      - '2026-12-01'
+- say: If your certificate authority automatically signs requests without strong verification, unauthenticated network attackers can obtain a valid certificate and exploit the system.
+  caption: If your certificate authority automatically signs requests without strong verification, unauthenticated network attackers can obtain a valid certificate and exploit the system.
+  highlight:
+  - unauthenticated network attackers
+  - exploit the system
+  scene:
+    type: stat
+    value: '9.4'
+    label: CVSS Critical Score
+- say: Apply vendor mitigations immediately and follow C I S A BOD 26 04 guidance for patching and cloud services.
+  caption: Apply vendor mitigations immediately and follow CISA BOD 26-04 guidance for patching and cloud services.
+  highlight:
+  - Apply vendor mitigations
+  scene:
+    type: list
+    title: Required Actions
+    items:
+    - Apply vendor mitigations
+    - Follow BOD 26-04
+    - Evaluate internet exposure
+    - Discontinue if unmitigated
+    style: check
+- say: Sources are in the description.
+  caption: Sources are in the description.
+  highlight: []
+  scene:
+    type: cta
+    line: Stay Protected
+    subline: Check the description for sources.
+description:
+  summary: Attackers are exploiting a critical deserialization vulnerability in Perforce Puppet Enterprise to execute arbitrary code.
+  affected: Perforce Puppet Enterprise with CA-signed agent certificates.
+  action: Apply vendor mitigations and follow CISA BOD 26-04 patching guidelines immediately.
+  sources:
+  - 'CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog'
+  - 'NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-115731'
+seo:
+  seeds:
+  - CVE-2026-115731 exploit
+  - Puppet Enterprise vulnerability
+  - CISA KEV Puppet Enterprise
+  - Perforce security update
+  hashtags:
+  - '#Cybersecurity'
+  - '#Infosec'
+series: Exploited Today
+record_id: kev:CVE-2026-115731
+auto: true
+instagram_hashtags_rotating: []

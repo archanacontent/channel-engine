@@ -1,0 +1,69 @@
+skip: false
+skip_reason: ''
+title: 'AI search in 2026: the ChatGPT intent gap'
+beats:
+- say: Only 6.9 percent of ChatGPT conversations show purchase intent.
+  caption: Only 6.9% of ChatGPT conversations show purchase intent.
+  highlight: []
+  scene:
+    type: stat
+    value: 6.9%
+    label: conversations with purchase intent
+- say: A SparkToro analysis of a U.S. panel found that 87.9 percent of ChatGPT responses did not name a single brand, product, or business.
+  caption: A SparkToro analysis of a U.S. panel found that 87.9% of ChatGPT responses did not name a single brand, product, or business.
+  highlight:
+  - did not name a single brand
+  scene:
+    type: card
+    title: ChatGPT Response Content
+    rows:
+    - - No brand or product mentioned
+      - 87.9%
+- say: While shopping and brands make up 5.3 percent of usage, most users prioritize images, information, and writing.
+  caption: While shopping and brands make up 5.3% of usage, most users prioritize images, information, and writing.
+  highlight:
+  - images, information, and writing
+  scene:
+    type: list
+    title: Primary ChatGPT Use Cases
+    items:
+    - Images and visual design
+    - Information and entertainment
+    - Writing and communication
+    - Shopping and brands
+    style: bullet
+- say: Rand Fishkin suggests AI visibility matters more for Google AI Overviews and AI Mode than ChatGPT itself.
+  caption: Rand Fishkin suggests AI visibility matters more for Google AI Overviews and AI Mode than ChatGPT itself.
+  highlight:
+  - Google AI Overviews
+  - AI Mode
+  scene:
+    type: quote
+    text: The primary reason AI visibility matters is Google's implementation of AI Overviews and AI Mode, rather than ChatGPT itself.
+    highlight:
+    - Google's implementation of AI Overviews and AI Mode
+- say: Source in the description.
+  caption: Source in the description.
+  highlight: []
+  scene:
+    type: cta
+    line: Master AI visibility
+    subline: Source in the description.
+description:
+  hook: Only 6.9% of ChatGPT conversations show purchase intent according to a recent SparkToro analysis.
+  answer: The report shows that most ChatGPT users are not currently using the tool for brand discovery or shopping, making Google AI Overviews a more critical target for B2B visibility.
+  sources:
+  - '6.9% Of ChatGPT Conversations Showed Purchase Intent In U.S. Panel via @sejournal, @MattGSouthern: https://www.searchenginejournal.com/chatgpt-purchase-intent-us-panel/597857/'
+seo:
+  seeds:
+  - ChatGPT purchase intent statistics
+  - AI search marketing strategy
+  - SparkToro ChatGPT analysis
+  - generative engine optimization
+  hashtags:
+  - '#AISearch'
+  - '#B2BMarketing'
+series: Trend Check
+record_id: news:https://www.searchenginejournal.com/chatgpt-purchase-intent-us-panel/597857/
+auto: true
+instagram_hashtags_rotating: []

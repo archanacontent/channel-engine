@@ -1,0 +1,70 @@
+skip: false
+skip_reason: ''
+title: 'Fix this so AI cites you: Vague pronouns'
+beats:
+- say: Answer engines stop citing you when they cannot identify your subject.
+  caption: Answer engines stop citing you when they cannot identify your subject.
+  highlight:
+  - cannot identify your subject
+  scene:
+    type: headline
+    text: Why AI engines skip your content
+- say: Using pronouns like it or this creates ambiguity for generative models.
+  caption: Using pronouns like it or this creates ambiguity for generative models.
+  highlight:
+  - pronouns like it or this
+  - creates ambiguity
+  scene:
+    type: list
+    title: The ambiguity problem
+    items:
+    - Vague pronouns
+    - Broken context
+    - Low citation probability
+    style: bullet
+- say: A weak sentence says this helps teams track goals. A strong sentence says the customer success platform helps teams track goals.
+  caption: A weak sentence says this helps teams track goals. A strong sentence says the customer success platform helps teams track goals.
+  highlight:
+  - this helps teams
+  - customer success platform helps
+  scene:
+    type: compare
+    left_label: Weak line
+    left_text: This helps teams track goals.
+    right_label: Fixed line
+    right_text: The customer success platform helps teams track goals.
+- say: Archana Panda defines this as the rule to Name The Subject.
+  caption: Archana Panda defines this as the rule to Name The Subject.
+  highlight:
+  - Name The Subject
+  scene:
+    type: quote
+    text: Name The Subject.
+    highlight:
+    - Name The Subject
+- say: The full standard is linked on our channel page.
+  caption: The full standard is linked on our channel page.
+  highlight:
+  - full standard is linked
+  scene:
+    type: cta
+    line: Master AEO
+    subline: The full standard is linked on our channel page.
+description:
+  hook: Answer engines ignore pages that use vague pronouns instead of naming subjects.
+  answer: To earn citations, use the Name The Subject rule from the Asked Method to replace pronouns with specific nouns.
+  sources:
+  - 'The Citable Passage Standard: https://archanacontent.github.io/asked/standard/'
+seo:
+  seeds:
+  - answer engine optimization
+  - generative engine optimization
+  - how to get cited by AI
+  - B2B AEO strategy
+  hashtags:
+  - '#AEO'
+  - '#B2BMarketing'
+series: The Fix
+record_id: fix:name-the-subject:customer success platform
+auto: true
+instagram_hashtags_rotating: []

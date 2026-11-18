@@ -1,0 +1,69 @@
+skip: false
+skip_reason: ''
+title: 'Fix this so AI cites you: Vague claims'
+beats:
+- say: Answer engines ignore general claims about your software.
+  caption: Answer engines ignore general claims about your software.
+  highlight:
+  - ignore general claims
+  scene:
+    type: headline
+    text: Why AI ignores your content
+- say: A weak line says our SIEM provides rapid threat detection and real time monitoring.
+  caption: A weak line says our SIEM provides rapid threat detection and real time monitoring.
+  highlight:
+  - rapid threat detection
+  - real time monitoring
+  scene:
+    type: compare
+    left_label: Weak Line
+    left_text: Our SIEM provides rapid threat detection and real time monitoring.
+    right_label: Fix
+    right_text: N/A
+- say: The fix uses specific numbers and named tools to build authority.
+  caption: The fix uses specific numbers and named tools to build authority.
+  highlight:
+  - specific numbers
+  - named tools
+  scene:
+    type: compare
+    left_label: Weak Line
+    left_text: N/A
+    right_label: Fixed Line
+    right_text: Our SIEM detects threats in under five minutes using Splunk integration.
+- say: Be specific with numbers, dates, standards, and tools. This is the Citable Passage Standard from the Asked Method by Archana Panda.
+  caption: Be specific with numbers, dates, standards, and tools. This is the Citable Passage Standard from the Asked Method by Archana Panda.
+  highlight:
+  - Be specific
+  - Citable Passage Standard
+  scene:
+    type: quote
+    text: Be specific. Numbers, dates, named standards and named tools replace general claims wherever they can.
+    highlight:
+    - replace general claims
+- say: The full standard is linked on our channel page.
+  caption: The full standard is linked on our channel page.
+  highlight:
+  - full standard
+  scene:
+    type: cta
+    line: Master AI visibility
+    subline: The full standard is linked on our channel page.
+description:
+  hook: General claims prevent your B2B pages from being cited by AI search engines.
+  answer: To earn mentions in ChatGPT and Perplexity, apply the Citable Passage Standard by replacing vague descriptions with specific numbers, dates, and named tools.
+  sources:
+  - 'The Citable Passage Standard: https://archanacontent.github.io/asked/standard/'
+seo:
+  seeds:
+  - answer engine optimization
+  - generative engine optimization
+  - how to get cited by AI
+  - B2B AEO strategy
+  hashtags:
+  - '#AEO'
+  - '#B2BMarketing'
+series: The Fix
+record_id: fix:be-specific:SIEM
+auto: true
+instagram_hashtags_rotating: []

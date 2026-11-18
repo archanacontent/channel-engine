@@ -1,0 +1,79 @@
+skip: false
+title: 'Stop doing this by hand: behavior-driven email marketing'
+beats:
+- say: Stop writing behavior-driven emails manually when n eight n can automate the entire lifecycle.
+  caption: Stop writing behavior-driven emails manually when n8n can automate the entire lifecycle.
+  scene:
+    type: headline
+    text: Automate behavior-driven email marketing
+  highlight:
+  - behavior-driven emails
+  - n8n
+- say: Capture real-time events via webhooks and process a daily behavior digest.
+  caption: Capture real-time events via webhooks and process a daily behavior digest.
+  scene:
+    type: flow
+    steps:
+    - title: webhook
+      note: Captures real-time events
+    - title: scheduleTrigger
+      note: Processes daily digest
+    - title: set
+      note: Prepares context
+    - title: code
+      note: Runs segmentation
+  highlight:
+  - real-time events
+  - daily behavior digest
+- say: Filter for high intent users and apply OpenAI Chat Model to generate personalized content.
+  caption: Filter for high intent users and apply OpenAI Chat Model to generate personalized content.
+  scene:
+    type: flow
+    steps:
+    - title: filter
+      note: High intent cohort
+    - title: agent
+      note: Generates content
+    - title: code
+      note: Formats payload
+  highlight:
+  - high intent users
+  - OpenAI Chat Model
+- say: Deliver campaigns through SendGrid and log every result to Google Sheets.
+  caption: Deliver campaigns through SendGrid and log every result to Google Sheets.
+  scene:
+    type: flow
+    steps:
+    - title: wait
+      note: Smart buffering
+    - title: httpRequest
+      note: Sends via SendGrid
+  highlight:
+  - SendGrid
+  - Google Sheets
+- say: The free template is linked in the description.
+  caption: The free template is linked in the description.
+  scene:
+    type: cta
+    line: Get the n8n template
+    subline: Link in description
+  highlight:
+  - free template
+description:
+  task_line: Automate behavior-driven email marketing with n8n, OpenAI, and SendGrid.
+  tools: n8n, OpenAI, SendGrid, Google Sheets
+  sources:
+  - 'n8n template: https://n8n.io/workflows/15615'
+  template_link: https://n8n.io/workflows/15615
+seo:
+  seeds:
+  - n8n email automation
+  - behavior driven email marketing
+  - OpenAI email generator n8n
+  - SendGrid n8n workflow template
+  - automated marketing campaigns n8n
+skip_reason: ''
+series: Stop Doing This
+record_id: n8n:15615
+auto: true
+instagram_hashtags_rotating: []

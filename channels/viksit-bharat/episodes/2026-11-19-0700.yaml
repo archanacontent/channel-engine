@@ -1,0 +1,77 @@
+skip: false
+skip_reason: ''
+title: Global AI volatility threatens India. The record says otherwise.
+beats:
+- say: Myth. Global AI volatility will hurt India's economy.
+  caption: Myth. Global AI volatility will hurt India's economy.
+  highlight:
+  - Global AI volatility
+  scene:
+    type: headline
+    kicker: Myth
+    text: Global AI volatility will hurt India's economy
+- say: Chief Economic Advisor V Anantha Nageswaran says India drew five billion dollars in foreign direct investment when AI concerns rose globally.
+  caption: India drew $5 billion in FDI when AI concerns rose globally, says CEA V Anantha Nageswaran.
+  highlight:
+  - $5 billion in FDI
+  scene:
+    type: stat
+    value: $5 billion
+    label: FDI inflows during AI concerns
+    source: CEA V Anantha Nageswaran
+- say: The first quarter saw seven point eight per cent growth. Manufacturing alone grew by nine point two per cent.
+  caption: Q1 saw 7.8% growth, with manufacturing growing by 9.2%.
+  highlight:
+  - 7.8% growth
+  scene:
+    type: card
+    title: Q1 Growth Composition
+    rows:
+    - - Overall Growth
+      - 7.8%
+    - - Manufacturing
+      - 9.2%
+- say: India faces dual tailwinds from crude oil and the AI bubble. Will the next year be about managing rupee strength instead of weakness?
+  caption: India faces dual tailwinds from crude oil and the AI bubble. Will next year be about managing rupee strength?
+  highlight:
+  - dual tailwinds
+  - managing rupee strength
+  scene:
+    type: cta
+    line: Will next year be about managing rupee strength instead of weakness?
+    subline: Follow for tomorrow's figure.
+description:
+  summary: India drew $5 billion in FDI even as global AI concerns rose, according to the CEA.
+  details: Chief Economic Advisor V Anantha Nageswaran expects stronger growth and improved capital flows in FY28. He noted that India drew $5 billion in foreign direct investment when global AI concerns emerged. The country also saw 7.8 percent growth in the first quarter, driven by 9.2 percent manufacturing growth.
+  key_figures: 'FDI during AI concerns: $5 billion
+
+    Q1 Overall Growth: 7.8%
+
+    Manufacturing Growth: 9.2%'
+  sources:
+  - 'BusinessLine, 18 Nov 2026: https://www.thehindubusinessline.com/economy/softer-oil-global-ai-reset-to-boost-indias-growth-and-fdi-in-fy28-cea-nageswaran/article71716888.ece'
+  released: 18 Nov 2026
+  source_link: https://www.thehindubusinessline.com/economy/softer-oil-global-ai-reset-to-boost-indias-growth-and-fdi-in-fy28-cea-nageswaran/article71716888.ece
+seo:
+  seeds:
+  - India FDI growth
+  - Chief Economic Advisor V Anantha Nageswaran
+  - India manufacturing growth rate
+  - impact of AI on India economy
+  hashtags:
+  - '#IndiaEconomy'
+  - '#FDI'
+  - '#Manufacturing'
+  - '#ViksitBharat'
+series: Myth vs Record
+record_id: vbnews:https://www.thehindubusinessline.com/economy/softer-oil-global-ai-reset-to-boost-indias-growth-and-fdi-in-fy28-cea-nageswaran/article71716888.ece
+auto: true
+instagram_hashtags_rotating: []
+released: 18 Nov 2026
+posted: '2026-11-18'
+sector: Energy
+source_label: BusinessLine, 18 Nov 2026
+look:
+  palette: cream_on_navy
+  motion: waves
+  hook: myth_stamp

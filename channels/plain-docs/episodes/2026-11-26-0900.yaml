@@ -1,0 +1,65 @@
+skip: false
+skip_reason: ''
+title: Fixing a real README in under a minute
+beats:
+- say: Vague documentation leads to support tickets and stalled onboarding.
+  caption: Vague documentation leads to support tickets and stalled onboarding.
+  highlight:
+  - Vague documentation
+  - stalled onboarding
+  scene:
+    type: headline
+    text: Bad docs kill adoption
+- say: 'This README says: Streams live D N S query events from your Pi-hole v 6 A P I and renders them as pixel-art friendlies and enemies.'
+  caption: 'This README says: Streams live DNS query events from your Pi-hole v6 API and renders them as pixel-art friendlies and enemies.'
+  highlight:
+  - Streams live DNS query events
+  - renders them as pixel-art friendlies and enemies
+  scene:
+    type: compare
+    left_label: Original
+    left_text: Streams live DNS query events from your Pi-hole v6 API and renders them as pixel-art friendlies and enemies.
+    right_label: Better
+    right_text: Converts Pi-hole v6 DNS queries into pixel-art entities.
+- say: The original uses passive verbs and wordy phrases. The rewrite uses active verbs like converts and identifies the subject immediately.
+  caption: The original uses passive verbs and wordy phrases. The rewrite uses active verbs like converts and identifies the subject immediately.
+  highlight:
+  - passive verbs
+  - active verbs
+  scene:
+    type: list
+    title: Why it works
+    items:
+    - Uses active verbs
+    - Removes filler words
+    - Focuses on action
+    style: check
+- say: Use active verbs to describe what your software actually does.
+  caption: Use active verbs to describe what your software actually does.
+  highlight:
+  - active verbs
+  - actually does
+  scene:
+    type: quote
+    text: Use active verbs to describe what your software actually does.
+    highlight:
+    - active verbs
+description:
+  what_was_fixed: I simplified a wordy sentence in the ph-intercept README to make the core functionality clearer.
+  rule: Use active verbs to describe software actions.
+  sources:
+  - 'm00grin/ph-intercept README (MIT): https://github.com/m00grin/ph-intercept'
+  source_link: https://github.com/m00grin/ph-intercept
+  license: MIT
+seo:
+  seeds:
+  - technical writing tips
+  - how to write documentation
+  - improving README files
+  hashtags:
+  - '#TechnicalWriting'
+  - '#DeveloperExperience'
+series: Rewrite This
+record_id: repo:m00grin/ph-intercept
+auto: true
+instagram_hashtags_rotating: []

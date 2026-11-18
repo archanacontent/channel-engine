@@ -1,0 +1,90 @@
+skip: false
+skip_reason: ''
+title: Solar energy is mostly industrial. The record says otherwise.
+beats:
+- say: Myth. Solar power depends on large plants.
+  caption: Myth. Solar power depends on large plants.
+  highlight:
+  - Solar power depends on large plants
+  scene:
+    type: headline
+    kicker: Myth
+    text: Solar power depends on large plants
+- say: Ministry of New and Renewable Energy data shows almost 57 lakh residential rooftop solar units are now operational nationwide.
+  caption: Ministry of New and Renewable Energy data shows almost 57 lakh residential rooftop solar units are now operational nationwide.
+  highlight:
+  - 57 lakh residential rooftop solar units
+  scene:
+    type: stat
+    value: 57 lakh
+    label: operational residential rooftop solar units
+    source: MNRE
+- say: Gujarat, Maharashtra, and Uttar Pradesh account for more than 51.11 per cent of the 19,744.31 MW total capacity.
+  caption: Gujarat, Maharashtra, and Uttar Pradesh account for more than 51.11 per cent of the 19,744.31 MW total capacity.
+  highlight:
+  - 51.11 per cent of the 19,744.31 MW
+  scene:
+    type: card
+    title: Top Capacity States
+    rows:
+    - - Gujarat
+      - 3,523.98 MW
+    - - Maharashtra
+      - 3,336.54 MW
+    - - Uttar Pradesh
+      - 3,231.59 MW
+- say: In Maharashtra, 9.16 lakh installations power 13.97 lakh households through multi family adoption.
+  caption: In Maharashtra, 9.16 lakh installations power 13.97 lakh households through multi family adoption.
+  highlight:
+  - 13.97 lakh households
+  scene:
+    type: compare
+    left_label: Maharashtra
+    left_text: 13.97 lakh households
+    right_label: Uttar Pradesh
+    right_text: 9.75 lakh households
+- say: Will your roof be next? Follow for tomorrow's figure.
+  caption: Will your roof be next? Follow for tomorrow's figure.
+  highlight:
+  - Will your roof be next?
+  scene:
+    type: cta
+    line: Will your roof be next?
+    subline: Follow for tomorrow's figure.
+description:
+  summary: India has almost 57 lakh operational residential rooftop solar units.
+  details: 'The Ministry of New and Renewable Energy reported that residential rooftop solar deployment has expanded significantly under the PM Surya Ghar: Muft Bijli Yojana. Gujarat, Maharashtra, and Uttar Pradesh together account for over 51.11 percent of the 19,744.31 MW total capacity. Central subsidies totaling 37,533 crore rupees have been disbursed to support this decentralised generation.'
+  key_figures: 'Total Capacity: 19,744.31 MW
+
+    Operational Units: 57 lakh
+
+    Total Subsidies: ₹37,533 crore
+
+    Gujarat Capacity: 3,523.98 MW'
+  sources:
+  - 'BusinessLine, 18 Nov 2026: https://www.thehindubusinessline.com/economy/pm-surya-ghar-drives-solar-surge-with-gujarat-maharashtra-up-leading-capacity-addition-mnre/article71716488.ece'
+  released: 18 Nov 2026
+  source_link: https://www.thehindubusinessline.com/economy/pm-surya-ghar-drives-solar-surge-with-gujarat-maharashtra-up-leading-capacity-addition-mnre/article71716488.ece
+seo:
+  seeds:
+  - PM Surya Ghar Muft Bijli Yojana
+  - residential rooftop solar India
+  - MNRE solar data
+  - solar capacity by state
+  hashtags:
+  - '#SolarEnergy'
+  - '#PMSuryaGhar'
+  - '#RenewableEnergy'
+  - '#ViksitBharat'
+series: Myth vs Record
+record_id: vbnews:https://www.thehindubusinessline.com/economy/pm-surya-ghar-drives-solar-surge-with-gujarat-maharashtra-up-leading-capacity-addition-mnre/article71716488.ece
+auto: true
+instagram_hashtags_rotating: []
+released: 18 Nov 2026
+posted: '2026-11-18'
+sector: Startups and Markets
+source_label: BusinessLine, 18 Nov 2026
+look:
+  palette: tricolour
+  motion: rays
+  hook: myth_stamp

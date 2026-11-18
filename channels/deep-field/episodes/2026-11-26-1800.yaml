@@ -1,0 +1,74 @@
+skip: false
+skip_reason: ''
+title: How big is Jupiter, really?
+beats:
+- say: Jupiter is twenty nine point three one times wider than Mercury.
+  caption: Jupiter is 29.31 times wider than Mercury.
+  highlight:
+  - 29.31 times wider
+  scene:
+    type: headline
+    text: Jupiter vs Mercury
+- say: Mercury has a diameter of four thousand eight hundred seventy nine kilometers.
+  caption: Mercury has a diameter of 4,879 km.
+  highlight:
+  - 4,879 km
+  scene:
+    type: stat
+    value: 4,879
+    label: Mercury diameter (km)
+- say: Jupiter spans one hundred forty two thousand nine hundred eighty four kilometers.
+  caption: Jupiter spans 142,984 km.
+  highlight:
+  - 142,984 km
+  scene:
+    type: stat
+    value: 142,984
+    label: Jupiter diameter (km)
+- say: Mercury sits fifty seven point nine million kilometers from the Sun.
+  caption: Mercury is 57.9 million km from the Sun.
+  highlight:
+  - 57.9 million km
+  scene:
+    type: card
+    title: Mercury distance
+    rows:
+    - - Sun distance
+      - 57.9 million km
+- say: Jupiter orbits at seven hundred seventy eight point five million kilometers away.
+  caption: Jupiter is 778.5 million km from the Sun.
+  highlight:
+  - 778.5 million km
+  scene:
+    type: card
+    title: Jupiter distance
+    rows:
+    - - Sun distance
+      - 778.5 million km
+- say: Figures from NASA's Planetary Fact Sheet.
+  caption: Figures from NASA's Planetary Fact Sheet.
+  highlight:
+  - NASA's Planetary Fact Sheet
+  scene:
+    type: sizes
+    a_label: Jupiter
+    a_value: 142984.0
+    b_label: Mercury
+    b_value: 4879.0
+    unit: km
+description:
+  explainer: Jupiter is 29.31 times wider than Mercury. This scale comparison uses NASA data to show the size difference between the gas giant and the smallest planet.
+  sources:
+  - 'NASA Planetary Fact Sheet: https://nssdc.gsfc.nasa.gov/planetary/factsheet/'
+seo:
+  seeds:
+  - Jupiter diameter vs Mercury
+  - how big is Jupiter
+  - Jupiter and Mercury comparison
+  hashtags:
+  - '#Space'
+  - '#Jupiter'
+series: Scale It
+record_id: scale:JUPITER:MERCURY
+auto: true
+instagram_hashtags_rotating: []

@@ -1,0 +1,62 @@
+skip: false
+title: 'Exploited now: Siemens Software Center CVE-2026-110936'
+beats:
+- say: An authenticated local attacker can execute arbitrary code on Siemens Software Center.
+  caption: An authenticated local attacker can execute arbitrary code on Siemens Software Center.
+  scene:
+    type: headline
+    text: Siemens Software Center vulnerability exploited
+  highlight: []
+- say: This affects all versions of Siemens Software Center before version 4.0.9.8.
+  caption: This affects all versions of Siemens Software Center before version 4.0.9.8.
+  scene:
+    type: stat
+    label: Affected versions
+    value: Below V4.0.9.8
+  highlight: []
+- say: The flaw uses an uncontrolled search path to load malicious dynamic link libraries.
+  caption: The flaw uses an uncontrolled search path to load malicious dynamic link libraries.
+  scene:
+    type: headline
+    text: Uncontrolled search path element
+  highlight: []
+- say: CISA added this to the Known Exploited Vulnerabilities catalog on October 20, 2026, with a remediation deadline of November 3, 2026.
+  caption: CISA added this to the Known Exploited Vulnerabilities catalog on October 20, 2026, with a remediation deadline of November 3, 2026.
+  scene:
+    type: stat
+    value: CVE-2026-110936
+    label: CISA KEV Details
+  highlight: []
+- say: Apply mitigations per Siemens instructions and evaluate asset exposure immediately.
+  caption: Apply mitigations per Siemens instructions and evaluate asset exposure immediately.
+  scene:
+    type: list
+    title: Required Actions
+    items:
+    - Apply vendor mitigations, check exposure, ensure BOD 26-04 compliance
+  highlight: []
+- say: Sources are in the description.
+  caption: Sources are in the description.
+  scene:
+    type: cta
+    line: Stay secure
+    subline: Sources are in the description
+  highlight: []
+description:
+  summary: Siemens Software Center contains an uncontrolled search path element vulnerability that allows local attackers to execute arbitrary code. This flaw affects all versions prior to V4.0.9.8.
+  affected: Siemens Software Center versions before V4.0.9.8.
+  action: Apply mitigations provided by Siemens and ensure compliance with CISA BOD 26-04 guidelines.
+  sources:
+  - 'CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog'
+  - 'NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-110936'
+seo:
+  seeds:
+  - Siemens Software Center vulnerability
+  - CVE-2026-110936
+  - CISA KEV Siemens
+  - arbitrary code execution vulnerability
+  - Siemens security update 2026
+series: Exploited Today
+record_id: kev:CVE-2026-110936
+auto: true
+instagram_hashtags_rotating: []

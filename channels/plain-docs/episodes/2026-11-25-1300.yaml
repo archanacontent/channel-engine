@@ -1,0 +1,59 @@
+skip: false
+title: 'Writing rule: Format placeholders clearly in Google developer documentation'
+beats:
+- say: Never use a single x or a series of x characters as placeholders in your documentation.
+  caption: Never use a single x or a series of x characters as placeholders in your documentation.
+  scene:
+    type: headline
+    text: Avoid using x as a placeholder
+  highlight: []
+- say: Use a descriptive default value like PROJECT ID instead of ambiguous characters.
+  caption: Use a descriptive default value like PROJECT_ID instead of ambiguous characters.
+  scene:
+    type: compare
+    left_label: Weak
+    left_text: xxx
+    right_label: Better
+    right_text: PROJECT_ID
+  highlight: []
+- say: In Markdown inline text, wrap your placeholders in backticks with an asterisk before the first backtick and after the second one.
+  caption: In Markdown inline text, wrap your placeholders in backticks with an asterisk before the first backtick and after the second one.
+  scene:
+    type: list
+    items:
+    - Use backticks
+    - Add asterisks
+    - Keep it clear
+    style: check
+    title: Key points
+  highlight: []
+- say: Google developer documentation guidelines ensure readers easily understand which values need replacement.
+  caption: Google developer documentation guidelines ensure readers easily understand which values need replacement.
+  scene:
+    type: quote
+    highlight:
+    - Google developer documentation guidelines
+    text: Google developer documentation guidelines ensure readers easily understand which values need replacement.
+  highlight: []
+- say: Apply these exact formatting rules today to make your technical guides professional and easy to finish.
+  caption: Apply these exact formatting rules today to make your technical guides professional and easy to finish.
+  scene:
+    type: cta
+    line: Improve your technical writing
+    subline: Subscribe for more tutorials
+  highlight: []
+description:
+  what_was_fixed: Vague placeholder characters were replaced with descriptive names following Google style guidelines.
+  rule: Use descriptive placeholder names instead of ambiguous characters.
+  sources:
+  - 'Google developer documentation: https://developers.google.com/style/placeholders'
+seo:
+  seeds:
+  - google developer documentation placeholders
+  - technical writing guide
+  - how to write documentation
+  - developer style guide placeholders માટે spelling error fix
+series: One Rule
+record_id: style:https://developers.google.com/style/placeholders
+auto: true
+instagram_hashtags_rotating: []

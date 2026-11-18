@@ -1,0 +1,80 @@
+format: strip
+kind: image
+tone: satire
+title: Fresh Air
+premise: Ravi pivots his startup to monetize breathable air in the office.
+panels:
+- room: meeting_room
+  shot: medium
+  cast:
+  - who: Ravi
+    mood: smug
+    pos: center
+    size: medium
+    holding: clipboard
+  lines:
+  - who: Ravi
+    text: We are pivoting from SaaS to breathable air.
+  fx:
+  - sparkles
+  props: []
+- room: meeting_room
+  shot: close
+  cast:
+  - who: Dev
+    mood: tired
+    pos: left
+    size: medium
+    holding: mug
+  lines:
+  - who: Dev
+    text: We were already breathing it for free, Ravi.
+  props: []
+- room: meeting_room
+  shot: medium
+  cast:
+  - who: Ravi
+    mood: proud
+    pos: right
+    size: medium
+    holding: clipboard
+  - who: Dev
+    mood: panic
+    pos: left
+    size: medium
+  lines:
+  - who: Ravi
+    text: That was the beta phase. Now it is a subscription.
+  fx:
+  - speed_lines
+  props: []
+- room: meeting_room
+  shot: extreme_close
+  cast:
+  - who: Dev
+    mood: deadpan
+    pos: center
+    size: large
+  lines:
+  - who: Dev
+    text: I am holding my breath until my severance clears.
+  props: []
+caption: 'Quarterly oxygen targets are looking strong.
+
+  .
+
+  .
+
+  .
+
+  #comics #cartoon #digitalart #webcomic #comicbooks
+
+  comic | drawing | art | illustration | artist | sketch
+
+  #cartoonist #comicart #comicbook #funnycomics #draw #artwork #officehumor #comicstrip #funny #relatable #artistsoninstagram #comicsofy #doodle #webtoon #viral #viralcomics #explorepage #startup #corporatelife #hustle #tech'
+description:
+  summary: Quarterly oxygen targets are looking strong.
+series: Pim and Soot Comic
+record_id: strip:image:1795023314772968447:0
+auto: true
+instagram_hashtags_rotating: []

@@ -1,0 +1,53 @@
+skip: false
+title: 'AI search in 2026: why brand recommendations matter more than citations'
+beats:
+- say: If an AI answer mentions your brand but recommends a competitor, what have you won?
+  caption: If an AI answer mentions your brand but recommends a competitor, what have you won?
+  scene:
+    type: headline
+    text: If AI mentions you but recommends a rival, what have you won?
+  highlight:
+  - mentions your brand
+  - recommends a competitor
+- say: Patrick Reinhart of Conductor explained on the Search Engine Journal Podcast that recommendations are the golden metric.
+  caption: Patrick Reinhart of Conductor explained on the Search Engine Journal Podcast that recommendations are the golden metric.
+  scene:
+    type: stat
+    value: Recommendations
+    label: AI Search Metric
+  highlight:
+  - golden metric
+- say: Enterprise brands must align SEO, PR, social, and leadership to shape what answer engines say.
+  caption: Enterprise brands must align SEO, PR, social, and leadership to shape what answer engines say.
+  scene:
+    type: list
+    title: Required Teams
+    unit: ''
+    items:
+    - 4 teams
+  highlight:
+  - align SEO, PR, social, and leadership
+- say: Check Search Engine Journal for the full report on answer engine optimization. Source in the description.
+  caption: Check Search Engine Journal for the full report on answer engine optimization. Source in the description.
+  scene:
+    type: cta
+    line: Read the full report
+    subline: Source in the description
+  highlight:
+  - Source in the description
+description:
+  hook: Patrick Reinhart discusses why brand recommendations outweigh simple citations in AI search.
+  answer: Enterprise brands must unify SEO, PR, social, and leadership to drive positive AI recommendations rather than mere mentions.
+  sources:
+  - 'Patrick Reinhart On The Golden Metric In AI Search: Brand Recommendations via @sejournal, @lorenbaker: https://www.searchenginejournal.com/patrick-reinhart-on-the-golden-metric-in-ai-search-brand-recommendations/597056/'
+seo:
+  seeds:
+  - AI search brand recommendations
+  - answer engine optimization metrics
+  - Conductor Patrick Reinhart AI search
+  - Search Engine Journal AI podcast
+skip_reason: ''
+series: Trend Check
+record_id: news:https://www.searchenginejournal.com/patrick-reinhart-on-the-golden-metric-in-ai-search-brand-recommendations/597056/
+auto: true
+instagram_hashtags_rotating: []
