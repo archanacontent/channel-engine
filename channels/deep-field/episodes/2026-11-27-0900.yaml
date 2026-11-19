@@ -1,0 +1,69 @@
+skip: false
+skip_reason: ''
+title: 'What you''re looking at: Lightning storm'
+beats:
+- say: Lightning illuminates clouds during a storm off the coast of North Carolina.
+  caption: Lightning illuminates clouds during a storm off the coast of North Carolina.
+  highlight:
+  - Lightning illuminates clouds
+  - off the coast of North Carolina
+  scene:
+    type: headline
+    text: Lightning storm off North Carolina
+- say: This nebula like formation is actually a massive electrical discharge.
+  caption: This nebula-like formation is actually a massive electrical discharge.
+  highlight:
+  - nebula-like formation
+  - electrical discharge
+  scene:
+    type: image
+    credit: NASA/JSC
+- say: The International Space Station captured this view while orbiting two hundred sixty miles above the Atlantic Ocean.
+  caption: The International Space Station captured this view while orbiting 260 miles above the Atlantic Ocean.
+  highlight:
+  - International Space Station
+  - 260 miles above the Atlantic Ocean
+  scene:
+    type: stat
+    value: '260'
+    label: miles above the Atlantic Ocean
+- say: From this altitude, the storm appears as a glowing pattern of light trapped within the clouds.
+  caption: From this altitude, the storm appears as a glowing pattern of light trapped within the clouds.
+  highlight:
+  - glowing pattern of light
+  - trapped within the clouds
+  scene:
+    type: card
+    title: Observation Details
+    rows:
+    - - Location
+      - North Carolina coast
+    - - Platform
+      - ISS
+- say: Image credit in the description.
+  caption: Image credit in the description.
+  highlight: []
+  scene:
+    type: cta
+    line: Follow Space Science
+    subline: Daily space imagery explained
+description:
+  explainer: This image shows lightning illuminating clouds during a storm off the coast of North Carolina. It was captured from the International Space Station orbiting 260 miles above the Atlantic Ocean.
+  sources:
+  - 'NASA Image and Video Library: https://images.nasa.gov/details/iss073e0080327'
+  credit: NASA
+seo:
+  seeds:
+  - lightning from space
+  - ISS North Carolina storm
+  - NASA lightning clouds
+  hashtags:
+  - '#SpaceScience'
+  - '#NASA'
+series: Look Closer
+record_id: nasa:iss073e0080327
+auto: true
+instagram_hashtags_rotating: []
+media:
+  image: /home/runner/work/channel-engine/channel-engine/collected/deep-field/media/2026-11-27-0900.jpg
+  credit: NASA

@@ -1,89 +1,89 @@
 skip: false
 skip_reason: ''
-title: Solar energy is mostly industrial. The record says otherwise.
+title: India's growth is slowing down. The record says otherwise.
 beats:
-- say: Myth. Solar power depends on large plants.
-  caption: Myth. Solar power depends on large plants.
+- say: India's economic growth is slowing down. Myth.
+  caption: India's economic growth is slowing down. Myth.
   highlight:
-  - Solar power depends on large plants
+  - economic growth is slowing down
   scene:
     type: headline
     kicker: Myth
-    text: Solar power depends on large plants
-- say: Ministry of New and Renewable Energy data shows almost 57 lakh residential rooftop solar units are now operational nationwide.
-  caption: Ministry of New and Renewable Energy data shows almost 57 lakh residential rooftop solar units are now operational nationwide.
+    text: India's economic growth is slowing down
+- say: A Reuters poll of economists shows the economy likely grew 7.6 percent in the July to September quarter. This is the fastest pace among major economies.
+  caption: A Reuters poll of economists shows the economy likely grew 7.6% in the July-September quarter. This is the fastest pace among major economies.
   highlight:
-  - 57 lakh residential rooftop solar units
+  - grew 7.6%
+  - fastest pace among major economies
   scene:
     type: stat
-    value: 57 lakh
-    label: operational residential rooftop solar units
-    source: MNRE
-- say: Gujarat, Maharashtra, and Uttar Pradesh account for more than 51.11 per cent of the 19,744.31 MW total capacity.
-  caption: Gujarat, Maharashtra, and Uttar Pradesh account for more than 51.11 per cent of the 19,744.31 MW total capacity.
+    value: 7.6%
+    label: GDP growth (July-September quarter)
+    source: Reuters poll
+- say: Resilient consumer demand and strong passenger vehicle sales helped offset higher inflation. Bank credit growth also pointed to continued strength.
+  caption: Resilient consumer demand and strong passenger vehicle sales helped offset higher inflation. Bank credit growth also pointed to continued strength.
   highlight:
-  - 51.11 per cent of the 19,744.31 MW
+  - resilient consumer demand
+  - strong passenger vehicle sales
   scene:
-    type: card
-    title: Top Capacity States
-    rows:
-    - - Gujarat
-      - 3,523.98 MW
-    - - Maharashtra
-      - 3,336.54 MW
-    - - Uttar Pradesh
-      - 3,231.59 MW
-- say: In Maharashtra, 9.16 lakh installations power 13.97 lakh households through multi family adoption.
-  caption: In Maharashtra, 9.16 lakh installations power 13.97 lakh households through multi family adoption.
+    type: list
+    title: Growth Drivers
+    items:
+    - Consumer demand
+    - Passenger vehicle sales
+    - Bank credit growth
+    style: check
+- say: Economists forecast gross value added to grow 7.7 percent. This follows an 8.2 percent expansion in the previous quarter.
+  caption: Economists forecast gross value added to grow 7.7%. This follows an 8.2% expansion in the previous quarter.
   highlight:
-  - 13.97 lakh households
+  - 8.2% expansion
   scene:
     type: compare
-    left_label: Maharashtra
-    left_text: 13.97 lakh households
-    right_label: Uttar Pradesh
-    right_text: 9.75 lakh households
-- say: Will your roof be next? Follow for tomorrow's figure.
-  caption: Will your roof be next? Follow for tomorrow's figure.
+    left_label: Previous Quarter
+    left_text: 8.2% GVA expansion
+    right_label: July-September
+    right_text: 7.7% GVA forecast
+- say: Will India maintain this momentum through the fiscal year? Follow for tomorrow's figure.
+  caption: Will India maintain this momentum through the fiscal year? Follow for tomorrow's figure.
   highlight:
-  - Will your roof be next?
+  - maintain this momentum
   scene:
     type: cta
-    line: Will your roof be next?
+    line: Will India maintain this momentum through the fiscal year?
     subline: Follow for tomorrow's figure.
 description:
-  summary: India has almost 57 lakh operational residential rooftop solar units.
-  details: 'The Ministry of New and Renewable Energy reported that residential rooftop solar deployment has expanded significantly under the PM Surya Ghar: Muft Bijli Yojana. Gujarat, Maharashtra, and Uttar Pradesh together account for over 51.11 percent of the 19,744.31 MW total capacity. Central subsidies totaling 37,533 crore rupees have been disbursed to support this decentralised generation.'
-  key_figures: 'Total Capacity: 19,744.31 MW
-
-    Operational Units: 57 lakh
-
-    Total Subsidies: ₹37,533 crore
-
-    Gujarat Capacity: 3,523.98 MW'
+  summary: India's economy is projected to grow by 7.6 percent in the July-September quarter.
+  details: A Reuters poll of 43 economists predicts India's GDP grew 7.6 percent in the July-September quarter, the fastest pace among major economies. Resilient consumer demand and passenger vehicle sales helped mitigate inflationary pressures. While growth may moderate in the second half of the fiscal year, investment is expected to improve.
+  key_figures:
+  - 'July-September GDP growth: 7.6%'
+  - 'Previous quarter expansion: 7.8%'
+  - 'Forecasted GVA growth: 7.7%'
+  - 'Previous GVA expansion: 8.2%'
   sources:
-  - 'BusinessLine, 18 Nov 2026: https://www.thehindubusinessline.com/economy/pm-surya-ghar-drives-solar-surge-with-gujarat-maharashtra-up-leading-capacity-addition-mnre/article71716488.ece'
+  - 'Economic Times, 18 Nov 2026: https://economictimes.indiatimes.com/news/economy/indicators/indian-economic-growth-seen-at-annual-7-6-in-july-september-quarter-economists-say/articleshow/135953992.cms'
   released: 18 Nov 2026
-  source_link: https://www.thehindubusinessline.com/economy/pm-surya-ghar-drives-solar-surge-with-gujarat-maharashtra-up-leading-capacity-addition-mnre/article71716488.ece
+  source_link: https://economictimes.indiatimes.com/news/economy/indicators/indian-economic-growth-seen-at-annual-7-6-in-july-september-quarter-economists-say/articleshow/135953992.cms
 seo:
   seeds:
-  - PM Surya Ghar Muft Bijli Yojana
-  - residential rooftop solar India
-  - MNRE solar data
-  - solar capacity by state
+  - India GDP growth rate
+  - India economic growth forecast
+  - Reuters economist poll India
+  - India consumer demand resilience
+  - India GVA growth
+  - Indian economy July September quarter
   hashtags:
-  - '#SolarEnergy'
-  - '#PMSuryaGhar'
-  - '#RenewableEnergy'
+  - '#IndiaEconomy'
+  - '#GDPGrowth'
   - '#ViksitBharat'
+  - '#EconomicData'
 series: Myth vs Record
-record_id: vbnews:https://www.thehindubusinessline.com/economy/pm-surya-ghar-drives-solar-surge-with-gujarat-maharashtra-up-leading-capacity-addition-mnre/article71716488.ece
+record_id: vbnews:https://economictimes.indiatimes.com/news/economy/indicators/indian-economic-growth-seen-at-annual-7-6-in-july-september-quarter-economists-say/articleshow/135953992.cms
 auto: true
 instagram_hashtags_rotating: []
 released: 18 Nov 2026
 posted: '2026-11-18'
 sector: Startups and Markets
-source_label: BusinessLine, 18 Nov 2026
+source_label: Economic Times, 18 Nov 2026
 look:
   palette: tricolour
   motion: rays

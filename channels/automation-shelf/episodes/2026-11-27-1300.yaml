@@ -1,0 +1,65 @@
+skip: false
+title: 'Free workflow: generate AI product marketing photos on autopilot'
+beats:
+- say: Stop paying your team to manually create advertising photos when n eight n can do it with Google Gemini.
+  caption: Stop paying your team to manually create advertising photos when n8n can do it with Google Gemini.
+  scene:
+    type: headline
+    text: Generate AI Product Marketing Photos
+  highlight:
+  - n8n can do it
+- say: This template reads product image links from a Google Sheet and analyzes each image.
+  caption: This template reads product image links from a Google Sheet and analyzes each image.
+  scene:
+    type: flow
+    steps:
+    - title: Google Sheets
+      note: Read image links
+    - title: Google Gemini
+      note: Analyze images
+    - title: Google Drive
+      note: Save final photos
+  highlight:
+  - reads product image links
+- say: It generates an AI prompt, combines the product with a model image, and saves the final result to Drive.
+  caption: It generates an AI prompt, combines the product with a model image, and saves the final result to Drive.
+  scene:
+    type: stat
+    value: Automated
+    label: Workflow Actions
+  highlight:
+  - combines the product
+- say: Finally, it logs your prompts and result links directly into a separate output sheet.
+  caption: Finally, it logs your prompts and result links directly into a separate output sheet.
+  scene:
+    type: headline
+    label: Output
+    value: Sheet Log
+    kicker: Output
+    text: Sheet Log
+  highlight:
+  - logs your prompts
+- say: Template link in the description.
+  caption: Template link in the description.
+  scene:
+    type: cta
+    line: Get this n8n template
+    subline: Template link in the description.
+  highlight:
+  - Template link
+description:
+  task_line: Generate AI product marketing photos automatically from Google Sheets using Google Gemini and Drive.
+  tools: n8n, Google Sheets, Google Gemini, Google Drive
+  sources:
+  - 'n8n template: https://n8n.io/workflows/13804'
+  template_link: https://n8n.io/workflows/13804
+seo:
+  seeds:
+  - ai product photos n8n workflow
+  - google sheets gemini automation
+  - generate marketing photos n8n
+  - automated product photography template
+series: Library Pick
+record_id: n8n:13804
+auto: true
+instagram_hashtags_rotating: []

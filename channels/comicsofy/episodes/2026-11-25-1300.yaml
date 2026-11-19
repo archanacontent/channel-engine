@@ -1,0 +1,89 @@
+format: strip
+kind: image
+tone: cozy
+title: Employee of the Month
+premise: Brenda conducts a formal corporate performance review for Biscuit, who passes every metric by just existing.
+panels:
+- room: park
+  shot: medium
+  cast:
+  - who: Brenda
+    mood: happy
+    pos: left
+    size: medium
+    holding: clipboard
+  - who: Biscuit
+    mood: happy
+    pos: right
+    size: large
+  lines:
+  - who: Brenda
+    text: Time for your Q4 performance review, Biscuit.
+  - who: Biscuit
+    text: I brought my tail!
+  focus: Brenda holds a clipboard in the park on a sunny day.
+  props: []
+- room: park
+  shot: close
+  cast:
+  - who: Brenda
+    mood: proud
+    pos: center
+    size: medium
+    holding: clipboard
+  lines:
+  - who: Brenda
+    text: 'Metric one: morale synergy. You wagged at a mailbox.'
+  focus: Brenda reading off her clipboard.
+  props: []
+- room: park
+  shot: medium
+  cast:
+  - who: Biscuit
+    mood: love
+    pos: left
+    size: large
+    holding: trophy
+  - who: Brenda
+    mood: smug
+    pos: right
+    size: medium
+    holding: clipboard
+  lines:
+  - who: Brenda
+    text: 'Overall outcome: core competency achieved in soft ears.'
+  fx:
+  - sparkles
+  sfx: TADA
+  props: []
+- room: park
+  shot: extreme_close
+  cast:
+  - who: Biscuit
+    mood: happy
+    pos: center
+    size: large
+  lines:
+  - who: Biscuit
+    text: I request a bonus of one belly rub.
+  focus: Biscuit extreme closeup with pure joy.
+  props: []
+caption: '10/10 performance rating across all key metrics.
+
+  .
+
+  .
+
+  .
+
+  #comics #cartoon #digitalart #webcomic #comicbooks
+
+  comic | drawing | art | illustration | artist | sketch
+
+  #cartoonist #comicart #comicbook #funnycomics #draw #artwork #officehumor #comicstrip #funny #relatable #artistsoninstagram #comicsofy #doodle #webtoon #viral #viralcomics #explorepage #goldenretriever #performancereview #wholesomecomics #workplacehumor'
+description:
+  summary: 10/10 performance rating across all key metrics.
+series: Pim and Soot Comic
+record_id: strip:image:1795108967120575602:0
+auto: true
+instagram_hashtags_rotating: []

@@ -1,0 +1,54 @@
+skip: false
+title: 'Writing rule: Format dates and times clearly'
+beats:
+- say: Vague date formats confuse your global readers.
+  caption: Vague date formats confuse your global readers.
+  scene:
+    type: headline
+    text: Vague date formats confuse your global readers.
+  highlight: []
+- say: Google developer documentation suggests using the full month name, day, and four digit year.
+  caption: Google developer documentation suggests using the full month name, day, and four digit year.
+  scene:
+    type: headline
+    text: Use full month names and four digit years.
+  highlight: []
+- say: Do not mix formats. Write January nineteen, two thousand seventeen, instead of Jan 19, 2017.
+  caption: Do not mix formats. Write January 19, 2017, instead of Jan 19, 2017.
+  scene:
+    type: compare
+    left_label: Weak
+    left_text: Jan 19, 2017
+    right_label: Better
+    right_text: January 19, 2017
+  highlight: []
+- say: For times, use the twelve hour clock with AM or PM. Omit minutes for round hours like three PM.
+  caption: For times, use the 12-hour clock with AM or PM. Omit minutes for round hours like 3 PM.
+  scene:
+    type: list
+    title: Time formatting rules
+    items:
+    - 12-hour clock only, omit minutes for round hours, capitalize AM and PM, use one space before AM or PM, avoid time zones unless necessary, use hyphens in ranges, no spaces around hyphens
+  highlight: []
+- say: Expressing dates and times in a clear and unambiguous way helps support writing for a global audience.
+  caption: Expressing dates and times in a clear and unambiguous way helps support writing for a global audience.
+  scene:
+    type: quote
+    text: Expressing dates and times in a clear and unambiguous way helps support writing for a global audience.
+    value: Google developer documentation
+  highlight: []
+description:
+  what_was_fixed: This video clarifies how to format dates and times to avoid ambiguity for global readers.
+  rule: Always use full month names, four digit years, and standard 12 hour clock formats as guided by Google developer documentation.
+  sources:
+  - 'Google developer documentation: https://developers.google.com/style/dates-times'
+seo:
+  seeds:
+  - technical writing dates
+  - formatting timestamps
+  - google style guide dates
+  - technical documentation tips
+series: One Rule
+record_id: style:https://developers.google.com/style/dates-times
+auto: true
+instagram_hashtags_rotating: []

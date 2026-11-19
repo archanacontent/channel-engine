@@ -28,5 +28,23 @@
   "palette": "tricolour",
   "motion": "rays",
   "hook": "myth_stamp"
+ },
+ {
+  "stem": "2026-11-22-0700",
+  "palette": "blue_on_cream",
+  "motion": "ribbon",
+  "hook": "challenge"
+ },
+ {
+  "stem": "2026-11-23-0700",
+  "palette": "saffron_on_charcoal",
+  "motion": "bars",
+  "hook": "challenge"
+ },
+ {
+  "stem": "2026-11-24-0700",
+  "palette": "saffron_on_blue",
+  "motion": "sweep",
+  "hook": "myth_stamp"
  }
 ]

@@ -1,0 +1,77 @@
+skip: false
+skip_reason: ''
+title: 'Fermi: what just happened'
+beats:
+- say: Scientists found a new way to discover pulsars one million times faster.
+  caption: Scientists found a new way to discover pulsars one million times faster.
+  highlight:
+  - one million times faster
+  scene:
+    type: headline
+    text: Pulsar discovery is one million times faster
+- say: The Fermi Gamma-ray Space Telescope scans the entire sky every three hours. Its data helps find pulsars, which are rapidly spinning cores of dead stars.
+  caption: The Fermi Gamma-ray Space Telescope scans the entire sky every three hours. Its data helps find pulsars, which are rapidly spinning cores of dead stars.
+  highlight:
+  - scans the entire sky
+  - rapidly spinning cores
+  scene:
+    type: image
+    credit: NASA's Goddard Space Flight Center/Chris Smith (USRA/GESTAR)
+- say: Finding these signals is difficult because gamma-ray photons are mixed with background noise. Researchers must guess the spin rate, the slowdown rate, and the exact location in the sky.
+  caption: Finding these signals is difficult because gamma-ray photons are mixed with background noise. Researchers must guess the spin rate, the slowdown rate, and the exact location in the sky.
+  highlight:
+  - mixed with background noise
+  - guess the spin rate
+  scene:
+    type: list
+    title: The three unknowns
+    items:
+    - Spin rate
+    - Spin slowdown rate
+    - Sky location
+    style: bullet
+- say: Previous methods would take six hundred years on a standard processor to find pulsar P S R J one six two two minus seven two zero four. This new cryptography-based method found it in just ten hours.
+  caption: Previous methods would take 600 years on a standard processor to find pulsar PSR J1622-7204. This new cryptography-based method found it in just 10 hours.
+  highlight:
+  - 600 years
+  - just 10 hours
+  scene:
+    type: compare
+    left_label: Old Method
+    left_text: 600 years
+    right_label: New Method
+    right_text: 10 hours
+- say: The new technique treats the search as a geometry problem using a high-dimensional lattice. This allows researchers to find isolated pulsars like this one spinning 261 times per second.
+  caption: The new technique treats the search as a geometry problem using a high-dimensional lattice. This allows researchers to find isolated pulsars like this one spinning 261 times per second.
+  highlight:
+  - geometry problem
+  - spinning 261 times per second
+  scene:
+    type: stat
+    value: '261'
+    label: rotations per second
+- say: Source in the description.
+  caption: Source in the description.
+  highlight:
+  - Source in the description
+  scene:
+    type: cta
+    line: Discover more space science
+    subline: Source in the description
+description:
+  explainer: NASA data and a new cryptography-based method allow scientists to find pulsars much faster. This technique uses the Fermi Gamma-ray Space Telescope to identify rapidly spinning neutron stars.
+  sources:
+  - 'NASA: https://science.nasa.gov/open-science/fermi-data-pulsar-discovery/'
+seo:
+  seeds:
+  - NASA Fermi pulsar discovery
+  - how to find pulsars
+  - Fermi Gamma-ray Space Telescope
+  - new pulsar search method
+  hashtags:
+  - '#SpaceScience'
+  - '#NASA'
+series: Mission Log
+record_id: nasanews:https://science.nasa.gov/open-science/fermi-data-pulsar-discovery/
+auto: true
+instagram_hashtags_rotating: []

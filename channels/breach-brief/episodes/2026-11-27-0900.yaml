@@ -1,0 +1,55 @@
+skip: false
+title: 'Exploited now: Synology DSM CVE-2024-10441'
+beats:
+- say: Synology users, a critical remote code execution flaw is under active attack.
+  caption: Synology users, a critical remote code execution flaw is under active attack.
+  scene:
+    type: headline
+    text: Critical remote code execution flaw under attack in Synology devices
+  highlight: []
+- say: The vulnerability, C V E 2 0 2 4 1 0 4 4 1, affects the system plugin daemon in Synology BeeStation OS and DiskStation Manager.
+  caption: The vulnerability, CVE-2024-10441, affects the system plugin daemon in Synology BeeStation OS and DiskStation Manager.
+  scene:
+    type: stat
+    value: 9.8 Critical Score
+    label: CVE-2024-10441 Details
+  highlight: []
+- say: It allows remote attackers to execute arbitrary code. C I S A added this to their known exploited list on November 18, 2026.
+  caption: It allows remote attackers to execute arbitrary code. CISA added this to their known exploited list on November 18, 2026.
+  scene:
+    type: stat
+    value: Added to KEV Nov 18, 2026
+    label: Exploitation Status
+  highlight: []
+- say: You must apply vendor updates immediately. Federal agencies are required to secure these systems by November 21, 2026.
+  caption: You must apply vendor updates immediately. Federal agencies are required to secure these systems by November 21, 2026.
+  scene:
+    type: list
+    title: Required Actions
+    items:
+    - Update immediately per vendor instructions
+  highlight: []
+- say: If updates are unavailable, you must discontinue use of the product. Sources are in the description.
+  caption: If updates are unavailable, you must discontinue use of the product. Sources are in the description.
+  scene:
+    type: cta
+    line: Sources are in the description.
+    subline: Cybersecurity Daily
+  highlight: []
+description:
+  summary: A critical remote code execution vulnerability in Synology DiskStation Manager and BeeStation OS is currently under active exploitation. CISA has added this flaw to its Known Exploited Vulnerabilities catalog with a mandatory remediation deadline.
+  affected: Synology BeeStation OS before 1.1-65374 and Synology DiskStation Manager before 7.2-64570-4, 7.2.1-69057-6, and 7.2.2-72806-1.
+  action: Apply the latest patches from Synology immediately or discontinue use of the device if updates cannot be applied.
+  sources:
+  - 'CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog'
+  - 'NVD: https://nvd.nist.gov/vuln/detail/CVE-2024-10441'
+seo:
+  seeds:
+  - Synology DSM vulnerability
+  - CVE-2024-10441
+  - CISA KEV catalog
+  - Synology security update
+series: Exploited Today
+record_id: kev:CVE-2024-10441
+auto: true
+instagram_hashtags_rotating: []

@@ -1,0 +1,77 @@
+skip: false
+skip_reason: ''
+title: 'Exploited now: BerriAI LiteLLM CVE-2026-40217'
+beats:
+- say: Attackers are using bytecode rewriting to execute code via BerriAI LiteLLM.
+  caption: Attackers are using bytecode rewriting to execute code via BerriAI LiteLLM.
+  highlight:
+  - execute code
+  - BerriAI LiteLLM
+  scene:
+    type: headline
+    text: Remote Code Execution in LiteLLM
+- say: The flaw exists in the slash guardrails slash test underscore custom underscore code U R I.
+  caption: The flaw exists in the /guardrails/test_custom_code URI.
+  highlight:
+  - /guardrails/test_custom_code URI
+  scene:
+    type: card
+    title: Vulnerability Details
+    rows:
+    - - CVE ID
+      - CVE-2026-40217
+    - - Product
+      - BerriAI LiteLLM
+    - - Added
+      - '2026-11-18'
+    - - Due Date
+      - '2026-12-02'
+- say: This vulnerability allows remote attackers to run arbitrary code with a high CVSS score of 8.8.
+  caption: This vulnerability allows remote attackers to run arbitrary code with a high CVSS score of 8.8.
+  highlight:
+  - arbitrary code
+  scene:
+    type: stat
+    value: '8.8'
+    label: CVSS Base Score
+- say: Apply vendor mitigations immediately. If mitigations are unavailable, discontinue use of the product.
+  caption: Apply vendor mitigations immediately. If mitigations are unavailable, discontinue use of the product.
+  highlight:
+  - Apply vendor mitigations
+  - discontinue use
+  scene:
+    type: list
+    title: Required Actions
+    items:
+    - Apply vendor mitigations
+    - Check internet exposure
+    - Follow BOD 26-04
+    - Discontinue if unpatched
+    style: check
+- say: Sources are in the description.
+  caption: Sources are in the description.
+  highlight: []
+  scene:
+    type: cta
+    line: Stay protected.
+    subline: Sources in description
+description:
+  summary: Attackers are exploiting a bytecode rewriting flaw in BerriAI LiteLLM to execute remote code.
+  affected: BerriAI LiteLLM versions prior to 2026-04-08.
+  action: Apply vendor mitigations or discontinue use if no fix is available.
+  sources:
+  - 'CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog'
+  - 'NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-40217'
+seo:
+  seeds:
+  - CVE-2026-40217 exploit
+  - BerriAI LiteLLM vulnerability
+  - LiteLLM remote code execution
+  - CISA KEV BerriAI
+  hashtags:
+  - '#Cybersecurity'
+  - '#LiteLLM'
+series: Exploited Today
+record_id: kev:CVE-2026-40217
+auto: true
+instagram_hashtags_rotating: []

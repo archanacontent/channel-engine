@@ -1,0 +1,53 @@
+skip: false
+title: Fixing a real README in under a minute
+beats:
+- say: Unclear setup guides frustrate users and drive up support tickets. Let us fix a real README section from urlhub.
+  caption: Unclear setup guides frustrate users and drive up support tickets. Let us fix a real README section from urlhub.
+  scene:
+    type: headline
+    text: Rewriting urlhub docs
+  highlight:
+  - urlhub
+- say: Here is the original text. Login one npm install two npm run dev npm run build.
+  caption: Here is the original text. Login 1. npm install 2. npm run dev npm run build
+  scene:
+    type: compare
+    left_label: Original
+    left_text: Login 1. `npm install` 2. npm run dev npm run build
+    right_label: Rewrite
+    right_text: Run npm install and npm run build to compile assets.
+  highlight:
+  - Original
+- say: The original line mixes a login step with raw terminal commands in a broken list. We separate asset compilation into clear instructions.
+  caption: The original line mixes a login step with raw terminal commands in a broken list. We separate asset compilation into clear instructions.
+  scene:
+    type: list
+    title: Fixes Made
+    items:
+    - check
+  highlight:
+  - clear instructions
+- say: Write documentation that gives clear steps instead of jumbled commands.
+  caption: Write documentation that gives clear steps instead of jumbled commands.
+  scene:
+    type: quote
+    text: Write documentation that gives clear steps instead of jumbled commands.
+    value: Write documentation
+  highlight:
+  - clear steps
+description:
+  what_was_fixed: Fixed a confusing setup instruction in the urlhub README by separating asset commands from login steps.
+  rule: Keep setup steps sequential and separate terminal commands from user actions.
+  sources:
+  - 'realodix/urlhub README (MIT): https://github.com/realodix/urlhub'
+  source_link: https://github.com/realodix/urlhub
+  license: MIT
+seo:
+  seeds:
+  - technical writing for beginners
+  - readme documentation example
+  - urlhub setup guide
+series: Rewrite This
+record_id: repo:realodix/urlhub
+auto: true
+instagram_hashtags_rotating: []

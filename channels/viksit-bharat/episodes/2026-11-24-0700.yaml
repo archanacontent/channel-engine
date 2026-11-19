@@ -1,0 +1,92 @@
+skip: false
+skip_reason: ''
+title: Residential solar growth is slow. The record says otherwise.
+beats:
+- say: Myth. India relies only on the grid for home power.
+  caption: Myth. India relies only on the grid for home power.
+  highlight:
+  - Myth
+  scene:
+    type: headline
+    kicker: Myth
+    text: India relies only on the grid for home power
+- say: Ministry of New and Renewable Energy data shows residential rooftop solar has expanded to almost 57 lakh operational units.
+  caption: Ministry of New and Renewable Energy data shows residential rooftop solar has expanded to almost 57 lakh operational units.
+  highlight:
+  - 57 lakh operational units
+  scene:
+    type: stat
+    value: 57 lakh
+    label: operational residential rooftop solar units
+    source: MNRE
+- say: The PM Surya Ghar scheme has added more than 19 G W of capacity. Gujarat, Maharashtra, and Uttar Pradesh account for over 51.11 per cent of the total.
+  caption: The PM Surya Ghar scheme has added more than 19 GW of capacity. Gujarat, Maharashtra, and Uttar Pradesh account for over 51.11 per cent of the total.
+  highlight:
+  - 51.11 per cent
+  scene:
+    type: card
+    title: Top 3 Solar States
+    rows:
+    - - Gujarat
+      - 3,523.98 MW
+    - - Maharashtra
+      - 3,336.54 MW
+    - - Uttar Pradesh
+      - 3,231.59 MW
+- say: Kerala leads in generation density. It averages 3.87 k W per setup, which is the highest yield per roof among major states.
+  caption: Kerala leads in generation density. It averages 3.87 kW per setup, which is the highest yield per roof among major states.
+  highlight:
+  - highest yield per roof
+  - 3.87 kW per setup
+  scene:
+    type: compare
+    left_label: Kerala
+    left_text: 3.87 kW per setup
+    right_label: Gujarat
+    right_text: 3.75 kW per setup
+- say: Which state will lead the solar surge next? Follow for tomorrow's figure.
+  caption: Which state will lead the solar surge next? Follow for tomorrow's figure.
+  highlight: []
+  scene:
+    type: cta
+    line: Which state will lead the solar surge next?
+    subline: Follow for tomorrow's figure.
+description:
+  summary: India's residential rooftop solar has reached almost 57 lakh operational units.
+  details: 'The Ministry of New and Renewable Energy reported that the PM Surya Ghar: Muft Bijli Yojana has added more than 19 GW of capacity. Gujarat, Maharashtra, and Uttar Pradesh account for over 51.11 per cent of the total capacity. Kerala leads in generation density with the highest yield per roof among major states.'
+  key_figures: 'Total Capacity: 19,744.31 MW
+
+    Gujarat Capacity: 3,523.98 MW
+
+    Maharashtra Capacity: 3,336.54 MW
+
+    Uttar Pradesh Capacity: 3,231.59 MW
+
+    Kerala Yield: 3.87 kW per setup'
+  sources:
+  - 'BusinessLine, 19 Nov 2026: https://www.thehindubusinessline.com/economy/pm-surya-ghar-drives-solar-surge-with-gujarat-maharashtra-up-leading-capacity-addition-mnre/article71716488.ece'
+  released: 19 Nov 2026
+  source_link: https://www.thehindubusinessline.com/economy/pm-surya-ghar-drives-solar-surge-with-gujarat-maharashtra-up-leading-capacity-addition-mnre/article71716488.ece
+seo:
+  seeds:
+  - PM Surya Ghar scheme
+  - residential rooftop solar India
+  - MNRE solar data
+  - solar capacity by state
+  hashtags:
+  - '#SolarEnergy'
+  - '#PMSuryaGhar'
+  - '#RenewableEnergy'
+  - '#ViksitBharat'
+series: Myth vs Record
+record_id: vbnews:https://www.thehindubusinessline.com/economy/pm-surya-ghar-drives-solar-surge-with-gujarat-maharashtra-up-leading-capacity-addition-mnre/article71716488.ece
+auto: true
+instagram_hashtags_rotating: []
+released: 19 Nov 2026
+posted: '2026-11-19'
+sector: Newest Release
+source_label: BusinessLine, 19 Nov 2026
+look:
+  palette: saffron_on_blue
+  motion: sweep
+  hook: myth_stamp

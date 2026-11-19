@@ -1,0 +1,90 @@
+format: strip
+kind: reel
+tone: dark
+title: Calendar Conflict
+premise: Dev asks Mort if his impending demise can be moved up to overlap with a mandatory corporate all-hands meeting.
+panels:
+- room: living_room
+  shot: wide
+  cast:
+  - who: Dev
+    mood: tired
+    pos: left
+    size: medium
+    holding: coffee
+  - who: Mort
+    mood: deadpan
+    pos: right
+    size: medium
+    holding: clipboard
+  lines:
+  - who: Mort
+    text: Your final exit is slated for Thursday at three.
+  - who: Dev
+    text: Can we move it to Tuesday at ten?
+  focus: Dev negotiates his final schedule.
+  props: []
+- room: living_room
+  shot: medium
+  cast:
+  - who: Mort
+    mood: shocked
+    pos: right
+    size: medium
+    holding: clipboard
+  - who: Dev
+    mood: deadpan
+    pos: left
+    size: medium
+  lines:
+  - who: Mort
+    text: That is forty-eight hours early.
+  - who: Dev
+    text: Tuesday is the mandatory synergy workshop.
+  focus: Mort is taken aback by Dev's eagerness.
+  props: []
+- room: living_room
+  shot: close
+  cast:
+  - who: Dev
+    mood: deadpan
+    pos: center
+    size: medium
+    holding: coffee
+  lines:
+  - who: Dev
+    text: I will literally accept damnation to skip Q4 strategy.
+  focus: Dev makes his unwavering stance clear.
+  props: []
+- room: living_room
+  shot: extreme_close
+  cast:
+  - who: Mort
+    mood: scheming
+    pos: center
+    size: medium
+    holding: clipboard
+  lines:
+  - who: Mort
+    text: I will send a calendar invite.
+  focus: Mort agrees to the corporate accommodation.
+  props: []
+caption: 'Check my availability.
+
+  .
+
+  .
+
+  .
+
+  #comics #cartoon #digitalart #webcomic #comicbooks
+
+  comic | drawing | art | illustration | artist | sketch
+
+  #cartoonist #comicart #comicbook #funnycomics #draw #artwork #officehumor #comicstrip #funny #relatable #artistsoninstagram #comicsofy #doodle #webtoon #viral #viralcomics #explorepage #corporatehumor #workplaceburnout #adulting #darkcomedy'
+description:
+  summary: Check my availability.
+series: Pim and Soot Reel
+record_id: strip:reel:1795109242237633343:0
+auto: true
+instagram_hashtags_rotating: []

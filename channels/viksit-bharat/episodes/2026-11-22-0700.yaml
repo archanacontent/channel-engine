@@ -1,0 +1,82 @@
+skip: false
+skip_reason: ''
+title: India's growth is slowing down. The record says otherwise.
+beats:
+- say: Myth. India's economic growth is stalling.
+  caption: Myth. India's economic growth is stalling.
+  highlight:
+  - economic growth is stalling
+  scene:
+    type: headline
+    kicker: Myth
+    text: India's economic growth is stalling
+- say: E A C P M data shows GDP growth is expected to reach 7.3 per cent this financial year.
+  caption: EAC-PM data shows GDP growth is expected to reach 7.3% this financial year.
+  highlight: []
+  scene:
+    type: stat
+    value: 7.3%
+    label: Expected GDP growth FY26-27
+    source: EAC-PM
+- say: The economy is projected to grow at around 7.7 per cent in the next quarter.
+  caption: The economy is projected to grow at around 7.7% in the next quarter.
+  highlight: []
+  scene:
+    type: card
+    title: Growth Projections
+    rows:
+    - - Next quarter projection
+      - 7.7%
+- say: India is also targeting 1 trillion US dollars in exports for the 2026 to 2027 financial year.
+  caption: India is also targeting $1 trillion in exports for FY 2026-27.
+  highlight: []
+  scene:
+    type: list
+    title: Growth Drivers
+    items:
+    - 7.3% GDP growth
+    - 7.7% next quarter
+    - $1 trillion export target
+    style: bullet
+- say: Will these targets be met? Follow for tomorrow's figure.
+  caption: Will these targets be met? Follow for tomorrow's figure.
+  highlight:
+  - Follow for tomorrow's figure
+  scene:
+    type: cta
+    line: Will these targets be met?
+    subline: Follow for tomorrow's figure.
+description:
+  summary: India's GDP growth is expected to reach 7.3% this financial year.
+  details: The Economic Advisory Council to the Prime Minister projected a 7.3% GDP growth for the current financial year. Growth is expected to reach 7.7% in the next quarter. The country is also targeting 1 trillion dollars in exports for FY 2026-27.
+  key_figures:
+  - 'FY26-27 GDP growth: 7.3%'
+  - 'Next quarter growth: 7.7%'
+  - 'FY26-27 export target: USD 1 trillion'
+  sources:
+  - 'Economic Times, 17 Nov 2026: https://economictimes.indiatimes.com/news/economy/indicators/indias-gdp-growth-pegged-at-7-3-in-fy26-27-may-touch-7-7-next-quarter-eac-pm-chairman/articleshow/135923170.cms'
+  released: 17 Nov 2026
+  source_link: https://economictimes.indiatimes.com/news/economy/indicators/indias-gdp-growth-pegged-at-7-3-in-fy26-27-may-touch-7-7-next-quarter-eac-pm-chairman/articleshow/135923170.cms
+seo:
+  seeds:
+  - India GDP growth forecast
+  - EAC-PM economic projections
+  - India export target 2027
+  - India economic outlook FY27
+  hashtags:
+  - '#IndianEconomy'
+  - '#GDPGrowth'
+  - '#ViksitBharat'
+  - '#EconomicGrowth'
+series: Myth vs Record
+record_id: vbnews:https://economictimes.indiatimes.com/news/economy/indicators/indias-gdp-growth-pegged-at-7-3-in-fy26-27-may-touch-7-7-next-quarter-eac-pm-chairman/articleshow/135923170.cms
+auto: true
+instagram_hashtags_rotating: []
+released: 17 Nov 2026
+posted: '2026-11-17'
+sector: Startups and Markets
+source_label: Economic Times, 17 Nov 2026
+look:
+  palette: blue_on_cream
+  motion: ribbon
+  hook: challenge

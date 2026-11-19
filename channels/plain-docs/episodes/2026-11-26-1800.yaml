@@ -1,0 +1,62 @@
+skip: false
+title: Fixing a real README in under a minute
+beats:
+- say: Stop burying your call to action in polite filler.
+  caption: Stop burying your call to action in polite filler.
+  scene:
+    type: headline
+    text: Stop burying your call to action in polite filler
+  highlight:
+  - call to action
+- say: 'Look at this line in the documentation: Do not hesitate to consult me for your firewall expertise needs (audit, integration, migration, issues, etc.): see contact below.'
+  caption: 'Look at this line in the documentation: "Do not hesitate to consult me for your firewall expertise needs (audit, integration, migration, issues, etc.): see contact below."'
+  scene:
+    type: compare
+    left_label: Original
+    left_text: 'Do not hesitate to consult me for your firewall expertise needs (audit, integration, migration, issues, etc.): see contact below.'
+    right_label: Improved
+    right_text: Hire me for firewall audits, integration, or migration. Contact details below.
+  highlight:
+  - Do not hesitate to consult me
+- say: Do not hesitate to consult me is passive fluff. It adds zero information.
+  caption: Do not hesitate to consult me is passive fluff. It adds zero information.
+  scene:
+    type: list
+    title: Passive vs Direct
+    items:
+    - Passive phrases weaken your message and waste reader time.
+  highlight:
+  - passive fluff
+- say: Cutting the filler forces you to use strong, active verbs.
+  caption: Cutting the filler forces you to use strong, active verbs.
+  scene:
+    type: quote
+    text: Hire me for firewall audits, integration, or migration.
+    title: Active Version
+  highlight:
+  - active verbs
+- say: Keep your documentation direct. Active voice gets results.
+  caption: Keep your documentation direct. Active voice gets results.
+  scene:
+    type: cta
+    line: Write docs people finish.
+    subline: Subscribe for more technical writing tips.
+  highlight:
+  - Active voice
+description:
+  what_was_fixed: I removed passive, wordy phrasing from a professional README call to action.
+  rule: Replace polite, passive filler with direct, active verbs.
+  sources:
+  - 'romainmarcoux/malicious-domains README (MIT): https://github.com/romainmarcoux/malicious-domains'
+  source_link: https://github.com/romainmarcoux/malicious-domains
+  license: MIT
+seo:
+  seeds:
+  - how to write a readme
+  - technical writing tips
+  - improve documentation quality
+  - writing for developers
+series: Rewrite This
+record_id: repo:romainmarcoux/malicious-domains
+auto: true
+instagram_hashtags_rotating: []

@@ -1,0 +1,82 @@
+skip: false
+title: Can you automate product image generation?
+beats:
+- say: Can you automate product image generation? Yes, using an n eight n workflow.
+  caption: Can you automate product image generation? Yes, using an n8n workflow.
+  scene:
+    type: headline
+    text: Can you automate product image generation?
+  highlight:
+  - product image generation
+  - n8n workflow
+- say: An initial form trigger collects parameters like resolution, initial image, and instructions.
+  caption: An initial form trigger collects parameters like resolution, initial image, and instructions.
+  scene:
+    type: list
+    title: Form Parameters
+    unit: ''
+    items:
+    - Trigger Inputs
+  highlight: []
+- say: A sub-workflow makes a POST request to the Replicate API for Riverflow 2.0 generation.
+  caption: A sub-workflow makes a POST request to the Replicate API for Riverflow 2.0 generation.
+  scene:
+    type: flow
+    steps:
+    - title: Sub-Workflow
+      note: POST request to Replicate API
+    - title: Status Check
+      note: GET request loop for completion
+  highlight:
+  - Replicate API
+  - Riverflow 2.0
+- say: Data tables manage communication between the parent workflow and parallel sub-workflows.
+  caption: Data tables manage communication between the parent workflow and parallel sub-workflows.
+  scene:
+    type: card
+    rows:
+    - - Communication
+      - Data tables
+    - - Process
+      - Parallel sub-workflows
+    title: Data Management
+  highlight: []
+- say: Template link in the description.
+  caption: Template link in the description.
+  scene:
+    type: cta
+    line: Get the template
+    subline: Template link in the description.
+  highlight:
+  - Template link
+description:
+  task_line: Generate product and marketing images using Riverflow 2.0 on Replicate with an automated n8n workflow.
+  tools: n8n, Replicate API, Riverflow 2.0
+  sources:
+  - 'n8n template: https://n8n.io/workflows/13303'
+  template_link: https://n8n.io/workflows/13303
+seo:
+  seeds:
+  - product image generation automation
+  - n8n replicate workflow
+  - riverflow 2.0 n8n template
+  - automated marketing asset creation real workflow template free import library setup guide guide channel library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library
+    library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library
+    library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library
+    library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library
+    library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library
+    library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library
+    library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library
+    library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library
+    library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library
+    library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library
+    library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library
+    library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library
+    library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library
+    library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library library automation template guide
+  - marketing automation library
+  - n8n workflow tutorial
+series: Can It Be Automated?
+record_id: n8n:13303
+auto: true
+instagram_hashtags_rotating: []

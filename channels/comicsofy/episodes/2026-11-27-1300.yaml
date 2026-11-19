@@ -1,0 +1,90 @@
+format: strip
+kind: image
+tone: cozy
+title: The Morning Manifestation
+premise: Mira tries to teach Gus the pigeon how to manifest his dream career using a vision board made of breadcrumbs.
+panels:
+- room: outdoors_autumn
+  shot: medium
+  cast:
+  - who: Mira
+    mood: happy
+    pos: left
+    size: medium
+    holding: clipboard
+  - who: Gus
+    mood: scheming
+    pos: right
+    size: small
+    holding: bread
+  lines:
+  - who: Mira
+    text: Gus, we need to map your career trajectory.
+  - who: Gus
+    text: I move crumbs, I acquire bread. Simple.
+  props:
+  - name: clipboard
+    spot: left
+  - name: bread
+    spot: right
+- room: outdoors_autumn
+  shot: close
+  cast:
+  - who: Mira
+    mood: proud
+    pos: center
+    size: medium
+    holding: book
+  lines:
+  - who: Mira
+    text: Put your goals on the vision board. What do you see?
+  props:
+  - name: book
+    spot: center
+  sfx: TAP
+- room: outdoors_autumn
+  shot: medium
+  cast:
+  - who: Gus
+    mood: smug
+    pos: center
+    size: medium
+    holding: bread
+  lines:
+  - who: Gus
+    text: A larger pile of discarded sourdough.
+  props:
+  - name: bread
+    spot: center
+- room: outdoors_autumn
+  shot: extreme_close
+  cast:
+  - who: Mira
+    mood: happy
+    pos: center
+    size: large
+  lines:
+  - who: Mira
+    text: Abundance mindset. I love it.
+  fx:
+  - sparkles
+  props: []
+caption: 'Fake it till you make it, one crumb at a time.
+
+  .
+
+  .
+
+  .
+
+  #comics #cartoon #digitalart #webcomic #comicbooks
+
+  comic | drawing | art | illustration | artist | sketch
+
+  #cartoonist #comicart #comicbook #funnycomics #draw #artwork #officehumor #comicstrip #funny #relatable #artistsoninstagram #comicsofy #doodle #webtoon #viral #viralcomics #explorepage #manifestation #pigeons #hustle #morningroutine'
+description:
+  summary: Fake it till you make it, one crumb at a time.
+series: Pim and Soot Comic
+record_id: strip:image:1795109521217389783:0
+auto: true
+instagram_hashtags_rotating: []

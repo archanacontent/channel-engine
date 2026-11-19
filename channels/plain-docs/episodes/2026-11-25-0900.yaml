@@ -1,0 +1,73 @@
+skip: false
+skip_reason: ''
+title: Fixing a real README in under a minute
+beats:
+- say: Vague project descriptions cause users to bounce before they even start reading.
+  caption: Vague project descriptions cause users to bounce before they even start reading.
+  highlight:
+  - Vague project descriptions
+  scene:
+    type: headline
+    text: Vague docs kill engagement
+- say: The FitMart R E A D M E says the project covers end to end functionality including.
+  caption: The FitMart README says the project covers end-to-end functionality including.
+  highlight:
+  - end-to-end functionality including
+  scene:
+    type: compare
+    left_label: Original
+    left_text: 'The project covers end-to-end functionality including:'
+    right_label: Rewritten
+    right_text: FitMart provides full-stack features like Firebase authentication and Gemini AI chat.
+- say: The original sentence ends on a cliffhanger. It lacks a specific subject.
+  caption: The original sentence ends on a cliffhanger. It lacks a specific subject.
+  highlight:
+  - ends on a cliffhanger
+  scene:
+    type: list
+    title: The Problem
+    items:
+    - Incomplete thought
+    - No specific features
+    - Weak impact
+    style: bullet
+- say: The rewrite names specific tools. We mention Firebase for auth and Gemini for the chatbot.
+  caption: The rewrite names specific tools. We mention Firebase for auth and Gemini for the chatbot.
+  highlight:
+  - names specific tools
+  scene:
+    type: card
+    title: Specific Details
+    rows:
+    - - Auth
+      - Firebase
+    - - AI Chat
+      - Gemini
+- say: Replace vague promises with concrete technical capabilities.
+  caption: Replace vague promises with concrete technical capabilities.
+  highlight:
+  - concrete technical capabilities
+  scene:
+    type: quote
+    text: Replace vague promises with concrete technical capabilities.
+    highlight:
+    - concrete technical capabilities
+description:
+  what_was_fixed: I fixed a dangling sentence in the FitMart README that failed to explain what functionality was actually covered.
+  rule: Replace vague generalities with specific technical features.
+  sources:
+  - 'parthbuilds-community/FitMart README (MIT): https://github.com/parthbuilds-community/FitMart'
+  source_link: https://github.com/parthbuilds-community/FitMart
+  license: MIT
+seo:
+  seeds:
+  - technical writing tips
+  - how to write a readme
+  - improving documentation
+  hashtags:
+  - '#TechnicalWriting'
+  - '#DeveloperExperience'
+series: Rewrite This
+record_id: repo:parthbuilds-community/FitMart
+auto: true
+instagram_hashtags_rotating: []

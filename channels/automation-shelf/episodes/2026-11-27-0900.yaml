@@ -1,0 +1,81 @@
+skip: false
+skip_reason: ''
+title: 'Stop doing this by hand: restaurant marketing follow ups'
+beats:
+- say: Manual review requests and daily marketing messages waste restaurant staff time.
+  caption: Manual review requests and daily marketing messages waste restaurant staff time.
+  highlight:
+  - Manual review requests
+  - waste restaurant staff time
+  scene:
+    type: headline
+    text: Stop manual restaurant marketing
+- say: Staff usually have to track customers and send messages one by one. This process is slow and misses opportunities for engagement.
+  caption: Staff usually have to track customers and send messages one by one. This process is slow and misses opportunities for engagement.
+  highlight:
+  - track customers
+  - send messages one by one
+  scene:
+    type: compare
+    left_label: Manual
+    left_text: One by one messaging
+    right_label: Automated
+    right_text: Batch processed campaigns
+- say: This n eight n workflow handles everything from menu requests to scheduled campaigns. It uses a Telegram bot to detect customer messages and a Google Sheets database to store client details.
+  caption: This n8n workflow handles everything from menu requests to scheduled campaigns. It uses a Telegram bot to detect customer messages and a Google Sheets database to store client details.
+  highlight:
+  - handles everything
+  - Telegram bot
+  - Google Sheets database
+  scene:
+    type: flow
+    steps:
+    - title: Telegram Trigger
+      note: Detects menu requests
+    - title: Google Sheets
+      note: Saves new clients
+    - title: Wait
+      note: Two hour delay
+    - title: Telegram
+      note: Sends review request
+- say: The system sends a review request two hours after interaction. Every day, it pulls planned marketing messages from Google Sheets and sends them to active users.
+  caption: The system sends a review request two hours after interaction. Every day, it pulls planned marketing messages from Google Sheets and sends them to active users.
+  highlight:
+  - two hours after interaction
+  - pulls planned marketing messages
+  scene:
+    type: list
+    title: Automated Tasks
+    items:
+    - Instant menu links
+    - Two hour follow ups
+    - Daily scheduled marketing
+    - Active user filtering
+    style: check
+- say: The free template is linked in the description.
+  caption: The free template is linked in the description.
+  highlight:
+  - free template
+  scene:
+    type: cta
+    line: Get the template
+    subline: Link in description
+description:
+  task_line: Automate restaurant customer interactions and marketing campaigns.
+  tools: n8n, Telegram, Google Sheets
+  sources:
+  - 'n8n template: https://n8n.io/workflows/15194'
+  template_link: https://n8n.io/workflows/15194
+seo:
+  seeds:
+  - restaurant marketing automation
+  - n8n restaurant template
+  - automate telegram bot marketing
+  - google sheets marketing automation
+  hashtags:
+  - '#MarketingAutomation'
+  - '#n8n'
+series: Stop Doing This
+record_id: n8n:15194
+auto: true
+instagram_hashtags_rotating: []

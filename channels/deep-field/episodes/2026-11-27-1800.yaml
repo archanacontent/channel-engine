@@ -1,0 +1,67 @@
+skip: false
+skip_reason: ''
+title: How big is Jupiter, really?
+beats:
+- say: Jupiter is over eleven times wider than Earth.
+  caption: Jupiter is over eleven times wider than Earth.
+  highlight:
+  - eleven times wider
+  scene:
+    type: headline
+    text: Jupiter is massive
+- say: The diameter of Earth is 12,756 kilometers. Jupiter measures 142,984 kilometers across.
+  caption: The diameter of Earth is 12,756 km. Jupiter measures 142,984 km across.
+  highlight: []
+  scene:
+    type: compare
+    left_label: Earth
+    left_text: 12,756 km
+    right_label: Jupiter
+    right_text: 142,984 km
+- say: This size difference scales with their distance from the Sun. Earth sits 149.6 million kilometers away. Jupiter orbits much further at 778.5 million kilometers.
+  caption: This size difference scales with their distance from the Sun. Earth sits 149.6 million km away. Jupiter orbits much further at 778.5 million km.
+  highlight:
+  - distance from the Sun
+  scene:
+    type: list
+    title: Distance from Sun
+    items:
+    - 'Earth: 149.6 million km'
+    - 'Jupiter: 778.5 million km'
+    style: bullet
+- say: Jupiter dominates our solar system with a diameter 11.21 times that of Earth.
+  caption: Jupiter dominates our solar system with a diameter 11.21 times that of Earth.
+  highlight:
+  - 11.21 times
+  scene:
+    type: sizes
+    a_label: Jupiter
+    a_value: 142984.0
+    b_label: Earth
+    b_value: 12756.0
+    unit: km
+- say: Figures from NASA's Planetary Fact Sheet.
+  caption: Figures from NASA's Planetary Fact Sheet.
+  highlight:
+  - NASA's Planetary Fact Sheet
+  scene:
+    type: cta
+    line: Explore more space facts.
+    subline: Subscribe to Space Science
+description:
+  explainer: Jupiter is over eleven times wider than Earth. This video compares the diameters and solar distances of these two planets.
+  sources:
+  - 'NASA Planetary Fact Sheet: https://nssdc.gsfc.nasa.gov/planetary/factsheet/'
+seo:
+  seeds:
+  - how big is jupiter
+  - jupiter vs earth size
+  - jupiter diameter km
+  - jupiter distance from sun
+  hashtags:
+  - '#Jupiter'
+  - '#SpaceScience'
+series: Scale It
+record_id: scale:JUPITER:EARTH
+auto: true
+instagram_hashtags_rotating: []

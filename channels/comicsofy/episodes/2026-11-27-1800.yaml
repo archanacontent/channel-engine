@@ -1,0 +1,114 @@
+format: strip
+kind: reel
+tone: satire
+title: Boutique Wellness
+premise: Mr. Okafor rebrands the broken radiator and freezing apartment hallway as a premium cold plunge wellness package, with Fern witnessing the absolute audacity.
+panels:
+- room: elevator
+  shot: wide
+  cast:
+  - who: Dev
+    mood: tired
+    pos: left
+    size: medium
+    flip: false
+    holding: coffee
+  - who: Mr. Okafor
+    mood: happy
+    pos: right
+    size: medium
+    flip: true
+    holding: envelope
+  lines:
+  - who: Dev
+    text: My radiators are whistling ice cubes, Mr. Okafor.
+  - who: Mr. Okafor
+    text: Splendid news! I heard your feedback.
+  focus: Mr. Okafor presenting news warmly
+  sfx: DING
+  props: []
+- room: city_street
+  shot: medium
+  cast:
+  - who: Mr. Okafor
+    mood: proud
+    pos: right
+    size: medium
+    flip: true
+    holding: envelope
+  - who: Dev
+    mood: deadpan
+    pos: center
+    size: medium
+    flip: false
+  - who: Fern
+    mood: deadpan
+    pos: left
+    size: small
+    flip: false
+  lines:
+  - who: Mr. Okafor
+    text: We rebranded the entire floor as an Alpine cryo-retreat.
+  - who: Fern
+    text: My soil has frostbite.
+  focus: Mr. Okafor announcing the rebrand proudly
+  props:
+  - name: plant
+    spot: left
+  sfx: SHIVER
+- room: plain_cool
+  shot: close
+  cast:
+  - who: Mr. Okafor
+    mood: smug
+    pos: right
+    size: large
+    flip: true
+  - who: Dev
+    mood: shocked
+    pos: left
+    size: medium
+    flip: false
+  lines:
+  - who: Mr. Okafor
+    text: A tiny three hundred dollar wellness amenity charge.
+  - who: Dev
+    text: For shivering in my own socks?!
+  focus: Dev reacting to the absurd new fee
+  fx:
+  - speed_lines
+  props: []
+- room: plain_cool
+  shot: extreme_close
+  cast:
+  - who: Fern
+    mood: scheming
+    pos: center
+    size: large
+    flip: false
+  lines:
+  - who: Fern
+    text: Tell him my photosynthesis now costs double.
+  focus: Fern delivering the final turn
+  fx:
+  - gloom
+  props: []
+caption: 'Your rent didn''t go up. Your biological resilience tier did.
+
+  .
+
+  .
+
+  .
+
+  #comics #cartoon #digitalart #webcomic #comicbooks
+
+  comic | drawing | art | illustration | artist | sketch
+
+  #cartoonist #comicart #comicbook #funnycomics #draw #artwork #officehumor #comicstrip #funny #relatable #artistsoninstagram #comicsofy #doodle #webtoon #viral #viralcomics #explorepage #rentlife #landlordhumor #wellnessculture #satire #apartmentliving'
+description:
+  summary: Your rent didn't go up. Your biological resilience tier did.
+series: Pim and Soot Reel
+record_id: strip:reel:1795109954485984909:0
+auto: true
+instagram_hashtags_rotating: []

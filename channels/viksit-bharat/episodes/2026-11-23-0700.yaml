@@ -1,0 +1,91 @@
+skip: false
+skip_reason: ''
+title: India's growth is slowing down. The record says otherwise.
+beats:
+- say: Myth. India's economic growth is losing momentum.
+  caption: Myth. India's economic growth is losing momentum.
+  highlight:
+  - India's economic growth
+  - losing momentum
+  scene:
+    type: headline
+    kicker: Myth
+    text: India's economic growth is losing momentum
+- say: Moody's Ratings raised the F Y 2 7 growth forecast to 7 percent from 6.5 percent.
+  caption: Moody's Ratings raised the FY27 growth forecast to 7% from 6.5%.
+  highlight:
+  - 7% from 6.5%
+  scene:
+    type: stat
+    value: 7%
+    label: FY27 growth forecast
+    source: Moody's Ratings
+- say: Strong economic momentum and resilience to energy shocks drive this upward revision.
+  caption: Strong economic momentum and resilience to energy shocks drive this upward revision.
+  highlight:
+  - Strong economic momentum
+  - resilience to energy shocks
+  scene:
+    type: card
+    title: Growth Drivers
+    rows:
+    - - Economic momentum
+      - Strong
+    - - Energy resilience
+      - High
+- say: Signs of a new private investment cycle include higher capital goods production and faster industrial credit growth.
+  caption: Signs of a new private investment cycle include higher capital goods production and faster industrial credit growth.
+  highlight:
+  - new private investment cycle
+  - higher capital goods production
+  scene:
+    type: list
+    title: Investment Indicators
+    items:
+    - Higher capital goods production
+    - Faster industrial credit growth
+    - Rising capacity utilisation
+    style: check
+- say: Will this momentum sustain through the medium term? Follow for tomorrow's figure.
+  caption: Will this momentum sustain through the medium term? Follow for tomorrow's figure.
+  highlight:
+  - sustain through the medium term
+  scene:
+    type: cta
+    line: Will this momentum sustain through the medium term?
+    subline: Follow for tomorrow's figure.
+description:
+  summary: Moody's raised India's FY27 growth forecast to 7% due to strong economic momentum.
+  details: Moody's Ratings released its Global Macro Outlook 2027-28 on November 11, 2026. The agency increased the FY27 growth forecast to 7% from 6.5%. This revision is supported by robust consumption, improving investment trends, and resilience to energy supply shocks. The agency noted that India's large refining capacity helped contain fuel supply disruptions.
+  key_figures:
+  - 'FY27 growth forecast: 7%'
+  - 'Previous forecast: 6.5%'
+  - 'RBI inflation target: 2-6%'
+  sources:
+  - 'Mint, 11 Nov 2026: https://www.livemint.com/economy/moodys-ups-indias-fy27-growth-forecast-to-7-on-strong-economic-momentum-warns-of-risks-11794386510492.html'
+  released: 11 Nov 2026
+  source_link: https://www.livemint.com/economy/moodys-ups-indias-fy27-growth-forecast-to-7-on-strong-economic-momentum-warns-of-risks-11794386510492.html
+seo:
+  seeds:
+  - India FY27 growth forecast
+  - Moody's India growth outlook
+  - India economic momentum
+  - India private investment cycle
+  - India energy resilience
+  hashtags:
+  - '#IndiaEconomy'
+  - '#GDPGrowth'
+  - '#MoodyRatings'
+  - '#ViksitBharat'
+series: Myth vs Record
+record_id: vbnews:https://www.livemint.com/economy/moodys-ups-indias-fy27-growth-forecast-to-7-on-strong-economic-momentum-warns-of-risks-11794386510492.html
+auto: true
+instagram_hashtags_rotating: []
+released: 11 Nov 2026
+posted: '2026-11-11'
+sector: Startups and Markets
+source_label: Mint, 11 Nov 2026
+look:
+  palette: saffron_on_charcoal
+  motion: bars
+  hook: challenge
