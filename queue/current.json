@@ -7528,11 +7528,13 @@
    "duration_s": 20.9
   },
   "srt": "",
-  "status": "ready",
+  "status": "published",
   "file": "2026-11-19-1800.mp4",
   "platform": "instagram",
   "auto_approve": true,
-  "release": "shorts-43262537272"
+  "release": "shorts-43262537272",
+  "ig_media_id": "17875667934649490",
+  "published_at": "2026-11-19T23:02:30.513800+00:00"
  },
  {
   "slug": "comicsofy",
