@@ -4,6 +4,8 @@ name: Make Shorts
 # empty slot in the next 8 days for every channel, store them, upload YouTube
 # Shorts as private and update the review issue for their week. One job does it
 # all so setup runs once (this repo is private and has 2,000 free minutes a month).
+# AI Search Marketing (asked-and-answered) is retired: no new Shorts are made for
+# it. Its last scheduled Short goes out on 26 Nov 2026.
 on:
   schedule:
     - cron: "17 8 * * *"
@@ -53,7 +55,7 @@ jobs:
           start="${{ github.event.inputs.start }}"; [ -z "$start" ] && start=$(date -u -d tomorrow +%F)
           days="${{ github.event.inputs.days }}"; [ -z "$days" ] && days=8
           slugs="${{ github.event.inputs.slugs }}"
-          [ -z "$slugs" ] && slugs="comicsofy asked-and-answered automation-shelf breach-brief plain-docs deep-field viksit-bharat"
+          [ -z "$slugs" ] && slugs="comicsofy automation-shelf breach-brief plain-docs deep-field viksit-bharat"
           for s in $slugs; do
             echo "::group::$s"
             timeout 1500 python -u -m pipeline.week --slug $s --start $start --days $days --out collected || echo "$s stopped early"
