@@ -7577,11 +7577,13 @@
    "duration_s": 17.22
   },
   "srt": "",
-  "status": "ready",
+  "status": "published",
   "file": "2026-11-20-1800.mp4",
   "platform": "instagram",
   "auto_approve": true,
-  "release": "shorts-43262537272"
+  "release": "shorts-43262537272",
+  "ig_media_id": "18149125111605927",
+  "published_at": "2026-11-20T23:02:20.327641+00:00"
  },
  {
   "slug": "deep-field",
