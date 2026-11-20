@@ -1,0 +1,113 @@
+format: strip
+kind: image
+tone: cozy
+title: Peak Optimization
+premise: Mira asks Nana June for the secret to her peace of mind, only to realize Nana June's 'routine' is just enjoying the warm morning without optimizing it.
+panels:
+- room: cafe
+  shot: wide
+  cast:
+  - who: Mira
+    mood: happy
+    pos: left
+    size: medium
+    flip: false
+    holding: phone
+  - who: Nana June
+    mood: happy
+    pos: right
+    size: medium
+    flip: false
+    holding: mug
+  lines:
+  - who: Mira
+    text: Nana, I logged your morning peace score! It is at ninety-eight percent!
+  - who: Nana June
+    text: That sounds exhausting, sweetie.
+  focus: Mira shows her phone to Nana June in a cozy cafe.
+  props: []
+- room: cafe
+  shot: medium
+  cast:
+  - who: Mira
+    mood: proud
+    pos: left
+    size: medium
+    flip: false
+    holding: phone
+  - who: Nana June
+    mood: neutral
+    pos: right
+    size: medium
+    flip: false
+    holding: mug
+  lines:
+  - who: Mira
+    text: What's your secret 5am routine? Meditation? Cold plunges?
+  - who: Nana June
+    text: I sit here until the sun warms my knees.
+  focus: Mira pressing for productivity hacks while Nana June stays calm.
+  props: []
+- room: plain_warm
+  shot: medium
+  cast:
+  - who: Mira
+    mood: shocked
+    pos: left
+    size: medium
+    flip: false
+  - who: Nana June
+    mood: happy
+    pos: right
+    size: medium
+    flip: false
+    holding: cake
+  lines:
+  - who: Mira
+    text: And then what? What is step two?!
+    style: shout
+  - who: Nana June
+    text: Someone usually brings me warm cake.
+  focus: Cut to warm plain background as Nana June enjoys her simple joy.
+  props: []
+- room: cafe
+  shot: close
+  cast:
+  - who: Mira
+    mood: love
+    pos: left
+    size: medium
+    flip: false
+    holding: mug
+  - who: Nana June
+    mood: smug
+    pos: right
+    size: medium
+    flip: false
+    holding: mug
+  lines:
+  - who: Mira
+    text: I am deleting all my apps.
+  - who: Nana June
+    text: Good girl. Now drink your tea before it gets productive.
+  focus: Close up on Mira fully adopting Nana June's cozy worldview.
+  props: []
+caption: 'Efficiency is cool, but sitting in a warm ray of light wins every time.
+
+  .
+
+  .
+
+  .
+
+  #comics #cartoon #digitalart #webcomic #comicbooks
+
+  comic | drawing | art | illustration | artist | sketch
+
+  #cartoonist #comicart #comicbook #funnycomics #draw #artwork #officehumor #comicstrip #funny #relatable #artistsoninstagram #comicsofy #doodle #webtoon #viral #viralcomics #explorepage #cozyvibes #slowdown #grandmawisdom #wholesomecomics'
+description:
+  summary: Efficiency is cool, but sitting in a warm ray of light wins every time.
+series: Pim and Soot Comic
+record_id: strip:image:1795193847469863377:0
+auto: true
+instagram_hashtags_rotating: []

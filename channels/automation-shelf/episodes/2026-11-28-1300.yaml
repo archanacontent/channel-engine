@@ -1,0 +1,74 @@
+skip: false
+title: 'Free workflow: Campaign email system on autopilot'
+beats:
+- say: Filter high priority customers and send personalized AI emails completely on autopilot.
+  caption: Filter high priority customers and send personalized AI emails completely on autopilot.
+  scene:
+    type: headline
+    kicker: Library Pick
+    text: Automate campaign outreach using n8n
+  highlight:
+  - personalized AI emails
+- say: This n eight n workflow syncs leads from Google Sheets into internal data tables.
+  caption: This n8n workflow syncs leads from Google Sheets into internal data tables.
+  scene:
+    type: stat
+    value: Google Sheets & Data Tables
+    label: Data Sources
+  highlight:
+  - n8n workflow
+- say: An AI agent evaluates revenue, industry, capital, and location to route only high priority profiles to email generation.
+  caption: An AI agent evaluates revenue, industry, capital, and location to route only high priority profiles to email generation.
+  scene:
+    type: flow
+    steps:
+    - title: Sync Data
+      note: Google Sheets
+    - title: AI Evaluation
+      note: Classify priority
+    - title: Personalized Email
+      note: GPT-4 generation
+    - title: Gmail & Calendar
+      note: Auto send and schedule
+  highlight:
+  - route only high priority profiles
+- say: Open A I generates personalized emails, sends them via Gmail, logs replies, and books Google Calendar meetings for positive leads.
+  caption: OpenAI generates personalized emails, sends them via Gmail, logs replies, and books Google Calendar meetings for positive leads.
+  scene:
+    type: list
+    title: Automation Capabilities
+    items:
+    - Key features list
+  highlight:
+  - books Google Calendar meetings
+- say: This workflow suits growth teams that want automated customer outreach tied straight into HubSpot tracking.
+  caption: This workflow suits growth teams that want automated customer outreach tied straight into HubSpot tracking.
+  scene:
+    type: headline
+    text: Built for growth teams
+  highlight:
+  - automated customer outreach
+- say: Template link in the description.
+  caption: Template link in the description.
+  scene:
+    type: cta
+    line: Get the Free n8n Template
+    subline: Link in description
+  highlight:
+  - Template link
+description:
+  task_line: Automate customer prioritization, personalized AI email generation, reply logging, and Google Calendar meeting booking.
+  tools: Uses n8n, OpenAI, Google Sheets, Gmail, and Google Calendar.
+  sources:
+  - 'n8n template: https://n8n.io/workflows/11865'
+  template_link: https://n8n.io/workflows/11865
+seo:
+  seeds:
+  - n8n email automation
+  - n8n marketing campaign workflow
+  - AI email outreach automation
+  - n8n hubspot customer tracking
+series: Library Pick
+record_id: n8n:11865
+auto: true
+instagram_hashtags_rotating: []

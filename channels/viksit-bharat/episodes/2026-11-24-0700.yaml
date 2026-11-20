@@ -1,92 +1,85 @@
 skip: false
 skip_reason: ''
-title: Residential solar growth is slow. The record says otherwise.
+title: While the world faces uneven expansion, India maintains 7 percent growth
 beats:
-- say: Myth. India relies only on the grid for home power.
-  caption: Myth. India relies only on the grid for home power.
+- say: India remains one of the brightest spots in the global economy.
+  caption: India remains one of the brightest spots in the global economy.
   highlight:
-  - Myth
-  scene:
-    type: headline
-    kicker: Myth
-    text: India relies only on the grid for home power
-- say: Ministry of New and Renewable Energy data shows residential rooftop solar has expanded to almost 57 lakh operational units.
-  caption: Ministry of New and Renewable Energy data shows residential rooftop solar has expanded to almost 57 lakh operational units.
-  highlight:
-  - 57 lakh operational units
+  - brightest spots in the global economy
   scene:
     type: stat
-    value: 57 lakh
-    label: operational residential rooftop solar units
-    source: MNRE
-- say: The PM Surya Ghar scheme has added more than 19 G W of capacity. Gujarat, Maharashtra, and Uttar Pradesh account for over 51.11 per cent of the total.
-  caption: The PM Surya Ghar scheme has added more than 19 GW of capacity. Gujarat, Maharashtra, and Uttar Pradesh account for over 51.11 per cent of the total.
+    value: 7%
+    label: Expected GDP growth
+    source: Amundi Investment Institute
+- say: The Amundi Investment Institute 2 0 2 7 Investment Outlook released this month projects growth will hold around 7 percent.
+  caption: The Amundi Investment Institute 2027 Investment Outlook released this month projects growth will hold around 7 percent.
   highlight:
-  - 51.11 per cent
+  - growth will hold around 7 percent
+  scene:
+    type: headline
+    text: Growth outlook remains strong
+- say: Structural tailwinds like rising private capital expenditure and public infrastructure spending support this model.
+  caption: Structural tailwinds like rising private capital expenditure and public infrastructure spending support this model.
+  highlight:
+  - structural tailwinds
+  scene:
+    type: list
+    title: Growth Drivers
+    items:
+    - Private capital expenditure
+    - Public infrastructure spending
+    - Electronics manufacturing base
+    - Strong domestic demand
+    style: bullet
+- say: India also acts as a connector economy positioned between major geopolitical and economic blocs.
+  caption: India also acts as a connector economy positioned between major geopolitical and economic blocs.
+  highlight:
+  - connector economy
   scene:
     type: card
-    title: Top 3 Solar States
+    title: Strategic Role
     rows:
-    - - Gujarat
-      - 3,523.98 MW
-    - - Maharashtra
-      - 3,336.54 MW
-    - - Uttar Pradesh
-      - 3,231.59 MW
-- say: Kerala leads in generation density. It averages 3.87 k W per setup, which is the highest yield per roof among major states.
-  caption: Kerala leads in generation density. It averages 3.87 kW per setup, which is the highest yield per roof among major states.
+    - - Economic Role
+      - Connector economy
+- say: Will these tailwinds outweigh rising energy costs and inflation?
+  caption: Will these tailwinds outweigh rising energy costs and inflation?
   highlight:
-  - highest yield per roof
-  - 3.87 kW per setup
-  scene:
-    type: compare
-    left_label: Kerala
-    left_text: 3.87 kW per setup
-    right_label: Gujarat
-    right_text: 3.75 kW per setup
-- say: Which state will lead the solar surge next? Follow for tomorrow's figure.
-  caption: Which state will lead the solar surge next? Follow for tomorrow's figure.
-  highlight: []
+  - outweigh rising energy costs
   scene:
     type: cta
-    line: Which state will lead the solar surge next?
+    line: Will these tailwinds outweigh rising energy costs and inflation?
     subline: Follow for tomorrow's figure.
 description:
-  summary: India's residential rooftop solar has reached almost 57 lakh operational units.
-  details: 'The Ministry of New and Renewable Energy reported that the PM Surya Ghar: Muft Bijli Yojana has added more than 19 GW of capacity. Gujarat, Maharashtra, and Uttar Pradesh account for over 51.11 per cent of the total capacity. Kerala leads in generation density with the highest yield per roof among major states.'
-  key_figures: 'Total Capacity: 19,744.31 MW
-
-    Gujarat Capacity: 3,523.98 MW
-
-    Maharashtra Capacity: 3,336.54 MW
-
-    Uttar Pradesh Capacity: 3,231.59 MW
-
-    Kerala Yield: 3.87 kW per setup'
+  summary: India's GDP growth is expected to hold around 7 percent according to the Amundi Investment Institute.
+  details: The Amundi Investment Institute 2027 Investment Outlook released this month projects strong domestic demand and infrastructure spending will support the economy. Growth is expected to hold around 7 percent despite challenges from inflation and energy prices. The report also highlights India's role as a connector economy in global trade flows.
+  key_figures:
+  - 'Expected GDP growth: 7%'
+  - 'Projected average inflation: 5%'
+  - 'Current account deficit: 0.7% of GDP'
   sources:
-  - 'BusinessLine, 19 Nov 2026: https://www.thehindubusinessline.com/economy/pm-surya-ghar-drives-solar-surge-with-gujarat-maharashtra-up-leading-capacity-addition-mnre/article71716488.ece'
-  released: 19 Nov 2026
-  source_link: https://www.thehindubusinessline.com/economy/pm-surya-ghar-drives-solar-surge-with-gujarat-maharashtra-up-leading-capacity-addition-mnre/article71716488.ece
+  - 'BusinessLine, 20 Nov 2026: https://www.thehindubusinessline.com/markets/indias-growth-story-intact-at-7-but-energy-costs-and-twin-deficits-cloud-the-outlook-report/article71724821.ece'
+  released: 20 Nov 2026
+  source_link: https://www.thehindubusinessline.com/markets/indias-growth-story-intact-at-7-but-energy-costs-and-twin-deficits-cloud-the-outlook-report/article71724821.ece
 seo:
   seeds:
-  - PM Surya Ghar scheme
-  - residential rooftop solar India
-  - MNRE solar data
-  - solar capacity by state
+  - India GDP growth forecast 2027
+  - Amundi Investment Institute India report
+  - India connector economy
+  - India infrastructure spending
   hashtags:
-  - '#SolarEnergy'
-  - '#PMSuryaGhar'
-  - '#RenewableEnergy'
+  - '#IndiaGrowth'
+  - '#GDP'
+  - '#Economy'
   - '#ViksitBharat'
-series: Myth vs Record
-record_id: vbnews:https://www.thehindubusinessline.com/economy/pm-surya-ghar-drives-solar-surge-with-gujarat-maharashtra-up-leading-capacity-addition-mnre/article71716488.ece
+series: While the World
+record_id: vbnews:https://www.thehindubusinessline.com/markets/indias-growth-story-intact-at-7-but-energy-costs-and-twin-deficits-cloud-the-outlook-report/article71724821.ece
 auto: true
 instagram_hashtags_rotating: []
-released: 19 Nov 2026
-posted: '2026-11-19'
-sector: Newest Release
-source_label: BusinessLine, 19 Nov 2026
+released: 20 Nov 2026
+posted: '2026-11-20'
+sector: Startups and Markets
+source_label: BusinessLine, 20 Nov 2026
 look:
   palette: saffron_on_blue
   motion: sweep
-  hook: myth_stamp
+  hook: stat_punch

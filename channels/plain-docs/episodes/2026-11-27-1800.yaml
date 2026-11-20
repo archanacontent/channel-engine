@@ -1,0 +1,54 @@
+skip: false
+title: Fixing a real README in under a minute
+beats:
+- say: 'Documentation should explain what the software does, not how it feels. This README starts by saying, livenerf is a small, boring, append-only benchmark for one question: does a model get worse after it ships?'
+  caption: 'Documentation should explain what the software does, not how it feels. This README starts by saying, "livenerf is a small, boring, append-only benchmark for one question: does a model get worse after it ships?"'
+  scene:
+    type: compare
+    left_label: Confusing line
+    left_text: 'livenerf is a small, boring, append-only benchmark for one question: does a model get worse after it ships?'
+    right_label: Better approach
+    right_text: livenerf is an append-only benchmark that tracks model performance over time to detect potential quality degradation after release.
+  highlight:
+  - livenerf is a small, boring, append-only benchmark
+- say: Calling your own tool boring is subjective and adds no value to the user. It wastes reading time.
+  caption: Calling your own tool boring is subjective and adds no value to the user. It wastes reading time.
+  scene:
+    type: headline
+    text: Remove subjective adjectives
+  highlight:
+  - subjective
+  - wastes reading time
+- say: 'The revised version is direct: livenerf is an append-only benchmark that tracks model performance over time to detect potential quality degradation after release.'
+  caption: 'The revised version is direct: "livenerf is an append-only benchmark that tracks model performance over time to detect potential quality degradation after release."'
+  scene:
+    type: headline
+    text: Focus on the function
+  highlight:
+  - tracks model performance
+  - detect potential quality degradation
+- say: Good technical writing is neutral. Your reader wants to solve a problem, not hear your opinion on the software's personality.
+  caption: Good technical writing is neutral. Your reader wants to solve a problem, not hear your opinion on the software's personality.
+  scene:
+    type: quote
+    text: Keep documentation neutral to respect the reader's time.
+    title: The Rule
+  highlight:
+  - neutral
+description:
+  what_was_fixed: 'I removed subjective filler words from the project description to make the tool''s purpose immediately clear. The revision focuses on the benchmark''s actual function: tracking model performance.'
+  rule: Keep documentation neutral to respect the reader's time.
+  sources:
+  - 'ninjahawk/livenerf README (MIT): https://github.com/ninjahawk/livenerf'
+  source_link: https://github.com/ninjahawk/livenerf
+  license: MIT
+seo:
+  seeds:
+  - technical writing tips
+  - how to write a README
+  - documentation best practices
+  - writing for developers
+series: Rewrite This
+record_id: repo:ninjahawk/livenerf
+auto: true
+instagram_hashtags_rotating: []

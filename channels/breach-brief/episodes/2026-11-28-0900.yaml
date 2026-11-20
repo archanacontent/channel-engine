@@ -1,0 +1,61 @@
+skip: false
+title: 'Exploited now: Apache Axis CVE-2026-90436'
+beats:
+- say: Attackers are actively exploiting an unauthenticated remote code execution flaw in Apache Axis 1 point x.
+  caption: Attackers are actively exploiting an unauthenticated remote code execution flaw in Apache Axis 1.x.
+  scene:
+    type: headline
+    kicker: Active Attack
+    text: Critical Flaw in Apache Axis 1.x
+  highlight:
+  - unauthenticated remote code execution
+- say: A crafted S O A P fault message forces Axis to instantiate an attacker specified class before authentication runs.
+  caption: A crafted SOAP fault message forces Axis to instantiate an attacker-specified class before authentication runs.
+  scene:
+    type: stat
+    value: Apache Axis 1.x Unsafe Reflection Vulnerability
+    label: CVE-2026-90436
+  highlight:
+  - crafted SOAP fault message
+- say: C I S A added C V E 2026 9 0 4 3 6 to the K E V catalog on November 18, 2026.
+  caption: CISA added CVE-2026-90436 to the KEV catalog on November 18, 2026.
+  scene:
+    type: stat
+    value: CVE-2026-90436
+    label: CISA KEV Details
+  highlight:
+  - CVE-2026-90436
+- say: Because Axis 1 point x is end of life, migrate to a supported SOAP engine like Axis 2 or discontinue use.
+  caption: Because Axis 1.x is end-of-life, migrate to a supported SOAP engine like Axis 2 or discontinue use.
+  scene:
+    type: list
+    title: Required Actions
+    items:
+    - Actions to take for Apache Axis 1.x vulnerability
+  highlight:
+  - migrate to a supported SOAP engine
+- say: Sources are in the description.
+  caption: Sources are in the description.
+  scene:
+    type: cta
+    line: Cybersecurity Daily
+    subline: Sources are in the description.
+  highlight:
+  - description
+description:
+  summary: CISA added CVE-2026-90436 in Apache Axis 1.x to its Known Exploited Vulnerabilities catalog. It allows unauthenticated remote attackers to execute arbitrary code via a crafted SOAP fault message.
+  affected: All Apache Axis 1.x versions through 1.4 are affected.
+  action: Migrate to a supported SOAP engine such as Apache Axis 2, apply official patches, or discontinue use of the unsupported product.
+  sources:
+  - 'CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog'
+  - 'NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-90436'
+seo:
+  seeds:
+  - Apache Axis vulnerability
+  - CVE-2026-90436
+  - CISA KEV Apache Axis
+  - Apache Axis SOAP exploit
+series: Exploited Today
+record_id: kev:CVE-2026-90436
+auto: true
+instagram_hashtags_rotating: []

@@ -1,0 +1,77 @@
+skip: false
+title: Can you automate Stripe sales tracking in RD Station?
+beats:
+- say: Can you automate Stripe checkout sales tracking in R D Station Marketing?
+  caption: Can you automate Stripe checkout sales tracking in RD Station Marketing?
+  scene:
+    type: headline
+    kicker: Automation Check
+    text: Automate Stripe Sales to RD Station
+  highlight:
+  - Stripe checkout sales tracking
+  - RD Station Marketing
+- say: Yes, you can.
+  caption: Yes, you can.
+  scene:
+    type: headline
+    kicker: Answer
+    text: Yes, fully automated
+  highlight:
+  - 'Yes'
+- say: When a Stripe checkout session completes, n eight n filters the payment status and gets the purchased items.
+  caption: When a Stripe checkout session completes, n8n filters the payment status and gets the purchased items.
+  scene:
+    type: flow
+    steps:
+    - title: Stripe Trigger
+      note: Checkout completed
+    - title: Filter & Items
+      note: Checks status, gets items
+  highlight:
+  - Stripe checkout session
+  - n8n filters the payment status
+- say: It then posts a new Order and Payment Event straight into R D Station Marketing.
+  caption: It then posts a new Order & Payment Event straight into RD Station Marketing.
+  scene:
+    type: flow
+    steps:
+    - title: Merge & Set
+      note: Format event data
+    - title: Send to RD Station
+      note: Order & Payment Event
+  highlight:
+  - Order & Payment Event
+  - RD Station Marketing
+- say: This workflow requires a self hosted n eight n instance and the R D Station community node.
+  caption: This workflow requires a self-hosted n8n instance and the RD Station community node.
+  scene:
+    type: stat
+    value: Setup Checklist
+    label: Requirements
+  highlight:
+  - self-hosted n8n instance
+  - RD Station community node
+- say: Template link in the description.
+  caption: Template link in the description.
+  scene:
+    type: cta
+    line: Get the Free n8n Template
+    subline: Link in description
+  highlight:
+  - Template link
+description:
+  task_line: Instantly send successful Stripe Checkout payments to RD Station Marketing without manual data entry.
+  tools: Built using n8n with Stripe triggers and the RD Station Marketing community node.
+  sources:
+  - 'n8n template: https://n8n.io/workflows/11704'
+  template_link: https://n8n.io/workflows/11704
+seo:
+  seeds:
+  - n8n stripe checkout rd station
+  - automate stripe sales rd station marketing
+  - n8n stripe webhook workflow
+  - rd station order and payment event n8n
+series: Can It Be Automated?
+record_id: n8n:11704
+auto: true
+instagram_hashtags_rotating: []

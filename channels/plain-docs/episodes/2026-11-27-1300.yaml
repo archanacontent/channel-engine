@@ -1,0 +1,64 @@
+skip: false
+title: 'Writing rule: When to spell out numbers'
+beats:
+- say: Spell out numbers zero through nine. Use numerals for 10 and greater.
+  caption: Spell out numbers zero through nine. Use numerals for 10 and greater.
+  scene:
+    type: headline
+    text: Spell out zero through nine. Use numerals for 10 and greater.
+  highlight:
+  - zero through nine
+  - 10 and greater
+- say: Writers often guess this. Google developer documentation clarifies the standard.
+  caption: Writers often guess this. Google developer documentation clarifies the standard.
+  scene:
+    type: headline
+    kicker: Source
+    text: Google developer documentation
+  highlight: []
+- say: Avoid writing 3 options. Instead, write three options.
+  caption: Avoid writing 3 options. Instead, write three options.
+  scene:
+    type: compare
+    left_label: Weak
+    left_text: 3 options
+    right_label: Better
+    right_text: three options
+  highlight: []
+- say: Use numerals for technical quantities, even under 10. Write 6 queries, not six queries.
+  caption: Use numerals for technical quantities, even under 10. Write 6 queries, not six queries.
+  scene:
+    type: compare
+    left_label: Weak
+    left_text: six queries per second
+    right_label: Better
+    right_text: 6 queries per second
+  highlight: []
+- say: Keep numbers consistent. If your sentence has a number 10 or greater, use numerals for everything.
+  caption: Keep numbers consistent. If your sentence has a number 10 or greater, use numerals for everything.
+  scene:
+    type: headline
+    text: The menu contains 15 options but 6 are deselected.
+  highlight: []
+- say: Spell out zero through nine. Use numerals for 10 and higher.
+  caption: Spell out zero through nine. Use numerals for 10 and higher.
+  scene:
+    type: quote
+    text: Spell out zero through nine. Use numerals for 10 and higher.
+    title: The Rule
+  highlight: []
+description:
+  what_was_fixed: This video clarifies the inconsistent use of numerals and spelled out numbers in technical documentation.
+  rule: Always spell out numbers zero through nine and use numerals for 10 and greater, unless writing technical quantities or version numbers.
+  sources:
+  - 'Google developer documentation: https://developers.google.com/style/numbers'
+seo:
+  seeds:
+  - technical writing numbers
+  - documentation style guide
+  - writing numbers in docs
+  - Google style guide numbers
+series: One Rule
+record_id: style:https://developers.google.com/style/numbers
+auto: true
+instagram_hashtags_rotating: []

@@ -1,0 +1,67 @@
+skip: false
+title: 'Stop doing this by hand: Unified marketing reporting'
+beats:
+- say: Manual cross-channel marketing reports waste hours every week.
+  caption: Manual cross-channel marketing reports waste hours every week.
+  scene:
+    type: headline
+    kicker: Stop doing this
+    text: Manual marketing reports waste hours every week
+  highlight:
+  - Manual cross-channel marketing reports
+- say: You copy website traffic, Google Ads spend, Meta Ads metrics, and HubSpot leads by hand.
+  caption: You copy website traffic, Google Ads spend, Meta Ads metrics, and HubSpot leads by hand.
+  scene:
+    type: compare
+    left_label: Manual Way
+    left_text: Copy stats across GA4, Google Ads, Meta Ads, HubSpot
+    right_label: Automated Way
+    right_text: Unified weekly & monthly reports generated automatically
+  highlight:
+  - by hand
+- say: Run this four step n eight n workflow to pull data, merge datasets, and email weekly or monthly performance reports.
+  caption: Run this 4-step n8n workflow to pull data, merge datasets, and email weekly or monthly performance reports.
+  scene:
+    type: flow
+    steps:
+    - title: scheduleTrigger
+      note: Runs weekly or monthly
+    - title: code
+      note: Merges GA4, Ads, & CRM
+    - title: switch
+      note: Routes report type
+    - title: gmail
+      note: Emails structured report
+  highlight: []
+- say: The flow auto-calculates spend, click through rate, cost per acquisition, and cost per lead, while logging history in Google Sheets.
+  caption: The flow auto-calculates spend, CTR, CPA, and CPL, while logging history in Google Sheets.
+  scene:
+    type: stat
+    value: Google Sheets History Logged
+    label: Automated Metrics
+  highlight:
+  - auto-calculates spend
+- say: The free template is linked in the description.
+  caption: The free template is linked in the description.
+  scene:
+    type: cta
+    line: Get the Free Template
+    subline: Link in description
+  highlight:
+  - linked in the description
+description:
+  task_line: Stop compiling weekly and monthly marketing performance reports by hand across Google Analytics, ad channels, and CRM leads.
+  tools: This n8n workflow pulls data from Google Analytics, Google Ads, Meta Ads, and HubSpot, stores metrics in Google Sheets, and emails structured reports.
+  sources:
+  - 'n8n template: https://n8n.io/workflows/12124'
+  template_link: https://n8n.io/workflows/12124
+seo:
+  seeds:
+  - n8n marketing reporting workflow
+  - automate unified marketing report
+  - google ads meta ads hubspot n8n
+  - n8n google analytics reporting template
+series: Stop Doing This
+record_id: n8n:12124
+auto: true
+instagram_hashtags_rotating: []

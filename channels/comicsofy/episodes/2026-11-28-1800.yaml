@@ -1,0 +1,88 @@
+format: strip
+kind: reel
+tone: dark
+title: The Ultimate Career Pivot
+premise: Mort offers Dev an early death as a golden parachute, and Dev is genuinely thrilled by the lack of quarterly reviews.
+panels:
+- room: office
+  shot: medium
+  cast:
+  - who: Dev
+    mood: tired
+    pos: left
+    size: medium
+    holding: coffee
+  - who: Mort
+    mood: happy
+    pos: right
+    size: medium
+    holding: clipboard
+  lines:
+  - who: Mort
+    text: Good news Dev! You qualify for our Early Retirement Plan.
+  - who: Dev
+    text: Is that death? Please tell me it is death.
+  props:
+  - name: coffee
+    spot: left
+- room: office
+  shot: close
+  cast:
+  - who: Mort
+    mood: smug
+    pos: center
+    size: medium
+    holding: clipboard
+  lines:
+  - who: Mort
+    text: Zero emails. Unlimited nap hours. Eternal dark quiet.
+  props: []
+- room: office
+  shot: medium
+  cast:
+  - who: Dev
+    mood: happy
+    pos: left
+    size: medium
+  - who: Fern
+    mood: deadpan
+    pos: right
+    size: small
+  lines:
+  - who: Dev
+    text: Wait. Are there mandatory team bonding icebreakers?
+  - who: Fern
+    text: Just the worms, Dev.
+  fx:
+  - sparkles
+  props: []
+- room: office
+  shot: extreme_close
+  cast:
+  - who: Dev
+    mood: deadpan
+    pos: center
+    size: medium
+  lines:
+  - who: Dev
+    text: Take me. I will pack my own box.
+  props: []
+caption: 'Honestly the benefit package sounds pretty solid. No deliverables.
+
+  .
+
+  .
+
+  .
+
+  #comics #cartoon #digitalart #webcomic #comicbooks
+
+  comic | drawing | art | illustration | artist | sketch
+
+  #cartoonist #comicart #comicbook #funnycomics #draw #artwork #officehumor #comicstrip #funny #relatable #artistsoninstagram #comicsofy #doodle #webtoon #viral #viralcomics #explorepage #burnout #adulting #corporatelife #darkhumor #officejokes'
+description:
+  summary: Honestly the benefit package sounds pretty solid. No deliverables.
+series: Pim and Soot Reel
+record_id: strip:reel:1795193920613600670:0
+auto: true
+instagram_hashtags_rotating: []

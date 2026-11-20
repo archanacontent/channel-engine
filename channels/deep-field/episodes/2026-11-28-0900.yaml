@@ -1,0 +1,63 @@
+skip: false
+title: 'What you''re looking at: Lightning from Space'
+beats:
+- say: This nebula-like glow is actually a lightning strike seen from space.
+  caption: This nebula-like glow is actually a lightning strike seen from space.
+  scene:
+    type: headline
+    kicker: Space Photography
+    text: Lightning Glow from Orbit
+  highlight:
+  - nebula-like glow
+  - lightning strike
+- say: An astronaut aboard the International Space Station captured this storm off the coast of North Carolina.
+  caption: An astronaut aboard the International Space Station captured this storm off the coast of North Carolina.
+  scene:
+    type: image
+    credit: NASA/JSC
+  highlight:
+  - International Space Station
+  - North Carolina
+- say: The space station was orbiting two hundred sixty miles above the Atlantic Ocean when the shot was taken.
+  caption: The space station was orbiting 260 miles above the Atlantic Ocean when the shot was taken.
+  scene:
+    type: headline
+    value: 260 milesconstantly orbiting high above the Atlantic Ocean during May 2025. This view demonstrates how intense electrical activity illuminates cloud tops from above. Image credit in the description.
+    kicker: ''
+    text: 260 milesconstantly orbiting high above the Atlantic Ocean during May 2025. This view demonstrates how intense electrical activity illuminates cloud tops from above. Image credit in the description.
+  highlight: []
+- say: The intense electrical discharge lights up the cloud tops from above, giving the storm its cosmic appearance.
+  caption: The intense electrical discharge lights up the cloud tops from above, giving the storm its cosmic appearance.
+  scene:
+    type: stat
+    value: Orbiting 260 miles high
+    label: Storm Capture
+  highlight:
+  - cloud tops
+  - cosmic appearance
+- say: Image credit in the description.
+  caption: Image credit in the description.
+  scene:
+    type: cta
+    line: Space Science
+    subline: Real images explained daily.
+  highlight:
+  - Image credit
+description:
+  explainer: This photograph from the International Space Station shows lightning illuminating cloud tops off the coast of North Carolina. Taken 260 miles above the Atlantic Ocean, the intense storm light resembles a cosmic nebula.
+  sources:
+  - 'NASA Image and Video Library: https://images.nasa.gov/details/iss073e0080280'
+  credit: NASA
+seo:
+  seeds:
+  - lightning from space station
+  - ISS lightning photograph
+  - earth from space storm
+  - North Carolina space lightning storm photo NASA image background explained detailed look space camera view Earth orbit 260 miles high Atlantic Ocean photography visual analysis breakdown context simple words under one minute clear plain explanation breakdown space science content original footage snapshot satellite camera space station view photography context Earth weather atmospheric phenomenon storm lightning electrical discharge cloud tops illuminating glow from orbit space station astronaut photo perspective context explanation daily daily daily science space facts
+series: Look Closer
+record_id: nasa:iss073e0080280
+auto: true
+instagram_hashtags_rotating: []
+media:
+  image: /home/runner/work/channel-engine/channel-engine/collected/deep-field/media/2026-11-28-0900.jpg
+  credit: NASA

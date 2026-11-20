@@ -1,0 +1,72 @@
+skip: false
+skip_reason: ''
+title: Fixing a real README in under a minute
+beats:
+- say: Vague instructions force users to hunt through files for answers.
+  caption: Vague instructions force users to hunt through files for answers.
+  highlight:
+  - Vague instructions
+  scene:
+    type: headline
+    text: Stop wasting user time
+- say: This line in the Symfony Flex Backend README is unclear.
+  caption: This line in the Symfony Flex Backend README is unclear.
+  highlight:
+  - unclear
+  scene:
+    type: card
+    title: Current Text
+    rows:
+    - - Source
+      - README
+- say: One example frontend is you can use any frontend solution.
+  caption: One example frontend is you can use any frontend solution.
+  highlight:
+  - One example frontend is you can use any frontend solution.
+  scene:
+    type: compare
+    left_label: Original
+    left_text: One example frontend is you can use any frontend solution.
+    right_label: Revised
+    right_text: You can use any frontend solution.
+- say: The original sentence is repetitive and contains a grammatical error. The revision removes the redundant phrase to state the capability directly.
+  caption: The original sentence is repetitive and contains a grammatical error. The revision removes the redundant phrase to state the capability directly.
+  highlight:
+  - removes the redundant phrase
+  scene:
+    type: list
+    title: Why it works
+    items:
+    - Removes redundancy
+    - Fixes grammar
+    - Increases clarity
+    style: check
+- say: Avoid filler phrases that add no information.
+  caption: Avoid filler phrases that add no information.
+  highlight:
+  - Avoid filler phrases
+  scene:
+    type: quote
+    text: Avoid filler phrases that add no information.
+    highlight:
+    - Avoid filler phrases
+description:
+  what_was_fixed: The README prose for the Symfony Flex Backend was clarified by removing redundant language.
+  rule: Eliminate filler phrases that do not add value to the instruction.
+  sources:
+  - 'tarlepp/symfony-flex-backend README (MIT): https://github.com/tarlepp/symfony-flex-backend'
+  source_link: https://github.com/tarlepp/symfony-flex-backend
+  license: MIT
+seo:
+  seeds:
+  - technical writing tips
+  - how to write documentation
+  - improving README files
+  - technical communication
+  hashtags:
+  - '#TechnicalWriting'
+  - '#DeveloperDocs'
+series: Rewrite This
+record_id: repo:tarlepp/symfony-flex-backend
+auto: true
+instagram_hashtags_rotating: []

@@ -1,0 +1,74 @@
+skip: false
+skip_reason: ''
+title: How big is Jupiter, really?
+beats:
+- say: Jupiter is nearly twelve times wider than Venus.
+  caption: Jupiter is nearly 12 times wider than Venus.
+  highlight:
+  - nearly 12 times wider
+  scene:
+    type: headline
+    text: Jupiter vs Venus
+- say: Venus has a diameter of 12 104 kilometers.
+  caption: Venus has a diameter of 12,104 km.
+  highlight:
+  - 12,104 km
+  scene:
+    type: stat
+    value: 12,104
+    label: Venus diameter (km)
+- say: Jupiter measures 142 984 kilometers across.
+  caption: Jupiter measures 142,984 km across.
+  highlight: []
+  scene:
+    type: stat
+    value: 142,984
+    label: Jupiter diameter (km)
+- say: Venus orbits at 108.2 million kilometers from the Sun, while Jupiter sits much further out at 778.5 million kilometers.
+  caption: Venus orbits at 108.2 million km from the Sun, while Jupiter sits much further out at 778.5 million km.
+  highlight:
+  - 108.2 million km
+  - 778.5 million km
+  scene:
+    type: compare
+    left_label: Venus distance
+    left_text: 108.2 million km
+    right_label: Jupiter distance
+    right_text: 778.5 million km
+- say: Jupiter is 11.81 times the size of Venus by diameter.
+  caption: Jupiter is 11.81 times the size of Venus by diameter.
+  highlight:
+  - 11.81 times the size
+  scene:
+    type: sizes
+    a_label: Jupiter
+    a_value: 142984.0
+    b_label: Venus
+    b_value: 12104.0
+    unit: km
+- say: Figures from NASA's Planetary Fact Sheet.
+  caption: Figures from NASA's Planetary Fact Sheet.
+  highlight:
+  - NASA's Planetary Fact Sheet
+  scene:
+    type: quote
+    text: Figures from NASA's Planetary Fact Sheet.
+    highlight:
+    - NASA's Planetary Fact Sheet
+description:
+  explainer: Jupiter is nearly twelve times wider than Venus. This comparison uses diameter and distance data from NASA.
+  sources:
+  - 'NASA Planetary Fact Sheet: https://nssdc.gsfc.nasa.gov/planetary/factsheet/'
+seo:
+  seeds:
+  - Jupiter vs Venus size
+  - Jupiter diameter km
+  - Venus distance from sun
+  - how big is jupiter
+  hashtags:
+  - '#Space'
+  - '#Jupiter'
+series: Scale It
+record_id: scale:JUPITER:VENUS
+auto: true
+instagram_hashtags_rotating: []

@@ -1,0 +1,52 @@
+skip: false
+title: Fixing a real README in under a minute
+beats:
+- say: Vague documentation wastes developer time. Stop burying instructions in paragraphs.
+  caption: Vague documentation wastes developer time. Stop burying instructions in paragraphs.
+  scene:
+    type: headline
+    text: Documentation clarity is a feature
+  highlight: []
+- say: This sentence from the Solid ESLint plugin README is confusing. It can ease Solid's learning curve by finding and fixing problems around Solid's reactivity system, and can migrate some React patterns to Solid code.
+  caption: It can ease Solid's learning curve by finding and fixing problems around Solid's reactivity system, and can migrate some React patterns to Solid code.
+  scene:
+    type: compare
+    left_label: Confusing
+    left_text: It can ease Solid's learning curve by finding and fixing problems around Solid's reactivity system, and can migrate some React patterns to Solid code.
+    right_label: Clearer
+    right_text: This plugin fixes Solid reactivity issues and suggests migrations from React patterns.
+  highlight: []
+- say: 'The original version uses passive, fluffy language like ease the learning curve. The rewrite focuses on specific actions: it fixes issues and suggests migrations.'
+  caption: 'The original version uses passive, fluffy language like ease the learning curve. The rewrite focuses on specific actions: it fixes issues and suggests migrations.'
+  scene:
+    type: list
+    title: Why this works
+    items:
+    - checkmark-style list of improvements like Action-oriented and Concise phrasing for technical readers
+  highlight: []
+- say: Technical documentation is a tool, not a marketing brochure. Focus on what the code actually does.
+  caption: Technical documentation is a tool, not a marketing brochure. Focus on what the code actually does.
+  scene:
+    type: quote
+    text: Describe the function, not the feeling.
+    title: The Golden Rule
+  highlight: []
+description:
+  what_was_fixed: I replaced vague, marketing-style claims about easing learning curves with specific, action-oriented descriptions of what the linting plugin actually does.
+  rule: Focus documentation on the technical function of the code, not the subjective experience of the user.
+  sources:
+  - 'solidjs/eslint-plugin-solid README (MIT): https://github.com/solidjs/eslint-plugin-solid'
+  source_link: https://github.com/solidjs/eslint-plugin-solid
+  license: MIT
+seo:
+  seeds:
+  - technical writing tips
+  - how to write a readme
+  - solidjs eslint plugin
+  - developer documentation best practices
+  - eslint configuration guide
+skip_reason: ''
+series: Rewrite This
+record_id: repo:solidjs/eslint-plugin-solid
+auto: true
+instagram_hashtags_rotating: []

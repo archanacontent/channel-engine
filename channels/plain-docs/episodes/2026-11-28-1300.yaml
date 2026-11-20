@@ -1,0 +1,68 @@
+skip: false
+skip_reason: ''
+title: 'Writing rule: sentence case for headings'
+beats:
+- say: Capitalizing every word in a heading makes your documentation harder to read.
+  caption: Capitalizing every word in a heading makes your documentation harder to read.
+  highlight:
+  - harder to read
+  scene:
+    type: headline
+    text: Stop Over-Capitalizing Headings
+- say: Google developer documentation recommends using sentence case for titles and headings. This means you only capitalize the first word and proper nouns.
+  caption: Google developer documentation recommends using sentence case for titles and headings. This means you only capitalize the first word and proper nouns.
+  highlight:
+  - sentence case
+  - first word and proper nouns
+  scene:
+    type: image
+    credit: Google developer documentation
+- say: Avoid writing How To Configure Your Cloud Server. Instead, write How to configure your cloud server.
+  caption: Avoid writing How To Configure Your Cloud Server. Instead, write How to configure your cloud server.
+  highlight:
+  - How to configure
+  scene:
+    type: compare
+    left_label: Weak
+    left_text: How To Configure Your Cloud Server
+    right_label: Better
+    right_text: How to configure your cloud server
+- say: Do not put a period at the end of a title or heading. Use sentence case for captions, labels, and list items too.
+  caption: Do not put a period at the end of a title or heading. Use sentence case for captions, labels, and list items too.
+  highlight:
+  - sentence case
+  scene:
+    type: list
+    title: Apply sentence case to
+    items:
+    - Document titles
+    - Subheadings
+    - Image captions
+    - List items
+    style: check
+- say: Use sentence case for titles, headings, and references to them within the document.
+  caption: Use sentence case for titles, headings, and references to them within the document.
+  highlight:
+  - Use sentence case
+  scene:
+    type: quote
+    text: Use sentence case for titles, headings, and references to them within the document.
+    highlight:
+    - sentence case
+description:
+  what_was_fixed: Headings were changed from title case to sentence case for better readability.
+  rule: Use sentence case for titles, headings, and references to them within the document.
+  sources:
+  - 'Google developer documentation: https://developers.google.com/style/capitalization'
+seo:
+  seeds:
+  - technical writing capitalization rules
+  - sentence case vs title case documentation
+  - Google developer style guide capitalization
+  hashtags:
+  - '#TechnicalWriting'
+  - '#Documentation'
+series: One Rule
+record_id: style:https://developers.google.com/style/capitalization
+auto: true
+instagram_hashtags_rotating: []

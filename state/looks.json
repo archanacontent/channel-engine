@@ -45,6 +45,18 @@
   "stem": "2026-11-24-0700",
   "palette": "saffron_on_blue",
   "motion": "sweep",
+  "hook": "stat_punch"
+ },
+ {
+  "stem": "2026-11-25-0700",
+  "palette": "blue_on_saffron",
+  "motion": "rings",
   "hook": "myth_stamp"
+ },
+ {
+  "stem": "2026-11-26-0700",
+  "palette": "green_on_cream",
+  "motion": "grid",
+  "hook": "challenge"
  }
 ]

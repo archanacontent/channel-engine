@@ -1,0 +1,59 @@
+skip: false
+title: 'Curiosity: what just happened'
+beats:
+- say: NASA's Curiosity rover has officially drilled forty nine holes into the surface of Mars.
+  caption: NASA's Curiosity rover has officially drilled 49 holes into the surface of Mars.
+  scene:
+    type: headline
+    value: 49 Holes Driven Below Surface
+    kicker: ''
+    text: 49 Holes Driven Below Surface
+  highlight:
+  - 49 holes into
+- say: A new collage from November twenty twenty six highlights every single sample site on the red planet.
+  caption: A new collage from November 2026 highlights every single sample site on the red planet.
+  scene:
+    type: image
+    credit: NASA/JPL-Caltech/MSSS
+  highlight:
+  - November 2026 highlights
+- say: The drill sits at the end of Curiosity's robotic arm, gathering rock powder directly from Martian terrain.
+  caption: The drill sits at the end of Curiosity's robotic arm, gathering rock powder directly from Martian terrain.
+  scene:
+    type: stat
+    value: Robotic arm drill
+    label: Curiosity Hardware
+  highlight:
+  - end of Curiosity's robotic arm
+- say: After drilling, the arm drops pulverized rock into instruments inside its belly to analyze chemical composition.
+  caption: After drilling, the arm drops pulverized rock into instruments inside its belly to analyze chemical composition.
+  scene:
+    type: flow
+    steps:
+    - title: Drill Rock
+      note: End of robotic arm
+    - title: Analyze
+      note: Instruments inside belly
+  highlight: []
+- say: Source in the description.
+  caption: Source in the description.
+  scene:
+    type: cta
+    line: Source in description
+    subline: NASA/JPL-Caltech/MSSS
+  highlight:
+  - Source in the description
+description:
+  explainer: NASA's Curiosity rover has collected 49 rock samples from the surface of Mars as of November 2026. The drill on its robotic arm transfers pulverized material directly to onboard instruments for compositional analysis.
+  sources:
+  - 'NASA: https://www.nasa.gov/image-article/nasas-curiosity-mars-rover-collects-samples/'
+seo:
+  seeds:
+  - Curiosity Mars rover samples
+  - NASA Mars drill holes
+  - Curiosity rover rock composition
+  - NASA Mars November 2026 update
+series: Mission Log
+record_id: nasanews:https://www.nasa.gov/image-article/nasas-curiosity-mars-rover-collects-samples/
+auto: true
+instagram_hashtags_rotating: []

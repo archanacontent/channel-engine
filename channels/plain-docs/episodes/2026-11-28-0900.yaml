@@ -1,0 +1,78 @@
+skip: false
+skip_reason: ''
+title: Fixing a real README in under a minute
+beats:
+- say: Vague instructions cause developers to stall during setup.
+  caption: Vague instructions cause developers to stall during setup.
+  highlight:
+  - Vague instructions
+  - stall during setup
+  scene:
+    type: headline
+    text: Vague instructions stall onboarding
+- say: 'The octto README says: Inject custom instructions into agent prompts. Useful for customizing agent behavior per-project or globally.'
+  caption: 'The octto README says: Inject custom instructions into agent prompts. Useful for customizing agent behavior per-project or globally.'
+  highlight:
+  - Inject custom instructions
+  - Useful for customizing
+  scene:
+    type: compare
+    left_label: Original
+    left_text: Inject custom instructions into agent prompts. Useful for customizing agent behavior per-project or globally.
+    right_label: Rewritten
+    right_text: Inject custom instructions into agent prompts to customize agent behavior per-project or globally.
+- say: The original uses two sentences where one direct statement works better. I removed the word useful to make the instruction a single, confident action.
+  caption: The original uses two sentences where one direct statement works better. I removed the word useful to make the instruction a single, confident action.
+  highlight:
+  - two sentences
+  - single, confident action
+  scene:
+    type: list
+    title: The Fix
+    items:
+    - Remove filler words
+    - Combine related ideas
+    - Use direct verbs
+    style: check
+- say: Specific instructions help users configure their agents without second guessing.
+  caption: Specific instructions help users configure their agents without second guessing.
+  highlight:
+  - Specific instructions
+  - without second guessing
+  scene:
+    type: card
+    title: Documentation Impact
+    rows:
+    - - Clarity
+      - High
+    - - Support Tickets
+      - Low
+- say: Write documentation people actually finish reading.
+  caption: Write documentation people actually finish reading.
+  highlight:
+  - actually finish reading
+  scene:
+    type: quote
+    text: Write documentation people actually finish reading.
+    highlight:
+    - actually finish reading
+description:
+  what_was_fixed: I combined two vague sentences in the octto README into one direct instruction.
+  rule: Combine related ideas to eliminate filler words and increase confidence.
+  sources:
+  - 'vtemian/octto README (MIT): https://github.com/vtemian/octto'
+  source_link: https://github.com/vtemian/octto
+  license: MIT
+seo:
+  seeds:
+  - technical writing tips
+  - how to write documentation
+  - improving README files
+  - developer experience
+  hashtags:
+  - '#TechnicalWriting'
+  - '#DeveloperExperience'
+series: Rewrite This
+record_id: repo:vtemian/octto
+auto: true
+instagram_hashtags_rotating: []

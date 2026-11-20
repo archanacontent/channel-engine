@@ -1,0 +1,74 @@
+skip: false
+title: Indian rice export prices hit 19-month high. The record says otherwise.
+beats:
+- say: Indian rice exports are struggling globally.
+  caption: Indian rice exports are struggling globally.
+  scene:
+    type: headline
+    kicker: Myth
+    text: Indian rice exports are struggling globally.
+  highlight:
+  - struggling globally
+- say: BusinessLine reported on November 20, 2026, that Indian rice export prices climbed to a 19-month high.
+  caption: BusinessLine reported on November 20, 2026, that Indian rice export prices climbed to a 19-month high.
+  scene:
+    type: headline
+    value: 19-month highයි
+    kicker: ''
+    text: 19-month highයි
+  highlight:
+  - 19-month high
+- say: India's 5 percent broken parboiled variety was quoted at 394 to 398 US dollars per ton.
+  caption: India's 5 percent broken parboiled variety was quoted at $394-$398 per ton.
+  scene:
+    type: stat
+    value: $394-$398 per ton
+    label: Export Prices
+  highlight:
+  - $394-$398 per ton
+- say: Higher domestic paddy prices, sustained African demand, and rupee appreciation supported the market.
+  caption: Higher domestic paddy prices, sustained African demand, and rupee appreciation supported the market.
+  scene:
+    type: list
+    title: Market Drivers
+    items:
+    - Rupee appreciation
+  highlight:
+  - rupee appreciation
+- say: Will robust African demand keep Indian rice prices firm through the coming months? Follow for tomorrow's figure.
+  caption: Will robust African demand keep Indian rice prices firm through the coming months?
+  scene:
+    type: cta
+    line: Will robust African demand keep Indian rice prices firm?
+    subline: Follow for tomorrow's figure.
+  highlight: []
+description:
+  summary: Indian rice export prices hit a 19-month high driven by rupee appreciation and sustained African demand.
+  details: BusinessLine reported on November 20, 2026, that Indian rice export prices reached a 19-month high. India's 5 percent broken parboiled variety reached 394 to 398 US dollars per ton. The rise is supported by higher domestic paddy prices, sustained African demand, and rupee appreciation.
+  key_figures: 'Parboiled variety: $394-$398 per ton
+
+    White rice: $395-$400 per ton'
+  sources:
+  - 'BusinessLine, 20 Nov 2026: https://www.thehindubusinessline.com/economy/agri-business/indian-rice-export-prices-hit-19-month-high-as-rupee-strengthens-african-demand-rises/article71722963.ece'
+  released: 20 Nov 2026
+  source_link: https://www.thehindubusinessline.com/economy/agri-business/indian-rice-export-prices-hit-19-month-high-as-rupee-strengthens-african-demand-rises/article71722963.ece
+seo:
+  seeds:
+  - Indian rice export prices
+  - BusinessLine agriculture news
+  - India rice market November 2026
+  - parboiled rice price India
+  - African demand Indian rice
+  - rupee appreciation rice exports
+series: Myth vs Record
+record_id: vbnews:https://www.thehindubusinessline.com/economy/agri-business/indian-rice-export-prices-hit-19-month-high-as-rupee-strengthens-african-demand-rises/article71722963.ece
+auto: true
+instagram_hashtags_rotating: []
+released: 20 Nov 2026
+posted: '2026-11-20'
+sector: Trade and Diplomacy
+source_label: BusinessLine, 20 Nov 2026
+look:
+  palette: green_on_cream
+  motion: grid
+  hook: challenge

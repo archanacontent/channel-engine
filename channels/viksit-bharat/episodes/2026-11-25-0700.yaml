@@ -1,0 +1,74 @@
+skip: false
+title: India relies on foreign animal vaccines. The record says otherwise.
+beats:
+- say: India relies on foreign animal vaccines.
+  caption: India relies on foreign animal vaccines.
+  scene:
+    type: headline
+    kicker: Myth
+    text: India relies on foreign animal vaccines
+  highlight:
+  - India relies on foreign animal vaccines
+- say: Union Agriculture Ministry data confirms India has unveiled its first indigenous H five N one vaccine to protect chickens from bird flu.
+  caption: Union Agriculture Ministry data confirms India has unveiled its first indigenous H5N1 vaccine to protect chickens from bird flu.
+  scene:
+    type: headline
+    value: 1st indigenous vaccine
+    kicker: ''
+    text: 1st indigenous vaccine
+  highlight:
+  - first indigenous H5N1 vaccine
+- say: This breakthrough was developed by the I C A R National Institute of High Security Animal Diseases in Bhopal.
+  caption: This breakthrough was developed by the ICAR-National Institute of High Security Animal Diseases in Bhopal.
+  scene:
+    type: stat
+    value: ICAR-NIHSAD, Bhopal
+    label: Developed by
+  highlight:
+  - ICAR-National Institute of High Security Animal Diseases
+- say: Highly pathogenic avian influenza, or bird flu, can cause up to one hundred percent mortality in infected chickens.
+  caption: Highly pathogenic avian influenza, or bird flu, can cause up to 100% mortality in infected chickens.
+  scene:
+    type: list
+    title: Why this matters
+    items:
+    - Prevents 100% mortality in outbreaks
+  highlight:
+  - 100% mortality
+- say: How will domestic vaccine production change animal husbandry in India? Follow for tomorrow's figure.
+  caption: How will domestic vaccine production change animal husbandry in India? Follow for tomorrow's figure.
+  scene:
+    type: cta
+    line: How will domestic vaccine production change animal husbandry in India?
+    subline: Follow for tomorrow's figure.
+  highlight: []
+description:
+  summary: India launches its first indigenous H5N1 vaccine to protect poultry from bird flu.
+  details: The Union Agriculture Ministry has introduced an indigenous vaccine for H5N1 avian influenza. Developed by the ICAR-National Institute of High Security Animal Diseases in Bhopal, this vaccine aims to curb the high mortality rates associated with bird flu outbreaks. It marks a step toward self-reliance in animal health protection.
+  key_figures: 'Vaccine type: H5N1
+
+    Mortality rate: Up to 100%
+
+    Developer: ICAR-NIHSAD'
+  sources:
+  - 'Economic Times, 20 Nov 2026: https://economictimes.indiatimes.com/news/economy/agriculture/union-minister-chouhan-unveils-countrys-first-indigenous-h5n1-vaccine-to-protect-chickens-from-bird-flu/articleshow/136022644.cms'
+  released: 20 Nov 2026
+  source_link: https://economictimes.indiatimes.com/news/economy/agriculture/union-minister-chouhan-unveils-countrys-first-indigenous-h5n1-vaccine-to-protect-chickens-from-bird-flu/articleshow/136022644.cms
+seo:
+  seeds:
+  - H5N1 vaccine India
+  - indigenous bird flu vaccine
+  - ICAR-NIHSAD Bhopal
+  - India animal health technology
+series: Myth vs Record
+record_id: vbnews:https://economictimes.indiatimes.com/news/economy/agriculture/union-minister-chouhan-unveils-countrys-first-indigenous-h5n1-vaccine-to-protect-chickens-from-bird-flu/articleshow/136022644.cms
+auto: true
+instagram_hashtags_rotating: []
+released: 20 Nov 2026
+posted: '2026-11-20'
+sector: Tourism, Culture and Heritage
+source_label: Economic Times, 20 Nov 2026
+look:
+  palette: blue_on_saffron
+  motion: rings
+  hook: myth_stamp
