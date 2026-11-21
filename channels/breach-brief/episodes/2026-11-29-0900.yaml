@@ -1,0 +1,87 @@
+skip: false
+skip_reason: ''
+title: 'Exploited now: Apache Roller CVE-2026-129448'
+beats:
+- say: Attackers are using a critical flaw in Apache Roller to run remote code without any authentication.
+  caption: Attackers are using a critical flaw in Apache Roller to run remote code without any authentication.
+  highlight:
+  - run remote code
+  - without any authentication
+  scene:
+    type: headline
+    text: Remote Code Execution in Apache Roller
+- say: The XML R P C endpoint accepts and deserializes untrusted data before a user even logs in. This vulnerability affects Apache Roller versions 4.0.0 through 6.1.4.
+  caption: The XML-RPC endpoint accepts and deserializes untrusted data before a user even logs in. This vulnerability affects Apache Roller versions 4.0.0 through 6.1.4.
+  highlight:
+  - deserializes untrusted data
+  - before a user even logs in
+  scene:
+    type: card
+    title: Vulnerability Details
+    rows:
+    - - CVE ID
+      - CVE-2026-129448
+    - - Product
+      - Apache Roller
+    - - Affected Versions
+      - 4.0.0 to 6.1.4
+    - - Added to KEV
+      - '2026-11-20'
+    - - Remediation Due
+      - '2026-11-23'
+- say: The simplest fix is to upgrade to Apache Roller 6.1.6 or later to disable these extension types.
+  caption: The simplest fix is to upgrade to Apache Roller 6.1.6 or later to disable these extension types.
+  highlight:
+  - upgrade to Apache Roller 6.1.6
+  scene:
+    type: compare
+    left_label: Vulnerable
+    left_text: Versions 4.0.0 to 6.1.4
+    right_label: Secure
+    right_text: Version 6.1.6 or later
+- say: If you cannot upgrade immediately, set enabled For Extensions to false in WEB I N F slash web dot xml. You must also remove the roller services slash xml r p c servlet mapping and restart the application.
+  caption: If you cannot upgrade immediately, set "enabledForExtensions" to "false" in WEB-INF/web.xml. You must also remove the "/roller-services/xmlrpc" servlet mapping and restart the application.
+  highlight: []
+  scene:
+    type: list
+    title: Immediate Mitigations
+    items:
+    - Set enabledForExtensions to false
+    - Remove XML-RPC servlet mapping
+    - Restart Roller service
+    style: check
+- say: Do not just disable XML R P C in the administration UI. Older versions still deserialize the request before checking that setting.
+  caption: Do not just disable XML-RPC in the administration UI. Older versions still deserialize the request before checking that setting.
+  highlight: []
+  scene:
+    type: quote
+    text: Disabling XML-RPC in the administration UI is not enough.
+    highlight:
+    - is not enough
+- say: Sources are in the description.
+  caption: Sources are in the description.
+  highlight: []
+  scene:
+    type: cta
+    line: Stay updated
+    subline: Sources are in the description
+description:
+  summary: Apache Roller is being actively exploited via a critical deserialization flaw in its XML-RPC endpoint.
+  affected: Apache Roller versions 4.0.0 through 6.1.4.
+  action: Upgrade to version 6.1.6 or later, or manually disable extensions in web.xml and remove the XML-RPC servlet mapping.
+  sources:
+  - 'CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog'
+  - 'NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-129448'
+seo:
+  seeds:
+  - Apache Roller vulnerability
+  - CVE-2026-129448 exploit
+  - CISA KEV Apache Roller
+  - fix Apache Roller deserialization
+  hashtags:
+  - '#Cybersecurity'
+  - '#ApacheRoller'
+series: Exploited Today
+record_id: kev:CVE-2026-129448
+auto: true
+instagram_hashtags_rotating: []

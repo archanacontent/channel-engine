@@ -1,0 +1,87 @@
+format: strip
+kind: reel
+tone: satire
+title: Disrupting the Playroom
+premise: Ravi tries to pitch a venture-backed disruption model for Lottie's piggy bank, but 7-year-old Lottie conducts a hostile boardroom acquisition.
+panels:
+- room: living_room
+  shot: medium
+  cast:
+  - who: Ravi
+    mood: smug
+    pos: left
+    size: medium
+    holding: laptop
+  - who: Lottie
+    mood: deadpan
+    pos: right
+    size: small
+  lines:
+  - who: Ravi
+    text: I am disrupting your piggy bank into SaaS.
+  - who: Lottie
+    text: What is SaaS?
+  focus: Ravi presenting a pitch deck to Lottie in the living room
+  props: []
+- room: living_room
+  shot: close
+  cast:
+  - who: Ravi
+    mood: proud
+    pos: center
+    size: medium
+    holding: laptop
+  lines:
+  - who: Ravi
+    text: Software as a Snack! 20% allowance transaction fee.
+  focus: Ravi enthusiastically explaining his predatory business model
+  fx:
+  - sparkles
+  props: []
+- room: living_room
+  shot: close
+  cast:
+  - who: Lottie
+    mood: scheming
+    pos: center
+    size: small
+  lines:
+  - who: Lottie
+    text: Where are your servers hosted?
+  focus: Lottie asking a sharp business question
+  props: []
+- room: living_room
+  shot: extreme_close
+  cast:
+  - who: Lottie
+    mood: smug
+    pos: center
+    size: small
+    holding: briefcase
+  lines:
+  - who: Lottie
+    text: I bought your debt. You work for me now.
+  focus: Lottie revealing her takeover
+  fx:
+  - impact
+  sfx: BOOM
+  props: []
+caption: 'Never pitch to someone who still gets free juice boxes.
+
+  .
+
+  .
+
+  .
+
+  #comics #cartoon #digitalart #webcomic #comicbooks
+
+  comic | drawing | art | illustration | artist | sketch
+
+  #cartoonist #comicart #comicbook #funnycomics #draw #artwork #officehumor #comicstrip #funny #relatable #artistsoninstagram #comicsofy #doodle #webtoon #viral #viralcomics #explorepage #startup #techhumor #vclife #satire'
+description:
+  summary: Never pitch to someone who still gets free juice boxes.
+series: Pim and Soot Reel
+record_id: strip:reel:1795277574629674076:0
+auto: true
+instagram_hashtags_rotating: []

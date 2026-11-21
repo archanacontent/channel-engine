@@ -1,0 +1,69 @@
+skip: false
+skip_reason: ''
+title: 'Curiosity: what just happened'
+beats:
+- say: Mars has drifting twilight clouds appearing over Gale Crater.
+  caption: Mars has drifting twilight clouds appearing over Gale Crater.
+  highlight:
+  - drifting twilight clouds
+  - Gale Crater
+  scene:
+    type: headline
+    text: Twilight clouds over Gale Crater
+- say: The Curiosity rover captured these images on October 31, 2026. This was the 5,061st Martian day of the mission.
+  caption: The Curiosity rover captured these images on October 31, 2026. This was the 5,061st Martian day of the mission.
+  highlight:
+  - October 31, 2026
+  - 5,061st Martian day
+  scene:
+    type: stat
+    value: 5,061
+    label: Martian days (sols)
+- say: These clouds appear for only a short time each fall. Curiosity uses its navigation cameras to see them after sunset.
+  caption: These clouds appear for only a short time each fall. Curiosity uses its navigation cameras to see them after sunset.
+  highlight:
+  - short time each fall
+  - after sunset
+  scene:
+    type: card
+    title: Cloud Observation
+    rows:
+    - - Timing
+      - Post-sunset
+    - - Season
+      - Martian fall
+    - - Location
+      - Gale Crater
+- say: Curiosity has been exploring this area for more than 14 years. NASA's Jet Propulsion Laboratory manages the mission for the Mars Exploration Program.
+  caption: Curiosity has been exploring this area for more than 14 years. NASA's Jet Propulsion Laboratory manages the mission for the Mars Exploration Program.
+  highlight:
+  - more than 14 years
+  - Mars Exploration Program
+  scene:
+    type: image
+    credit: NASA/JPL-Caltech
+- say: Source in the description.
+  caption: Source in the description.
+  highlight:
+  - Source in the description
+  scene:
+    type: cta
+    line: Explore more
+    subline: Source in the description
+description:
+  explainer: NASA's Curiosity rover captured drifting twilight clouds on Mars. These clouds appear over Gale Crater during the Martian fall.
+  sources:
+  - 'NASA: https://science.nasa.gov/photojournal/curiosity-spots-drifting-twilight-clouds/'
+seo:
+  seeds:
+  - Curiosity rover Mars clouds
+  - Mars twilight clouds
+  - Gale Crater Mars images
+  - NASA Mars mission updates
+  hashtags:
+  - '#Mars'
+  - '#NASA'
+series: Mission Log
+record_id: nasanews:https://science.nasa.gov/photojournal/curiosity-spots-drifting-twilight-clouds/
+auto: true
+instagram_hashtags_rotating: []

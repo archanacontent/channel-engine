@@ -1,0 +1,102 @@
+format: strip
+kind: image
+tone: cozy
+title: The Strategic Acquisition
+premise: Gus tries to sell Biscuit a stick as a high-end trade item, but Biscuit's unbridled happiness and immediate generosity completely melt the street-hardened pigeon.
+panels:
+- room: park
+  shot: medium
+  cast:
+  - who: Gus
+    mood: scheming
+    pos: left
+    size: small
+  - who: Biscuit
+    mood: happy
+    pos: right
+    size: large
+  lines:
+  - who: Gus
+    text: Psst. Big dog. Premium stick. One crust.
+  - who: Biscuit
+    text: FOR ME?! YOU BROUGHT ME A PRESENT?!
+  focus: Gus showing Biscuit a stick in the park.
+  props: []
+- room: park
+  shot: wide
+  cast:
+  - who: Brenda
+    mood: happy
+    pos: far_left
+    size: medium
+    holding: coffee
+  - who: Gus
+    mood: shocked
+    pos: center
+    size: small
+  - who: Biscuit
+    mood: love
+    pos: right
+    size: large
+    holding: bread
+  lines:
+  - who: Biscuit
+    text: Take my sandwich! Take everything!
+  - who: Brenda
+    text: Per my assessment, this synergy is beautiful.
+  fx:
+  - hearts
+  sfx: GASPL
+  props: []
+- room: park
+  shot: close
+  cast:
+  - who: Gus
+    mood: shocked
+    pos: left
+    size: medium
+    holding: bread
+  - who: Biscuit
+    mood: happy
+    pos: right
+    size: large
+  lines:
+  - who: Gus
+    text: No haggle? No turf war? Just... warm bread?
+  - who: Biscuit
+    text: And the sunbeam! Sit with us!
+  fx:
+  - sparkles
+  props: []
+- room: park
+  shot: extreme_close
+  cast:
+  - who: Gus
+    mood: happy
+    pos: center
+    size: large
+    holding: bread
+  lines:
+  - who: Gus
+    text: I gotta rethink my entire business strategy.
+  narration: Best Q4 earnings ever.
+  props: []
+caption: 'The most successful corporate merger of the quarter.
+
+  .
+
+  .
+
+  .
+
+  #comics #cartoon #digitalart #webcomic #comicbooks
+
+  comic | drawing | art | illustration | artist | sketch
+
+  #cartoonist #comicart #comicbook #funnycomics #draw #artwork #officehumor #comicstrip #funny #relatable #artistsoninstagram #comicsofy #doodle #webtoon #viral #viralcomics #explorepage #wholesomecomics #goldenretriever #pigeonlife #cozyvibes'
+description:
+  summary: The most successful corporate merger of the quarter.
+series: Pim and Soot Comic
+record_id: strip:image:1795277323745079900:0
+auto: true
+instagram_hashtags_rotating: []

@@ -1,0 +1,69 @@
+skip: false
+skip_reason: ''
+title: 'Writing rule: Use tables for three or more related data points'
+beats:
+- say: Use tables only when each item contains three or more related pieces of information.
+  caption: Use tables only when each item contains three or more related pieces of information.
+  highlight:
+  - three or more related pieces
+  scene:
+    type: headline
+    text: When to use tables
+- say: Google developer documentation suggests using lists for single units or paired data.
+  caption: Google developer documentation suggests using lists for single units or paired data.
+  highlight:
+  - lists for single units
+  - paired data
+  scene:
+    type: image
+    credit: Google developer documentation
+- say: A single column table with one row of data is often unnecessary.
+  caption: A single column table with one row of data is often unnecessary.
+  highlight:
+  - single column table
+  - unnecessary
+  scene:
+    type: stat
+    value: '1'
+    label: column is a list
+    source: Google
+- say: Name, type, and description are three pieces of data. Use a table.
+  caption: Name, type, and description are three pieces of data. Use a table.
+  highlight:
+  - three pieces of data
+  - Use a table
+  scene:
+    type: compare
+    left_label: 'Weak: List'
+    left_text: 'Name: href, Type: HTML, Description: Defines the URL.'
+    right_label: 'Strong: Table'
+    right_text: 'Name | Type | Description
+
+      href | HTML | Defines the URL.'
+- say: Use tables for two dimensional data. Use lists for simpler structures.
+  caption: Use tables for two dimensional data. Use lists for simpler structures.
+  highlight:
+  - two dimensional data
+  - simpler structures
+  scene:
+    type: quote
+    text: Tables are ideal for presenting data with three or more related pieces of information per item.
+    highlight:
+    - three or more related pieces
+description:
+  what_was_fixed: The guide shows how to choose between tables and lists based on data complexity.
+  rule: Use tables for three or more related pieces of information per item.
+  sources:
+  - 'Google developer documentation: https://developers.google.com/style/tables'
+seo:
+  seeds:
+  - technical writing table vs list
+  - how to document API parameters
+  - Google developer documentation style guide
+  hashtags:
+  - '#TechnicalWriting'
+  - '#Documentation'
+series: One Rule
+record_id: style:https://developers.google.com/style/tables
+auto: true
+instagram_hashtags_rotating: []

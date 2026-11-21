@@ -1,0 +1,61 @@
+skip: false
+title: 'What you''re looking at: Vela Molecular Ridge'
+beats:
+- say: S P H E R E X reveals hidden infrared colors in the Vela Molecular Ridge.
+  caption: SPHEREx reveals hidden infrared colors in the Vela Molecular Ridge.
+  scene:
+    type: headline
+    text: SPHEREx reveals hidden infrared colors in the Vela Molecular Ridge
+  highlight:
+  - SPHEREx reveals hidden infrared colors
+- say: This image shows the Vela Molecular Ridge, captured by the S P H E R E X mission.
+  caption: This image shows the Vela Molecular Ridge, captured by the SPHEREx mission.
+  scene:
+    type: image
+    credit: NASA JPL
+  highlight:
+  - Vela Molecular Ridge
+- say: The bright yellow patch on the right is R C W thirty-six, an emission nebula. It glows in infrared light because of radiation from nearby stars.
+  caption: The bright yellow patch on the right is RCW 36, an emission nebula. It glows in infrared light because of radiation from nearby stars.
+  scene:
+    type: stat
+    value: RCW 36
+    label: Emission Nebula RCW 36
+  highlight:
+  - RCW 36
+  - emission nebula
+- say: The S P H E R E X instrument detects one hundred two distinct infrared wavelengths. These colors remain invisible to the human eye.
+  caption: The SPHEREx instrument detects 102 distinct infrared wavelengths. These colors remain invisible to the human eye.
+  scene:
+    type: headline
+    value: 102 Wavelengths
+    kicker: ''
+    text: 102 Wavelengths
+  highlight:
+  - 102 distinct infrared wavelengths
+- say: This data was part of the mission first public release on July second, twenty twenty-five. Image credit in the description.
+  caption: This data was part of the mission first public release on July 2, 2025. Image credit in the description.
+  scene:
+    type: cta
+    line: Look closer at space
+    subline: Subscribe for daily space science
+  highlight:
+  - first public release
+description:
+  explainer: This image shows the Vela Molecular Ridge captured by NASA's SPHEREx mission, including the emission nebula RCW 36. The mission detects 102 infrared wavelengths invisible to the human eye.
+  sources:
+  - 'NASA Image and Video Library: https://images.nasa.gov/details/PIA26354'
+  credit: NASA
+seo:
+  seeds:
+  - Vela Molecular Ridge
+  - SPHEREx mission
+  - RCW 36 nebula
+  - NASA infrared imaging
+series: Look Closer
+record_id: nasa:PIA26354
+auto: true
+instagram_hashtags_rotating: []
+media:
+  image: /home/runner/work/channel-engine/channel-engine/collected/deep-field/media/2026-11-29-0900.jpg
+  credit: NASA

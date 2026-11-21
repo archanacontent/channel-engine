@@ -1,0 +1,79 @@
+skip: false
+skip_reason: ''
+title: Fixing a real README in under a minute
+beats:
+- say: Vague installation steps stall user onboarding.
+  caption: Vague installation steps stall user onboarding.
+  highlight:
+  - Vague installation steps
+  - stall user onboarding
+  scene:
+    type: headline
+    text: Bad docs stall onboarding
+- say: 'The DeskVoice README says: Entre na V P S por S S H e rode uma linha: curl dash f s S L https colon slash slash raw dot github dot com slash DeskLabs dash OpenSource slash DeskVoice slash main slash install slash get dot sh pipe bash.'
+  caption: 'The DeskVoice README says: Entre na VPS por SSH e rode uma linha: curl -fsSL https://raw.githubusercontent.com/DeskLabs-OpenSource/DeskVoice/main/install/get.sh | bash.'
+  highlight:
+  - Entre na VPS por SSH
+  - rode uma linha
+  scene:
+    type: compare
+    left_label: Original
+    left_text: 'Entre na VPS por SSH e rode uma linha: curl -fsSL https://raw.githubusercontent.com/DeskLabs-OpenSource/DeskVoice/main/install/get.sh | bash'
+    right_label: Improved
+    right_text: 'Access your VPS via SSH and run this command to install: curl -fsSL https://raw.githubusercontent.com/DeskLabs-OpenSource/DeskVoice/main/install/get.sh | bash'
+- say: The original mixes Portuguese and English while using vague phrasing like rode uma linha.
+  caption: The original mixes Portuguese and English while using vague phrasing like rode uma linha.
+  highlight:
+  - mixes Portuguese and English
+  - vague phrasing
+  scene:
+    type: list
+    title: The problems
+    items:
+    - Language inconsistency
+    - Vague action verbs
+    - Missing clarity
+    style: bullet
+- say: The fix uses a single language and specifies exactly what the command does.
+  caption: The fix uses a single language and specifies exactly what the command does.
+  highlight:
+  - single language
+  - specifies exactly
+  scene:
+    type: flow
+    steps:
+    - title: Unify language
+      note: Stick to one language
+    - title: Specify action
+      note: Say 'run this command'
+- say: Write instructions in one language with specific actions.
+  caption: Write instructions in one language with specific actions.
+  highlight:
+  - one language
+  - specific actions
+  scene:
+    type: quote
+    text: Write instructions in one language with specific actions.
+    highlight:
+    - one language
+    - specific actions
+description:
+  what_was_fixed: Fixed language inconsistency and vague instructions in the DeskVoice installation steps.
+  rule: Use one language and specific verbs to prevent user confusion.
+  sources:
+  - 'DeskLabs-OpenSource/DeskVoice README (MIT): https://github.com/DeskLabs-OpenSource/DeskVoice'
+  source_link: https://github.com/DeskLabs-OpenSource/DeskVoice
+  license: MIT
+seo:
+  seeds:
+  - technical writing tips
+  - how to write README files
+  - improving documentation
+  - technical writing for developers
+  hashtags:
+  - '#TechWriting'
+  - '#DeveloperExperience'
+series: Rewrite This
+record_id: repo:DeskLabs-OpenSource/DeskVoice
+auto: true
+instagram_hashtags_rotating: []

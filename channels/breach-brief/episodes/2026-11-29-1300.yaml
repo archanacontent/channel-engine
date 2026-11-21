@@ -1,0 +1,96 @@
+skip: false
+title: 'Exploited now: VMware vCenter CVE-2026-123890'
+beats:
+- say: Unauthenticated attackers are actively bypassing authentication in Broadcom VMware vCenter right now.
+  caption: Unauthenticated attackers are actively bypassing authentication in Broadcom VMware vCenter right now.
+  scene:
+    type: headline
+    text: Critical VMware vCenter Flaw Exploited
+    title: Exploited Now
+  highlight:
+  - Unauthenticated attackers
+  - bypassing authentication
+- say: Added to CISA's catalog on November twentieth, 2026, C V E 2026, 1 2 3 8 9 0 carries a critical nine point eight CVSS score.
+  caption: Added to CISA's catalog on November 20, 2026, CVE-2026-123890 carries a critical 9.8 CVSS score.
+  scene:
+    type: card
+    rows:
+    - - CVE ID
+      - CVE-2026-123890
+    - - Product
+      - VMware vCenter
+    - - Added
+      - '2026-11-20'
+    - - Due Date
+      - '2026-11-23'
+    title: Vulnerability Details
+  highlight:
+  - November 20, 2026
+  - 9.8 CVSS score
+- say: An alternate path in the VMware Directory Service allows attackers with network access to gain unauthorized control of the system.
+  caption: An alternate path in the VMware Directory Service allows attackers with network access to gain unauthorized control of the system.
+  scene:
+    type: flow
+    steps:
+    - title: Network Access
+      note: Attacker targets vCenter
+    - title: Directory Service
+      note: Bypasses authentication
+    - title: System Control
+      note: Unauthorized access granted
+  highlight:
+  - VMware Directory Service
+  - unauthorized control
+- say: Affected versions include 9.1 point x, 9.0 point x, 8.0, 5 point x, and Telco Cloud platforms.
+  caption: Affected versions include 9.1.x, 9.0.x, 8.0, 5.x, and Telco Cloud platforms.
+  scene:
+    type: list
+    items:
+    - Version 9.1.x (fix 9.1.1.0200)
+    - Version 9.0.x (fix 9.0.2.0200)
+    - Version 8.0 (fix 8.0 U3m)
+    - Version 5.x (fix 5.2.5)
+    style: bullet
+    title: Affected Versions
+  highlight:
+  - Affected versions
+  - Telco Cloud platforms
+- say: Apply vendor mitigations immediately or discontinue use if mitigations are unavailable. Federal remediation is due November twenty-third, 2026.
+  caption: Apply vendor mitigations immediately or discontinue use if mitigations are unavailable. Federal remediation is due November 23, 2026.
+  scene:
+    type: list
+    items:
+    - Apply vendor mitigations
+    - Follow BOD 26-04 guidance
+    - Perform forensics triage
+    - Discontinue if unpatched
+    style: check
+    title: Required Actions
+  highlight:
+  - Apply vendor mitigations
+  - discontinue use
+- say: Sources are in the description.
+  caption: Sources are in the description.
+  scene:
+    type: cta
+    line: Sources in description
+    subline: Cybersecurity Daily
+  highlight:
+  - Sources are in the description
+description:
+  summary: Broadcom VMware vCenter contains a critical authentication bypass vulnerability (CVE-2026-123890) in the VMware Directory Service that allows attackers to gain unauthorized access.
+  affected: Broadcom VMware vCenter versions 9.1.x, 9.0.x, 8.0, 5.x, as well as Telco Cloud Platform and Infrastructure versions.
+  action: Apply vendor mitigations immediately, follow CISA BOD 26-04 guidance and forensics triage requirements, or discontinue product use if mitigations are unavailable.
+  sources:
+  - 'CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog'
+  - 'NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-123890'
+seo:
+  seeds:
+  - VMware vCenter vulnerability CVE-2026-123890
+  - CISA KEV vCenter authentication bypass
+  - VMware vCenter patch update
+  - 'vCenter directory service flaw fix 2026-123890 '
+series: Exploited Today
+record_id: kev:CVE-2026-123890
+auto: true
+instagram_hashtags_rotating: []

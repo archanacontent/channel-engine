@@ -1,0 +1,67 @@
+skip: false
+title: 'Free workflow: Marketing analytics reports on autopilot'
+beats:
+- say: Stop pulling marketing reports manually every week and month.
+  caption: Stop pulling marketing reports manually every week and month.
+  scene:
+    type: headline
+    kicker: Automation Pick
+    text: Stop pulling marketing reports manually every week and month.
+  highlight:
+  - pulling marketing reports
+- say: This n eight n template calculates metrics like customer acquisition cost and lifetime value automatically.
+  caption: This n8n template calculates metrics like customer acquisition cost and lifetime value automatically.
+  scene:
+    type: stat
+    value: Metrics Breakdown
+    label: Calculated KPIs
+  highlight:
+  - n8n template calculates
+- say: It fetches Google Analytics, ad spend, and C R M data, then logs rows into Google Sheets.
+  caption: It fetches Google Analytics, ad spend, and CRM data, then logs rows into Google Sheets.
+  scene:
+    type: flow
+    steps:
+    - title: Fetch Data
+      note: Analytics, Ads, CRM
+    - title: Calculate KPIs
+      note: MAU, CAC, LTV
+    - title: Log & Present
+      note: Sheets & Slides
+  highlight:
+  - Google Analytics
+  - Google Sheets
+- say: The workflow generates a new Google Slides deck, emails recipients via Gmail, and alerts Slack on errors.
+  caption: The workflow generates a new Google Slides deck, emails recipients via Gmail, and alerts Slack on errors.
+  scene:
+    type: list
+    title: Distribution Steps
+    items:
+    - Features list
+  highlight:
+  - emails recipients
+  - alerts Slack
+- say: Ideal for marketing teams and business owners. Template link in the description.
+  caption: Ideal for marketing teams and business owners. Template link in the description.
+  scene:
+    type: cta
+    line: Get the n8n template
+    subline: Template link in the description.
+  highlight:
+  - Template link in the description.
+description:
+  task_line: Automate weekly and monthly marketing analytics reports using n8n.
+  tools: Built with Google Analytics, Google Sheets, Google Slides, Gmail, and Slack.
+  sources:
+  - 'n8n template: https://n8n.io/workflows/10715'
+  template_link: https://n8n.io/workflows/10715
+seo:
+  seeds:
+  - n8n marketing analytics workflow
+  - n8n google analytics automated report
+  - automate marketing reports n8n
+  - google slides report automation
+series: Library Pick
+record_id: n8n:10715
+auto: true
+instagram_hashtags_rotating: []

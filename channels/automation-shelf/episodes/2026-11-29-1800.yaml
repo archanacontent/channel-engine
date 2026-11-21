@@ -1,0 +1,87 @@
+skip: false
+title: Can you automate event marketing content?
+beats:
+- say: Can you automate event marketing content generation? Yes, you can.
+  caption: Can you automate event marketing content generation? Yes, you can.
+  scene:
+    type: headline
+    kicker: Can It Be Automated?
+    text: Automate event marketing content generation
+  highlight:
+  - automate event marketing content
+- say: An n eight n workflow triggers from a webhook, pulls event details from Google Sheets, and defines audience parameters.
+  caption: An n8n workflow triggers from a webhook, pulls event details from Google Sheets, and defines audience parameters.
+  scene:
+    type: flow
+    steps:
+    - title: Webhook
+      note: Receives event details
+    - title: Google Sheets
+      note: Extracts event data
+    - title: Set Variables
+      note: Defines audience parameters
+  highlight:
+  - triggers from a webhook
+  - Google Sheets
+- say: The A I agent creates personalized emails, social media posts, and advertisement copy based on your event specifics.
+  caption: The AI agent creates personalized emails, social media posts, and advertisement copy based on your event specifics.
+  scene:
+    type: list
+    items:
+    - Personalized emails
+    - Social media posts
+    - Targeted ad copy
+    style: check
+    title: Generated Assets
+  highlight:
+  - personalized emails
+  - advertisement copy
+- say: Code nodes format the plan, save the assets back to Google Sheets, and dispatch email reports alongside Slack updates.
+  caption: Code nodes format the plan, save the assets back to Google Sheets, and dispatch email reports alongside Slack updates.
+  scene:
+    type: card
+    rows:
+    - - Format
+      - Code nodes
+    - - Storage
+      - Google Sheets
+    - - Alerts
+      - Email & Slack
+    title: Distribution & Storage
+  highlight:
+  - save the assets
+  - Slack updates
+- say: Stop writing event promos by hand.
+  caption: Stop writing event promos by hand.
+  scene:
+    type: headline
+    text: Stop writing event promos by hand
+  highlight:
+  - Stop writing event promos
+- say: Template link in the description.
+  caption: Template link in the description.
+  scene:
+    type: cta
+    line: Get the free n8n template
+    subline: Link in description
+  highlight:
+  - Template link
+description:
+  task_line: Automate personalized email, social media, and ad content generation for upcoming events using n8n.
+  tools: Built with n8n, Google Sheets, AI services, Email, and Slack.
+  sources:
+  - 'n8n template: https://n8n.io/workflows/10220'
+  template_link: https://n8n.io/workflows/10220
+seo:
+  hashtags:
+  - '#MarketingAutomation'
+  - '#n8n'
+  seeds:
+  - n8n event marketing workflow
+  - automate event content generation
+  - n8n gpt4 marketing template
+  - ai event marketing plan
+series: Can It Be Automated?
+record_id: n8n:10220
+auto: true
+instagram_hashtags_rotating: []
