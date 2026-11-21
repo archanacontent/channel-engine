@@ -8717,11 +8717,13 @@
    "duration_s": 17.83
   },
   "srt": "",
-  "status": "ready",
+  "status": "published",
   "file": "2026-11-21-1800.mp4",
   "platform": "instagram",
   "auto_approve": true,
-  "release": "shorts-43461705255"
+  "release": "shorts-43461705255",
+  "ig_media_id": "17916666126490029",
+  "published_at": "2026-11-21T23:01:48.225223+00:00"
  },
  {
   "slug": "deep-field",
