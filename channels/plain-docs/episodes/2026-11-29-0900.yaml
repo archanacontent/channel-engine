@@ -1,0 +1,67 @@
+skip: false
+title: Fixing a real README in under a minute
+beats:
+- say: Vague instructions confuse setup steps and slow down your readers.
+  caption: Vague instructions confuse setup steps and slow down your readers.
+  scene:
+    type: headline
+    kicker: README Edit
+    text: Vague instructions confuse setup steps
+  highlight:
+  - Vague instructions
+- say: This sentence hedges with phrases like you may be able to extract before giving the actual instruction.
+  caption: This sentence hedges with phrases like you may be able to extract before giving the actual instruction.
+  scene:
+    type: compare
+    left_label: Original
+    left_text: You may be able to extract the files with another tool, just make sure that you extract both the base game files and the 1.4.0 title update.
+    right_label: Rewrite
+    right_text: Extract both the base game files and the 1.4.0 title update.
+  highlight:
+  - hedges with phrases
+- say: Cut the passive filler and tell the user what to extract. State the required 1 point 4 point 0 title update clearly.
+  caption: Cut the passive filler and tell the user what to extract. State the required 1.4.0 title update clearly.
+  scene:
+    type: flow
+    steps:
+    - title: Remove Hedges
+      note: Drop 'you may be able to'
+    - title: Use Direct Verbs
+      note: Start with Extract
+    - title: Specify Version
+      note: Include 1.4.0 requirement
+  highlight:
+  - Cut the passive filler
+- say: The project requires merging exefs and romfs folders from version 1 point 4 point 0 into the data subfolder.
+  caption: The project requires merging exefs and romfs folders from version 1.4.0 into the data subfolder.
+  scene:
+    type: stat
+    value: data subfolder setup
+    label: Folder Structure
+  highlight:
+  - merging exefs and romfs
+- say: Start setup instructions with an imperative verb instead of padded permission phrases.
+  caption: Start setup instructions with an imperative verb instead of padded permission phrases.
+  scene:
+    type: quote
+    text: Start setup instructions with an imperative verb instead of padded permission phrases.
+    title: Rule
+  highlight:
+  - imperative verb
+description:
+  what_was_fixed: A wordy setup step from the MHGURecomp README was rewritten to remove hedging and state the extraction steps directly.
+  rule: Lead instructions with imperative verbs to make procedural documentation actionable and concise.
+  sources:
+  - 'morerokk/MHGURecomp README (MIT): https://github.com/morerokk/MHGURecomp'
+  source_link: https://github.com/morerokk/MHGURecomp
+  license: MIT
+seo:
+  seeds:
+  - technical writing readme rewrite
+  - how to write documentation
+  - open source documentation tips
+  - readme setup instructions
+series: Rewrite This
+record_id: repo:morerokk/MHGURecomp
+auto: true
+instagram_hashtags_rotating: []

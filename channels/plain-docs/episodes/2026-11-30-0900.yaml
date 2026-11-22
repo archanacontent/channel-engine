@@ -1,0 +1,74 @@
+skip: false
+skip_reason: ''
+title: Fixing a real README in under a minute
+beats:
+- say: Vague descriptions make users search for answers that should be obvious.
+  caption: Vague descriptions make users search for answers that should be obvious.
+  highlight:
+  - Vague descriptions
+  scene:
+    type: headline
+    text: Vague descriptions cause friction
+- say: 'The lot-map README says: Every tool call, model step, hook and skill sends a pulse from the centre to its station, so you see memory, files, shell, web and agents at work instead of reading a list of commands.'
+  caption: 'The lot-map README says: Every tool call, model step, hook and skill sends a pulse from the centre to its station, so you see memory, files, shell, web and agents at work instead of reading a list of commands.'
+  highlight:
+  - Every tool call, model step, hook and skill
+  scene:
+    type: compare
+    left_label: Original
+    left_text: Every tool call, model step, hook and skill sends a pulse from the centre to its station, so you see memory, files, shell, web and agents at work instead of reading a list of commands.
+    right_label: Rewritten
+    right_text: The map visualizes tool calls, model steps, hooks, and skills. You see memory, files, shell, web, and agents working instead of a command list.
+- say: The original uses a long, winding sentence. Replacing the metaphor with direct verbs makes the function clear.
+  caption: The original uses a long, winding sentence. Replacing the metaphor with direct verbs makes the function clear.
+  highlight:
+  - direct verbs
+  scene:
+    type: list
+    title: The Fix
+    items:
+    - Remove metaphors
+    - Use direct verbs
+    - Split long sentences
+    style: check
+- say: Specific verbs like visualize clarify what the software actually does.
+  caption: Specific verbs like visualize clarify what the software actually does.
+  highlight:
+  - Specific verbs
+  scene:
+    type: card
+    title: Clarity Gains
+    rows:
+    - - Action
+      - Visualize
+    - - Output
+      - Work status
+- say: Write what it does, not what it feels like.
+  caption: Write what it does, not what it feels like.
+  highlight:
+  - Write what it does
+  scene:
+    type: quote
+    text: Write what it does, not what it feels like.
+    highlight:
+    - Write what it does
+description:
+  what_was_fixed: I rewrote a long, metaphorical sentence from the lot-map README to make the core functionality clear.
+  rule: Use direct verbs instead of metaphors to explain software behavior.
+  sources:
+  - 'alexeyw/lot-map README (MIT): https://github.com/alexeyw/lot-map'
+  source_link: https://github.com/alexeyw/lot-map
+  license: MIT
+seo:
+  seeds:
+  - technical writing tips
+  - how to write documentation
+  - README best practices
+  - improving technical clarity
+  hashtags:
+  - '#TechnicalWriting'
+  - '#Documentation'
+series: Rewrite This
+record_id: repo:alexeyw/lot-map
+auto: true
+instagram_hashtags_rotating: []

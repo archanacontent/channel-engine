@@ -58,5 +58,11 @@
   "palette": "green_on_cream",
   "motion": "grid",
   "hook": "challenge"
+ },
+ {
+  "stem": "2026-11-27-0700",
+  "palette": "cream_on_navy",
+  "motion": "waves",
+  "hook": "stat_ring"
  }
 ]

@@ -1,0 +1,98 @@
+format: strip
+kind: reel
+tone: cozy
+title: The High-Yield Rest
+premise: Lottie opens an outdoor nap clinic on a warm autumn day, helping Mr. Okafor unwind and teaching Ravi how to finally log off.
+panels:
+- room: outdoors_autumn
+  shot: wide
+  cast:
+  - who: Lottie
+    mood: happy
+    pos: left
+    size: small
+  - who: Mr. Okafor
+    mood: happy
+    pos: right
+    size: medium
+    holding: coffee
+  lines:
+  - who: Lottie
+    text: Welcome to Nap Clinic. Entrance fee is one sticker.
+  - who: Mr. Okafor
+    text: I am putting four stickers down for premium seating.
+  props: []
+- room: city_street
+  shot: medium
+  cast:
+  - who: Lottie
+    mood: proud
+    pos: left
+    size: small
+  - who: Ravi
+    mood: panic
+    pos: right
+    size: medium
+    holding: laptop
+  lines:
+  - who: Ravi
+    text: Can we scale this relaxation model to twenty cities?!
+  - who: Lottie
+    text: Inside voices only. Put the glowing box down.
+  props: []
+- room: plain_warm
+  shot: close
+  cast:
+  - who: Mr. Okafor
+    mood: happy
+    pos: left
+    size: medium
+  - who: Ravi
+    mood: shocked
+    pos: right
+    size: medium
+  lines:
+  - who: Mr. Okafor
+    text: Here, son. Take this warm knit blanket.
+  - who: Ravi
+    text: My heart rate is dropping... is this disruption?
+  fx:
+  - sparkles
+  props: []
+- room: outdoors_autumn
+  shot: extreme_close
+  cast:
+  - who: Ravi
+    mood: sleeping
+    pos: center
+    size: medium
+  - who: Lottie
+    mood: smug
+    pos: right
+    size: small
+  lines:
+  - who: Ravi
+    text: This blanket has zero deliverables...
+    style: thought
+  - who: Lottie
+    text: Another client successfully cured.
+  props: []
+caption: 'The most successful pivot of the quarter.
+
+  .
+
+  .
+
+  .
+
+  #comics #cartoon #digitalart #webcomic #comicbooks
+
+  comic | drawing | art | illustration | artist | sketch
+
+  #cartoonist #comicart #comicbook #funnycomics #draw #artwork #officehumor #comicstrip #funny #relatable #artistsoninstagram #comicsofy #doodle #webtoon #viral #viralcomics #explorepage #wholesomecomics #cozyvibes #autumnmood #naptime'
+description:
+  summary: The most successful pivot of the quarter.
+series: Pim and Soot Reel
+record_id: strip:reel:1795364378873648849:0
+auto: true
+instagram_hashtags_rotating: []

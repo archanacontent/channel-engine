@@ -1,0 +1,70 @@
+skip: false
+title: 'Exploited now: Cisco Secure Email Gateway CVE-2026-76519'
+beats:
+- say: Attackers can achieve root execution on Cisco Secure Email Gateway without any authentication.
+  caption: Attackers can achieve root execution on Cisco Secure Email Gateway without any authentication.
+  scene:
+    type: headline
+    kicker: CRITICAL FLAW
+    text: Root Command Execution on Cisco Secure Email Gateway
+  highlight:
+  - root execution
+  - without any authentication
+- say: C V E 2026 76519 was added to CISA's catalog on October 14th, 2026.
+  caption: CVE-2026-76519 was added to CISA's catalog on October 14, 2026.
+  scene:
+    type: stat
+    value: Cisco Secure Email Gateway Vulnerability Details
+    label: CVE-2026-76519
+  highlight:
+  - CVE-2026-76519
+  - October 14, 2026
+- say: Improper handling of attachments in the file reputation feature lets remote attackers write arbitrary files via crafted emails.
+  caption: Improper handling of attachments in the file reputation feature lets remote attackers write arbitrary files via crafted emails.
+  scene:
+    type: flow
+    steps:
+    - title: Send Email
+      note: Crafted attachment
+    - title: File Reputation
+      note: Improper handling
+    - title: Arbitrary File Write
+      note: Root privileges
+  highlight:
+  - file reputation feature
+  - write arbitrary files
+- say: Apply vendor mitigations immediately, follow CISA forensics guidelines, or discontinue product use if unpatched.
+  caption: Apply vendor mitigations immediately, follow CISA forensics guidelines, or discontinue product use if unpatched.
+  scene:
+    type: list
+    title: Required Actions
+    unit: steps
+    items:
+    - Remediation Steps
+  highlight:
+  - vendor mitigations
+  - CISA forensics guidelines
+- say: Sources are in the description.
+  caption: Sources are in the description.
+  scene:
+    type: cta
+    line: Sources are in the description.
+    subline: Cybersecurity Daily
+  highlight:
+  - Sources are in the description.
+description:
+  summary: CVE-2026-76519 is a critical relative path traversal vulnerability in Cisco Secure Email Gateway. It allows remote attackers to write arbitrary files and execute commands with root privileges by sending crafted email attachments.
+  affected: Cisco Secure Email Gateway devices using the Advanced Malware Protection (AMP) feature.
+  action: Apply vendor mitigations, adhere to CISA Forensics Triage Requirements and BOD 26-04 guidance, or discontinue product use if mitigations are unavailable.
+  sources:
+  - 'CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog'
+  - 'NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-76519'
+seo:
+  seeds:
+  - Cisco Secure Email Gateway vulnerability
+  - CVE-2026-76519 patch
+  - Cisco AMP exploit CISA KEV
+series: Exploited Today
+record_id: kev:CVE-2026-76519
+auto: true
+instagram_hashtags_rotating: []

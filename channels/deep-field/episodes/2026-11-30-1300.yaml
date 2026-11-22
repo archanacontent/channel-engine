@@ -1,0 +1,79 @@
+skip: false
+skip_reason: ''
+title: 'Juno: what just happened'
+beats:
+- say: Lighter clouds on Jupiter are typically higher up than darker ones.
+  caption: Lighter clouds on Jupiter are typically higher up than darker ones.
+  highlight:
+  - Lighter clouds
+  - higher up
+  scene:
+    type: headline
+    text: Jupiter cloud layers revealed
+- say: The thick atmosphere consists mostly of colorless hydrogen and helium.
+  caption: The thick atmosphere consists mostly of colorless hydrogen and helium.
+  highlight:
+  - hydrogen and helium
+  scene:
+    type: headline
+    value: Hydrogen and Helium
+    label: Primary atmospheric elements
+    kicker: Primary atmospheric elements
+    text: Hydrogen and Helium
+- say: Scientists are researching trace molecules like ammonium hydrosulfide to explain the colors.
+  caption: Scientists are researching trace molecules like ammonium hydrosulfide to explain the colors.
+  highlight:
+  - ammonium hydrosulfide
+  scene:
+    type: card
+    title: Color mystery
+    rows:
+    - - Leading candidate
+      - Ammonium hydrosulfide
+    - - Atmosphere
+      - Hydrogen and helium
+- say: The robotic Juno spacecraft captured this color enhanced view in two thousand eighteen.
+  caption: The robotic Juno spacecraft captured this color enhanced view in 2018.
+  highlight:
+  - Juno spacecraft
+  - '2018'
+  scene:
+    type: image
+    credit: NASA, Juno, SwRI, MSSS
+- say: Juno travels in a looping elliptical orbit, passing the planet every thirty three days.
+  caption: Juno travels in a looping elliptical orbit, passing the planet every 33 days.
+  highlight:
+  - looping elliptical orbit
+  - every 33 days
+  scene:
+    type: list
+    title: Juno Mission
+    items:
+    - Looping elliptical orbit
+    - 33 day passes
+    - Exploring new sectors
+    style: bullet
+- say: Source in the description.
+  caption: Source in the description.
+  highlight:
+  - Source in the description
+  scene:
+    type: cta
+    line: Learn more about Jupiter
+    subline: Source in the description
+description:
+  explainer: NASA's Juno spacecraft captured colorful swirling clouds on Jupiter. Scientists are studying how trace molecules create these patterns in the hydrogen and helium atmosphere.
+  sources:
+  - 'NASA: https://science.nasa.gov/image-article/apod-2026-november-22-swirls-and-colors-on-jupiter-from-juno/'
+seo:
+  seeds:
+  - Jupiter cloud colors Juno
+  - NASA Juno mission Jupiter
+  - Jupiter atmosphere composition
+  hashtags:
+  - '#Jupiter'
+  - '#NASA'
+series: Mission Log
+record_id: nasanews:https://science.nasa.gov/image-article/apod-2026-november-22-swirls-and-colors-on-jupiter-from-juno/
+auto: true
+instagram_hashtags_rotating: []

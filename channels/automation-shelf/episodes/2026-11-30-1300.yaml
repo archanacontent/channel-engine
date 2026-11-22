@@ -1,0 +1,69 @@
+skip: false
+title: 'Free workflow: Weekly marketing performance reports on autopilot'
+beats:
+- say: Stop copy pasting campaign metrics into manual docs every single Monday morning.
+  caption: Stop copy pasting campaign metrics into manual docs every single Monday morning.
+  scene:
+    type: headline
+    kicker: LIBRARY PICK
+    text: Automate Your Weekly Reports
+  highlight:
+  - copy pasting campaign metrics
+  - manual docs
+- say: This n eight n public workflow pulls your marketing data and writes the executive summary with G P T 4 o.
+  caption: This n8n public workflow pulls your marketing data and writes the executive summary with GPT-4o.
+  scene:
+    type: stat
+    value: GPT-4o Summary Generator
+    label: Workflow Capabilities
+  highlight:
+  - n8n public workflow
+  - GPT-4o
+- say: A schedule trigger starts the flow, code processes channel metrics, and OpenAI generates insights.
+  caption: A schedule trigger starts the flow, code processes channel metrics, and OpenAI generates insights.
+  scene:
+    type: flow
+    steps:
+    - title: Schedule Trigger
+      note: Runs weekly
+    - title: Code Node
+      note: Process metrics
+    - title: OpenAI Node
+      note: Generate summary
+  highlight:
+  - schedule trigger
+  - OpenAI generates insights
+- say: The workflow updates a Google Doc and sends the direct link to Slack automatically.
+  caption: The workflow updates a Google Doc and sends the direct link to Slack automatically.
+  scene:
+    type: list
+    title: Output Channels
+    items:
+    - Slack & Docs Integration
+  highlight:
+  - updates a Google Doc
+  - Slack automatically
+- say: It suits marketing teams tracking Google Ads, Meta, TikTok, or YouTube metrics. Template link in the description.
+  caption: It suits marketing teams tracking Google Ads, Meta, TikTok, or YouTube metrics. Template link in the description.
+  scene:
+    type: cta
+    line: Get The Template
+    subline: Template link in the description.
+  highlight:
+  - Template link in the description
+description:
+  task_line: Generate weekly marketing performance reports automatically using AI summaries and direct channel notifications.
+  tools: Built with n8n, OpenAI GPT-4o, Google Docs, and Slack.
+  sources:
+  - 'n8n template: https://n8n.io/workflows/9647'
+  template_link: https://n8n.io/workflows/9647
+seo:
+  seeds:
+  - n8n weekly report automation
+  - GPT-4o marketing report workflow
+  - n8n Google Docs Slack automation
+  - automated marketing performance summary
+series: Library Pick
+record_id: n8n:9647
+auto: true
+instagram_hashtags_rotating: []

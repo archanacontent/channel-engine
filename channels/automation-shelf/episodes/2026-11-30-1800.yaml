@@ -1,0 +1,70 @@
+skip: false
+title: Can you automate WhatsApp marketing broadcasts?
+beats:
+- say: Can you automate WhatsApp marketing broadcasts from Google Sheets? Yes.
+  caption: Can you automate WhatsApp marketing broadcasts from Google Sheets? Yes.
+  scene:
+    type: headline
+    kicker: CAN IT BE AUTOMATED?
+    text: WhatsApp Marketing Broadcasts
+  highlight:
+  - automate WhatsApp marketing broadcasts
+  - 'Yes'
+- say: Meta message templates automatically sync to an n eight n Data Table on a schedule.
+  caption: Meta message templates automatically sync to an n8n Data Table on a schedule.
+  scene:
+    type: stat
+    value: Meta to Data Table
+    label: Template Sync
+  highlight:
+  - automatically sync
+  - n8n Data Table
+- say: A dedicated webhook API endpoint returns a clean J S O N list of available templates to your dashboard.
+  caption: A dedicated webhook API endpoint returns a clean JSON list of available templates to your dashboard.
+  scene:
+    type: list
+    title: Dashboard API Endpoint
+    items:
+    - JSON List Output
+  highlight:
+  - webhook API endpoint
+  - clean JSON list
+- say: The broadcast engine pulls contacts from Google Sheets, uses a Code node to merge custom images or links, and sends personalized messages.
+  caption: The broadcast engine pulls contacts from Google Sheets, uses a Code node to merge custom images or links, and sends personalized messages.
+  scene:
+    type: flow
+    steps:
+    - title: Fetch Sheet Contacts
+      note: Google Sheets
+    - title: Merge Data
+      note: Code Node
+    - title: Send Message
+      note: WhatsApp Business API
+  highlight:
+  - broadcast engine
+  - Code node
+  - personalized messages
+- say: Template link in the description.
+  caption: Template link in the description.
+  scene:
+    type: cta
+    line: Get the Free Template
+    subline: Link in description
+  highlight:
+  - Template link
+description:
+  task_line: Automate WhatsApp marketing broadcasts from Google Sheets to Meta templates using n8n.
+  tools: Built with n8n, Google Sheets, Meta WhatsApp Business API, and n8n Data Tables.
+  sources:
+  - 'n8n template: https://n8n.io/workflows/9553'
+  template_link: https://n8n.io/workflows/9553
+seo:
+  seeds:
+  - n8n whatsapp automation
+  - whatsapp marketing broadcast google sheets
+  - meta whatsapp business api n8n
+  - n8n whatsapp dashboard template
+series: Can It Be Automated?
+record_id: n8n:9553
+auto: true
+instagram_hashtags_rotating: []

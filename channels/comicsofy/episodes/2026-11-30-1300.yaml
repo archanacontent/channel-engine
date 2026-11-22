@@ -1,0 +1,102 @@
+format: strip
+kind: image
+tone: dark
+title: Five-Year Plan
+premise: Brenda tries to pitch a five-year growth plan to Nana June, who cheerfully treats her remaining life expectancy as an exit strategy.
+panels:
+- room: meeting_room
+  shot: wide
+  cast:
+  - who: Brenda
+    mood: happy
+    pos: left
+    size: medium
+    holding: clipboard
+  - who: Nana June
+    mood: happy
+    pos: center
+    size: medium
+    holding: mug
+  lines:
+  - who: Brenda
+    text: June, let us map your five-year trajectory!
+  - who: Nana June
+    text: Sweetheart, five years is an ambitious timeline for my heart.
+  props: []
+- room: meeting_room
+  shot: medium
+  cast:
+  - who: Brenda
+    mood: deadpan
+    pos: left
+    size: medium
+    holding: clipboard
+  - who: Nana June
+    mood: smug
+    pos: center
+    size: medium
+    holding: mug
+  lines:
+  - who: Brenda
+    text: We need long-term KPI retention!
+  - who: Nana June
+    text: I outlived my pension. I am playing with house money.
+  props: []
+- room: meeting_room
+  shot: medium
+  cast:
+  - who: Brenda
+    mood: panic
+    pos: left
+    size: medium
+  - who: Nana June
+    mood: happy
+    pos: center
+    size: medium
+  - who: Biscuit
+    mood: happy
+    pos: right
+    size: small
+  lines:
+  - who: Brenda
+    text: Who inherits your active deliverables?!
+  - who: Nana June
+    text: I named the dog as my corporate successor.
+  props: []
+- room: meeting_room
+  shot: close
+  cast:
+  - who: Nana June
+    mood: smug
+    pos: left
+    size: medium
+  - who: Biscuit
+    mood: proud
+    pos: right
+    size: medium
+    holding: briefcase
+  lines:
+  - who: Nana June
+    text: He already rejected your circle-back request.
+  fx:
+  - sparkles
+  props: []
+caption: 'Planning ahead is important, but Nana June has already calculated the ultimate tax write-off.
+
+  .
+
+  .
+
+  .
+
+  #comics #cartoon #digitalart #webcomic #comicbooks
+
+  comic | drawing | art | illustration | artist | sketch
+
+  #cartoonist #comicart #comicbook #funnycomics #draw #artwork #officehumor #comicstrip #funny #relatable #artistsoninstagram #comicsofy #doodle #webtoon #viral #viralcomics #explorepage #corporatehumor #darkhumor #workplace'
+description:
+  summary: Planning ahead is important, but Nana June has already calculated the ultimate tax write-off.
+series: Pim and Soot Comic
+record_id: strip:image:1795364185008732232:0
+auto: true
+instagram_hashtags_rotating: []

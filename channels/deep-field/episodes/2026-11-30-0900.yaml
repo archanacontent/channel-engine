@@ -1,0 +1,75 @@
+skip: false
+skip_reason: ''
+title: 'What you''re looking at: Mars Hill'
+beats:
+- say: This volcanic terrain in Death Valley looks exactly like the Martian surface.
+  caption: This volcanic terrain in Death Valley looks exactly like the Martian surface.
+  highlight:
+  - volcanic terrain
+  - exactly like the Martian surface
+  scene:
+    type: image
+    credit: NASA/JPL
+- say: NASA researchers use Mars Hill to test navigation for future planetary rotorcraft.
+  caption: NASA researchers use Mars Hill to test navigation for future planetary rotorcraft.
+  highlight:
+  - test navigation
+  - planetary rotorcraft
+  scene:
+    type: headline
+    text: Testing Mars navigation on Earth
+- say: The rubbly rocks resemble the inhospitable ground that posed a landing hazard for the Ingenuity Mars Helicopter.
+  caption: The rubbly rocks resemble the inhospitable ground that posed a landing hazard for the Ingenuity Mars Helicopter.
+  highlight:
+  - inhospitable ground
+  - landing hazard
+  scene:
+    type: compare
+    left_label: Mars Hill
+    left_text: Rubbly volcanic rock
+    right_label: Mars
+    right_text: Inhospitable terrain
+- say: In September 2025, Jet Propulsion Laboratory researchers flew drones over this site to develop precise landing software.
+  caption: In September 2025, Jet Propulsion Laboratory researchers flew drones over this site to develop precise landing software.
+  highlight:
+  - September 2025
+  - precise landing software
+  scene:
+    type: flow
+    steps:
+    - title: Drone flight
+      note: Over Mars Hill
+    - title: Data collection
+      note: Mapping terrain
+    - title: Software development
+      note: For future rotorcraft
+- say: Landing between rocks like these is critical for accessing Martian terrain in the future. Image credit in the description.
+  caption: Landing between rocks like these is critical for accessing Martian terrain in the future. Image credit in the description.
+  highlight:
+  - critical for accessing
+  - Martian terrain
+  scene:
+    type: cta
+    line: Mastering planetary landing
+    subline: Image credit in the description
+description:
+  explainer: Mars Hill in Death Valley National Park serves as a terrestrial analog for Martian terrain. Researchers use this volcanic landscape to develop navigation software for future Mars rotorcraft.
+  sources:
+  - 'NASA Image and Video Library: https://images.nasa.gov/details/PIA26678'
+  credit: NASA
+seo:
+  seeds:
+  - Mars Hill Death Valley
+  - NASA Mars rover testing
+  - Mars rotorcraft navigation
+  - Ingenuity helicopter landing hazards
+  hashtags:
+  - '#Mars'
+  - '#NASA'
+series: Look Closer
+record_id: nasa:PIA26678
+auto: true
+instagram_hashtags_rotating: []
+media:
+  image: /home/runner/work/channel-engine/channel-engine/collected/deep-field/media/2026-11-30-0900.jpg
+  credit: NASA

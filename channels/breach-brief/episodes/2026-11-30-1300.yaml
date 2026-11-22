@@ -1,0 +1,75 @@
+skip: false
+title: 'Exploited now: Ahsay AhsayCBS CVE-2026-105134'
+beats:
+- say: Attackers are actively exploiting a maximum severity command injection flaw in Ahsay AhsayCBS.
+  caption: Attackers are actively exploiting a maximum severity command injection flaw in Ahsay AhsayCBS.
+  scene:
+    type: headline
+    kicker: Active Attack
+    text: Ahsay AhsayCBS Exploited in the Wild
+  highlight:
+  - maximum severity command injection flaw
+- say: C V E 2026, 1 0 5 1 3 4 carries a perfect 10 point 0 critical score and affects versions up to 9 point 15 point 2 point 69 and 10 point 3 point 4 point 44.
+  caption: CVE-2026-105134 carries a perfect 10.0 critical score and affects versions up to 9.15.2.69 and 10.3.4.44.
+  scene:
+    type: stat
+    value: CVE-2026-105134 Base Score 10.0 Critical Affects AhsayCBS up to 9.15.2.69 and 10.3.4.44 Added to KEV Oct 14, 2026 Due Date Oct 17, 2026
+    label: Vulnerability Details
+  highlight:
+  - perfect 10.0 critical score
+- say: Remote attackers manipulate the random parameter in the Update Receivers dot d o endpoint to execute arbitrary operating system commands.
+  caption: Remote attackers manipulate the random parameter in the UpdateReceivers.do endpoint to execute arbitrary operating system commands.
+  scene:
+    type: flow
+    steps:
+    - title: Target Endpoint
+      note: /rps/api/json/UpdateReceivers.do
+    - title: Manipulate Parameter
+      note: Random argument
+    - title: Execute Commands
+      note: OS command injection
+  highlight:
+  - UpdateReceivers.do endpoint
+  - execute arbitrary operating system commands
+- say: This vulnerability can be chained with C V E 2026, 1 0 5 1 3 3.
+  caption: This vulnerability can be chained with CVE-2026-105133.
+  scene:
+    type: quote
+    text: This vulnerability can be chained with CVE-2026-105133.
+    value: Vulnerability Chaining
+  highlight:
+  - chained with CVE-2026-105133
+- say: Upgrade immediately to version 9 point 15 point 2 point 70 or 10 point 3 point 4 point 45.
+  caption: Upgrade immediately to version 9.15.2.70 or 10.3.4.45.
+  scene:
+    type: list
+    title: Required Actions
+    items:
+    - Upgrade to 9.15.2.70 or 10.3.4.45 Follow vendor instructions Evaluate internet exposure Discontinue if unpatched
+  highlight:
+  - version 9.15.2.70 or 10.3.4.45
+- say: Sources are in the description.
+  caption: Sources are in the description.
+  scene:
+    type: cta
+    line: Cybersecurity Daily
+    subline: Sources are in the description.
+  highlight:
+  - Sources are in the description
+description:
+  summary: Ahsay AhsayCBS contains an actively exploited command injection vulnerability tracked as CVE-2026-105134 with a 10.0 CVSS score. Attackers can remotely execute operating system commands by manipulating the random parameter in the Replication Receiver component.
+  affected: Ahsay AhsayCBS versions up to 9.15.2.69 and 10.3.4.44 are affected.
+  action: Upgrade affected installations to version 9.15.2.70 or 10.3.4.45 according to vendor instructions, or discontinue use if mitigations are unavailable.
+  sources:
+  - 'CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog'
+  - 'NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-105134'
+seo:
+  seeds:
+  - Ahsay AhsayCBS vulnerability
+  - CVE-2026-105134 patch
+  - AhsayCBS command injection
+  - CISA KEV Ahsay
+series: Exploited Today
+record_id: kev:CVE-2026-105134
+auto: true
+instagram_hashtags_rotating: []

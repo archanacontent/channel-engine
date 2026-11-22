@@ -1,0 +1,80 @@
+skip: false
+title: 'Exploited now: Cisco Expressway CVE-2026-76466'
+beats:
+- say: Attackers are actively abusing hard coded credentials in Cisco Expressway Series right now.
+  caption: Attackers are actively abusing hard-coded credentials in Cisco Expressway Series right now.
+  scene:
+    type: headline
+    kicker: Active Attack
+    text: Cisco Expressway Series Under Active Attack
+  highlight:
+  - hard-coded credentials
+  - Cisco Expressway Series
+- say: C V E 2026 76466 scores a critical 9 point 8.
+  caption: CVE-2026-76466 scores a critical 9.8.
+  scene:
+    type: stat
+    value: Cisco Expressway Series Core and Edge devices are vulnerable to remote code execution as root.
+    label: CVE-2026-76466
+  highlight:
+  - CVE-2026-76466
+  - critical 9.8
+- say: Remote attackers with network access and persistent cookies can execute commands as root on clustered devices.
+  caption: Remote attackers with network access and persistent cookies can execute commands as root on clustered devices.
+  scene:
+    type: flow
+    steps:
+    - title: Persistent Cookies
+      note: Attacker obtains cookies
+    - title: Database RPC
+      note: Connects to service
+    - title: Root Commands
+      note: Executes as root
+  highlight:
+  - execute commands as root
+- say: CISA added this flaw to the Known Exploited Vulnerabilities catalog on November 20, 2026.
+  caption: CISA added this flaw to the Known Exploited Vulnerabilities catalog on November 20, 2026.
+  scene:
+    type: compare
+    left_label: Added to KEV
+    left_text: '2026-11-20'
+    right_label: Federal Due Date
+    right_text: '2026-11-23'
+  highlight:
+  - Known Exploited Vulnerabilities catalog
+- say: Apply vendor mitigations immediately, follow C I S A forensics triage requirements, or discontinue use if mitigations are unavailable.
+  caption: Apply vendor mitigations immediately, follow CISA forensics triage requirements, or discontinue use if mitigations are unavailable.
+  scene:
+    type: list
+    title: Required Actions
+    unit: ''
+    items:
+    - Mitigation steps required by CISA catalog entry for CVE-2026-76466.
+  highlight:
+  - Apply vendor mitigations
+  - discontinue use
+- say: Sources are in the description.
+  caption: Sources are in the description.
+  scene:
+    type: cta
+    line: Sources are in the description.
+    subline: Cybersecurity Daily
+  highlight:
+  - Sources are in the description.
+description:
+  summary: CISA added a critical hard-coded credentials vulnerability in Cisco Expressway Series to its Known Exploited Vulnerabilities catalog.
+  affected: Cisco Expressway Core (Expressway-C) and Cisco Expressway Edge (Expressway-E) devices.
+  action: Apply mitigations per vendor instructions and CISA guidance, or discontinue use of the product if mitigations are unavailable.
+  sources:
+  - 'CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog'
+  - 'NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-76466'
+seo:
+  seeds:
+  - Cisco Expressway vulnerability
+  - CVE-2026-76466
+  - CISA Known Exploited Vulnerabilities
+  - Cisco Expressway hard-coded credentials
+series: Exploited Today
+record_id: kev:CVE-2026-76466
+auto: true
+instagram_hashtags_rotating: []

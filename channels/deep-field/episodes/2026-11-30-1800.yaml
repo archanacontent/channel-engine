@@ -1,0 +1,72 @@
+skip: false
+skip_reason: ''
+title: How big is Jupiter, really?
+beats:
+- say: Jupiter is twenty one times larger in diameter than Mars.
+  caption: Jupiter is 21.05 times larger in diameter than Mars.
+  highlight:
+  - 21.05 times larger
+  scene:
+    type: headline
+    text: Jupiter vs Mars
+- say: Mars has a diameter of 6 7 9 2 kilometers.
+  caption: 'Mars diameter: 6,792 km'
+  highlight:
+  - 6,792 km
+  scene:
+    type: stat
+    value: 6,792
+    label: Mars diameter in km
+- say: Jupiter spans 1 4 2 9 8 4 kilometers across.
+  caption: 'Jupiter diameter: 142,984 km'
+  highlight:
+  - 142,984 km
+  scene:
+    type: stat
+    value: 142,984
+    label: Jupiter diameter in km
+- say: Mars orbits at 2 2 8 point 0 million kilometers from the Sun.
+  caption: 'Mars distance from Sun: 228.0 million km'
+  highlight:
+  - 228.0 million km
+  scene:
+    type: card
+    title: Mars Orbit
+    rows:
+    - - Sun distance
+      - 228.0 million km
+- say: Jupiter sits much further out at 7 7 8 point 5 million kilometers from the Sun.
+  caption: 'Jupiter distance from Sun: 778.5 million km'
+  highlight:
+  - 778.5 million km
+  scene:
+    type: card
+    title: Jupiter Orbit
+    rows:
+    - - Sun distance
+      - 778.5 million km
+- say: Figures from NASA's Planetary Fact Sheet.
+  caption: Figures from NASA's Planetary Fact Sheet.
+  highlight:
+  - NASA's Planetary Fact Sheet
+  scene:
+    type: cta
+    line: Scale It
+    subline: Figures from NASA's Planetary Fact Sheet.
+description:
+  explainer: Jupiter is over twenty times larger in diameter than Mars. This video compares the scale and solar distance of both planets.
+  sources:
+  - 'NASA Planetary Fact Sheet: https://nssdc.gsfc.nasa.gov/planetary/factsheet/'
+seo:
+  seeds:
+  - Jupiter vs Mars size comparison
+  - Jupiter diameter in km
+  - Mars distance from sun
+  - planetary scale comparison
+  hashtags:
+  - '#Space'
+  - '#Jupiter'
+series: Scale It
+record_id: scale:JUPITER:MARS
+auto: true
+instagram_hashtags_rotating: []

@@ -1,0 +1,98 @@
+skip: false
+skip_reason: ''
+title: While the world expands, India grows exports to Africa by 44 percent
+beats:
+- say: India's exports to Africa grew by 44 percent.
+  caption: India's exports to Africa grew by 44 percent.
+  highlight:
+  - exports to Africa grew by 44 percent
+  scene:
+    type: stat
+    value: 44%
+    label: Export growth to Africa
+    source: Press Information Bureau
+- say: Government data from Saturday shows Africa recorded the fastest growth among major regions.
+  caption: Africa recorded the fastest growth among major regions.
+  highlight:
+  - fastest growth among major regions
+  scene:
+    type: headline
+    text: Fastest growth among major regions
+- say: Shipments to Africa reached 31 point 42 billion dollars during April to September 2026 27.
+  caption: Shipments to Africa reached USD 31.42 billion during April-September 2026-27.
+  highlight:
+  - USD 31.42 billion
+  scene:
+    type: card
+    title: Africa Export Data
+    rows:
+    - - Total Value
+      - USD 31.42 billion
+    - - Growth Rate
+      - 44%
+- say: In Asia, shipments crossed the 100 billion dollar mark, increasing 21 percent to 103 point 84 billion dollars.
+  caption: Asia shipments increased 21 percent to USD 103.84 billion.
+  highlight:
+  - USD 103.84 billion
+  scene:
+    type: compare
+    left_label: Africa
+    left_text: USD 31.42 billion
+    right_label: Asia
+    right_text: USD 103.84 billion
+- say: Engineering goods, electronics, and petroleum products are driving this expansion.
+  caption: Engineering, electronics, and petroleum products drive expansion.
+  highlight: []
+  scene:
+    type: list
+    title: Growth Drivers
+    items:
+    - Engineering goods
+    - Electronic goods
+    - Petroleum products
+    - Chemicals
+    style: check
+- say: Which region will see the next big jump in Indian exports? Follow for tomorrow's figure.
+  caption: Which region will see the next big jump in Indian exports? Follow for tomorrow's figure.
+  highlight:
+  - next big jump
+  scene:
+    type: cta
+    line: Which region will see the next big jump in Indian exports?
+    subline: Follow for tomorrow's figure.
+description:
+  summary: India's exports to Africa grew by 44 percent, the fastest growth among major regions.
+  details: Government data released on November 22, 2026, shows India's merchandise exports are gaining a wider geographical footprint. Exports to Africa rose 44 percent to USD 31.42 billion during April-September 2026-27. Shipments to Asia also crossed USD 100 billion, reaching USD 103.84 billion. The expansion is supported by demand for engineering, electronics, and petroleum products.
+  key_figures:
+  - 'Africa Export Growth: 44%'
+  - 'Africa Export Value: USD 31.42 billion'
+  - 'Asia Export Value: USD 103.84 billion'
+  - 'Asia Export Growth: 21%'
+  sources:
+  - 'Economic Times, 22 Nov 2026: https://economictimes.indiatimes.com/news/economy/foreign-trade/asia-africa-to-drive-expansion-of-indias-export-markets-as-shipments-grow-across-regions/articleshow/136070074.cms'
+  released: 22 Nov 2026
+  source_link: https://economictimes.indiatimes.com/news/economy/foreign-trade/asia-africa-to-drive-expansion-of-indias-export-markets-as-shipments-grow-across-regions/articleshow/136070074.cms
+seo:
+  seeds:
+  - India merchandise exports 2026
+  - India exports to Africa growth
+  - India Asia export statistics
+  - Press Information Bureau export data
+  - India engineering goods exports
+  hashtags:
+  - '#IndiaExports'
+  - '#ViksitBharat'
+  - '#TradeData'
+  - '#EconomicGrowth'
+series: While the World
+record_id: vbnews:https://economictimes.indiatimes.com/news/economy/foreign-trade/asia-africa-to-drive-expansion-of-indias-export-markets-as-shipments-grow-across-regions/articleshow/136070074.cms
+auto: true
+instagram_hashtags_rotating: []
+released: 22 Nov 2026
+posted: '2026-11-22'
+sector: Jobs and the Economy
+source_label: Economic Times, 22 Nov 2026
+look:
+  palette: cream_on_navy
+  motion: waves
+  hook: stat_ring

@@ -1,0 +1,72 @@
+skip: false
+skip_reason: ''
+title: 'Writing rule: Minimize notice usage'
+beats:
+- say: Overusing notices makes them invisible to your readers.
+  caption: Overusing notices makes them invisible to your readers.
+  highlight:
+  - Overusing notices
+  - makes them invisible
+  scene:
+    type: headline
+    text: Overusing notices makes them invisible
+- say: Google developer documentation suggests writing information as regular text first to decide if a notice is truly needed.
+  caption: Google developer documentation suggests writing information as regular text first to decide if a notice is truly needed.
+  highlight:
+  - regular text first
+  - decide if a notice is truly needed
+  scene:
+    type: image
+    credit: Google developer documentation
+- say: 'Note: Make sure to save your work. Warning: Do not delete the database.'
+  caption: 'Note: Make sure to save your work. Warning: Do not delete the database.'
+  highlight:
+  - 'Note: Make sure to save'
+  - 'Warning: Do not delete'
+  scene:
+    type: compare
+    left_label: Too many notices
+    left_text: 'Note: Save work. Warning: Do not delete database.'
+    right_label: Integrated text
+    right_text: Save your work. Do not delete the database.
+- say: Grouped notices lose their visual distinctiveness and readers often skip them.
+  caption: Grouped notices lose their visual distinctiveness and readers often skip them.
+  highlight:
+  - lose their visual distinctiveness
+  - readers often skip them
+  scene:
+    type: list
+    title: Why minimize notices
+    items:
+    - Readers skip them
+    - Lose visual distinctiveness
+    - Diminish effectiveness
+    style: bullet
+- say: Minimize notice usage to keep them effective.
+  caption: Minimize notice usage to keep them effective.
+  highlight:
+  - Minimize notice usage
+  - keep them effective
+  scene:
+    type: quote
+    text: Minimize notice usage, as overuse diminishes their effectiveness.
+    highlight:
+    - Minimize notice usage
+    - overuse diminishes their effectiveness
+description:
+  what_was_fixed: The script shows how to integrate important information into the main text instead of using multiple consecutive notices.
+  rule: Minimize notice usage to prevent readers from skipping important information.
+  sources:
+  - 'Google developer documentation: https://developers.google.com/style/notices'
+seo:
+  seeds:
+  - technical writing tips
+  - how to write documentation
+  - Google developer documentation style
+  hashtags:
+  - '#TechnicalWriting'
+  - '#Documentation'
+series: One Rule
+record_id: style:https://developers.google.com/style/notices
+auto: true
+instagram_hashtags_rotating: []
