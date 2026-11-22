@@ -9576,11 +9576,13 @@
    "duration_s": 16.69
   },
   "srt": "",
-  "status": "ready",
+  "status": "published",
   "file": "2026-11-22-1800.mp4",
   "platform": "instagram",
   "auto_approve": true,
-  "release": "shorts-43608054617"
+  "release": "shorts-43608054617",
+  "ig_media_id": "18103471367413811",
+  "published_at": "2026-11-22T23:02:14.787013+00:00"
  },
  {
   "slug": "deep-field",
