@@ -9551,11 +9551,13 @@
    "kind": "image"
   },
   "srt": "",
-  "status": "ready",
+  "status": "published",
   "file": "2026-11-22-1300.jpg",
   "platform": "instagram",
   "auto_approve": true,
-  "release": "shorts-43608054617"
+  "release": "shorts-43608054617",
+  "ig_media_id": "18108692498528422",
+  "published_at": "2026-11-22T18:01:59.716985+00:00"
  },
  {
   "slug": "comicsofy",
