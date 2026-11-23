@@ -10466,11 +10466,13 @@
    "kind": "image"
   },
   "srt": "",
-  "status": "ready",
+  "status": "published",
   "file": "2026-11-23-1300.jpg",
   "platform": "instagram",
   "auto_approve": true,
-  "release": "shorts-43731046368"
+  "release": "shorts-43731046368",
+  "ig_media_id": "17894611659619059",
+  "published_at": "2026-11-23T18:02:25.596786+00:00"
  },
  {
   "slug": "comicsofy",
@@ -13993,7 +13995,8 @@
   "release": "shorts-44576417534",
   "keywords_done": true,
   "video_id": "pOABNeOTRsk",
-  "uploaded_at": "2026-11-19T11:16:03.726160-08:00"
+  "uploaded_at": "2026-11-19T11:16:03.726160-08:00",
+  "playlist_done": true
  },
  {
   "slug": "comicsofy",
