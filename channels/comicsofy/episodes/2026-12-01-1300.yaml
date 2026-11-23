@@ -1,0 +1,97 @@
+format: strip
+kind: image
+tone: satire
+title: Terms of Service
+premise: Mort acts as Customer Success Manager for Dev's life subscription, making cancellation impossible.
+panels:
+- room: elevator
+  shot: medium
+  cast:
+  - who: Dev
+    mood: tired
+    pos: left
+    size: medium
+    holding: mug
+  - who: Mort
+    mood: neutral
+    pos: right
+    size: small
+    holding: clipboard
+  lines:
+  - who: Mort
+    text: Hi Dev. I am Mort from Life Retention.
+  - who: Mort
+    text: We noticed your joy metrics dropped.
+  focus: Mort introduces himself to Dev in an elevator.
+  props: []
+- room: elevator
+  shot: medium
+  cast:
+  - who: Dev
+    mood: deadpan
+    pos: left
+    size: medium
+    holding: mug
+  - who: Mort
+    mood: happy
+    pos: right
+    size: small
+    holding: clipboard
+  lines:
+  - who: Mort
+    text: Upgrade to Life Plus for eight hours of sleep!
+  - who: Dev
+    text: Can I just cancel my subscription?
+  focus: Dev asks to cancel instead of upgrading.
+  props: []
+- room: elevator
+  shot: wide
+  cast:
+  - who: Dev
+    mood: tired
+    pos: left
+    size: medium
+  - who: Mort
+    mood: smug
+    pos: right
+    size: small
+    holding: clipboard
+  lines:
+  - who: Mort
+    text: Cancellation requires calling us during a leap year.
+  - who: Mort
+    text: Between two and three in the morning.
+  focus: Mort explains the absurd dark pattern cancellation process.
+  props: []
+- room: elevator
+  shot: close
+  cast:
+  - who: Dev
+    mood: deadpan
+    pos: center
+    size: large
+    holding: mug
+  lines:
+  - who: Dev
+    text: I will just wait for the system crash.
+  focus: Dev resigns himself to existing.
+  props: []
+caption: 'Tried to cancel my subscription to adulthood, was told I need to speak to retention first.
+
+  .
+
+  .
+
+  .
+
+  #comics #cartoon #digitalart #webcomic #comicbooks
+
+  comic | drawing | art | illustration | artist | sketch
+
+  #cartoonist #comicart #comicbook #funnycomics #draw #artwork #officehumor #comicstrip #funny #relatable #artistsoninstagram #comicsofy #doodle #webtoon #viral #viralcomics #explorepage #corporatehumor #adulting #burnout'
+description:
+  summary: Tried to cancel my subscription to adulthood, was told I need to speak to retention first.
+series: Pim and Soot Comic
+record_id: strip:image:1795464752890592972:0
+auto: true
+instagram_hashtags_rotating: []

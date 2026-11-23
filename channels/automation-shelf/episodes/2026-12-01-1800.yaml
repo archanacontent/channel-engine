@@ -1,0 +1,86 @@
+skip: false
+title: Can you automate turning product photos into ads?
+beats:
+- say: Can you automate turning simple product photos into polished marketing ads?
+  caption: Can you automate turning simple product photos into polished marketing ads?
+  scene:
+    type: headline
+    kicker: Automation Check
+    text: Can you automate product ad creation?
+  highlight:
+  - automate turning simple product photos
+  - polished marketing ads
+- say: Yes, you can run this entire transformation through an n eight n workflow.
+  caption: Yes, you can run this entire transformation through an n8n workflow.
+  scene:
+    type: headline
+    text: Yes. Built directly in n8n.
+  highlight:
+  - entire transformation
+  - n8n workflow
+- say: First submit a J P G or P N G photo using a simple web form trigger.
+  caption: First submit a JPG or PNG photo using a simple web form trigger.
+  scene:
+    type: flow
+    steps:
+    - title: Upload Photo
+      note: JPG or PNG via form trigger
+    - title: Generate Scene
+      note: Gemini AI via OpenRouter
+    - title: Deliver Image
+      note: Commercial ready ad download
+  highlight:
+  - submit a JPG or PNG photo
+  - web form trigger
+- say: Google Gemini AI creates contextual backgrounds, model scenes, and commercial lighting using an Open Router A P I key.
+  caption: Google Gemini AI creates contextual backgrounds, model scenes, and commercial lighting using an OpenRouter API key.
+  scene:
+    type: list
+    style: check
+    title: AI Image Enhancements
+    items:
+    - Features included
+  highlight:
+  - contextual backgrounds
+  - OpenRouter API key
+- say: Download your professional marketing image directly from the response message.
+  caption: Download your professional marketing image directly from the response message.
+  scene:
+    type: stat
+    value: Ad-ready file
+    label: Output Deliverable
+  highlight:
+  - professional marketing image
+  - response message
+- say: Template link in the description.
+  caption: Template link in the description.
+  scene:
+    type: cta
+    line: Get the n8n template
+    subline: Link in description
+  highlight:
+  - Template link in the description
+description:
+  task_line: Automate transforming simple product photos into polished marketing ads with AI.
+  tools: Built with n8n, Google Gemini AI, and OpenRouter.
+  sources:
+  - 'n8n template: https://n8n.io/workflows/9127'
+  template_link: https://n8n.io/workflows/9127
+seo:
+  seeds:
+  - n8n product photo automation
+  - ai marketing ad workflow n8n
+  - convert product image to ad n8n
+  - openrouter gemini image generator n8n
+  - automated product ad generation template n8n Workflow automation for digital marketers!
+  - Marketing automation for scaling leads!
+  - Free marketing workflows to automate!
+  - Scale your operations with automated workflows!
+  - Best marketing workflows for busy teams!
+  - Automated marketing templates you can download!
+  - Automate lead routing in five minutes!
+  - Stop wasting hours on manual tasks!
+series: Can It Be Automated?
+record_id: n8n:9127
+auto: true
+instagram_hashtags_rotating: []

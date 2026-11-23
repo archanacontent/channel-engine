@@ -1,0 +1,66 @@
+skip: false
+title: 'Exploited now: MONAI Label CVE-2026-133968'
+beats:
+- say: Attackers are actively exploiting a critical path traversal flaw in Project MONAI MONAI Label.
+  caption: Attackers are actively exploiting a critical path traversal flaw in Project MONAI MONAI Label.
+  scene:
+    type: headline
+    kicker: ACTIVE EXPLOIT
+    text: Critical Path Traversal in MONAI Label
+  highlight:
+  - actively exploiting a critical path traversal flaw
+- say: An unauthenticated remote attacker can use the image parameter on the P U T datastore image endpoint to write files outside the intended directory.
+  caption: An unauthenticated remote attacker can use the image parameter on the PUT /datastore/image endpoint to write files outside the intended directory.
+  scene:
+    type: flow
+    steps:
+    - title: Send PUT Request
+      note: Via /datastore/image
+    - title: Directory Traversal
+      note: Writes outside directory
+    - title: Code Execution
+      note: Unauthenticated remote access
+  highlight:
+  - write files outside the intended directory
+- say: C V E 2026, 1 3 3 9 6 8 carries a critical C V S S score of 9 point 8.
+  caption: CVE-2026-133968 carries a critical CVSS score of 9.8.
+  scene:
+    type: stat
+    value: CVE-2026-133968 Details
+    label: Vulnerability Details
+  highlight:
+  - critical CVSS score of 9.8
+- say: Apply vendor mitigations by updating to version 0 point 8 point 6 or later, or discontinue use if mitigations are unavailable.
+  caption: Apply vendor mitigations by updating to version 0.8.6 or later, or discontinue use if mitigations are unavailable.
+  scene:
+    type: list
+    title: Required Remediation
+    items:
+    - Actions Required
+  highlight:
+  - updating to version 0.8.6 or later
+- say: Sources are in the description.
+  caption: Sources are in the description.
+  scene:
+    type: cta
+    line: Cybersecurity Daily
+    subline: Check description for official sources
+  highlight:
+  - Sources are in the description
+description:
+  summary: Project MONAI MONAI Label contains an actively exploited path traversal vulnerability, tracked as CVE-2026-133968, allowing unauthenticated remote code execution.
+  affected: MONAI Label versions prior to 0.8.6 are affected.
+  action: Apply mitigations by updating to version 0.8.6 or later according to vendor instructions, follow B.O.D. 26-04 guidelines, or discontinue product use if unmitigated.
+  sources:
+  - 'CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog'
+  - 'NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-133968'
+seo:
+  seeds:
+  - MONAI Label vulnerability
+  - CVE-2026-133968
+  - Project MONAI security update
+  - CISA KEV MONAI Label
+series: Exploited Today
+record_id: kev:CVE-2026-133968
+auto: true
+instagram_hashtags_rotating: []

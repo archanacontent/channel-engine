@@ -1,0 +1,74 @@
+skip: false
+skip_reason: ''
+title: How big is Jupiter, really?
+beats:
+- say: Jupiter is nearly three times wider than Uranus.
+  caption: Jupiter is nearly three times wider than Uranus.
+  highlight:
+  - nearly three times wider
+  scene:
+    type: headline
+    text: Jupiter vs Uranus
+- say: Jupiter has a diameter of 1 4 2 9 8 4 kilometers.
+  caption: Jupiter has a diameter of 142,984 km.
+  highlight:
+  - 142,984 km
+  scene:
+    type: stat
+    value: 142,984
+    label: Jupiter diameter (km)
+- say: Uranus measures 5 1 1 1 8 kilometers across.
+  caption: Uranus measures 51,118 km across.
+  highlight:
+  - 51,118 km
+  scene:
+    type: stat
+    value: 51,118
+    label: Uranus diameter (km)
+- say: The ratio between these two gas giants is 2.80.
+  caption: The ratio between these two gas giants is 2.80.
+  highlight: []
+  scene:
+    type: compare
+    left_label: Jupiter
+    left_text: 142,984 km
+    right_label: Uranus
+    right_text: 51,118 km
+- say: Jupiter sits 7 7 8.5 million kilometers from the Sun, while Uranus is much further at 2 8 6 7.0 million kilometers.
+  caption: Jupiter sits 778.5 million km from the Sun, while Uranus is much further at 2,867.0 million km.
+  highlight:
+  - 778.5 million km
+  - 2,867.0 million km
+  scene:
+    type: card
+    title: Distance from Sun
+    rows:
+    - - Jupiter
+      - 778.5 million km
+    - - Uranus
+      - 2,867.0 million km
+- say: Figures from NASA's Planetary Fact Sheet.
+  caption: Figures from NASA's Planetary Fact Sheet.
+  highlight:
+  - NASA's Planetary Fact Sheet
+  scene:
+    type: cta
+    line: Follow Space Science
+    subline: Daily space images explained
+description:
+  explainer: Jupiter is much larger than Uranus. This video compares the diameters and solar distances of these two planets.
+  sources:
+  - 'NASA Planetary Fact Sheet: https://nssdc.gsfc.nasa.gov/planetary/factsheet/'
+seo:
+  seeds:
+  - Jupiter vs Uranus size
+  - Jupiter diameter km
+  - how big is jupiter
+  - planet scale comparison
+  hashtags:
+  - '#Space'
+  - '#Jupiter'
+series: Scale It
+record_id: scale:JUPITER:URANUS
+auto: true
+instagram_hashtags_rotating: []

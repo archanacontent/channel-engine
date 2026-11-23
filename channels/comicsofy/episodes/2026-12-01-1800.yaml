@@ -1,0 +1,77 @@
+format: strip
+kind: reel
+tone: dark
+title: Dynamic Hallway
+premise: Mr. Okafor introduces surge pricing for common hallway oxygen.
+extras:
+- name: Gus
+  look: young_man
+panels:
+- room: office
+  shot: medium
+  cast:
+  - who: Mr. Okafor
+    mood: happy
+    pos: left
+    size: medium
+    holding: envelope
+  - who: Mira
+    mood: tired
+    pos: right
+    size: medium
+    holding: coffee
+  lines:
+  - who: Mr. Okafor
+    text: Oxygen usage between eight and nine am is peak.
+  - who: Mira
+    text: It is breathing, Mr. Okafor.
+  props: []
+- room: office
+  shot: close
+  cast:
+  - who: Mr. Okafor
+    mood: happy
+    pos: center
+    size: large
+    holding: clipboard
+  lines:
+  - who: Mr. Okafor
+    text: Hence the small convenience fee for inhaling deeply.
+  props: []
+- room: office
+  shot: wide
+  cast:
+  - who: Mira
+    mood: shocked
+    pos: left
+    size: medium
+  - who: Gus
+    mood: smug
+    pos: right
+    size: small
+    holding: bread
+  lines:
+  - who: Mira
+    text: Even the pigeon is holding his breath to save money.
+  - who: Gus
+    text: I buy my air wholesale.
+  props: []
+caption: 'A very reasonable adjustment to current market conditions.
+
+  .
+
+  .
+
+  .
+
+  #comics #cartoon #digitalart #webcomic #comicbooks
+
+  comic | drawing | art | illustration | artist | sketch
+
+  #cartoonist #comicart #comicbook #funnycomics #draw #artwork #officehumor #comicstrip #funny #relatable #artistsoninstagram #comicsofy #doodle #webtoon #viral #viralcomics #explorepage #rent #landlord #apartment #satire #economy'
+description:
+  summary: A very reasonable adjustment to current market conditions.
+series: Pim and Soot Reel
+record_id: strip:reel:1795464813089089912:0
+auto: true
+instagram_hashtags_rotating: []

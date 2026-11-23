@@ -1,0 +1,64 @@
+skip: false
+title: Fixing a real README in under a minute
+beats:
+- say: Vague claims like very good tell readers nothing about how remote desktop software operates.
+  caption: Vague claims like very good tell readers nothing about how remote desktop software operates.
+  scene:
+    type: headline
+    kicker: README Rewrite
+    text: Vague claims hide technical details.
+  highlight:
+  - Vague claims
+- say: This original sentence from the OpenScreens README uses filler to describe Apple screen sharing capabilities.
+  caption: This original sentence from the OpenScreens README uses filler to describe Apple screen sharing capabilities.
+  scene:
+    type: compare
+    left_label: Original
+    left_text: Between two Macs it is very good, and OpenScreens speaks the same protocol to the same Macs.
+    right_label: Rewrite
+    right_text: OpenScreens connects to Macs using Apple's native Screen Sharing protocol.
+  highlight:
+  - OpenScreens README
+- say: Saying it is very good adds subjective clutter, while repeating the phrase same Macs confuses the exact feature.
+  caption: Saying it is very good adds subjective clutter, while repeating the phrase same Macs confuses the exact feature.
+  scene:
+    type: list
+    title: Edits Made
+    unit: ''
+    items:
+    - 2 edits total, cutting filler words and fixing duplicate phrasing for clarity and speed.
+  highlight:
+  - subjective clutter
+- say: Our rewrite states the protocol clearly, showing developers immediately that OpenScreens integrates with native Mac sharing.
+  caption: Our rewrite states the protocol clearly, showing developers immediately that OpenScreens integrates with native Mac sharing.
+  scene:
+    type: stat
+    value: State protocol directly.
+    label: Documentation Goal
+  highlight:
+  - states the protocol clearly
+- say: Replace subjective claims in documentation with direct technical facts.
+  caption: Replace subjective claims in documentation with direct technical facts.
+  scene:
+    type: quote
+    text: Replace subjective claims in documentation with direct technical facts.
+    value: Focus on accurate protocol details rather than quality statements.
+  highlight:
+  - direct technical facts
+description:
+  what_was_fixed: Rewrote vague and repetitive prose in the OpenScreens README into a direct statement about its Mac protocol support.
+  rule: Replace subjective opinion statements with clear, objective technical capabilities.
+  sources:
+  - 'burakgon/OpenScreens README (MIT): https://github.com/burakgon/OpenScreens'
+  source_link: https://github.com/burakgon/OpenScreens
+  license: MIT
+seo:
+  seeds:
+  - OpenScreens README rewrite
+  - technical writing for beginners
+  - how to write open source README
+  - developer documentation editing
+series: Rewrite This
+record_id: repo:burakgon/OpenScreens
+auto: true
+instagram_hashtags_rotating: []

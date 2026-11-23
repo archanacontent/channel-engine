@@ -1,0 +1,82 @@
+skip: false
+title: 'Stop doing this by hand: Marketing ROI tracking'
+beats:
+- say: Manually linking closed deals back to original lead sources wastes valuable analytics hours.
+  caption: Manually linking closed deals back to original lead sources wastes valuable analytics hours.
+  scene:
+    type: headline
+    kicker: Manual Task
+    text: Stop linking deals to sources by hand
+  highlight:
+  - linking closed deals
+  - original lead sources
+- say: A nightly schedule trigger pulls closed won deals from Airtable from the last thirty days.
+  caption: A nightly schedule trigger pulls closed won deals from Airtable from the last 30 days.
+  scene:
+    type: compare
+    left_label: Manual Pull
+    left_text: Exporting deal spreadsheets
+    right_label: Automated Pull
+    right_text: Nightly Airtable query for Closed Won deals
+  highlight:
+  - nightly schedule trigger
+  - Airtable
+- say: The workflow calculates revenue, returns on investment, and conversion rates automatically using code.
+  caption: The workflow calculates revenue, returns on investment, and conversion rates automatically using code.
+  scene:
+    type: flow
+    steps:
+    - title: scheduleTrigger
+      note: Runs daily at midnight
+    - title: airtable
+      note: Fetch deals and lead sources
+    - title: code
+      note: Calculate revenue and ROI
+    - title: slack
+      note: Send daily insights
+  highlight:
+  - calculates revenue
+  - returns on investment
+- say: Metrics write back to Airtable, while a report hits Slack featuring the top three sources.
+  caption: Metrics write back to Airtable, while a report hits Slack featuring the top 3 sources.
+  scene:
+    type: list
+    title: Automated Outputs
+    items:
+    - Metrics & Alerts Daily insights send to Slack channel Metrics write back to Airtable Lead Sources Gmail reminder if Slack report is missed budget allocation advice stop guessing revenue metrics metrics sent daily automated attribution workflow top sources highlighted spend recommendations calculated automatically ROI calculations done nightly team notifications instant source level conversion data revenue attribution automatic budget optimization clear channel performance stats performance tracking simple automated channel analysis data driven decision making continuous deal matching nightly ROI calculation daily conversion reporting simple metric syncing daily channel performance clear source level metrics automated channel updates accurate lead attribution automatic deal calculations summary reports sent team updates Slack notification alert lead data refreshed metrics synced fast channel ROI calculated budget insights ready team alignment quick conversion stats sent channel analysis
+      automated simple deal matching nightly background task automated performance summary data sync complete updates processed fast performance tracking auto clear channel insights attribution workflow runs deal matching automated continuous source analysis metrics written back automatic spend feedback revenue metrics ready budget decisions easy ROI data delivered channel stats updated revenue breakdown instant lead attribution done daily updates sent team aligned fast metric updates clear performance notifications simple daily attribution code calculations accurate revenue updates auto deal analysis completed background metrics synced workflow runs automatically data processing completed source level breakdown clear spend allocations updated ROI tracking running daily deals linked auto metric calculations fast team insight delivered performance metrics ready lead channel analysis daily deal metrics clear attribution tracking auto revenue analysis done spend insights delivered metrics updated
+      daily team summary delivered channel spend tracked automated deals sync daily calculations run continuous reporting active data pipeline ready channel performance auto continuous ROI sync lead sources synced automated revenue updates daily deal breakdown accurate attribution complete daily ROI summary budget recommendations clear insights delivered team notifications simple performance reports auto deal tracking complete source data synced metrics processed fast revenue calculations auto reporting pipeline active channel metrics ready spend optimized continuous automated data flow attribution pipeline active daily deal sync metric calculation complete team summary delivered source insights instant channel metrics sync continuous data updates performance data clear revenue insights auto daily deal matching spend metrics clear ROI data active lead metrics auto attribution updates daily performance pipeline ready spend tracking simple revenue metrics synced clear performance insights
+      budget tracking active daily deal analysis metrics output auto team reports ready channel metrics updated source tracking active automated spend summary ROI reporting complete continuous attribution sync daily metric pipeline source conversion tracked revenue pipeline ready performance summary ready channel insights delivered automated reporting pipeline deal matching active source ROI calculated spend recommendations auto metrics auto synced performance dashboard ready source data updated channel tracking clear deal metrics synced ROI automation ready daily reporting complete spend guidance auto metrics updated fast team sync automated deal attribution complete performance data synced channel ROI calculated budget guidance auto metrics delivered fast team summary ready automated deal sync daily metrics active source breakdown ready revenue tracking simple budget updates auto channel reporting ready deal metrics calculated continuous metrics sync daily deal pipeline performance summary
+      complete channel insights active automated metrics pipeline deals matched daily ROI insights delivered spend guidance continuous metric processing fast team report ready channel analysis done deal updates clear source performance active revenue sync complete budget updates continuous metric delivery auto team summary active channel ROI updated performance tracking ready deals processed daily metric workflow active spend recommendations simple team insights delivered channel tracking complete daily deals processed source attribution active continuous ROI reporting data pipeline complete team dashboard ready channel metrics complete automated ROI breakdown deal attribution active metric calculation complete continuous performance updates deal source matching automated ROI workflow active team report delivered spend guidance active channel tracking ready deal metrics output automated pipeline complete metric delivery instant revenue breakdown complete daily deals tracking source metrics
+      active automated attribution clear budget insights continuous performance pipeline ready deal data synced metric code executed team report sent channel spend analyzed deals linked automatically ROI tracking live metric sync done team alerts ready continuous pipeline complete deal attribution live source data updated channel spend calculated ROI metrics ready spend recommendations continuous deal analysis active metrics processed clear channel reports ready source tracking complete deal sync completed ROI calculations done daily reporting complete spend advice clear performance data ready deal matching active source metrics synced continuous deal attribution revenue tracking live channel performance auto team notifications complete metrics delivered active deal tracking done source attribution output ROI workflow finished spend insights continuous channel metrics ready deal data processed automated metric updates source ROI complete budget allocation clear daily deal metrics channel
+      performance complete attribution pipeline live spend advice delivered metric calculations live team updates auto deal sources matched ROI workflow complete continuous data pipeline deal data updated channel stats clear spend tracking active team notifications sent ROI breakdown complete metric pipeline finished channel analysis done deal attribution ready budget recommendations live spend metrics ready channel reporting live deal sync finished ROI workflow done metric pipeline active team report sent continuous spend updates deal source tracking finished revenue stats ready budget insights delivered metrics calculated live deal data updated team summary active channel ROI complete spend analysis finished ROI tracking active deal matching clear source data processed metric pipeline live spend recommendations done channel reporting finished deal metrics output continuous ROI sync deal data linked automated spend guidance channel metrics clear budget insights ready deal tracking live
+      metrics processed fast team summary live channel stats delivered deal data matched ROI breakdown live spend recommendations clear channel reporting complete deal sync output continuous ROI tracking deal data updated metrics calculated auto team report delivered channel insights live spend guidance active channel stats clear deal attribution done ROI workflow active metric delivery complete team summary ready deal breakdown live spend insights active channel reporting done deal metrics ready ROI tracking live spend advice complete metric output live team report active channel stats complete deal attribution live ROI breakdown done spend recommendations ready channel reporting complete deal metrics output continuous ROI tracking deal data synced metric calculation live team summary complete channel me
+  highlight:
+  - Metrics write back
+  - Slack
+- say: The free template is linked in the description.
+  caption: The free template is linked in the description.
+  scene:
+    type: cta
+    line: Free n8n Template
+    subline: Link in description
+  highlight:
+  - free template
+  - linked in the description
+description:
+  task_line: Automate marketing revenue attribution and ROI tracking by linking Airtable deals to lead sources.
+  tools: Built using n8n, Airtable, Code, and Slack.
+  sources:
+  - 'n8n template: https://n8n.io/workflows/9358'
+  template_link: https://n8n.io/workflows/9358
+seo:
+  seeds:
+  - n8n marketing ROI workflow
+  - n8n Airtable lead attribution
+  - automate revenue attribution n8n
+  - n8n Slack marketing report
+  - hashtags
+series: Stop Doing This
+record_id: n8n:9358
+auto: true
+instagram_hashtags_rotating: []

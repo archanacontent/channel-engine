@@ -1,0 +1,81 @@
+skip: false
+skip_reason: ''
+title: Cross-border rail travel is difficult. The record says otherwise.
+beats:
+- say: Myth. India and Nepal are disconnected by land.
+  caption: Myth. India and Nepal are disconnected by land.
+  highlight:
+  - disconnected by land
+  scene:
+    type: headline
+    kicker: Myth
+    text: India and Nepal are disconnected by land
+- say: The Saryu Kamala Express now links Ayodhya Cantt to Janakpur Dham. ET Online reports the new weekly service covers 604 kilometres.
+  caption: The Saryu Kamala Express now links Ayodhya Cantt to Janakpur Dham. ET Online reports the new weekly service covers 604 kilometres.
+  highlight:
+  - 604 kilometres
+  - Saryu Kamala Express
+  scene:
+    type: stat
+    value: 604 km
+    label: Saryu Kamala Express distance
+    source: ET Online
+- say: The journey takes approximately 19 hours. This direct rail link strengthens the Ramayan Circuit between the two nations.
+  caption: The journey takes approximately 19 hours. This direct rail link strengthens the Ramayan Circuit between the two nations.
+  highlight:
+  - 19 hours
+  - Ramayan Circuit
+  scene:
+    type: card
+    title: Saryu Kamala Express
+    rows:
+    - - Distance
+      - 604 km
+    - - Duration
+      - 19 hours
+    - - Frequency
+      - Weekly
+- say: Will cross-border rail travel become the new standard? Follow for tomorrow's figure.
+  caption: Will cross-border rail travel become the new standard? Follow for tomorrow's figure.
+  highlight:
+  - cross-border rail travel
+  scene:
+    type: cta
+    line: Will cross-border rail travel become the new standard?
+    subline: Follow for tomorrow's figure.
+description:
+  summary: The new Saryu Kamala Express connects Ayodhya to Janakpur Dham via rail.
+  details: India and Nepal have launched the Saryu Kamala Express, a weekly train service. The route covers 604 kilometres between Ayodhya Cantt and Janakpur Dham. This service aims to boost religious tourism and strengthen the Ramayan Circuit. The launch was coordinated by Prime Ministers Narendra Modi and Balendra Shah.
+  key_figures: 'Distance: 604 km
+
+    Travel time: 19 hours
+
+    Frequency: Weekly'
+  sources:
+  - 'Economic Times, 23 Nov 2026: https://economictimes.indiatimes.com/news/economy/infrastructure/ramayan-circuit-boost-modi-balen-shah-flag-off-ayodhya-janakpur-train-ram-sita-birthplaces-linked/videoshow/136099071.cms'
+  released: 23 Nov 2026
+  source_link: https://economictimes.indiatimes.com/news/economy/infrastructure/ramayan-circuit-boost-modi-balen-shah-flag-off-ayodhya-janakpur-train-ram-sita-birthplaces-linked/videoshow/136099071.cms
+seo:
+  seeds:
+  - Saryu Kamala Express
+  - Ayodhya to Janakpur train
+  - India Nepal railway connectivity
+  - Ramayan Circuit tourism
+  - Ayodhya Cantt Janakpur Dham rail
+  hashtags:
+  - '#IndiaNepal'
+  - '#RamayanCircuit'
+  - '#IndianRailways'
+  - '#Ayodhya'
+series: Myth vs Record
+record_id: vbnews:https://economictimes.indiatimes.com/news/economy/infrastructure/ramayan-circuit-boost-modi-balen-shah-flag-off-ayodhya-janakpur-train-ram-sita-birthplaces-linked/videoshow/136099071.cms
+auto: true
+instagram_hashtags_rotating: []
+released: 23 Nov 2026
+posted: '2026-11-23'
+sector: Tourism, Culture and Heritage
+source_label: Economic Times, 23 Nov 2026
+look:
+  palette: cream_on_green
+  motion: tiles
+  hook: myth_stamp

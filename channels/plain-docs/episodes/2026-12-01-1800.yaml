@@ -1,0 +1,77 @@
+skip: false
+skip_reason: ''
+title: Fixing a real README in under a minute
+beats:
+- say: Vague instructions for setup cause stalled onboarding and support tickets.
+  caption: Vague instructions for setup cause stalled onboarding and support tickets.
+  highlight:
+  - Vague instructions
+  - stalled onboarding
+  scene:
+    type: headline
+    text: Vague instructions stall onboarding
+- say: The Chopin R E A D M E is too wordy about its agent.
+  caption: The Chopin README is too wordy about its agent.
+  highlight:
+  - Chopin README
+  - too wordy
+  scene:
+    type: card
+    title: The Problem
+    rows:
+    - - Subject
+      - Chopin README
+    - - Issue
+      - Wordy description
+- say: 'The original text says: The hosted agent, called Planner, reads the selected GitHub repository, proposes document edits, and asks the team when the code cannot settle a choice.'
+  caption: 'The original text says: "The hosted agent, called Planner, reads the selected GitHub repository, proposes document edits, and asks the team when the code cannot settle a choice."'
+  highlight:
+  - The hosted agent
+  - cannot settle a choice
+  scene:
+    type: compare
+    left_label: Original
+    left_text: The hosted agent, called Planner, reads the selected GitHub repository, proposes document edits, and asks the team when the code cannot settle a choice.
+    right_label: Rewrite
+    right_text: The Planner agent reads your repository, proposes edits, and asks for help when it cannot decide.
+- say: I removed the passive voice and replaced the vague phrase cannot settle a choice with a direct action.
+  caption: I removed the passive voice and replaced the vague phrase "cannot settle a choice" with a direct action.
+  highlight:
+  - direct action
+  scene:
+    type: list
+    title: The Fix
+    items:
+    - Removed passive voice
+    - Used direct verbs
+    - Clarified the agent's role
+    style: check
+- say: Be specific about what an agent does.
+  caption: Be specific about what an agent does.
+  highlight:
+  - Be specific
+  scene:
+    type: quote
+    text: Be specific about what an agent does.
+    highlight:
+    - Be specific
+description:
+  what_was_fixed: I rewrote a wordy sentence in the Chopin README to make the Planner agent's role clearer.
+  rule: Replace vague phrases with specific, direct actions.
+  sources:
+  - 'githubnext/chopin README (MIT): https://github.com/githubnext/chopin'
+  source_link: https://github.com/githubnext/chopin
+  license: MIT
+seo:
+  seeds:
+  - technical writing tips
+  - how to write documentation
+  - README rewrite example
+  - improving developer docs
+  hashtags:
+  - '#TechnicalWriting'
+  - '#DevRel'
+series: Rewrite This
+record_id: repo:githubnext/chopin
+auto: true
+instagram_hashtags_rotating: []

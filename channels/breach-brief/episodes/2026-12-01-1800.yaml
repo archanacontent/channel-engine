@@ -1,0 +1,61 @@
+skip: false
+title: 'Exploited now: Ahsay AhsayCBS CVE-2026-105133'
+beats:
+- say: C I S A added CVE-2026-105133 to its catalog because attackers are actively exploiting an improper authentication flaw in Ahsay AhsayCBS.
+  caption: CISA added CVE-2026-105133 to its catalog because attackers are actively exploiting an improper authentication flaw in Ahsay AhsayCBS.
+  scene:
+    type: headline
+    text: Active exploitation in AhsayCBS
+  highlight:
+  - CVE-2026-105133
+  - improper authentication flaw
+- say: Remote attackers bypass authentication by manipulating the random parameter in the checkSysPwd function of the API component.
+  caption: Remote attackers bypass authentication by manipulating the random parameter in the checkSysPwd function of the API component.
+  scene:
+    type: stat
+    value: CVE-2026-105133
+    label: Vulnerability Details
+  highlight:
+  - bypass authentication
+  - random parameter
+- say: Federal agencies faced a remediation deadline of October seventeenth, 2026, under CISA orders to secure affected systems.
+  caption: Federal agencies faced a remediation deadline of October 17, 2026, under CISA orders to secure affected systems.
+  scene:
+    type: headline
+    value: '2026-10-17T00:00:00Z'
+    kicker: ''
+    text: '2026-10-17T00:00:00Z'
+  highlight:
+  - remediation deadline
+  - October 17, 2026
+- say: Apply vendor instructions immediately by upgrading to version 9.15.2.70 or version 10.3.4.45 to mitigate this risk.
+  caption: Apply vendor instructions immediately by upgrading to version 9.15.2.70 or version 10.3.4.45 to mitigate this risk.
+  scene:
+    type: list
+    items:
+    - Upgrade to version 9.15.2.70
+    - Upgrade to version 10.3.4.45
+    - Follow vendor instructions
+    style: check
+    title: Key points
+  highlight:
+  - version 9.15.2.70
+  - version 10.3.4.45
+description:
+  summary: Ahsay AhsayCBS contains an improper authentication vulnerability tracked as CVE-2026-105133 that allows remote attackers to bypass authentication.
+  affected: Ahsay AhsayCBS up to version 9.15.2.69 and version 10.3.4.44.
+  action: Upgrade to version 9.15.2.70 or version 10.3.4.45 following vendor instructions and CISA guidance.
+  sources:
+  - 'CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog'
+  - 'NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-105133'
+seo:
+  seeds:
+  - Ahsay AhsayCBS vulnerability
+  - CVE-2026-105133
+  - CISA KEV catalog
+  - Ahsay authentication bypass fix
+skip_reason: ''
+series: Exploited Today
+record_id: kev:CVE-2026-105133
+auto: true
+instagram_hashtags_rotating: []

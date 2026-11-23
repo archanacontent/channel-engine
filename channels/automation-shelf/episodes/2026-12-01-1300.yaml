@@ -1,0 +1,71 @@
+skip: false
+title: 'Free workflow: Social media video generation on autopilot'
+beats:
+- say: Generate social media marketing videos directly from text prompts using n eight n and Sora 2 AI.
+  caption: Generate social media marketing videos directly from text prompts using n8n and Sora 2 AI.
+  scene:
+    type: headline
+    kicker: LIBRARY PICK
+    text: Automate Social Video Creation with Sora 2 AI
+  highlight:
+  - Generate social media marketing videos
+  - n8n and Sora 2 AI
+- say: Users submit a prompt and optional image reference through a simple form trigger node.
+  caption: Users submit a prompt and optional image reference through a simple form trigger node.
+  scene:
+    type: stat
+    value: Form Trigger Node
+    label: Workflow Inputs
+  highlight:
+  - submit a prompt
+  - form trigger node
+- say: The workflow sends requests to the Defapi Sora 2 API, checks status, and retrieves the final video output.
+  caption: The workflow sends requests to the Defapi Sora 2 API, checks status, and retrieves the final video output.
+  scene:
+    type: flow
+    steps:
+    - title: Form Trigger
+      note: Prompt and optional image
+    - title: Defapi Sora 2 API
+      note: HTTP Request submit
+    - title: Status Monitor
+      note: Wait and check loop
+    - title: Video Output
+      note: Final file retrieval
+  highlight:
+  - Defapi Sora 2 API
+  - retrieves the final video output
+- say: It suits content creators and marketers who want professional video assets without manual video editing.
+  caption: It suits content creators and marketers who want professional video assets without manual video editing.
+  scene:
+    type: list
+    title: Target Audience
+    items:
+    - Checklist
+  highlight:
+  - content creators and marketers
+  - without manual video editing
+- say: Template link in the description.
+  caption: Template link in the description.
+  scene:
+    type: cta
+    line: Get the Free Template
+    subline: Link available in the description below
+  highlight:
+  - Template link in the description
+description:
+  task_line: Automate your social video creation process using text prompts and an n8n workflow powered by the Defapi Sora 2 API.
+  tools: This template uses n8n form triggers, HTTP request nodes, and the Defapi Sora 2 API.
+  sources:
+  - 'n8n template: https://n8n.io/workflows/9337'
+  template_link: https://n8n.io/workflows/9337
+seo:
+  seeds:
+  - n8n sora 2 workflow
+  - defapi sora 2 video generation
+  - automate social media video creation
+  - n8n AI video template
+series: Library Pick
+record_id: n8n:9337
+auto: true
+instagram_hashtags_rotating: []

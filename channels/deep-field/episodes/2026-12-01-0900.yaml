@@ -1,0 +1,66 @@
+skip: false
+skip_reason: ''
+title: 'What you''re looking at: lightning over North Carolina'
+beats:
+- say: Lightning illuminates clouds during a storm off the coast of North Carolina.
+  caption: Lightning illuminates clouds during a storm off the coast of North Carolina.
+  highlight:
+  - Lightning illuminates clouds
+  scene:
+    type: headline
+    text: Lightning over North Carolina
+- say: This nebula like formation is actually a storm captured from the International Space Station.
+  caption: This nebula-like formation is actually a storm captured from the International Space Station.
+  highlight:
+  - nebula-like formation
+  - International Space Station
+  scene:
+    type: image
+    credit: NASA/JSC
+- say: The station was orbiting two hundred sixty miles above the Atlantic Ocean when this happened.
+  caption: The station was orbiting 260 miles above the Atlantic Ocean when this happened.
+  highlight:
+  - 260 miles
+  - Atlantic Ocean
+  scene:
+    type: stat
+    value: '260'
+    label: miles above Atlantic Ocean
+- say: Looking down from orbit makes weather patterns look like cosmic structures.
+  caption: Looking down from orbit makes weather patterns look like cosmic structures.
+  highlight:
+  - weather patterns
+  - cosmic structures
+  scene:
+    type: compare
+    left_label: Earth
+    left_text: Storm clouds
+    right_label: Space
+    right_text: Nebula
+- say: Image credit in the description.
+  caption: Image credit in the description.
+  highlight: []
+  scene:
+    type: cta
+    line: Subscribe for daily space images.
+    subline: Space Science
+description:
+  explainer: This image shows lightning illuminating storm clouds off the coast of North Carolina. It was captured from the International Space Station orbiting 260 miles above the Atlantic Ocean.
+  sources:
+  - 'NASA Image and Video Library: https://images.nasa.gov/details/iss073e0081060'
+  credit: NASA
+seo:
+  seeds:
+  - lightning from space
+  - ISS North Carolina storm
+  - NASA lightning clouds
+  hashtags:
+  - '#SpaceScience'
+  - '#NASA'
+series: Look Closer
+record_id: nasa:iss073e0081060
+auto: true
+instagram_hashtags_rotating: []
+media:
+  image: /home/runner/work/channel-engine/channel-engine/collected/deep-field/media/2026-12-01-0900.jpg
+  credit: NASA

@@ -1,0 +1,59 @@
+skip: false
+title: 'Writing rule: Focus on user goals'
+beats:
+- say: Stop describing the button. Start describing the user goal.
+  caption: Stop describing the button. Start describing the user goal.
+  scene:
+    type: headline
+    text: Stop describing the button. Start describing the user goal.
+  highlight:
+  - Stop describing the button
+  - Start describing the user goal
+- say: Google developer documentation advises focusing on what the reader accomplishes rather than the widgets they click.
+  caption: Google developer documentation advises focusing on what the reader accomplishes rather than the widgets they click.
+  scene:
+    type: headline
+    value: Goal-first writing
+    kicker: ''
+    text: Goal-first writing
+  highlight:
+  - focusing on what the reader accomplishes
+- say: Avoid turning interface elements into verbs.
+  caption: Avoid turning interface elements into verbs.
+  scene:
+    type: compare
+    left_label: Weak
+    left_text: Name the account.
+    right_label: Better
+    right_text: In the **Name** field, enter an account name.
+  highlight:
+  - interface elements into verbs
+- say: Using a field label as a verb forces the reader to hunt for a button that might not exist.
+  caption: Using a field label as a verb forces the reader to hunt for a button that might not exist.
+  scene:
+    type: image
+    credit: Google developer documentation
+  highlight:
+  - Using a field label as a verb
+- say: Do not use UI elements as if they were English verbs or nouns.
+  caption: Do not use UI elements as if they were English verbs or nouns.
+  scene:
+    type: quote
+    text: Do not use UI elements as if they were English verbs or nouns.
+  highlight:
+  - UI elements as if they were English verbs or nouns
+description:
+  what_was_fixed: The instruction was rewritten to clarify the user action instead of treating an interface label as a verb.
+  rule: Focus instructions on user goals rather than UI specifics and avoid using interface elements as verbs.
+  sources:
+  - 'Google developer documentation: https://developers.google.com/style/ui-elements'
+seo:
+  seeds:
+  - technical writing tips
+  - how to write documentation
+  - instructional design for software
+  - writing better user guides
+series: One Rule
+record_id: style:https://developers.google.com/style/ui-elements
+auto: true
+instagram_hashtags_rotating: []

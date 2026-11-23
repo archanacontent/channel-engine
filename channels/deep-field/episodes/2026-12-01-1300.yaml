@@ -1,0 +1,75 @@
+skip: false
+skip_reason: ''
+title: 'Encapsulate-1: what just happened'
+beats:
+- say: Cancer cells behave differently when they are not fighting Earth's gravity.
+  caption: Cancer cells behave differently when they are not fighting Earth's gravity.
+  highlight:
+  - Cancer cells behave differently
+  scene:
+    type: headline
+    text: Microgravity cancer research
+- say: The Encapsulate-one investigation uses patient derived tumor samples aboard the International Space Station.
+  caption: The Encapsulate-1 investigation uses patient derived tumor samples aboard the International Space Station.
+  highlight:
+  - patient derived tumor samples
+  - International Space Station
+  scene:
+    type: image
+    credit: Encapsulate Inc.
+- say: Researchers grow gastric microtumors inside an Encapsulate biochip to watch how they move and interact.
+  caption: Researchers grow gastric microtumors inside an Encapsulate biochip to watch how they move and interact.
+  highlight:
+  - gastric microtumors
+  - Encapsulate biochip
+  scene:
+    type: card
+    title: Investigation Details
+    rows:
+    - - Sample type
+      - Gastric microtumors
+    - - Technology
+      - Encapsulate biochip
+- say: These results could help predict a patient's risk of metastasis and support more personalized treatments.
+  caption: These results could help predict a patient's risk of metastasis and support more personalized treatments.
+  highlight:
+  - predict a patient's risk
+  - personalized treatments
+  scene:
+    type: list
+    title: Potential Benefits
+    items:
+    - Predicting metastasis risk
+    - Personalized cancer treatments
+    style: bullet
+- say: The space station orbits more than two hundred miles above Earth.
+  caption: The space station orbits more than 200 miles above Earth.
+  highlight: []
+  scene:
+    type: stat
+    value: 200+
+    label: miles above Earth
+- say: Source in the description.
+  caption: Source in the description.
+  highlight:
+  - Source in the description
+  scene:
+    type: cta
+    line: Follow for more space science
+    subline: Source in the description
+description:
+  explainer: NASA is studying how cancer cells move and interact in microgravity. The Encapsulate-1 mission uses biochips on the International Space Station to study patient derived tumor samples.
+  sources:
+  - 'NASA: https://www.nasa.gov/image-article/studying-cancer-cells-in-microgravity/'
+seo:
+  seeds:
+  - cancer research in space
+  - ISS microgravity science
+  - Encapsulate biochip NASA
+  hashtags:
+  - '#SpaceScience'
+  - '#NASA'
+series: Mission Log
+record_id: nasanews:https://www.nasa.gov/image-article/studying-cancer-cells-in-microgravity/
+auto: true
+instagram_hashtags_rotating: []

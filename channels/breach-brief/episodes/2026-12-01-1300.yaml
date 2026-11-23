@@ -1,0 +1,79 @@
+skip: false
+skip_reason: ''
+title: 'Exploited now: N-able MailAssure CVE-2026-134624'
+beats:
+- say: Attackers are using a critical flaw in N-able MailAssure to reach internal networks.
+  caption: Attackers are using a critical flaw in N-able MailAssure to reach internal networks.
+  highlight:
+  - critical flaw
+  - reach internal networks
+  scene:
+    type: headline
+    text: N-able MailAssure Vulnerability
+- say: C V E 2 0 2 6, 1 3 4 6 2 4 is a server side request forgery vulnerability in the L D A P synchronization connection check.
+  caption: CVE-2026-134624 is a server-side request forgery vulnerability in the LDAP synchronization connection check.
+  highlight:
+  - server-side request forgery
+  - LDAP synchronization
+  scene:
+    type: card
+    title: Vulnerability Details
+    rows:
+    - - CVE ID
+      - CVE-2026-134624
+    - - Product
+      - N-able MailAssure
+    - - Added
+      - '2026-11-23'
+    - - Due Date
+      - '2026-11-26'
+- say: An authenticated A P I user can connect to arbitrary internal hosts and ports to send crafted data to internal services.
+  caption: An authenticated API user can connect to arbitrary internal hosts and ports to send crafted data to internal services.
+  highlight:
+  - connect to arbitrary internal hosts
+  - send crafted data
+  scene:
+    type: stat
+    value: '9.3'
+    label: CVSS Critical Score
+- say: To protect your environment, apply vendor mitigations immediately or discontinue use if mitigations are unavailable.
+  caption: To protect your environment, apply vendor mitigations immediately or discontinue use if mitigations are unavailable.
+  highlight:
+  - apply vendor mitigations
+  - discontinue use
+  scene:
+    type: list
+    title: Required Actions
+    items:
+    - Apply vendor mitigations
+    - Evaluate internet exposure
+    - Follow BOD 26-04
+    - Discontinue if no fix
+    style: check
+- say: Sources are in the description.
+  caption: Sources are in the description.
+  highlight: []
+  scene:
+    type: cta
+    line: Stay Protected
+    subline: Check the description for sources
+description:
+  summary: Attackers are exploiting a critical server-side request forgery vulnerability in N-able MailAssure.
+  affected: N-able MailAssure (SpamExperts) versions before 20261121.1943.
+  action: Apply vendor mitigations or discontinue use of the product if mitigations are unavailable.
+  sources:
+  - 'CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog'
+  - 'NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-134624'
+seo:
+  seeds:
+  - N-able MailAssure vulnerability
+  - CVE-2026-134624 exploit
+  - CISA KEV MailAssure
+  - SSRF vulnerability fix
+  hashtags:
+  - '#Cybersecurity'
+  - '#Infosec'
+series: Exploited Today
+record_id: kev:CVE-2026-134624
+auto: true
+instagram_hashtags_rotating: []
