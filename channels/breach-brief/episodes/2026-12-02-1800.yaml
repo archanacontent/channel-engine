@@ -1,0 +1,82 @@
+skip: false
+skip_reason: ''
+title: 'Exploited now: Drupal Core CVE-2026-132165'
+beats:
+- say: Attackers are using a new Drupal Core flaw to take over websites.
+  caption: Attackers are using a new Drupal Core flaw to take over websites.
+  highlight:
+  - take over websites
+  scene:
+    type: headline
+    text: Drupal Core Takeover
+- say: The vulnerability, C V E 2 0 2 6 1 3 2 1 6 5, allows unauthenticated users to execute arbitrary code through the Drupal installer.
+  caption: The vulnerability, CVE-2026-132165, allows unauthenticated users to execute arbitrary code through the Drupal installer.
+  highlight:
+  - execute arbitrary code
+  - unauthenticated users
+  scene:
+    type: card
+    title: Vulnerability Details
+    rows:
+    - - CVE ID
+      - CVE-2026-132165
+    - - Product
+      - Drupal Core
+    - - Added
+      - '2026-11-24'
+    - - Due Date
+      - '2026-11-27'
+- say: Threat actors use the install dot p h p file to attempt a full reinstallation of the site.
+  caption: Threat actors use the install.php file to attempt a full reinstallation of the site.
+  highlight:
+  - reinstallation of the site
+  scene:
+    type: flow
+    steps:
+    - title: Target
+      note: Drupal installer
+    - title: Method
+      note: install.php
+    - title: Result
+      note: Site takeover
+- say: Apply vendor mitigations immediately to secure your assets.
+  caption: Apply vendor mitigations immediately to secure your assets.
+  highlight:
+  - Apply vendor mitigations
+  scene:
+    type: list
+    title: Required Actions
+    items:
+    - Apply vendor mitigations
+    - Follow BOD 26-04
+    - Check internet exposure
+    - Discontinue if unmitigated
+    style: check
+- say: Sources are in the description.
+  caption: Sources are in the description.
+  highlight:
+  - Sources are in the description
+  scene:
+    type: cta
+    line: Stay Secure
+    subline: Sources are in the description.
+description:
+  summary: Attackers are exploiting a Drupal Core vulnerability to execute arbitrary code and take over sites.
+  affected: Drupal Core installations using the installer component.
+  action: Apply vendor mitigations immediately and follow CISA BOD 26-04 guidance.
+  sources:
+  - 'CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog'
+  - 'NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-132165'
+seo:
+  seeds:
+  - Drupal Core vulnerability exploit
+  - CVE-2026-132165 fix
+  - CISA KEV Drupal
+  - Drupal remote code execution
+  hashtags:
+  - '#Cybersecurity'
+  - '#Drupal'
+series: Exploited Today
+record_id: kev:CVE-2026-132165
+auto: true
+instagram_hashtags_rotating: []

@@ -1,0 +1,90 @@
+format: strip
+kind: reel
+tone: satire
+title: Customer Service
+premise: Nana June treats Mort the Grim Reaper like a low-rated customer service representative who fails to meet her high standards.
+panels:
+- room: living_room
+  shot: wide
+  cast:
+  - who: Mort
+    mood: deadpan
+    pos: left
+    size: medium
+    holding: clipboard
+  - who: Nana June
+    mood: happy
+    pos: right
+    size: medium
+    holding: mug
+  lines:
+  - who: Mort
+    text: June. Your 84-year trial period has officially ended.
+  - who: Nana June
+    text: Finally. The service here has been atrocious.
+  props: []
+- room: living_room
+  shot: medium
+  cast:
+  - who: Mort
+    mood: tired
+    pos: left
+    size: medium
+    holding: clipboard
+  - who: Nana June
+    mood: smug
+    pos: right
+    size: medium
+    holding: mug
+  lines:
+  - who: Mort
+    text: I am here to reap your soul, ma'am.
+  - who: Nana June
+    text: Do you have a supervisor? Your cloak is wrinkled.
+  props: []
+- room: plain_cool
+  shot: close
+  cast:
+  - who: Mort
+    mood: panic
+    pos: center
+    size: medium
+    holding: clipboard
+  lines:
+  - who: Mort
+    text: Please sign. My end-of-quarter metrics depend on this.
+  fx:
+  - gloom
+  props: []
+- room: living_room
+  shot: extreme_close
+  cast:
+  - who: Nana June
+    mood: laughing
+    pos: center
+    size: large
+    holding: mug
+  lines:
+  - who: Nana June
+    text: Come back Tuesday. Rain ruins my hair.
+  sfx: SIP
+  props: []
+caption: 'Zero stars. Would not expire again.
+
+  .
+
+  .
+
+  .
+
+  #comics #cartoon #digitalart #webcomic #comicbooks
+
+  comic | drawing | art | illustration | artist | sketch
+
+  #cartoonist #comicart #comicbook #funnycomics #draw #artwork #officehumor #comicstrip #funny #relatable #artistsoninstagram #comicsofy #doodle #webtoon #viral #viralcomics #explorepage #corporate #satire #grimreaper #grandma'
+description:
+  summary: Zero stars. Would not expire again.
+series: Pim and Soot Reel
+record_id: strip:reel:1795548695570142391:0
+auto: true
+instagram_hashtags_rotating: []

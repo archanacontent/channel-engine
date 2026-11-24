@@ -1,0 +1,74 @@
+skip: false
+skip_reason: ''
+title: Fixing a real README in under a minute
+beats:
+- say: Vague installation steps cause support tickets and stalled onboarding.
+  caption: Vague installation steps cause support tickets and stalled onboarding.
+  highlight:
+  - Vague installation steps
+  scene:
+    type: headline
+    text: Vague docs stall onboarding
+- say: 'The Omarchy README says: The download works from any OS; no Mac, no macOS and no Xcode install anywhere.'
+  caption: 'The Omarchy README says: The download works from any OS; no Mac, no macOS and no Xcode install anywhere.'
+  highlight:
+  - no Mac, no macOS and no Xcode
+  scene:
+    type: compare
+    left_label: Original
+    left_text: The download works from any OS; no Mac, no macOS and no Xcode install anywhere.
+    right_label: Rewrite
+    right_text: You can download from any OS without installing Mac, macOS, or Xcode.
+- say: The original uses a semi colon to link unrelated ideas. It also uses a repetitive list.
+  caption: The original uses a semicolon to link unrelated ideas. It also uses a repetitive list.
+  highlight:
+  - semicolon
+  - repetitive list
+  scene:
+    type: list
+    title: The Edits
+    items:
+    - Removed semicolon
+    - Combined ideas
+    - Cleaned up repetition
+    style: bullet
+- say: The rewrite is a single, confident sentence that tells the user exactly what is possible.
+  caption: The rewrite is a single, confident sentence that tells the user exactly what is possible.
+  highlight:
+  - single, confident sentence
+  scene:
+    type: card
+    title: Result
+    rows:
+    - - Tone
+      - Confident
+    - - Clarity
+      - High
+- say: Write documentation people actually finish reading.
+  caption: Write documentation people actually finish reading.
+  highlight:
+  - actually finish reading
+  scene:
+    type: quote
+    text: Write documentation people actually finish reading.
+    highlight:
+    - actually finish reading
+description:
+  what_was_fixed: I fixed a wordy sentence in the Omarchy README to remove repetitive lists and improve flow.
+  rule: Avoid using semicolons to link unrelated ideas; use clear, single sentences instead.
+  sources:
+  - 'joshuaswarren/omarchy-apple-dev README (MIT): https://github.com/joshuaswarren/omarchy-apple-dev'
+  source_link: https://github.com/joshuaswarren/omarchy-apple-dev
+  license: MIT
+seo:
+  seeds:
+  - technical writing tips
+  - how to write documentation
+  - README best practices
+  hashtags:
+  - '#TechnicalWriting'
+  - '#Documentation'
+series: Rewrite This
+record_id: repo:joshuaswarren/omarchy-apple-dev
+auto: true
+instagram_hashtags_rotating: []

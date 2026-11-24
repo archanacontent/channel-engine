@@ -1,0 +1,79 @@
+skip: false
+skip_reason: ''
+title: 'Exploited now: Idunno AntiCsrf CVE-2026-131914'
+beats:
+- say: Attackers are using object injection to run arbitrary code through Idunno AntiCsrf.
+  caption: Attackers are using object injection to run arbitrary code through Idunno AntiCsrf.
+  highlight:
+  - run arbitrary code
+  - Idunno AntiCsrf
+  scene:
+    type: headline
+    text: Remote Code Execution in Idunno AntiCsrf
+- say: This C V E 2 0 2 6 1 3 1 9 1 4 vulnerability allows unauthenticated remote access via untrusted data deserialization.
+  caption: This CVE-2026-131914 vulnerability allows unauthenticated remote access via untrusted data deserialization.
+  highlight:
+  - unauthenticated remote access
+  - untrusted data deserialization
+  scene:
+    type: card
+    title: Vulnerability Details
+    rows:
+    - - CVE ID
+      - CVE-2026-131914
+    - - Product
+      - Idunno AntiCsrf
+    - - Added
+      - '2026-11-24'
+    - - Due Date
+      - '2026-11-27'
+- say: The flaw exists in versions through zero point nine point one Beta on A S P dot NET.
+  caption: The flaw exists in versions through 0.9.1 Beta on ASP.NET.
+  highlight:
+  - versions through 0.9.1 Beta
+  - ASP.NET
+  scene:
+    type: stat
+    value: '9.3'
+    label: CVSS Critical Score
+- say: Stop the threat by applying vendor mitigations or transitioning to a supported version immediately.
+  caption: Stop the threat by applying vendor mitigations or transitioning to a supported version immediately.
+  highlight:
+  - applying vendor mitigations
+  - transitioning to a supported version
+  scene:
+    type: list
+    title: Required Actions
+    items:
+    - Apply vendor mitigations
+    - Transition to supported versions
+    - Evaluate internet exposure
+    - Discontinue use if unmitigated
+    style: check
+- say: Sources are in the description.
+  caption: Sources are in the description.
+  highlight: []
+  scene:
+    type: cta
+    line: Stay protected.
+    subline: Sources are in the description.
+description:
+  summary: Attackers are exploiting a critical deserialization vulnerability in Idunno AntiCsrf to execute remote code.
+  affected: Idunno AntiCsrf versions through 0.9.1 Beta on ASP.NET.
+  action: Apply vendor mitigations, transition to a supported version, or discontinue use if mitigations are unavailable.
+  sources:
+  - 'CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog'
+  - 'NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-131914'
+seo:
+  seeds:
+  - CVE-2026-131914 exploit
+  - Idunno AntiCsrf vulnerability
+  - remote code execution fix
+  - CISA KEV updates
+  hashtags:
+  - '#Cybersecurity'
+  - '#Infosec'
+series: Exploited Today
+record_id: kev:CVE-2026-131914
+auto: true
+instagram_hashtags_rotating: []

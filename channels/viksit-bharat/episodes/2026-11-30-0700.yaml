@@ -1,0 +1,92 @@
+skip: false
+skip_reason: ''
+title: India and Netherlands focus on green energy. The record says otherwise.
+beats:
+- say: Myth. India focuses only on traditional energy sectors.
+  caption: Myth. India focuses only on traditional energy sectors.
+  highlight:
+  - Myth
+  scene:
+    type: headline
+    kicker: Myth
+    text: India focuses only on traditional energy sectors
+- say: Ministry of External Affairs data shows India and the Netherlands are strengthening cooperation in green hydrogen and shipbuilding.
+  caption: Ministry of External Affairs data shows India and the Netherlands are strengthening cooperation in green hydrogen and shipbuilding.
+  highlight:
+  - strengthening cooperation
+  - green hydrogen
+  - shipbuilding
+  scene:
+    type: headline
+    value: Strategic Partnership
+    label: India-Netherlands focus
+    source: Ministry of External Affairs
+    kicker: India-Netherlands focus
+    text: Strategic Partnership
+- say: The two nations are reviewing the Roadmap of the India-Netherlands Strategic Partnership 2 0 2 6 to 2 0 3 0.
+  caption: The two nations are reviewing the Roadmap of the India-Netherlands Strategic Partnership 2026-2030.
+  highlight:
+  - Roadmap
+  - 2026-2030
+  scene:
+    type: card
+    title: Strategic Roadmap
+    rows:
+    - - Timeline
+      - 2026-2030
+- say: Priority sectors for this collaboration include semiconductors, renewable energy, maritime development, and port development.
+  caption: Priority sectors for this collaboration include semiconductors, renewable energy, maritime development, and port development.
+  highlight:
+  - semiconductors
+  - renewable energy
+  - maritime development
+  scene:
+    type: list
+    title: Priority Sectors
+    items:
+    - Semiconductors
+    - Renewable energy
+    - Green hydrogen
+    - Maritime development
+    style: check
+- say: Will these green energy partnerships accelerate India's transition? Follow for tomorrow's figure.
+  caption: Will these green energy partnerships accelerate India's transition? Follow for tomorrow's figure.
+  highlight:
+  - green energy partnerships
+  scene:
+    type: cta
+    line: Will these green energy partnerships accelerate India's transition?
+    subline: Follow for tomorrow's figure.
+description:
+  summary: India and the Netherlands are boosting cooperation in green hydrogen and shipbuilding.
+  details: The Ministry of External Affairs announced that India and the Netherlands are enhancing bilateral relations. Ministers S Jaishankar and Tom Berendsen reviewed the Roadmap of the India-Netherlands Strategic Partnership 2026-2030. Discussions covered semiconductors, renewable energy, and maritime development.
+  key_figures:
+  - 'Strategic Partnership Roadmap: 2026-2030'
+  - 'Clean energy goal: 900 gigawatts by 2035'
+  sources:
+  - 'Economic Times, 24 Nov 2026: https://economictimes.indiatimes.com/news/economy/foreign-trade/india-and-netherlands-looking-at-boosting-cooperation-in-clean-energy-shipbuilding-mea/articleshow/136134712.cms'
+  released: 24 Nov 2026
+  source_link: https://economictimes.indiatimes.com/news/economy/foreign-trade/india-and-netherlands-looking-at-boosting-cooperation-in-clean-energy-shipbuilding-mea/articleshow/136134712.cms
+seo:
+  seeds:
+  - India Netherlands strategic partnership
+  - India green hydrogen cooperation
+  - Ministry of External Affairs India Netherlands
+  - India shipbuilding development
+  hashtags:
+  - '#GreenHydrogen'
+  - '#IndiaNetherlands'
+  - '#RenewableEnergy'
+  - '#MaritimeDevelopment'
+series: Myth vs Record
+record_id: vbnews:https://economictimes.indiatimes.com/news/economy/foreign-trade/india-and-netherlands-looking-at-boosting-cooperation-in-clean-energy-shipbuilding-mea/articleshow/136134712.cms
+auto: true
+instagram_hashtags_rotating: []
+released: 24 Nov 2026
+posted: '2026-11-24'
+sector: Trade and Diplomacy
+source_label: Economic Times, 24 Nov 2026
+look:
+  palette: blue_on_cream
+  motion: ribbon
+  hook: myth_stamp

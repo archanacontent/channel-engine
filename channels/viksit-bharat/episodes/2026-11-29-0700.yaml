@@ -1,0 +1,84 @@
+skip: false
+title: Global rice demand for India is slowing. The record says otherwise.
+beats:
+- say: Some believed global demand for Indian rice was cooling down.
+  caption: Some believed global demand for Indian rice was cooling down.
+  scene:
+    type: headline
+    kicker: Myth
+    text: Indian rice exports are slowing down
+  highlight: []
+- say: Official data released in November 2026 shows India exported 8.84 million tonnes of non-basmati rice in seven months, up 6.7 percent.
+  caption: Official data released in November 2026 shows India exported 8.84 million tonnes of non-basmati rice in seven months, up 6.7 percent.
+  scene:
+    type: headline
+    value: 8.84 MT Peak Volume, Up 6.7 % Growth Rate overall in April to October 2026 period based on official data source released in November 2026 publication date context clear.
+    kicker: ''
+    text: 8.84 MT Peak Volume, Up 6.7 % Growth Rate overall in April to October 2026 period based on official data source released in November 2026 publication date context clear.
+  highlight:
+  - 8.84 million tonnes
+  - up 6.7 percent
+- say: Shipments of non-basmati white rice grew 18.3 percent to 2.82 million tonnes during April to October.
+  caption: Shipments of non-basmati white rice grew 18.3 percent to 2.82 million tonnes during April-October.
+  scene:
+    type: stat
+    value: 2.82 MT, Up 18.3 %
+    label: Rice Exports April-October 2026
+  highlight:
+  - grew 18.3 percent
+  - 2.82 million tonnes
+- say: Broken rice shipments recorded an even sharper surge of 73.5 percent, reaching 0.98 million tonnes.
+  caption: Broken rice shipments recorded an even sharper surge of 73.5 percent, reaching 0.98 million tonnes.
+  scene:
+    type: compare
+    left_label: Previous Year
+    left_text: 0.56 MT
+    right_label: April-October 2026
+    right_text: 0.98 MT (+73.5%)
+  highlight:
+  - surge of 73.5 percent
+  - 0.98 million tonnes
+- say: How will India's export balance shape global grain markets next?
+  caption: How will India's export balance shape global grain markets next?
+  scene:
+    type: cta
+    line: Can global markets rely on Indian supply?
+    subline: Follow for tomorrow's figure.
+  highlight:
+  - global grain markets
+description:
+  summary: India's non-basmati rice exports surged 6.7% to 8.84 million tonnes in April-October 2026, official data shows.
+  details: Official data released in November 2026 showed non-basmati rice exports reaching 8.84 million tonnes between April and October 2026. Shipments of non-basmati white rice grew 18.3 percent to 2.82 million tonnes, while broken rice exports jumped 73.5 percent to 0.98 million tonnes. Competitive pricing from Indian exporters drove higher overseas demand for white and broken cereal varieties.
+  key_figures: 'Non-basmati rice exports: 8.84 million tonnes (+6.7%)
+
+    Non-basmati white rice: 2.82 million tonnes (+18.3%)
+
+    Broken rice shipments: 0.98 million tonnes (+73.5%)'
+  sources:
+  - 'BusinessLine, 24 Nov 2026: https://www.thehindubusinessline.com/economy/agri-business/indias-non-basmati-rice-export-surges-67-in-april-october/article71738885.ece'
+  released: 24 Nov 2026
+  source_link: https://www.thehindubusinessline.com/economy/agri-business/indias-non-basmati-rice-export-surges-67-in-april-october/article71738885.ece
+seo:
+  seeds:
+  - India rice exports April October 2026
+  - non basmati rice export data
+  - broken rice export growth India
+  - India agri export figures 2026
+  - white rice export data India
+  - Commerce Ministry rice export figures
+  - Viksit Bharat On Record rice exports
+  - India non basmati rice surge
+  - Indian rice export trade analysis
+  - agricultural export data India 2026
+series: Myth vs Record
+record_id: vbnews:https://www.thehindubusinessline.com/economy/agri-business/indias-non-basmati-rice-export-surges-67-in-april-october/article71738885.ece
+auto: true
+instagram_hashtags_rotating: []
+released: 24 Nov 2026
+posted: '2026-11-24'
+sector: Jobs and the Economy
+source_label: BusinessLine, 24 Nov 2026
+look:
+  palette: tricolour
+  motion: rays
+  hook: challenge

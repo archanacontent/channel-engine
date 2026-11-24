@@ -1,0 +1,64 @@
+skip: false
+title: Can you automate marketing spend rollups in Google Sheets?
+beats:
+- say: Can you automate marketing spend rollups in Google Sheets? Yes, you can.
+  caption: Can you automate marketing spend rollups in Google Sheets? Yes, you can.
+  scene:
+    type: headline
+    kicker: CAN IT BE AUTOMATED?
+    text: Automate Google Sheets marketing spend rollups
+  highlight:
+  - marketing spend rollups
+- say: Pull raw spend from your data tab, then merge channel reference details using a lookup tab.
+  caption: Pull raw spend from your data tab, then merge channel reference details using a lookup tab.
+  scene:
+    type: flow
+    steps:
+    - title: Pull Raw Spend
+      note: Get data tab
+    - title: Merge Lookup Data
+      note: Join on Channel column
+  highlight:
+  - merge channel reference details
+- say: Summarize total spend by name using the summarize node in n eight n.
+  caption: Summarize total spend by name using the summarize node in n8n.
+  scene:
+    type: stat
+    value: Spend ($) Sum Grouped by Name
+    label: Summarize Node Settings
+  highlight:
+  - summarize node in n8n
+- say: Clear the reporting sheet to avoid duplicate entries and append the fresh aggregated results.
+  caption: Clear the reporting sheet to avoid duplicate entries and append the fresh aggregated results.
+  scene:
+    type: list
+    title: Output Execution
+    unit: steps
+    items:
+    - 2 steps remaining
+  highlight:
+  - avoid duplicate entries
+- say: Template link in the description.
+  caption: Template link in the description.
+  scene:
+    type: cta
+    line: Get Free n8n Template
+    subline: Link in description
+  highlight:
+  - Template link in the description
+description:
+  task_line: Automate daily marketing spend rollups and pivot summary tables directly in Google Sheets.
+  tools: Built using n8n with standard Google Sheets integration nodes.
+  sources:
+  - 'n8n template: https://n8n.io/workflows/8069'
+  template_link: https://n8n.io/workflows/8069
+seo:
+  seeds:
+  - n8n google sheets pivot table
+  - automate marketing spend reporting
+  - n8n aggregate spend data workflow
+  - google sheets vlookup automation
+series: Can It Be Automated?
+record_id: n8n:8069
+auto: true
+instagram_hashtags_rotating: []

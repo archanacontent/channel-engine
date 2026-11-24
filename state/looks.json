@@ -70,5 +70,29 @@
   "palette": "cream_on_green",
   "motion": "tiles",
   "hook": "myth_stamp"
+ },
+ {
+  "stem": "2026-11-29-0700",
+  "palette": "tricolour",
+  "motion": "rays",
+  "hook": "challenge"
+ },
+ {
+  "stem": "2026-11-30-0700",
+  "palette": "blue_on_cream",
+  "motion": "ribbon",
+  "hook": "myth_stamp"
+ },
+ {
+  "stem": "2026-12-01-0700",
+  "palette": "saffron_on_charcoal",
+  "motion": "bars",
+  "hook": "stat_punch"
+ },
+ {
+  "stem": "2026-12-02-0700",
+  "palette": "saffron_on_blue",
+  "motion": "sweep",
+  "hook": "challenge"
  }
 ]

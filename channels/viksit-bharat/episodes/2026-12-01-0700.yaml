@@ -1,0 +1,89 @@
+skip: false
+skip_reason: ''
+title: While the world consumes less, India hits record LPG production
+beats:
+- say: The world's second largest LPG user saw consumption fall by over 15 per cent.
+  caption: The world's second largest LPG user saw consumption fall by over 15 per cent.
+  highlight:
+  - consumption fall by over 15 per cent
+  scene:
+    type: stat
+    value: 15%
+    label: Global LPG consumption decline
+    source: BusinessLine
+- say: During the same period, India's LPG production hit a record 9.2 million tonnes.
+  caption: During the same period, India's LPG production hit a record 9.2 million tonnes.
+  highlight:
+  - record 9.2 million tonnes
+  scene:
+    type: headline
+    text: India hits record LPG production
+- say: Petroleum Planning and Analysis Cell data shows average daily production rose 24 per cent year on year to 43,333 tonnes.
+  caption: Petroleum Planning and Analysis Cell data shows average daily production rose 24 per cent year on year to 43,333 tonnes.
+  highlight:
+  - rose 24 per cent
+  - 43,333 tonnes
+  scene:
+    type: card
+    title: Production Growth (April-October 2026)
+    rows:
+    - - Daily Production
+      - 43,333 tonnes
+    - - Year on Year Rise
+      - 24 per cent
+    - - Total Production
+      - 9.2 million tonnes
+- say: This surge helped secure fuel for 32.64 crore households, including 10.57 crore PM Ujjwala Yojna beneficiaries.
+  caption: This surge helped secure fuel for 32.64 crore households, including 10.57 crore PM Ujjwala Yojna beneficiaries.
+  highlight:
+  - 32.64 crore households
+  scene:
+    type: list
+    title: LPG Usage Reach
+    items:
+    - 32.64 crore households
+    - 10.57 crore PMUY beneficiaries
+    style: check
+- say: How can India maintain this production momentum?
+  caption: How can India maintain this production momentum?
+  highlight:
+  - production momentum
+  scene:
+    type: cta
+    line: How can India maintain this production momentum?
+    subline: Follow for tomorrow's figure.
+description:
+  summary: India's LPG production hit a record 9.2 million tonnes between April and October 2026.
+  details: According to the Petroleum Planning and Analysis Cell, India's average daily LPG production rose 24 per cent year on year to 43,333 tonnes. This record output occurred as the closure of the Strait of Hormuz impacted global energy trade. The production supports approximately 32.64 crore households across the country.
+  key_figures:
+  - 'Total LPG Production: 9.2 million tonnes'
+  - 'Average Daily Production: 43,333 tonnes'
+  - 'Year on Year Production Increase: 24 per cent'
+  - 'Total Households Using LPG: 32.64 crore'
+  sources:
+  - 'BusinessLine, 24 Nov 2026: https://www.thehindubusinessline.com/economy/indias-lpg-production-hits-record-high-during-april-october-2026/article71739122.ece'
+  released: 24 Nov 2026
+  source_link: https://www.thehindubusinessline.com/economy/indias-lpg-production-hits-record-high-during-april-october-2026/article71739122.ece
+seo:
+  seeds:
+  - India LPG production record
+  - Petroleum Planning and Analysis Cell
+  - LPG consumption India
+  - PM Ujjwala Yojna beneficiaries
+  hashtags:
+  - '#LPG'
+  - '#EnergySecurity'
+  - '#IndiaEconomy'
+  - '#ViksitBharat'
+series: While the World
+record_id: vbnews:https://www.thehindubusinessline.com/economy/indias-lpg-production-hits-record-high-during-april-october-2026/article71739122.ece
+auto: true
+instagram_hashtags_rotating: []
+released: 24 Nov 2026
+posted: '2026-11-24'
+sector: Newest Release
+source_label: BusinessLine, 24 Nov 2026
+look:
+  palette: saffron_on_charcoal
+  motion: bars
+  hook: stat_punch

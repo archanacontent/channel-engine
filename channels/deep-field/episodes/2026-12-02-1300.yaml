@@ -1,0 +1,82 @@
+skip: false
+skip_reason: ''
+title: 'Kilonova Catcher: what just happened'
+beats:
+- say: Colliding neutron stars create kilonovae that forge the universe's gold and platinum.
+  caption: Colliding neutron stars create kilonovae that forge the universe's gold and platinum.
+  highlight:
+  - Colliding neutron stars
+  - forge the universe's gold
+  scene:
+    type: headline
+    text: Kilonovae forge heavy elements
+- say: These events fade within days, meaning no single observatory can watch the entire sky.
+  caption: These events fade within days, meaning no single observatory can watch the entire sky.
+  highlight:
+  - fade within days
+  - no single observatory
+  scene:
+    type: headline
+    value: days
+    label: Time kilonovae last before fading
+    kicker: Time kilonovae last before fading
+    text: days
+- say: NASA's Kilonova Catcher project connects over one hundred fifty amateur astronomers into a rapid response network.
+  caption: NASA's Kilonova Catcher project connects over 150 amateur astronomers into a rapid response network.
+  highlight:
+  - Kilonova Catcher project
+  scene:
+    type: card
+    title: Kilonova Catcher Network
+    rows:
+    - - Registered members
+      - 150+
+    - - Official reports contributed
+      - 64+
+- say: Volunteers point their telescopes at the sky when gravitational wave detectors send an alert.
+  caption: Volunteers point their telescopes at the sky when gravitational wave detectors send an alert.
+  highlight:
+  - point their telescopes
+  - gravitational wave detectors
+  scene:
+    type: flow
+    steps:
+    - title: Alert
+      note: Gravitational wave detector sends signal
+    - title: Response
+      note: Volunteers point telescopes at sky
+    - title: Discovery
+      note: Track the fading light
+- say: The network is preparing to follow up thousands of new alerts from the Nancy Grace Roman Space Telescope.
+  caption: The network is preparing to follow up thousands of new alerts from the Nancy Grace Roman Space Telescope.
+  highlight:
+  - thousands of new alerts
+  - Nancy Grace Roman Space Telescope
+  scene:
+    type: image
+    credit: NASA's Hubble Space Telescope
+- say: Source in the description.
+  caption: Source in the description.
+  highlight:
+  - Source in the description
+  scene:
+    type: cta
+    line: Join the network
+    subline: Visit the Kilonova Catcher website
+description:
+  explainer: NASA's Kilonova Catcher project uses amateur astronomers to track cosmic explosions. Volunteers help find and follow the fading light of kilonovae.
+  sources:
+  - 'NASA: https://science.nasa.gov/get-involved/citizen-science/amateur-astronomer-be-a-kilonova-catcher/'
+seo:
+  seeds:
+  - NASA Kilonova Catcher
+  - amateur astronomy citizen science
+  - how are gold and platinum made
+  - neutron star collision
+  hashtags:
+  - '#SpaceScience'
+  - '#NASA'
+series: Mission Log
+record_id: nasanews:https://science.nasa.gov/get-involved/citizen-science/amateur-astronomer-be-a-kilonova-catcher/
+auto: true
+instagram_hashtags_rotating: []

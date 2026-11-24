@@ -1,0 +1,73 @@
+skip: false
+skip_reason: ''
+title: 'Writing rule: Avoid unnecessary font formatting'
+beats:
+- say: One billion people have an accessibility need according to the World Health Organization.
+  caption: One billion people have an accessibility need according to the World Health Organization.
+  highlight:
+  - One billion people
+  - accessibility need
+  scene:
+    type: stat
+    value: 1 billion
+    label: people with accessibility needs
+    source: World Health Organization
+- say: Google developer documentation recommends avoiding unnecessary font formatting. Screen readers explicitly describe text modifications.
+  caption: Google developer documentation recommends avoiding unnecessary font formatting. Screen readers explicitly describe text modifications.
+  highlight:
+  - avoiding unnecessary font formatting
+  - Screen readers explicitly describe
+  scene:
+    type: image
+    credit: Google developer documentation
+- say: Use the em element only to indicate emphasis. Do not use it just to create italics.
+  caption: Use the em element only to indicate emphasis. Do not use it just to create italics.
+  highlight:
+  - only to indicate emphasis
+  scene:
+    type: compare
+    left_label: Weak usage
+    left_text: <em>This is just italics</em>
+    right_label: Correct usage
+    right_text: <em>This is important emphasis</em>
+- say: Avoid using all caps or camel case. Some screen readers read capitalized letters individually.
+  caption: Avoid using all caps or camel case. Some screen readers read capitalized letters individually.
+  highlight:
+  - read capitalized letters individually
+  scene:
+    type: list
+    title: Screen reader issues
+    items:
+    - Individual letter reading
+    - Unicase language issues
+    - Unnecessary font styles
+    style: bullet
+- say: Prioritize descriptive content and semantic HTML to ensure inclusivity for all readers.
+  caption: Prioritize descriptive content and semantic HTML to ensure inclusivity for all readers.
+  highlight:
+  - Prioritize descriptive content
+  - ensure inclusivity
+  scene:
+    type: quote
+    text: Prioritize descriptive content and semantic HTML to ensure inclusivity.
+    highlight:
+    - Prioritize descriptive content
+    - ensure inclusivity
+description:
+  what_was_fixed: Unnecessary font formatting and improper use of HTML elements were corrected to improve screen reader compatibility.
+  rule: Avoid unnecessary font formatting and use semantic HTML to ensure accessibility for all readers.
+  sources:
+  - 'Google developer documentation: https://developers.google.com/style/accessibility'
+seo:
+  seeds:
+  - technical writing accessibility
+  - how to write accessible docs
+  - semantic HTML for writers
+  - screen reader friendly documentation
+  hashtags:
+  - '#TechnicalWriting'
+  - '#Accessibility'
+series: One Rule
+record_id: style:https://developers.google.com/style/accessibility
+auto: true
+instagram_hashtags_rotating: []

@@ -1,0 +1,68 @@
+skip: false
+title: 'Free workflow: Client onboarding on autopilot'
+beats:
+- say: Automate your entire client onboarding process from a single form submission.
+  caption: Automate your entire client onboarding process from a single form submission.
+  scene:
+    type: headline
+    text: Automate client onboarding from one intake form
+  highlight:
+  - client onboarding
+- say: When a Typeform intake form is submitted, n eight n builds six main Google Drive folders and over fifteen subfolders.
+  caption: When a Typeform intake form is submitted, n8n builds 6 main Google Drive folders and over 15 subfolders.
+  scene:
+    type: stat
+    value: Google Drive Setup
+    label: Intake Automation
+  highlight:
+  - Google Drive folders
+- say: Open A I analyzes responses to generate a detailed marketing research brief, then posts to Slack for team review.
+  caption: OpenAI analyzes responses to generate a detailed marketing research brief, then posts to Slack for team review.
+  scene:
+    type: flow
+    steps:
+    - title: Intake Trigger
+      note: Typeform form submit
+    - title: Folder Creation
+      note: Drive folders created
+    - title: AI Research Brief
+      note: Generated via OpenAI
+    - title: Approval & Email
+      note: Slack review and Gmail sent
+  highlight:
+  - marketing research brief
+- say: Once approved, it creates a finalized Google Doc and emails a personalized welcome message via Gmail.
+  caption: Once approved, it creates a finalized Google Doc and emails a personalized welcome message via Gmail.
+  scene:
+    type: list
+    title: Final Output
+    unit: steps
+    items:
+    - 2 items
+  highlight:
+  - Google Doc
+  - welcome message
+- say: Template link in the description.
+  caption: Template link in the description.
+  scene:
+    type: cta
+    line: Get the Free Template
+    subline: Link in description
+  highlight:
+  - Template link
+description:
+  task_line: Automate your client onboarding intake, folder creation, research brief, and welcome email using n8n.
+  tools: Built with Typeform, Google Drive, OpenAI, Slack, Google Docs, and Gmail.
+  sources:
+  - 'n8n template: https://n8n.io/workflows/8122'
+  template_link: https://n8n.io/workflows/8122
+seo:
+  seeds:
+  - n8n client onboarding workflow
+  - automate agency client onboarding
+  - typeform to google drive n8n
+  - n8n openai marketing brief
+series: Library Pick
+record_id: n8n:8122
+auto: true
+instagram_hashtags_rotating: []

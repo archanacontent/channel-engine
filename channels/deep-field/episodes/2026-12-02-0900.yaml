@@ -1,0 +1,71 @@
+skip: false
+skip_reason: ''
+title: 'What you''re looking at: Death Valley Mars analog testing'
+beats:
+- say: Sand dunes once confused the navigation of the Ingenuity Mars helicopter.
+  caption: Sand dunes once confused the navigation of the Ingenuity Mars helicopter.
+  highlight:
+  - Sand dunes
+  - confused the navigation
+  scene:
+    type: headline
+    text: Navigation challenges on Mars
+- say: During its final flights in January 2024, the rotorcraft struggled with featureless terrain.
+  caption: During its final flights in January 2024, the rotorcraft struggled with featureless terrain.
+  highlight:
+  - final flights
+  - featureless terrain
+  scene:
+    type: image
+    credit: NASA/JPL
+- say: Researchers are now testing new software in the Dumont Dunes of Death Valley.
+  caption: Researchers are now testing new software in the Dumont Dunes of Death Valley.
+  highlight:
+  - testing new software
+  - Dumont Dunes
+  scene:
+    type: compare
+    left_label: Mars
+    left_text: Bland, featureless terrain
+    right_label: Death Valley
+    right_text: Dumont Dunes
+- say: The software helps future drones track barren surfaces. Tests also include Mars Hill, a volcanic rock region used since the 1970s.
+  caption: The software helps future drones track barren surfaces. Tests also include Mars Hill, a volcanic rock region used since the 1970s.
+  highlight:
+  - track barren surfaces
+  - Mars Hill
+  scene:
+    type: list
+    title: Testing locations
+    items:
+    - Dumont Dunes
+    - Mars Hill
+    style: bullet
+- say: Image credit in the description.
+  caption: Image credit in the description.
+  highlight: []
+  scene:
+    type: cta
+    line: Follow Space Science
+    subline: Daily space discoveries
+description:
+  explainer: NASA researchers are testing Mars drone software in Death Valley. This testing helps future rotorcraft navigate featureless terrain like sand dunes.
+  sources:
+  - 'NASA Image and Video Library: https://images.nasa.gov/details/PIA26674'
+  credit: NASA
+seo:
+  seeds:
+  - NASA Mars drone testing
+  - Ingenuity helicopter navigation
+  - Death Valley Mars analog
+  - Mars Exploration Program
+  hashtags:
+  - '#Mars'
+  - '#NASA'
+series: Look Closer
+record_id: nasa:PIA26674
+auto: true
+instagram_hashtags_rotating: []
+media:
+  image: /home/runner/work/channel-engine/channel-engine/collected/deep-field/media/2026-12-02-0900.jpg
+  credit: NASA

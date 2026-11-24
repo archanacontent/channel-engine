@@ -1,0 +1,60 @@
+skip: false
+title: Fixing a real README in under a minute
+beats:
+- say: The K W 1 2 8 1 test R E A D M E repeats its Windows compatibility.
+  caption: The kw1281test README repeats its Windows compatibility.
+  scene:
+    type: headline
+    text: Redundant Windows compatibility
+  highlight: []
+- say: Redundant documentation forces your reader to scan unnecessary text.
+  caption: Redundant documentation forces your reader to scan unnecessary text.
+  scene:
+    type: list
+    title: Why this works
+    items:
+    - check-circle-outline
+  highlight: []
+- say: Look at this paragraph. It states the operating system requirements twice.
+  caption: Look at this paragraph. It states the operating system requirements twice.
+  scene:
+    type: compare
+    left_label: Original
+    left_text: The tool is written in C#, targets .NET 10.0 and .NET 11.0, and runs under Windows 10/11 (most serial ports), macOS and Linux (macOS/Linux need an FTDI serial port and D2xx drivers). It may also run under Windows 10/11.
+    right_label: Rewrite
+    right_text: The tool is written in C#, targets .NET 10.0 and .NET 11.0, and runs on Windows 10/11, macOS, and Linux.
+  highlight: []
+- say: I merged the requirements to eliminate the repetition and improve clarity.
+  caption: I merged the requirements to eliminate the repetition and improve clarity.
+  scene:
+    type: list
+    title: Edit logic
+    items:
+    - check-circle-outline
+  highlight: []
+- say: Cut redundant claims so readers find what they need fast.
+  caption: Cut redundant claims so readers find what they need fast.
+  scene:
+    type: quote
+    text: Cut redundant claims so readers find what they need fast.
+    value: Cut redundant claims
+  highlight: []
+description:
+  what_was_fixed: Removed a redundant sentence from the README that repeated Windows 10/11 compatibility information.
+  rule: Trust your reader to understand the system requirements the first time.
+  sources:
+  - 'gmenounos/kw1281test README (MIT): https://github.com/gmenounos/kw1281test'
+  source_link: https://github.com/gmenounos/kw1281test
+  license: MIT
+seo:
+  seeds:
+  - technical writing tips
+  - README best practices
+  - how to write documentation
+  - technical writing for developers
+  - kw1281test project documentation improvement
+skip_reason: ''
+series: Rewrite This
+record_id: repo:gmenounos/kw1281test
+auto: true
+instagram_hashtags_rotating: []

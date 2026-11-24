@@ -1,0 +1,66 @@
+skip: false
+skip_reason: ''
+title: How big is Jupiter, really?
+beats:
+- say: Jupiter is the largest planet in our solar system with a diameter of 142,984 kilometers.
+  caption: Jupiter is the largest planet in our solar system with a diameter of 142,984 kilometers.
+  highlight:
+  - largest planet
+  - 142,984 kilometers
+  scene:
+    type: headline
+    text: Jupiter is massive
+- say: Saturn is the second largest planet, measuring 120,536 kilometers across.
+  caption: Saturn is the second largest planet, measuring 120,536 kilometers across.
+  highlight:
+  - second largest
+  - 120,536 kilometers
+  scene:
+    type: image
+    credit: NASA
+- say: Jupiter is 1.19 times the size of Saturn.
+  caption: Jupiter is 1.19 times the size of Saturn.
+  highlight:
+  - 1.19 times the size
+  scene:
+    type: sizes
+    a_label: Jupiter
+    a_value: 142984.0
+    b_label: Saturn
+    b_value: 120536.0
+    unit: km
+- say: Jupiter orbits the Sun at 778.5 million kilometers while Saturn sits much further out at 1,432.0 million kilometers.
+  caption: Jupiter orbits the Sun at 778.5 million kilometers while Saturn sits much further out at 1,432.0 million kilometers.
+  highlight: []
+  scene:
+    type: card
+    title: Distance from Sun
+    rows:
+    - - Jupiter
+      - 778.5 million km
+    - - Saturn
+      - 1,432.0 million km
+- say: Figures from NASA's Planetary Fact Sheet.
+  caption: Figures from NASA's Planetary Fact Sheet.
+  highlight:
+  - NASA's Planetary Fact Sheet
+  scene:
+    type: cta
+    line: Follow Space Science
+    subline: Figures from NASA's Planetary Fact Sheet.
+description:
+  explainer: Jupiter is the largest planet in our solar system. This video compares its size and distance from the Sun to Saturn.
+  sources:
+  - 'NASA Planetary Fact Sheet: https://nssdc.gsfc.nasa.gov/planetary/factsheet/'
+seo:
+  seeds:
+  - size of Jupiter vs Saturn
+  - Jupiter diameter km
+  - Jupiter distance from sun
+  hashtags:
+  - '#Jupiter'
+  - '#Saturn'
+series: Scale It
+record_id: scale:JUPITER:SATURN
+auto: true
+instagram_hashtags_rotating: []

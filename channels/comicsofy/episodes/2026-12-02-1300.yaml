@@ -1,0 +1,96 @@
+format: strip
+kind: image
+tone: cozy
+title: Sunbeam Synergy
+premise: Dev squeezes into an absurdly cramped corner of the kitchen table just to share a single beam of morning sunlight with Fern the houseplant.
+panels:
+- room: kitchen
+  shot: wide
+  cast:
+  - who: Dev
+    mood: tired
+    pos: left
+    size: medium
+    holding: coffee
+  - who: Fern
+    mood: happy
+    pos: center
+    size: small
+  - who: Mira
+    mood: happy
+    pos: right
+    size: medium
+    holding: clipboard
+  lines:
+  - who: Mira
+    text: I mapped the apartment! Fern gets prime solar exposure until noon.
+  - who: Dev
+    text: I also require photosynthesis today.
+  props: []
+- room: kitchen
+  shot: medium
+  cast:
+  - who: Dev
+    mood: happy
+    pos: left
+    size: medium
+    holding: coffee
+  - who: Fern
+    mood: happy
+    pos: center
+    size: small
+  lines:
+  - who: Dev
+    text: Mind if I share your ray of sunshine, leafy buddy?
+  props: []
+- room: kitchen
+  shot: close
+  cast:
+  - who: Mira
+    mood: smug
+    pos: right
+    size: medium
+  - who: Dev
+    mood: happy
+    pos: left
+    size: medium
+    holding: coffee
+  lines:
+  - who: Mira
+    text: Dev, your spine is bent ninety degrees against the fridge.
+  - who: Dev
+    text: I am not blocking his light, Mira.
+  props: []
+- room: kitchen
+  shot: extreme_close
+  cast:
+  - who: Fern
+    mood: proud
+    pos: center
+    size: small
+  lines:
+  - who: Fern
+    text: Best stem in the apartment.
+    style: thought
+  fx:
+  - sparkles
+  props: []
+caption: 'Sharing the morning sun beam is non-negotiable.
+
+  .
+
+  .
+
+  .
+
+  #comics #cartoon #digitalart #webcomic #comicbooks
+
+  comic | drawing | art | illustration | artist | sketch
+
+  #cartoonist #comicart #comicbook #funnycomics #draw #artwork #officehumor #comicstrip #funny #relatable #artistsoninstagram #comicsofy #doodle #webtoon #viral #viralcomics #explorepage #cozyvibes #plantparent #wholesomememes #morningroutine'
+description:
+  summary: Sharing the morning sun beam is non-negotiable.
+series: Pim and Soot Comic
+record_id: strip:image:1795548615458464803:0
+auto: true
+instagram_hashtags_rotating: []

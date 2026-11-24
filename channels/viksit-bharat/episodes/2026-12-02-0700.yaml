@@ -1,0 +1,72 @@
+skip: false
+title: India's small businesses are stagnant. The record says otherwise.
+beats:
+- say: India's small businesses are stagnant.
+  caption: 'Myth: India''s small businesses are stagnant.'
+  scene:
+    type: headline
+    kicker: Myth
+    text: India's small businesses are stagnant
+  highlight:
+  - small businesses are stagnant
+- say: The National Statistics Office reports the unincorporated non-farm economy expanded at its fastest quarterly pace on record between July and September.
+  caption: The National Statistics Office reports the unincorporated non-farm economy expanded at its fastest quarterly pace on record between July and September.
+  scene:
+    type: headline
+    value: Fastest ever pace
+    kicker: ''
+    text: Fastest ever pace
+  highlight:
+  - fastest quarterly pace on record
+- say: Establishments hit 9.47 crore, a growth of 18.81 percent. Total employment reached 15.03 crore, climbing 16.86 percent.
+  caption: Establishments hit 9.47 crore, a growth of 18.81 percent. Total employment reached 15.03 crore, climbing 16.86 percent.
+  scene:
+    type: stat
+    unit: crore
+    value: '15.03'
+    label: Quarterly Growth
+  highlight:
+  - 18.81 percent
+  - 16.86 percent
+- say: Self-employment drives this expansion. Working owners now account for 61.99 percent of the workforce, up from 59.98 percent a year ago.
+  caption: Self-employment drives this expansion. Working owners now account for 61.99 percent of the workforce, up from 59.98 percent a year ago.
+  scene:
+    type: list
+    title: Workforce Composition
+    items:
+    - 61.99 percent
+  highlight:
+  - 61.99 percent
+- say: Is this shift toward owner-operated enterprises the new engine of India's growth? Follow for tomorrow's figure.
+  caption: Is this shift toward owner-operated enterprises the new engine of India's growth? Follow for tomorrow's figure.
+  scene:
+    type: cta
+    line: Is this shift toward owner-operated enterprises the new engine of India's growth?
+    subline: Follow for tomorrow's figure.
+  highlight: []
+description:
+  summary: India’s unincorporated businesses recorded their fastest quarterly growth in the July-September period.
+  details: The National Statistics Office reports that the number of unincorporated establishments rose by 18.81 per cent to 9.47 crore. Total employment in the sector increased by 16.86 per cent to 15.03 crore. The expansion is primarily driven by self-employment, with working owners now making up nearly 62 per cent of the total workforce.
+  key_figures: 'Establishments: 9.47 crore. Employment: 15.03 crore. Working owners share: 61.99 per cent.'
+  sources:
+  - 'BusinessLine, 24 Nov 2026: https://www.thehindubusinessline.com/economy/indias-unincorporated-businesses-grow-at-record-pace-but-hired-jobs-rise-just-5/article71738577.ece'
+  released: 24 Nov 2026
+  source_link: https://www.thehindubusinessline.com/economy/indias-unincorporated-businesses-grow-at-record-pace-but-hired-jobs-rise-just-5/article71738577.ece
+seo:
+  seeds:
+  - India unincorporated sector growth
+  - NSO quarterly survey report
+  - small business employment India
+  - unincorporated non-farm economy
+series: Myth vs Record
+record_id: vbnews:https://www.thehindubusinessline.com/economy/indias-unincorporated-businesses-grow-at-record-pace-but-hired-jobs-rise-just-5/article71738577.ece
+auto: true
+instagram_hashtags_rotating: []
+released: 24 Nov 2026
+posted: '2026-11-24'
+sector: Newest Release
+source_label: BusinessLine, 24 Nov 2026
+look:
+  palette: saffron_on_blue
+  motion: sweep
+  hook: challenge

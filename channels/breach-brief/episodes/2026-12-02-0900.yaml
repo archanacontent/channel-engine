@@ -1,0 +1,79 @@
+skip: false
+skip_reason: ''
+title: 'Exploited now: Optimizely CVE-2026-132224'
+beats:
+- say: Attackers are using a flaw in Optimizely Web Experimentation to impersonate existing customers.
+  caption: Attackers are using a flaw in Optimizely Web Experimentation to impersonate existing customers.
+  highlight:
+  - impersonate existing customers
+  scene:
+    type: headline
+    text: Customer Impersonation Vulnerability
+- say: The flaw in the account signup flow lets attackers modify Project JavaScript. This allows them to distribute malicious code through Optimizely hosted assets to any browser visiting an affected website.
+  caption: The flaw in the account signup flow lets attackers modify Project JavaScript. This allows them to distribute malicious code through Optimizely hosted assets to any browser visiting an affected website.
+  highlight:
+  - modify Project JavaScript
+  - distribute malicious code
+  scene:
+    type: compare
+    left_label: Vulnerability
+    left_text: External control of critical state data
+    right_label: Impact
+    right_text: Attacker-controlled JavaScript execution
+- say: C V E 2 0 2 6 1 3 2 2 2 4 was added to the catalog on November 24, 2026.
+  caption: CVE-2026-132224 was added to the catalog on November 24, 2026.
+  highlight:
+  - CVE-2026-132224
+  scene:
+    type: card
+    title: Vulnerability Details
+    rows:
+    - - CVE ID
+      - CVE-2026-132224
+    - - Product
+      - Optimizely Web Experimentation
+    - - Added Date
+      - '2026-11-24'
+    - - Due Date
+      - '2026-11-27'
+- say: To protect your organization, apply vendor mitigations immediately. If mitigations are unavailable for cloud services, you must discontinue use of the product.
+  caption: To protect your organization, apply vendor mitigations immediately. If mitigations are unavailable for cloud services, you must discontinue use of the product.
+  highlight:
+  - apply vendor mitigations
+  - discontinue use
+  scene:
+    type: list
+    title: Required Actions
+    items:
+    - Apply vendor mitigations
+    - Follow BOD 26-04 guidance
+    - Evaluate internet exposure
+    - Discontinue if unmitigated
+    style: check
+- say: Sources are in the description.
+  caption: Sources are in the description.
+  highlight: []
+  scene:
+    type: cta
+    line: Stay protected
+    subline: Sources are in the description.
+description:
+  summary: Attackers are exploiting a vulnerability in Optimizely Web Experimentation to execute malicious JavaScript.
+  affected: Optimizely Web Experimentation versions prior to November 17, 2026.
+  action: Apply vendor mitigations or discontinue product use if mitigations are unavailable.
+  sources:
+  - 'CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog'
+  - 'NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-132224'
+seo:
+  seeds:
+  - Optimizely Web Experimentation vulnerability
+  - CVE-2026-132224 exploit
+  - CISA KEV Optimizely
+  - protect against JavaScript injection
+  hashtags:
+  - '#Cybersecurity'
+  - '#Optimizely'
+series: Exploited Today
+record_id: kev:CVE-2026-132224
+auto: true
+instagram_hashtags_rotating: []

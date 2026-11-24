@@ -1,0 +1,71 @@
+skip: false
+title: 'Stop doing this by hand: UTM marketing attribution reports'
+beats:
+- say: Manual marketing attribution report pulls swallow hours every single week.
+  caption: Manual marketing attribution report pulls swallow hours every single week.
+  scene:
+    type: headline
+    text: Stop processing attribution reports by hand
+  highlight:
+  - attribution report pulls
+- say: Stop crunching lead data in spreadsheets when a background process can run it.
+  caption: Stop crunching lead data in spreadsheets when a background process can run it.
+  scene:
+    type: compare
+    left_label: Manual Task
+    left_text: Weekly manual data crunching
+    right_label: Automated
+    right_text: Background hourly processing
+  highlight:
+  - background process
+- say: An n eight n workflow triggers hourly, pulling incoming leads directly from Google Sheets.
+  caption: An n8n workflow triggers hourly, pulling incoming leads directly from Google Sheets.
+  scene:
+    type: flow
+    steps:
+    - title: Schedule Trigger
+      note: Runs hourly
+    - title: Google Sheets
+      note: Fetch lead data
+    - title: Code Node
+      note: Aggregate by UTM
+    - title: Gmail
+      note: Send report
+  highlight:
+  - triggers hourly
+- say: It aggregates leads by source, calculates cost per lead, and generates an HTML report with GPT four o.
+  caption: It aggregates leads by source, calculates cost per lead, and generates an HTML report with GPT-4o.
+  scene:
+    type: list
+    style: check
+    title: Automated Outputs
+    items:
+    - Metrics & AI insights Developed by template creator
+  highlight:
+  - cost per lead
+  - GPT-4o
+- say: The final executive summary emails straight to stakeholders through Gmail. The free template is linked in the description.
+  caption: The final executive summary emails straight to stakeholders through Gmail. The free template is linked in the description.
+  scene:
+    type: cta
+    line: Get the Free n8n Template
+    subline: Link in description
+  highlight:
+  - emails straight to stakeholders
+  - linked in the description
+description:
+  task_line: Automate UTM attribution tracking, channel lead aggregation, and weekly executive report emails using n8n.
+  tools: This workflow uses n8n schedule triggers, Google Sheets, Azure OpenAI GPT-4o, Code nodes, and Gmail.
+  sources:
+  - 'n8n template: https://n8n.io/workflows/8513'
+  template_link: https://n8n.io/workflows/8513
+seo:
+  seeds:
+  - n8n UTM attribution report
+  - automated CPL reporting n8n
+  - n8n google sheets gpt-4o attribution
+  - n8n marketing automation report template
+series: Stop Doing This
+record_id: n8n:8513
+auto: true
+instagram_hashtags_rotating: []
