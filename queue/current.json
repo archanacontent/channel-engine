@@ -10886,11 +10886,13 @@
    "kind": "image"
   },
   "srt": "",
-  "status": "ready",
+  "status": "published",
   "file": "2026-11-24-1300.jpg",
   "platform": "instagram",
   "auto_approve": true,
-  "release": "shorts-43821273938"
+  "release": "shorts-43821273938",
+  "ig_media_id": "17962277772014952",
+  "published_at": "2026-11-24T18:02:27.719788+00:00"
  },
  {
   "slug": "comicsofy",
