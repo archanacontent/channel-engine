@@ -10911,11 +10911,13 @@
    "duration_s": 22.55
   },
   "srt": "",
-  "status": "ready",
+  "status": "published",
   "file": "2026-11-24-1800.mp4",
   "platform": "instagram",
   "auto_approve": true,
-  "release": "shorts-43821273938"
+  "release": "shorts-43821273938",
+  "ig_media_id": "17880883881651291",
+  "published_at": "2026-11-24T23:02:31.173976+00:00"
  },
  {
   "slug": "asked-and-answered",
