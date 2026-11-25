@@ -13077,12 +13077,14 @@
    "duration_s": 17.97
   },
   "srt": "",
-  "status": "ready",
+  "status": "published",
   "file": "2026-11-25-1800.mp4",
   "platform": "instagram",
   "auto_approve": true,
   "posted": null,
-  "release": "shorts-44356442236"
+  "release": "shorts-44356442236",
+  "ig_media_id": "18146696991093191",
+  "published_at": "2026-11-25T23:01:55.884508+00:00"
  },
  {
   "slug": "comicsofy",
