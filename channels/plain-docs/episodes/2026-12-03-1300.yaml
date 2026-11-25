@@ -1,0 +1,67 @@
+skip: false
+skip_reason: ''
+title: 'Writing rule: Avoid images of text and code'
+beats:
+- say: Images of code or terminal output make documentation harder to read.
+  caption: Images of code or terminal output make documentation harder to read.
+  highlight:
+  - harder to read
+  scene:
+    type: headline
+    text: Stop using images for code
+- say: A screenshot of a terminal window forces users to manually type every character. This causes errors and slows down onboarding.
+  caption: A screenshot of a terminal window forces users to manually type every character. This causes errors and slows down onboarding.
+  highlight:
+  - forces users to manually type
+  - slows down onboarding
+  scene:
+    type: compare
+    left_label: Weak
+    left_text: '[Image of terminal command]'
+    right_label: Better
+    right_text: Use actual text code blocks
+- say: Google developer documentation recommends using actual text instead of images for code samples or terminal output. This ensures clarity and accessibility.
+  caption: Google developer documentation recommends using actual text instead of images for code samples or terminal output. This ensures clarity and accessibility.
+  highlight:
+  - instead of images
+  scene:
+    type: image
+    credit: Google developer documentation
+- say: Use images only for visual U.I. elements or diagrams that are difficult to express with words. For diagrams, use S.V.G. files when possible.
+  caption: Use images only for visual UI elements or diagrams that are difficult to express with words. For diagrams, use SVG files when possible.
+  highlight:
+  - only for visual UI elements
+  scene:
+    type: list
+    title: When to use images
+    items:
+    - Visual UI elements
+    - Complex diagrams
+    - Difficult visual concepts
+    style: bullet
+- say: Don't use images of text, code samples, or terminal output. Use actual text.
+  caption: Don't use images of text, code samples, or terminal output. Use actual text.
+  highlight:
+  - Use actual text
+  scene:
+    type: quote
+    text: Don't use images of text, code samples, or terminal output. Use actual text.
+    highlight:
+    - Use actual text
+description:
+  what_was_fixed: We replaced screenshots of terminal output with actual text code blocks to prevent typing errors.
+  rule: Avoid using images for code, text, or terminal output; always use actual text instead.
+  sources:
+  - 'Google developer documentation: https://developers.google.com/style/images'
+seo:
+  seeds:
+  - technical writing best practices
+  - how to write documentation
+  - Google developer documentation style guide
+  hashtags:
+  - '#TechnicalWriting'
+  - '#Documentation'
+series: One Rule
+record_id: style:https://developers.google.com/style/images
+auto: true
+instagram_hashtags_rotating: []

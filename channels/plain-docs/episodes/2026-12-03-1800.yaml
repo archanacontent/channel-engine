@@ -1,0 +1,56 @@
+skip: false
+title: Fixing a real README in under a minute
+beats:
+- say: Vague installation sentences hide instructions. Let us rewrite this section from the homeassistant WebUntis README.
+  caption: Vague installation sentences hide instructions. Let us rewrite this section from the homeassistant WebUntis README.
+  scene:
+    type: headline
+    text: Fixing WebUntis README installation prose
+  highlight:
+  - homeassistant WebUntis README
+- say: 'Original text: You can install WebUntis via the HA Marketplace or manually. For detailed instructions, see the dedicated setup guide:'
+  caption: 'Original text: You can install WebUntis via the HA Marketplace or manually. For detailed instructions, see the dedicated setup guide:'
+  scene:
+    type: compare
+    left_label: Original
+    left_text: 'You can install WebUntis via the HA Marketplace or manually. For detailed instructions, see the dedicated setup guide:'
+    right_label: New
+    right_text: Install via the Home Assistant Marketplace or follow the manual setup guide.
+  highlight:
+  - install WebUntis via the HA Marketplace
+- say: We removed filler words like you can and combined two weak sentences into one direct command.
+  caption: We removed filler words like you can and combined two weak sentences into one direct command.
+  scene:
+    type: list
+    items:
+    - Remove filler words
+    - Combine sentences
+    - Use direct commands
+    style: check
+    title: Edit Strategy
+  highlight: []
+- say: Make your documentation actionable from the first word.
+  caption: Make your documentation actionable from the first word.
+  scene:
+    type: quote
+    text: Make your documentation actionable from the first word.
+    title: Rule
+  highlight:
+  - actionable from the first word
+description:
+  what_was_fixed: Rewrote the vague installation section of the homeassistant WebUntis README into a direct command.
+  rule: Make your documentation actionable from the first word.
+  sources:
+  - 'JonasJoKuJonas/homeassistant-WebUntis README (MIT): https://github.com/JonasJoKuJonas/homeassistant-WebUntis'
+  source_link: https://github.com/JonasJoKuJonas/homeassistant-WebUntis
+  license: MIT
+seo:
+  seeds:
+  - technical writing tutorial
+  - readme documentation guide
+  - how to write a readme
+  - homeassistant docs rewrite PARTS OF README FIXED IN UNDER A MINUTE FOR DEVELOPERS DOCUMENTATION BEST PRACTICES EDITING EDITORIAL REVIEWS OPEN SOURCE README PROJECTS WRITING GUIDES TECHNICAL WRITING SKILLS TUTORIALS TECHNICAL WRITING FOR BEGINNERS CHANNEL SCRIPT WRITING PROCESS FOR TECH WRITERS WITH ARCHANA PANDA IN MIND
+series: Rewrite This
+record_id: repo:JonasJoKuJonas/homeassistant-WebUntis
+auto: true
+instagram_hashtags_rotating: []

@@ -1,0 +1,90 @@
+format: strip
+kind: reel
+tone: dark
+title: The Golden Years Exit Clause
+premise: Nana June cheerfully haggles with Mort over her scheduled departure date to avoid paying next month's cable bill.
+panels:
+- room: doctor_office
+  shot: wide
+  cast:
+  - who: Nana June
+    mood: happy
+    pos: left
+    size: medium
+    holding: clipboard
+  - who: Mort
+    mood: tired
+    pos: right
+    size: medium
+    holding: envelope
+  lines:
+  - who: Mort
+    text: Your window opens next Tuesday, June.
+  - who: Nana June
+    text: Can we push to Monday? Cable bill hits Tuesday.
+  focus: Nana June negotiating her departure date.
+  props: []
+- room: doctor_office
+  shot: medium
+  cast:
+  - who: Mort
+    mood: deadpan
+    pos: right
+    size: medium
+    holding: clipboard
+  - who: Nana June
+    mood: smug
+    pos: left
+    size: medium
+  lines:
+  - who: Mort
+    text: Monday is fully booked for corporate burnouts.
+  - who: Nana June
+    text: I will throw in my pie recipe.
+  focus: Mort checking his clipboard schedule while Nana June bribes him.
+  props: []
+- room: doctor_office
+  shot: close
+  cast:
+  - who: Mort
+    mood: shocked
+    pos: center
+    size: large
+  lines:
+  - who: Mort
+    text: The peach cobbler one?
+  fx:
+  - speed_lines
+  sfx: GASPK
+  props: []
+- room: doctor_office
+  shot: extreme_close
+  cast:
+  - who: Nana June
+    mood: happy
+    pos: center
+    size: large
+  lines:
+  - who: Nana June
+    text: Monday at dawn. I am not paying for Comcast.
+  focus: Nana June's serene, chilling satisfaction.
+  props: []
+caption: 'When the cable contract is harder to cancel than your mortal coil.
+
+  .
+
+  .
+
+  .
+
+  #comics #cartoon #digitalart #webcomic #comicbooks
+
+  comic | drawing | art | illustration | artist | sketch
+
+  #cartoonist #comicart #comicbook #funnycomics #draw #artwork #officehumor #comicstrip #funny #relatable #artistsoninstagram #comicsofy #doodle #webtoon #viral #viralcomics #explorepage #darkhumor #webcomics #adulting'
+description:
+  summary: When the cable contract is harder to cancel than your mortal coil.
+series: Pim and Soot Reel
+record_id: strip:reel:1795632167770274821:0
+auto: true
+instagram_hashtags_rotating: []

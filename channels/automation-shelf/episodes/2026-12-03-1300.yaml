@@ -1,0 +1,74 @@
+skip: false
+title: 'Free workflow: Email management on autopilot'
+beats:
+- say: You can auto delete marketing emails and send AI replies to genuine messages automatically.
+  caption: You can auto-delete marketing emails and send AI replies to genuine messages automatically.
+  scene:
+    type: headline
+    kicker: Email Automation
+    text: Auto-delete marketing emails and generate AI replies with Gemini
+  highlight:
+  - auto-delete marketing emails
+  - AI replies
+- say: An IMAP trigger detects new incoming emails to start the execution.
+  caption: An IMAP trigger detects new incoming emails to start the execution.
+  scene:
+    type: stat
+    unit: node
+    value: IMAP Email Read
+    label: Trigger Setup
+  highlight:
+  - IMAP trigger
+  - incoming emails
+- say: Google Gemini classifies the email as marketing or non marketing, then generates a customized response.
+  caption: Google Gemini classifies the email as marketing or non-marketing, then generates a customized response.
+  scene:
+    type: flow
+    steps:
+    - title: Detect Email
+      note: IMAP trigger
+    - title: Classify
+      note: Google Gemini AI
+    - title: Route Action
+      note: Switch node
+    - title: Execute & Log
+      note: Gmail and Sheets
+  highlight:
+  - Google Gemini classifies
+  - customized response
+- say: A switch node routes marketing emails for instant deletion, while non marketing emails receive the drafted reply.
+  caption: A switch node routes marketing emails for instant deletion, while non-marketing emails receive the drafted reply.
+  scene:
+    type: compare
+    left_label: Marketing Email
+    left_text: Deleted instantly and logged in Google Sheets
+    right_label: Non-Marketing
+    right_text: Receives custom polite AI reply
+  highlight:
+  - switch node routes
+  - instant deletion
+- say: Every deleted email and sent reply is recorded in Google Sheets for auditing. Template link in the description.
+  caption: Every deleted email and sent reply is recorded in Google Sheets for auditing. Template link in the description.
+  scene:
+    type: cta
+    line: Get the n8n template
+    subline: Template link in the description
+  highlight:
+  - recorded in Google Sheets
+  - Template link in the description
+description:
+  task_line: Automatically delete incoming marketing emails and respond to genuine messages with Google Gemini AI.
+  tools: n8n, Gmail API, Google Sheets API, IMAP, Google Gemini PaLM API
+  sources:
+  - 'n8n template: https://n8n.io/workflows/7551'
+  template_link: https://n8n.io/workflows/7551
+seo:
+  seeds:
+  - n8n email management workflow
+  - n8n google gemini email automation
+  - auto delete marketing emails n8n
+  - ai email reply automation n8n
+series: Library Pick
+record_id: n8n:7551
+auto: true
+instagram_hashtags_rotating: []

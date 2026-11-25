@@ -1,0 +1,77 @@
+skip: false
+skip_reason: ''
+title: 'Exploited now: Juniper Session Smart Conductor CVE-2026-103406'
+beats:
+- say: Attackers are using a critical flaw to execute commands as root on Juniper devices.
+  caption: Attackers are using a critical flaw to execute commands as root on Juniper devices.
+  highlight:
+  - execute commands as root
+  scene:
+    type: headline
+    text: Critical Command Injection Vulnerability
+- say: The flaw in the Automated Provisioner allows remote access via a crafted salt minion I D.
+  caption: The flaw in the Automated Provisioner allows remote access via a crafted salt minion ID.
+  highlight:
+  - remote access
+  - crafted salt minion ID
+  scene:
+    type: card
+    title: Vulnerability Details
+    rows:
+    - - CVE ID
+      - CVE-2026-103406
+    - - Product
+      - Juniper Session Smart
+    - - Added
+      - '2026-11-25'
+    - - Due Date
+      - '2026-11-28'
+- say: This vulnerability has a C V S S base score of nine point eight.
+  caption: This vulnerability has a CVSS base score of 9.8.
+  highlight:
+  - CVSS base score of 9.8
+  scene:
+    type: stat
+    value: '9.8'
+    label: CVSS Base Score
+- say: Apply mitigations from the vendor immediately. If mitigations are unavailable, discontinue use of the product.
+  caption: Apply mitigations from the vendor immediately. If mitigations are unavailable, discontinue use of the product.
+  highlight:
+  - Apply mitigations
+  - discontinue use
+  scene:
+    type: list
+    title: Required Actions
+    items:
+    - Apply vendor mitigations
+    - Follow BOD 26-04
+    - Discontinue use if needed
+    style: check
+- say: Sources are in the description.
+  caption: Sources are in the description.
+  highlight:
+  - Sources are in the description
+  scene:
+    type: cta
+    line: Stay Secure
+    subline: Sources are in the description.
+description:
+  summary: Attackers are exploiting a critical OS command injection vulnerability in Juniper Session Smart Conductor and Session Smart Router.
+  affected: Juniper Session Smart Conductor and Session Smart Router.
+  action: Apply vendor mitigations or discontinue product use if mitigations are unavailable.
+  sources:
+  - 'CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog'
+  - 'NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-103406'
+seo:
+  seeds:
+  - CVE-2026-103406 exploit
+  - Juniper Session Smart vulnerability
+  - CISA KEV updates
+  - OS command injection fix
+  hashtags:
+  - '#Cybersecurity'
+  - '#JuniperNetworks'
+series: Exploited Today
+record_id: kev:CVE-2026-103406
+auto: true
+instagram_hashtags_rotating: []

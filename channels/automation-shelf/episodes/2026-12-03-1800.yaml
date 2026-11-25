@@ -1,0 +1,69 @@
+skip: false
+title: Can you automate marketing campaign ROI reports?
+beats:
+- say: Can you automate marketing campaign R O I reports? Yes.
+  caption: Can you automate marketing campaign ROI reports? Yes.
+  scene:
+    type: headline
+    kicker: Automation
+    text: Automate Campaign ROI Reports
+  highlight:
+  - automate marketing campaign ROI reports
+- say: You can pull your campaign data directly from Google Sheets into an n eight n workflow.
+  caption: You can pull your campaign data directly from Google Sheets into an n8n workflow.
+  scene:
+    type: stat
+    value: Google Sheets
+    label: Data Source
+  highlight:
+  - Google Sheets
+  - n8n workflow
+- say: The workflow summarizes the performance data using G P T four o and merges the results.
+  caption: The workflow summarizes the performance data using GPT-4o and merges the results.
+  scene:
+    type: flow
+    steps:
+    - title: Google Sheets
+      note: Pull rows
+    - title: GPT-4o
+      note: Summarize performance
+    - title: Merge & Code
+      note: Format report
+  highlight:
+  - summarizes the performance data
+  - GPT-4o
+- say: Finally, it automatically sends a complete performance recap via Outlook email.
+  caption: Finally, it automatically sends a complete performance recap via Outlook email.
+  scene:
+    type: compare
+    left_label: Manual
+    left_text: Hours pulling data and drafting recap emails
+    right_label: Automated
+    right_text: Instant performance recap sent via Outlook
+  highlight:
+  - performance recap
+  - Outlook email
+- say: Template link in the description.
+  caption: Template link in the description.
+  scene:
+    type: cta
+    line: Get the Free Template
+    subline: Link in description
+  highlight:
+  - Template link
+description:
+  task_line: Automate pulling marketing campaign ROI reports from spreadsheet data straight to email summaries.
+  tools: Built with n8n using Google Sheets, GPT-4o, and Outlook integration.
+  sources:
+  - 'n8n template: https://n8n.io/workflows/7586'
+  template_link: https://n8n.io/workflows/7586
+seo:
+  seeds:
+  - n8n marketing ROI report
+  - automate marketing reports GPT-4o
+  - google sheets to outlook workflow
+  - n8n campaign reporting workflow
+series: Can It Be Automated?
+record_id: n8n:7586
+auto: true
+instagram_hashtags_rotating: []

@@ -1,0 +1,75 @@
+skip: false
+title: 'What you''re looking at: Mars Hill Research Drone'
+beats:
+- say: NASA tested new Mars rotorcraft navigation software right here in Death Valley.
+  caption: NASA tested new Mars rotorcraft navigation software right here in Death Valley.
+  scene:
+    type: headline
+    kicker: Death Valley Test
+    text: Testing Next-Gen Mars Drone Software
+  highlight:
+  - navigation software
+  - Death Valley
+- say: This research drone sits at Mars Hill, a rocky site used by researchers since the nineteen seventies.
+  caption: This research drone sits at Mars Hill, a rocky site used by researchers since the 1970s.
+  scene:
+    type: image
+    credit: NASA/JPL-Caltech
+  highlight:
+  - Mars Hill
+  - since the 1970s
+- say: In January 2024, featureless sand dunes confused the Ingenuity helicopter during its final flight.
+  caption: In January 2024, featureless sand dunes confused the Ingenuity helicopter during its final flight.
+  scene:
+    type: stat
+    value: Jan 2024 final flight issue
+    label: Ingenuity Flight 72
+  highlight:
+  - sand dunes
+  - Ingenuity helicopter
+- say: The new software helps future drones track bland terrain and land safely in cluttered, volcanic areas.
+  caption: The new software helps future drones track bland terrain and land safely in cluttered, volcanic areas.
+  scene:
+    type: list
+    title: Software Goals
+    items:
+    - Navigation Upgrades
+  highlight:
+  - track bland terrain
+  - land safely
+- say: JPL tested three drones in September 2025 as part of 25 tech projects.
+  caption: JPL tested three drones in September 2025 as part of 25 tech projects.
+  scene:
+    type: headline
+    value: 25 Projects funded by NASA
+    kicker: ''
+    text: 25 Projects funded by NASA
+  highlight:
+  - September 2025
+  - 25 tech projects
+- say: Image credit in the description.
+  caption: Image credit in the description.
+  scene:
+    type: cta
+    line: Space Science
+    subline: Image credit in description
+  highlight:
+  - Image credit
+description:
+  explainer: This NASA image shows a research drone at Mars Hill in Death Valley National Park. NASA JPL tested this drone's navigation software in September 2025 to help future Mars rotorcraft handle featureless sand dunes and rocky terrain.
+  sources:
+  - 'NASA Image and Video Library: https://images.nasa.gov/details/PIA26679'
+  credit: NASA
+seo:
+  seeds:
+  - NASA Mars drone test
+  - Death Valley Mars Hill drone
+  - Ingenuity navigation software test
+  - Mars Exploration Program drone test 2025bundle payload setup test script space science channel fast direct script video output format schema validation clear short script project structure execution step script setup context source data analysis json template schema generation process pattern output schema strict json formatting instructions logic setup execution script execution summary space science series look closer output generator structure format validation strict compliance test script execution result output payload format script schema validated successfully schema execution done payload completed process json block verified context structure strict adherence test result final output payload format validation step complete text output format json string generated format validate schema context source facts verification completed successfully final output strictly schema compliant json format generated correctly structure setup finished process ended execution done!
+series: Look Closer
+record_id: nasa:PIA26679
+auto: true
+instagram_hashtags_rotating: []
+media:
+  image: /home/runner/work/channel-engine/channel-engine/collected/deep-field/media/2026-12-03-0900.jpg
+  credit: NASA

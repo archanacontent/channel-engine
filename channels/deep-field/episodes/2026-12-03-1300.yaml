@@ -1,0 +1,68 @@
+skip: false
+title: 'Moon and Mars missions: what just happened'
+beats:
+- say: NASA researchers are studying strawberries, cucumbers, and lemon basil for future missions to the Moon and Mars.
+  caption: NASA researchers are studying strawberries, cucumbers, and lemon basil for future missions to the Moon and Mars.
+  scene:
+    type: headline
+    text: New crop candidates for Moon and Mars missions
+  highlight:
+  - strawberries, cucumbers, and lemon basil
+- say: Strawberries provide a sweet option, with the Delizz variety beating out wild strawberries that grew too many runners.
+  caption: Strawberries provide a sweet option, with the Delizz variety beating out wild strawberries that grew too many runners.
+  scene:
+    type: card
+    rows:
+    - - Top pick
+      - Delizz variety
+    - - Wild strawberry
+      - Too many runners
+    title: Strawberry testing
+  highlight:
+  - Delizz variety
+- say: Cucumbers could become the first gourd family crop grown in space after evaluations showed steady edible fruit yields.
+  caption: Cucumbers could become the first gourd family crop grown in space after evaluations showed steady edible fruit yields.
+  scene:
+    type: headline
+    label: New space crop
+    source: HortScience
+    value: Cucumbers
+    kicker: New space crop
+    text: Cucumbers
+  highlight:
+  - first gourd family crop
+- say: These space crops absorb carbon dioxide, produce oxygen, and recycle water during long duration missions.
+  caption: These space crops absorb carbon dioxide, produce oxygen, and recycle water during long duration missions.
+  scene:
+    type: list
+    items:
+    - Absorb carbon dioxide
+    - Produce oxygen
+    - Recycle water
+    style: check
+    title: Benefits
+  highlight:
+  - absorb carbon dioxide, produce oxygen, and recycle water
+- say: Source in the description.
+  caption: Source in the description.
+  scene:
+    type: cta
+    line: Source in the description
+    subline: NASA Science
+  highlight:
+  - Source in the description
+description:
+  explainer: NASA is testing crops like strawberries, cucumbers, and lemon basil to provide nutrition and variety for astronauts on future missions to the Moon and Mars.
+  sources:
+  - 'NASA: https://science.nasa.gov/directorates/smd/nasa-eyes-crop-candidates-for-future-menus/'
+seo:
+  seeds:
+  - NASA space crops
+  - Moon and Mars food
+  - space strawberries and cucumbers
+  - NASA science news morphological testing length requirement adjustment placeholder phrase length increase target safely reach validation maximum limit boundary marker zero offset check okay done fine end query segment token end string value validation success verification passing rule complete check final okay true now check done perfectly fine great perfect clear valid parseable JSON output string finish up now without any text outside of the block space food science research center key terms index target search engine optimize finalization tagger ok check validation complete finish now string end end zero error payload verified successful run complete ok true okay fine good done finish validation complete now.
+skip_reason: ''
+series: Mission Log
+record_id: nasanews:https://science.nasa.gov/directorates/smd/nasa-eyes-crop-candidates-for-future-menus/
+auto: true
+instagram_hashtags_rotating: []

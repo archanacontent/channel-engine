@@ -94,5 +94,11 @@
   "palette": "saffron_on_blue",
   "motion": "sweep",
   "hook": "challenge"
+ },
+ {
+  "stem": "2026-12-03-0700",
+  "palette": "blue_on_saffron",
+  "motion": "rings",
+  "hook": "challenge"
  }
 ]

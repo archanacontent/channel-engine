@@ -1,0 +1,92 @@
+skip: false
+skip_reason: ''
+title: India's economic growth is slowing down. The record says otherwise.
+beats:
+- say: Myth. India's economic activity is slowing down.
+  caption: Myth. India's economic activity is slowing down.
+  highlight:
+  - Myth
+  - economic activity is slowing down
+  scene:
+    type: headline
+    kicker: Myth
+    text: India's economic activity is slowing down
+- say: The Reserve Bank of India November bulletin shows the economy remained resilient in October.
+  caption: The Reserve Bank of India November bulletin shows the economy remained resilient in October.
+  highlight:
+  - remained resilient
+  - October
+  scene:
+    type: headline
+    value: Resilient
+    label: Economic Activity
+    source: RBI November Bulletin
+    kicker: Economic Activity
+    text: Resilient
+- say: Gross goods and services tax revenue in October was the second highest monthly collection since July 2017.
+  caption: Gross goods and services tax revenue in October was the second highest monthly collection since July 2017.
+  highlight:
+  - second highest monthly collection
+  - since July 2017
+  scene:
+    type: card
+    title: GST Revenue Performance
+    rows:
+    - - October Status
+      - Second highest monthly collection
+    - - Since Introduction
+      - July 2017
+- say: Strong indicators like toll collections, electricity demand, and petroleum product consumption recorded growth.
+  caption: Strong indicators like toll collections, electricity demand, and petroleum product consumption recorded growth.
+  highlight: []
+  scene:
+    type: list
+    title: Growth Indicators
+    items:
+    - Toll collections
+    - Electricity demand
+    - Petroleum consumption
+    style: check
+- say: How does India's resilience compare to global uncertainty? Follow for tomorrow's figure.
+  caption: How does India's resilience compare to global uncertainty? Follow for tomorrow's figure.
+  highlight:
+  - resilience
+  - global uncertainty
+  scene:
+    type: cta
+    line: How does India's resilience compare to global uncertainty?
+    subline: Follow for tomorrow's figure.
+description:
+  summary: India's economic activity remained resilient in October, supported by strong consumption and exports.
+  details: The Reserve Bank of India's November bulletin reports that high-frequency indicators point to healthy economic activity. October saw the second-highest monthly GST revenue since the tax was introduced in 2017. This resilience persists despite global geopolitical tensions and energy price volatility.
+  key_figures:
+  - 'GST Revenue: Second highest since July 2017'
+  - 'Economic Activity: Resilient in October'
+  - 'Banking Liquidity (24 Nov): Deficit of ₹ 12,825 crore'
+  sources:
+  - 'Mint, 25 Nov 2026: https://www.livemint.com/economy/india-stands-out-amid-uneven-global-growth-says-rbi-bulletin-11795612833237.html'
+  released: 25 Nov 2026
+  source_link: https://www.livemint.com/economy/india-stands-out-amid-uneven-global-growth-says-rbi-bulletin-11795612833237.html
+seo:
+  seeds:
+  - RBI November bulletin
+  - India GST revenue October 2026
+  - India economic growth indicators
+  - Reserve Bank of India economy report
+  hashtags:
+  - '#IndianEconomy'
+  - '#RBI'
+  - '#GST'
+  - '#ViksitBharat'
+series: Myth vs Record
+record_id: vbnews:https://www.livemint.com/economy/india-stands-out-amid-uneven-global-growth-says-rbi-bulletin-11795612833237.html
+auto: true
+instagram_hashtags_rotating: []
+released: 25 Nov 2026
+posted: '2026-11-25'
+sector: Trade and Diplomacy
+source_label: Mint, 25 Nov 2026
+look:
+  palette: blue_on_saffron
+  motion: rings
+  hook: challenge

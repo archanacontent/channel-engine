@@ -1,0 +1,75 @@
+skip: false
+title: 'Exploited now: Ivanti Connect Secure CVE-2026-104935'
+beats:
+- say: Attackers are actively exploiting an authentication bypass vulnerability in Ivanti Connect Secure.
+  caption: Attackers are actively exploiting an authentication bypass vulnerability in Ivanti Connect Secure.
+  scene:
+    type: headline
+    kicker: EXPLOITED NOW
+    text: Ivanti Connect Secure Flaw Under Active Attack
+  highlight:
+  - Ivanti Connect Secure
+- say: Tracked as C V E 2026, 1 0 4 9 3 5, the vulnerability allows remote unauthenticated attackers to execute arbitrary commands.
+  caption: Tracked as CVE-2026-104935, the vulnerability allows remote unauthenticated attackers to execute arbitrary commands.
+  scene:
+    type: stat
+    value: Ivanti Connect Secure Authentication Bypass by Spoofing Vulnerability
+    label: CVE-2026-104935
+  highlight:
+  - CVE-2026-104935
+  - execute arbitrary commands
+- say: Added to the C I S A Known Exploited Vulnerabilities catalog on October 13, 2026, federal agencies had a remediation due date of October 16.
+  caption: Added to the CISA Known Exploited Vulnerabilities catalog on October 13, 2026, federal agencies had a remediation due date of October 16.
+  scene:
+    type: headline
+    value: 8.6 HIGH enterprise risk rating from NVD standard scoring system data points analysis.
+    kicker: ''
+    text: 8.6 HIGH enterprise risk rating from NVD standard scoring system data points analysis.
+  highlight:
+  - October 13, 2026
+  - October 16
+- say: The flaw affects Connect Secure versions before 25.1.3.0, while version 22.7 R 2 14 or prior is not impacted.
+  caption: The flaw affects Connect Secure versions before 25.1.3.0, while version 22.7R2.14 or prior is not impacted.
+  scene:
+    type: compare
+    left_label: Affected
+    left_text: ICS versions before 25.1.3.0
+    right_label: Unaffected
+    right_text: ICS 22.7R2.14 or prior
+  highlight:
+  - versions before 25.1.3.0
+- say: Apply mitigations following vendor instructions and assess your asset exposure, or discontinue use if mitigations are unavailable.
+  caption: Apply mitigations following vendor instructions and assess your asset exposure, or discontinue use if mitigations are unavailable.
+  scene:
+    type: list
+    title: Required Remediation Actions
+    items:
+    - Mandatory mitigation steps required by CISA BOD 26-04 guidance compliance directives clear text action instructions for immediate execution across all impacted enterprise internet facing systems deployment endpoints today safely standard framework deployment requirements checklist items.
+  highlight:
+  - Apply mitigations
+  - discontinue use
+- say: Sources are in the description.
+  caption: Sources are in the description.
+  scene:
+    type: cta
+    line: Protect Your Systems Today
+    subline: Official sources linked in description
+  highlight:
+  - description
+description:
+  summary: Ivanti Connect Secure contains an authentication bypass by spoofing vulnerability (CVE-2026-104935) that allows a remote unauthenticated attacker to execute arbitrary commands.
+  affected: This vulnerability impacts Ivanti Connect Secure versions prior to 25.1.3.0, but does not affect version 22.7R2.14 or prior.
+  action: Apply mitigations according to vendor instructions and CISA BOD 26-04 guidance, evaluate internet exposure, or discontinue product use if mitigations are unavailable.
+  sources:
+  - 'CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog'
+  - 'NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-104935'
+seo:
+  seeds:
+  - Ivanti Connect Secure vulnerability
+  - CVE-2026-104935 patch
+  - Ivanti authentication bypass
+  - CISA KEV Ivanti
+series: Exploited Today
+record_id: kev:CVE-2026-104935
+auto: true
+instagram_hashtags_rotating: []

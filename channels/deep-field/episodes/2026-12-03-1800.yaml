@@ -1,0 +1,73 @@
+skip: false
+skip_reason: ''
+title: How big is Jupiter, really?
+beats:
+- say: Jupiter is nearly three times wider than Neptune.
+  caption: Jupiter is nearly three times wider than Neptune.
+  highlight:
+  - nearly three times wider
+  scene:
+    type: headline
+    text: Jupiter vs Neptune
+- say: The gas giant Jupiter has a diameter of 1 4 2 9 8 4 kilometers.
+  caption: The gas giant Jupiter has a diameter of 142,984 km.
+  highlight:
+  - 142,984 km
+  scene:
+    type: stat
+    value: 142,984
+    label: Jupiter diameter (km)
+- say: Neptune is much smaller with a diameter of 4 9 5 2 8 kilometers.
+  caption: Neptune is much smaller with a diameter of 49,528 km.
+  highlight:
+  - 49,528 km
+  scene:
+    type: stat
+    value: 49,528
+    label: Neptune diameter (km)
+- say: Jupiter sits 7 7 8.5 million kilometers from the Sun while Neptune orbits much further at 4 5 1 5.0 million kilometers.
+  caption: Jupiter sits 778.5 million km from the Sun while Neptune orbits much further at 4,515.0 million km.
+  highlight:
+  - 778.5 million km
+  - 4,515.0 million km
+  scene:
+    type: compare
+    left_label: Jupiter distance
+    left_text: 778.5 million km
+    right_label: Neptune distance
+    right_text: 4,515.0 million km
+- say: The size ratio between these two planets is 2.89.
+  caption: The size ratio between these two planets is 2.89.
+  highlight: []
+  scene:
+    type: sizes
+    a_label: Jupiter
+    a_value: 142984.0
+    b_label: Neptune
+    b_value: 49528.0
+    unit: km
+- say: Figures from NASA's Planetary Fact Sheet.
+  caption: Figures from NASA's Planetary Fact Sheet.
+  highlight:
+  - NASA's Planetary Fact Sheet
+  scene:
+    type: cta
+    line: Follow Space Science
+    subline: Figures from NASA's Planetary Fact Sheet
+description:
+  explainer: Jupiter is significantly larger than Neptune. This video compares the diameters and solar distances of these two planets.
+  sources:
+  - 'NASA Planetary Fact Sheet: https://nssdc.gsfc.nasa.gov/planetary/factsheet/'
+seo:
+  seeds:
+  - Jupiter diameter vs Neptune
+  - size of Jupiter
+  - Jupiter distance from sun
+  - planetary scale comparison
+  hashtags:
+  - '#Space'
+  - '#Jupiter'
+series: Scale It
+record_id: scale:JUPITER:NEPTUNE
+auto: true
+instagram_hashtags_rotating: []

@@ -1,0 +1,84 @@
+format: strip
+kind: image
+tone: cozy
+title: Sunbeam Squad
+premise: Lottie invites Biscuit into the warm sunny spot on the carpet, establishing a peaceful nap partnership.
+panels:
+- room: plain_warm
+  shot: medium
+  cast:
+  - who: Lottie
+    mood: happy
+    pos: left
+    size: small
+  - who: Biscuit
+    mood: happy
+    pos: right
+    size: medium
+  lines:
+  - who: Lottie
+    text: Biscuit, look! The sun patch hit the floor!
+  props: []
+- room: plain_warm
+  shot: wide
+  cast:
+  - who: Lottie
+    mood: scheming
+    pos: left
+    size: small
+  - who: Biscuit
+    mood: happy
+    pos: right
+    size: medium
+  lines:
+  - who: Lottie
+    text: I will share 50% with you. Under one condition.
+  props: []
+- room: plain_warm
+  shot: close
+  cast:
+  - who: Biscuit
+    mood: love
+    pos: center
+    size: medium
+  lines:
+  - who: Biscuit
+    text: Woof!
+  sfx: THUMP
+  props: []
+- room: plain_warm
+  shot: extreme_close
+  cast:
+  - who: Lottie
+    mood: happy
+    pos: left
+    size: small
+  - who: Biscuit
+    mood: sleeping
+    pos: right
+    size: medium
+  lines:
+  - who: Lottie
+    text: No snoring. We are professional cozy people.
+  fx:
+  - sparkles
+  props: []
+caption: 'The sunny spot on the floor is public domain.
+
+  .
+
+  .
+
+  .
+
+  #comics #cartoon #digitalart #webcomic #comicbooks
+
+  comic | drawing | art | illustration | artist | sketch
+
+  #cartoonist #comicart #comicbook #funnycomics #draw #artwork #officehumor #comicstrip #funny #relatable #artistsoninstagram #comicsofy #doodle #webtoon #viral #viralcomics #explorepage #wholesome #goldenretriever #cozyvibes #sunbeam'
+description:
+  summary: The sunny spot on the floor is public domain.
+series: Pim and Soot Comic
+record_id: strip:image:1795631945388522172:0
+auto: true
+instagram_hashtags_rotating: []

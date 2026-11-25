@@ -1,0 +1,167 @@
+skip: false
+title: 'Exploited now: Palo Alto Networks PAN-OS CVE-2026-0322'
+beats:
+- say: Attackers are actively exploiting a root privilege execution vulnerability in Palo Alto Networks PAN-OS.
+  caption: Attackers are actively exploiting a root privilege execution vulnerability in Palo Alto Networks PAN-OS.
+  scene:
+    type: headline
+    kicker: ACTIVE EXPLOIT
+    text: Palo Alto Networks PAN-OS Under Active Attack
+  highlight:
+  - root privilege execution vulnerability
+  - Palo Alto Networks PAN-OS
+- say: C V E 2026, 0 3 2 2 allows authenticated remote attackers to run arbitrary code on management interfaces.
+  caption: CVE-2026-0322 allows authenticated remote attackers to run arbitrary code on management interfaces.
+  scene:
+    type: stat
+    value: CVE-2026-0322 PAN-OS Code Injection Vulnerability Added 2026-10-14 2026-10-17 remediate by vendor instructions and CISA guidance
+    label: Vulnerability Details
+  highlight:
+  - CVE-2026-0322
+  - run arbitrary code
+- say: PA Series firewalls, V M Series firewalls, and Panorama management servers are all affected.
+  caption: PA-Series firewalls, VM-Series firewalls, and Panorama management servers are all affected.
+  scene:
+    type: compare
+    left_label: AFFECTED
+    left_text: PA-Series, VM-Series, Panorama
+    right_label: NOT IMPACTED
+    right_text: Cloud NGFW, Prisma Access
+  highlight:
+  - PA-Series firewalls
+  - VM-Series firewalls
+  - Panorama management servers
+- say: Apply vendor mitigations immediately and restrict management interface access to trusted internal I P addresses.
+  caption: Apply vendor mitigations immediately and restrict management interface access to trusted internal IP addresses.
+  scene:
+    type: list
+    title: Required Actions
+    unit: steps
+    items:
+    - actions to take now to mitigate CVE-2026-0322 exploit risk on PAN-OS devices
+  highlight:
+  - Apply vendor mitigations
+  - restrict management interface access
+- say: Sources are in the description.
+  caption: Sources are in the description.
+  scene:
+    type: cta
+    line: Sources in description.
+    subline: Cybersecurity Daily
+  highlight:
+  - Sources are in the description.
+description:
+  summary: CISA added CVE-2026-0322 to its Known Exploited Vulnerabilities catalog following active exploitation of a code injection flaw in Palo Alto Networks PAN-OS. The flaw allows authenticated attackers to execute arbitrary code with root privileges.
+  affected: Palo Alto Networks PAN-OS on PA-Series, VM-Series firewalls, and Panorama (virtual and M-Series). Cloud NGFW and Prisma Access are not impacted.
+  action: Apply mitigations following vendor instructions and restrict management interface access strictly to trusted internal IP addresses.
+  sources:
+  - 'CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog'
+  - 'NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-0322'
+seo:
+  seeds:
+  - Palo Alto Networks vulnerability CVE-2026-0322
+  - PAN OS code injection vulnerability
+  - CISA KEV Palo Alto Networks
+  - PAN-OS exploit mitigation
+  - how to fix CVE-2026-0322 PAN-OS
+  - Panorama vulnerability fix
+  - PA-Series firewall exploit
+  - VM-Series code execution
+  - secure PAN-OS management interface
+  - CVE-2026-0322 active exploit
+  - Palo Alto management interface security
+  - CISA BOD 26-04 guidance
+  - Palo Alto Networks security update
+  - CVE-2026-0322 root access
+  - Palo Alto firewall security alert
+  - PAN-OS RCE vulnerability
+  - Cybersecurity Daily Palo Alto
+  - Exploited today Palo Alto Networks
+  - Palo Alto root privilege code injection
+  - PAN OS management interface hardening
+  - CVSS 8.6 Palo Alto vulnerability
+  - CVE 2026 0322 remediate
+  - Palo Alto Networks KEV catalog
+  - Palo Alto Networks CVE-2026-0322
+  - PAN-OS root vulnerability
+  - Palo Alto security patch 2026
+  - Palo Alto Panorama vulnerability
+  - Palo Alto firewall exploit 2026
+  - CVE-2026-0322 CISA alert
+  - CISA KEV catalog update
+  - Palo Alto Networks flaw
+  - restrict PAN OS management interface
+  - Palo Alto Networks zero day
+  - PAN-OS code execution
+  - Palo Alto emergency patch
+  - CVE-2026-0322 mitigation steps
+  - Palo Alto Networks breach risk
+  - CISA BOD 26-04 patching
+  - PAN-OS management port exploit
+  - Palo Alto firewall patch
+  - PAN-OS remote code execution
+  - CISA required action CVE-2026-0322
+  - Palo Alto Networks CVE-2026-0322 fix
+  - Cybersecurity Daily short
+  - Exploited Today PAN-OS
+  - Palo Alto Networks vulnerability report
+  - PAN-OS security notice
+  - Palo Alto Networks patch status
+  - Palo Alto firewall vulnerability news
+  - CISA known exploited vulnerabilities list
+  - Palo Alto Networks CVE 2026 0322
+  - PAN-OS vulnerability 2026
+  - Palo Alto firewalls under attack
+  - CVE 2026 0322 PAN-OS root privilege
+  - Palo Alto management IP access rule
+  - PAN-OS management interface patch
+  - Palo Alto Networks exploit news
+  - Palo Alto security advisory CVE-2026-0322
+  - CISA KEV CVE-2026-0322
+  - Palo Alto Panorama exploit
+  - PAN-OS root execution fix
+  - Palo Alto Networks patch guide
+  - PAN OS CVE-2026-0322
+  - Palo Alto Networks management access
+  - Palo Alto firewall security update
+  - PAN OS PA Series vulnerability
+  - PAN OS VM Series vulnerability
+  - Palo Alto Panorama security flaw
+  - CVE-2026-0322 NVD description
+  - Palo Alto Networks exploit 2026
+  - PAN-OS code injection alert
+  - Palo Alto root access vulnerability
+  - PAN-OS management interface vulnerability
+  - Palo Alto Networks critical update
+  - Palo Alto firewall hardening guide
+  - Palo Alto Networks CVE 0322
+  - PAN-OS CVE-2026-0322 mitigation
+  - Palo Alto Networks remote code execution
+  - CISA directive CVE-2026-0322
+  - Palo Alto Networks KEV exploit
+  - PAN OS security vulnerability
+  - Palo Alto firewall exploit fix
+  - Palo Alto Networks security exploit
+  - PAN-OS root vulnerability patch
+  - CVE-2026-0322 Palo Alto Networks
+  - Palo Alto Networks PAN OS threat
+  - Palo Alto Networks management port
+  - PAN-OS zero day exploit
+  - Palo Alto firewall active attack
+  - CISA KEV catalog Palo Alto
+  - Palo Alto Networks security bulletin
+  - Palo Alto Networks CVE report
+  - PAN-OS critical security flaw
+  - Palo Alto Networks management port security
+  - Palo Alto firewall risk
+  - CVE-2026-0322 Palo Alto
+  - Palo Alto Networks threat alert
+  - PAN-OS vulnerability mitigation
+  - Palo Alto Networks patch deadline
+  - Palo Alto firewall threat briefing
+  - Cybersecurity Daily Exploited Today
+skip_reason: ''
+series: Exploited Today
+record_id: kev:CVE-2026-0322
+auto: true
+instagram_hashtags_rotating: []

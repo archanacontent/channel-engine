@@ -1,0 +1,77 @@
+skip: false
+title: 'Stop doing this by hand: Marketing performance PDF reports'
+beats:
+- say: Manual marketing reporting consumes hours your team could spend executing campaigns.
+  caption: Manual marketing reporting consumes hours your team could spend executing campaigns.
+  scene:
+    type: headline
+    text: Stop building marketing reports by hand
+    title: Manual Reporting
+  highlight:
+  - Manual marketing reporting
+- say: Instead, pull spend data directly from Google Sheets rows two through one hundred.
+  caption: Instead, pull spend data directly from Google Sheets rows 2-100.
+  scene:
+    type: card
+    rows:
+    - - Source
+      - Google Sheets
+    - - Data Range
+      - Rows 2-100
+    title: Data Extraction
+  highlight:
+  - pull spend data
+- say: Two summarize nodes aggregate total spend and channel spend while Open A I writes a performance summary.
+  caption: Two summarize nodes aggregate total spend and channel spend while OpenAI writes a performance summary.
+  scene:
+    type: flow
+    steps:
+    - title: Google Sheets
+      note: Pull spend data
+    - title: Summarize
+      note: Aggregate channel spend
+    - title: OpenAI
+      note: Generate performance summary
+    - title: PDF.co
+      note: Output Mustache PDF
+  highlight:
+  - summarize nodes aggregate
+  - performance summary
+- say: A code node formats the payload, and P D F dot c o generates a styled report using a Mustache template.
+  caption: A code node formats the payload, and PDF.co generates a styled report using a Mustache template.
+  scene:
+    type: list
+    items:
+    - Convert data in Code node
+    - Pass payload to PDF.co API
+    - Render Mustache HTML template
+    style: check
+    title: PDF Pipeline
+  highlight:
+  - Mustache template
+- say: The free template is linked in the description.
+  caption: The free template is linked in the description.
+  scene:
+    type: cta
+    line: Automate your reporting
+    subline: Free n8n template linked below
+  highlight:
+  - linked in the description
+description:
+  task_line: Automate your daily marketing reporting by turning Google Sheets spend data into AI-summarate PDFs.
+  tools: Built with n8n, Google Sheets, OpenAI, and PDF.co.
+  sources:
+  - 'n8n template: https://n8n.io/workflows/7861'
+  template_link: https://n8n.io/workflows/7861
+seo:
+  hashtags:
+  - '#n8n'
+  - '#MarketingAutomation'
+  seeds:
+  - n8n marketing report automation
+  - Google Sheets to PDF report n8n
+  - automated PDF generation n8n
+series: Stop Doing This
+record_id: n8n:7861
+auto: true
+instagram_hashtags_rotating: []
