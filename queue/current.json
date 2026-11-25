@@ -14021,12 +14021,14 @@
    "kind": "image"
   },
   "srt": "",
-  "status": "ready",
+  "status": "published",
   "file": "2026-11-25-1300.jpg",
   "platform": "instagram",
   "auto_approve": true,
   "posted": null,
-  "release": "shorts-44576417534"
+  "release": "shorts-44576417534",
+  "ig_media_id": "18147704992610007",
+  "published_at": "2026-11-25T18:02:07.316714+00:00"
  },
  {
   "slug": "comicsofy",
