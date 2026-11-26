@@ -1,0 +1,71 @@
+format: strip
+kind: reel
+tone: satire
+title: The Premium Restroom Experience
+premise: Ravi pivots his startup to monetize office bathroom stall door locks with a freemium tier.
+panels:
+- room: office
+  shot: medium
+  cast:
+  - who: Ravi
+    mood: smug
+    pos: left
+    size: medium
+    holding: laptop
+  - who: Dev
+    mood: tired
+    pos: right
+    size: medium
+    holding: mug
+  lines:
+  - who: Ravi
+    text: We are pivoting locks to a SaaS model.
+  - who: Dev
+    text: It is a door bolt, Ravi.
+  props: []
+- room: meeting_room
+  shot: wide
+  cast:
+  - who: Ravi
+    mood: happy
+    pos: center
+    size: large
+    holding: clipboard
+  lines:
+  - who: Ravi
+    text: Basic tier gets you three minutes. Ad-supported.
+  fx:
+  - speed_lines
+  sfx: DING
+  props: []
+- room: office
+  shot: close
+  cast:
+  - who: Dev
+    mood: panic
+    pos: center
+    size: large
+    holding: phone
+  lines:
+  - who: Dev
+    text: My session timed out. I am paying for premium.
+  props: []
+caption: 'Your privacy is important to our shareholders.
+
+  .
+
+  .
+
+  .
+
+  #comics #cartoon #digitalart #webcomic #comicbooks
+
+  comic | drawing | art | illustration | artist | sketch
+
+  #cartoonist #comicart #comicbook #funnycomics #draw #artwork #officehumor #comicstrip #funny #relatable #artistsoninstagram #comicsofy #doodle #webtoon #viral #viralcomics #explorepage #startup #corporatelife #tech #satire'
+description:
+  summary: Your privacy is important to our shareholders.
+series: Pim and Soot Reel
+record_id: strip:reel:1795717767703830850:0
+auto: true
+instagram_hashtags_rotating: []

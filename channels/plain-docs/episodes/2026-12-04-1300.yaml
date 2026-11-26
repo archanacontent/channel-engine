@@ -1,0 +1,52 @@
+skip: false
+title: 'Writing rule: Avoid future features'
+beats:
+- say: Google developer documentation states that you must avoid documenting future features or products, even in innocuous ways.
+  caption: Google developer documentation states that you must avoid documenting future features or products, even in innocuous ways.
+  scene:
+    type: headline
+    text: Avoid documenting future features or products
+  highlight:
+  - future features or products
+- say: Pre-announcements are prohibited unless your legal counsel has explicitly approved them ahead of time.
+  caption: Pre-announcements are prohibited unless your legal counsel has explicitly approved them ahead of time.
+  scene:
+    type: stat
+    value: Legal approval needed
+    label: Requirements
+  highlight:
+  - Pre-announcements are prohibited
+- say: Focus your writing on describing existing functionality instead of speculating on what might come.
+  caption: Focus your writing on describing existing functionality instead of speculating on what might come.
+  scene:
+    type: compare
+    left_label: Weak
+    left_text: Coming soon
+    right_label: Better
+    right_text: Existing functionality
+  highlight:
+  - existing functionality
+- say: Documentation should remain clear and accurate by using the present tense and creating timeless guides.
+  caption: Documentation should remain clear and accurate by using the present tense and creating timeless guides.
+  scene:
+    type: quote
+    text: Documentation should not include future features or products.
+    unit: ''
+    value: ''
+  highlight:
+  - timeless guides
+description:
+  what_was_fixed: A guide that speculated on unreleased products was corrected to focus only on existing functionality.
+  rule: Do not document future features or pre-announce products without legal approval.
+  sources:
+  - 'Google developer documentation: https://developers.google.com/style/future'
+seo:
+  seeds:
+  - technical writing guide
+  - Google developer style
+  - writing documentation
+  - software documentation rules.txt
+series: One Rule
+record_id: style:https://developers.google.com/style/future
+auto: true
+instagram_hashtags_rotating: []

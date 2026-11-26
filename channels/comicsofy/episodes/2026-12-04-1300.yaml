@@ -1,0 +1,104 @@
+format: strip
+kind: image
+tone: cozy
+title: The Art of the Deal
+premise: Pim invites sidewalk hustler Gus the pigeon to take a break on a warm park bench, completely derailing Gus's hustle with pure kindness.
+panels:
+- room: park
+  shot: medium
+  cast:
+  - who: Gus
+    mood: scheming
+    pos: left
+    size: small
+    holding: bread
+  - who: Pim
+    mood: happy
+    pos: right
+    size: medium
+  lines:
+  - who: Gus
+    text: Psst. Premium organic crust. Two shiny buttons.
+  - who: Pim
+    text: Good afternoon, sir! Lovely sun today!
+  focus: Gus trying to sell bread to Pim
+  props: []
+- room: park
+  shot: wide
+  cast:
+  - who: Pim
+    mood: happy
+    pos: center
+    size: medium
+  - who: Gus
+    mood: shocked
+    pos: right
+    size: small
+    holding: bread
+  lines:
+  - who: Pim
+    text: You must be exhausted working the sidewalks!
+  - who: Pim
+    text: Please, sit! The bench is so warm.
+  focus: Pim offering a seat on the bench
+  props: []
+- room: outdoors_autumn
+  shot: close
+  cast:
+  - who: Gus
+    mood: neutral
+    pos: left
+    size: medium
+  - who: Soot
+    mood: deadpan
+    pos: right
+    size: small
+  lines:
+  - who: Gus
+    text: Wait... no sales pitch? No haggling?
+  - who: Soot
+    text: Just sit.
+  focus: Gus being confused by zero pressure
+  narration: A few moments later
+  props: []
+- room: outdoors_autumn
+  shot: extreme_close
+  cast:
+  - who: Gus
+    mood: happy
+    pos: left
+    size: medium
+  - who: Pim
+    mood: love
+    pos: right
+    size: medium
+  lines:
+  - who: Gus
+    text: My back hasn't felt this good since 2021.
+  - who: Pim
+    text: Best deal of the day!
+  fx:
+  - sparkles
+  props:
+  - name: bread
+    spot: center
+  sfx: AHHH
+caption: 'Even top hustlers need a afternoon break in the sun.
+
+  .
+
+  .
+
+  .
+
+  #comics #cartoon #digitalart #webcomic #comicbooks
+
+  comic | drawing | art | illustration | artist | sketch
+
+  #cartoonist #comicart #comicbook #funnycomics #draw #artwork #officehumor #comicstrip #funny #relatable #artistsoninstagram #comicsofy #doodle #webtoon #viral #viralcomics #explorepage #wholesomecomics #cozyvibes #parklife #cuteart'
+description:
+  summary: Even top hustlers need a afternoon break in the sun.
+series: Pim and Soot Comic
+record_id: strip:image:1795717524050912848:0
+auto: true
+instagram_hashtags_rotating: []

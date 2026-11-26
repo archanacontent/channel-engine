@@ -1,0 +1,74 @@
+skip: false
+skip_reason: ''
+title: Fixing a real README in under a minute
+beats:
+- say: Vague disclaimers create legal uncertainty and user confusion.
+  caption: Vague disclaimers create legal uncertainty and user confusion.
+  highlight:
+  - Vague disclaimers
+  scene:
+    type: headline
+    text: The cost of vague documentation
+- say: This sentence in the i P T V F R E E L I S T README is too passive. Cada enlace apunta a su fuente original y el uso que se haga de ellos es responsabilidad de quien los utiliza.
+  caption: This sentence in the IPTV-FREE-LIST README is too passive. Cada enlace apunta a su fuente original y el uso que se haga de ellos es responsabilidad de quien los utiliza.
+  highlight:
+  - too passive
+  scene:
+    type: compare
+    left_label: Original
+    left_text: Cada enlace apunta a su fuente original y el uso que se haga de ellos es responsabilidad de quien los utiliza.
+    right_label: Improved
+    right_text: Each link points to its original source. Users are responsible for how they use these links.
+- say: The original version uses a long, winding structure. The fix uses two short, direct sentences.
+  caption: The original version uses a long, winding structure. The fix uses two short, direct sentences.
+  highlight:
+  - short, direct sentences
+  scene:
+    type: list
+    title: Why it works
+    items:
+    - Removes passive phrasing
+    - Clarifies user responsibility
+    - Improves readability
+    style: check
+- say: Specific language protects the project and informs the user immediately.
+  caption: Specific language protects the project and informs the user immediately.
+  highlight:
+  - protects the project
+  scene:
+    type: card
+    title: Documentation Goal
+    rows:
+    - - Clarity
+      - High
+    - - Ambiguity
+      - Zero
+- say: Use direct sentences to define responsibility.
+  caption: Use direct sentences to define responsibility.
+  highlight:
+  - direct sentences
+  scene:
+    type: quote
+    text: Use direct sentences to define responsibility.
+    highlight:
+    - direct sentences
+description:
+  what_was_fixed: I fixed a vague disclaimer in the IPTV-FREE-LIST README to make user responsibility clearer.
+  rule: Use short, direct sentences to define responsibility and reduce ambiguity.
+  sources:
+  - 'dzh0ni/iPTV-FREE-LIST README (MIT): https://github.com/dzh0ni/iPTV-FREE-LIST'
+  source_link: https://github.com/dzh0ni/iPTV-FREE-LIST
+  license: MIT
+seo:
+  seeds:
+  - technical writing tips
+  - how to write documentation
+  - improving README files
+  - technical writing for beginners
+  hashtags:
+  - '#TechnicalWriting'
+  - '#Documentation'
+series: Rewrite This
+record_id: repo:dzh0ni/iPTV-FREE-LIST
+auto: true
+instagram_hashtags_rotating: []

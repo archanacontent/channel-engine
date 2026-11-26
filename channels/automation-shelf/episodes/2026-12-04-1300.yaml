@@ -1,0 +1,66 @@
+skip: false
+title: 'Free workflow: Product marketing asset generation on autopilot'
+beats:
+- say: Turn raw product photos and descriptions into finished marketing visuals automatically.
+  caption: Turn raw product photos and descriptions into finished marketing visuals automatically.
+  scene:
+    type: headline
+    kicker: Library Pick
+    text: Automate product image and video creation
+  highlight:
+  - finished marketing visuals
+- say: Upload a product image to Airtable with a short prompt. n eight n triggers OpenAI for flyer image generation and Google V E O 3 via Klie dot a i for video animations.
+  caption: Upload a product image to Airtable with a short prompt. n8n triggers OpenAI for flyer image generation and Google’s VEO3 via Klie.ai for video animations.
+  scene:
+    type: flow
+    steps:
+    - title: Airtable
+      note: Upload image and text prompt
+    - title: OpenAI & VEO 3
+      note: Generate flyers and videos
+    - title: Airtable
+      note: Receive finished assets
+  highlight:
+  - Upload a product image
+  - OpenAI for flyer image
+- say: All created assets are pushed back into Airtable ready for campaign download and review.
+  caption: All created assets are pushed back into Airtable ready for campaign download and review.
+  scene:
+    type: stat
+    value: Centralized in Airtable
+    label: Asset Pipeline
+  highlight:
+  - pushed back into Airtable
+- say: This workflow suits e-commerce teams and agencies scaling visual content without manual design work.
+  caption: This workflow suits e-commerce teams and agencies scaling visual content without manual design work.
+  scene:
+    type: list
+    title: Built For
+    items:
+    - Scalable design production
+  highlight:
+  - e-commerce teams and agencies
+- say: Template link in the description.
+  caption: Template link in the description.
+  scene:
+    type: cta
+    line: Get the n8n template
+    subline: Link in description
+  highlight:
+  - Template link
+description:
+  task_line: Generate marketing flyers and videos from raw product photos and descriptions.
+  tools: Built using n8n with Airtable, OpenAI, Google VEO 3, and Klie.ai.
+  sources:
+  - 'n8n template: https://n8n.io/workflows/7487'
+  template_link: https://n8n.io/workflows/7487
+seo:
+  seeds:
+  - n8n marketing asset generator
+  - automated video ads airtable
+  - n8n openai image template
+  - automated product flyer generator
+series: Library Pick
+record_id: n8n:7487
+auto: true
+instagram_hashtags_rotating: []

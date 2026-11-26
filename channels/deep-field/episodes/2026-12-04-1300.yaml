@@ -1,0 +1,73 @@
+skip: false
+skip_reason: ''
+title: 'APOD: what just happened'
+beats:
+- say: The Milky Way appears to form a cosmic eye over Brazil.
+  caption: The Milky Way appears to form a cosmic eye over Brazil.
+  highlight:
+  - cosmic eye
+  scene:
+    type: headline
+    text: A cosmic eye over Brazil
+- say: This composite image shows the Milky Way above the white sand dunes and dark lagoons of Lençóis Maranhenses National Park.
+  caption: This composite image shows the Milky Way above the white sand dunes and dark lagoons of Lençóis Maranhenses National Park.
+  highlight:
+  - white sand dunes
+  - dark lagoons
+  scene:
+    type: image
+    credit: Ignacio Fernández
+- say: The galaxy does not actually arch like a rainbow. That shape is an artifact from using a wide angle lens.
+  caption: The galaxy does not actually arch like a rainbow. That shape is an artifact from using a wide angle lens.
+  highlight:
+  - not actually arch
+  - wide angle lens
+  scene:
+    type: compare
+    left_label: Visual Illusion
+    left_text: Arched rainbow shape
+    right_label: Reality
+    right_text: Wide angle lens artifact
+- say: The photographer framed the Milky Way to match the contour of a dark lagoon. This creates the illusion of an eye half in space and half on the ground.
+  caption: The photographer framed the Milky Way to match the contour of a dark lagoon. This creates the illusion of an eye half in space and half on the ground.
+  highlight:
+  - illusion of an eye
+  - half in space
+  scene:
+    type: flow
+    steps:
+    - title: Framing
+      note: Aligning galaxy with lagoon contour
+    - title: Effect
+      note: Creation of the cosmic eye
+- say: The image was captured in July from a latitude of approximately two degrees south.
+  caption: The image was captured in July from a latitude of approximately 2º south.
+  highlight: []
+  scene:
+    type: stat
+    value: 2º
+    label: Latitude South
+- say: Source in the description.
+  caption: Source in the description.
+  highlight: []
+  scene:
+    type: cta
+    line: Discover more
+    subline: Source in the description.
+description:
+  explainer: The Milky Way appears as a cosmic eye over Brazil in this NASA Astronomy Picture of the Day. This image shows the galaxy over the dunes of Lençóis Maranhenses National Park.
+  sources:
+  - 'NASA: https://science.nasa.gov/image-article/apod-2026-november-26-eye-in-the-sky-the-milky-way-over-lencois/'
+seo:
+  seeds:
+  - Milky Way Brazil
+  - Lençóis Maranhenses National Park space
+  - NASA Astronomy Picture of the Day
+  - Milky Way cosmic eye
+  hashtags:
+  - '#MilkyWay'
+  - '#NASA'
+series: Mission Log
+record_id: nasanews:https://science.nasa.gov/image-article/apod-2026-november-26-eye-in-the-sky-the-milky-way-over-lencois/
+auto: true
+instagram_hashtags_rotating: []

@@ -1,0 +1,70 @@
+skip: false
+title: Can you automate marketing performance email reports?
+beats:
+- say: Can you automate marketing performance email reports? Yes, using an n eight n workflow.
+  caption: Can you automate marketing performance email reports? Yes, using an n8n workflow.
+  scene:
+    type: headline
+    text: Automate marketing performance email reports
+  highlight:
+  - marketing performance email reports
+- say: The workflow retrieves marketing campaign data from Google Sheets.
+  caption: The workflow retrieves marketing campaign data from Google Sheets.
+  scene:
+    type: card
+    rows:
+    - - Source
+      - Google Sheets
+    - - Data
+      - Campaign metrics
+    title: Data Retrieval
+  highlight:
+  - Google Sheets
+- say: It calculates five key performance metrics including customers, clicks, conversions, and spend.
+  caption: It calculates five key performance metrics including customers, clicks, conversions, and spend.
+  scene:
+    type: list
+    items:
+    - Customers
+    - Clicks
+    - Conversions
+    - Spend
+    style: bullet
+    title: Key points
+  highlight:
+  - five key performance metrics
+- say: Finally, it merges all statistics and sends a professional H T M L email report through Microsoft Outlook.
+  caption: Finally, it merges all statistics and sends a professional HTML email report through Microsoft Outlook.
+  scene:
+    type: flow
+    steps:
+    - title: Merge
+      note: Combine statistics
+    - title: Outlook
+      note: Send HTML report
+  highlight:
+  - HTML email report
+- say: Template link in the description.
+  caption: Template link in the description.
+  scene:
+    type: cta
+    line: Get the n8n template
+    subline: Link in the description
+  highlight:
+  - Template link
+description:
+  task_line: Can you automate marketing performance email reports? Yes, this n8n workflow pulls data from Google Sheets, calculates key metrics, and sends professional HTML email reports through Microsoft Outlook.
+  tools: 'Tools used: n8n, Google Sheets, Microsoft Outlook, and HTML/CSS.'
+  sources:
+  - 'n8n template: https://n8n.io/workflows/7404'
+  template_link: https://n8n.io/workflows/7404
+seo:
+  seeds:
+  - n8n marketing reporting workflow
+  - automate email reports Google Sheets
+  - n8n Google Sheets Outlook template
+  - marketing performance report automation with n8n
+series: Can It Be Automated?
+record_id: n8n:7404
+auto: true
+instagram_hashtags_rotating: []

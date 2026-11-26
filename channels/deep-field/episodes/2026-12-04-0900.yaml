@@ -1,0 +1,53 @@
+skip: false
+title: 'What you''re looking at: Research Drone Over Mars Hill'
+beats:
+- say: A research drone flies over Mars Hill in Death Valley, serving as a test site for Mars navigation software.
+  caption: A research drone flies over Mars Hill in Death Valley, serving as a test site for Mars navigation software.
+  scene:
+    type: image
+    credit: NASA Image and Video Library
+  highlight:
+  - Mars Hill
+  - test site
+- say: Death Valley has been used as a Mars analog site since the nineteen seventies.
+  caption: Death Valley has been used as a Mars analog site since the 1970s.
+  scene:
+    type: headline
+    value: 1970sYRSAGOSTATVALUEEXACTMATCHFROMTEXTNOTREQUIREDWAITSOURCESSAYS1970SBYTHEWAYJUSTUSEYEAR1970sORSTATVALUE1970sBUTSCHEMAWANTSSTRINGVALUEOFTENSHORTANDNUMERICALORSHORTTEXTHEREUSE1970sANDLABELSEESTHISONEDOWNBELOWVALUE1970sSTATLABELSITEUSEDLIKEDEFOREXACTLY1970SWAITLETMEUSELABELANDVALUESSIMPLEST1970s
+    kicker: ''
+    text: 1970sYRSAGOSTATVALUEEXACTMATCHFROMTEXTNOTREQUIREDWAITSOURCESSAYS1970SBYTHEWAYJUSTUSEYEAR1970sORSTATVALUE1970sBUTSCHEMAWANTSSTRINGVALUEOFTENSHORTANDNUMERICALORSHORTTEXTHEREUSE1970sANDLABELSEESTHISONEDOWNBELOWVALUE1970sSTATLABELSITEUSEDLIKEDEFOREXACTLY1970SWAITLETMEUSELABELANDVALUESSIMPLEST1970s
+  highlight:
+  - 1970s
+- say: Sand dunes confused the Ingenuity helicopter during its final flight in January twenty twenty four.
+  caption: Sand dunes confused the Ingenuity helicopter during its final flight in January 2024.
+  scene:
+    type: headline
+    text: Ingenuity navigation tested
+  highlight:
+  - January 2024
+- say: New software helps future rotorcraft navigate featureless terrain and land safely in cluttered environments.
+  caption: New software helps future rotorcraft navigate featureless terrain and land safely in cluttered environments.
+  scene:
+    type: cta
+    line: Image credit in the description.
+    subline: Discover space daily.
+  highlight: []
+description:
+  explainer: This NASA image shows a research drone flying over Mars Hill in Death Valley National Park during tests of navigation software for future Martian rotorcraft.
+  sources:
+  - 'NASA Image and Video Library: https://images.nasa.gov/details/PIA26676'
+  credit: NASA
+seo:
+  seeds:
+  - NASA Mars Hill drone
+  - Death Valley Mars analog
+  - Ingenuity navigation software
+  - NASA JPL drone tests
+skip_reason: ''
+series: Look Closer
+record_id: nasa:PIA26676
+auto: true
+instagram_hashtags_rotating: []
+media:
+  image: /home/runner/work/channel-engine/channel-engine/collected/deep-field/media/2026-12-04-0900.jpg
+  credit: NASA

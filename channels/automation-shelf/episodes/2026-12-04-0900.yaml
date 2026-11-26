@@ -1,0 +1,66 @@
+skip: false
+title: 'Stop doing this by hand: Extract marketing agency emails from Google Maps'
+beats:
+- say: Stop wasting hours collecting agency emails manually when n eight n can scrape Google Maps using GPT-4 o mini and append them directly to Google Sheets.
+  caption: Stop wasting hours collecting agency emails manually when n8n can scrape Google Maps using GPT-4o-mini and append them directly to Google Sheets.
+  scene:
+    type: headline
+    text: Extract marketing agency emails automatically
+  highlight:
+  - collecting agency emails manually
+  - Google Sheets
+- say: The n eight n workflow triggers via a manual start, uses OpenAI to generate neighborhood queries, and scrapes Google Maps results without an API key.
+  caption: The n8n workflow triggers via a manual start, uses OpenAI to generate neighborhood queries, and scrapes Google Maps results without an API key.
+  scene:
+    type: flow
+    steps:
+    - title: manualTrigger
+      note: Starts test
+    - title: chainLlm
+      note: Queries OpenAI
+    - title: httpRequest
+      note: Scrapes Maps
+    - title: code
+      note: Extracts emails
+  highlight:
+  - manual start
+  - without an API key
+- say: It visits each business website, extracts unique email addresses, filters out spam traps, and updates your spreadsheet automatically.
+  caption: It visits each business website, extracts unique email addresses, filters out spam traps, and updates your spreadsheet automatically.
+  scene:
+    type: list
+    items:
+    - Visits business websites
+    - Extracts email addresses
+    - Filters spam traps
+    - Updates spreadsheet
+    style: check
+    title: Key points
+  highlight:
+  - unique email addresses
+  - updates your spreadsheet
+- say: The free template is linked in the description.
+  caption: The free template is linked in the description.
+  scene:
+    type: cta
+    line: Get the template
+    subline: Link in description
+  highlight:
+  - free template
+description:
+  task_line: Extract marketing agency emails from Google Maps using GPT-4o-mini and Google Sheets automatically.
+  tools: n8n, OpenAI, Google Maps, Google Sheets
+  sources:
+  - 'n8n template: https://n8n.io/workflows/21411'
+  template_link: https://n8n.io/workflows/21411
+seo:
+  seeds:
+  - n8n Google Maps email extractor
+  - automate lead generation n8n
+  - scrape Google Maps with OpenAI n8n
+  - marketing agency email scraper workflow
+skip_reason: ''
+series: Stop Doing This
+record_id: n8n:21411
+auto: true
+instagram_hashtags_rotating: []

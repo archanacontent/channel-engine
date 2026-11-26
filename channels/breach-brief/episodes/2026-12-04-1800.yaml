@@ -1,0 +1,52 @@
+skip: false
+title: 'Exploited now: Danfoss AK-SM 800A Series CVE-2023-25914'
+beats:
+- say: Danfoss A K dash S M 800 A Series has a path traversal vulnerability under active attack.
+  caption: Danfoss AK-SM 800A Series has a path traversal vulnerability under active attack.
+  scene:
+    type: headline
+    text: Danfoss AK-SM 800A Series vulnerability active.
+  highlight: []
+- say: Attackers can read system files through the X M L interface, leading to full system compromise.
+  caption: Attackers can read system files through the XML interface, leading to full system compromise.
+  scene:
+    type: stat
+    value: 8.8 High
+    label: CVE-2023-25914
+  highlight:
+  - XML interface
+- say: CISA added this flaw to the catalog on November 25, 2026, with a remediation deadline of November 28, 2026.
+  caption: CISA added this flaw to the catalog on November 25, 2026, with a remediation deadline of November 28, 2026.
+  scene:
+    type: stat
+    value: Due Nov 28
+    label: Timeline
+  highlight: []
+- say: Apply vendor mitigations immediately or discontinue use if fixes are unavailable.
+  caption: Apply vendor mitigations immediately or discontinue use if fixes are unavailable.
+  scene:
+    type: list
+    items:
+    - Apply mitigations
+    - Discontinue use
+    style: check
+    title: Key points
+  highlight: []
+description:
+  summary: CISA added a high severity path traversal vulnerability in Danfoss AK-SM 800A Series to its KEV catalog.
+  affected: Danfoss AK-SM 800A Series devices using the XML interface.
+  action: Apply vendor mitigations by November 28, 2026, or discontinue use.
+  sources:
+  - 'CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog'
+  - 'NVD: https://nvd.nist.gov/vuln/detail/CVE-2023-25914'
+seo:
+  seeds:
+  - Danfoss AK-SM 800A CVE-2023-25914
+  - CISA KEV Danfoss
+  - path traversal vulnerability Danfoss
+  - BOD 26-04 guidance updates
+skip_reason: ''
+series: Exploited Today
+record_id: kev:CVE-2023-25914
+auto: true
+instagram_hashtags_rotating: []

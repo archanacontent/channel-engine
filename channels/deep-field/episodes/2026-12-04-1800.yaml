@@ -1,0 +1,63 @@
+skip: false
+skip_reason: ''
+title: How big is Jupiter, really?
+beats:
+- say: Jupiter is sixty times wider than Pluto.
+  caption: Jupiter is 60.18 times wider than Pluto.
+  highlight: []
+  scene:
+    type: headline
+    text: Jupiter vs Pluto
+- say: The gas giant spans one hundred forty two thousand nine hundred eighty four kilometers across.
+  caption: Jupiter spans 142,984 km across.
+  highlight: []
+  scene:
+    type: stat
+    value: 142,984
+    label: Jupiter diameter in km
+- say: Pluto is much smaller with a diameter of only two thousand three hundred seventy six kilometers.
+  caption: Pluto diameter is 2,376 km.
+  highlight: []
+  scene:
+    type: card
+    title: Diameters
+    rows:
+    - - Jupiter
+      - 142,984 km
+    - - Pluto
+      - 2,376 km
+- say: While Jupiter sits seven hundred seventy eight point five million kilometers from the Sun, Pluto is much farther at five thousand nine hundred six point four million kilometers.
+  caption: Jupiter is 778.5 million km from the Sun. Pluto is 5,906.4 million km from the Sun.
+  highlight:
+  - 778.5 million km
+  - 5,906.4 million km
+  scene:
+    type: compare
+    left_label: Jupiter Distance
+    left_text: 778.5 million km
+    right_label: Pluto Distance
+    right_text: 5,906.4 million km
+- say: Figures from NASA's Planetary Fact Sheet.
+  caption: Figures from NASA's Planetary Fact Sheet.
+  highlight:
+  - NASA's Planetary Fact Sheet
+  scene:
+    type: cta
+    line: Explore more space facts.
+    subline: Figures from NASA's Planetary Fact Sheet.
+description:
+  explainer: Jupiter is over sixty times wider than Pluto. This video compares the size and distance from the Sun of these two bodies.
+  sources:
+  - 'NASA Planetary Fact Sheet: https://nssdc.gsfc.nasa.gov/planetary/factsheet/'
+seo:
+  seeds:
+  - Jupiter vs Pluto size
+  - Jupiter diameter km
+  - Pluto distance from sun
+  hashtags:
+  - '#Space'
+  - '#Jupiter'
+series: Scale It
+record_id: scale:JUPITER:PLUTO
+auto: true
+instagram_hashtags_rotating: []

@@ -1,0 +1,61 @@
+skip: false
+title: 'Exploited now: Xen Orchestra CVE-2026-133469'
+beats:
+- say: C I S A added a critical Xen Orchestra flaw to its active exploitation catalog.
+  caption: CISA added a critical Xen Orchestra flaw to its active exploitation catalog.
+  scene:
+    type: headline
+    text: Xen Orchestra flaw under active attack
+  highlight:
+  - Xen Orchestra flaw
+- say: CVE-2026-133469 lets unauthenticated attackers bypass authentication and gain admin rights.
+  caption: CVE-2026-133469 lets unauthenticated attackers bypass authentication and gain admin rights.
+  scene:
+    type: stat
+    value: 9.8 CRITICAL
+    label: CVE-2026-133469
+  highlight:
+  - bypass authentication
+- say: Federal agencies must apply vendor mitigations by November twenty eighth, 2026.
+  caption: Federal agencies must apply vendor mitigations by November 28, 2026.
+  scene:
+    type: stat
+    value: Nov 28, 2026
+    label: Remediation Details
+  highlight: []
+- say: Update to version six point nine point two or six point ten point one immediately.
+  caption: Update to version 6.9.2 or 6.10.1 immediately.
+  scene:
+    type: list
+    items:
+    - Update to version 6.9.2
+    - Update to version 6.10.1
+    style: check
+    title: Key points
+  highlight:
+  - 6.9.2 or 6.10.1
+- say: Sources are in the description.
+  caption: Sources are in the description.
+  scene:
+    type: cta
+    line: Sources are in the description
+    subline: Cybersecurity Daily
+  highlight:
+  - description
+description:
+  summary: CISA added CVE-2026-133469 in Vates Xen Orchestra to its Known Exploited Vulnerabilities catalog.
+  affected: Vates Xen Orchestra prior to versions 6.9.2 and 6.10.1.
+  action: Apply vendor mitigations and update to version 6.9.2 or 6.10.1 by November 28, 2026.
+  sources:
+  - 'CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog'
+  - 'NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-133469'
+seo:
+  seeds:
+  - Xen Orchestra CVE-2026-133469
+  - Vates Xen Orchestra vulnerability
+  - CISA KEV catalog 2026
+  - Xen Orchestra authentication bypass
+series: Exploited Today
+record_id: kev:CVE-2026-133469
+auto: true
+instagram_hashtags_rotating: []
