@@ -1,0 +1,66 @@
+skip: false
+title: 'Exploited now: Drupal Core CVE-2026-136716'
+beats:
+- say: Unauthenticated remote attackers are taking over Drupal sites through the exposed installer right now.
+  caption: Unauthenticated remote attackers are taking over Drupal sites through the exposed installer right now.
+  scene:
+    type: headline
+    kicker: ACTIVE ATTACKS
+    text: Unauthenticated Attackers Taking Over Drupal Sites
+  highlight:
+  - Unauthenticated remote attackers
+  - taking over Drupal sites
+- say: C I S A added C V E 2026, 1 3 6 7 1 6 to the Known Exploited Vulnerabilities catalog on November 27, 2026.
+  caption: CISA added CVE-2026-136716 to the Known Exploited Vulnerabilities catalog on November 27, 2026.
+  scene:
+    type: stat
+    value: 'CVE-2026-136716, Drupal Core, Added: 2026-11-27, Due: 2026-11-30'
+    label: Vulnerability Details
+  highlight:
+  - CISA added CVE-2026-136716
+  - Known Exploited Vulnerabilities
+- say: The critical flaw affects Drupal Core versions through 10 dot 6 dot 23, 11 dot 3 dot 23, and 11 dot 4 dot 14 when sites are in unusual or incomplete installation states.
+  caption: The critical flaw affects Drupal Core versions through 10.6.23, 11.3.23, and 11.4.14 when sites are in unusual or incomplete installation states.
+  scene:
+    type: compare
+    left_label: CVSS Score
+    left_text: 9.8 CRITICAL
+    right_label: Exploit Vector
+    right_text: Exposed Drupal Installer
+  highlight:
+  - Drupal Core versions
+  - incomplete installation states
+- say: Apply mitigations per vendor instructions immediately.
+  caption: Apply mitigations per vendor instructions immediately.
+  scene:
+    type: list
+    title: Required Remediation
+    items:
+    - Apply vendor mitigations, Ensure BOD 26-04 compliance, Follow Forensics Triage Requirements
+  highlight:
+  - Apply mitigations per vendor instructions
+- say: Sources are in the description.
+  caption: Sources are in the description.
+  scene:
+    type: cta
+    line: Protect Your Drupal Sites
+    subline: Sources are in the description.
+  highlight:
+  - Sources are in the description.
+description:
+  summary: CISA has added CVE-2026-136716 to its Known Exploited Vulnerabilities catalog following active exploitation targeting Drupal Core.
+  affected: This critical vulnerability affects Drupal Core versions 0.0.0 through 10.6.23, 11.0.0 through 11.3.23, and 11.4.0 through 11.4.14.
+  action: Apply vendor mitigations immediately, follow CISA BOD 26-04 guidance, and ensure adherence to Forensics Triage Requirements.
+  sources:
+  - 'CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog'
+  - 'NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-136716'
+seo:
+  seeds:
+  - Drupal Core vulnerability
+  - CVE-2026-136716
+  - Drupal security update
+  - CISA KEV Drupal
+series: Exploited Today
+record_id: kev:CVE-2026-136716
+auto: true
+instagram_hashtags_rotating: []

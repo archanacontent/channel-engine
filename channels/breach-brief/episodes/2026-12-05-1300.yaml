@@ -1,0 +1,65 @@
+skip: false
+title: 'Exploited now: OSGeo GeoServer CVE-2026-129243'
+beats:
+- say: Attackers are actively exploiting a service level authorization bypass in OSGeo GeoServer.
+  caption: Attackers are actively exploiting a service-level authorization bypass in OSGeo GeoServer.
+  scene:
+    type: headline
+    kicker: Active Exploitation
+    text: OSGeo GeoServer Authorization Bypass Under Attack
+  highlight:
+  - OSGeo GeoServer
+- say: C I S A added C V E 2026, 1 2 9 2 4 3 to the Known Exploited Vulnerabilities catalog on November 27, 2026.
+  caption: CISA added CVE-2026-129243 to the Known Exploited Vulnerabilities catalog on November 27, 2026.
+  scene:
+    type: stat
+    value: CVE-2026-129243
+    label: Exploited Vulnerability
+  highlight:
+  - CVE-2026-129243
+- say: Unauthenticated remote attackers use a prefixed service parameter to bypass role checks. When chained with other flaws, it allows remote code execution.
+  caption: Unauthenticated remote attackers use a prefixed service parameter to bypass role checks. When chained with other flaws, it allows remote code execution.
+  scene:
+    type: flow
+    steps:
+    - title: Prefixed Service Parameter
+      note: Bypasses role checks
+    - title: Chain Flaws
+      note: Achieves remote code execution
+  highlight:
+  - remote code execution
+- say: Apply mitigations per vendor instructions or discontinue use if mitigations are unavailable. Federal agencies must comply by November 30, 2026.
+  caption: Apply mitigations per vendor instructions or discontinue use if mitigations are unavailable. Federal agencies must comply by November 30, 2026.
+  scene:
+    type: list
+    title: Required Actions
+    unit: list
+    items:
+    - items
+  highlight:
+  - Apply mitigations
+- say: Sources are in the description.
+  caption: Sources are in the description.
+  scene:
+    type: cta
+    line: Cybersecurity Daily
+    subline: Sources are in the description.
+  highlight:
+  - description
+description:
+  summary: CISA has added CVE-2026-129243 in OSGeo GeoServer to its Known Exploited Vulnerabilities catalog due to active exploitation. An unauthenticated remote attacker can bypass service-level role checks using a prefixed service parameter, which can lead to unauthenticated remote code execution when chained with other vulnerabilities.
+  affected: OSGeo GeoServer instances exposed to unauthenticated remote access.
+  action: Apply vendor mitigations according to guidance, follow CISA BOD 26-04 instructions, or discontinue product use if mitigations are unavailable.
+  sources:
+  - 'CISA KEV catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog'
+  - 'NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-129243'
+seo:
+  seeds:
+  - GeoServer vulnerability CVE-2026-129243
+  - OSGeo GeoServer authorization bypass
+  - CISA KEV GeoServer patch
+  - GeoServer remote code execution
+series: Exploited Today
+record_id: kev:CVE-2026-129243
+auto: true
+instagram_hashtags_rotating: []

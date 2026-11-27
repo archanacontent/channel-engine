@@ -100,5 +100,17 @@
   "palette": "blue_on_saffron",
   "motion": "rings",
   "hook": "challenge"
+ },
+ {
+  "stem": "2026-12-04-0700",
+  "palette": "green_on_cream",
+  "motion": "grid",
+  "hook": "stat_punch"
+ },
+ {
+  "stem": "2026-12-05-0700",
+  "palette": "cream_on_navy",
+  "motion": "waves",
+  "hook": "challenge"
  }
 ]

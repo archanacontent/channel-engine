@@ -1,0 +1,94 @@
+format: strip
+kind: reel
+tone: dark
+title: Subletting the Spores
+premise: Dev reports a toxic black mold outbreak to Mr. Okafor, who immediately adds the mold to the lease as a co-tenant to split the rent.
+panels:
+- room: living_room
+  shot: medium
+  cast:
+  - who: Dev
+    mood: tired
+    pos: left
+    size: medium
+    holding: phone
+  - who: Mr. Okafor
+    mood: happy
+    pos: right
+    size: medium
+  lines:
+  - who: Dev
+    text: The wall mold is sentient now.
+  - who: Mr. Okafor
+    text: Wonderful news! Growth in the building!
+  focus: Dev shows Mr. Okafor the dark damp wall in the apartment.
+  props: []
+- room: living_room
+  shot: close
+  cast:
+  - who: Mr. Okafor
+    mood: smug
+    pos: center
+    size: large
+    holding: clipboard
+  lines:
+  - who: Mr. Okafor
+    text: It occupies four square feet.
+  - who: Mr. Okafor
+    text: That makes it your new subtenant.
+  focus: Mr. Okafor inspecting his clipboard with absolute delight.
+  props: []
+- room: living_room
+  shot: medium
+  cast:
+  - who: Dev
+    mood: deadpan
+    pos: left
+    size: medium
+  - who: Fern
+    mood: shocked
+    pos: right
+    size: small
+  lines:
+  - who: Dev
+    text: It is breathing spores, sir.
+  - who: Fern
+    text: It has better lungs than me.
+  focus: Dev staring flatly as Fern comments from the windowsill.
+  props: []
+- room: living_room
+  shot: extreme_close
+  cast:
+  - who: Mr. Okafor
+    mood: happy
+    pos: center
+    size: large
+    holding: envelope
+  lines:
+  - who: Mr. Okafor
+    text: I added Fungus to the lease.
+  - who: Mr. Okafor
+    text: Your rent increases by four hundred.
+  fx:
+  - gloom
+  sfx: STAMP
+  props: []
+caption: 'Landlords really see a biohazard and call it a co-signer.
+
+  .
+
+  .
+
+  .
+
+  #comics #cartoon #digitalart #webcomic #comicbooks
+
+  comic | drawing | art | illustration | artist | sketch
+
+  #cartoonist #comicart #comicbook #funnycomics #draw #artwork #officehumor #comicstrip #funny #relatable #artistsoninstagram #comicsofy #doodle #webtoon #viral #viralcomics #explorepage #landlordlogic #adulting #rentproblems #darkhumor'
+description:
+  summary: Landlords really see a biohazard and call it a co-signer.
+series: Pim and Soot Reel
+record_id: strip:reel:1795803219704678985:0
+auto: true
+instagram_hashtags_rotating: []

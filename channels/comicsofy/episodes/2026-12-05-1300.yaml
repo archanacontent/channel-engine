@@ -1,0 +1,94 @@
+format: strip
+kind: image
+tone: cozy
+title: Operational Warmth
+premise: Brenda tries to conduct an official efficiency audit on Biscuit's afternoon nap, only to get completely drawn into the peaceful warmth herself.
+panels:
+- room: outdoors_autumn
+  shot: medium
+  cast:
+  - who: Brenda
+    mood: angry
+    pos: left
+    size: medium
+    holding: clipboard
+  - who: Biscuit
+    mood: sleeping
+    pos: right
+    size: large
+  lines:
+  - who: Brenda
+    text: Biscuit. This sunbath has exceeded your allocated break window.
+  focus: Brenda confronting Biscuit who is happily napping.
+  props: []
+- room: outdoors_autumn
+  shot: close
+  cast:
+  - who: Biscuit
+    mood: happy
+    pos: center
+    size: large
+  lines:
+  - who: Biscuit
+    text: Woof!
+  focus: Biscuit opening one eye and wagging his tail.
+  props: []
+- room: outdoors_autumn
+  shot: wide
+  cast:
+  - who: Brenda
+    mood: neutral
+    pos: left
+    size: medium
+    holding: clipboard
+  - who: Biscuit
+    mood: happy
+    pos: right
+    size: large
+  - who: Pim
+    mood: happy
+    pos: center
+    size: small
+  lines:
+  - who: Pim
+    text: The ground is warm! There is plenty of sunshine for all!
+  props:
+  - name: flowers
+    spot: center
+  sfx: WARM
+- room: outdoors_autumn
+  shot: extreme_close
+  cast:
+  - who: Brenda
+    mood: happy
+    pos: center
+    size: medium
+  lines:
+  - who: Brenda
+    text: I am putting my status as out of office indefinitely.
+  fx:
+  - sparkles
+  narration: 10 minutes later
+  props:
+  - name: clipboard
+    spot: left
+  sfx: SIGH
+caption: 'Efficiency status: maximum cozy.
+
+  .
+
+  .
+
+  .
+
+  #comics #cartoon #digitalart #webcomic #comicbooks
+
+  comic | drawing | art | illustration | artist | sketch
+
+  #cartoonist #comicart #comicbook #funnycomics #draw #artwork #officehumor #comicstrip #funny #relatable #artistsoninstagram #comicsofy #doodle #webtoon #viral #viralcomics #explorepage #wholesomecomics #goldenretriever #workplacehumor #cozyvibes'
+description:
+  summary: 'Efficiency status: maximum cozy.'
+series: Pim and Soot Comic
+record_id: strip:image:1795803053805414157:0
+auto: true
+instagram_hashtags_rotating: []

@@ -1,0 +1,74 @@
+skip: false
+skip_reason: ''
+title: Fixing a real README in under a minute
+beats:
+- say: Vague descriptions stop developers from using your tools.
+  caption: Vague descriptions stop developers from using your tools.
+  highlight:
+  - Vague descriptions
+  scene:
+    type: headline
+    text: Vague descriptions stop developers
+- say: The M C P server list says this list focuses on well-scoped, source-available servers that extend A I workflows with databases, developer tools, browsers, cloud services, and more.
+  caption: The MCP server list says this list focuses on well-scoped, source-available servers that extend AI workflows with databases, developer tools, browsers, cloud services, and more.
+  highlight:
+  - well-scoped
+  - source-available
+  scene:
+    type: compare
+    left_label: Original
+    left_text: This list focuses on well-scoped, source-available servers that extend AI workflows with databases, developer tools, browsers, cloud services, and more.
+    right_label: Rewrite
+    right_text: This list contains source-available MCP servers for databases, developer tools, browsers, and cloud services.
+- say: Remove the filler. Replace well-scoped with specific categories.
+  caption: Remove the filler. Replace well-scoped with specific categories.
+  highlight:
+  - Remove the filler
+  scene:
+    type: list
+    title: The Fix
+    items:
+    - Cut filler words
+    - Use specific categories
+    - Be direct
+    style: check
+- say: Specific lists help users find exactly what they need.
+  caption: Specific lists help users find exactly what they need.
+  highlight:
+  - find exactly
+  scene:
+    type: card
+    title: Result
+    rows:
+    - - Clarity
+      - High
+    - - Onboarding
+      - Faster
+- say: Write for the user, not for the word count.
+  caption: Write for the user, not for the word count.
+  highlight:
+  - Write for the user
+  scene:
+    type: quote
+    text: Write for the user, not for the word count.
+    highlight:
+    - Write for the user
+description:
+  what_was_fixed: I removed vague filler words from the MCP server list README to make the scope immediately clear.
+  rule: Eliminate filler adjectives to improve scanning speed.
+  sources:
+  - 'mcpHQ/awesome-mcp-servers README (MIT): https://github.com/mcpHQ/awesome-mcp-servers'
+  source_link: https://github.com/mcpHQ/awesome-mcp-servers
+  license: MIT
+seo:
+  seeds:
+  - technical writing tips
+  - how to write READMEs
+  - improving documentation
+  hashtags:
+  - '#TechWriting'
+  - '#DeveloperExperience'
+series: Rewrite This
+record_id: repo:mcpHQ/awesome-mcp-servers
+auto: true
+instagram_hashtags_rotating: []

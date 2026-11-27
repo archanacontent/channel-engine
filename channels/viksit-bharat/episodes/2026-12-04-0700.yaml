@@ -1,0 +1,93 @@
+skip: false
+skip_reason: ''
+title: While the world faces mixed outlooks, India hits a four year high in economic growth
+beats:
+- say: India's economic activity growth hit a four year high of 9 per cent in October.
+  caption: India's economic activity growth hit a four year high of 9% in October.
+  highlight:
+  - four year high
+  - 9%
+  scene:
+    type: stat
+    value: 9%
+    label: Economic activity growth (YoY)
+    source: Jefferies
+- say: Jefferies data shows this growth was driven by strong industrial activity and a delayed festive season.
+  caption: Jefferies data shows this growth was driven by strong industrial activity and a delayed festive season.
+  highlight:
+  - strong industrial activity
+  - delayed festive season
+  scene:
+    type: list
+    title: Growth Drivers
+    items:
+    - Strong industrial activity
+    - Delayed festive season
+    style: check
+- say: Electricity demand grew 22 per cent, a 15 year high, while port traffic growth reached a three year high of 19 per cent.
+  caption: Electricity demand grew 22%, a 15 year high, while port traffic growth reached a three year high of 19%.
+  highlight:
+  - Electricity demand grew 22%
+  scene:
+    type: compare
+    left_label: Electricity Demand
+    left_text: 22% YoY growth
+    right_label: Port Traffic
+    right_text: 19% growth
+- say: Bank credit growth reached a nearly 12 year high of 19.5 per cent in October.
+  caption: Bank credit growth reached a nearly 12 year high of 19.5% in October.
+  highlight:
+  - 12 year high
+  - 19.5%
+  scene:
+    type: card
+    title: Banking Sector
+    rows:
+    - - Bank credit growth
+      - 19.5%
+    - - Deposit growth
+      - 17%
+- say: How do you view these shifting economic indicators?
+  caption: How do you view these shifting economic indicators?
+  highlight:
+  - shifting economic indicators
+  scene:
+    type: cta
+    line: How do you view these shifting economic indicators?
+    subline: Follow for tomorrow's figure.
+description:
+  summary: India's economic activity growth reached a four year high of 9% in October.
+  details: A report by Jefferies released on November 24, 2026, shows India's economic activity growth hit 9% year on year in October. This surge was supported by strong industrial activity and a delayed festive season. Key indicators like electricity demand and bank credit growth also saw significant multi year highs.
+  key_figures:
+  - 'Economic activity growth: 9%'
+  - 'Electricity demand growth: 22%'
+  - 'Port traffic growth: 19%'
+  - 'Bank credit growth: 19.5%'
+  sources:
+  - 'Economic Times, 24 Nov 2026: https://economictimes.indiatimes.com/news/economy/indicators/indias-economic-activity-growth-hits-four-year-high-of-9-in-october-jefferies/articleshow/136129512.cms'
+  released: 24 Nov 2026
+  source_link: https://economictimes.indiatimes.com/news/economy/indicators/indias-economic-activity-growth-hits-four-year-high-of-9-in-october-jefferies/articleshow/136129512.cms
+seo:
+  seeds:
+  - India economic growth October 2026
+  - Jefferies economic indicator India
+  - India industrial activity growth
+  - India bank credit growth
+  - India electricity demand growth
+  hashtags:
+  - '#IndiaEconomy'
+  - '#EconomicGrowth'
+  - '#Jefferies'
+  - '#ViksitBharat'
+series: While the World
+record_id: vbnews:https://economictimes.indiatimes.com/news/economy/indicators/indias-economic-activity-growth-hits-four-year-high-of-9-in-october-jefferies/articleshow/136129512.cms
+auto: true
+instagram_hashtags_rotating: []
+released: 24 Nov 2026
+posted: '2026-11-24'
+sector: Newest Release
+source_label: Economic Times, 24 Nov 2026
+look:
+  palette: green_on_cream
+  motion: grid
+  hook: stat_punch

@@ -1,0 +1,72 @@
+skip: false
+title: 'Free workflow: Email campaign orchestration on autopilot'
+beats:
+- say: Most lifecycle marketing workflows break because tracking data and campaign execution live apart.
+  caption: Most lifecycle marketing workflows break because tracking data and campaign execution live apart.
+  scene:
+    type: headline
+    kicker: Lifecycle Pipeline
+    text: Campaign execution separate from tracking tables breaks flows
+  highlight:
+  - campaign execution live apart
+- say: This n eight n library pick connects Noco D B as your customer data base and Brevo for personalized delivery.
+  caption: This n8n library pick connects NocoDB as your customer database and Brevo for personalized delivery.
+  scene:
+    type: stat
+    unit: ''
+    value: 2 Tools Integrated
+    label: Stack Components
+  highlight:
+  - NocoDB as your customer database
+  - Brevo for personalized delivery
+- say: The workflow filters disposable emails, removes duplicate users by user I D, and stages transactions with dedicated status tags.
+  caption: The workflow filters disposable emails, removes duplicate users by user_id, and stages transactions with dedicated status tags.
+  scene:
+    type: list
+    title: Validation Controls
+    unit: ''
+    items:
+    - Key Filters
+  highlight:
+  - filters disposable emails
+  - removes duplicate users
+- say: Every thirty minutes, it selects your active flow template, triggers Brevo sends, and writes delivery status directly to Noco D B.
+  caption: Every 30 minutes, it selects your active flow template, triggers Brevo sends, and writes delivery status directly to NocoDB.
+  scene:
+    type: flow
+    steps:
+    - title: Schedule & Filter
+      note: Runs every 30m
+    - title: Deduplicate
+      note: Matches user_id
+    - title: Brevo Send
+      note: Personalized delivery
+    - title: NocoDB Log
+      note: Updates sent status
+  highlight:
+  - Every 30 minutes
+  - writes delivery status directly
+- say: Growth and C R M teams can import the validated blueprint today. Template link in the description.
+  caption: Growth and CRM teams can import the validated blueprint today. Template link in the description.
+  scene:
+    type: cta
+    line: Import the n8n template
+    subline: Template link in the description.
+  highlight:
+  - Template link in the description.
+description:
+  task_line: Automate email campaign execution and delivery tracking using NocoDB and Brevo.
+  tools: Built using n8n with NocoDB table storage and Brevo email parameters running on a 30-minute schedule.
+  sources:
+  - 'n8n template: https://n8n.io/workflows/7134'
+  template_link: https://n8n.io/workflows/7134
+seo:
+  seeds:
+  - n8n brevo nocodb automation
+  - nocodb email marketing workflow
+  - n8n automated email campaigns
+  - brevo campaign automation n8n
+series: Library Pick
+record_id: n8n:7134
+auto: true
+instagram_hashtags_rotating: []

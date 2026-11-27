@@ -1,0 +1,70 @@
+skip: false
+skip_reason: ''
+title: How big is Saturn, really?
+beats:
+- say: Saturn is nearly ten times wider than Venus.
+  caption: Saturn is nearly ten times wider than Venus.
+  highlight:
+  - nearly ten times wider
+  scene:
+    type: headline
+    text: Saturn vs Venus
+- say: Venus has a diameter of 1 2 1 0 4 kilometers.
+  caption: Venus has a diameter of 12,104 km.
+  highlight: []
+  scene:
+    type: stat
+    value: 12,104
+    label: Venus diameter in km
+- say: Saturn measures 1 2 0 5 3 6 kilometers across.
+  caption: Saturn measures 120,536 km across.
+  highlight: []
+  scene:
+    type: stat
+    value: 120,536
+    label: Saturn diameter in km
+- say: The ratio between these two worlds is 9.96.
+  caption: The ratio between these two worlds is 9.96.
+  highlight: []
+  scene:
+    type: compare
+    left_label: Venus
+    left_text: 12,104 km
+    right_label: Saturn
+    right_text: 120,536 km
+- say: Venus orbits at 1 0 8.2 million kilometers from the Sun, while Saturn sits much further at 1 4 3 2.0 million kilometers.
+  caption: Venus orbits at 108.2 million km from the Sun, while Saturn sits much further at 1,432.0 million km.
+  highlight:
+  - 108.2 million km
+  - 1,432.0 million km
+  scene:
+    type: sizes
+    a_label: Saturn
+    a_value: 120536.0
+    b_label: Venus
+    b_value: 12104.0
+    unit: km
+- say: Figures from NASA's Planetary Fact Sheet.
+  caption: Figures from NASA's Planetary Fact Sheet.
+  highlight:
+  - NASA's Planetary Fact Sheet
+  scene:
+    type: cta
+    line: Explore more space
+    subline: Figures from NASA's Planetary Fact Sheet
+description:
+  explainer: Saturn is nearly ten times the diameter of Venus. This video compares the scale and solar distance of these two planets.
+  sources:
+  - 'NASA Planetary Fact Sheet: https://nssdc.gsfc.nasa.gov/planetary/factsheet/'
+seo:
+  seeds:
+  - Saturn diameter vs Venus
+  - size comparison Saturn Venus
+  - NASA planetary facts
+  hashtags:
+  - '#Space'
+  - '#Saturn'
+series: Scale It
+record_id: scale:SATURN:VENUS
+auto: true
+instagram_hashtags_rotating: []

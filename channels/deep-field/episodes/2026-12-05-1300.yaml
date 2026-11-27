@@ -1,0 +1,69 @@
+skip: false
+title: 'NG-25 Mission: what just happened'
+beats:
+- say: NASA is launching a first of its kind space crop production system on Northrop Grumman's 25th resupply mission.
+  caption: NASA is launching a first-of-its-kind space crop production system on Northrop Grumman's 25th resupply mission.
+  scene:
+    type: headline
+    kicker: NASA Update
+    text: First-of-its-kind space crop system launches on NG-25
+  highlight:
+  - first-of-its-kind space crop production system
+  - Northrop Grumman's 25th resupply mission
+- say: The experiment tests the Ohalo 3 prototype chamber aboard the International Space Station to validate plant water delivery and optimize volume.
+  caption: The experiment tests the Ohalo III prototype chamber aboard the International Space Station to validate plant-water delivery and optimize volume.
+  scene:
+    type: stat
+    value: NG-25 Payload
+    label: Ohalo III Testing
+  highlight:
+  - Ohalo III prototype chamber
+  - validate plant-water delivery
+- say: This crop research aims to support safe food sources for future Moon Base habitats and Mars missions.
+  caption: This crop research aims to support safe food sources for future Moon Base habitats and Mars missions.
+  scene:
+    type: list
+    title: Target Missions
+    items:
+    - Deep Space Exploration
+  highlight:
+  - Moon Base habitats
+  - Mars missions
+- say: The mission also sends lab grown models of the human brain called miBrains to validate a miniature fluid handling system.
+  caption: The mission also sends lab-grown models of the human brain called miBrains to validate a miniature fluid-handling system.
+  scene:
+    type: headline
+    label: Brain Model Research
+    value: miBrains
+    kicker: Brain Model Research
+    text: miBrains
+  highlight:
+  - miBrains
+  - miniature fluid-handling system
+- say: Source in the description.
+  caption: Source in the description.
+  scene:
+    type: cta
+    line: Space Science
+    subline: Source in the description.
+  highlight:
+  - Source in the description
+description:
+  explainer: NASA's NG-25 resupply mission delivers the Ohalo III space crop system and miBrains tissue experiments to the International Space Station. These studies aim to advance long-duration food production and human health tracking for future deep-space exploration.
+  sources:
+  - 'NASA: https://science.nasa.gov/science-research/biological-physical-sciences/nasas-ng-25-mission-to-launch-pioneering-space-crops-research/'
+seo:
+  hashtags:
+  - '#NASA'
+  - '#SpaceScience'
+  - '#NG25'
+  - '#SpaceStation'
+  seeds:
+  - NASA NG 25 space crop experiment
+  - Ohalo III space crop production system
+  - miBrains space station research
+  - NASA biological physical sciences update
+series: Mission Log
+record_id: nasanews:https://science.nasa.gov/science-research/biological-physical-sciences/nasas-ng-25-mission-to-launch-pioneering-space-crops-research/
+auto: true
+instagram_hashtags_rotating: []

@@ -1,0 +1,69 @@
+skip: false
+title: Can you automate competitor deal monitoring?
+beats:
+- say: Can you automate competitor deal monitoring? Yes.
+  caption: Can you automate competitor deal monitoring? Yes.
+  scene:
+    type: headline
+    kicker: Automation
+    text: Can you automate competitor deal monitoring?
+  highlight:
+  - automate competitor deal monitoring
+- say: An n eight n workflow scans competitor websites daily for deals using schedule trigger and HTTP request nodes.
+  caption: An n8n workflow scans competitor websites daily for deals using scheduleTrigger and httpRequest nodes.
+  scene:
+    type: flow
+    steps:
+    - title: Schedule Trigger
+      note: Runs daily
+    - title: HTTP Request
+      note: Scans websites
+    - title: Code Nodes
+      note: Segment & personalize
+    - title: HTTP Request
+      note: Send campaigns
+  highlight:
+  - n8n workflow
+  - scans competitor websites
+- say: Code nodes segment your customer base with A I and generate tailored coupon campaigns based on customer behavior.
+  caption: Code nodes segment your customer base with AI and generate tailored coupon campaigns based on customer behavior.
+  scene:
+    type: list
+    title: AI Segmentation & Offers
+    items:
+    - check
+  highlight:
+  - segment your customer base
+  - tailored coupon campaigns
+- say: The final HTTP request node sends automated email campaigns directly to targeted customers.
+  caption: The final httpRequest node sends automated email campaigns directly to targeted customers.
+  scene:
+    type: stat
+    value: httpRequest
+    label: Email Delivery
+  highlight:
+  - automated email campaigns
+- say: Template link in the description.
+  caption: Template link in the description.
+  scene:
+    type: cta
+    line: Get the Free Template
+    subline: Import directly into n8n
+  highlight:
+  - Template link
+description:
+  task_line: Automate competitor deal tracking and generate personalized email marketing campaigns with AI segmentation.
+  tools: Built using n8n HTTP request, code, and schedule trigger nodes.
+  sources:
+  - 'n8n template: https://n8n.io/workflows/6975'
+  template_link: https://n8n.io/workflows/6975
+seo:
+  seeds:
+  - n8n competitor deal monitoring
+  - n8n automated email marketing
+  - n8n AI segmentation
+  - automate deal tracking n8n!
+series: Can It Be Automated?
+record_id: n8n:6975
+auto: true
+instagram_hashtags_rotating: []

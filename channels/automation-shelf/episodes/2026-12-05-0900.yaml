@@ -1,0 +1,92 @@
+skip: false
+skip_reason: ''
+title: 'Stop doing this by hand: marketing campaign tracking'
+beats:
+- say: Updating CRM records every time a prospect opens an email wastes hours.
+  caption: Updating CRM records every time a prospect opens an email wastes hours.
+  highlight:
+  - Updating CRM records
+  - wastes hours
+  scene:
+    type: headline
+    text: Stop manual CRM updates
+- say: Marketing teams manually log email opens and clicks into Airtable.
+  caption: Marketing teams manually log email opens and clicks into Airtable.
+  highlight:
+  - manually log
+  - email opens and clicks
+  scene:
+    type: compare
+    left_label: Manual Process
+    left_text: Copying email events into Airtable
+    right_label: Automated Process
+    right_text: Webhook updates Airtable instantly
+- say: This n eight n workflow uses a webhook to catch Brevo events.
+  caption: This n8n workflow uses a webhook to catch Brevo events.
+  highlight:
+  - webhook
+  - catch Brevo events
+  scene:
+    type: flow
+    steps:
+    - title: Webhook
+      note: Receives Brevo events
+    - title: Switch
+      note: Identifies event type
+    - title: Airtable
+      note: Updates interaction record
+- say: The system tracks delivered, opened, clicked, and unsubscribe events in real time.
+  caption: The system tracks delivered, opened, clicked, and unsubscribe events in real time.
+  highlight:
+  - tracks delivered
+  - real time
+  scene:
+    type: list
+    title: Tracked Events
+    items:
+    - Delivered
+    - Opened
+    - Clicked
+    - Unsubscribed
+    style: check
+- say: Unsubscribes automatically update the company opt in status to prevent future sends.
+  caption: Unsubscribes automatically update the company opt in status to prevent future sends.
+  highlight:
+  - automatically update
+  - prevent future sends
+  scene:
+    type: card
+    title: Unsubscribe Logic
+    rows:
+    - - Trigger
+      - Unsubscribe event
+    - - Action
+      - Update Company record
+    - - Result
+      - Opt-in set to No
+- say: The free template is linked in the description.
+  caption: The free template is linked in the description.
+  highlight:
+  - free template
+  scene:
+    type: cta
+    line: Get the template
+    subline: Linked in the description
+description:
+  task_line: This template automates marketing campaign tracking by syncing Brevo events with Airtable.
+  tools: n8n, Airtable, Brevo
+  sources:
+  - 'n8n template: https://n8n.io/workflows/7318'
+  template_link: https://n8n.io/workflows/7318
+seo:
+  seeds:
+  - automate marketing campaign tracking
+  - n8n Airtable Brevo workflow
+  - automate email open tracking
+  hashtags:
+  - '#MarketingAutomation'
+  - '#n8n'
+series: Stop Doing This
+record_id: n8n:7318
+auto: true
+instagram_hashtags_rotating: []

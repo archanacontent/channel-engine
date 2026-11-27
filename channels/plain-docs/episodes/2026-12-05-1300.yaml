@@ -1,0 +1,62 @@
+skip: false
+title: 'Writing rule: Write timeless documentation'
+beats:
+- say: Time based words like currently or new quickly break your technical documentation.
+  caption: Time-based words like currently or new quickly break your technical documentation.
+  scene:
+    type: headline
+    text: Time-based words break documentation
+    title: Timeless Docs
+  highlight:
+  - currently or new
+- say: Google's developer documentation guidelines recommend documenting the current state without anchoring content to a point in time.
+  caption: Google's developer documentation guidelines recommend documenting the current state without anchoring content to a point in time.
+  scene:
+    type: stat
+    value: Document current state
+    label: Google Standard
+  highlight:
+  - Google's developer documentation guidelines
+- say: Writing that the emulator now supports filters assumes the reader knows past versions.
+  caption: Writing that the emulator now supports filters assumes the reader knows past versions.
+  scene:
+    type: compare
+    left_label: Dated
+    left_text: The emulator now supports filters.
+    right_label: Better
+    right_text: The emulator supports filters.
+  highlight:
+  - emulator now supports filters
+- say: Drop the word now and state simply that the emulator supports filters.
+  caption: Drop the word now and state simply that the emulator supports filters.
+  scene:
+    type: list
+    style: check
+    title: Benefits
+    items:
+    - Less maintenance
+  highlight:
+  - supports filters
+- say: Timeless documentation reduces maintenance and provides clear information without relying on past context.
+  caption: Timeless documentation reduces maintenance and provides clear information without relying on past context.
+  scene:
+    type: quote
+    text: Focus on factual and enduring descriptions.
+    title: Google Style
+  highlight:
+  - reduces maintenance
+description:
+  what_was_fixed: Removed time-sensitive filler words like now and currently from feature descriptions.
+  rule: Document the current version of a product using factual, timeless language that requires no knowledge of past versions.
+  sources:
+  - 'Google developer documentation: https://developers.google.com/style/timeless-documentation'
+seo:
+  seeds:
+  - timeless technical documentation
+  - google developer style guide
+  - how to write technical docs
+  - technical writing best practices Entirely without buzzwords!
+series: One Rule
+record_id: style:https://developers.google.com/style/timeless-documentation
+auto: true
+instagram_hashtags_rotating: []

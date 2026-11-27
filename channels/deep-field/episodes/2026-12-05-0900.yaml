@@ -1,0 +1,67 @@
+skip: false
+title: 'What you''re looking at: Ubajara Sampling Site on Mars'
+beats:
+- say: Curiosity found hidden iron carbonate on Mars, helping solve a ancient atmospheric mystery.
+  caption: Curiosity found hidden iron carbonate on Mars, helping solve an ancient atmospheric mystery.
+  scene:
+    type: headline
+    kicker: Mars Discovery
+    text: Curiosity finds hidden iron carbonate on Mars
+  highlight:
+  - hidden iron carbonate
+  - ancient atmospheric mystery
+- say: This 360 degree panorama shows the Ubajara sampling site captured on April 30th, 2023.
+  caption: This 360-degree panorama shows the Ubajara sampling site captured on April 30, 2023.
+  scene:
+    type: image
+    credit: NASA/JPL-Caltech/MSSS
+  highlight:
+  - 360-degree panorama
+  - Ubajara sampling site
+- say: Instruments onboard discovered siderite, an iron carbonate mineral, inside pulverized rock samples.
+  caption: Instruments onboard discovered siderite, an iron carbonate mineral, inside pulverized rock samples.
+  scene:
+    type: stat
+    value: Siderite discovered
+    label: CheMin Instrument Finding
+  highlight:
+  - discovered siderite
+  - pulverized rock samples
+- say: Carbonates were expected from Mars' ancient liquid water and thick atmosphere, but satellites missed them.
+  caption: Carbonates were expected from Mars' ancient liquid water and thick atmosphere, but satellites missed them.
+  scene:
+    type: compare
+    left_label: Expected
+    left_text: Abundant carbonates from liquid water reaction
+    right_label: Observed
+    right_text: Satellites missed carbonate signatures
+  highlight:
+  - expected from Mars' ancient liquid water
+  - satellites missed them
+- say: Other minerals in sulfate rich areas may mask these carbonates from satellite near infrared analysis.
+  caption: Other minerals in sulfate-rich areas may mask these carbonates from satellite near-infrared analysis.
+  scene:
+    type: headline
+    value: Sulfate-Rich AreasConstraining Ancient Mars Carbonates. Image credit in the description.
+    kicker: ''
+    text: Sulfate-Rich AreasConstraining Ancient Mars Carbonates. Image credit in the description.
+  highlight: []
+description:
+  explainer: NASA's Curiosity Mars rover captured this 360-degree panorama of the Ubajara sampling site, where it discovered siderite hidden in sulfate-rich rocks. This iron carbonate mineral helps explain where the carbon dioxide from Mars' ancient, thick atmosphere went when liquid water flowed across its surface.
+  sources:
+  - 'NASA Image and Video Library: https://images.nasa.gov/details/PIA26554'
+  credit: NASA
+seo:
+  seeds:
+  - Curiosity Mars rover panorama
+  - Ubajara sampling site Mars
+  - siderite discovery Mars
+  - Mars ancient atmosphere carbon dioxide
+  - NASA Curiosity CheMin instrument siderite
+series: Look Closer
+record_id: nasa:PIA26554
+auto: true
+instagram_hashtags_rotating: []
+media:
+  image: /home/runner/work/channel-engine/channel-engine/collected/deep-field/media/2026-12-05-0900.jpg
+  credit: NASA

@@ -1,0 +1,110 @@
+skip: false
+title: Fixing a real README in under a minute
+beats:
+- say: Your README should state the reason for an action before the action itself.
+  caption: Your README should state the reason for an action before the action itself.
+  scene:
+    type: headline
+    kicker: README Clarity
+    text: Put the reason before the action
+  highlight: []
+- say: This open source security project explains why to use its IP list with backwards logic.
+  caption: This open-source security project explains why to use its IP list with backwards logic.
+  scene:
+    type: compare
+    left_label: Original
+    left_text: Use them to check that a request claiming to be Meta's crawler (`facebookexternalhit`, `meta-externalagent`) really comes from Meta, since faked User-Agents are common.
+    right_label: Rewrite
+    right_text: Because faked User-Agents are common, use these lists to verify whether crawler requests actually originate from Meta networks.
+  highlight:
+  - backwards logic
+- say: The original buries the main problem at the end in an afterthought.
+  caption: The original buries the main problem at the end in an afterthought.
+  scene:
+    type: stat
+    value: 2 edits made
+    label: What Changed
+  highlight:
+  - buries the main problem
+- say: Leading with the threat clarifies why the engineer needs the verification step immediately.
+  caption: Leading with the threat clarifies why the engineer needs the verification step immediately.
+  scene:
+    type: list
+    style: bullet
+    title: Edit Breakdown
+    items:
+    - 1. Lead with the cause. 2. Clarify the action.
+  highlight:
+  - Leading with the threat
+  - verification step
+- say: Give readers the motive before asking them to perform the task.
+  caption: Give readers the motive before asking them to perform the task.
+  scene:
+    type: quote
+    text: Give readers the motive before asking them to perform the task.
+    value: Motive precedes action
+  highlight:
+  - motive before asking
+description:
+  what_was_fixed: Rewrote the crawler verification instruction in the FacebookIPLists README to state the core problem first.
+  rule: State the motive or condition before the action so readers understand why they are doing it.
+  sources:
+  - 'SecOps-Institute/FacebookIPLists README (MIT): https://github.com/SecOps-Institute/FacebookIPLists'
+  source_link: https://github.com/SecOps-Institute/FacebookIPLists
+  license: MIT
+seo:
+  seeds:
+  - technical writing readme
+  - how to write documentation
+  - facebook iplists readme
+  - dev docs tips
+  - writing clear documentation
+  - technical writing for beginners
+  - open source documentation
+  - improve developer docs
+  - readme best practices
+  - secops institute facebook iplists
+  - how to document apis and tools
+  - plain language technical writing
+  - software documentation tutorial
+  - rewrite technical docs
+  - clear technical documentation
+  - writing developer guides
+  - api docs clarity
+  - engineering writing style
+  - developer documentation help
+  - better readme files
+  - doc rewrites for developers
+  - technical communication tips
+  - concise technical writing
+  - software engineering docs
+  - documenting security tools
+  - open source readme review
+  - technical writing tutorial
+  - clean documentation habits
+  - how to improve readmes
+  - technical writer editing guide
+  - developer docs rewriting
+  - effective readme guides
+  - editing software documentation
+  - dev docs walkthrough
+  - technical writer best practices
+  - writing guides for developers
+  - editing readmes for clarity
+  - clear software guides
+  - software docs rewrite
+  - writing docs people read
+  - how to write better readmes
+  - fixing developer docs
+  - documentation rules for devs
+  - plain english technical writing
+  - security tool docs
+  - technical documentation review
+  - writing clear readme files
+  - open source documentation guide
+  - devrel technical writing
+  - software readme rewrite tips
+series: Rewrite This
+record_id: repo:SecOps-Institute/FacebookIPLists
+auto: true
+instagram_hashtags_rotating: []
