@@ -14102,12 +14102,14 @@
    "duration_s": 29.48
   },
   "srt": "",
-  "status": "ready",
+  "status": "published",
   "file": "2026-11-27-1800.mp4",
   "platform": "instagram",
   "auto_approve": true,
   "posted": null,
-  "release": "shorts-44576417534"
+  "release": "shorts-44576417534",
+  "ig_media_id": "17916439893571797",
+  "published_at": "2026-11-27T23:01:56.122183+00:00"
  },
  {
   "slug": "deep-field",
